@@ -1,5 +1,5 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML><HEAD><TITLE>Resources for Computing Scholars</TITLE>
+<HTML><HEAD><TITLE>Study Materials for CS2 Makeup Exams</TITLE>
 <META http-equiv=Content-Type content="text/html; charset=windows-1252"><LINK 
 href="CS 6364 Schedule_files/cs6364.css" type=text/css rel=stylesheet>
 <META content="MSHTML 6.00.2737.800" name=GENERATOR></HEAD>
@@ -32,26 +32,41 @@ href="CS 6364 Schedule_files/cs6364.css" type=text/css rel=stylesheet>
 
 <p class=MsoNormal align=center style='text-align:center'><img width=800
   height=2 id="_x0000_i1026" src=colorsep.gif alt=Divider></p>
-<h1 style="text-align: center;">Resources for Computing Scholars</h1>
+<h1 style="text-align: center;">CS^2 Makeup Exams</h1>
 <p class=MsoNormal align=center style='text-align:center'><img width=800
   height=2 id="_x0000_i1026" src=colorsep.gif alt=Divider></p>
 
 <BR>
 
-<H2>Links</H2>
+<H2>What are the CS^2 Makeup Exams?</H2>
 
-<H3>Fall 2023</H3>
-<ul>
-<li><a href="docs/NewGradReqf23.pdf">New CS^2 Graduation Requirements (09/01/23)</a>
-</ul>
+If you've already taken one or more of CS 2305, CS 3305, and CS 2340 as non-honors classes, you may want to take the corresponding bridge exam(s). By passing a bridge exam, you will be able to count the three hours for that subject towards the 30-hour requirement to graduate with CS^2.
 
-<H3>Spring 2023</H3>
+If you plan on taking one or more of the bridge exams in March/April 2023, complete the following form no later than Monday, February 13. It will last 60 to 90 minute and will begin at 5 p.m. on the scheduled date. The exam location is yet to be determined.
+
+Note: You are not eligible for taking the bridge exam for a course if you failed it before.
+
+<H2>Makeup Exam Dates</H2>
+
+In Fall 2023, the CS^2 makeup exams will be offered on the following dates:
 <UL>
-<li><A href="https://docs.google.com/forms/d/1bcCLkQ4jpXCeVK7_vJ9rLSpDPGo1KzKvgA0d2MpHcx4/prefill">Graduating with CS^2 honors in Spring 2023</a>
-<li><a href="https://docs.google.com/forms/d/1h75lw7YJk8t1wI20C_JSjVc-c2_mCpcqjLmydbnmF2Q/prefill">Makeup Exams for CS^2 Bridge Students (Spring 2023)</a>
-<li><a href="https://docs.google.com/forms/d/1NX-w1L6KZLtxm8bfowxpd2Qm4P2yyaJTV6R2UeRoa8E/prefill">Bridge Entrance Exams (Spring 2023)</a>
-<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfKZvoeC3qYpBwxsaXX3HZh94yCc833TAaXEMUeUziju1m02g/viewform">Questionnaire</a>
+<li>CS 2305: Friday, December 1, 5:00-6:30pm
+<li>CS 3305: Friday, November 3, 5:00-6:30pm
+<li>CS 2340: Friday, November 10, 5:00-6:15pm
+</UL>
+
+The location of the exams is TBD.
+
+<H2>Topics for Makeup Exams</H2>
+
+<UL>
+<li>CS 2305: Chapter 2 (The Well Ordering Principle) of the <a href="docs/MITDiscreteMathText.pdf">the MIT Discrete Math text</a>
+<li>CS 3305: Chapters 12 (Planar Graphs) and 15 (Generating Functions) of the <a href="docs/MITDiscreteMathText.pdf">the MIT Discrete Math text</a>
+<li>CS 2340: Study these two handouts: <a href="docs/Memory.pdf">Handout 1</a>, <a href="docs/MoreOnCaches.pdf">Handout 2</a>
 </ul>
+
+All exams will be closed book and closed notes. You will be allowed to bring a non-graphing calculator with you for the CS 3305 and CS 2340 makeup exams.
+
 
 </CENTER></BODY></HTML>
 
