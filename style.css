@@ -1,0 +1,15 @@
+body {
+    font-family: "candara";
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+td.conf {
+    color: #888;
+}
