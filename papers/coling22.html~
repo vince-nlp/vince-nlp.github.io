@@ -1,0 +1,44 @@
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<title>End-to-End Neural Bridging Resolution</title>
+</head>
+<body>
+
+<h3>End-to-End Neural Bridging Resolution</h3>
+Hideo Kobayashi and Vincent Ng.
+<br>
+<i>Proceedings of the 29th International Conference on Computational Linguistics</i>, <!-- pp. 3708-3721, --> 2022. 
+
+
+<p>Click here for the 
+<!-- <a href="acl17.ps">PostScript</a> or  -->
+<!-- <a href="https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/download/9925/9528"> -->
+<a href="coling22.pdf">PDF</a> version. 
+<!-- The talk slides are available <a href="../talks.html#acl17">here</a>. -->
+
+<p>
+<h3>Abstract</h3>
+
+The state of bridging resolution research is rather unsatisfactory: not only are state-of-the-art resolvers evaluated in unrealistic settings, but the neural models underlying these resolvers are weaker than those used for entity coreference resolution. In light of these problems, we evaluate bridging resolvers in an end-to-end setting, strengthen them with better encoders, and attempt to gain a better understanding of them via perturbation experiments and a manual analysis of their outputs.
+
+<p>
+<h3>BibTeX entry</h3>
+
+<pre>
+@InProceedings{Kobayashi+etal:22b,
+  author = {Hideo Kobayashi and Yufang Hou and Vincent Ng},
+  title = {End-to-End Neural Bridging Resolution},
+  booktitle = {Proceedings of 29th International Conference on Computational Linguistics},
+<!--  pages = {3708--3721}, -->
+  year = 2022}
+</pre>
+<br>
+
+<!--
+<p align="center"><img src="emnlp13-poster.jpg" alt="poster" width="100%";></p>
+-->
+<hr>
+</body>
+
+</html>
