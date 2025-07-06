@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<title>FAIR: Flow Type-Aware Pre-Training of Compiler Intermediate Representations</title>
+</head>
+<body>
+
+<h3>FAIR: Flow Type-Aware Pre-Training of Compiler Intermediate Representations</h3>
+Changan Niu, Chuanyi Li, Vincent Ng, David Lo, and Bin Luo.
+<br>
+<i>Proceedings of the 46th IEEE/ACM International Conference on Software Engineering (Research Track)</i>, pp. 33:1-33:12, 2024. 
+
+
+<p>Click here for the <a href="icse24-cir.pdf">PDF</a> version. 
+<!-- The talk slides are available <a href="../talks.html#acl17">here</a>. -->
+
+<p>
+<h3>Abstract</h3>
+
+While the majority of existing pre-trained models from code learn source code features such as code tokens and abstract syntax trees, there are some other works that focus on learning from compiler intermediate representations (IRs). Existing IR-based models typically utilize IR features such as instructions, control and data flow graphs (CDFGs), call graphs, etc. However, these methods confuse variable nodes and instruction nodes in a CDFG and fail to distinguish different types of flows, and the neural networks they use fail to capture long-distance dependencies and have over-smoothing and over-squashing problems. To address these weaknesses, we propose FAIR, a Flow type-Aware pre-trained model for IR that involves employing (1) a novel input representation of IR programs; (2) Graph Transformer to address over-smoothing, over-squashing and long-dependencies problems; and (3) five pre-training tasks that we specifically propose to enable FAIR to learn the semantics of IR tokens, flow type information, and the overall representation of IR. Experimental results show that FAIR can achieve state-of-the-art results on four code-related downstream tasks.
+
+<p>
+<h3>BibTeX entry</h3>
+
+<pre>
+@InProceedings{Niu+etal:24a,
+  author = {Changan Niu and Chuanyi Li and Vincent Ng and David Lo and Bin Luo},
+  title = {{FAIR}: Flow Type-Aware Pre-Training of Compiler Intermediate Representations},
+  booktitle = {Proceedings of the 46th IEEE/ACM International Conference on Software Engineering (Research Track)},
+  pages = {33:1--33:12},
+  year = 2024}
+</pre>
+<br>
+
+<!--
+<p align="center"><img src="emnlp13-poster.jpg" alt="poster" width="100%";></p>
+-->
+<hr>
+</body>
+
+</html>
