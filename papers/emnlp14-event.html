@@ -1,0 +1,42 @@
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<title>Relieving the Computational Bottleneck: Joint Inference for Event Extraction with High-Dimensional Features</title>
+</head>
+<body>
+
+<h3>Relieving the Computational Bottleneck: Joint Inference for Event Extraction with High-Dimensional Features</h3>
+Deepak Venugopal, Chen Chen, Vibhav Gogate, and Vincent Ng.
+<br>
+<i>Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing</i>, pp. 831-843, 2014. 
+
+
+<p>Click here for the <!-- <a href="ijcnlp13-coref.ps">PostScript</a> or -->
+<a href="emnlp14-event.pdf">PDF</a> version.
+The talk slides are available <a href="../talks.html#emnlp14-event">here</a>. 
+
+<p>
+<h3>Abstract</h3>
+
+Several state-of-the-art event extraction systems employ models based on Support Vector Machines (SVMs) in a pipeline architecture, which fails to exploit the joint dependencies that typically exist among events and arguments. While there have been attempts to overcome this limitation using Markov Logic Networks (MLNs), it remains challenging to perform joint inference in MLNs when the model encodes many high-dimensional sophisticated features such as those essential for event extraction. In this paper, we propose a new model for event extraction that combines the power of MLNs and SVMs, dwarfing their limitations. The key idea is to reliably learn and process high-dimensional features using SVMs; encode the output of SVMs as low-dimensional, soft formulas in MLNs; and use the superior joint inferencing power of MLNs to enforce joint consistency constraints over the soft formulas. We evaluate our approach for the task of extracting biomedical events on the BioNLP 2013, 2011 and 2009 Genia shared task datasets. Our approach yields the best F1 score to date on the BioNLP'13 (53.61) and BioNLP'11 (58.07) datasets and the second-best F1 score to date on the BioNLP'09 dataset (58.16).
+
+<p>
+<h3>BibTeX entry</h3>
+
+<pre>
+@InProceedings{Venugopal+al:14a,
+  author = {Deepak Venugopal and Chen Chen and Vibhav Gogate and Vincent Ng},
+  title = {Relieving the Computational Bottleneck: Joint Inference for Event Extraction with High-Dimensional Features},
+  booktitle = {Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing},
+  pages = {831--843}, 
+  year = 2014}
+</pre>
+<br>
+
+
+<p align="center"><img src="emnlp14-event-biomln.jpg" alt="poster" width="50%";></p>
+
+<hr>
+</body>
+
+</html>

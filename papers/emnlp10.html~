@@ -1,0 +1,60 @@
+<HTML>
+<HEAD>
+<TITLE>Modeling Organization in Student Essays</TITLE>
+</HEAD>
+<BODY>
+<H3>Modeling Organization in Student Essays</H3>
+Isaac Persing, Alan Davis, and Vincent Ng.
+<br>
+<i>Proceedings of the 2010 Conference on Empirical Methods in Natural Language Processing</i>, pp. 229-239, 2010.
+<P>
+
+
+Click here for the
+<a href="emnlp10.ps">PostScript</a> or <a href="emnlp10.pdf">PDF</a>
+version. 
+The talk slides are available <a href="../talks.html#emnlp10">here</a>.
+
+<H3>Abstract</H3>
+
+Automated essay scoring is one of the most
+important educational applications of natural
+language processing.  Recently, researchers
+have begun exploring methods of scoring essays 
+with respect to particular dimensions of 
+quality such as coherence, technical errors, 
+and relevance to prompt, but there is 
+relatively little work on modeling 
+organization.  We present a new annotated 
+corpus and propose heuristic-based and learning-based
+approaches to scoring essays along the organization dimension, 
+utilizing techniques that involve sequence alignment, alignment 
+kernels, and string kernels.
+
+<P>
+
+<H3>Dataset</H3> 
+The human annotation used in this paper is available from 
+<a href="http://www.hlt.utdallas.edu/~alan/ICLE/">this</a> page.
+
+<P>
+
+<H3>BibTeX entry</H3>
+
+
+<pre>
+@InProceedings{Persing+Davis+Ng:10a,
+  author = {Isaac Persing and Alan Davis and Vincent Ng},
+  title = {Modeling Organization in Student Essays},
+  booktitle = {Proceedings of the 2010 Conference on Empirical Methods in Natural Language Processing},
+  pages = {229--239},
+  year = 2010
+}
+</pre>
+
+<!--
+<p align="center"><img src="emnlp10-rubric.jpg" alt="poster" width="35%";></p>
+-->
+<HR> 
+</BODY>
+</HTML>

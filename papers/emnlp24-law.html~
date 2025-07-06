@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<title>Automated Essay Scoring: A Reflection on the State of the Art</title>
+</head>
+<body>
+
+<h3>Automated Essay Scoring: A Reflection on the State of the Art</h3>
+Shengjie Li and Vincent Ng.
+<br>
+<i>Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing</i>, <!-- pp. 8114-8122, --> 2024. 
+
+
+<p>Click here for the <a href="emnlp24-essay.pdf">PDF</a> version. 
+<!-- The talk slides are available <a href="../talks.html#acl17">here</a>. -->
+
+<p>
+<h3>Abstract</h3>
+
+While steady progress has been made on the task of automated essay scoring (AES) in the past decade, much of the recent work in this area has focused on developing models that beat existing models on a standard evaluation dataset. While improving performance numbers remains an important goal in the short term, such a focus is not necessarily beneficial for the long-term development of the field. We reflect on the state of the art in AES research, discussing issues that we believe can encourage researchers to think bigger than improving performance numbers, with the ultimate goal of triggering discussion among AES researchers on how we should move forward.
+
+<p>
+<h3>BibTeX entry</h3>
+
+<pre>
+@InProceedings{Li+Ng:24d,
+  author = {Shengjie Li and Vincent Ng},
+  title = {Automated Essay Scoring: A Reflection on the State of the Art},
+  booktitle = {Proceedings of the 2024 Empirical Methods in Natural Language Processing},
+<!--  pages = {8114--8122}, -->
+  year = 2024}
+</pre>
+<br>
+
+<!--
+<p align="center"><img src="emnlp13-poster.jpg" alt="poster" width="100%";></p>
+-->
+<hr>
+</body>
+
+</html>

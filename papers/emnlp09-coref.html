@@ -1,0 +1,66 @@
+<HTML>
+<HEAD>
+<TITLE>Supervised Models for Coreference Resolution</TITLE>
+</HEAD>
+<BODY>
+<H3>Supervised Models for Coreference Resolution</H3>
+Altaf Rahman and Vincent Ng.
+<br>
+<i>Proceedings of the 2009 Conference on Empirical Methods in Natural Language Processing</i>, pp. 968-977, 2009.
+<P>
+
+
+Click here for the
+<a href="emnlp09-coref.ps">PostScript</a> or <a href="emnlp09-coref.pdf">PDF</a>
+version. 
+The talk slides are available <a href="../talks.html#emnlp09-coref">here</a>.
+
+<H3>Abstract</H3>
+
+  Traditional learning-based coreference resolvers operate by training a mention-pair
+  classifier for determining whether two mentions are coreferent or not.
+  Two independent lines of recent research have attempted to improve these
+  mention-pair classifiers, one by learning a mention-ranking model
+  to rank preceding mentions for a given anaphor,
+  and the other by training an entity-mention classifier to 
+  determine 
+  whether a preceding cluster is coreferent with a given mention.
+  We propose a cluster-ranking approach to coreference resolution that
+  combines the strengths of mention rankers and entity-mention models.
+  We additionally show how our cluster-ranking framework naturally allows 
+  anaphoricity determination to be learned jointly with coreference 
+  resolution.
+  Experimental results on the ACE data sets demonstrate its superior
+  performance to competing approaches.
+
+<P>
+
+
+<H3>Software</H3> 
+CherryPicker, a coreference tool that implements the cluster-ranking
+model described in this paper, is available from 
+<a href="http://www.hlt.utdallas.edu/~altaf/cherrypicker.html">this</a> page.
+
+<P>
+
+<H3>Train-test split</H3>
+Here are the lists of names of the files from the English portion of the
+ACE 2005 Multilingual Training Corpus we used for <a href="train-ace2005.txt">training</a> and <a href="test-ace2005.txt">testing</a>.
+
+<P>
+
+<H3>BibTeX entry</H3>
+
+<pre>
+@InProceedings{Rahman+Ng:09a,
+  author = {Altaf Rahman and Vincent Ng},
+  title = {Supervised Models for Coreference Resolution},
+  booktitle = {Proceedings of the 2009 Conference on Empirical Methods in Natural Language Processing},
+  pages = {968--977},
+  year = 2009
+}
+</pre>
+
+<HR> 
+</BODY>
+</HTML>
