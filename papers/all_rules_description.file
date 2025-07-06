@@ -1,0 +1,3910 @@
+//-------------------------------------------
+Entity attribute representation:
+For events - attribute1 -> Class, attribute2 -> Tense, attribute3 > Aspect
+For timex3s - attribute1 -> type, attribute2 -> value
+Function Descriptions:
+closelyFollowing - entity1 and entity2 are within a token distance of 10 tokens
+hasWordInContext(entity_context, word, textFile) - checks for word within a entity_context of 5 words
+hasNoVerbInContext(entity_context) - checks for verb within entity_context of 5 words
+dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "type") - checks for type(entity1=governor, entity2=dependent)
+dependencyTypeEntity2Entity1(entity1, entity2, governorMap, "type") - checks for type(entity2=governor, entity1=dependent)
+isRoleEntity(entity1.roleType_argument_list, entity2.b, entity2.e) - checks for entity2 in the verb entity1's arguments, where the type of the argument is indicated by the name of the list
+isRoleEntity(entity2.roleType_argument_list, entity1.b, entity1.e) - checks for entity1 in the verb entity2's arguments, where the type of the argument is indicated by the name of the list
+discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, relationType) - checks for entity1 and entity2 in an implicit discourse relation of type relationType where entity1 is in argument1 and entity2 is in argument2
+discourseTypeEntity2Entity1(entity1, entity2, pdtb_implicit_map, relationType) - checks for entity1 and entity2 in an implicit discourse relation of type relationType where entity2 is in argument1 and entity1 is in argument2
+discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, relationType) - checks for entity1 and entity2 in an explicit discourse relation of type relationType where entity1 is in argument1 and entity2 is in argument2
+discourseTypeEntity2Entity1(entity1, entity2, pdtb_explicit_map, relationType) - checks for entity1 and entity2 in an explicit discourse relation of type relationType where entity2 is in argument1 and entity1 is in argument2
+----------------------------------------------------------------------
+------------------------------------------------------------------------
+CATEGORIES
+
+=============
+Word Features
+==============
+
+Rule1: 32 out of 139
+        if (!entity1.attribute2.equals("FUTURE") || entity2.attribute2.equals("FUTURE"))
+            return null;
+        return "AFTER";
+
+Rule2: 2 out of 4
+        if (!are_event_occurrence_istate(entity1, entity2) || 
+                entity1.attribute2.equals("PAST") ||
+                !entity2.attribute2.equals("PAST") ||
+                !hasNoVerbInContext(entity2.context_pos_precede))
+            return null;
+        return "AFTER";
+
+Rule3: 3 out of 12
+        if (!hasWordInContext(entity1.context_token_precede, "before", txt) ||
+                entity2.attribute2.equals("FUTURE") || !noInBetweenVerb)
+            return null;
+        return "AFTER";
+
+Rule4: 2 out of 4
+        if (!are_noun_events(entity1, entity2) || 
+                !txt.substring(entity1.e, entity2.b).toLowerCase().contains("followed") ||
+                !closelyFollowing)
+            return null;
+        return "AFTER";
+
+Rule5: 113 out of 764
+        if (!(entity2.attribute2.equals("PRESENT") || entity2.attribute2.equals("PRESPART")) ||
+                hasWordInContext(entity1.context_token_precede, "before", txt))
+            return null;
+        return "AFTER";
+
+Rule6: 29 out of 47
+        if (!entity1.attribute1.equals(entity2.attribute1) || !entity1.attribute2.equals(entity2.attribute2) ||
+            !txt.substring(entity1.e, entity2.b).contains("from") || entity1.sID != entity2.sID)
+            return null;
+        return "AFTER";
+
+Rule7: 130 out of 245
+        if (!txt.substring(entity1.e, entity2.b).contains("from") || entity1.sID != entity2.sID)
+            return null;
+        return "AFTER";
+
+Rule8: 3 out of 6
+        if (!are_event_occurrences(entity1, entity2) || entity1.attribute2.equals("PAST") ||
+                !entity2.attribute2.equals("PRESENT") || !txt.substring(entity1.e, entity2.b).toLowerCase().matches(".+as.*as.+") ||
+                entity1.sID != entity2.sID)
+            return null;
+        return "AFTER";
+
+Rule9: 1 out of 3
+        if (!(hasWordInContext(entity1.context_token_follow, "today", txt) || hasWordInContext(entity2.context_token_precede, "today", txt)) ||
+                !entityTenseAspect(entity2, "PAST", "PERFECTIVE") || entity1.sID != entity2.sID)
+            return null;
+        return "AFTER";
+
+Rule10: 22 out of 41
+        if (entity1.attribute2.contains("PRES") || entity1.attribute2.equals("FUTURE") || 
+                !entityTenseAspect(entity2, "PAST", "PERFECTIVE") || 
+                entity2.sID - entity1.sID > 3)
+            return null;
+        return "AFTER";
+
+Rule11: 5 out of 8
+        if (!are_event_occurrences(entity1, entity2) || 
+                !hasWordInContext(entity2.context_token_precede, "if", txt) ||
+                !closelyFollowing)
+            return null;
+        return "AFTER";
+
+Rule12: 7 out of 10
+        if (!are_event_occurrences(entity1, entity2) || 
+                !hasWordInContext(entity2.context_token_precede, "if", txt) ||
+                entity1.sID != entity2.sID)
+            return null;
+        return "AFTER";
+
+Rule13: 3 out of 5
+        if (!are_events(entity1, entity2) || 
+                !hasWordInContext(entity1.context_token_follow, "since", txt) ||
+                !hasWordInContext(entity2.context_token_precede, "since", txt) ||
+                entity1.sID != entity2.sID)
+            return null;
+        return "AFTER";
+
+Rule14: 2 out of 2
+        if (!are_events(entity1, entity2) ||
+                !hasWordInContext(entity1.context_token_follow, "once", txt) ||
+                !hasWordInContext(entity2.context_token_precede, "once", txt) ||
+                entity1.sID != entity2.sID)
+            return null;
+        return "AFTER";   
+
+Rule15: 7 out of 7
+        if (!are_event_occurrences(entity1, entity2) || !sameTense(entity1, entity2) ||
+                !hasWordInContext(entity2.context_token_precede, "after", txt) ||
+                !closelyFollowing)
+            return null;
+        return "AFTER";
+
+Rule16: 7 out of 8
+        if (!are_event_occurrences(entity1, entity2) || !sameTense(entity1, entity2) ||
+                !hasWordInContext(entity2.context_token_precede, "after", txt) ||
+                entity1.sID != entity2.sID)
+            return null;
+        return "AFTER";
+
+Rule17: 1 out of 2
+        if (!are_event_occurrences(entity1, entity2) || !entity1.attribute2.equals("FUTURE") ||
+                !entityTenseAspect(entity2, "PAST", "PERFECTIVE") || 
+                !hasWordInContext(entity2.context_token_precede, "after", txt))
+            return null;
+        return "AFTER";
+
+Rule18: 1 out of 2
+        if (!are_event_occurrences(entity1, entity2) || !entity1.attribute2.equals("FUTURE") ||
+                !entityTenseAspect(entity2, "PAST", "PERFECTIVE") || 
+                !hasWordInContext(entity2.context_token_precede, "after", txt) ||
+                entity1.sID != entity2.sID)
+            return null;
+        return "AFTER";
+
+Rule19: 13 out of 35
+        if (!are_events(entity1, entity2) || !hasWordInContext(entity2.context_token_precede, "when", txt) ||
+                entity1.sID != entity2.sID)
+            return null;
+        return "AFTER";
+
+Rule20: 4 out of 19
+        if (!are_event_occurrences(entity1, entity2) || !entity1.attribute2.equals("INFINITIVE") ||
+            !ends_with_ing(entity2.string) || !closelyFollowing)
+            return null;
+        return "AFTER";
+
+Rule21: 6 out of 12
+        if (!are_event_occurrences(entity1, entity2) || !entity1.attribute2.equals("PAST") || 
+                !entity1.attribute3.equals("PERFECTIVE") || !(entity2.attribute2.equals("PASTPART") ||
+                entity2.attribute2.equals("NONE")) || entity1.sID != entity2.sID)
+            return null;
+        return "AFTER";
+
+Rule22: 56 out of 117
+        if (!are_events(entity1, entity2) || !sameTense(entity1, entity2) || !entity1.attribute2.equals("NONE") ||
+                !isPastTenseVerb(entity2.govern_verb_pos) ||
+                !closelyFollowing)
+            return null;
+        return "AFTER";
+
+Rule23: 71 out of 157
+        if (!are_events(entity1, entity2) || !sameTense(entity1, entity2) || !entity1.attribute2.equals("NONE") ||
+                !isPastTenseVerb(entity2.govern_verb_pos) ||
+                entity1.sID != entity2.sID)
+            return null;
+        return "AFTER";
+
+Rule24: 1 out of 3
+        if (!entity1.attribute2.equals("INFINITIVE") || !entity2.pos.contains("NN") ||
+                !hasWordInContext(entity2.context_token_precede, "with", txt) ||
+                !hasWordInContext(entity1.context_token_follow, entity2.string, txt))
+            return null;
+        return "AFTER";
+
+Rule25: 2 out of 2
+        if (!ends_with_ing(entity1.string) || !hasWordInContext(entity1.context_token_precede, "for", txt) ||
+                !entity2.attribute1.equals("STATE") || !hasWordInContext(entity1.context_token_follow, entity2.string, txt))
+            return null;
+        return "AFTER";
+
+Rule26: 31 out of 117
+        if (!ends_with_ing(entity1.string) || 
+                !(entity2.attribute2.equals("NONE") || entity2.attribute2.equals("PRESENT")) ||
+                !closelyFollowing)
+            return null;
+        return "AFTER";
+
+Rule27: 1 out of 10
+        if (!are_events(entity1, entity2) || !entity2.attribute2.equals("INFINITIVE") || !entity1.pos.contains("NN") ||
+                entity1.attribute2.contains("PAST") || !isPresentTenseVerb(entity1.govern_verb_pos) ||
+                entity1.sID != entity2.sID)
+            return null;
+        return "AFTER";
+
+Rule28: 1 out of 11
+        if (!are_verb_events(entity1, entity2) || !sameTense(entity1, entity2) ||
+                !entity1.attribute2.equals("PRESENT") || !isPastTenseVerb(entity2.pos) ||
+                !closelyFollowing)
+            return null;
+        return "AFTER";
+
+Rule29: 1 out of 12
+        if (!are_verb_events(entity1, entity2) || !sameTense(entity1, entity2) ||
+                !entity1.attribute2.equals("PRESENT") || !isPastTenseVerb(entity2.pos) ||
+                entity1.sID != entity2.sID)
+            return null;
+        return "AFTER";
+
+Rule30: 9 out of 10
+        if (!entity2.attribute2.contains("PAST") ||
+                !(hasWordInImmediateContext(entity2.context_token_precede, "previous", true, txt) ||
+                hasWordInImmediateContext(entity2.context_token_follow, "previous", false, txt)))
+            return null;
+        return "AFTER";
+
+Rule31: 1 out of 15
+        if (!entity1.attribute1.equals("DATE") || !entity2.attribute2.equals("PAST") ||
+                !hasWordInContext(entity1.context_token_precede, "on", txt) ||
+                entity1.sID != entity2.sID)
+            return null;
+        return "AFTER";
+
+Rule32: 1 out of 1
+        if (!entity1.isTimex3 || !entity1.string.contains("yesterday") 
+                || !entity2.isEvent || !entity2.attribute2.equals("PRESENT") ||
+                !closelyFollowing)
+            return null;
+        return "AFTER";
+
+Rule33: 1 out of 2
+        if (!entity1.isTimex3 || !entity1.string.contains("yesterday") 
+                || !entity2.isEvent || !entity2.attribute2.equals("PRESENT") ||
+                entity1.sID != entity2.sID)
+            return null;
+        return "AFTER";
+
+Rule34: 1 out of 1
+        if (!entity1.isEvent || !entity2.isTimex3 || 
+                !txt.substring(entity1.e, entity2.b).toLowerCase().contains("following") ||
+                !closelyFollowing)
+            return null;
+        return "AFTER";
+
+Rule35: 37 out of 56
+        if (hasWordInContext(entity2.context_token_precede, "after", txt) && closelyFollowing)
+            return "AFTER";
+
+Rule36: 5 out of 32
+        if (entity1.verbocean_element_map.containsKey("happens-after") &&
+            entity1.verbocean_element_map.get_list("happens-after").contains(entity2.string)) {
+                    return "AFTER";
+            }
+        }
+        else if (entity2.verbocean_element_map.containsKey("happens-before") &&
+            entity2.verbocean_element_map.get_list("happens-before").contains(entity1.string)) {
+                    return "AFTER";
+            }
+        }
+
+
+Rule37: 58 out of 97
+        if (entity1.attribute2.equals("FUTURE") || !entity2.attribute2.equals("FUTURE"))
+            return null;
+        return "BEFORE";
+
+Rule38: 29 out of 76
+        if (!are_event_occurrences(entity1, entity2) || entity1.attribute2.equals("FUTURE") ||
+                !entity2.attribute2.equals("INFINITIVE"))
+            return null;
+        return "BEFORE";
+
+Rule39: 13 out of 26
+        if (!(hasWordInContext(entity1.context_token_follow, "before", txt) ||
+            hasWordInContext(entity2.context_token_precede, "before", txt)) ||
+                entity1.attribute2.equals("FUTURE") || !noInBetweenVerb)
+            return null;
+        return "BEFORE";
+
+Rule40: 13 out of 26
+        if ((entity1.attribute2.contains("PRES") && entity2.attribute2.contains("PAST")) ||
+            !(hasWordInContext(entity1.context_token_follow, "before", txt) ||
+            hasWordInContext(entity2.context_token_precede, "before", txt)) ||
+                !noInBetweenVerb)
+            return null;
+        return "BEFORE";
+
+Rule41: 4 out of 6
+        if (!are_event_occurrences(entity1, entity2) || 
+                !hasWordInContext(entity1.context_token_precede, "if", txt) ||
+                !closelyFollowing)
+            return null;
+        return "BEFORE";
+
+Rule42: 3 out of 6
+        if (!are_event_occurrences(entity1, entity2) || 
+                !hasWordInContext(entity1.context_token_precede, "if", txt) ||
+                entity1.sID != entity2.sID)
+            return null;
+        return "BEFORE";
+
+Rule43: 4 out of 14
+        if (!are_events(entity1, entity2) || 
+                !hasWordInContext(entity1.context_token_precede, "since", txt) ||
+                entity1.sID != entity2.sID)
+            return null;
+        return "BEFORE";
+
+Rule44: 5 out of 7
+        if (!are_events(entity1, entity2) ||
+                !hasWordInContext(entity1.context_token_precede, "once", txt) ||
+                entity1.sID != entity2.sID)
+            return null;
+        return "BEFORE";  
+
+Rule45: 1 out of 2
+        if (!entity2.attribute2.equals("INFINITIVE") || !entity1.pos.contains("NN") ||
+                !hasWordInContext(entity1.context_token_precede, "with", txt) ||
+                !closelyFollowing)
+            return null;
+        return "BEFORE";
+
+Rule46: 3 out of 3
+        if (!entity1.attribute1.equals("I_ACTION") ||
+                entity1.attribute2.contains("PRES") || entity1.attribute2.equals("FUTURE") ||
+                !entity2.attribute1.equals("ASPECTUAL") ||
+                entity2.attribute2.contains("PAST") ||
+                entity1.sID != entity2.sID)
+            return null;
+        return "BEFORE";
+
+Rule47: 18 out of 47
+        if (!entity1.attribute2.equals("PAST") || !entity2.attribute2.equals("INFINITIVE"))
+            return null;
+        return "BEFORE";
+
+Rule48: 3 out of 8
+        if (!entity1.attribute1.equals("I_ACTION") || 
+                !entity2.attribute1.equals("REPORTING") ||
+                !sameTense(entity1, entity2) ||
+                entity1.sID != entity2.sID)
+            return null;
+        return "BEFORE";
+
+Rule49: 2 out of 2
+        if (!entity1.attribute1.equals("I_ACTION") || !sameTense(entity1, entity2) ||
+            !hasWordInContext(entity2.context_token_follow, entity1.head_word, txt))
+            return null;
+        return "BEFORE";
+
+Rule50: 6 out of 19
+        if (entity1.attribute2.equals(entity2.attribute2) && entity2.attribute2.equals("FUTURE"))
+            return "BEFORE";
+        return null;
+
+Rule51: 5 out of 8
+        if (!are_events(entity1, entity2) || 
+                !hasWordInContext(entity1.context_token_precede, "will", txt) ||
+                !entity2.attribute2.equals("INFINITIVE") ||
+                !closelyFollowing)
+            return null;
+        return "BEFORE";
+
+Rule52: 7 out of 12
+        if (!are_events(entity1, entity2) || 
+                !hasWordInContext(entity1.context_token_precede, "will", txt) ||
+                !entity2.attribute2.equals("INFINITIVE"))
+            return null;
+        return "BEFORE";
+
+Rule53: 1 out of 1
+        if (!are_event_occurrences(entity1, entity2) ||
+                !entityTenseAspect(entity1, "NONE", "NONE") ||
+                !entityTenseAspect(entity2, "PRESENT", "PROGRESSIVE") ||
+                !hasPastParticipleInContext(entity1.context_pos_precede) ||
+                forCloselyFollowingHasPastTenseVerbInContext(entity1, entity2, txt) ||
+                !forCloselyFollowingHasPresentTenseVerbInContext(entity1, entity2, txt) ||
+                !closelyFollowing)
+            return null;
+        return "BEFORE";
+
+Rule54: 1 out of 2
+        if (!are_event_occurrences(entity1, entity2) ||
+                !entityTenseAspect(entity1, "NONE", "NONE") ||
+                !entityTenseAspect(entity2, "PRESENT", "PROGRESSIVE") ||
+                !hasNoVerbInContext(entity1.context_pos_precede) ||
+                !hasPresentTenseVerbInContext(entity2.context_pos_precede) ||
+                entity1.sID != entity2.sID)
+            return null;
+        return "BEFORE";    
+
+Rule55: 4 out of 26
+        if (!entity1.attribute1.equals("OCCURRENCE") || !entity1.attribute2.equals("NONE") || !entity2.attribute1.equals("REPORTING"))
+            return null;
+        if (!entity1.govern_verb_pos.equals("__nil__") && !isPastTenseVerb(entity1.govern_verb_pos))
+            return null;
+        if (!entity1.root_verb_pos.equals("__nil__") && !isPastTenseVerb(entity1.root_verb_pos))
+            return null;
+        return "BEFORE";
+
+Rule56: 1 out of 1
+        if (!hasWordInContext(entity1.context_token_precede, "then", txt) ||
+                !entity1.attribute1.equals("OCCURRENCE") || !entity2.attribute1.equals("REPORTING") ||
+                !entity1.attribute2.equals("PAST") || !closelyFollowing)
+            return null;
+        return "BEFORE";
+
+Rule57: 3 out of 22
+        if (!entity1.attribute1.equals("OCCURRENCE") || !entity2.attribute1.equals("REPORTING") ||
+                !entity1.attribute2.equals("NONE") || !entity2.attribute2.equals("PAST") ||
+                entity2.sID - entity1.sID > 3)
+            return null;
+        return "BEFORE";
+
+Rule58: 1 out of 1
+        if (!hasWordInContext(entity1.context_token_precede, "when", txt) || 
+                !hasWordInContext(entity2.context_token_precede, "then", txt) ||
+                !closelyFollowing)
+            return null;
+        return "BEFORE";
+
+Rule59: 4 out of 5
+        if (!are_verb_events(entity1, entity2) || !sameTense(entity1, entity2) ||
+                !entity1.attribute2.equals("PAST") || 
+                !hasWordInContext(entity2.context_token_precede, "then", txt))
+            return null;
+        return "BEFORE";
+
+Rule60: 2 out of 3
+        if (!sameTense(entity1, entity2) || !entity1.attribute2.equals("NONE") ||
+                !hasWordInContext(entity2.context_token_precede, "then", txt))
+            return null;
+        return "BEFORE";
+
+Rule61: 4 out of 6
+        if (!are_event_occurrences(entity1, entity2) ||
+                !are_verb_events(entity1, entity2) ||
+                !entityTenseAspect(entity1, "PAST", "NONE") ||
+                !entityTenseAspect(entity2, "PAST", "NONE") ||
+                !hasWhAdverbInContext(entity1.context_pos_precede) ||
+                entity2.sID - entity1.sID > 3)
+            return null;
+        return "BEFORE";
+
+Rule62: 95 out of 870
+        if (!are_events(entity1, entity2) || 
+                !entity1.attribute1.equals(entity2.attribute1) ||
+                !entity1.attribute2.equals(entity2.attribute2) || 
+                !entity1.attribute3.equals(entity2.attribute3))
+            return null;
+        return "BEFORE";
+
+Rule63: 99 out of 900
+        if (!are_events(entity1, entity2) || 
+                !entity1.attribute1.equals(entity2.attribute1) ||
+                !entity1.attribute2.equals(entity2.attribute2))
+            return null;
+        return "BEFORE";
+
+Rule64: 217 out of 1306
+        if(!are_events(entity1, entity2) || 
+                !entity1.attribute2.equals(entity2.attribute2) ||
+                !entity1.attribute3.equals(entity2.attribute3))
+            return null;
+        return "BEFORE";
+
+Rule65: 19 out of 143
+        if (!are_events(entity1, entity2) || 
+                !entity1.attribute2.equals(entity2.attribute2) ||
+                !entity1.attribute3.equals(entity2.attribute3) ||
+                !txt.substring(entity1.e, entity2.b).toLowerCase().contains("would"))
+            return null;
+        return "BEFORE";
+
+Rule66: 19 out of 22
+        if (!entity1.attribute2.contains("PRES") ||
+                !entity2.attribute2.equals("FUTURE"))
+            return null;
+        return "BEFORE";
+
+Rule67: 1 out of 2
+        if (!are_verb_events(entity1, entity2) ||
+                !entity1.attribute1.equals("REPORTING") || 
+                !entity2.attribute1.equals("I_ACTION") ||
+                !entityTenseAspect(entity1, "PRESENT", "NONE") ||
+                !entityTenseAspect(entity2, "PRESENT", "NONE"))
+            return null;
+        return "BEFORE";
+
+Rule68: 1 out of 35
+        if (!are_reporting_events(entity1, entity2) || !identical(entity1.head_word, entity2.head_word) ||
+                !entity1.context_pos_precede[4].contains("NNP") || !entity2.context_pos_precede[4].contains("NNP") ||
+                entity1.context_token_precede[4].equals(entity2.context_token_precede[4]))
+            return null;
+        return "BEFORE";
+
+Rule69: 4 out of 4
+        if (!are_verb_events(entity1, entity2) || !sameTense(entity1, entity2) ||
+                !hasWordInContext(entity1.context_token_precede, "if", txt))
+            return null;
+        return "BEFORE";
+
+Rule70: 1 out of 4
+        if (!entity1.attribute1.equals("I_ACTION") || !entity2.attribute1.equals("OCCURRENCE") || !entity2.pos.contains("NN") ||
+                !entity1.attribute2.equals(entity2.attribute2) || !entity1.attribute3.equals(entity2.attribute3) ||
+                entity2.sID - entity1.sID > 3)
+            return null;
+        if (!entity2.govern_verb_pos.equals("__nil__") && !isPresentTenseVerb(entity2.govern_verb_pos))
+            return null;
+        if (!entity2.root_verb_pos.equals("__nil__") && !isPresentTenseVerb(entity2.root_verb_pos))
+            return null;
+        return "BEFORE";
+
+Rule71: 3 out of 16
+        if (!entity1.attribute2.equals(entity2.attribute2) || !entity2.attribute2.equals("INFINITIVE") ||
+                !closelyFollowing)
+            return null;
+        return "BEFORE";
+
+Rule72: 5 out of 10
+        if (!entity1.attribute2.equals(entity2.attribute2) || !entity1.attribute1.equals("STATE") ||
+                !entity2.attribute1.equals("I_ACTION") || !closelyFollowing)
+            return null;
+        return "BEFORE";
+
+Rule73: 1 out of 6
+        if (!entity1.attribute1.equals("OCCURRENCE") || !entity2.attribute1.equals("STATE") ||
+                !entity1.attribute2.equals("INFINITIVE") || !entity2.attribute2.equals("PRESENT"))
+            return null;
+        return "BEFORE";
+
+Rule74: 4 out of 25
+        if (!entity1.attribute2.equals("INFINITIVE") ||
+                !entity2.attribute2.equals("PRESENT") ||
+                !closelyFollowing)
+            return null;
+        return "BEFORE";
+
+Rule75: 55 out of 154
+        if (!entity1.attribute1.equals("OCCURRENCE") || !entity2.attribute1.equals("STATE") || 
+                !entity1.attribute2.equals("PAST") || !entity2.attribute2.equals("NONE") ||
+                !closelyFollowing)
+            return null;        
+        return "BEFORE";
+
+Rule76: 26 out of 209
+        if (!are_event_occurrences(entity1, entity2) || !entity1.attribute2.equals("PAST") 
+                || entity2.attribute2.equals("PAST") || entity1.sID != entity2.sID)
+            return null;
+        return "BEFORE";
+
+Rule77: 93 out of 558
+        if (!are_event_occurrences(entity1, entity2) || 
+                !closely_following(entity1, entity2, txt) ||
+                sameTense(entity1, entity2) || !closelyFollowing)
+            return null;
+        return "BEFORE";
+
+Rule78: 92 out of 546
+        if (!are_event_occurrences(entity1, entity2) || 
+                !closely_following(entity1, entity2, txt) ||
+                sameTense(entity1, entity2) || entity1.sID != entity2.sID)
+            return null;
+        return "BEFORE";
+
+Rule79: 1 out of 1
+        if (!sameTense(entity1, entity2) ||
+                !entity1.attribute1.equals("REPORTING") || !entity2.attribute1.equals("ASPECTUAL"))
+            return null;
+        return "BEFORE";
+
+Rule80: 1 out of 1
+        if (!entity1.attribute1.equals("ASPECTUAL") || !entity2.attribute1.equals("STATE") || 
+                !isPastTenseVerb(entity1.govern_verb_pos) ||
+                !entity2.attribute2.equals("PRESENT") || !closelyFollowing)
+            return null;
+        return "BEFORE";
+
+Rule81: 1 out of 1
+        if (!entity1.attribute1.equals("ASPECTUAL") || !entity2.attribute1.equals("STATE") || 
+                !isPastTenseVerb(entity1.govern_verb_pos) ||
+                !entity2.attribute2.equals("PRESENT") ||
+                entity1.sID != entity2.sID)
+            return null;
+        return "BEFORE";
+
+Rule82: 11 out of 26
+        if (!sameTense(entity1, entity2) ||
+                !entity1.attribute1.equals("I_ACTION") || !entity2.attribute1.equals("REPORTING") ||
+                entity2.sID - entity1.sID > 3)
+            return null;
+        return "BEFORE";
+
+Rule83: 11 out of 39
+        if (!entity1.attribute1.equals("OCCURRENCE") || !entity2.attribute1.equals("ASPECTUAL") ||
+                !closely_following(entity1, entity2, txt) ||
+                !closelyFollowing)
+            return null;
+        return "BEFORE";
+
+Rule84: 11 out of 78
+        if (!entity1.attribute2.equals("NONE") || !entity2.attribute2.equals("PAST") || 
+                !(isPastTenseVerb(entity1.govern_verb_pos) || 
+                isPastTenseVerb(entity1.root_verb_pos)))
+            return null;
+        return "BEFORE";
+
+Rule85: 48 out of 275
+        if (!entity1.attribute2.contains("PRES") || !entity2.attribute2.equals("NONE"))
+            return null;
+        return "BEFORE";
+
+Rule86: 92 out of 545
+        if (!entity1.attribute2.contains("PAST") || !entity2.attribute2.equals("NONE"))
+            return null;
+        return "BEFORE";
+
+Rule87: 2 out of 3
+        if (!entity1.attribute2.equals("NONE") || !entity2.attribute2.equals("PAST") ||
+                !entity1.attribute1.equals("STATE") || !entity2.attribute1.equals("REPORTING"))
+            return null;
+        return "BEFORE";
+
+Rule88: 17 out of 194
+        if (!sameTense(entity1, entity2) || !entity1.attribute2.equals("NONE"))
+            return null;
+        if (isPastTenseVerb(entity1.govern_verb_pos) && isPastTenseVerb(entity2.govern_verb_pos))
+            return "BEFORE";
+        if (isPresentTenseVerb(entity1.govern_verb_pos) && isPresentTenseVerb(entity2.govern_verb_pos))
+            return "BEFORE";
+        return null;
+
+Rule89: 3 out of 11
+        if (!entity1.isEvent ||  !entity2.isTimex3 ||
+                !hasWordInContext(entity2.context_token_precede, "until", txt) ||
+                !entity2.attribute1.equals("DATE"))
+            return null;
+        return "BEFORE";
+
+Rule90: 1 out of 1
+        if (!entity1.isTimex3 || !entity1.string.contains("yesterday") 
+                || !entity2.isEvent || !entity2.attribute2.equals("FUTURE"))
+            return null;
+        return "BEFORE";
+
+Rule91: 4 out of 6
+        if (!entity1.attribute1.equals("OCCURRENCE") || !entity2.attribute1.equals("PERCEPTION"))
+            return null;         
+        return "BEFORE";   
+
+Rule92: 12 out of 23
+        if (!hasWordInContext(entity2.context_token_precede, "then", txt))
+            return null;       
+        return "BEFORE";    
+
+Rule93: 11 out of 59
+        if (entity1.verbocean_element_map.containsKey("happens-before") &&
+		entity1.verbocean_element_map.getList("happens-before").contains(entity2.headWord)) {
+                    return "BEFORE";
+            }
+        }
+        else if (entity2.verbocean_element_map.containsKey("happens-after") &&) {
+            		entity2.verbocean_element_map.get("happens-after").contains(entity1.headWord){
+                    return "BEFORE";
+            }
+        }
+
+
+Rule94: 1 out of 1
+        if (!are_events(entity1, entity2) || 
+                !hasWordInContext(entity1.context_token_precede, "now", txt) ||
+                !entity1.attribute2.equals("PRESENT") ||
+                !hasWordInContext(entity2.context_token_precede, "with", txt))
+            return null;
+        return "BEGUN_BY";
+
+Rule95: 1 out of 4
+        if (!are_events(entity1, entity2) || 
+                !hasWordInContext(entity1.context_token_follow, "now", txt) || 
+                !entity2.attribute2.equals("PRESENT") ||
+                !closelyFollowing)
+            return null;
+        return "BEGUN_BY";
+
+Rule96: 1 out of 2
+        if (!entity1.attribute2.equals(entity2.attribute2) ||
+                !hasWordInContext(entity1.context_token_precede, "start", txt) || 
+                !(hasWordInContext(entity2.context_token_precede, "through", txt) || 
+                hasWordInContext(entity2.context_token_precede, "by", txt)) ||
+                !closelyFollowing)
+            return null;
+        return "BEGUN_BY";
+
+Rule97: 2 out of 4
+        if (!hasWordInContext(entity1.context_token_precede, "start", txt) || 
+                !(hasWordInContext(entity2.context_token_precede, "through", txt) || 
+                hasWordInContext(entity2.context_token_precede, "by", txt)))
+            return null;
+        return "BEGUN_BY";
+
+Rule98: 2 out of 3
+        if (!entity2.string.contains("begun") || !closelyFollowing)
+            return null;
+        return "BEGUN_BY";
+
+Rule99: 3 out of 5
+        if (!entity1.isEvent || !entity2.isTimex3 || !entityTenseAspect(entity1, "PRESENT", "PERFECTIVE") ||
+                !entity2.attribute1.equals("DATE") || !hasWordInContext(entity2.context_token_precede, "since", txt))
+            return null;
+        return "BEGUN_BY";
+
+Rule100: 3 out of 4
+        if (!entity1.attribute1.equals("DURATION") || 
+                !hasWordInContext(entity1.context_token_follow, "after", txt) ||
+                !entity2.isEvent || !entity2.attribute2.equals("PAST") ||
+                !closelyFollowing)
+            return null;
+        return "BEGUN_BY";
+
+Rule101: 1 out of 51
+        if (!entity2.isEvent || !hasWordInContext(entity2.context_token_precede, "when", txt))
+            return null;
+        return "BEGUN_BY";
+
+Rule102: 1 out of 5
+        if(!are_events(entity1, entity2) || !entity1.attribute1.equals(entity2.attribute1) ||
+                !entity1.attribute2.equals(entity2.attribute2) || 
+                !hasWordInContext(entity2.context_token_precede, "could", txt) ||
+                !closelyFollowing)
+            return null;
+        return "BEGINS";
+
+Rule103: 2 out of 2
+        if (!are_events(entity1, entity2) || !entity1.string.toLowerCase().contains("begin") ||
+                !ends_with_ing(entity2.string) ||
+                !isConsecutive(entity1, entity2))
+            return null;
+        return "BEGINS";
+
+Rule104: 2 out of 2
+        if (!are_events(entity1, entity2) || !entity1.string.toLowerCase().contains("begin") ||
+                !ends_with_ing(entity2.string) ||
+                !closelyFollowing)
+            return null;
+        return "BEGINS";
+
+Rule105: 1 out of 1
+        if (!are_occurrence_state_events(entity1, entity2) || !entity1.attribute2.equals("INFINITIVE") ||
+                !entity2.attribute2.equals("PRESENT") || !hasWordInContext(entity2.context_token_precede, "now", txt) ||
+                entity1.sID != entity2.sID)
+            return null;
+        return "BEGINS";
+
+Rule106: 2 out of 3
+        if (!are_state_events(entity1, entity2) || 
+                !hasWordInContext(entity2.context_token_precede, "into", txt) ||
+                entity1.sID != entity2.sID)
+            return null;
+        return "BEGINS";
+
+Rule107: 3 out of 4
+        if (!entity1.attribute1.equals("OCCURRENCE") || !entity2.attribute1.equals("DURATION") ||
+                !hasCCInContext(entity2.context_pos_precede) || entity1.sID == entity2.sID)
+            return null;
+        return "BEGINS";
+
+Rule108: 2 out of 7
+        if (entity1.string.equals("begin"))
+            return "BEGINS";
+        return null;
+
+
+Rule109: 31 out of 302
+if (!are_event_occurrences(entity1, entity2) || !entity1.attribute2.equals("INFINITIVE") ||
+     !hasWordInContext(entity2.context_token_precede, "until", txt)) return null;
+return "ENDED_BY";
+
+Rule110: 2 out of 3
+        if (!entity1.isEvent || !entity2.isTimex3 || !entity1.attribute2.equals("PAST") ||
+                !entity2.attribute1.equals("DATE") || 
+                !hasWordInContext(entity2.context_token_precede, "by", txt))
+            return null;
+        return "ENDED_BY"
+
+Rule111: 1 out of 4
+        if (!entity1.attribute1.equals("DURATION") || 
+                !hasWordInContext(entity1.context_token_follow, "later", txt) ||
+                !entity2.attribute1.equals("REPORTING") ||
+                !entity2.attribute2.equals("PRESENT") ||
+                !noInBetweenVerb)
+            return null;
+         return "ENDED_BY";   
+
+Rule112: 1 out of 1
+        if (!entity1.attribute1.equals("DURATION") || 
+                !hasWordInContext(entity1.context_token_precede, "until", txt) ||
+                !hasWordInContext(entity1.context_token_follow, "after", txt) ||
+                !entity2.attribute2.equals("PAST"))
+            return null;
+        return "ENDED_BY";
+
+Rule113: 1 out of 2
+        if (!are_event_occurrences(entity1, entity2) || 
+                !hasWordInContext(entity2.context_token_precede, "until", txt))
+            return null;
+        return "ENDED_BY";
+
+Rule114: 1 out of 19
+        if (!are_events(entity1, entity2) || 
+                !hasWordInContext(entity1.context_token_precede, "now", txt))
+            return null;
+        return "IAFTER";
+
+Rule115: 1 out of 19
+        if (!entity1.attribute2.equals("FUTURE") || 
+                !txt.substring(entity1.e, entity2.b).toLowerCase().contains("to") ||
+                !noInBetweenVerb)
+            return null;
+        return "IAFTER";
+
+Rule116: 2 out of 7
+        if (!entity1.attribute2.equals("INFINITIVE") || 
+                !ends_with_ing(entity2.string) ||
+                !hasWordInContext(entity2.context_token_precede, "by", txt) ||
+                !closelyFollowing)
+            return null;
+        return "IAFTER";
+
+Rule117: 1 out of 6
+        if (!are_events(entity1, entity2) || !entityTenseAspect(entity1, "PRESENT", "PROGRESSIVE") ||
+                !isPresentTenseVerb(entity2.govern_verb_pos) || !entity2.attribute1.equals("STATE") ||
+                entity1.sID != entity2.sID)
+            return null;
+        return "IBEFORE";
+
+Rule118: 1 out of 1
+        if (!are_events(entity1, entity2) || !entity1.attribute1.equals(entity2.attribute1) ||
+                !entity1.attribute2.equals(entity2.attribute2) || 
+                !hasWordInContext(entity2.context_token_precede, "subsequent", txt) ||
+                !closelyFollowing)
+            return null;
+        return "IBEFORE";
+
+Rule119: 1 out of 2
+        if (!are_verb_events(entity1, entity2) ||
+            !entity1.attribute2.equals("INFINITIVE") || !entity2.attribute2.equals("PRESENT") || 
+                !(hasWordInImmediateContext(entity2.context_token_precede, "and", true, txt)) ||
+                !closelyFollowing)
+            return null;
+        return "IBEFORE";
+
+Rule120: 1 out of 1
+        if (!are_events(entity1, entity2) || !hasWordInContext(entity1.context_token_precede, "after", txt) ||
+                !entity2.attribute1.equals("REPORTING") || !entity2.attribute2.equals("PAST") || 
+                !hasNoVerbInContext(entity1.context_token_follow) || !hasNoVerbInContext(entity2.context_token_precede))
+            return null;
+        return "IBEFORE";
+
+Rule121: 13 out of 33
+If entityProximity=LessThanOrEqual10 &&
+	entity1.class=REPORTING &&
+	entity2.class=REPORTING
+then infer relation=SIMULTANEOUS
+
+Rule122: 7 out of 15
+if entity1.headWordLemma=entity2.headWordLemma &&
+	entity2.hasWordIn5WordPrecedingContext=also
+then infer relation=SIMULTANEOUS
+
+Rule123: 8 out of 25
+if entity1.headWordLemma=entity2.headWordLemma &&
+	coreferencePattern(entity1, entity2)
+then infer relation=SIMULTANEOUS
+//CoreferencePattern(entity1, entity2) - entity1 is preceded by a proper noun and entity2 is preceded by a subject pronoun
+
+Rule124: 1 out of 1
+if sameSentence=TRUE &&
+	entity1.pos=VB &&
+	entity2.class=I_STATE &&
+	substringInBetweenEntity1AndEntity2.contains(with) &&
+	entity2.hasWordIn5WordPrecedingContext=with &&
+	substringInBetweenEntity1AndEntity2.contains(noVerbs) &&
+	entityProximity=LessThanOrEqual10
+then infer relation=SIMULTANEOUS
+
+Rule125: 7 out of 18
+if sameSentence=TRUE &&
+	entity1.class=OCCURRENCE &&
+	entity2.class=REPORTING &&
+	entity1.tense=entity2.tense &&
+	entityProximity=LessThanOrEqual10
+then infer relation=SIMULTANEOUS
+
+Rule126: 36 out of 89
+if sameSentence=TRUE &&
+	entity1.class=OCCURRENCE &&
+	entity2.class=OCCURRENCE &&
+	entity1.tense=entity2.tense &&
+	entity1.pos=VB &&
+	substringInBetweenEntity1AndEntity2.contains(noVerbs) &&
+	entityProximity=LessThanOrEqual10
+then infer relation=SIMULTANEOUS
+
+Rule127: 1 out of 5
+if entity1.precededBy=is ||
+	entity2.followedBy=is		
+then infer relation=SIMULTANEOUS
+
+Rule128: 1 out of 2
+if entity1.class=OCCURRENCE &&
+	entity2.class=I_ACTION &&
+	entity2.precededBy=also &&
+	substringInBetweenEntity1AndEntity2.contains(noVerbs) &&
+	entityProximity=LessThanOrEqual10
+then infer relation=SIMULTANEOUS
+
+Rule129: 1 out of 15
+if entity1.class=STATE &&
+	entity2.class=OCCURRENCE &&
+	substringInBetweenEntity1AndEntity2.matchesPattern(.*of.*for.*)
+	substringInBetweenEntity1AndEntity2.contains(for) &&	
+	entityProximity=LessThanOrEqual10
+then infer relation=SIMULTANEOUS
+
+Rule130: 5 out of 6 - 0.83
+If sameSentence=YES &&
+	entity1.pos=VB &&
+	entity2.pos=VB &&
+	entity1.followedBy=INFINITIVE &&
+	entity2.precededBy=COORDINATING_CONJUNCTION
+then infer relation=SIMULTANEOUS
+e.g.: ...he [declined] to discuss details , but [said] : `` I don't think...
+
+Rule131: 1 out of 1
+if entity1.class=OCCURRENCE &&
+	entity2.class=OCCURRENCE &&
+	entity2.stringType=ING_STRING &&
+	entity1.pos=NN &&
+	entity2.pos=VB &&
+	entity1.tense=PRESENT &&
+	substringInBetweenEntity1AndEntity2.contains(noVerbs) &&
+	entityProximity=LessThanOrEqual10
+then infer relation=SIMULTANEOUS
+
+Rule132: 27 out of 86
+if entity1.class=OCCURRENCE &&
+	entity2.class=OCCURRENCE &&
+	entity1.pos=NN &&
+	entity2.pos=VB &&
+	entity1.hasWordIn3WordFollowingContext=entity2
+then infer relation=SIMULTANEOUS
+
+Rule133: 2 out of 5
+if entity1.class=OCCURRENCE &&
+	entity2.class=I_STATE &&
+	entity1.pos=VB &&
+	entity1.tense=entity2.tense &&
+	(entity2.precededBy=subjectPersonalPronoun || 
+	entity2.precededBy=properNoun)
+then infer relation=SIMULTANEOUS
+
+Rule134: 5 out of 6 - 0.83
+If entity1.class=I_ACTION &&
+	entity2.class=I_ACTION &&
+	entity2.stringType=ING_STRING
+then infer relation=SIMULTANEOUS
+e.g.: ...on the Saudi border today [sought] peace on another front by [promising] to withdraw..
+
+Rule135: 14 out of 125
+if entity1.class=OCCURRENCE &&
+	entity2.class=OCCURRENCE &&
+	entity1.pos=NN &&
+	entity2.pos=NN &&
+	entityProximity=LessThanOrEqual10
+then infer relation=SIMULTANEOUS
+
+Rule136: 1 out of 8
+if entity1.class=REPORTING &&
+	entity2.class=I_STATE &&
+	entityProximity=LessThanOrEqual10
+then infer relation=SIMULTANEOUS
+
+Rule137: 1 out of 4
+if entity1.isEvent=TRUE &&
+	entity2.isTimex3=TRUE &&
+	entity2.type=TIME &&
+	entity2.precededBy=at
+	substringInBetweenEntity1AndEntity2.contains(noVerbs) &&
+	entityProximity=LessThanOrEqual10
+then infer relation=SIMULTANEOUS
+
+Rule138: 2 out of 14
+if entity1.isEvent=TRUE &&
+	entity2.isTimex3=TRUE &&
+	entity1.class=STATE &&
+	entity2.class=DATE &&
+	substringInBetweenEntity1AndEntity2.contains(in) &&
+	entityProximity=LessThanOrEqual10
+then infer relation=SIMULTANEOUS
+
+Rule139: 7 out of 29
+if entity1.isEvent=TRUE &&
+	entity2.isTimex3=TRUE &&
+	entity2.class=DURATION &&
+	substringInBetweenEntity1AndEntity2.contains(for) &&
+	substringInBetweenEntity1AndEntity2.contains(noVerbs) &&
+	entity1.hasWordInWordProximity=LessThanOrEqual10
+then infer relation=SIMULTANEOUS
+
+Rule140: 1 out of 18
+if entity1.isTimex3=TRUE &&
+	entity2.isEvent=TRUE &&
+	entity2.class=OCCURRENCE &&
+	entity1.hasWordIn5WordFollowingContext=entity2
+then infer relation=SIMULTANEOUS
+	
+Rule141: 2 out of 20
+if entity1.isTimex3=TRUE &&
+	entity2.isEvent=TRUE &&
+	entity1.class=DURATION &&
+	entity2.class=OCCURRENCE &&
+	entity1.followedBy=entity2
+then infer relation=SIMULTANEOUS
+
+Rule142: 83 out of 359
+if entity1.class=OCCURRENCE &&
+	entity2.class=OCCURRENCE &&
+	entity2.governVerbWord=entity2
+then infer relation=SIMULTANEOUS
+
+Rule143: 1 out of 8
+if entity1.class=STATE &&
+	entity2.class=STATE &&
+	entity1.followedBy=entity2
+then infer relation=SIMULTANEOUS
+
+Rule144: 33 out of 286
+if entity1.class=OCCURRENCE &&
+	entity2.class=STATE &&
+	entity1.rootVerbWord=entity2.rootVerbWord
+then infer relation=SIMULTANEOUS
+
+Rule145: 198 out 1010
+if sameSentence=FALSE &&
+	entity1.class=OCCURRENCE &&
+	entity2.class=OCCURRENCE &&
+then infer relation=SIMULTANEOUS
+
+Rule146: 1 out of 1
+if entity1.headWordLemma=beWord &&
+	entity2.precededBy=are
+then infer relation=SIMULTANEOUS
+
+Rule147: 8 out of 39
+if entity1.pos=VB &&
+	entity2.pos=NN &&
+	entity1.followedByDeterminer &&
+	entity1.followedBy=entity2
+then infer relation=SIMULTANEOUS
+
+Rule148: 21 out od 80
+if ((entity1.verbOceanMap.containsKey("similar") 
+	then entity1.verbOceanMap.getList("similar").contains(entity2.headWordLemma)) ||
+	(entity2.verbOceanMap.containsKey("similar")
+	then entity2.verbOceanMap.getList("similar").contains(entity1.headWordLemma))
+then infer relation=SIMULTANEOUS
+
+
+Rule149:6 out of 18
+if entity1.class=entity2.class &&
+	entity1.class=REPORTING &&
+	entity1.followedBy=entity2
+then infer relation=IDENTITY
+
+Rule150: 12 out of 139
+if  entity1.followedBy=to &&
+	entity1.followedBy=entity2
+then infer relation=IDENTITY
+
+Rule151: 298 out of 438
+if entity1.headWordLemma=entity2.headWordLemma &&
+	entity1.notPrecededBy=also &&
+	notCoreferencePattern(entity1, entity2)
+then infer relation=IDENTITY
+
+Rule152: 4 out of 35
+if entity1.class=OCCURRENCE &&
+	entity2.class=OCCURRENCE &&
+	entity1.temporalWord=entity2.temporalWord &&
+	entity1.tenseAspect=NONE-NONE &&
+	entity2.conjunction=or &&
+	entityProximity=LessThanOrEqual10
+then infer relation=IDENTITY
+
+Rule153: 6 out of 25
+if entity1.class=OCCURRENCE &&
+	entity2.class=OCCURRENCE &&
+	entity1.followedBy=anyPrepositionWord &&
+	entity2.followedBy=anyPrepositionWord &&
+	(entity1.5WordPrecedeContext.matchesSomeWords(entity2.5WordPrecedeContext) ||
+	entity1.5WordFollowContext.matchesSomeWords(entity2.5WordFollowContext)) &&
+then infer relation=IDENTITY
+
+Rule154: 48 out of 359
+if entity1.class=OCCURRENCE &&
+	entity2.class=OCCURRENCE &&
+	entity2.governVerbWord=entity1.string &&
+	entityProximity=LessThanOrEqual10
+then infer relation=IDENTITY
+
+Rule155: 2 out of 6
+if entity1.class=OCCURRENCE &&
+	entity2.class=I_ACTION &&
+	entity2.governVerbWord=entity1.string &&
+	entity1.followedBy=entity2
+then infer relation=IDENTITY
+
+Rule156: 10 out of 16
+if sameSentence=TRUE &&
+	entity1.class=STATE &&
+	entity2.class=STATE &&
+then infer relation=IDENTITY
+
+Rule157: 20 out of 80
+if ((entity1.verbOceanMap.containsKey("similar") 
+	then entity1.verbOceanMap.getList("similar").contains(entity2.headWordLemma)) ||
+	(entity2.verbOceanMap.containsKey("similar")
+	then entity2.verbOceanMap.getList("similar").contains(entity1.headWordLemma))
+then infer relation=IDENTITY 
+
+Rule158: 3 out of 3
+if entity1.pos=NN &&
+	entity2.pos=VB &&
+	entity1.5WordPrecedeContext.contains(at) &&
+	substringInBetweenEntity1AndEntity2.contains(noVerbs) &&
+	entity1.hasEntity2InWordProximity=LessThanOrEqual10
+then infer relation=INCLUDES
+	
+Rule159: 13 out of 57
+if entity1.5WordPrecedeContext.contains(at) &&
+	sentenceDistance=2
+then infer relation=INCLUDES
+
+Rule160: 10 out of 16
+if entity1.pos=NN &&
+	entity1.class=OCCURRENCE &&
+	entity2.pos=VB &&
+	entity2.class=REPORTING &&
+	(entity1.followedBy=entity2 ||
+	entity2.precededBy=properNoun)
+then infer relation=INCLUDES
+
+Rule161: 9 out of 12
+if entity1.pos=NN &&
+	entity1.class=OCCURRENCE &&
+	entity2.pos=VB &&
+	entity2.class=REPORTING &&
+	entity1.hasEntity2InWordProximity=LessThanOrEqual10	
+then infer relation=INCLUDES
+
+Rule162: 1 out of 2
+if sameSentence=true &&
+	entity1.headWordLemma=entity2.headWordLemma &&
+	entity1.precededBy=Adjective &&
+	(entity2.precededBy=Adjective || entity2.precededBy=Digit)
+then infer relation=INCLUDES
+
+Rule163: 6 out of 24
+if entity1.class=OCCURRENCE &&
+	entity2.class=I_ACTION &&
+	(entity2.precededBy=properNoun ||
+	entity2.precededBy=personalPronoun) &&
+	entity1.hasEntity2InWordProximity=LessThanOrEqual10	
+then infer relation=INCLUDES
+
+Rule164: 5 out of 21
+if entity1.class=OCCURRENCE &&
+	entity2.class=I_ACTION &&
+	(entity2.precededBy=properNoun ||
+	entity2.precededBy=personalPronoun) &&
+	substringInBetweenEntity1AndEntity2.contains(noVerbs) &&
+	entity1.hasEntity2InWordProximity=LessThanOrEqual10	
+then infer relation=INCLUDES
+
+Rule165: 10 out of 20
+if entity2.class=REPORTING &&
+	entity1.stringType=ingString &&
+	entity1.hasEntity2InWordProximity=greaterThanOrEqual10		
+then infer relation=INCLUDES	
+
+Rule166: 39 out of 217
+if sameSentence=true &&
+	entity1.stringType=ingString 
+then infer relation=INCLUDES	
+
+Rule167: 6 out of 28
+if entity1.class=OCCURRENCE &&
+	entity2.class=ASPECTUAL &&
+	substringInBetweenEntity1AndEntity2.contains(noVerbs) &&
+	entity1.hasEntity2InWordProximity=LessThanOrEqual10
+then infer relation=INCLUDES	
+
+Rule168: 19 out of 100
+if entity1.class=OCCURRENCE &&
+	entity2.class=OCCURRENCE &&
+	entity1.pos=NN &&
+	entity2.pos=VB &&
+	entity1.governVerbWord=entity2.governVerbWord
+then infer relation=INCLUDES	
+
+Rule169: 2 out of 12
+if entity1.class=STATE &&
+	entity2.class=I_ACTION &&
+	substringInBetweenEntity1AndEntity2.contains(noVerbs) &&
+	entity1.hasEntity2InWordProximity=LessThanOrEqual10
+then infer relation=INCLUDES	
+
+Rule170: 1 out of 2
+if entity1.class=STATE &&
+	entity2.class=ASPECTUAL &&
+	substringInBetweenEntity1AndEntity2.contains(to) &&
+	entity1.hasEntity2InWordProximity=LessThanOrEqual10
+then infer relation=INCLUDES	
+
+Rule171: 5 out of 6
+if entity2.isEvent=TRUE &&
+	entity1.isTimex=TRUE &&
+	entity1.type=DATE &&
+	entity2.class=STATE &&
+	entity1.string=now &&
+	entity1.precededBy=entity2
+then infer relation=INCLUDES	
+
+Rule172: 88 out of 140
+if entity1.isTimex=TRUE &&
+	entity2.class=STATE &&
+then infer relation=INCLUDES	
+
+Rule173: 1 out of 10
+if entity1.class=entity2.class &&
+	entity1.class=ASPECTUAL
+then infer relation=INCLUDES	
+
+Rule174: 16 out of 129
+if entity1.class=entity2.class &&
+	entity1.class=OCCURRENCE &&
+	substringInBetweenEntity1AndEntity2.contains(at) &&
+	substringInBetweenEntity1AndEntity2.contains(noVerbs) &&
+	entity1.hasEntity2InWordProximity=LessThanOrEqual10
+then infer relation=IS_INCLUDED	
+
+Rule175: 2 out of 4
+if entity1.class=entity2.class &&
+	entity1.class=OCCURRENCE &&
+	entity1.hasWordIn5WordFollowingContext=during
+then infer relation=IS_INCLUDED	
+
+Rule176: 4 out of 12
+if entity1.class=REPORTING &&
+	entity1.pos=NN &&
+	entity2.class=OCCURRENCE &&
+	entity2.pos=VB &&
+	entity1.precededBy=properNoun
+then infer relation=IS_INCLUDED	
+
+Rule177: 3 out of 15
+if entity1.class=REPORTING &&
+	entity2.stringType=ingString &&
+	entity1.hasWordIn10WordFollowingContext=entity2
+then infer relation=IS_INCLUDED	
+
+Rule178: 7 out of 34
+if sameSentence=true &&
+	entity1.class=REPORTING &&
+	entity2.class=OCCURRENCE &&
+	entity1.pos=VB &&
+	entity2.govern_verb_word=entity1.string &&
+then infer relation=IS_INCLUDED	
+
+Rule179: 3 out of 7
+if entity1.class=OCCURRENCE &&
+	entity2.class=STATE &&
+	substringInBetweenEntity1And2.contains(when)
+then infer relation=IS_INCLUDED	
+
+Rule180: 1 out of 11
+if entity1.class=I_STATE &&
+	entity2.class=OCCURRENCE &&
+	substringInBetweenEntity1And2.contains(in)
+then infer relation=IS_INCLUDED	
+
+
+Rule181: 19 out of 22 = 0.8636
+if (entity1.tense=PRESENT || entity1.tense=PRESPART) &&
+	entity2.tense=FUTURE
+then infer relation=BEFORE
+e.g.: But U.S. officials have [sized] up Saddam Hussein as a man who, despite some recklessness, will [back] down if he must. 
+
+
+
+Rule182: 7 out of 10 = 0.7
+if sameSentence=true &&
+	entity1.class=OCCURRENCE &&
+	entity2.class=OCCURRENCE &&
+	entity2.hasWordIn5WordPrecedingContext=if
+then infer relation=AFTER
+e.g.: ...the prospect of more [aid] to Jordan if it [cooperates] with...
+	
+
+Rule183: 9 out of 10 = 0.9
+if sameSentence=TRUE &&
+	(entity2.tense=PAST || entity2.tense=PASTPART) &&
+	(entity2.hasWordIn5WordPrecedingContext=previous || entity2.hasWordIn5WordFollowingContext=previous)
+then infer relation=AFTER
+e.g.: ...the ground [offensive] begin as previously [planned] Saturday night...
+
+
+Rule184: 1 out of 34
+        if (!are_events(entity1, entity2) || 
+                !(hasWordInContext(entity1.context_token_follow, "``", txt) ||
+                hasWordInContext(entity1.context_token_precede, "``", txt) ||
+                hasWordInContext(entity1.context_token_follow, "\"", txt) ||
+                hasWordInContext(entity1.context_token_precede, "\"", txt)) ||
+                !entity2.attribute1.equals("REPORTING"))
+            return null;
+        return "DURING";
+
+Rule185: 1 out of 4
+        if (!entity1.attribute1.equals("I_STATE") || !entity2.attribute1.equals("REPORTING") ||
+                !closelyFollowing)
+            return null;
+        return "DURING";    
+
+Rule186: 1 out of 1
+        if (!entity1.attribute1.equals("OCCURRENCE") || !entity2.attribute1.equals("ASPECTUAL") ||
+                !entityTenseAspect(entity2, "PRESENT", "PERFECTIVE") ||
+                !closelyFollowing)
+            return null;
+        return "DURING";
+
+Rule187: 11 out of 34
+        if (!entity1.isEvent || !entity2.isTimex3 || !entity2.attribute1.equals("DURATION") ||
+                !(hasWordInContext(entity2.context_token_precede, "for", txt) ||
+                hasWordInContext(entity1.context_token_follow, "for", txt)) ||
+                !closelyFollowing)
+            return null;            
+        return "DURING";
+
+Rule188: 8 out of 17
+        if (rule8(entity1, entity2, txt, closelyFollowing) == null || entity1.pos.charAt(0) != 'V')
+            return null;            
+        return "DURING";
+
+Rule189: 15 out of 74
+        if (!entity2.attribute1.equals("DURATION") ||
+                !entity1.attribute1.equals("OCCURRENCE"))
+            return null;
+        return "DURING";
+
+Rule190: 1 out of 4
+        if (!entity1.attribute1.equals("I_STATE") || !entity2.attribute1.equals("OCCURRENCE") ||
+                !isConsecutive(entity1, entity2))
+            return null;
+        return "DURING_INV";
+
+Rule191: 2 out of 25
+        if (!entity1.attribute1.equals("I_STATE") || !entity2.attribute1.equals("OCCURRENCE") ||
+                !noInBetweenVerb)
+            return null;
+        return "DURING_INV";
+
+Rule192: 1 out of 27
+        if (!are_event_occurrences(entity1, entity2) || 
+                !hasWordInContext(entity2.context_token_precede, "were", txt))
+            return null;
+        return "DURING_INV";
+
+Rule193: 55 out of 2879
+        if (entity1.attribute1.equals("ASPECTUAL") && entity2.attribute1.equals("STATE") ||
+                entity1_followContext_contains_entity2(entity1, entity2) == 10)
+            return "DURING_INV";
+        return null;
+
+Rule194: 4 out of 23
+        if (!entity1.attribute1.equals("ASPECTUAL") ||
+                !entity2.attribute1.equals("OCCURRENCE") || 
+                !(hasWordInContext(entity1.context_token_follow, "to", txt) || 
+                hasWordInContext(entity1.context_token_precede, "to", txt)))
+            return null;
+        return "DURING_INV";
+
+Rule195: 1 out of 21
+        if (!are_events(entity1, entity2) ||
+            (!(ends_with_ing(entity1.string) && entity1.string.contains(entity2.string)) &&
+                !(ends_with_ing(entity2.string) && entity2.string.contains(entity1.string))))
+            return null;
+        return "DURING_INV";
+
+Rule196: 1 out of 16
+        if (!entity1.isEvent || !entity2.isTimex3 ||
+                !entity1.attribute1.equals("STATE") ||
+                !entity2.attribute1.equals("DURATION") ||
+                !closelyFollowing)
+            return null;
+        return "DURING_INV";
+
+Rule197: 1 out of 4
+        if (!entity1.isTimex3 || !entity1.attribute1.equals("TIME") || 
+                !entity2.isEvent ||
+                !entity2.attribute1.equals("STATE") || 
+                !isConsecutive(entity1, entity2))
+            return null;
+        return "DURING_INV";
+
+Rule198: 5 out of 18
+        if (!entity2.isEvent || !entity1.isTimex3 || !entity1.attribute1.equals("DURATION") ||
+                !hasWordInContext(entity1.context_token_precede, "for", txt) || !closelyFollowing)
+            return null;            
+        return "DURING_INV";    
+
+Rule199: 1 out of 2
+        if (!entity2.isEvent || !entity2.attribute1.equals("REPORTING") || 
+                !entity1.isTimex3 || !entity1.attribute1.equals("DURATION") ||
+                !hasWordInContext(entity1.context_token_precede, "for", txt))
+            return null;            
+        return "DURING_INV"; 
+
+Rule120: 2 out of 9
+        if (rule10(entity1, entity2, txt, closelyFollowing) == null || entity2.pos.charAt(0) != 'V')
+            return null;            
+        return "DURING_INV";
+
+Rule121: 5 out of 12
+        if (!entity1.isTimex3 || !entity1.attribute1.equals("DURATION") || !entity2.isEvent ||
+                !entity2.attribute1.equals("OCCURRENCE") || !isConsecutive(entity1, entity2))
+            return null;
+        return "DURING_INV";
+
+Rule122: 12 out of 38
+        if (!entity1.isTimex3 || !entity1.attribute1.equals("DURATION") || !entity2.isEvent ||
+                !entity2.attribute1.equals("OCCURRENCE") || !noInBetweenVerb)
+            return null;
+        return "DURING_INV";
+
+Rule123: 1 out of 1
+        if (entity1.attribute1.equals("ASPECTUAL") && entity2.attribute1.equals("STATE") &&
+                entity1.dct_relation.equals("INCLUDES") && entity2.dct_relation.equals("INCLUDES"))
+            return "DURING_INV";
+
+Rule124: 1 out of 1
+        if (entity1.sID != entity2.sID && are_event_occurrence_istate(entity1, entity2) &&
+                sameTenseAspect(entity1, entity2) && hasWordInContext(entity1.context_token_precede, "could", txt) &&
+                hasWordInImmediateContext(entity2.context_token_precede, "would", true, txt))
+            return "DURING_INV"; 
+
+Rule125: 1 out of 1
+        if (entity1.sID != entity2.sID && entity1.attribute1.equals("I_ACTION") && entity2.attribute1.equals("OCCURRENCE") &&
+                entity2.govern_verb_word.equals("being"))
+            return "DURING_INV"; 
+
+
+=========================
+Relation With DCT
+=========================
+
+Rule126: 1 out of 1
+        if (entity1.dct_relation.equals("DURING") && entity2.dct_relation.equals("IDENTITY"))
+            return "DURING";
+
+Rule127: 2 out of 2
+        if (entity1.dct_relation.equals("DURING") && entity2.dct_relation.equals("BEFORE"))
+            return "AFTER";
+
+Rule128: 2 out of 2
+        if (entity1.dct_relation.equals("AFTER") && entity2.dct_relation.equals("DURING"))
+            return "AFTER";
+
+Rule129: 5 out of 5
+        if (entity1.dct_relation.equals("AFTER") && entity2.dct_relation.equals("INCLUDES"))
+            return "AFTER";
+
+Rule130: 16 out of 26
+        if (entity1.dct_relation.equals("INCLUDES") && entity2.dct_relation.equals("BEFORE"))
+            return "AFTER";
+
+Rule131: 1 out of 1
+        if (entity1.dct_relation.equals("IDENTITY") && entity2.dct_relation.equals("BEFORE"))
+            return "AFTER";
+
+Rule132: 1 out of 2
+        if (entity1.dct_relation.equals("IS_INCLUDED") && entity2.dct_relation.equals("BEFORE"))
+            return "AFTER";
+
+Rule133: 2 out of 2
+        if (entity1.dct_relation.equals("AFTER") && entity2.dct_relation.equals("BEFORE"))
+            return "AFTER";
+
+Rule134: 5 out of 5
+        if (entity1.dct_relation.equals("DURING") && entity2.dct_relation.equals("AFTER"))
+            return "BEFORE";
+
+Rule135: 13 out of 13
+        if (entity1.dct_relation.equals("INCLUDES") && entity2.dct_relation.equals("AFTER"))
+            return "BEFORE";
+
+Rule136: 8 out of 17
+        if (entity1.dct_relation.equals("BEFORE") && entity2.dct_relation.equals("INCLUDES"))
+            return "BEFORE";
+
+Rule137: 7 out of 8
+        if (entity1.dct_relation.equals("BEFORE") && entity2.dct_relation.equals("AFTER"))
+            return "BEFORE";
+
+Rule138: 1 out of 1
+        if (entity1.dct_relation.equals("BEFORE") && entity2.dct_relation.equals("DURING_INV"))
+            return "BEFORE";
+
+Rule139: 1 out of 1
+        if (entity1.dct_relation.equals("DURING") && entity2.dct_relation.equals("BEGUN_BY"))
+            return "BEGINS";
+        return null;
+
+Rule140: 7 out of 8
+if entity1.relationWithDCT=DURING &&
+	entity2.relationWithDCT=SIMULTANEOUS
+then infer relation=SIMULTANEOUS
+
+Rule141: 20 out of 30
+if entity1.relationWithDCT=INCLUDES &&
+	entity2.relationWithDCT=INCLUDES &&
+	entity2.tense=PRESENT
+then infer relation=SIMULTANEOUS
+
+Rule142: 36 out of 74
+if entity1.relationWithDCT=INCLUDES &&
+	entity2.relationWithDCT=INCLUDES
+then infer relation=SIMULTANEOUS
+
+Rule143: 8 out of 30
+if entity1.relationWithDCT=IS_INCLUDED &&
+	entity2.relationWithDCT=IS_INCLUDED
+then infer relation=SIMULTANEOUS
+
+Rule144: 22 out of 74
+if entity1.relationWithDCT=INCLUDES &&
+	entity2.relationWithDCT=INCLUDES
+then infer relation=IDENTITY
+
+Rule145: 2 out of 2
+if entity1.relationWithDCT=IDENTITY &&
+	entity2.relationWithDCT=IS_INCLUDED
+then infer relation=INCLUDES
+
+Rule146: 8 out of 26
+if entity1.relationWithDCT=INCLUDES &&
+	entity2.relationWithDCT=BEFORE
+then infer relation=INCLUDES
+
+Rule147: 3 out of 3
+if entity1.relationWithDCT=IBEFORE &&
+	entity2.relationWithDCT=BEFORE
+then infer relation=INCLUDES
+
+Rule148: 1 out of 1
+if entity1.relationWithDCT=IS_INCLUDED &&
+	entity2.relationWithDCT=INCLUDES
+then infer relation=IS_INCLUDED
+
+Rule149: 3 out of 3
+if entity1.relationWithDCT=IS_INCLUDED &&
+	entity2.relationWithDCT=IDENTITY
+then infer relation=IS_INCLUDED
+
+Rule150: 2 out of 2
+if entity1.relationWithDCT=BEFORE &&
+	entity2.relationWithDCT=IBEFORE
+then infer relation=IS_INCLUDED
+
+Rule151: 8 out of 17
+if entity1.relationWithDCT=BEFORE &&
+	entity2.relationWithDCT=INCLUDES
+then infer relation=IS_INCLUDED
+
+Rule152: 8 out of 17
+if entity1.relationWithDCT=IS_INCLUDED &&
+	entity2.relationWithDCT=SIMULTANEOUS
+then infer relation=IS_INCLUDED
+
+Rule153: 5 out of 5 = 1.0
+if entity1.relationWithDCT=DURING &&
+	entity2.relationWithDCT=AFTER &&
+then infer relation=BEFORE
+e.g.: So for Hong Kong , it's [time] , as investment bankers like to say, to [reposition] .
+
+Rule154: 13 out of 13 = 1.0
+if entity1.relationWithDCT=INCLUDES &&
+	entity2.relationWithDCT=AFTER &&
+then infer relation=BEFORE
+e.g.:Those observers [looking] for a battle between uncompromising representatives and very different ideologies will, in all likelihood, be [disappointed] . 
+
+Rule155: 13 out of 18 - 0.72
+if entity1.relationWithDCT=INCLUDES &&
+	entity2.relationWithDCT=INCLUDES &&
+	entity2.tense=PRESENT
+then infer relation=SIMULTANEOUS
+e.g.: The [embargo] is [meant] to cripple Iraq by cutting off its exports of...
+
+===============
+Dependencies
+===============
+
+Rule156: 1 out of 1
+        if (((entity1.attribute1.equals("ASPECTUAL") && entity1.attribute2.equals("INFINITIVE") && entity2.attribute1.equals("OCCURRENCE"))) &&
+                dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "dobj"))
+            return "AFTER";   
+
+Rule157: 9 out of 16
+        if ( hasWordInContext(entity2.context_token_precede, "when", txt) &&
+                dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "advcl"))
+            return "AFTER";     
+
+Rule158: 6 out of 6
+        if ( entity2.attribute2.equals("PAST") && entity2.attribute3.equals("PERFECTIVE") &&
+                dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "ccomp"))
+            return "AFTER";  
+
+Rule159: 15 out of 17
+        if ( entity2.attribute2.equals("PAST") && entity2.attribute1.equals("OCCURRENCE") && entity1.attribute1.equals("REPORTING") &&
+                dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "ccomp"))
+            return "AFTER"; 
+
+Rule160: 3 out of 5
+        if (dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "dobj") &&
+                entity1.attribute2.equals("FUTURE") && entity2.attribute2.equals("NONE") &&
+                entity2.attribute1.equals("STATE"))
+            return "AFTER";    
+
+Rule161: 2 out of 2
+        if (dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "advcl") &&
+                ((entity1.attribute1.equals("I_ACTION") && entity1.attribute2.equals("NONE") &&
+                txt.substring(entity1.e, entity2.b).matches(".* until .*") &&
+                entity2.attribute1.equals("I_ACTION") && entity2.attribute2.equals("PRESENT")) ||
+                (entity1.attribute1.equals("I_STATE") && entity1.attribute2.equals("NONE") &&
+                entity2.attribute1.equals("I_STATE") && entity2.attribute2.equals("PRESENT"))))
+            return "AFTER";    
+
+Rule162: 1 out of 2
+        if (dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "advcl") &&
+                entity1.attribute1.equals("OCCURRENCE") && entity1.attribute2.equals("INFINITIVE") &&
+                txt.substring(entity1.e, entity2.b).matches(".* if .*") &&
+                entity2.attribute1.equals("I_ACTION") && entity2.attribute2.equals("PRESENT"))
+            return "AFTER";    
+
+Rule163: 1 out of 1
+        if (dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "advcl") &&
+                entity1.attribute1.equals("OCCURRENCE") && entity1.attribute2.equals("INFINITIVE") &&
+                txt.substring(entity1.e, entity2.b).matches(".* if .*") &&
+                entity2.attribute1.equals("OCCURRENCE") && entity2.attribute2.equals("PRESENT"))
+            return "AFTER";  
+
+Rule164: 2 out of 2
+        if (dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "advcl") &&
+                entity1.attribute1.equals("OCCURRENCE") && entity1.attribute2.equals("NONE") &&
+                txt.substring(entity1.e, entity2.b).matches(".* if .*") &&
+                entity2.attribute1.equals("OCCURRENCE") && entity2.attribute2.equals("PRESENT"))
+            return "AFTER";  
+
+Rule165: 1 out of 1
+        if (dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "advcl") &&
+                entity1.attribute1.equals("OCCURRENCE") && entity1.attribute2.equals("NONE") &&
+                txt.substring(entity1.e, entity2.b).matches(".* if .*") &&
+                entity2.attribute1.equals("I_ACTION") && entity2.attribute2.equals("PRESENT"))
+            return "AFTER";    
+
+Rule166: 1 out of 1
+        if (dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "advcl") &&
+                entity1.attribute1.equals("STATE") && entity1.attribute2.equals("FUTURE") &&
+                txt.substring(entity1.e, entity2.b).matches(".* if .*") &&
+                entity2.attribute1.equals("OCCURRENCE") && entity2.attribute2.equals("PRESENT"))
+            return "AFTER";  
+
+Rule167: 1 out of 1
+        if (dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "advcl") &&
+                entity1.attribute1.equals("ASPECTUAL") && entity1.attribute2.equals("INFINITIVE") &&
+                txt.substring(entity1.e, entity2.b).matches(".* if .*") &&
+                entity2.attribute1.equals("ASPECTUAL") && entity2.attribute2.equals("PRESENT"))
+            return "AFTER";   
+
+Rule168: 1 out of 1
+        if (dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "advcl") &&
+                txt.substring(entity1.e, entity2.b).matches(".* when .*") &&
+                txt.substring(entity1.e, entity2.b).matches(".* yesterday .*"))
+            return "AFTER";    
+
+Rule169: 50 out of 92
+if entity1.conjDependency=GOVERNOR &&
+	entity2.conjDependency=DEPENDENT &&
+then infer relation=SIMULTANEOUS
+
+Rule170: 1 out of 3
+if entity1.tense=entity2.tense &&
+	entity1.advclDependency=DEPENDENT &&
+	entity2.advclDependency=GOVERNOR &&
+then infer relation=SIMULTANEOUS
+
+Rule171: 2 out of 4
+if entity1.class=I_ACTION &&
+	entity2.class=OCCURRENCE &&
+	entity1.nsubjDependency=DEPENDENT &&
+	entity2.nsubjDependency=GOVERNOR &&
+then infer relation=SIMULTANEOUS
+
+Rule172: 13 out of 28
+if entity1.class=entity2.class &&
+	entity1.partmodDependency=GOVERNOR &&
+	entity2.partmodDependency=DEPENDENT &&
+then infer relation=SIMULTANEOUS
+
+Rule173: 2 out of 3
+if entity1.class=REPORTING &&
+	entity2.class=REPORTING &&
+	entity1.partmodDependency=GOVERNOR &&
+	entity2.partmodDependency=DEPENDENT
+then infer relation=SIMULTANEOUS
+
+Rule174: 5 out of 7
+if entity1.advclDependency=DEPENDENT &&
+	entity2.advclDependency=GOVERNOR &&
+	entity1.subordinatingConjunction=(when || while || although) &&
+	(entity1.tense=PAST || entity1.tense=PRESPART) &&
+	entity2.tense=PAST
+then infer relation=SIMULTANEOUS
+
+Rule175: 1 out of 1
+if entity1.advclDependency=GOVERNOR &&
+	entity2.advclDependency=DEPENDENT &&
+	entity1.tense=entity2.tense &&
+	entity1.tense=INFINITIVE
+then infer relation=SIMULTANEOUS
+
+Rule176: 6 out of 7 = 0.8571
+if entity1.conjDependency=GOVERNOR &&
+	entity2.conjDependency=DEPENDENT &&
+	entity1.stringType=ING_STRING &&
+	entity2.stringType=ING_STRING
+then infer relation=SIMULTANEOUS
+e.g.:But the administration is n't [putting] any upper limit on how high the force could go after that, [calculating] that it would be a mistake...
+
+Rule177: 16 out of 38
+if entity1.conjDependency=GOVERNOR &&
+	entity2.conjDependency=DEPENDENT &&
+	entity1.tenseAspect=entity2.tenseAspect &&
+	entity1.tense=PAST &&
+	entity1.aspect=NONE
+then infer relation=SIMULTANEOUS
+
+Rule178: 4 out of 7
+if entity1.conjDependency=GOVERNOR &&
+	entity2.conjDependency=DEPENDENT &&
+	entity1.tenseAspect=entity2.tenseAspect &&
+	entity1.tense=PRESENT &&
+	entity1.aspect=NONE
+then infer relation=SIMULTANEOUS
+
+Rule179: 1 out of 2
+if entity1.conjDependency=GOVERNOR &&
+	entity2.conjDependency=DEPENDENT &&
+	entity1.tenseAspect=entity2.tenseAspect &&
+	entity1.tense=FUTURE &&
+	entity1.aspect=NONE
+then infer relation=SIMULTANEOUS
+
+Rule180: 1 out of 2
+if entity1.conjDependency=GOVERNOR &&
+	entity2.conjDependency=DEPENDENT &&
+	entity1.tenseAspect=entity2.tenseAspect &&
+	entity1.tense=INFINITIVE &&
+	entity1.aspect=NONE
+then infer relation=SIMULTANEOUS
+
+Rule181: 6 out of 13
+if entity1.dobjDependency=GOVERNOR &&
+	entity2.dobjDependency=DEPENDENT &&
+	entity1.tense=FUTURE &&
+	entity2.tense=NONE
+then infer relation=IDENTITY
+
+Rule182: 17 out of 18
+if entity1.dobjDependency=GOVERNOR &&
+	entity2.dobjDependency=DEPENDENT &&
+	entity1.class=STATE &&
+	entity2.class=STATE
+then infer relation=IDENTITY
+
+Rule183: 7 out of 17
+if entity1.dobjDependency=GOVERNOR &&
+	entity2.dobjDependency=DEPENDENT &&
+	entity1.class=OCCURRENCE &&
+	entity2.class=OCCURRENCE &&
+	entity1.tense=INFINITIVE &&
+	entity2.tense=NONE
+then infer relation=IDENTITY
+
+Rule184: 15 out of 32
+if entity1.dobjDependency=GOVERNOR &&
+	entity2.dobjDependency=DEPENDENT &&
+	entity1.class=OCCURRENCE &&
+	entity2.class=OCCURRENCE &&
+	entity1.tense=PAST &&
+	entity2.tense=NONE
+then infer relation=IDENTITY
+
+Rule185: 4 out of 4
+if entity1.dobjDependency=GOVERNOR &&
+	entity2.dobjDependency=DEPENDENT &&
+	entity1.class=STATE &&
+	entity2.class=I_STATE &&
+	entity1.tense=PRESENT &&
+	entity2.tense=NONE
+then infer relation=IDENTITY
+
+Rule186: 3 out of 3
+if entity1.dobjDependency=GOVERNOR &&
+	entity2.dobjDependency=DEPENDENT &&
+	entity1.class=OCCURRENCE &&
+	entity2.class=OCCURRENCE &&
+	entity1.tense=FUTURE &&
+	entity2.tense=NONE
+then infer relation=IDENTITY
+
+Rule187: 1 out of 1
+if entity1.dobjDependency=GOVERNOR &&
+	entity2.dobjDependency=DEPENDENT &&
+	entity1.class=STATE &&
+	entity2.class=OCCURRENCE &&
+	entity1.tense=PAST &&
+	entity2.tense=NONE
+then infer relation=IDENTITY
+
+Rule188: 2 out of 7
+if entity1.dobjDependency=GOVERNOR &&
+	entity2.dobjDependency=DEPENDENT &&
+	entity1.class=OCCURRENCE &&
+	entity2.class=STATE &&
+	entity1.tense=PAST &&
+	entity2.tense=NONE
+then infer relation=IDENTITY
+
+Rule189: 2 out of 2
+if entity1.dobjDependency=GOVERNOR &&
+	entity2.dobjDependency=DEPENDENT &&
+	entity1.class=OCCURRENCE &&
+	entity1.tenseAspect=PRESENT-PERFECTIVE &&
+	entity2.class=I_ACTION &&
+	entity2.tense=NONE
+then infer relation=IDENTITY
+
+Rule190: 1 out of 1
+if entity1.dobjDependency=GOVERNOR &&
+	entity2.dobjDependency=DEPENDENT &&
+	entity1.class=I_STATE &&
+	entity1.tense=PRESENT &&
+	entity2.class=OCCURRENCE &&
+	entity2.tense=NONE
+then infer relation=IDENTITY
+
+Rule191: 20 out of 68
+if entity1.nsubjDependency=DEPENDENT &&
+	entity2.nsubjDependency=GOVERNOR &&
+	entity1.followedBy=entity2
+then infer relation=IDENTITY
+
+Rule192: 2 out of 6
+if entity1.nsubjDependency=DEPENDENT &&
+	entity2.nsubjDependency=GOVERNOR &&
+	entity1.followedBy=entity2 &&
+	entity1.classTense=entity2.classTense &&
+	entity1.class=OCCURRENCE &&
+	entity2.tense=NONE
+then infer relation=IDENTITY
+
+Rule193: 2 out of 10
+if entity1.nsubjDependency=DEPENDENT &&
+	entity2.nsubjDependency=GOVERNOR &&
+	entity1.followedBy=entity2 &&
+	entity1.class=OCCURRENCE &&
+	entity2.class=OCCURRENCE &&
+	entity1.tense=NONE &&
+	entity2.tense=PAST
+then infer relation=IDENTITY
+
+Rule194: 5 out of 17
+if entity1.nsubjDependency=DEPENDENT &&
+	entity2.nsubjDependency=GOVERNOR &&
+	entity1.followedBy=entity2 &&
+	entity1.class=OCCURRENCE &&
+	entity2.class=OCCURRENCE &&
+	entity1.tense=NONE &&
+	entity2.tense=PRESENT
+then infer relation=IDENTITY
+
+Rule195: 3 out of 5
+if entity1.nsubjDependency=DEPENDENT &&
+	entity2.nsubjDependency=GOVERNOR &&
+	entity1.followedBy=entity2 &&
+	entity1.class=STATE &&
+	entity2.class=OCCURRENCE &&
+	entity1.tense=NONE &&
+	entity2.tense=PAST
+then infer relation=IDENTITY
+
+Rule196: 2 out of 4
+if entity1.partmodDependency=GOVERNOR &&
+	entity2.partmodDependency=DEPENDENT &&
+	entity1.tense=NONE &&
+	entity2.tense=PRESPART
+then infer relation=INCLUDES
+
+Rule197: 9 out of 19
+if entity1.isTimex3=TRUE &&
+	entity2.isEvent=TRUE &&
+	entity1.amodDependency=DEPENDENT &&
+	entity2.amodDependency=GOVERNOR &&
+	entity1.type=DATE &&
+	entity2.class=STATE &&
+	entity2.tense=NONE &&
+	entity2.tense=NONE
+then infer relation=INCLUDES
+
+Rule198: 12 out of 20
+if entity1.isTimex3=TRUE &&
+	entity2.isEvent=TRUE &&
+	entity1.amodDependency=DEPENDENT &&
+	entity2.amodDependency=GOVERNOR &&
+	entity1.type=DATE &&
+	entity2.class=OCCURRENCE &&
+	entity2.tense=NONE &&
+	entity2.tense=NONE
+then infer relation=INCLUDES
+
+Rule199: 2 out of 2
+if entity1.xcompDependency=GOVERNOR &&
+	entity2.xcompDependency=DEPENDENT &&
+	entity1.class=ASPECTUAL &&
+	entity2.class=OCCURRENCE &&
+	entity1.tense=INFINITIVE &&
+	entity2.stringType=ingString &&
+	entity1.following5WordContext=entity2.string
+then infer relation=IS_INCLUDED
+
+Rule200: 15 out of 17 = 0.882
+if sameSentence=TRUE &&
+	entity1.class=REPORTING &&
+	entity2.class=OCCURRENCE &&
+	entity2.tense=PAST &&
+	entity1.ccompDependency=GOVERNOR &&
+	entity2.ccompDependency=DEPENDENT	
+then infer relation=AFTER
+e.g.: Separately, Esselte Business Systems [reported] third-quarter net income [fell] 5.9%...
+
+Rule201: 1 out of 4
+        if (entity1.pos.contains("NN") && entity2.attribute2.equals("PRESENT") && entity2.attribute3.equals("PERFECTIVE") &&
+                dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "rcmod"))
+            return "DURING"; 
+
+Rule202: 1 out of 1
+        if (ends_with_ing(entity2.string) && 
+                dependencyTypeEntity2Entity1(entity1, entity2, governorMap, "cop"))
+            return "DURING_INV"; 
+
+===================
+WORDNET
+===================
+Rule203: 59 out of 240
+if (entity1.synonymsList.containsAny(entity2.synonymsListWords) ||
+	entity2.synonymsList.containsAny(entity1.synonymsListWords)) &&
+	(sameSentence=TRUE || consecutiveSentence=TRUE)
+then infer relation=SIMULTANEOUS
+
+Rule204: 304 out of 456
+if entity1.synonymsList.contains(entity2.headWordLemma) ||
+	entity2.synonymsList.contains(entity1.headWordLemma)
+then infer relation=IDENTITY
+
+Rule205: 10 out of 38
+if entity1.class=OCCURRENCE &&
+	entity2.class=OCCURRENCE &&
+	entity1.hypernymsList.contains(entity2.headWordLemma) ||
+	entity2.hypernymsList.contains(entity1.headWordLemma)
+then infer relation=IDENTITY	
+
+Rule206: 11 out of 25
+if entity1.hyponymsList.contains(entity2.headWordLemma) ||
+	entity2.hyponymsList.contains(entity1.headWordLemma)
+then infer relation=IDENTITY
+
+Rule207: 44 out of 141
+if (entity1.synonymsList.containsAny(entity2.hypernymListWords) ||
+	entity2.hypernymList.containsAny(entity1.synonymsListWords))
+then infer relation=IDENTITY
+
+Rule208: 179 out of 394
+if (entity1.troponymsList.containsAny(entity2.troponymListWords) ||
+	entity2.troponymList.containsAny(entity1.troponymsListWords))
+then infer relation=IDENTITY
+
+Rule209: 326 out of 535
+if (entity1.synonymsList.containsAny(entity2.synonymsListWords) ||
+	entity2.synonymsList.containsAny(entity1.synonymsListWords)) &&
+	(sameSentence=TRUE || consecutiveSentence=TRUE)
+then infer relation=IDENTITY
+
+Rule210: 755 out of 4968
+if entity1.class=OCCURRENCE &&
+	entity2.class=REPORTING &&
+	(entity1.hyponymsList.containsAny(entity2.troponymListWords) ||
+	entity1.troponymsList.containsAny(entity2.hyponymsListWords))	
+then infer relation=INCLUDES
+
+Rule211: 2 out of 3
+if (entity1.hypernymsList.containsAny(entity2.troponymListWords) ||
+	entity1.troponymsList.containsAny(entity2.hypernymsListWords))	
+then infer relation=INCLUDES
+
+Rule212: 15 out of 103
+if (entity1.synonymsList.containsAny(entity2.hyponymListWords) ||
+	entity1.hyponymsList.containsAny(entity2.synonymsListWords))	
+then infer relation=INCLUDES
+
+
+=======================
+WEBSTER and/or WORDNET
+=======================
+Rule213: 1 out of 1
+if entity1.class=STATE &&
+	entity2.class=STATE &&
+	(entity1.websterAntonymsList.containsAny(entity2.wordnetSynonymsListWords) ||
+	entity2.websterAntonymsList.containsAny(entity1.wordnetSynonymsListWords)) &&
+	substringInBetweenEntity1AndEntity2.contains(noVerbs) &&
+	entity1.hasWordInWordProximity=LessThanOrEqual10
+then infer relation=SIMULTANEOUS
+	
+Rule214: 119 out of 540
+if (entity1.websterRelatedWordsList.containsAny(entity2.websterRelatedWordsListWord) ||
+	entity2.websterRelatedWordsList.containsAny(entity1.websterRelatedWordsListWord))
+then infer relation=SIMULTANEOUS
+
+Rule215: 23 out of 42
+if (entity1.wordnetTroponymsList.containsAny(entity2.websterRelatedWordsListWord) ||
+	entity1.websterRelatedWordsList.containsAny(entity2.wordnetTroponymsListWord))
+then infer relation=SIMULTANEOUS
+
+Rule216: 25 out of 82
+if (entity1.websterNearAntonymsList.containsAny(entity2.wordnetTroponymsListWord) ||
+	entity1.wordnetTroponymsList.containsAny(entity2.websterNearAntonymsListWord) &&
+	sentenceDistance>=3)
+then infer relation=SIMULTANEOUS
+
+Rule217: 12 out of 31
+if (entity1.websterAntonymsList.containsAny(entity2.wordnetTroponymsListWord) ||
+	entity1.wordnetTroponymsList.containsAny(entity2.websterAntonymsListWord) &&
+	sentenceDistance>=3)
+then infer relation=SIMULTANEOUS
+
+Rule218: 230 out of 444
+if entity1.websterNearAntonymsList.containsAny(entity2.websterNearAntonymsListWord) ||
+	entity1.websterNearAntonymsList.containsAny(entity2.websterNearAntonymsListWord)
+then infer relation=IDENTITY
+
+Rule219: 401 out of 1441
+if entity1.websterRelatedWordsList.containsAny(entity2.websterSynonymsListWords) ||
+	entity2.websterRelatedWordsList.containsAny(entity1.websterSynonymsListWords) ||
+	entity1.websterRelatedWordsList.containsAny(entity2.websterRelatedWordsListWords) ||
+	entity2.websterRelatedWordsList.containsAny(entity1.websterRelatedWordsListWords)
+then infer relation=IDENTITY
+
+Rule220: 6 out of 50
+if (entity1.webstersynonymWordsList.containsAny(entity2.websterRelatedWordsListWord) ||
+	entity1.websterRelatedWordsList.containsAny(entity2.websterSynonymWordsListWord))
+then infer relation=SIMULTANEOUS
+
+
+=================
+SRL ARGUMENTS
+================
+
+Rule221: 75 out of 401
+        if (entity1.isSRL && SvmFeature.isRoleEntity(entity1.temporal_marker, entity2.b, entity2.e) &&
+                !(ntity2.attribute2.equals("FUTURE")))
+            return "AFTER";
+
+Rule222: 21 out of 26
+        if (entity1.isSRL && SvmFeature.isRoleEntity(entity1.cause, entity2.b, entity2.e))
+            return "AFTER";
+
+Rule223: 3 out of 3
+        if (entity1.isSRL && SvmFeature.isRoleEntity(entity1.temporal_marker, entity2.b, entity2.e) &&
+                entity1.attribute2.equals("PRESENT") && entity1.attribute3.equals("PERFECTIVE") && entity2.attribute2.equals("PAST"))
+            return "AFTER";
+
+Rule224: 32 out of 36
+        if (entity1.isSRL && SvmFeature.isRoleEntity(entity1.temporal_marker, entity2.b, entity2.e) &&
+                hasWordInContext(entity2.context_token_precede, "after", txt))
+            return "AFTER";
+
+Rule225: 14 out of 126
+        if (entity2.isSRL && SvmFeature.isRoleEntity(entity2.temporal_marker, entity1.b, entity1.e))
+            return "BEFORE";
+
+Rule226: 7 out of 14
+        if (entity1.isSRL && SvmFeature.isRoleEntity(entity1.purpose, entity2.b, entity2.e) && entity1.pos.contains("VB") &&
+                entity2.attribute2.equals("INFINITIVE"))
+            return "BEFORE";
+
+Rule227: 18 out of 30
+        if (dependencyTypeEntity2Entity1(entity1, entity2, governorMap, "advcl"))
+            return "BEFORE";  
+
+Rule228: 5 out of 7
+        if (entity2.isSRL && SvmFeature.isRoleEntity(entity2.temporal_marker, entity1.b, entity1.e) &&
+                dependencyTypeEntity2Entity1(entity1, entity2, governorMap, "advcl"))
+            return "BEFORE";    
+
+Rule229: 21 out of 51
+        if (entity2.attribute2.equals("INFINITIVE") && 
+                dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "xcomp"))
+            return "BEFORE"; 
+
+Rule230: 1 out of 1
+        if (dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "advcl") && entity1.attribute1.equals("STATE") &&
+                entity2.attribute1.equals("ASPECTUAL") && entity1.isSRL && SvmFeature.isRoleEntity(entity1.temporal_marker, entity2.b, entity2.e))
+            return "ENDED_BY";
+
+Rule231: 7 out of 16
+        if (entity1.isSRL && SvmFeature.isRoleEntity(entity1.temporal_marker, entity2.b, entity2.e) &&
+                hasWordInContext(entity2.context_token_precede, "until", txt)) {
+            return "ENDED_BY";
+        }        
+
+Rule232: 7 out of 16
+        if (entity1.isSRL && isRoleEntity(entity1.temporal_marker, entity2.b, entity2.e) &&
+                hasWordInContext(entity2.context_token_precede, "until", txt)) {
+            return "ENDED_BY";
+        }        
+
+Rule233: 5 out of 9
+if entity1.advclDependency=GOVERNOR &&
+	entity2.advclDependency=DEPENDENT &&
+	substringInBetweenEntity1AndEntity2.matches(.* as .*) &&
+	entity1.pos=VB &&
+	entity1.hasTemporalArgument=TRUE &&
+	entity1.temporalArgument.contains(entity2) &&
+	((entity1.tense=entity2.tense && entity1.tense=PAST) ||
+	(((entity1.tenseAspect=PRESENT-PROGRESSIVE) || entity1.tense=INFINITIVE) && entity2.tense=PRESENT) ||
+	(entity1.tense=PRESPART && entity2.tense=PAST))
+then infer relation=SIMULTANEOUS
+
+Rule234: 2 out of 2
+if entity1.advclDependency=GOVERNOR &&
+	entity2.advclDependency=DEPENDENT &&
+	substringInBetweenEntity1AndEntity2.matches(.* when .*) &&
+	entity1.pos=VB && 
+	entity1.hasTemporalArgument=TRUE &&
+	entity1.temporalArgument.contains(entity2) &&
+	((entity1.tense=PASTPART && entity2.tense=PAST) ||
+	(entity1.tense=INFINITIVE && entity2.tense=PRESENT))
+then infer relation=SIMULTANEOUS
+
+Rule235: 1 out of 1
+if entity1.class=OCCURRENCE &&
+	entity2.class=OCCURRENCE &&		
+	entity2.pos=VB && 
+	entity2.hasLocativeArgument=TRUE &&
+	entity2.locativeArgument.contains(entity1) &&
+	entity1.tenseAspect=entity2.tenseAspect &&
+	entity1.tenseAspect=NONE-NONE
+then infer relation=SIMULTANEOUS
+
+Rule236: 1 out of 2
+if entity2.pos=VB && 
+	entity2.hasLocativeArgument=TRUE &&
+	entity2.locativeArgument.contains(entity1) &&
+	entity2.class=I_STATE
+then infer relation=SIMULTANEOUS
+
+Rule237: 1 out of 1
+if entity1.pos=VB && 
+	entity1.hasPurposeArgument=TRUE &&
+	entity1.purposeArgument.contains(entity2) &&
+	entity1.tense=entity2.tense &&
+	entity.aspect=PERFECTIVE
+then infer relation=SIMULTANEOUS
+
+Rule238: 1 out of 1
+if entity1.pos=VB && 
+	entity1.hasMannerArgument=TRUE &&
+	entity1.mannerArgument.contains(entity2) &&
+	entity1.class=ASPECTUAL &&
+	entity2.class=OCCURRENCE &&
+	entity1.tenseAspect=entity2.tenseAspect &&
+	entity1.tense=NONE &&
+	entity1.aspect=NONE
+then infer relation=IDENTITY
+
+Rule239: 53 out of 83
+if entity1.pos=VB && 
+	entity1.hasLocativeArgument=TRUE &&
+	entity1.locativeArgument.contains(entity2)
+then infer relation=IS_INCLUDED
+
+Rule240: 11 out of 12
+if entity1.pos=VB && 
+	entity1.hasLocativeArgument=TRUE &&
+	entity1.locativeArgument.contains(entity2) &&
+	entity1.class=REPORTING
+then infer relation=IS_INCLUDED
+
+Rule241: 35 out of 44 = 0.795
+if sameSentence=TRUE &&
+	entity2.pos=VB &&
+	entity2.hasSrlLocativeArgument=TRUE &&
+	entity2.srlLocativeArgument.contains(entity1) &&
+	entity1.class.notEquals(I_STATE)
+then infer relation=INCLUDES
+e.g.: In an [interview] from Jordan on ABC , he [declined]...
+
+
+Rule242: 11 out of 12 = 0.916
+if sameSentence=TRUE &&
+	entity1.pos=VB &&
+	entity1.hasSrlLocativeArgument=TRUE &&
+	entity1.srlLocativeArgument.contains(entity2) &&
+	entity1.class=REPORTING
+then infer relation=IS_INCLUDED
+e.g.: Gremitskikh [said] at a regular news [briefing]...
+
+Rule243: 21 out of 26 = 0.8076
+if sameSentence=TRUE &&
+	entity1.pos=VB &&
+	entity1.hasSrlCauseArgument=TRUE &&
+	entity1.srlCauseArgument.contains(entity2)
+then infer relation=AFTER
+e.g.: Profit also [suffered] because of "intense" [discounting] in its long-haul...
+
+
+Rule244: 32 out of 36 = 0.889
+if sameSentence=TRUE &&
+	entity1.pos=VB &&
+	entity1.hasSrlTemporalArgument=TRUE &&
+	entity1.srlTemporalArgument.contains(entity2) &&
+	entity2.hasWordIn5WordPrecedingContext=after
+then infer relation=AFTER
+e.g.: Columbia [announced]e84 the results after the [close]e2002 of the stock market.
+
+
+==========
+DISCOURSE 
+==========
+
+Rule245: 1 out of 1
+        if (entity1.sID != entity2.sID && discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "EntRel") &&
+                hasWordInContext(entity1.context_token_precede, "when", txt) &&
+                hasWordInImmediateContext(entity2.context_token_precede, "were", true, txt) &&
+                are_verb_events(entity1, entity2))
+            return "DURING";
+
+Rule246: 1 out of 5
+        if (dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "advcl") && 
+                discourseTypeCheck(entity1, entity2, pdtb_explicit_map, "Synchrony") &&
+                entity1.isSRL && SvmFeature.isRoleEntity(entity1.temporal_marker, entity2.b, entity2.e) &&
+                sameClass(entity1, entity2) &&
+                txt.substring(entity1.e, entity2.b).matches(".* when .*")) {
+            return "DURING";
+
+Rule247: 1 out of 1
+        if (entity1.isSRL && SvmFeature.isRoleEntity(entity1.temporal_marker, entity2.b, entity2.e) &&
+                dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "conj") &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Conjunction") &&
+                are_event_occurrences(entity1, entity2) &&
+                entity1.attribute2.equals("NONE") && entity2.attribute2.equals("PRESENT") &&
+                entity1.govern_verb_word.equals("could") && entity2.govern_verb_word.equals("are"))
+            return "AFTER";
+
+Rule248: 2 out of 2
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Asynchronous") &&
+                entity1.attribute1.equals("OCCURRENCE") && entity1.attribute2.equals("NONE") &&
+                (entity2.attribute1.equals("ASPECTUAL") || entity2.attribute1.equals("OCCURRENCE")) && 
+                entity2.attribute2.equals("PAST") &&
+                (hasWordInContext(entity2.context_token_precede, "after", txt) ||
+                hasWordInContext(entity1.context_token_follow, "after", txt)))
+            return "AFTER";
+
+Rule249: 1 out of 1
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Conjunction") &&
+                entity1.attribute1.equals("DATE") && 
+                entity2.attribute1.equals("I_ACTION") && entity2.attribute2.equals("PAST"))
+            return "AFTER";
+
+Rule250: 1 out of 1
+        if (dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "dep") &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Asynchronous") &&
+                entity1.attribute1.equals("ASPECTUAL") && sameTense(entity1, entity2) &&
+                entity2.attribute1.equals("OCCURRENCE") &&
+                txt.substring(entity1.e, entity2.b).contains("after"))
+            return "AFTER";
+
+Rule251: 1 out of 1
+        if (entity1.sID != entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "EntRel") &&
+                entity1.attribute1.equals("I_ACTION") && entity1.attribute3.equals("PROGRESSIVE") &&
+                sameTense(entity1, entity2) &&
+                entity2.attribute1.equals("OCCURRENCE") && entity2.attribute3.equals("PERFECTIVE"))
+            return "AFTER";
+
+Rule252: 1 out of 1
+        if (entity1.sID != entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "EntRel") &&
+                entity1.attribute1.equals("DATE") && 
+                hasWordInImmediateContext(entity1.context_token_precede, "on", true, txt) &&
+                entity2.attribute1.equals("I_ACTION") && entity2.attribute2.equals("PAST"))
+            return "AFTER";
+
+Rule253: 1 out of 6
+        if (entity1.sID != entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "Cause") &&
+                are_event_occurrences(entity1, entity2) && 
+                sameTenseAspect(entity1, entity2))
+            return "AFTER";
+
+Rule254: 1 out of 1
+        if (dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "advcl") &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Condition") &&
+                sameTense(entity1, entity2) && 
+                hasWordInImmediateContext(entity1.context_token_precede, "would", true, txt))
+            return "AFTER";
+
+Rule255: 1 out of 1
+        if (entity1.isSRL && SvmFeature.isRoleEntity(entity1.temporal_marker, entity2.b, entity2.e) &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Synchrony") &&
+                entity1.attribute2.equals("FUTURE") && entity2.attribute2.equals("PRESENT"))
+            return "AFTER";
+
+Rule256: 1 out of 1
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Synchrony") &&
+                entity1.attribute2.equals("NONE") && entity2.attribute2.equals("PRESENT") &&
+                hasWordInImmediateContext(entity1.context_token_precede, "could", true, txt) &&
+                hasWordInImmediateContext(entity2.context_token_precede, "when", true, txt))
+            return "AFTER";
+
+Rule257: 1 out of 1
+        if (entity1.isSRL && SvmFeature.isRoleEntity(entity1.temporal_marker, entity2.b, entity2.e) &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Conjunction") &&
+                dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "conj") &&
+                hasWordInImmediateContext(entity1.context_token_follow, "after", false, txt) &&
+                sameTense(entity1, entity2) && entity1.attribute2.equals("PAST"))
+            return "AFTER";
+
+Rule258: 1 out of 1
+        if (entity1.sID != entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Asynchronous") &&
+                entity1.attribute1.equals("OCCURRENCE") && entity2.attribute1.equals("I_ACTION") &&
+                entity2.attribute2.equals("PAST"))
+            return "AFTER";
+
+Rule259: 1 out of 1
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Synchrony") &&
+                entity1.attribute1.equals("REPORTING") && entity2.attribute1.equals("I_ACTION") &&
+                entity1.attribute2.equals("INFINITIVE") && entity2.attribute2.equals("PRESENT"))
+            return "AFTER";
+
+Rule260: 1 out of 2
+        if (entity1.sID != entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "EntRel") &&
+                entity1.attribute1.equals("I_ACTION") && entity1.attribute2.equals("FUTURE") &&
+                entity2.attribute2.equals("PRESENT") && entity2.attribute3.equals("PROGRESSIVE") &&
+                entity2.govern_verb_word.equals("is"))
+            return "AFTER";
+
+Rule261: 1 out of 1
+        if (entity1.sID != entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "Contrast") &&
+                entity1.attribute1.equals("STATE") && entity1.attribute2.equals("PAST") &&
+                entity2.attribute1.equals("OCCURRENCE") && entity2.attribute2.equals("PAST"))
+            return "AFTER";
+
+Rule262: 1 out of 1
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Cause") &&
+                are_event_occurrences(entity1, entity2) && 
+                hasWordInImmediateContext(entity1.context_token_follow, "could", false, txt) &&
+                entity2.attribute2.equals("PAST"))
+            return "AFTER";
+
+Rule263: 2 out of 2
+        if (entity1.sID != entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Asynchronous") &&
+                are_event_occurrences(entity1, entity2) && 
+                txt.substring(entity1.e, entity2.b).toLowerCase().contains("previously") &&
+                sameTense(entity1, entity2))
+            return "AFTER";
+
+Rule264: 1 out of 1
+        if (discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Contrast") &&
+                entity1.isSRL && SvmFeature.isRoleEntity(entity1.temporal_marker, entity2.b, entity2.e) &&
+                are_event_occurrences(entity1, entity2) && 
+                entity1.attribute2.equals("INFINITIVE") && entity2.attribute2.equals("PAST"))
+            return "AFTER";
+
+Rule265: 1 out of 1
+        if (discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Contrast") &&
+                entity1.isSRL && SvmFeature.isRoleEntity(entity1.purpose, entity2.b, entity2.e) &&
+                entity1.attribute2.equals("INFINITIVE") && 
+                entity2.attribute1.equals("STATE") && entity2.attribute2.equals("NONE"))
+            return "AFTER";
+
+Rule267: 1 out of 2
+        if (discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Contrast") &&
+                entity1.sID == entity2.sID &&
+                are_event_occurrences(entity1, entity2) &&
+                sameTenseAspect(entity1, entity2) &&
+                entity1.attribute2.equals("PAST") &&
+                entity1.attribute3.equals("NONE") &&
+                entity2.govern_verb_word.equals("was"))
+            return "AFTER";
+
+Rule268: 1 out of 1
+        if (entity1.sID != entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "Conjunction") && 
+                are_event_occurrences(entity1, entity2) && entity1.govern_verb_word.equals("were") &&
+                entity1.pos.contains("VB") && ends_with_ed(entity1.string) && entity1.attribute2.equals("PAST") &&
+                entity2.pos.contains("NN") && entity2.attribute2.equals("NONE") &&
+                hasPOSInContext(entity1.context_pos_precede, "NNP") &&
+                hasSubjectPronounInContext(entity2.context_token_precede, txt))
+            return "AFTER";
+
+Rule269: 1 out of 1
+        if (entity1.sID != entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "Restatement") &&
+                entity1.attribute1.equals("OCCURRENCE") && entity2.attribute1.equals("REPORTING") &&
+                entity1.attribute2.equals("NONE") && entity2.attribute2.equals("PAST") &&
+                entity2.attribute3.equals("PERFECTIVE_PROGRESSIVE") && entity2.govern_verb_word.equals("been"))
+            return "AFTER";
+
+Rule270: 1 out of 1
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Alternative") &&
+                dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "advcl") &&
+                entity1.attribute1.equals("OCCURRENCE") && entity2.attribute1.equals("I_STATE") &&
+                entity1.attribute2.equals("INFINITIVE") && entity2.attribute2.equals("PRESENT"))
+            return "AFTER";
+
+Rule271: 1 out of 1
+        if (discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Cause") &&
+                dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "advcl") &&
+                entity1.isSRL && SvmFeature.isRoleEntity(entity1.temporal_marker, entity2.b, entity2.e) &&
+                entity1.attribute1.equals("OCCURRENCE") && entity2.attribute1.equals("REPORTING") &&
+                sameTenseAspect(entity1, entity2) && hasWordInContext(entity2.context_token_precede, "when", txt))
+            return "AFTER";
+
+Rule272: 1 out of 1
+        if (entity1.sID != entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "EntRel") &&
+                are_event_occurrences(entity1, entity2) &&
+                sameTenseAspect(entity1, entity2) && entity1.attribute2.equals("PAST") &&
+                ends_with_ed(entity1.string) && !ends_with_ed(entity2.string) &&
+                entity1.head_word.equals(entity2.head_word))
+            return "AFTER";
+
+Rule273: 1 out of 1
+        if (entity1.sID != entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "EntRel") &&
+                entity1.attribute1.equals("REPORTING") && entity2.attribute1.equals("OCCURRENCE") &&
+                sameTenseAspect(entity1, entity2) && entity1.attribute2.equals("PAST") &&
+                entity2.govern_verb_word.equals("was"))
+            return "AFTER";
+
+Rule274: 1 out of 1
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Conjunction") &&
+                are_event_occurrences(entity1, entity2) && are_verb_events(entity1, entity2) &&
+                entity1.attribute2.equals("PRESENT") && ends_with_ing(entity2.string))
+            return "BEFORE";
+
+Rule275: 1 out of 1
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Synchrony") &&
+                entity1.attribute1.equals("STATE") && entity2.attribute1.equals("I_ACTION") && 
+                sameTense(entity1, entity2) && 
+                dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "advcl"))
+            return "BEFORE";
+
+Rule276: 3 out of 3
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Synchrony") &&
+                entity1.attribute1.equals("STATE") && entity2.attribute1.equals("I_ACTION") && 
+                sameTense(entity1, entity2))
+            return "BEFORE";
+
+Rule277: 3 out of 3
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Asynchronous") &&
+                (entity1.attribute1.equals("REPORTING") || entity1.attribute1.equals("OCCURRENCE")) &&
+                entity2.attribute1.equals("OCCURRENCE") &&
+                hasWordInImmediateContext(entity1.context_token_follow, "before", false, txt) &&
+                entity1.isSRL && SvmFeature.isRoleEntity(entity1.temporal_marker, entity2.b, entity2.e))
+            return "BEFORE";
+
+Rule278: 1 out of 2
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Asynchronous") &&
+                entity1.attribute1.equals("REPORTING") && entity2.attribute1.equals("OCCURRENCE") &&
+                entity1.isSRL && SvmFeature.isRoleEntity(entity1.temporal_marker, entity2.b, entity2.e))
+            return "BEFORE";
+
+Rule279: 1 out of 1
+        if (entity1.sID != entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "Cause") &&
+                entity1.attribute1.equals("OCCURRENCE") && entity2.attribute1.equals("ASPECTUAL") &&
+                entity1.attribute2.equals("INFINITIVE") && entity2.attribute2.equals("NONE"))
+            return "BEFORE";
+
+Rule280: 1 out of 1
+        if (entity1.sID != entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Contrast") &&
+                entity1.attribute1.equals("OCCURRENCE") && entity2.attribute1.equals("I_ACTION") &&
+                entity1.attribute2.equals("PRESENT") && entity1.attribute3.equals("PERFECTIVE") &&
+                !entity1.govern_verb_word.equals(NV) && 
+                entity1.govern_verb_word.equals(entity2.govern_verb_word))
+            return "BEFORE";
+
+Rule281: 1 out of 1
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Conjunction") &&
+                dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "conj") &&
+                are_event_occurrences(entity1, entity2) && 
+                sameTense(entity1, entity2) &&
+                are_verb_events(entity1, entity2) &&
+                ends_with_ed(entity1.string) && ends_with_ed(entity2.string))
+            return "BEFORE";
+
+Rule282: 2 out of 2
+        if (entity1.sID != entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Asynchronous") &&
+                are_verb_events(entity1, entity2) &&
+                sameTense(entity1, entity2) &&
+                hasWordInImmediateContext(entity2.context_token_precede, "then", true, txt))
+            return "BEFORE";
+
+Rule284: 1 out of 3
+        if (entity1.sID != entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "EntRel") &&
+                are_verb_events(entity1, entity2) &&
+                entity1.attribute1.equals("OCCURRENCE") && entity2.attribute1.equals("I_ACTION") &&
+                sameTense(entity1, entity2))
+            return "BEFORE";
+
+Rule285: 1 out of 1
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Asynchronous") &&
+                are_verb_events(entity1, entity2) &&
+                entity1.attribute2.equals("PAST") && entity1.attribute3.equals("PERFECTIVE") &&
+                entity2.attribute2.equals("INFINITIVE"))
+            return "BEFORE";
+
+Rule286: 6 out of 10
+        if (entity1.sID != entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "EntRel") &&
+                are_verb_events(entity1, entity2) &&
+                entity1.attribute2.equals("PAST") && entity2.attribute2.equals("PRESENT"))
+            return "BEFORE";
+
+Rule287: 4 out of 4
+        if (entity1.sID != entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "EntRel") &&
+                are_verb_events(entity1, entity2) &&
+                entity1.attribute2.equals("PAST") && entity1.attribute3.equals("NONE") &&
+                entity2.attribute2.equals("PRESENT") && entity2.attribute3.equals("PERFECTIVE"))
+            return "BEFORE";
+
+Rule288: 1 out of 1
+        if (entity1.sID != entity2.sID && entity1.attribute1.equals("PERCEPTION") &&
+                entity2.attribute1.equals("OCCURRENCE") && sameTense(entity1, entity2) &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Alternative"))
+            return "BEFORE";
+
+Rule290: 1 out of 1
+        if (entity1.sID != entity2.sID && entity1.attribute1.equals("DATE") &&
+                entity2.attribute1.equals("ASPECTUAL") && entity2.attribute2.equals("PAST") &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Asynchronous"))
+            return "BEFORE";
+
+Rule291: 4 out of 39
+        if (entity1.sID != entity2.sID && sameTense(entity1, entity2) &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Conjunction"))
+            return "BEFORE";
+        return null;
+
+Rule292: 20 out of 57
+        if (entity1.sID != entity2.sID && sameTense(entity1, entity2) &&
+                are_verb_events(entity1, entity2) &&
+                !entity1.head_word.equals(entity2.head_word) &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "EntRel"))
+            return "BEFORE";
+
+Rule293: 4 out of 12
+        if (entity1.sID != entity2.sID && sameTense(entity1, entity2) &&
+                are_event_occurrences(entity1, entity2) &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Contrast"))
+            return "BEFORE";
+
+Rule294: 1 out of 1
+        if (entity1.sID == entity2.sID && entity2.isSRL &&
+                SvmFeature.isRoleEntity(entity2.temporal_marker, entity1.b, entity1.e) && 
+                entity1.attribute1.equals("OCCURRENCE") && entity2.attribute1.equals("STATE") &&
+                entity1.attribute2.equals("NONE") && entity2.attribute2.equals("PRESENT") && entity2.attribute3.equals("PERFECTIVE") &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Conjunction"))
+            return "BEFORE";
+
+Rule295: 1 out of 1
+        if (entity1.isSRL && SvmFeature.isRoleEntity(entity1.temporal_marker, entity2.b, entity2.e) && 
+                dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "advcl") &&
+                entity1.attribute1.equals("OCCURRENCE") && 
+                entity2.attribute1.equals("STATE") && sameTenseAspect(entity1, entity2) &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Asynchronous"))
+            return "BEFORE";
+
+Rule296: 4 out of 11
+        if (entity1.sID == entity2.sID && sameTense(entity1, entity2) &&
+                are_verb_events(entity1, entity2) &&
+                !entity1.string.equals(entity2.string) &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Conjunction"))
+            return "BEFORE";
+
+Rule297: 1 out of 1
+        if (entity1.sID != entity2.sID && 
+                entity1.pos.contains("VB") && entity2.attribute1.equals("STATE") &&
+                !entity1.head_word.equals(entity2.head_word) &&
+                entity1.attribute2.equals("PASTPART") && (entity2.attribute2.equals("PAST") ||
+                entity2.attribute2.equals("NONE")) &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "EntRel"))
+            return "BEFORE";
+
+Rule298: 1 out of 1
+        if (entity1.sID != entity2.sID && 
+                sameClass(entity1, entity2) && entity1.attribute1.equals("I_STATE") &&
+                entity1.attribute2.equals("NONE") && entity2.attribute2.equals("PRESENT") &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "EntRel"))
+            return "BEFORE";
+
+Rule299: 1 out of 1
+        if (entity2.isSRL && SvmFeature.isRoleEntity(entity2.temporal_marker, entity1.b, entity1.e) && 
+                entity1.attribute1.equals("REPORTING") && 
+                entity2.attribute1.equals("OCCURRENCE") && sameTenseAspect(entity1, entity2) &&
+                hasWordInContext(entity1.context_token_precede, "after", txt) &&
+                discourseTypeEntity2Entity1(entity1, entity2, pdtb_explicit_map, "Asynchronous"))
+            return "BEFORE";
+
+Rule300: 2 out of 3
+        if (entity1.sID == entity2.sID && sameClass(entity1, entity2) &&
+                entity1.attribute2.equals("NONE") && entity2.attribute2.equals("FUTURE") &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Cause"))
+            return "BEFORE";
+
+Rule301: 1 out of 1
+        if (entity1.sID == entity2.sID && sameClass(entity1, entity2) &&
+                sameTense(entity1, entity2) &&
+                hasWordInContext(entity2.context_token_precede, "before", txt) &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Asynchronous"))
+            return "BEFORE";
+
+Rule302: 1 out of 1
+        if (entity1.sID != entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "Cause") &&
+                entity1.attribute1.equals("OCCURRENCE") && entity2.attribute1.equals("OCCURRENCE") &&
+                entity1.attribute2.equals("INFINITIVE") && entity2.attribute2.equals("PRESENT"))
+            return "BEFORE";
+
+Rule303: 1 out of 1
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Contrast") &&
+                entity1.attribute1.equals("STATE") && entity2.attribute1.equals("REPORTING") &&
+                entity1.attribute2.equals("NONE") && entity2.attribute2.equals("PAST"))
+            return "BEFORE";
+
+Rule304: 1 out of 1
+        if (entity1.sID == entity2.sID && entity1.attribute1.equals("PERCEPTION") &&
+                entity2.attribute1.equals("REPORTING") && 
+                hasWordInContext(entity2.context_token_precede, "before", txt) &&
+                entity1.isSRL && SvmFeature.isRoleEntity(entity1.temporal_marker, entity2.b, entity2.e) &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Asynchronous"))
+            return "BEFORE";
+
+Rule305: 1 out of 1
+        if (entity1.sID != entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "EntRel") &&
+                entity1.attribute1.equals("I_STATE") && entity2.attribute1.equals("PERCEPTION") &&
+                entity1.attribute2.equals("PAST") && entity2.attribute2.equals("PRESENT"))
+            return "BEFORE";
+
+Rule306: 1 out of 1
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Conjunction") &&
+                are_event_occurrences(entity1, entity2) && 
+                entity1.attribute2.equals("PRESENT") && entity1.attribute3.equals("PERFECTIVE") &&
+                entity2.attribute2.equals("NONE"))
+            return "BEFORE";
+
+Rule307: 4 out of 4
+        if (entity1.sID != entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Asynchronous") &&
+                are_verb_events(entity1, entity2) &&
+                sameTense(entity1, entity2) &&
+                txt.substring(entity1.e, entity2.b).toLowerCase().contains("then"))
+            return "BEFORE";
+
+Rule308: 1 out of 2
+        if (entity1.sID == entity2.sID && are_event_occurrences(entity1, entity2) &&
+                entity1.attribute2.equals("NONE") && entity2.attribute2.equals("FUTURE") &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Contrast"))
+            return "BEFORE";
+
+Rule309: 1 out of 1
+        if (entity1.sID == entity2.sID &&
+                entity1.attribute1.equals("OCCURRENCE") && entity2.attribute1.equals("I_ACTION") && 
+                ends_with_ing(entity1.string) && ends_with_ed(entity2.string) &&
+                hasWordInContext(entity1.context_token_precede, "after", txt) &&
+                discourseTypeEntity2Entity1(entity1, entity2, pdtb_explicit_map, "Asynchronous"))
+            return "BEFORE";
+
+Rule310: 1 out of 1
+        if (discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Conjunction") &&
+                dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "conj") &&
+                are_event_occurrences(entity1, entity2) && 
+                entity1.attribute2.equals("PAST") && entity2.attribute2.equals("PRESENT"))
+            return "BEFORE";
+
+Rule311: 3 out of 3
+        if (entity1.sID == entity2.sID && are_event_occurrences(entity1, entity2) && 
+                hasWordInContext(entity2.context_token_precede, "before", txt) &&
+                entity1.isSRL && SvmFeature.isRoleEntity(entity1.temporal_marker, entity2.b, entity2.e) &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Asynchronous"))
+            return "BEFORE";
+
+Rule312: 1 out of 1
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "EntRel") &&
+                are_verb_events(entity1, entity2) &&
+                entity1.attribute2.equals("PAST") && entity2.attribute2.equals("INFINITIVE"))
+            return "BEFORE";
+
+Rule313: 1 out of 1
+        if (entity1.sID != entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "Conjunction") &&
+                entity1.attribute1.equals("OCCURRENCE") && entity2.attribute1.equals("I_ACTION") &&
+                entity1.attribute2.equals("PRESENT") && entity1.attribute3.equals("PERFECTIVE") &&
+                (entity2.attribute2.equals("NONE") || entity2.attribute2.equals("PRESENT")))
+            return "BEFORE";
+
+Rule314: 1 out of 1
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Exception") &&
+                are_event_occurrences(entity1, entity2) &&
+                entity1.attribute2.equals("PRESENT") && entity1.attribute3.equals("PERFECTIVE") &&
+                entity2.attribute2.equals("INFINITIVE"))
+            return "BEFORE";
+
+Rule315: 1 out of 1
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Contrast") &&
+                are_event_occurrences(entity1, entity2) &&
+                entity1.attribute2.equals("PRESENT") && entity1.attribute3.equals("PERFECTIVE") &&
+                entity2.attribute2.equals("INFINITIVE"))
+            return "BEFORE";
+
+Rule316: 1 out of 1
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity2Entity1(entity1, entity2, pdtb_explicit_map, "Cause") &&
+                dependencyTypeEntity2Entity1(entity1, entity2, governorMap, "advcl") &&
+                entity1.attribute1.equals("OCCURRENCE") && entity2.attribute1.equals("I_STATE") &&
+                entity1.attribute2.equals("PAST") && entity2.attribute2.equals("PRESENT"))
+            return "BEFORE";
+
+Rule317: 1 out of 1
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity2Entity1(entity1, entity2, pdtb_explicit_map, "Cause") &&
+                entity1.attribute1.equals("OCCURRENCE") && entity2.attribute1.equals("I_STATE") &&
+                entity1.attribute2.equals("PRESENT") && entity2.attribute2.equals("NONE") &&
+                entity2.govern_verb_word.equals("has"))
+            return "BEFORE";
+
+Rule318: 3 out of 4
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Contrast") &&
+                dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "conj") &&
+                (are_reporting_events(entity1, entity2) || are_event_occurrences(entity1, entity2)) &&
+                sameTense(entity1, entity2))
+            return "BEFORE";
+
+Rule319: 1 out of 1
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity2Entity1(entity1, entity2, pdtb_explicit_map, "Contrast") &&
+                entity1.attribute1.equals("I_STATE") && entity2.attribute1.equals("OCCURRENCE") &&
+                entity1.attribute2.equals("NONE") && entity1.attribute3.equals("PERFECTIVE") &&
+                entity2.attribute2.equals("PAST"))
+            return "BEFORE";
+
+Rule320: 2 out of 3
+        if (entity1.sID != entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Cause") &&
+                sameClassTenseAspect(entity1, entity2))
+            return "BEFORE";
+
+Rule321: 1 out of 1
+        if (discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Contrast") &&
+                dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "conj") &&
+                entity1.attribute1.equals("OCCURRENCE") && entity2.attribute1.equals("STATE") &&
+                entity1.attribute2.equals("PAST") && entity2.attribute2.equals("PRESENT"))
+            return "BEFORE";
+
+Rule322: 1 out of 1
+        if (discourseTypeEntity2Entity1(entity1, entity2, pdtb_explicit_map, "Condition") &&
+                dependencyTypeEntity2Entity1(entity1, entity2, governorMap, "advcl") &&
+                entity1.attribute1.equals("STATE") && entity2.attribute1.equals("I_STATE") &&
+                sameTense(entity1, entity2))
+            return "BEFORE";
+
+Rule323: 4 out of 4
+        if (discourseTypeEntity2Entity1(entity1, entity2, pdtb_explicit_map, "Condition") &&
+                dependencyTypeEntity2Entity1(entity1, entity2, governorMap, "advcl") &&
+                (are_event_occurrences(entity1, entity2) ||
+                (entity1.attribute1.equals("I_ACTION") && entity2.attribute1.equals("STATE"))))
+            return "BEFORE";
+
+Rule324: 1 out of 1
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Contrast") &&
+                entity1.attribute1.equals("I_ACTION") && entity1.attribute2.equals("PAST") &&
+                entity2.attribute1.equals("OCCURRENCE") && entity2.attribute2.equals("NONE") &&
+                entity1.pos.contains("VB") && entity2.pos.contains("NN"))
+            return "BEFORE";
+
+Rule325: 2 out of 5
+        if (entity1.sID != entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Conjunction") &&
+                are_event_occurrences(entity1, entity2) &&
+                sameTense(entity1, entity2) && entity1.attribute2.equals("PAST") &&
+                !entity1.string.equals(entity2.string))
+            return "BEFORE";
+
+Rule326: 1 out of 1
+        if (entity1.sID != entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "EntRel") &&
+                entity1.attribute1.equals("OCCURRENCE") && entity2.attribute1.equals("I_STATE") &&
+                entity1.attribute2.equals("NONE") && entity1.attribute3.equals("NONE") &&
+                entity2.attribute2.equals("PRESENT") && entity2.attribute3.equals("PERFECTIVE"))
+            return "BEFORE";
+
+Rule327: 1 out of 1
+        if (entity1.sID == entity2.sID-1 &&
+                entity1.attribute1.equals("OCCURRENCE") && entity2.attribute1.equals("I_STATE") &&
+                entity1.attribute2.equals("NONE") && entity1.attribute3.equals("NONE") &&
+                entity2.attribute2.equals("PRESENT") && entity2.attribute3.equals("PERFECTIVE"))
+            return "BEFORE";
+
+Rule328: 1 out of 1
+        if (entity1.sID != entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "Cause") &&
+                are_event_occurrences(entity1, entity2) &&
+                entity1.attribute2.equals("PAST") && entity2.attribute2.equals("INFINITIVE"))
+            return "BEFORE";
+
+Rule329: 1 out of 1
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Contrast") &&
+                are_event_occurrences(entity1, entity2) &&
+                entity1.attribute2.equals("PRESPART") && entity2.attribute2.equals("INFINITIVE"))
+            return "BEFORE";
+
+Rule330: 3 out of 7
+        if (entity1.sID != entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Contrast") &&
+                are_event_occurrences(entity1, entity2) &&
+                sameTense(entity1, entity2) && entity1.attribute2.equals("PAST"))
+            return "BEFORE";
+
+Rule331: 2 out of 2
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Contrast") &&
+                are_state_events(entity1, entity2) &&
+                sameTense(entity1, entity2) && entity1.attribute2.equals("NONE"))
+            return "BEFORE";
+
+Rule332: 1 out of 1
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Cause") &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Conjunction") &&                
+                entity1.attribute1.equals("OCCURRENCE") && entity2.attribute1.equals("ASPECTUAL") &&
+                sameTense(entity1, entity2) && entity1.attribute2.equals("NONE"))
+            return "BEFORE";
+
+Rule333: 1 out of 1
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity2Entity1(entity1, entity2, pdtb_explicit_map, "Condition") &&
+                entity1.attribute1.equals("I_ACTION") && entity1.attribute2.equals("PRESENT") &&
+                entity2.attribute1.equals("OCCURRENCE") && entity2.attribute2.equals("INFINITIVE"))
+            return "BEFORE";
+
+Rule334: 1 out of 1
+        if (entity1.sID != entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Conjunction") &&
+                entity1.attribute1.equals("I_ACTION") && entity1.attribute2.equals("PAST") &&
+                entity2.attribute1.equals("OCCURRENCE") && entity2.attribute2.equals("NONE"))
+            return "BEFORE";
+
+Rule335: 1 out of 1
+        if (entity1.sID == entity2.sID &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Asynchronous") &&
+                entity1.attribute1.equals("STATE") && entity1.attribute2.equals("INFINITIVE") &&
+                entity2.attribute1.equals("OCCURRENCE") && entity2.attribute2.equals("PRESENT") &&
+                entity2.attribute3.equals("PERFECTIVE"))
+            return "BEFORE";
+
+Rule336: 2 out of 3
+if sameSentence=FALSE &&
+	entity1.class=OCCURRENCE &&
+	entity2.class=OCCURRENCE &&
+	entity1.tenseAspect=entity2.tenseAspect &&
+	entity1.tense=FUTURE
+	entity1.ImplicitEntRelDiscourseArgument=ARG1 &&
+	entity2.ImplicitEntRelDiscourseArgument=ARG2
+then infer relation="SIMULTANEOUS"
+
+Rule337: 1 out of 1
+if sameSentence=FALSE &&
+	entity1.class=STATE &&
+	entity2.class=STATE &&
+	entity1.tenseAspect=entity2.tenseAspect &&
+	entity1.RestatementDiscourseArgument=ARG1 &&
+	entity2.RestatementDiscourseArgument=ARG2 &&
+	entity1.headWordLemma.notEquals(entity2.headWordLemma)
+then infer relation="SIMULTANEOUS"
+	
+Rule338: 10 out of 39
+if sameSentence=FALSE &&
+	entity1.class=REPORTING &&
+	entity2.class=REPORTING &&
+	entity1.tenseAspect=entity2.tenseAspect &&
+	entity1.tense=PAST &&
+	entity1.ImplicitEntRelDiscourseArgument=ARG1 &&
+	entity2.ImplicitEntRelDiscourseArgument=ARG2 &&
+	entity1.headWordLemma=entity2.headWordLemma
+then infer relation="SIMULTANEOUS"
+
+Rule339: 13 out of 49
+if sameSentence=FALSE &&
+	entity1.class=OCCURRENCE &&
+	entity2.class=OCCURRENCE &&
+	entity1.tenseAspect=entity2.tenseAspect &&
+	entity1.tense=PAST &&
+	entity1.ImplicitConjunctionDiscourseArgument=ARG1 &&
+	entity2.ImplicitConjunctionDiscourseArgument=ARG2 &&
+	entity1.headWordLemma.notEquals(entity2.headWordLemma)
+then infer relation="SIMULTANEOUS"
+
+Rule340: 3 out of 8
+if sameSentence=FALSE &&
+	(entity1.class=OCCURRENCE || entity1.class=I_STATE) &&
+	entity2.class=OCCURRENCE &&
+	entity1.tenseAspect=entity2.tenseAspect &&
+	(entity1.tense=PAST || entity1.tense=NONE) &&
+	entity1.ImplicitCauseDiscourseArgument=ARG1 &&
+	entity2.ImplicitCauseDiscourseArgument=ARG2
+then infer relation="SIMULTANEOUS"
+
+Rule341: 4 out of 4
+if sameSentence=FALSE &&
+	entity1.class=OCCURRENCE &&
+	entity2.class=OCCURRENCE &&
+	entity1.tenseAspect=entity2.tenseAspect &&
+	entity1.tense=PAST &&
+	entity1.ImplicitConjunctionDiscourseArgument=ARG1 &&
+	entity2.ImplicitConjunctionDiscourseArgument=ARG2 &&
+	entity1.headWordLemma.notEquals(entity2.headWordLemma)
+then infer relation="SIMULTANEOUS"
+
+Rule342: 1 out of 1
+if sameSentence=TRUE &&
+	entity1.class=OCCURRENCE &&
+	entity2.class=OCCURRENCE &&
+	entity1.tenseAspect=entity2.tenseAspect &&
+	entity1.ImplicitCauseDiscourseArgument=ARG1 &&
+	entity2.ImplicitCauseDiscourseArgument=ARG2 &&
+	entity1.headWordLemma=entity2.headWordLemma &&
+	entity1.precededByProperNoun &&
+	entity2.precededByProperNoun
+then infer relation="SIMULTANEOUS"
+
+Rule343: 1 out of 1
+if sameSentence=FALSE &&
+	entity1.class=I_STATE &&
+	entity2.class=I_STATE &&
+	entity1.tenseAspect=entity2.tenseAspect &&
+	entity1.ImplicitContrastDiscourseArgument=ARG1 &&
+	entity2.ImplicitContrastDiscourseArgument=ARG2 &&
+then infer relation="SIMULTANEOUS"
+
+Rule344: 1 out of 1
+if sameSentence=FALSE &&
+	entity1.ImplicitEntRelDiscourseArgument=ARG1 &&
+	entity2.ImplicitEntRelDiscourseArgument=ARG2 &&
+	entity1.class=STATE &&
+	entity2.class=OCCURRENCE &&
+	entity1.tenseAspect=entity2.tenseAspect &&
+	entity1.attribute2=PRESENT &&
+	entity1.attribute3=PROGRESSIVE	
+then infer relation="SIMULTANEOUS"
+
+Rule345: 1 out of 1
+if sameSentence=FALSE &&
+	entity1.ImplicitConjunctionDiscourseArgument=ARG1 &&
+	entity2.ImplicitConjunctionDiscourseArgument=ARG2 &&
+	entity1.class=OCCURRENCE &&
+	entity2.class=OCCURRENCE &&
+	entity1.tense=entity2.tense &&
+	entity1.attribute2=PAST &&
+	(entity1.websterAntonymsList.contains(entity2.headWordLemma) || entity2.websterAntonymsList.contains(entity1.headWordLemma))
+then infer relation="SIMULTANEOUS"
+
+Rule346: 1 out of 3
+if sameSentence=FALSE &&
+	entity1.ImplicitEntRelDiscourseArgument=ARG1 &&
+	entity2.ImplicitEntRelDiscourseArgument=ARG2 &&
+	entity1.string=entity2.string &&
+	entity1.class=REPORTING &&
+	entity2.class=REPORTING &&
+	entity1.tenseAspect=entity2.tenseAspect &&
+	entity1.attribute2=PRESENT
+then infer relation="SIMULTANEOUS"
+
+Rule347: 3 out of 6
+if sameSentence=FALSE &&
+	entity1.ImplicitEntRelDiscourseArgument=ARG1 &&
+	entity2.ImplicitEntRelDiscourseArgument=ARG2 &&
+	entity1.class=REPORTING &&
+	entity2.class=REPORTING &&
+	entity1.tenseAspect=entity2.tenseAspect &&
+	entity1.attribute2=PRESENT
+then infer relation="SIMULTANEOUS"
+
+Rule348: 11 out of 42
+if sameSentence=FALSE &&
+	entity1.ImplicitEntRelDiscourseArgument=ARG1 &&
+	entity2.ImplicitEntRelDiscourseArgument=ARG2 &&
+	entity1.string=entity2.string &&
+	entity1.class=REPORTING &&
+	entity2.class=REPORTING &&
+	entity1.tenseAspect=entity2.tenseAspect &&
+then infer relation="SIMULTANEOUS"
+
+Rule349: 16 out of 55
+if sameSentence=FALSE &&
+	entity1.ImplicitEntRelDiscourseArgument=ARG1 &&
+	entity2.ImplicitEntRelDiscourseArgument=ARG2 &&
+	entity1.class=REPORTING &&
+	entity2.class=REPORTING &&
+	entity1.tenseAspect=entity2.tenseAspect
+then infer relation="SIMULTANEOUS"
+
+Rule350: 3 out of 7
+if sameSentence=FALSE &&
+	entity1.ConjunctionDiscourseArgument=ARG1 &&
+	entity2.ConjunctionDiscourseArgument=ARG2 &&
+	entity1.class=REPORTING &&
+	entity2.class=REPORTING &&
+	substringInBetweenEntity1AndEntity2.contains(also)
+then infer relation="SIMULTANEOUS"
+
+Rule351: 11 out of 34
+if sameSentence=FALSE &&
+	entity1.ConjunctionDiscourseArgument=ARG1 &&
+	entity2.ConjunctionDiscourseArgument=ARG2 &&
+	entity1.class=entity2.class &&
+	entity1.tenseAspect=entity2.tenseAspect
+then infer relation="SIMULTANEOUS"
+
+Rule352: 4 out of 6
+if sameSentence=TRUE &&
+	entity1.SynchronyDiscourseArgument=ARG1 &&
+	entity2.SynchronyDiscourseArgument=ARG2 &&
+	entity1.class=entity2.class &&
+	entity1.tense=entity2.tense &&
+	entity1.pos=VB &&
+	entity1.hasSrlTemporalArgument=TRUE &&
+	entity1.srlTemporalArgument.contains(entity2)
+then infer relation="SIMULTANEOUS"
+
+Rule353: 12 outof 27
+if sameSentence=TRUE &&
+	entity1.SynchronyDiscourseArgument=ARG1 &&
+	entity2.SynchronyDiscourseArgument=ARG2 &&
+	entity1.class=entity2.class
+then infer relation="SIMULTANEOUS"
+
+Rule354: 3 out of 7
+if sameSentence=TRUE &&
+	entity1.SynchronyDiscourseArgument=ARG1 &&
+	entity2.SynchronyDiscourseArgument=ARG2 &&
+	entity1.pos=VB &&
+	entity1.hasSrlTemporalArgument=TRUE &&
+	entity1.srlTemporalArgument.contains(entity2) &&
+	entity1.advclDependency=GOVERNOR &&
+	entity2.advclDependency=DEPENDENT &&
+	entity1.class=entity2.class
+then infer relation="SIMULTANEOUS"
+
+Rule355: 1 out of 1
+if sameSentence=FALSE &&
+	entity1.SynchronyDiscourseArgument=ARG1 &&
+	entity2.SynchronyDiscourseArgument=ARG2 &&
+	entity1.class=REPORTING &&
+	entity2.class=I_ACTION &&
+	entity1.tense=entity2.tense
+then infer relation="SIMULTANEOUS"
+
+Rule356: 1 out of 1
+if sameSentence=FALSE &&
+	entity1.CauseDiscourseArgument=ARG1 &&
+	entity2.CauseDiscourseArgument=ARG2 &&
+	entity1.pos=VB &&
+	entity1.hasSrlTemporalArgument=TRUE &&
+	entity1.srlTemporalArgument.contains(entity2) &&
+	entity1.advclDependency=GOVERNOR &&
+	entity2.advclDependency=DEPENDENT &&
+	entity1.class=entity2.class &&
+	entity1.tense=entity2.tense &&
+	substringInBetweenEntity1AndEntity2.matches(".* as .*")
+then infer relation="SIMULTANEOUS"
+
+Rule357: 1 out of 1
+if sameSentence=FALSE &&
+	entity1.ConditionDiscourseArgument=ARG1 &&
+	entity2.ConditionDiscourseArgument=ARG2 &&
+	entity1.depDependency=GOVERNOR &&
+	entity2.depDependency=DEPENDENT &&
+	entity1.tense=entity2.tense &&
+	entity1.tense=FUTURE &&
+then infer relation="SIMULTANEOUS"
+
+Rule358: 2 out of 7
+if sameSentence=FALSE &&
+	entity1.SynchronyDiscourseArgument=ARG1 &&
+	entity2.SynchronyDiscourseArgument=ARG2 &&
+	entity1.pos=VB &&
+	entity1.hasSrlTemporalArgument=TRUE &&
+	entity1.srlTemporalArgument.contains(entity2)
+then infer relation="SIMULTANEOUS"
+
+Rule359: 3 out of 10
+if sameSentence=FALSE &&
+	entity1.ConjunctionDiscourseArgument=ARG1 &&
+	entity2.ConjunctionDiscourseArgument=ARG2 &&
+	entity1.conjDependency=GOVERNOR &&
+	entity2.conjDependency=DEPENDENT &&
+	entity1.tense=entity2.tense
+then infer relation="SIMULTANEOUS"
+
+Rule360: 6 out of 21
+if sameSentence=FALSE &&
+	entity1.ContrastDiscourseArgument=ARG1 &&
+	entity2.ContrastDiscourseArgument=ARG2 &&
+	entity1.tense=entity2.tense &&
+	entity1.pos=VB &&
+	entity2.pos=VB
+then infer relation="SIMULTANEOUS"
+
+Rule361: 4 out of 4
+if sameSentence=FALSE &&
+	entity1.ContrastDiscourseArgument=ARG1 &&
+	entity2.ContrastDiscourseArgument=ARG2 &&
+	entity1.advclDependency=GOVERNOR &&
+	entity2.advclDependency=DEPENDENT &&
+	entity1.hasSrlTemporalArgument=TRUE &&
+	entity1.srlTemporalArgument.contains(entity2) &&
+	entity1.tense=entity2.tense
+then infer relation="SIMULTANEOUS"
+
+Rule362: 4 out of 11
+if sameSentence=FALSE &&
+	entity1.ContrastDiscourseArgument=ARG1 &&
+	entity2.ContrastDiscourseArgument=ARG2 &&
+	entity1.classTenseAspect=entity2.classTenseAspect &&
+	entity1.pos=VB &&
+	entity2.pos=VB
+then infer relation="SIMULTANEOUS"
+
+Rule363: 11 out of 20
+if sameSentence=FALSE &&
+	entity1.ConjunctionDiscourseArgument=ARG1 &&
+	entity2.ConjunctionDiscourseArgument=ARG2 &&
+	entity1.tenseAspect=entity2.tenseAspect &&
+	entity1.pos=VB &&
+	entity2.pos=VB
+then infer relation="SIMULTANEOUS"
+
+Rule364: 3 out of 3
+if sameSentence=TRUE &&
+	entity1.ConcessionDiscourseArgument=ARG1 &&
+	entity2.ConcessionDiscourseArgument=ARG2 &&
+	entity1.advclDependency=DEPENDENT &&
+	entity2.advclDependency=GOVERNOR &&
+then infer relation="SIMULTANEOUS"
+
+Rule365: 5 out of 10
+if sameSentence=TRUE &&
+	entity1.SynchronyDiscourseArgument=ARG1 &&
+	entity2.SynchronyDiscourseArgument=ARG2 &&
+	entity1.advclDependency=GOVERNOR &&
+	entity2.advclDependency=DEPENDENT &&
+	entity1.class=entity2.class
+then infer relation="SIMULTANEOUS"
+
+Rule366: 1 out of 1
+if sameSentence=TRUE &&
+	entity1.ExceptionDiscourseArgument=ARG1 &&
+	entity2.ExceptionDiscourseArgument=ARG2 &&
+	entity1.xcompDependency=GOVERNOR &&
+	entity2.xcompDependency=DEPENDENT
+then infer relation="SIMULTANEOUS"
+
+Rule367: 3 out of 5
+if sameSentence=FALSE &&
+	entity1.ConjunctionDiscourseArgument=ARG1 &&
+	entity2.ConjunctionDiscourseArgument=ARG2 &&
+	entity1.precededByProperNoun &&
+	entity2.precededByProperNoun
+then infer relation="SIMULTANEOUS"
+
+Rule368: 5 out of 5
+if sameSentence=TRUE &&
+	entity1.ContrastDiscourseArgument=ARG1 &&
+	entity2.ContrastDiscourseArgument=ARG2 &&
+	entity1.advclDependency=GOVERNOR &&
+	entity2.advclDependency=DEPENDENT &&
+	entity1.classTenseAspect=entity2.classTenseAspect &&
+	entity1.tense=PAST
+then infer relation="SIMULTANEOUS"
+
+Rule369: 1 out of 1
+if sameSentence=TRUE &&
+	entity1.ContrastDiscourseArgument=ARG2 &&
+	entity2.ContrastDiscourseArgument=ARG1 &&
+	entity1.advclDependency=GOVERNOR &&
+	entity2.advclDependency=DEPENDENT &&
+	entity1.classTenseAspect=entity2.classTenseAspect &&
+	entity1.tense=PAST
+then infer relation="SIMULTANEOUS"
+
+Rule370: 1 out of 1
+if sameSentence=TRUE &&
+	entity1.SynchronyDiscourseArgument=ARG1 &&
+	entity2.SynchronyDiscourseArgument=ARG2 &&
+	entity2.hasSrlTemporalArgument=TRUE &&
+	entity2.srlTemporalArgument.contains(entity1) &&
+	entity1.tenseAspect=entity2.tenseAspect
+then infer relation="SIMULTANEOUS"
+
+Rule371: 1 out of 1
+if sameSentence=FALSE &&
+	entity1.ConditionDiscourseArgument=ARG1 &&
+	entity2.ConditionDiscourseArgument=ARG2 &&
+	entity1.class=OCCURRENCE &&
+	entity2.class=OCCURRENCE &&
+	entity1.tenseAspect=entity2.tenseAspect
+then infer relation="SIMULTANEOUS"
+
+Rule372: 1 out of 1
+if sameSentence=FALSE &&
+	entity1.ConcessionDiscourseArgument=ARG1 &&
+	entity2.ConcessionDiscourseArgument=ARG2 &&
+	entity1.class=I_ACTION &&
+	entity2.class=REPORTING &&
+	entity1.tenseAspect=entity2.tenseAspect
+then infer relation="SIMULTANEOUS"
+
+Rule373: 3 out of 8
+if sameSentence=TRUE &&
+	entity1.ContrastDiscourseArgument=ARG2 &&
+	entity2.ContrastDiscourseArgument=ARG1 &&
+	entity1.conjDependency=GOVERNOR &&
+	entity2.conjDependency=DEPENDENT &&
+	entity1.tense=entity2.tense &&
+	entity1.tense=PAST
+then infer relation="SIMULTANEOUS"
+
+Rule374: 4 out of 5
+if sameSentence=TRUE &&
+	entity1.ConjunctionDiscourseArgument=ARG1 &&
+	entity2.ConjunctionDiscourseArgument=ARG2 &&
+	entity1.classTenseAspect=entity2.classTenseAspect &&
+	entity1.pos=VB &&
+	entity2.pos=VB
+then infer relation="SIMULTANEOUS"
+
+Rule375: 4 out of 6
+if sameSentence=FALSE &&
+	entity1.ConjunctionDiscourseArgument=ARG1 &&
+	entity2.ConjunctionDiscourseArgument=ARG2 &&
+	entity1.classTenseAspect=entity2.classTenseAspect &&
+	entity1.class=OCCURRENCE &&
+	entity1.tense=NONE &&
+	entity1.aspect=NONE &&
+	entity1.pos=NN &&
+	entity2.pos=NN
+then infer relation="IDENTITY"
+
+Rule376: 1 out of 1
+if sameSentence=FALSE &&
+	entity1.ConjunctionDiscourseArgument=ARG1 &&
+	entity2.ConjunctionDiscourseArgument=ARG2 &&
+	entity1.class=OCCURRENCE &&
+	entity2.class=ASPECTUAL &&
+	entity1.tense=NONE &&
+	entity2.tense=PAST
+then infer relation="IDENTITY"
+
+Rule377: 1 out of 1
+if sameSentence=FALSE &&
+	entity1.ContrastDiscourseArgument=ARG1 &&
+	entity2.ContrastDiscourseArgument=ARG2 &&
+	entity1.class=I_ACTION &&
+	entity2.class=OCCURRENCE &&
+	entity1.tenseAspect=entity2.tenseAspect &&
+	entity1.tense=NONE &&
+	entity1.aspect=NONE &&
+	entity1.pos=NN &&
+	entity2.pos=NN &&
+	entity1.precededBy=subjectPronoun &&
+	entity2.precededBy=subjectPronoun
+then infer relation="IDENTITY"
+
+Rule378: 1 out of 1
+if sameSentence=TRUE &&
+	entity1.CauseDiscourseArgument=ARG1 &&
+	entity2.CauseDiscourseArgument=ARG2 &&
+	entity1.class=I_ACTION &&
+	entity2.class=OCCURRENCE &&
+	entity1.precededBy=the &&
+	((entity1.pos=NNS && entity2.precededBy=they) ||
+	(entity1.pos=NN && entity2.precededBy=it))
+then infer relation="IDENTITY"
+
+Rule379: 1 out of 1
+if sameSentence=TRUE &&
+	entity1.ConjunctionDiscourseArgument=ARG1 &&
+	entity2.ConjunctionDiscourseArgument=ARG2 &&
+	entity1.class=REPORTING &&
+	entity2.class=REPORTING &&
+	entity1.precededBy=subjectPronoun &&
+	entity2.precededBy=subjectPronoun
+then infer relation="IDENTITY"
+
+Rule380: 1 out of 1
+if sameSentence=TRUE &&
+	entity1.ContrastDiscourseArgument=ARG1 &&
+	entity2.ContrastDiscourseArgument=ARG2 &&
+	entity1.class=I_ACTION &&
+	entity2.class=STATE &&
+	entity1.tense=PAST &&
+	entity2.tense=NONE &&
+	entity1.aspect=PROGRESSIVE &&
+	entity2.aspect=NONE
+then infer relation="IDENTITY"
+
+Rule381: 3 out of 9
+if sameSentence=FALSE &&
+	entity1.ContrastDiscourseArgument=ARG1 &&
+	entity2.ContrastDiscourseArgument=ARG2 &&
+	entity1.pos=VB &&
+	entity2.pos=VB &&
+	entity2.precededBy=subjectPronoun
+then infer relation="IDENTITY"
+
+Rule382: 1 out of 2
+if sameSentence=FALSE &&
+	entity1.ContrastDiscourseArgument=ARG1 &&
+	entity2.ContrastDiscourseArgument=ARG2 &&
+	entity1.pos=VB &&	
+	entity1.class=I_ACTION &&
+	entity1.tense=PAST &&
+	entity1.precededBy=properNoun &&
+	entity2.precededBy=the
+then infer relation="IDENTITY"
+
+Rule383: 1 out of 2
+if sameSentence=FALSE &&
+	entity1.ConjunctionDiscourseArgument=ARG1 &&
+	entity2.ConjunctionDiscourseArgument=ARG2 &&	
+	entity1.class=REPORTING &&
+	entity2.class=REPORTING &&
+	entity1.precededBy=subjectPronoun &&
+	entity2.precededBy=subjectPronoun
+then infer relation="IDENTITY"
+
+Rule384: 2 out of 5
+if sameSentence=FALSE &&
+	entity1.ImplicitEntRelDiscourseArgument=ARG1 &&
+	entity2.ImplicitEntRelDiscourseArgument=ARG2 &&	
+	entity1.class=REPORTING &&
+	entity2.class=REPORTING &&
+	entity1.precededBy=properNoun &&
+	entity2.precededBy=properNoun &&
+	entity1.precedingProperNoun=entity2.precedingProperNoun
+then infer relation="IDENTITY"
+
+Rule385: 11 out of 18
+if sameSentence=FALSE &&
+	entity1.ConjunctionDiscourseArgument=ARG1 &&
+	entity2.ConjunctionDiscourseArgument=ARG2 &&	
+	entity1.class=entity2.class &&
+	entity1.headWordLemma=entity2.headWordLemma
+then infer relation="IDENTITY"
+
+Rule386: 2 out of 3
+if sameSentence=FALSE &&
+	entity1.ConjunctionDiscourseArgument=ARG1 &&
+	entity2.ConjunctionDiscourseArgument=ARG2 &&	
+	entity1.class=entity2.class &&
+	entity1.class=I_STATE &&
+	entity1.tenseAspect=entity2.tenseAspect
+then infer relation="IDENTITY"
+
+Rule387: 2 out of 2
+if sameSentence=FALSE &&
+	entity1.ImplicitEntRelDiscourseArgument=ARG1 &&
+	entity2.ImplicitEntRelDiscourseArgument=ARG2 &&	
+	entity1.headWordLemma.contains(entity2.headWordLemma) &&
+	entity1.class=entity2.class &&
+	entity1.pos=NN &&
+	entity2.pos=VB
+then infer relation="IDENTITY"
+
+Rule388: 28 out of 43
+if sameSentence=FALSE &&
+	entity1.ImplicitEntRelDiscourseArgument=ARG1 &&
+	entity2.ImplicitEntRelDiscourseArgument=ARG2 &&	
+	entity1.headWordLemma=entity2.headWordLemma &&
+	entity1.class=entity2.class &&
+	entity2.class=REPORTING &&
+	entity1.tenseAspect=entity2.tenseAspect
+then infer relation="IDENTITY"
+
+Rule389: 37 out of 55
+if sameSentence=FALSE &&
+	entity1.ImplicitEntRelDiscourseArgument=ARG1 &&
+	entity2.ImplicitEntRelDiscourseArgument=ARG2 &&	
+	entity1.headWordLemma=entity2.headWordLemma &&
+	entity1.classTenseAspect=entity2.classTenseAspect
+then infer relation="IDENTITY"
+
+Rule390: 1 out of 1
+if sameSentence=FALSE &&
+	entity1.ImplicitEntRelDiscourseArgument=ARG1 &&
+	entity2.ImplicitEntRelDiscourseArgument=ARG2 &&	
+	entity2.headWordLemma.contains(entity1.headWordLemma) &&
+	entity1.class=entity2.class &&
+	entity1.pos=VB &&
+	entity2.pos=NN
+then infer relation="IDENTITY"
+
+Rule391: 2 out of 2
+if sameSentence=FALSE &&
+	entity1.ImplicitEntRelDiscourseArgument=ARG1 &&
+	entity2.ImplicitEntRelDiscourseArgument=ARG2 &&	
+	entity1.stem=entity2.stem &&
+	entity1.class=entity2.class &&
+	entity1.pos=VB &&
+	entity2.pos=NN
+then infer relation="IDENTITY"
+
+Rule392: 2 out of 2
+if sameSentence=FALSE &&
+	entity1.ImplicitEntRelDiscourseArgument=ARG1 &&
+	entity2.ImplicitEntRelDiscourseArgument=ARG2 &&	
+	entity2.headWordLemma.contains(entity1.headWordLemma) &&
+	entity1.pos=VB &&
+	entity2.pos=NN
+then infer relation="IDENTITY"
+
+Rule393: 2 out of 2
+if sameSentence=FALSE &&
+	entity1.ImplicitEntRelDiscourseArgument=ARG1 &&
+	entity2.ImplicitEntRelDiscourseArgument=ARG2 &&	
+	entity1.headWordLemma.contains(entity2.headWordLemma) &&
+	entity1.pos=NN &&
+	entity2.pos=VB
+then infer relation="IDENTITY"
+
+Rule394: 70 out of 107
+if sameSentence=FALSE &&
+	entity1.inDiscourseRelationWith=entity2 &&
+	entity1.headWordLemma==entity2.headWordLemma &&
+	entity1.class=entity2.class
+then infer relation="IDENTITY"
+
+Rule395: 7 out of 9 = 0.8
+if sameSentence=FALSE &&
+	entity1.headWord.equals(entity2.headWord) &&
+	entity1.class.equals(entity2.class) &&
+	entity1.contrastDiscourseArgument=ARG1 &&
+	entity2.contrastDiscourseArgument=ARG2
+then infer relation=IDENTITY
+e.g.: 
+Sentence6: Neither Equus nor Tony Lama gave a reason for the changed [offer] and Tony Lama could n't be reached for comment .
+Sentence7: However, Tony Lama said it would promptly submit the [offer] to a special committee of the company's board. 
+
+Rule396: 20 out of 29 = 0.7
+if sameSentence=FALSE &&
+	entity1.class=REPORTING &&
+	entity2.class=REPORTING &&
+	entity1.EntRelImplicitDiscourseArgument=ARG1 &&
+	entity2.EntRelImplicitDiscourseArgument=ARG2 &&
+	entity2.isPrecededBySubjectPronoun
+then infer relation=IDENTITY
+e.g.: 
+...products group president, [said]e140 such arrangements could help slash Control Data 's computer research and development...
+He [disclosed]e145 that before Control Data scrapped its ETA Systems Inc. supercomputer business this past spring...
+
+Rule397: 4 out of 4
+if sameSentence=FALSE &&
+	entity1.class=REPORTING &&
+	entity2.class=REPORTING &&
+	entity1.EntRelImplicitDiscourseArgument=ARG1 &&
+	entity2.EntRelImplicitDiscourseArgument=ARG2 &&
+	entity1.isPrecededBySubjectPronoun &&
+	entity2.isPrecededBySubjectPronoun
+then infer relation=IDENTITY
+
+Rule398: 2 out of 2
+if sameSentence=FALSE &&
+	entity1.class=I_STATE &&
+	entity2.class=I_STATE &&
+	entity1.ConjunctionDiscourseArgument=ARG1 &&
+	entity2.ConjunctionDiscourseArgument=ARG2 &&
+	entity1.headWordLemma=entity2.headWordLemma &&
+	entity1.tenseAspect=entity2.tenseAspect
+then infer relation=IDENTITY
+
+Rule399: 4 out of 4 = 1.0
+if sameSentence=false &&
+	entity1.pos=VB &&
+	entity2.pos=VB &&
+	entity1.tense=entity2.tense &&
+	entity1.AsynchronousDiscourseArgument=ARG1 &&
+	entity2.AsynchronousDiscourseArgument=ARG2 &&
+	entity2.precededBy=then
+then infer relation=BEFORE
+e.g.: 
+The U.N. Security Council on Aug. 6 [ordered] a global embargo...
+Bush then [sent] U.S. troops and planes...
+
+Rule400: 5 out of 5 = 1.0
+if sameSentence=FALSE &&
+	entity1.EntRelImplicitDiscourseArgument=ARG1 &&
+	entity2.EntRelImplicitDiscourseArgument=ARG2 &&
+	entity1.class=OCCURRENCE &&
+	entity1.stringType=ING_STRING &&
+	entity1.tense=NONE &&
+	entity2.tense=PAST &&
+	(entity2.governVerbWord=was || entity2.governVerbWord=were)
+then infer relation=INCLUDES
+e.g.:
+There were four or five people inside, and they just started [firing] .''
+Ms. Sanders was [hit] several times...
+
+Rule401: 1 out of 1
+if sameSentence=FALSE &&
+	entity1.EntRelImplicitDiscourseArgument=ARG1 &&
+	entity2.EntRelImplicitDiscourseArgument=ARG2 &&
+	entity1.pos=NN &&
+	entity2.pos=VB &&
+	entity1.precededBy=being
+then infer relation=INCLUDES
+
+Rule402: 4 out fo 6
+if sameSentence=TRUE &&
+	entity1.SynchronyDiscourseArgument=ARG1 &&
+	entity2.SynchronyDiscourseArgument=ARG2 &&
+	entity1.type=DATE &&
+	entity2.pos=VB &&
+	entity2.tense=PAST
+then infer relation=INCLUDES
+
+Rule403: 1 out of 1
+if sameSentence=FALSE &&
+	entity1.EntRelImplicitDiscourseArgument=ARG1 &&
+	entity2.EntRelImplicitDiscourseArgument=ARG2 &&
+	entity1.tense=INFINITIVE &&
+	entity2.stringType=ingString &&
+	entity1.precededBy=include
+then infer relation=INCLUDES
+
+Rule404: 1 out of 1
+if sameSentence=FALSE &&
+	entity1.ConjunctionDiscourseArgument=ARG1 &&
+	entity2.ConjunctionDiscourseArgument=ARG2 &&
+	entity1&entity2Class=ASPECTUAL &&
+	entity1.tense=PAST &&
+	entity2.tense=PRESENT &&
+	entity2.aspect=PERFECTIVE
+then infer relation=INCLUDES
+
+Rule405: 1 out of 1
+if sameSentence=TRUE &&
+	entity1.ContrastDiscourseArgument=ARG2 &&
+	entity2.ContrastDiscourseArgument=ARG1 &&
+	entity1.type=DURATION &&
+	entity1.precededBy=in &&
+	entity2.tense=PRESENT &&
+	entity2.aspect=PERFECTIVE
+then infer relation=INCLUDES
+
+Rule406: 5 out of 5
+if sameSentence=FALSE &&
+	entity1.ContrastDiscourseArgument=ARG1 &&
+	entity2.ContrastDiscourseArgument=ARG2 &&
+	entity1.class=occurrence &&
+	entity1.stringType=ingString &&
+	entity1.tense=NONE &&
+	entity2.tense=PAST &&
+	(entity2.governVerbWord=was || entity2.governVerbWord=were)
+then infer relation=INCLUDES
+
+Rule407: 1 out of 1
+if sameSentence=FALSE &&
+	entity1.ImplicitEntRelDiscourseArgument=ARG1 &&
+	entity2.ImplicitEntRelDiscourseArgument=ARG2 &&
+	entity1.pos=NNS &&
+	entity2.tense=INFINITIVE
+then infer relation=INCLUDES
+
+Rule408: 1 out of 1
+if sameSentence=FALSE &&
+	entity2.SynchronyDiscourseArgument=ARG1 &&
+	entity1.SynchronyDiscourseArgument=ARG2 &&
+	entity1.pos=NN &&
+	entity2.pos=VB &&
+	entity2.tense=PAST &&
+	entity2.hasTemporalArgument=TRUE &&
+	entity2.temporalArgument.contains(entity1)
+then infer relation=INCLUDES
+
+Rule409: 2 out of 2
+if sameSentence=FALSE &&
+	entity1.ImplicitConjunctionDiscourseArgument=ARG1 &&
+	entity2.ImplicitConjunctionDiscourseArgument=ARG2 &&
+	entity1.type=DURATION &&
+	entity2.pos=VB &&
+	entity2.tense=PAST &&
+	entity2.precededBy=for
+then infer relation=INCLUDES
+
+Rule410: 1 out of 1
+if sameSentence=FALSE &&
+	entity1.ImplicitInstantiationDiscourseArgument=ARG1 &&
+	entity2.ImplicitInstantiationDiscourseArgument=ARG2 &&
+	entity1.class=I_ACTION &&
+	entity2.class=REPORTING &&
+	entity1.tense=entity2.tense
+then infer relation=INCLUDES
+
+Rule411: 3 out of 3
+if sameSentence=FALSE &&
+	entity1.ImplicitRestatementDiscourseArgument=ARG1 &&
+	entity2.ImplicitRestatementDiscourseArgument=ARG2 &&
+	entity1.class=I_STATE &&
+	entity1.stringType=ingString
+then infer relation=INCLUDES
+
+Rule412: 3 out of 3
+if sameSentence=FALSE &&
+	entity1.ImplicitRestatementDiscourseArgument=ARG1 &&
+	entity2.ImplicitRestatementDiscourseArgument=ARG2 &&
+	entity1.class=I_STATE &&
+	entity2.class=OCCURRENCE
+then infer relation=INCLUDES
+
+Rule413: 3 out of 4
+if sameSentence=FALSE &&
+	entity1.ImplicitEntRelDiscourseArgument=ARG1 &&
+	entity2.ImplicitEntRelDiscourseArgument=ARG2 &&
+	entity1.class=REPORTING &&
+	entity2.class=I_ACTION &&
+	entity2HasSubjectPronounIn5WordPrecedingContext
+then infer relation=INCLUDES
+
+Rule414: 1 out 1
+if sameSentence=FALSE &&
+	entity1.ImplicitInstantiationDiscourseArgument=ARG1 &&
+	entity2.ImplicitInstantiationDiscourseArgument=ARG2 &&
+	entity1.class=REPORTING &&
+	entity2.class=REPORTING &&
+	entity1.tense=entity2.tense
+then infer relation=INCLUDES
+
+Rule415: 1 out 1
+if sameSentence=FALSE &&
+	entity1.ImplicitRestatementDiscourseArgument=ARG1 &&
+	entity2.ImplicitRestatementDiscourseArgument=ARG2 &&
+	entity1.precededBy=an &&
+	entity1.pos=NN &&
+	entity2.pos=VB &&
+	entity2.precededBy=subjectPronoun
+then infer relation=INCLUDES
+
+Rule416: 2 out 2
+if sameSentence=FALSE &&
+	entity1.ImplicitEntRelDiscourseArgument=ARG1 &&
+	entity2.ImplicitEntRelDiscourseArgument=ARG2 &&
+	entity1.class=I_ACTION &&
+	entity2.class=OCCURRENCE &&
+	entity1.tense=PRESENT && entity2.tense=PRESENT &&
+	entity1.aspect=PERFECTIVE &&
+	entity1.relationWithDCT=BEFORE &&
+	entity2.relationWithDCT=INCLUDES
+then infer relation=IS_INCLUDED
+
+Rule417: 3 out of 3
+if sameSentence=FALSE &&
+	entity1.ImplicitEntRelDiscourseArgument=ARG1 &&
+	entity2.ImplicitEntRelDiscourseArgument=ARG2 &&
+	entity1.class=OCCURRENCE &&
+	(entity1.tense=PRESENT || entity1.tense=PRESPART) &&
+	entity1.stringType=ingString &&
+	entity2.class=ASPECTUAL &&
+	entity2.tense=NONE
+then infer relation=IS_INCLUDED
+
+Rule418: 1 out 1
+if sameSentence=FALSE &&
+	entity1.ImplicitCauseDiscourseArgument=ARG1 &&
+	entity2.ImplicitCauseDiscourseArgument=ARG2 &&
+	entity1.class=OCCURRENCE &&
+	entity1.tense=NONE &&
+	entity2.type=DATE &&
+	entity2.value=REFERENCE
+then infer relation=IS_INCLUDED
+
+Rule419: 1 out of 1
+if sameSentence=FALSE &&
+	entity1.ImplicitEntRelDiscourseArgument=ARG1 &&
+	entity2.ImplicitEntRelDiscourseArgument=ARG2 &&
+	entity1.class=OCCURRENCE &&
+	entity1.tense=PAST &&
+	entity2.class=STATE &&
+	entity2.tense=NONE &&
+	entity2.pos=NNS
+then infer relation=IS_INCLUDED
+
+Rule420: 4 out of 7
+if sameSentence=FALSE &&
+	entity1.ImplicitEntRelDiscourseArgument=ARG1 &&
+	entity2.ImplicitEntRelDiscourseArgument=ARG2 &&
+	entity1.class=OCCURRENCE &&
+	entity1.tense=INFINITIVE &&
+	entity2.class=OCCURRENCE &&
+	entity2.tense=NONE &&
+	entity2.precededBy=the &&
+	entity2.pos=NN
+then infer relation=IS_INCLUDED
+
+Rule421: 1 out of 1
+if sameSentence=FALSE &&
+	entity1.SynchronyDiscourseArgument=ARG1 &&
+	entity2.SynchronyDiscourseArgument=ARG2 &&
+	entity1.class=OCCURRENCE &&
+	entity1.tense=INFINITIVE &&
+	entity2.class=STATE &&
+	entity2.tense=PRESENT &&
+	entity2.pos=NN &&
+	entity1.pos=VB &&
+	entity1.hasSrlTemporalArgument=TRUE &&
+	entity1.srlTemporalArgument.contains(entity2) &&
+then infer relation=IS_INCLUDED
+
+Rule422: 1 out of 1
+        if (entity1.sID != entity2.sID && discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "Conjunction") &&
+                hasWordInImmediateContext(entity1.context_token_precede, "after", true, txt) &&
+                entity1.pos.contains("NN") && entity2.pos.contains("VB"))
+            return "IBEFORE";
+
+Rule423: 1 out of 1
+        if (entity1.sID != entity2.sID && discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "EntRel") &&
+                entity1.pos.contains("NN") && entity2.pos.contains("VB") &&
+                entity2.govern_verb_word.equals("are"))
+            return "IBEFORE";
+
+Rule424: 1 out of 1
+        if (entity1.sID != entity2.sID && discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "EntRel") &&
+                entity1.pos.contains("NN") && entity2.pos.contains("VB") &&
+                entity2.govern_verb_word.equals("is"))
+            return "IBEFORE";
+
+Rule425: 1 out of 3
+        List<String> nouns1 = getNounsInContext(entity1.context_pos_follow, entity1.context_token_follow, txt);
+        List<String> nouns2 = getNounsInContext(entity2.context_pos_precede, entity2.context_token_precede, txt);
+        if (entity1.sID != entity2.sID && discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Contrast") &&
+                are_reporting_events(entity1, entity2)) {
+            for (String noun : nouns1) {
+                if (nouns2.contains(noun))
+                    return "IBEFORE";
+            }
+        }
+        return null;
+
+Rule426: 1 out of 3
+        if (entity1.sID == entity2.sID && discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Asynchronous") &&
+                dependencyTypeEntity1Entity2(entity1, entity2, governorMap, "advcl") &&
+                entity1.isSRL && SvmFeature.isRoleEntity(entity1.temporal_marker, entity2.b, entity2.e) &&
+                hasWordInImmediateContext(entity2.context_token_precede, "until", true, txt))
+            return "IBEFORE";
+
+Rule427: 1 out of 1
+        if (entity1.sID != entity2.sID && discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "Conjunction") &&
+                entity1.head_word.equals(entity2.head_word) && are_iaction_events(entity1, entity2) &&
+                hasWordInImmediateContext(entity2.context_token_precede, "further", true, txt))
+            return "IBEFORE";
+
+Rule428: 1 out of 1
+        if (discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Asynchronous") &&
+                entity1.isSRL && SvmFeature.isRoleEntity(entity1.temporal_marker, entity2.b, entity2.e) &&
+                txt.substring(entity1.e, entity2.b).contains(" as soon as "))
+            return "IBEFORE";
+
+Rule429: 1 out of 1
+        if (entity1.sID != entity2.sID && discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Conjunction") &&
+                entity1.govern_verb_word.equals("is") && entity2.govern_verb_word.equals("are"))
+            return "IBEFORE";
+
+Rule430: 1 out of 1
+        if (entity1.isSRL && SvmFeature.isRoleEntity(entity1.temporal_marker, entity2.b, entity2.e) &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Asynchronous") &&
+                entity1.attribute1.equals("ASPECTUAL") && entity1.attribute2.equals("INFINITIVE") &&
+                entity2.attribute1.equals("STATE") && entity2.attribute2.equals("NONE"))
+            return "IAFTER";
+
+Rule431: 1 out of 1
+        if (entity1.sID == entity2.sID && entity1.attribute1.equals("REPORTING") && entity2.attribute1.equals("PERCEPTION") &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Conjunction"))
+            return "DURING_INV"; 
+
+Rule432: 1 out of 1
+        if (entity1.sID != entity2.sID && entity1.attribute1.equals("DATE") && entity1.attribute2.equals("PRESENT_REF") &&
+                entity2.attribute1.equals("I_STATE") &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Conjunction"))
+            return "DURING_INV"; 
+
+Rule433: 1 out of 1
+        if (entity1.sID == entity2.sID && entity1.attribute1.equals("DURATION") && 
+                hasWordInImmediateContext(entity1.context_token_precede, "for", true, txt) &&
+                entity2.attribute1.equals("STATE") &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Conjunction"))
+            return "DURING_INV"; 
+
+Rule434: 1 out of 1
+        if (entity1.sID != entity2.sID && entity1.attribute1.equals("STATE") && 
+                entity2.attribute1.equals("OCCURRENCE") && hasWordInImmediateContext(entity2.context_token_precede, entity1.string, true, txt) &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_explicit_map, "Synchrony"))
+            return "DURING_INV"; 
+
+Rule435: 1 out of 1
+        if (entity1.sID != entity2.sID && are_reporting_events(entity1, entity2) && entity1.attribute2.equals("PRESPART") &&
+                entity2.attribute2.equals("NONE") && discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "EntRel"))
+            return "DURING_INV"; 
+
+Rule436: 3 out of 3
+        if (entity1.sID != entity2.sID && entity1.attribute1.equals("DURATION") && entity2.attribute1.equals("OCCURRENCE") &&
+                hasWordInImmediateContext(entity1.context_token_precede, "in", true, txt) &&
+                entity2.pos.contains("VB") && entity2.attribute2.equals("PAST") &&
+                discourseTypeEntity1Entity2(entity1, entity2, pdtb_implicit_map, "Conjunction"))
+            return "DURING_INV";
+
+
+Rule437: 11 out of 14 = 0.786
+if sameSentence=TRUE &&
+	entity1.isTimex3=TRUE &&
+	entity2.isEvent=TRUE &&
+	entity1.advmodDependency=DEPENDENT &&
+	entity2.advmodDependency=GOVERNOR &&
+	entity1.timexValue=REFERENCE &&
+	entity2.class=STATE &&
+	entity2.pos=VB &&
+	entity2.hasSrlTemporalArgument=TRUE &&
+	entity2.srlTemporalArgument.contains(entity1)
+then infer relation=INCLUDES
+e.g.: Montedison [currently]t17 [owns]e20 about...

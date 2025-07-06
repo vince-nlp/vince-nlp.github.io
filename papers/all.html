@@ -1,0 +1,812 @@
+
+Extra-Linguistic Constraints on Stance Recognition in Ideological Debates 
+
+Determining the stance expressed by an author from a post written for a two-sided debate in 
+an online debate forum is a relatively new and challenging 
+problem . 
+We 
+seek to improve 
+Anand et al. 's 
+approach to debate stance classification by 
+modeling two types of soft extra-linguistic constraints 
+on the stance labels of debate posts , 
+user-interaction constraints and ideology constraints . 
+Experimental results on four datasets demonstrate the 
+effectiveness of these inter-post constraints in 
+improving debate stance classification . 
+
+Frame Semantics for Stance Classification 
+
+Determining the stance expressed by an author from a post written for a two-sided debate in 
+an online debate forum is a relatively new and challenging 
+problem in opinion mining . 
+We extend a state-of-the-art learning-based approach to debate stance 
+classification by 
+( 1 ) inducing lexico-syntactic patterns based on syntactic dependencies and 
+semantic frames that aim to capture the meaning of a sentence and provide 
+a generalized representation of it ; and 
+( 2 ) improving the classification of a test post via a novel way of 
+exploiting the information in other test posts with the same stance .
+Empirical results on four datasets demonstrate the 
+effectiveness of our extensions . 
+
+Modeling Thesis Clarity in Student Essays 
+
+
+
+Recently , researchers 
+have begun exploring methods of scoring student essays 
+with respect to particular dimensions of 
+quality such as coherence , technical errors , 
+and relevance to prompt , but there is 
+relatively little work on modeling 
+thesis clarity. We present a new annotated 
+corpus and propose a learning-based 
+approach to scoring essays along the thesis 
+clarity dimension. Additionally , in order 
+to provide more valuable feedback on why 
+an essay is scored as it is , we propose 
+a second learning-based approach to identifying 
+what kinds of errors an essay has that may lower 
+its thesis clarity score . 
+
+Classifying Temporal Relations with Rich Linguistic Knowledge 
+
+We examine the task of temporal relation classification. Unlike existing approaches to this task , we ( 1 ) classify an event-event or event-time pair as one of the 14 temporal relations defined in the TimeBank corpus , rather than as one of 
+the six relations collapsed from the original 14 ; ( 2 ) employ sophisticated linguistic knowledge derived from a variety of semantic and discourse relations , rather than focusing on morpho-syntactic knowledge ; and ( 3 ) leverage a novel combination of rule-based and learning-based approaches , rather than relying solely on one or the other. Experiments with the TimeBank corpus demonstrate that our knowledge-rich , hybrid approach yields a 15 -- 16 % relative reduction in error 
+over a state-of-the-art learning-based baseline system . 
+
+
+Simple Yet Powerful Native Language Identification on TOEFL11 
+
+Native language identification ( NLI ) is the task to determine the native language of the author based on an essay written in a second language. NLI is often treated as a classification problem. In this paper , we use the TOEFL11 data set which consists of more data , in terms of the amount of essays and languages , and less biased across prompts , i.e. , topics , of essays. We demonstrate that even using word level n-grams as features , and support vector machine ( SVM ) as a classifier can yield nearly 80 % accuracy. We observe that the accuracy of a binary-based word level n-gram representation ( ~80 % ) is much better than the performance of a frequency-based word level n-gram representation ( ~20 % ) . Notably , comparable results can be achieved without removing punctuation marks , suggesting a very simple baseline system for NLI . 
+
+
+Joint Modeling for Chinese Event Extraction with Rich Linguistic Features 
+
+Compared to the amount of research that has been done on 
+English event extraction , there exists relatively little work on Chinese event 
+extraction. We seek to push the frontiers of supervised Chinese event 
+extraction research by proposing two extension to Li et al. 's ( 2012 ) 
+state-of-the-art event extraction system. First , we employ a joint modeling 
+approach to event extraction , aiming to address the error propagation problem 
+inherent in Li et al. 's pipeline system architecture. Second , we investigate a 
+variety of rich knowledge sources for Chinese event extraction that encode 
+knowledge ranging from the character level to the discourse level. Experimental 
+results on the ACE 2005 dataset show that our joint-modeling , knowledge-rich 
+approach significantly outperforms Li et al. 's approach. < p > 
+
+
+Chinese Noun Phrase Coreference Resolution : Insights into the State of the 
+Art 
+
+Compared 
+to the amount of research on English coreference resolution , relatively little 
+work has been done on Chinese coreference resolution. Worse still , it has been 
+difficult to determine the state of the art in Chinese coreference resolution , 
+owing in part to the lack of a standard evaluation dataset. The organizers of 
+the CoNLL-2012 shared task , Modeling Unrestricted Multilingual Coreference in 
+OntoNotes , have recently addressed this issue by providing standard training 
+and test sets for developing and evaluating Chinese coreference resolvers. We 
+aim to gain insights into the state of the art via extensive experimentation 
+with our Chinese resolver , which is ranked first in the shared task on the 
+Chinese test data . 
+
+
+Predicting Stance in Ideological Debate with Rich Linguistic Knowledge 
+
+Debate stance classification , the task of classifying an author 's 
+stance in a two-sided debate , is a relatively new and challenging problem in 
+opinion mining. One of its challenges stems from the fact that it is not 
+uncommon to find words and phrases in a debate post that are indicative of the  opposing 
+ stance , owing to the frequent need for an author to re-state other people 's 
+opinions so that she can refer to and contrast with them when establishing her 
+own arguments. We propose a machine learning approach to debate stance 
+classification that leverages two types of rich linguistic knowledge , 
+one exploiting contextual information and the other 
+involving the determination of the author 's stances on  topics  . 
+Experimental results on debate posts involving two popular debate domains 
+demonstrate the effectiveness of our two types of linguistic knowledge when 
+they are combined in an integer linear programming framework . 
+
+
+Handling Planning Failures with Virtual Actions 
+
+Artificial intelligence ( AI ) planners have been widely used in many fields , such as intelligent agents , autonomous robots , web service compositions , etc. However , existing AI planners share a common problem : When given a problem to solve , they either return a solution if one exists or report that no solution is found. However , simply reporting failure leaves no clues for people to trace the causes of the planning failure. In this paper , we present a novel approach that can propose virtual actions in the event of planning failure. Virtual actions enable traditional planners to succeed and hence return an incomplete plan instead of merely an error message. More importantly , the specifications of the virtual actions suggest what the missing parts may contain , thus providing important clues to users as to the nature of the failure. Experimental results show that our approach constantly returns useful and comprehensible information for humans , thus making AI planning more practical when solving real-world problems . 
+
+
+Anaphora Resolution in Biomedical Literature : A Hybrid Approach 
+
+While traditional work on anaphora resolution has focused on 
+resolving anaphors in newspaper and newswire articles , the surge of interest in 
+biomedical natural language processing in recent years has stimulated work on 
+anaphora resolution in biomedical texts. Existing anaphora resolvers , whether applied 
+to the biomedical domain or not , have adopted either a learning-based or a 
+rule-based approach. We hypothesize that both approaches have their unique 
+strengths , and propose in this paper a hybrid approach to anaphora resolution 
+in biomedical texts that aims to combine their strengths. Our hybrid approach 
+achieves an F-score of 60.9 on the BioNLP-2011 coreference dataset , which to 
+our knowledge is the best result reported to date on this dataset . 
+
+Resolving Complex Cases of Definite Pronouns : The Winograd Schema Challenge 
+
+We examine the task of resolving complex cases of definite pronouns , specifically those for which traditional linguistic constraints on coreference ( e.g. , Binding Constraints , gender and number agreement ) as well as commonly-used resolution heuristics ( e.g. , string-matching facilities , syntactic salience ) are not useful. Being able to solve this task has broader implications in artificial intelligence : a restricted version of it , sometimes referred to as the Winograd Schema Challenge , has been 
+suggested as a conceptually and practically appealing alternative to the 
+Turing Test. We employ a knowledge-rich approach to this task , which yields a 
+pronoun resolver that outperforms state-of-the-art resolvers by 
+nearly 18 points in accuracy on our dataset . 
+
+
+Combining the Best of Two Worlds : A Hybrid Approach to Multilingual Coreference Resolution 
+
+We describe our system for the CoNLL-2012 shared task , which seeks 
+to model coreference in OntoNotes for English , Chinese , and Arabic . 
+We adopt a hybrid approach to coreference resolution , combining the strengths of rule-based methods and learning-based methods . 
+Our official combined score over all three languages is 56.35 . 
+In particular , our score on the Chinese test set is the best among the participating teams . 
+< P > 
+
+Translation-Based Projection for Multilingual Coreference Resolution 
+
+To build a coreference resolver for a new language , the typical approach is to first 
+coreference-annotate documents from this target language and then train a resolver 
+on these annotated documents using supervised learning techniques. However , the high cost associated with manually 
+coreference-annotating documents needed by a supervised approach makes it difficult 
+to deploy coreference technologies across a large number of natural languages . 
+To alleviate this corpus annotation bottleneck , we examine a 
+translation-based projection approach to multilingual coreference resolution . 
+Experimental results on two target languages 
+demonstrate the promise of our approach . 
+
+Learning the Fine-Grained Information Status of Discourse Entities 
+
+While information status ( IS ) plays a crucial role in discourse processing , 
+there have only been a handful of attempts 
+to automatically determine the IS of discourse entities . 
+We examine a related but more challenging task , 
+ fine-grained  IS determination , which involves 
+classifying a discourse entity as one of 16 IS  subtypes  . 
+We investigate the use of rich knowledge sources for this task 
+in combination with a rule-based approach and a learning-based approach . 
+In experiments with a set of Switchboard dialogues , 
+the learning-based approach achieves an accuracy of 78.7 % , 
+outperforming the rule-based approach by 21.3 % . 
+
+Syntactic Parsing for Ranking-Based Coreference Resolution 
+
+Recent research efforts have led to the development of a state-of-the-art 
+supervised coreference model , the cluster-ranking model. However , 
+it is not clear whether the features 
+that have been shown to be useful when employed in traditional coreference 
+models will fare equally well in this new model . 
+Rather than merely re-evaluate them using the cluster-ranking model , 
+we examine two 
+interesting types of features derived 
+from syntactic parses , tree-based features and path-based features , and 
+discuss the challenges involved in employing them in the 
+cluster-ranking model . 
+Experimental 
+results on a set of Switchboard dialogues show their 
+effectiveness when used in combination with the 
+cluster-ranking model : using them to augment a baseline coreference feature 
+set results in a 8.6-11.7 % reduction in relative error . 
+
+AutoODC : Automated Generation of Orthogonal Defect Classifications 
+
+Orthogonal Defect Classification ( ODC ) , the most influential framework for 
+software defect classification and analysis , provides valuable in-process 
+feedback to system development and maintenance. Conducting ODC classification 
+on existing organizational defect reports is human-intensive and rquires 
+experts ' knowledge of both ODC and system domains. This paper presents AutoODC , 
+an approach and tool for automating ODC classification by casting it as 
+a supervised text classification problem. Rather than merely applying the 
+standard machine learning framework to this task , we seek to acquire a better 
+ODC classification system by integrating experts ' ODC experience and domain 
+knoweldge into the learning process via proposing a novel Relevance Annotation 
+Framework. We evalauted AutoODC on an industrial defect report from the social 
+network domain. AutoODC is a promising approach : not only does it leverage 
+minimal human effort beyong the human annotations typically required by 
+standard machine learning approaches , but it achieves an overall accuracy 
+of 80.2 % when using manual classifications as a basis of comparison . 
+
+
+Ensemble-Based Coreference Resolution 
+
+We investigate new methods for creating and applying ensembles for 
+coreference resolution . 
+While existing ensembles for coreference resolution are 
+typically created using different 
+learning algorithms , clustering algorithms or training sets , 
+we harness recent advances in coreference modeling and 
+propose to create our ensemble from a variety of supervised coreference models . 
+However , 
+the presence of pairwise and non-pairwise coreference models in our 
+ensemble presents a challenge to its application : it is not 
+immediately clear how to combine the coreference decisions made by these 
+models . 
+We investigate different methods for applying a model-heterogeneous ensemble 
+for coreference resolution . 
+Empirical results on the ACE data sets 
+demonstrate the promise of ensemble approaches : 
+all ensemble-based systems significantly 
+outperform the best member of the ensemble . 
+
+
+
+Learning Cause Identifiers from Annotator Rationales 
+
+In the aviation safety research domain , 
+cause identification refers to the task 
+of identifying the possible causes responsible for the incident 
+described in an aviation safety incident report . 
+This task presents a number of challenges , including the scarcity of labeled data and the difficulties in finding the relevant portions of the text. We investigate the use of annotator rationales 
+to overcome 
+these challenges , proposing 
+several 
+new ways of utilizing 
+rationales 
+and showing that through judicious use of the rationales , 
+it is possible to achieve significant improvement over a 
+unigram SVM baseline . 
+
+Simple and Fast Strong Cyclic Planning for Fully-Observable Nondeterministic Planning Problems 
+
+We address a difficult , yet under-investigated class of planning problems : 
+fully-observable nondeterministic ( FOND ) planning problems with strong cyclic 
+solutions. The difficulty of these strong cyclic FOND planning problems stems 
+from the large size of the state space. Hence , to achieve efficient planning , 
+a planner has to cope with the explosion in the size of the state space by 
+planning along the directions that allow the goal to be reached quickly . 
+A major challenge is : how would one know which states and search directions 
+are relevant before the search for a solution has even begun ? We first 
+describe an NDP-motivated strong cyclic algorithm that , with addressing 
+the above challenge , can already outperform state-of-the-art FOND planners , 
+and then extend this NDP-motivated planner with a novel heuristic that 
+addresses the challenge . 
+
+
+Coreference Resolution with World Knowledge 
+
+While world knowledge has been shown to improve 
+learning-based coreference resolvers , 
+the improvements were typically obtained by incorporating 
+world knowledge into a fairly weak baseline resolver . 
+Hence , it is not clear whether these benefits can carry over to 
+a stronger baseline . 
+Moreover , since there has been no attempt to apply different sources 
+of world knowledge in combination to coreference resolution , it is not 
+clear whether they offer complementary benefits to a resolver . 
+We systematically 
+compare commonly-used and 
+under-investigated sources of world knowledge for coreference 
+resolution by applying them to two learning-based coreference models 
+and evaluating them on documents annotated with two different annotation schemes . 
+
+Transient ST-Segment Episode Detection for ECG Beat Classification 
+
+Sudden Cardiac Death ( SCD ) is an unexpected death caused by loss of 
+heart function when the electrical impulses fired from the ventricles become 
+irregular. Most common SCDs are caused by cardiac arrhythmias and coronary heart 
+disease. They are mainly due to Acute Myocardial Infarction ( AMI ) , myocardial 
+ischaemia and cardiac arrhythmia. This paper aims at automating 
+the recognition of ST-segment deviations and transient ST episodes which 
+helps in the diagnosis of myocardial ischaemia and also classifying major 
+cardiac arrhythmia. Our approach is based on the application of signal 
+processing and artificial intelligence to the heart signal known as the 
+ECG ( Electrocardiogram ) . We propose an improved morphological feature 
+vector including ST-segment information for heart beat classification 
+by supervised learning using the support vector machine learning 
+approach. Our system has been tested and yielded an accuracy of 93.33 % 
+for the ST episode detection on the European ST-T Database and 
+96.35 % on MIT-BIH Arrhythmia Database for classifying six major groups , 
+i.e. , Normal , Ventricular , Atrial , Fusion , Right Bundle and Left Bundle 
+Branch Block beats . 
+
+
+Modeling Organization in Student Essays 
+
+Automated essay scoring is one of the most 
+important educational applications of natural 
+language processing. Recently , researchers 
+have begun exploring methods of scoring essays 
+with respect to particular dimensions of 
+quality such as coherence , technical errors , 
+and relevance to prompt , but there is 
+relatively little work on modeling 
+organization. We present a new annotated 
+corpus and propose heuristic-based and learning-based 
+approaches to scoring essays along the organization dimension , 
+utilizing techniques that involve sequence alignment , alignment 
+kernels , and string kernels . 
+
+Mining Clustering Dimensions 
+
+Many real-world datasets can be naturally 
+clustered along multiple 
+dimensions . 
+For example , text documents can be clustered not only by topic , but also 
+by the author 's gender or sentiment . 
+Unfortunately , traditional clustering algorithms produce only a single 
+clustering of a dataset , effectively providing a user with just a single view 
+of the data . 
+In this paper , we propose a new clustering algorithm that can discover in an unsupervised manner 
+each 
+clustering dimension along which a dataset can be meaningfully clustered . 
+Its ability to reveal the important clustering dimensions 
+of a dataset in an unsupervised manner is particularly 
+appealing for those users who have 
+no idea of how a dataset can possibly 
+be clustered. We demonstrate its viability 
+on several challenging text classification tasks . 
+
+Supervised Noun Phrase Coreference Research : The First Fifteen Years 
+
+The research focus of computational coreference resolution has 
+exhibited a shift from heuristic approaches to machine learning approaches in 
+the past decade . 
+This paper surveys 
+the major milestones in supervised coreference research since its inception 
+fifteen years ago . 
+
+Inducing Fine-Grained Semantic Classes via Hierarchical and Collective Classification 
+
+Research in named entity recognition 
+and mention detection has typically involved a fairly small number of 
+semantic classes , which may not be adequate if 
+semantic class information is intended to support 
+natural language applications . 
+Motivated by this observation , we examine the under-studied problem of 
+semantic subtype induction , where the goal is to automatically determine 
+which of a set of 92 fine-grained semantic classes a noun phrase belongs to . 
+We seek to improve the standard supervised 
+approach to this problem using two 
+techniques : hierarchical classification and collective classification . 
+Experimental results 
+demonstrate the effectiveness of these techniques , 
+whether or not they are applied in isolation or in combination 
+with the standard approach . 
+
+
+Conundrums in Unsupervised Keyphrase Extraction : Making Sense of the State-of-the-Art 
+
+State-of-the-art approaches for unsupervised keyphrase extraction are typically evaluated on a single dataset with a single parameter setting . 
+Consequently , it is unclear how effective these approaches are on a new dataset 
+from a different domain , and how sensitive they are to 
+changes in parameter settings . 
+To gain a better understanding of state-of-the-art unsupervised keyphrase 
+extraction algorithms , we conduct a systematic evaluation and analysis of 
+these algorithms on a variety of standard evaluation datasets . 
+
+Towards Subjectifying Text Clustering 
+
+Although it is common practice to produce only a single clustering of a dataset , 
+in many cases text documents can be clustered along different dimensions . 
+Unfortunately , not only do traditional text clustering algorithms fail to produce multiple clusterings of a dataset , 
+the only clustering they produce may not be the one that the user desires . 
+In this paper , we propose a simple active clustering algorithm that is capable of producing multiple clusterings of the same data 
+according to user interest. In comparison to previous work on feedback-oriented clustering , 
+the amount of user feedback required by our algorithm is minimal . 
+In fact , the feedback turns out to be as simple as a cursory look at a list of 
+words . 
+Experimental results are very promising : our system is able to generate 
+clusterings along the user-specified dimensions with reasonable accuracies 
+on several challenging text classification tasks , 
+thus providing suggestive evidence that our approach is viable . 
+
+
+Improving Cause Detection Systems with Active Learning 
+
+Active learning has been successfully applied 
+to many natural language processing tasks for obtaining annotated data 
+in a cost-effective manner . 
+We propose several extensions to an active learner that adopts the 
+margin-based uncertainty sampling framework. Experimental results on 
+a cause detection problem involving 
+the classification of aviation safety reports 
+demonstrate the effectiveness of our extensions . 
+< P > 
+
+Single Data , Multiple Clusterings 
+
+There has been extensive research in the clustering community on formalizing the definition of the quality of a given data clustering . 
+However , is it possible to measure the quality of a clustering unless human judgment is taken into consideration ? 
+The notion of quality is subjective : 
+for example , given the task of clustering a set of movie reviews , 
+some users might want to cluster them according to sentiment , while others might want to cluster them according to genre . 
+If the clustering algorithm is passive ( i.e. , it does not have the ability to produce 
+multiple clusterings by actively taking user intent into account ) , 
+it is hard to justify the algorithm to be qualitatively best 
+across different domains . 
+There has been a recent surge of 
+interest in quantifying how  clusterable  a dataset is . 
+Can we similarly define  multi-clusterability  ? 
+In this paper , we present a ( really ) simple  active clustering  
+architecture that can help understand 
+the multi-clusterability of a dataset . 
+
+Topic-wise , Sentiment-wise , or Otherwise : Identifying the Hidden Dimension for Unsupervised Text Classification 
+
+While traditional work on text clustering 
+has largely focused on grouping documents by topic , it 
+is conceivable that a user may want to cluster documents along other 
+dimensions , such as the author 's mood , gender , age , or sentiment . 
+Without knowing the user 's intention , a clustering algorithm will only 
+group documents along the most prominent dimension , which may not be 
+the one the user desires . 
+To address this problem , we propose 
+a novel way of incorporating user feedback into a clustering algorithm , 
+which allows a user to easily specify the dimension along which she 
+wants the data points to be clustered via inspecting only a small number of 
+words . 
+This distinguishes our method from existing ones , which typically require 
+a large amount of effort on the part of humans in the form of document 
+annotation or interactive construction of the feature space . 
+We demonstrate the viability of our method 
+on several challenging sentiment datasets . 
+
+
+Supervised Models for Coreference Resolution 
+
+Traditional learning-based coreference resolvers operate by training a mention-pair 
+classifier for determining whether two mentions are coreferent or not . 
+Two independent lines of recent research have attempted to improve these 
+mention-pair classifiers , one by learning a mention-ranking model 
+to rank preceding mentions for a given anaphor , 
+and the other by training an entity-mention classifier to 
+determine 
+whether a preceding cluster is coreferent with a given mention . 
+We propose a cluster-ranking approach to coreference resolution that 
+combines the strengths of mention rankers and entity-mention models . 
+We additionally show how our cluster-ranking framework naturally allows 
+anaphoricity determination to be learned jointly with coreference 
+resolution . 
+Experimental results on the ACE data sets demonstrate its superior 
+performance to competing approaches . 
+
+
+Mine the Easy , Classify the Hard : A Semi-Supervised Approach to Automatic Sentiment Classification 
+
+Supervised polarity classification systems are typically domain-specific . 
+Building these systems involves the expensive process of 
+annotating a large amount of data for each domain . 
+A potential solution to this corpus annotation bottleneck is to build 
+unsupervised polarity classification systems . 
+However , 
+unsupervised learning of polarity is difficult , owing in part 
+to the prevalence of sentimentally ambiguous reviews , where reviewers 
+discuss both the positive and negative aspects of a product . 
+To address this problem , we propose a semi-supervised approach 
+to sentiment classification where we first mine the unambiguous reviews 
+using spectral techniques 
+and then exploit them to classify the ambiguous reviews via a novel 
+combination of active learning , transductive learning , and ensemble learning . 
+
+Semi-Supervised Cause Identification from Aviation Safety Reports 
+
+We introduce cause identification , a new problem involving classification of 
+incident reports in the aviation domain . 
+Specifically , given a set of pre-defined causes , a cause identification 
+system seeks to identify all and only those causes that can explain why 
+the aviation incident described in a given report occurred . 
+The difficulty of cause identification stems in part from the fact that it is 
+a multi-class , multi-label categorization task , 
+and in part from the skewness of 
+the class distributions and the scarcity of annotated reports . 
+To improve the performance of a cause identification system for the minority 
+classes , we present a bootstrapping algorithm that automatically augments 
+a training set by learning 
+from a small amount of labeled data and a large amount of unlabeled data . 
+Experimental results show that our algorithm yields a relative error 
+reduction of 6.3 % in F-measure for the minority classes 
+in comparison to a baseline that learns solely from the labeled data . 
+
+Graph-Cut-Based Anaphoricity Determination for Coreference Resolution 
+
+Recent work has shown that explicitly identifying and filtering 
+non-anaphoric mentions prior to coreference resolution can 
+improve the performance of a coreference system . 
+We present a novel approach to this task of anaphoricity determination 
+based on graph cuts , and demonstrate its superiority to competing 
+approaches by comparing their effectiveness in improving a learning-based 
+coreference system on the ACE data sets . 
+
+Weakly Supervised Part-of-Speech Tagging for Morphologically-Rich , 
+Resource-Scarce Languages 
+
+This paper examines unsupervised approaches to part-of-speech ( POS ) tagging 
+for morphologically-rich , resource-scarce languages , 
+with an emphasis 
+on Goldwater and Griffiths 's ( 2007 ) nonparametric 
+fully-Bayesian approach originally developed for English POS tagging . 
+We argue that existing unsupervised POS taggers unrealistically assume 
+as input a perfect POS lexicon , and 
+consequently , we propose a weakly supervised fully-Bayesian 
+approach to POS tagging , which 
+relaxes the unrealistic assumption by automatically acquiring the lexicon from a small amount of POS-tagged data . 
+Since such relaxation comes at the expense of a drop in tagging accuracy , we 
+propose two extensions to the Bayesian framework and 
+demonstrate that they are effective 
+in improving 
+a fully-Bayesian POS tagger for Bengali , our 
+representative morphologically-rich , resource-scarce language . 
+
+Learning-Based Named Entity Recognition for Morphologically-Rich , 
+Resource-Scarce Languages 
+
+Named entity recognition for morphologically rich , case-insensitive languages , 
+including the majority of semitic languages , 
+Iranian languages , 
+and Indian languages , 
+is inherently more difficult than its English counterpart . 
+Worse still , progress on machine learning approaches to named entity recognition for many of these languages is currently hampered by the scarcity of annotated data and the lack of an accurate part-of-speech tagger . 
+While it is possible to rely on manually-constructed gazetteers to combat data scarcity , this gazetteer-centric approach has the potential weakness of creating irreproducible results , since these name lists are not publicly available in general . 
+Motivated in part by this concern , we present a learning-based named entity 
+recognizer that does not rely on manually-constructed gazetteers , using 
+Bengali as our representative resource-scarce , morphologically-rich language . 
+Our recognizer achieves a relative improvement of 7.5 % in F-measure over a baseline recognizer. Improvements arise from ( 1 ) using induced affixes , ( 2 ) extracting information from online lexical databases , and ( 3 ) jointly modeling part-of-speech tagging and named entity recognition . 
+
+
+FIP : A Fast Planning-Graph-Based Iterative Planner 
+
+We present a fast iterative planner ( FIP ) that aims to handle planning problems involving nondeterministic actions. In contrast to existing iterative planners , FIP is built upon Graphplan 's intrinsic features , thus enabling Graphplan variants , including SGP and FF , to be enhanced with the capability of iterative planning. In addition , FIP is able to produce program-like plans with conditional and loop constructs , and achieves efficient planning via novel algorithms for manipulating planning graphs. Experimental results on several nondeterministic planning problems show that FIP is more efficient than the well-known planner , MBP , especially as the size of the problems increases . 
+
+Unsupervised Part-of-Speech Acquisition for Resource-Scarce Languages 
+
+This paper proposes a new bootstrapping approach to unsupervised 
+part-of-speech induction. In contrast to previous bootstrapping algorithms 
+developed for this problem , our approach aims to improve the quality of the 
+seed clusters by employing seed words that are both distributionally and 
+morphologically reliable. In particular , we present a novel method for 
+combining morphological and distributional information for seed selection . 
+Experimental results demonstrate that our approach works well for English and 
+Bengali , thus providing suggestive evidence that it is applicable to both 
+morphologically impoverished languages and highly inflectional languages . 
+
+Semantic Class Induction and Coreference Resolution 
+
+This paper examines whether a learning-based coreference resolver can be 
+improved using semantic class knowledge that is automatically acquired from 
+a version of the Penn Treebank in which the noun phrases are labeled with 
+their semantic classes. Experiments on the ACE test data show that a resolver 
+that employs such induced semantic class knowledge yields a statistically 
+significant improvement of 2 % in F-measure over one that exploits 
+heuristically computed semantic class knowledge. In addition , the induced 
+knowledge improves the accuracy of common noun resolution by 2-6 % . 
+
+
+High-Performance , Language-Independent Morphological Segmentation 
+
+This paper introduces an unsupervised morphological segmentation algorithm 
+that shows robust performance for four languages with different levels of 
+morphological complexity. In particular , our algorithm outperforms 
+Goldsmith 's Linguistica and Creutz and Lagus 's Morfessor for English and 
+Bengali , and achieves performance that is comparable to the best results for 
+all three PASCAL evaluation datasets. Improvements arise from ( 1 ) the use 
+for relative corpus frequency and suffix level similarity for detecting 
+incorrect morpheme attachments and ( 2 ) the induction of orthographic rules 
+and allomorphs for segmenting words where roots exhibit spelling changes 
+during morpheme attachments . 
+
+Shallow Semantics for Coreference Resolution 
+
+This paper focuses on the linguistic aspect of noun phrase coreference , 
+investigating the knowledge sources that can potentially improve a 
+learning-based coreference resolution system . 
+Unlike traditional , knowledge-lean coreference resolvers , which rely almost 
+exclusively on morpho-syntactic cues , we show how to induce features 
+that encode semantic knowledge from labeled and unlabeled corpora . 
+Experiments on the ACE data sets indicate that the addition of 
+these new semantic features to a coreference system employing a fairly 
+standard feature set significantly improves its performance . 
+
+Unsupervised Word Segmentation for Bangla 
+
+Unsupervised word segmentation is the task of segmenting words into prefixes , 
+suffixes and roots without prior knowledge of language-specific morphotactics 
+and morpho-phonological rules. This paper introduces a simple , yet highly 
+effective algorithm for unsupervised word segmentation for Bangla , an 
+Indo-Aryan language that is highly inflectional in nature . 
+When evaluated on a set of 2511 human-segmented Bangla words , our algorithm 
+achieves an F-score of 84 % , substantially outperforming Linguistica , one of 
+the most widely-used unsupervised morphological analyzers , by about 23 % . 
+
+Unsupervised Morphological Parsing of Bengali 
+
+Unsupervised morphological analysis is the task of segmenting words into 
+prefixes , 
+suffixes and roots without prior knowledge of language-specific morphotactics 
+and morpho-phonological rules. This paper introduces a simple , yet highly 
+effective algorithm for unsupervised morphological learning for Bengali , an 
+Indo-Aryan language that is highly inflectional in nature . 
+When evaluated on a set of 4110 human-segmented Bengali words , our algorithm 
+achieves an F-score of 83 % , substantially outperforming Linguistica , one of 
+the most widely-used unsupervised morphological analyzers , by about 23 % . 
+
+Examining the Role of Linguistic Knowledge Sources in the 
+Automatic Identification and Classification of Reviews 
+
+This paper examines two problems in document-level sentiment analysis : 
+( 1 ) determining whether a given document is a review or not , and 
+( 2 ) classifying the polarity of a review as positive or negative . 
+We first demonstrate that review identification can be performed 
+with high accuracy using only unigrams as features . 
+We then examine the role of four types of simple linguistic knowledge 
+sources in a polarity classification system . 
+
+Machine Learning for Coreference Resolution : From Local 
+Classification to Global Ranking 
+
+In this paper , we view coreference resolution as a problem of 
+ranking candidate partitions generated by different coreference systems . 
+We propose a set of partition-based features to learn a ranking model 
+for distinguishing good and bad partitions . 
+Our approach compares favorably to two state-of-the-art coreference 
+systems when evaluated on three standard coreference data sets . 
+
+
+Supervised Ranking for Pronoun Resolution : 
+Some Recent Improvements 
+
+A recently-proposed machine learning approach to reference resolution 
+-- - the  twin-candidate  approach -- - has been shown to be more promising 
+than the traditional  single-candidate  approach . 
+This paper presents a pronoun interpretation system that extends the 
+twin-candidate framework by 
+( 1 ) equipping it with the ability to identify non-referential pronouns , 
+( 2 ) training different models for handling different types of pronouns , and 
+( 3 ) incorporating linguistic knowledge sources that are generally not 
+employed in traditional pronoun resolvers . 
+The resulting system , when evaluated on a standard coreference corpus , 
+outperforms not only the original twin-candidate approach but also a 
+state-of-the-art pronoun resolver . 
+
+
+Learning Noun Phrase Anaphoricity to Improve Coreference 
+Resolution : Issues in Representation and Optimization 
+
+Knowledge of the anaphoricity of a noun phrase might be profitably 
+exploited by a coreference system to bypass the resolution of 
+non-anaphoric noun phrases . 
+Perhaps surprisingly , 
+recent attempts to incorporate automatically acquired 
+anaphoricity information into coreference systems , however , 
+have led to the degradation in resolution performance . 
+This paper examines several key issues in computing 
+and using anaphoricity information to improve learning-based 
+coreference systems . 
+In particular , we present a new corpus-based approach to 
+anaphoricity determination . 
+Experiments on three standard coreference data sets 
+demonstrate the effectiveness of our approach . 
+
+
+Weakly Supervised Natural Language Learning Without Redundant Views 
+
+We investigate single-view algorithms as an alternative to multi-view 
+algorithms for weakly supervised learning for natural language 
+processing tasks without a natural feature split. In particular , we 
+apply co-training , self-training , and EM to one such task and find 
+that both self-training and FS-EM , a new variation of EM that 
+incorporates feature selection , outperform co-training and are 
+comparatively less sensitive to parameter changes . 
+
+
+Bootstrapping Coreference Classifiers with Multiple Machine 
+Learning Algorithms 
+
+Successful application of multi-view co-training algorithms relies on 
+the ability to factor the available features into views that are 
+compatible and uncorrelated. This can potentially preclude their 
+use on problems such as coreference resolution that lack 
+an obvious feature split . 
+To bootstrap coreference classifiers , we propose and evaluate a 
+single-view weakly supervised algorithm that relies on two different 
+learning algorithms in lieu of the two different views required by 
+co-training. In addition , we 
+investigate a method for ranking unlabeled instances to be fed back 
+into the bootstrapping loop as labeled data , aiming to alleviate the 
+problem of performance deterioration that is commonly observed in 
+the course of bootstrapping . 
+
+
+Improving Machine Learning Approaches to Coreference Resolution 
+
+We present a noun phrase coreference system that extends the work of 
+Soon et al. ( 2001 ) and , to our knowledge , produces the best results to 
+date on the MUC-6 and MUC-7 coreference resolution data sets -- 
+F-measures of 70.4 and 63.4 , respectively. Improvements arise from two 
+sources : extra-linguistic changes to the learning framework and a 
+large-scale expansion of the feature set to include more sophisticated 
+linguistic knowledge . 
+
+
+Identifying Anaphoric and Non-Anaphoric Noun Phrases to Improve 
+Coreference Resolution 
+
+We present a supervised learning approach to the identification of 
+anaphoric and non-anaphoric noun phrases and show how such information 
+can be incorporated into a coreference resolution system. The 
+resulting system outperforms the best MUC-6 and MUC-7 coreference 
+resolution systems on the corresponding MUC coreference data sets -- 
+F-measures of 66.2 and 64.0 , respectively . 
+
+
+Combining Sample Selection and Error-Driven Pruning for Machine 
+Learning of Coreference Rules 
+
+Most machine learning solutions to noun phrase coreference resolution 
+recast the problem as a classification task. We examine three 
+potential problems with this reformulation , namely , skewed class 
+distributions , the inclusion of  hard  training instances , and 
+the loss of transitivity inherent in the original coreference 
+relation. We show how these problems can be handled via intelligent 
+sample selection and error-driven pruning of classification 
+rulesets. The resulting system achieves an F-measure of 69.5 and 
+63.4 on the MUC-6 and MUC-7 coreference resolution data sets , 
+respectively , surpassing the performance of the best MUC-6 and MUC-7 
+coreference systems. In particular , the system outperforms the 
+best-performing learning-based coreference system to date . 
+
+
+Detecting Discrepancies in Numeric Estimates Using Multidocument Hypertext Summaries 
+
+To aid analysts in detecting discrepancies in numeric estimates in 
+news articles from multiple sources , we propose the automatic 
+generation of hypertext summaries that include a high-level textual 
+overview ; tables of all  comparable  numeric estimates , organized 
+to highlight discrepancies ; and targeted access to supporting 
+information from the original articles. The RIPTIDES system , which 
+exemplifies the more flexible human-computer interface we propose , 
+combines information extraction and multidocument summarization 
+techniques to produce such hypertext summaries. In evaluating the 
+system 's ability to facilitate discrepancy detection , we find that , on 
+average , the hypertext summaries provide a significantly more complete 
+picture of the available information than the latest article . 
+
+
+Multi-document Summarization via Information Extraction 
+
+We present and evaluate the initial version of RIPTIDES , a system that 
+combines information extraction , extraction-based summarization , and 
+natural language generation to support user-directed multidocument 
+summarization . 
+
+
+Detecting Discrepancies and Improving 
+Intelligibility : Two Preliminary Evaluations of 
+RIPTIDES 
+
+We report on two preliminary evaluations of RIPTIDES , a system that 
+combines information extraction ( IE ) , extraction-based summarization , 
+and natural language generation to support user directed multidocument 
+summarization. We report first on a case study of the system 's ability 
+to detect discrepancies in numerical estimates appearing in different 
+new articles at different time points in the evolution of a story using a 
+corpus of more than 100 articles from multiple sources about an 
+earthquake in Central America in January 2001. We then report on how 
+our domain-independent extraction-based summarizer performed on the DUC 
+multidocument task , discussing the extent to which we were able to 
+improve cohesion and organization over the baseline , without unduly 
+sacrificing content relevance . 
+
+
+Examining the Role of Statistical and Linguistic Knowledge Sources in a General-Knowledge Question-Answering System 
+
+We describe and evaluate an implemented system for general-knowledge 
+question answering. The system combines techniques for standard ad-hoc 
+information retrieval ( IR ) , query-dependent text summarization , and 
+shallow syntactic and semantic sentence analysis. In a series of 
+experiments we examine the role of each statistical and linguistic 
+knowledge source in the question-answering system. In contrast to 
+previous results , we find first that statistical knowledge of word 
+co-occurrences as computed by IR vector space methods can be used to 
+quickly and accurately locate the relevant documents for each question . 
+The use of query-dependent text summarization techniques , however , 
+provides only small increases in performance and severly limits recall 
+levels when inaccurate. Nevertheless , it is the text summarization 
+component that allows subsequent linguistic filters to focus on relevant 
+passages. We find that even very weak linguistic knowledge can offer 
+substantial improvements over purely IR-based techniques for question 
+answering , especially when smoothly integrated with statistical 
+preferences computed by the IR subsystems . 
+
