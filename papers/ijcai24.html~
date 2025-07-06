@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<title>Deep Learning Meets Software Engineering: A Survey on Pre-Trained Models of Source Code</title>
+</head>
+<body>
+
+<h3>Deep Learning Meets Software Engineering: A Survey on Pre-Trained Models of Source Code</h3>
+Changan Niu, Chuanyi Li, Bin Luo, and Vincent Ng.
+<br>
+<i>Proceedings of the 31st International Joint Conference on Artificial Intelligence and the 25th European Conference on Artificial Intelligence</i>, pp. 5546-5555, 2022. 
+
+
+<p>Click here for the <a href="ijcai22-ptm.pdf">PDF</a> version. 
+<!-- The talk slides are available <a href="../talks.html#acl17">here</a>. -->
+
+<p>
+<h3>Abstract</h3>
+
+Recent years have seen the successful application of deep learning to software engineering (SE). In particular, the development and use of pre-trained models of source code has enabled state-of-the-art results to be achieved on a wide variety of SE tasks. This paper provides an overview of this rapidly advancing field of research and reflects on future research directions. 
+
+<p>
+<h3>BibTeX entry</h3>
+
+<pre>
+@InProceedings{Niu+etal:22a,
+  author = {Changan Niu and Chuanyi Li and Vincent Ng},
+  title = {Deep Learning Meets Software Engineering: A Survey on Pre-Trained Models of Source Code},
+  booktitle = {Proceedings of the 31st International Joint Conference on Artificial Intelligence and the 25th European Conference on Artificial Intelligence},
+  pages = {5546--5555}, 
+  year = 2022}
+</pre>
+<br>
+
+<!--
+<p align="center"><img src="emnlp13-poster.jpg" alt="poster" width="100%";></p>
+-->
+<hr>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<title>Legal Judgment Prediction: A Survey of the State of the Art</title>
+</head>
+<body>
+
+<h3>Legal Judgment Prediction: A Survey of the State of the Art</h3>
+Yi Feng, Chuanyi Li and Vincent Ng.
+<br>
+<i>Proceedings of the 31st International Joint Conference on Artificial Intelligence and the 25th European Conference on Artificial Intelligence</i>, 2022. 
+
+
+<p>Click here for the <a href="ijcai22-ljp.pdf">PDF</a> version.
+<!-- The talk slides are available <a href="../talks.html#acl17">here</a>. -->
+
+<p>
+<h3>Abstract</h3>
+
+Automatic legal judgment prediction (LJP) has recently received increasing attention in the natural language processing community in part because of its practical values as well as the associated research challenges. We present an overview of the major milestones made in LJP research covering multiple jurisdictions
+and multiple languages, and conclude with promising future research directions.
+
+<p>
+<h3>BibTeX entry</h3>
+
+<pre>
+@InProceedings{Feng+etal:22b,
+  author = {Yi Feng and Chuanyi Li and Vincent Ng},
+  title = {Legal Judgment Prediction: A Survey of the State of the Art},
+  booktitle = {Proceedings of the 31st International Joint Conference on Artificial Intelligence and the 25th European Conference on Artificial Intelligence},
+  <!-- pages = {3708--3721}, -->
+  year = 2022}
+</pre>
+<br>
+
+<!--
+<p align="center"><img src="emnlp13-poster.jpg" alt="poster" width="100%";></p>
+-->
+<hr>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<HTML>
+<HEAD>
+<TITLE>Lightly-Supervised Modeling of Argument Persuasiveness</TITLE>
+</HEAD>
+<BODY>
+
+<h3>Lightly-Supervised Modeling of Argument Persuasiveness</h3>
+
+<p class=MsoNormal>Isaac Persing and Vincent Ng. <br>
+<i>Proceedings of the 8th International Joint Conference on Natural Language Processing</i>, pp. 594-604, 2017. </p>
+
+
+<p>Click here for the <!-- <a href="ijcnlp17.ps">PostScript</a> or -->
+<a href="ijcnlp17.pdf">PDF</a>
+version. 
+The talk slides are available <a href="../talks.html#ijcnlp17">here</a>. 
+</P>
+
+
+
+<h3>Abstract</h3>
+
+We propose the first lightly-supervised approach to scoring an argument's
+persuasiveness. Key to our approach is the novel hypothesis that 
+lightly-supervised persuasiveness scoring is possible by explicitly 
+modeling the major errors that negatively impact persuasiveness.
+In an evaluation on a new annotated corpus of online debate arguments, our approach rivals its fully-supervised counterparts in performance
+by four scoring metrics 
+when using only 10% of the available training instances.
+
+<P>
+
+
+<h3>BibTeX entry</h3>
+
+<pre>
+@InProceedings{Persing+Ng:17b,
+  author = {Isaac Persing and Vincent Ng},
+  title = {Lightly-Supervised Modeling of Argument Persuasiveness},
+  booktitle = {Proceedings of the 8th International Joint Conference on Natural Language Processing},
+  pages = {594--604},
+  year = 2017}
+</pre>
+
+<!--
+<p align="center"><img src="acl15-poster.jpg" alt="poster" width="100%";></p>
+-->
+
+<HR>
+</body>
+
+</html>

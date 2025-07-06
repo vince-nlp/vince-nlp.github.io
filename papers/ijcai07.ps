@@ -1,0 +1,2441 @@
+%!PS-Adobe-2.0
+%%Creator: dvips(k) 5.92b Copyright 2002 Radical Eye Software
+%%Title: ijcai07.dvi
+%%Pages: 6
+%%PageOrder: Ascend
+%%BoundingBox: 0 0 612 792
+%%DocumentFonts: Times-Bold Times-Roman Times-Italic CMMI10 CMSY10 CMMI7
+%%+ CMSY9 CMMI6 CMMI9 CMSY6
+%%EndComments
+%DVIPSWebPage: (www.radicaleye.com)
+%DVIPSCommandLine: dvips -t letter -Ppdf -G0 -o ijcai07.ps ijcai07.dvi
+%DVIPSParameters: dpi=8000, compressed
+%DVIPSSource:  TeX output 2006.10.16:2241
+%%BeginProcSet: tex.pro
+%!
+/TeXDict 300 dict def TeXDict begin/N{def}def/B{bind def}N/S{exch}N/X{S
+N}B/A{dup}B/TR{translate}N/isls false N/vsize 11 72 mul N/hsize 8.5 72
+mul N/landplus90{false}def/@rigin{isls{[0 landplus90{1 -1}{-1 1}ifelse 0
+0 0]concat}if 72 Resolution div 72 VResolution div neg scale isls{
+landplus90{VResolution 72 div vsize mul 0 exch}{Resolution -72 div hsize
+mul 0}ifelse TR}if Resolution VResolution vsize -72 div 1 add mul TR[
+matrix currentmatrix{A A round sub abs 0.00001 lt{round}if}forall round
+exch round exch]setmatrix}N/@landscape{/isls true N}B/@manualfeed{
+statusdict/manualfeed true put}B/@copies{/#copies X}B/FMat[1 0 0 -1 0 0]
+N/FBB[0 0 0 0]N/nn 0 N/IEn 0 N/ctr 0 N/df-tail{/nn 8 dict N nn begin
+/FontType 3 N/FontMatrix fntrx N/FontBBox FBB N string/base X array
+/BitMaps X/BuildChar{CharBuilder}N/Encoding IEn N end A{/foo setfont}2
+array copy cvx N load 0 nn put/ctr 0 N[}B/sf 0 N/df{/sf 1 N/fntrx FMat N
+df-tail}B/dfs{div/sf X/fntrx[sf 0 0 sf neg 0 0]N df-tail}B/E{pop nn A
+definefont setfont}B/Cw{Cd A length 5 sub get}B/Ch{Cd A length 4 sub get
+}B/Cx{128 Cd A length 3 sub get sub}B/Cy{Cd A length 2 sub get 127 sub}
+B/Cdx{Cd A length 1 sub get}B/Ci{Cd A type/stringtype ne{ctr get/ctr ctr
+1 add N}if}B/CharBuilder{save 3 1 roll S A/base get 2 index get S
+/BitMaps get S get/Cd X pop/ctr 0 N Cdx 0 Cx Cy Ch sub Cx Cw add Cy
+setcachedevice Cw Ch true[1 0 0 -1 -.1 Cx sub Cy .1 sub]{Ci}imagemask
+restore}B/D{/cc X A type/stringtype ne{]}if nn/base get cc ctr put nn
+/BitMaps get S ctr S sf 1 ne{A A length 1 sub A 2 index S get sf div put
+}if put/ctr ctr 1 add N}B/I{cc 1 add D}B/bop{userdict/bop-hook known{
+bop-hook}if/SI save N @rigin 0 0 moveto/V matrix currentmatrix A 1 get A
+mul exch 0 get A mul add .99 lt{/QV}{/RV}ifelse load def pop pop}N/eop{
+SI restore userdict/eop-hook known{eop-hook}if showpage}N/@start{
+userdict/start-hook known{start-hook}if pop/VResolution X/Resolution X
+1000 div/DVImag X/IEn 256 array N 2 string 0 1 255{IEn S A 360 add 36 4
+index cvrs cvn put}for pop 65781.76 div/vsize X 65781.76 div/hsize X}N
+/p{show}N/RMat[1 0 0 -1 0 0]N/BDot 260 string N/Rx 0 N/Ry 0 N/V{}B/RV/v{
+/Ry X/Rx X V}B statusdict begin/product where{pop false[(Display)(NeXT)
+(LaserWriter 16/600)]{A length product length le{A length product exch 0
+exch getinterval eq{pop true exit}if}{pop}ifelse}forall}{false}ifelse
+end{{gsave TR -.1 .1 TR 1 1 scale Rx Ry false RMat{BDot}imagemask
+grestore}}{{gsave TR -.1 .1 TR Rx Ry scale 1 1 false RMat{BDot}
+imagemask grestore}}ifelse B/QV{gsave newpath transform round exch round
+exch itransform moveto Rx 0 rlineto 0 Ry neg rlineto Rx neg 0 rlineto
+fill grestore}B/a{moveto}B/delta 0 N/tail{A/delta X 0 rmoveto}B/M{S p
+delta add tail}B/b{S p tail}B/c{-4 M}B/d{-3 M}B/e{-2 M}B/f{-1 M}B/g{0 M}
+B/h{1 M}B/i{2 M}B/j{3 M}B/k{4 M}B/w{0 rmoveto}B/l{p -4 w}B/m{p -3 w}B/n{
+p -2 w}B/o{p -1 w}B/q{p 1 w}B/r{p 2 w}B/s{p 3 w}B/t{p 4 w}B/x{0 S
+rmoveto}B/y{3 2 roll p a}B/bos{/SS save N}B/eos{SS restore}B end
+
+%%EndProcSet
+%%BeginProcSet: alt-rule.pro
+%!
+% Patch by TVZ
+% Makes dvips files draw rules with stroke rather than fill.
+% Makes narrow rules more predictable at low resolutions
+% after distilling to PDF.
+% May have unknown consequences for very thick rules.
+% Tested only with dvips 5.85(k).
+TeXDict begin
+/QV {
+  gsave newpath /ruleY X /ruleX X
+  Rx Ry gt
+  { ruleX ruleY Ry 2 div sub moveto Rx 0 rlineto Ry }
+  { ruleX Rx 2 div add ruleY moveto 0 Ry neg rlineto Rx }
+  ifelse
+  setlinewidth 0 setlinecap stroke grestore
+} bind def
+end
+
+%%EndProcSet
+%%BeginProcSet: texc.pro
+%!
+/TeXDict 300 dict def TeXDict begin/N{def}def/B{bind def}N/S{exch}N/X{S
+N}B/A{dup}B/TR{translate}N/isls false N/vsize 11 72 mul N/hsize 8.5 72
+mul N/landplus90{false}def/@rigin{isls{[0 landplus90{1 -1}{-1 1}ifelse 0
+0 0]concat}if 72 Resolution div 72 VResolution div neg scale isls{
+landplus90{VResolution 72 div vsize mul 0 exch}{Resolution -72 div hsize
+mul 0}ifelse TR}if Resolution VResolution vsize -72 div 1 add mul TR[
+matrix currentmatrix{A A round sub abs 0.00001 lt{round}if}forall round
+exch round exch]setmatrix}N/@landscape{/isls true N}B/@manualfeed{
+statusdict/manualfeed true put}B/@copies{/#copies X}B/FMat[1 0 0 -1 0 0]
+N/FBB[0 0 0 0]N/nn 0 N/IEn 0 N/ctr 0 N/df-tail{/nn 8 dict N nn begin
+/FontType 3 N/FontMatrix fntrx N/FontBBox FBB N string/base X array
+/BitMaps X/BuildChar{CharBuilder}N/Encoding IEn N end A{/foo setfont}2
+array copy cvx N load 0 nn put/ctr 0 N[}B/sf 0 N/df{/sf 1 N/fntrx FMat N
+df-tail}B/dfs{div/sf X/fntrx[sf 0 0 sf neg 0 0]N df-tail}B/E{pop nn A
+definefont setfont}B/Cw{Cd A length 5 sub get}B/Ch{Cd A length 4 sub get
+}B/Cx{128 Cd A length 3 sub get sub}B/Cy{Cd A length 2 sub get 127 sub}
+B/Cdx{Cd A length 1 sub get}B/Ci{Cd A type/stringtype ne{ctr get/ctr ctr
+1 add N}if}B/id 0 N/rw 0 N/rc 0 N/gp 0 N/cp 0 N/G 0 N/CharBuilder{save 3
+1 roll S A/base get 2 index get S/BitMaps get S get/Cd X pop/ctr 0 N Cdx
+0 Cx Cy Ch sub Cx Cw add Cy setcachedevice Cw Ch true[1 0 0 -1 -.1 Cx
+sub Cy .1 sub]/id Ci N/rw Cw 7 add 8 idiv string N/rc 0 N/gp 0 N/cp 0 N{
+rc 0 ne{rc 1 sub/rc X rw}{G}ifelse}imagemask restore}B/G{{id gp get/gp
+gp 1 add N A 18 mod S 18 idiv pl S get exec}loop}B/adv{cp add/cp X}B
+/chg{rw cp id gp 4 index getinterval putinterval A gp add/gp X adv}B/nd{
+/cp 0 N rw exit}B/lsh{rw cp 2 copy get A 0 eq{pop 1}{A 255 eq{pop 254}{
+A A add 255 and S 1 and or}ifelse}ifelse put 1 adv}B/rsh{rw cp 2 copy
+get A 0 eq{pop 128}{A 255 eq{pop 127}{A 2 idiv S 128 and or}ifelse}
+ifelse put 1 adv}B/clr{rw cp 2 index string putinterval adv}B/set{rw cp
+fillstr 0 4 index getinterval putinterval adv}B/fillstr 18 string 0 1 17
+{2 copy 255 put pop}for N/pl[{adv 1 chg}{adv 1 chg nd}{1 add chg}{1 add
+chg nd}{adv lsh}{adv lsh nd}{adv rsh}{adv rsh nd}{1 add adv}{/rc X nd}{
+1 add set}{1 add clr}{adv 2 chg}{adv 2 chg nd}{pop nd}]A{bind pop}
+forall N/D{/cc X A type/stringtype ne{]}if nn/base get cc ctr put nn
+/BitMaps get S ctr S sf 1 ne{A A length 1 sub A 2 index S get sf div put
+}if put/ctr ctr 1 add N}B/I{cc 1 add D}B/bop{userdict/bop-hook known{
+bop-hook}if/SI save N @rigin 0 0 moveto/V matrix currentmatrix A 1 get A
+mul exch 0 get A mul add .99 lt{/QV}{/RV}ifelse load def pop pop}N/eop{
+SI restore userdict/eop-hook known{eop-hook}if showpage}N/@start{
+userdict/start-hook known{start-hook}if pop/VResolution X/Resolution X
+1000 div/DVImag X/IEn 256 array N 2 string 0 1 255{IEn S A 360 add 36 4
+index cvrs cvn put}for pop 65781.76 div/vsize X 65781.76 div/hsize X}N
+/p{show}N/RMat[1 0 0 -1 0 0]N/BDot 260 string N/Rx 0 N/Ry 0 N/V{}B/RV/v{
+/Ry X/Rx X V}B statusdict begin/product where{pop false[(Display)(NeXT)
+(LaserWriter 16/600)]{A length product length le{A length product exch 0
+exch getinterval eq{pop true exit}if}{pop}ifelse}forall}{false}ifelse
+end{{gsave TR -.1 .1 TR 1 1 scale Rx Ry false RMat{BDot}imagemask
+grestore}}{{gsave TR -.1 .1 TR Rx Ry scale 1 1 false RMat{BDot}
+imagemask grestore}}ifelse B/QV{gsave newpath transform round exch round
+exch itransform moveto Rx 0 rlineto 0 Ry neg rlineto Rx neg 0 rlineto
+fill grestore}B/a{moveto}B/delta 0 N/tail{A/delta X 0 rmoveto}B/M{S p
+delta add tail}B/b{S p tail}B/c{-4 M}B/d{-3 M}B/e{-2 M}B/f{-1 M}B/g{0 M}
+B/h{1 M}B/i{2 M}B/j{3 M}B/k{4 M}B/w{0 rmoveto}B/l{p -4 w}B/m{p -3 w}B/n{
+p -2 w}B/o{p -1 w}B/q{p 1 w}B/r{p 2 w}B/s{p 3 w}B/t{p 4 w}B/x{0 S
+rmoveto}B/y{3 2 roll p a}B/bos{/SS save N}B/eos{SS restore}B end
+
+%%EndProcSet
+%%BeginProcSet: 8r.enc
+% File  8r.enc as of 2002-03-12 for PSNFSS 9
+%
+% This is the encoding vector for Type1 and TrueType fonts to be used
+% with TeX.  This file is part of the PSNFSS bundle, version 9
+% 
+% Authors: S. Rahtz, P. MacKay, Alan Jeffrey, B. Horn, K. Berry, W. Schmidt
+%
+% Idea is to have all the characters normally included in Type 1 fonts
+% available for typesetting. This is effectively the characters in Adobe
+% Standard Encoding + ISO Latin 1 + extra characters from Lucida + Euro.
+% 
+% Character code assignments were made as follows:
+% 
+% (1) the Windows ANSI characters are almost all in their Windows ANSI
+% positions, because some Windows users cannot easily reencode the
+% fonts, and it makes no difference on other systems. The only Windows
+% ANSI characters not available are those that make no sense for
+% typesetting -- rubout (127 decimal), nobreakspace (160), softhyphen
+% (173). quotesingle and grave are moved just because it's such an
+% irritation not having them in TeX positions.
+% 
+% (2) Remaining characters are assigned arbitrarily to the lower part
+% of the range, avoiding 0, 10 and 13 in case we meet dumb software.
+% 
+% (3) Y&Y Lucida Bright includes some extra text characters; in the
+% hopes that other PostScript fonts, perhaps created for public
+% consumption, will include them, they are included starting at 0x12.
+% 
+% (4) Remaining positions left undefined are for use in (hopefully)
+% upward-compatible revisions, if someday more characters are generally
+% available.
+% 
+% (5) hyphen appears twice for compatibility with both ASCII and Windows.
+%
+% (6) /Euro is assigned to 128, as in Windows ANSI
+% 
+/TeXBase1Encoding [
+% 0x00 (encoded characters from Adobe Standard not in Windows 3.1)
+  /.notdef /dotaccent /fi /fl
+  /fraction /hungarumlaut /Lslash /lslash
+  /ogonek /ring /.notdef
+  /breve /minus /.notdef 
+% These are the only two remaining unencoded characters, so may as
+% well include them.
+  /Zcaron /zcaron 
+% 0x10
+ /caron /dotlessi 
+% (unusual TeX characters available in, e.g., Lucida Bright)
+ /dotlessj /ff /ffi /ffl 
+ /.notdef /.notdef /.notdef /.notdef
+ /.notdef /.notdef /.notdef /.notdef
+ % very contentious; it's so painful not having quoteleft and quoteright
+ % at 96 and 145 that we move the things normally found there down to here.
+ /grave /quotesingle 
+% 0x20 (ASCII begins)
+ /space /exclam /quotedbl /numbersign
+ /dollar /percent /ampersand /quoteright
+ /parenleft /parenright /asterisk /plus /comma /hyphen /period /slash
+% 0x30
+ /zero /one /two /three /four /five /six /seven
+ /eight /nine /colon /semicolon /less /equal /greater /question
+% 0x40
+ /at /A /B /C /D /E /F /G /H /I /J /K /L /M /N /O
+% 0x50
+ /P /Q /R /S /T /U /V /W
+ /X /Y /Z /bracketleft /backslash /bracketright /asciicircum /underscore
+% 0x60
+ /quoteleft /a /b /c /d /e /f /g /h /i /j /k /l /m /n /o
+% 0x70
+ /p /q /r /s /t /u /v /w
+ /x /y /z /braceleft /bar /braceright /asciitilde
+ /.notdef % rubout; ASCII ends
+% 0x80
+ /Euro /.notdef /quotesinglbase /florin
+ /quotedblbase /ellipsis /dagger /daggerdbl
+ /circumflex /perthousand /Scaron /guilsinglleft
+ /OE /.notdef /.notdef /.notdef
+% 0x90
+ /.notdef /.notdef /.notdef /quotedblleft
+ /quotedblright /bullet /endash /emdash
+ /tilde /trademark /scaron /guilsinglright
+ /oe /.notdef /.notdef /Ydieresis
+% 0xA0
+ /.notdef % nobreakspace
+ /exclamdown /cent /sterling
+ /currency /yen /brokenbar /section
+ /dieresis /copyright /ordfeminine /guillemotleft
+ /logicalnot
+ /hyphen % Y&Y (also at 45); Windows' softhyphen
+ /registered
+ /macron
+% 0xD0
+ /degree /plusminus /twosuperior /threesuperior
+ /acute /mu /paragraph /periodcentered
+ /cedilla /onesuperior /ordmasculine /guillemotright
+ /onequarter /onehalf /threequarters /questiondown
+% 0xC0
+ /Agrave /Aacute /Acircumflex /Atilde /Adieresis /Aring /AE /Ccedilla
+ /Egrave /Eacute /Ecircumflex /Edieresis
+ /Igrave /Iacute /Icircumflex /Idieresis
+% 0xD0
+ /Eth /Ntilde /Ograve /Oacute
+ /Ocircumflex /Otilde /Odieresis /multiply
+ /Oslash /Ugrave /Uacute /Ucircumflex
+ /Udieresis /Yacute /Thorn /germandbls
+% 0xE0
+ /agrave /aacute /acircumflex /atilde
+ /adieresis /aring /ae /ccedilla
+ /egrave /eacute /ecircumflex /edieresis
+ /igrave /iacute /icircumflex /idieresis
+% 0xF0
+ /eth /ntilde /ograve /oacute
+ /ocircumflex /otilde /odieresis /divide
+ /oslash /ugrave /uacute /ucircumflex
+ /udieresis /yacute /thorn /ydieresis
+] def
+
+%%EndProcSet
+%%BeginProcSet: aae443f0.enc
+% Thomas Esser, Dec 2002. public domain
+%
+% Encoding for:
+%     cmmi10 cmmi12 cmmi5 cmmi6 cmmi7 cmmi8 cmmi9 cmmib10
+%
+/TeXaae443f0Encoding [
+/Gamma /Delta /Theta /Lambda /Xi /Pi /Sigma /Upsilon /Phi /Psi /Omega
+/alpha /beta /gamma /delta /epsilon1 /zeta /eta /theta /iota /kappa
+/lambda /mu /nu /xi /pi /rho /sigma /tau /upsilon /phi /chi /psi
+/omega /epsilon /theta1 /pi1 /rho1 /sigma1 /phi1 /arrowlefttophalf
+/arrowleftbothalf /arrowrighttophalf /arrowrightbothalf /arrowhookleft
+/arrowhookright /triangleright /triangleleft /zerooldstyle /oneoldstyle
+/twooldstyle /threeoldstyle /fouroldstyle /fiveoldstyle /sixoldstyle
+/sevenoldstyle /eightoldstyle /nineoldstyle /period /comma /less /slash
+/greater /star /partialdiff /A /B /C /D /E /F /G /H /I /J /K /L /M /N
+/O /P /Q /R /S /T /U /V /W /X /Y /Z /flat /natural /sharp /slurbelow
+/slurabove /lscript /a /b /c /d /e /f /g /h /i /j /k /l /m /n /o /p
+/q /r /s /t /u /v /w /x /y /z /dotlessi /dotlessj /weierstrass /vector
+/tie /psi /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/space /Gamma /Delta /Theta /Lambda /Xi /Pi /Sigma /Upsilon /Phi /Psi
+/.notdef /.notdef /Omega /alpha /beta /gamma /delta /epsilon1 /zeta /eta
+/theta /iota /kappa /lambda /mu /nu /xi /pi /rho /sigma /tau /upsilon
+/phi /chi /psi /tie /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef
+] def
+
+%%EndProcSet
+%%BeginProcSet: bbad153f.enc
+% Thomas Esser, Dec 2002. public domain
+%
+% Encoding for:
+%     cmsy10 cmsy5 cmsy6 cmsy7 cmsy8 cmsy9
+%
+/TeXbbad153fEncoding [
+/minus /periodcentered /multiply /asteriskmath /divide /diamondmath
+/plusminus /minusplus /circleplus /circleminus /circlemultiply
+/circledivide /circledot /circlecopyrt /openbullet /bullet
+/equivasymptotic /equivalence /reflexsubset /reflexsuperset /lessequal
+/greaterequal /precedesequal /followsequal /similar /approxequal
+/propersubset /propersuperset /lessmuch /greatermuch /precedes /follows
+/arrowleft /arrowright /arrowup /arrowdown /arrowboth /arrownortheast
+/arrowsoutheast /similarequal /arrowdblleft /arrowdblright /arrowdblup
+/arrowdbldown /arrowdblboth /arrownorthwest /arrowsouthwest /proportional
+/prime /infinity /element /owner /triangle /triangleinv /negationslash
+/mapsto /universal /existential /logicalnot /emptyset /Rfractur /Ifractur
+/latticetop /perpendicular /aleph /A /B /C /D /E /F /G /H /I /J /K
+/L /M /N /O /P /Q /R /S /T /U /V /W /X /Y /Z /union /intersection
+/unionmulti /logicaland /logicalor /turnstileleft /turnstileright
+/floorleft /floorright /ceilingleft /ceilingright /braceleft /braceright
+/angbracketleft /angbracketright /bar /bardbl /arrowbothv /arrowdblbothv
+/backslash /wreathproduct /radical /coproduct /nabla /integral
+/unionsq /intersectionsq /subsetsqequal /supersetsqequal /section
+/dagger /daggerdbl /paragraph /club /diamond /heart /spade /arrowleft
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/minus /periodcentered /multiply /asteriskmath /divide /diamondmath
+/plusminus /minusplus /circleplus /circleminus /.notdef /.notdef
+/circlemultiply /circledivide /circledot /circlecopyrt /openbullet
+/bullet /equivasymptotic /equivalence /reflexsubset /reflexsuperset
+/lessequal /greaterequal /precedesequal /followsequal /similar
+/approxequal /propersubset /propersuperset /lessmuch /greatermuch
+/precedes /follows /arrowleft /spade /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+] def
+
+%%EndProcSet
+%%BeginProcSet: texps.pro
+%!
+TeXDict begin/rf{findfont dup length 1 add dict begin{1 index/FID ne 2
+index/UniqueID ne and{def}{pop pop}ifelse}forall[1 index 0 6 -1 roll
+exec 0 exch 5 -1 roll VResolution Resolution div mul neg 0 0]FontType 0
+ne{/Metrics exch def dict begin Encoding{exch dup type/integertype ne{
+pop pop 1 sub dup 0 le{pop}{[}ifelse}{FontMatrix 0 get div Metrics 0 get
+div def}ifelse}forall Metrics/Metrics currentdict end def}{{1 index type
+/nametype eq{exit}if exch pop}loop}ifelse[2 index currentdict end
+definefont 3 -1 roll makefont/setfont cvx]cvx def}def/ObliqueSlant{dup
+sin S cos div neg}B/SlantFont{4 index mul add}def/ExtendFont{3 -1 roll
+mul exch}def/ReEncodeFont{CharStrings rcheck{/Encoding false def dup[
+exch{dup CharStrings exch known not{pop/.notdef/Encoding true def}if}
+forall Encoding{]exch pop}{cleartomark}ifelse}if/Encoding exch def}def
+end
+
+%%EndProcSet
+%%BeginFont: CMSY6
+%!PS-AdobeFont-1.1: CMSY6 1.0
+%%CreationDate: 1991 Aug 15 07:21:34
+% Copyright (C) 1997 American Mathematical Society. All Rights Reserved.
+11 dict begin
+/FontInfo 7 dict dup begin
+/version (1.0) readonly def
+/Notice (Copyright (C) 1997 American Mathematical Society. All Rights Reserved) readonly def
+/FullName (CMSY6) readonly def
+/FamilyName (Computer Modern) readonly def
+/Weight (Medium) readonly def
+/ItalicAngle -14.035 def
+/isFixedPitch false def
+end readonly def
+/FontName /CMSY6 def
+/PaintType 0 def
+/FontType 1 def
+/FontMatrix [0.001 0 0 0.001 0 0] readonly def
+/Encoding 256 array
+0 1 255 {1 index exch /.notdef put} for
+dup 0 /.notdef put
+readonly def
+/FontBBox{-4 -948 1329 786}readonly def
+/UniqueID 5000816 def
+currentdict end
+currentfile eexec
+D9D66F633B846A97B686A97E45A3D0AA052F09F9C8ADE9D907C058B87E9B6964
+7D53359E51216774A4EAA1E2B58EC3176BD1184A633B951372B4198D4E8C5EF4
+A213ACB58AA0A658908035BF2ED8531779838A960DFE2B27EA49C37156989C85
+E21B3ABF72E39A89232CD9F4237FC80C9E64E8425AA3BEF7DED60B122A52922A
+221A37D9A807DD01161779DDE7D5FC1B2109839E5B52DFB7605D7BA557CC35D6
+49F6EB651B83771034BA0C39DB8D426A24543EF4529E2D939125B5157482688E
+9045C2242F4AFA4C489D975C029177CD6497EACD181FF151A45F521A4C4043C2
+1F3E76EF5B3291A941583E27DFC68B9211105827590393ABFB8AA4D1623D1761
+6AC0DF1D3154B0277BE821712BE7B33385E7A4105E8F3370F981B8FE9E3CF3E0
+007B8C9F2D934F24D591C330487DDF179CECEC5258C47E4B32538F948AB00673
+F9D549C971B0822056B339600FC1E3A5E51844CC8A75B857F15E7276260ED115
+C5FD550F53CE5583743B50B0F9B7C4F836DEF7499F439A6EBE9BF559D2EE0571
+CE54AEC463244B0F8EAB9E96CB18BD39259CC1FEC10F47FB56A38588CE634209
+8F77258607212EE1DCA4F0667B152875B2CF5AC44B930B888ACD9D4B55662542
+71239286D82E14CAABE7276AB199E2429C4C3BC32713106A10F5F16C8045A580
+86EE21E7783B70FAE03D8D47B5AA13A881D478232DD65DBCD1EB9811C440E362
+527EF73FC86FE664ACED80DCD6806CFD932BDEE102B89C22F423992249FC2273
+F39C59AEF75B2088527AA973C71A6B134D26EF1ABAB75721971A0E4E52639DA9
+2E1C3B2A6FB552CA834F6443E0628DD9CE69E92DA0B9B8ACAF3641FA0A7F1126
+8DF8803E683ACCCCDE88C9F6C1838BCE7E8B56A0BC8C5F0300D81479A5087FFD
+B8B66527B87F7977C31A54E0506C6D33EBC902841AB7B8D75BC8ADE5397905EF
+BCB96AE4B57D308DCF0F74A93177F2DDF3486642A43834DB5B123CFA402E4BA1
+6EB4C27AF21C96932E05B79CF951354FF66668C6503CA6FD2089A91A8D
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+cleartomark
+%%EndFont 
+%%BeginFont: CMMI9
+%!PS-AdobeFont-1.1: CMMI9 1.100
+%%CreationDate: 1996 Jul 23 07:53:55
+% Copyright (C) 1997 American Mathematical Society. All Rights Reserved.
+11 dict begin
+/FontInfo 7 dict dup begin
+/version (1.100) readonly def
+/Notice (Copyright (C) 1997 American Mathematical Society. All Rights Reserved) readonly def
+/FullName (CMMI9) readonly def
+/FamilyName (Computer Modern) readonly def
+/Weight (Medium) readonly def
+/ItalicAngle -14.04 def
+/isFixedPitch false def
+end readonly def
+/FontName /CMMI9 def
+/PaintType 0 def
+/FontType 1 def
+/FontMatrix [0.001 0 0 0.001 0 0] readonly def
+/Encoding 256 array
+0 1 255 {1 index exch /.notdef put} for
+dup 0 /.notdef put
+readonly def
+/FontBBox{-29 -250 1075 750}readonly def
+/UniqueID 5087384 def
+currentdict end
+currentfile eexec
+D9D66F633B846A97B686A97E45A3D0AA0529731C99A784CCBE85B4993B2EEBDE
+3B12D472B7CF54651EF21185116A69AB1096ED4BAD2F646635E019B6417CC77B
+532F85D811C70D1429A19A5307EF63EB5C5E02C89FC6C20F6D9D89E7D91FE470
+B72BEFDA23F5DF76BE05AF4CE93137A219ED8A04A9D7D6FDF37E6B7FCDE0D90B
+986423E5960A5D9FBB4C956556E8DF90CBFAEC476FA36FD9A5C8175C9AF513FE
+D919C2DDD26BDC0D99398B9F4D03D5993DFC0930297866E1CD0A319B6B1FD958
+9E394A533A081C36D6F5CA5FED4F9AC9ADE41E04F9FC52E758C9F45A92BED935
+86F9CFDB57732045913A6422AD4206418610C81D882EE493DE9523CC1BFE1505
+DD1390B19BC1947A01B93BC668BE9B2A0E69A968554239B88C00AF9FBDF09CCD
+67D3B2094C11A04762FE8CC1E91D020A28B3C122D24BEAACF82313F4604F2FEF
+6E176D730A879BE45DD0D4996EF0247AEB1CA0AB08FF374D99F06D47B36F9554
+FAD9A2D3CE451B7791C3709D8A1DDDEFBD840C1B42AB824D5A0DFF0E0F15B0B7
+22AEEB877FF489581DA6FA8DA64944555101EB16F7AB0B717E148B7B98D8DBFD
+730C52937E226545CF8DC3E07C5BA30739BAFCD0F2B44275A6D503F582C0FB4F
+449963D0AD2FAFDE33BA3D77BCA9D1DF878DDAFCA2E22CC4BACD542B282164C7
+97C2BDE318AF9D501CA21F6E662E7AAB75A5F24D2C182E598D175D44E88AB19A
+E7CD59584F95B389183EE21B525BF52A3F23C0FE5383A5565A19361D716F508C
+AAB78411CA5A4D27552CC1C435760D5A89D535B71C593E755C616661363308DA
+A683F54ED0C23FB2C225A008392B0B719F66F11A946A090B7C00B662A3C69599
+B4ECB0CC70C85C4BBBF207E0026F6C7A19F2ACFB7A60804FC98A4BFFD7BFFF2B
+9529E6D9D4238002BBC255BC62959D6F3381FE06E0621B879D5FE5B541D45A1E
+759A6E7DC32B1D1632368D09A97039DF255B6492B1B2B7E2C1434E8306ECA7D3
+5A79B6D614B4979F10988BC76ED53A5F45315CD7DA216221F842FD0F3E050DD2
+BAC23C984D506D8F7D614BCB6B244F5F41321549BB0BD041FBF3053307168680
+3435E9C9445A59A7C666418C4F2512C32058B1CE1EA46C3D8A5A66334402F742
+CA80E92B9C7BA441DFA2F2FCD23D4DC0FA8084CCECF8B0630DC2827BCF40A54E
+21116B8721FC1220DB12215E5EFD7B9964D83438042283A09017D951F4311601
+88906617C9CE3A8E05018BEC2A7DB74ED5C45FAA46456587893AFAB3B79A5336
+544552817A3B594BB924EE60DC5D09633DA84660F563FD87A8E60090A7539B34
+135329A674EC3C46C38FB07E9B0E3A344314E8E3545F8ACF0F3F979303A301AB
+78ED894413574B71A3F2F4050BF7818ACAE3586EE981A29829A053C9BE78E1A9
+C2398426B41790E4B87ABB0BB96653C5FBA325F4C06D3ADA1BA577702557AC5B
+1CD2717D7A1C8E74E00580FF6A8D39CDD33882FBAC665385906AE86BBD9B6F2D
+238DDD2D8E6298DE43D32AC88C7B4EC5316FBF412051FBBD97415F6A9EDD48A6
+833A4D0EB4EF1544D2C6998D23520E419838B689ED50F2DBF145BA629946DF3B
+6788F7CF1054BC1683523C58F81D2DC61A0AF639D25968E8BC29D471A7FA2A70
+4925590F6FB07C8AD2239EA9D48AC0
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+cleartomark
+%%EndFont 
+%%BeginFont: CMMI6
+%!PS-AdobeFont-1.1: CMMI6 1.100
+%%CreationDate: 1996 Jul 23 07:53:52
+% Copyright (C) 1997 American Mathematical Society. All Rights Reserved.
+11 dict begin
+/FontInfo 7 dict dup begin
+/version (1.100) readonly def
+/Notice (Copyright (C) 1997 American Mathematical Society. All Rights Reserved) readonly def
+/FullName (CMMI6) readonly def
+/FamilyName (Computer Modern) readonly def
+/Weight (Medium) readonly def
+/ItalicAngle -14.04 def
+/isFixedPitch false def
+end readonly def
+/FontName /CMMI6 def
+/PaintType 0 def
+/FontType 1 def
+/FontMatrix [0.001 0 0 0.001 0 0] readonly def
+/Encoding 256 array
+0 1 255 {1 index exch /.notdef put} for
+dup 0 /.notdef put
+readonly def
+/FontBBox{11 -250 1241 750}readonly def
+/UniqueID 5087381 def
+currentdict end
+currentfile eexec
+D9D66F633B846A97B686A97E45A3D0AA0529731C99A784CCBE85B4993B2EEBDE
+3B12D472B7CF54651EF21185116A69AB1096ED4BAD2F646635E019B6417CC77B
+532F85D811C70D1429A19A5307EF63EB5C5E02C89FC6C20F6D9D89E7D91FE470
+B72BEFDA23F5DF76BE05AF4CE93137A219ED8A04A9D7D6FDF37E6B7FCDE0D90B
+986423E5960A5D9FBB4C956556E8DF90CBFAEC476FA36FD9A5C8175C9AF513FE
+D919C2DDD26BDC0D99398B9F4D03D6A8F05B47AF95EF28A9C561DBDC98C47CF5
+5250011D19E9366EB6FD153D3A100CAA6212E3D5D93990737F8D326D347B7EDC
+4391C9DF440285B8FC159D0E98D4258FC57892DDF0342CA1080743A076089583
+6AD6FB2DC4C13F077F17789476E48402796E685107AF60A63FB0DE0266D55CF1
+8D0AD65B9342CB686E564758C96164FFA711B11C1CE8C726F3C7BB1044BBD283
+9AA4675747DF61E130A55E297CA5F0182A3F12F9085AF2F503481071724077A9
+387E27879A9649AD5F186F33500FAC8F7FA26634BDCE1221EC0ED0E359E5EA5E
+6166526FEB90C30D30099FBDC1BC2F9B62EFEEC48345160804AA98F8D0AA54B7
+A480E715426651865C8E444EDB798C7E11040AF6E5A7ED1888653C6DBF5E6169
+70BCD9C063B63B561EF165BF3AF11F8E519F37C6FDA2827685739DE2C48B5ADE
+EE84F067D704D4511DBFA49E166D543CFD9ECD7417055D8A827F51E087CD2927
+BAFC7E6CFBD70B0FE969F890A11149D3D44D422C3370495DA9951AEE7253A49F
+3A9444C8CD9158D84117299F7F2332FEB0F94E6ED8BC7AA789A3219BC2F227D3
+3B5BC75FB53B55D72AF4A6A7BB613FA235B11BB37D059FD87127CEF73D5B3FBF
+9F91ABAD78BD9240BD9525EBA78095EA0BDB25D1A19E876F292882EAD5619D46
+D20317A345D931F4FF4EAE6216C27044CBA525E3B917CEA25A04C120466C4B93
+FC720E6BA832A06CCA0A3916CEF0968D49085AEBD243C41A448289A6F05CE3F5
+79148DC112A3CC7E8FF810B8C1A09E05F496C0F1EBA334E42E05C376C98F5F69
+C06C71BFC0A2F3AC9951CFBB143C66FB84F9C4ED27DF70869352D61BD5E11508
+0797B87C709E3C151EB44E478CA576D257DF226C00BEFCA327277161E01C70BE
+A2696D06A8A56B1B45FA505C46F9CE17C18B06AFF57E7757FE7B875246E8F538
+FF018D179BBB43F7D0C9720EAAC7B2CC37608AD46D1278131F00A7D6A256906C
+90792C7FF4F1598E0C36003C5B4A694366E4E63043D71E5DF829737101EC8DEA
+C43FA1D499D8FF26B0E32AA493D33D74D5F607E8CB36E7FC8704C6733DD327C9
+82B2B946C43C664E87C4AF4361ABB328638D5744C9FE160032C4BABE2AE65FF0
+08DAC81D1430E5DF161C376D32DCC1CFE3B1BEE796B33E20AD8B25DA440A6351
+AFDCF7F42A86962ABD1EB647C700F051FAC66DFD2816DDF415A514EAADB097F2
+B282B33B11A31523C1B86383798AB7409B36356A91C581C4E7ED6B6DA1202E8B
+D1BD1D35E2C30DA14D074596773DEEB7A9F7923160D9BE8C272F298D57045026
+261A573EE4C5B78CF874C861926566C7C874F9A2E4ED0239ECFDE7AFD9137D6C
+FC2FAB2505B7A81E163B5B6F2F354F91E508107D0550CE29F812555D241AFE72
+ED9E23469264AC38BF29785E951B5FA2DC5E4B0A9E8411D96D587B52EBA01518
+E7A2AC9F51E3859C02B211C414FA43BD3EEC14FFB91DE75CDE4636DB5FCCDE88
+1621EBA58A0544CF991A0C6CBBDD59C2B5B97717725A18B662AE9EA714F748D5
+973D977B12F53602E642DCEFE88BCA9EBA7D79ED5213CC6D76C04021DC4AADF8
+BB5D1868A3A3725F24BFC9003081FCC99AC0DE29ECA3843373CDEBC899EF6943
+1C3FFC80165C288757B6B34D95AF8F0CF9A5EC88E1EB43B6FD1B587C744F872F
+DBF219856345A6C117C7EB843B9E9954B51A908AEF54A85A0AA704C41A2251CF
+C77A1C5A91FBF52309D0FEB171B6F5B5D13E289132F21AB73A282485064807B4
+2F485B
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+cleartomark
+%%EndFont 
+%%BeginFont: CMSY9
+%!PS-AdobeFont-1.1: CMSY9 1.0
+%%CreationDate: 1991 Aug 15 07:22:27
+% Copyright (C) 1997 American Mathematical Society. All Rights Reserved.
+11 dict begin
+/FontInfo 7 dict dup begin
+/version (1.0) readonly def
+/Notice (Copyright (C) 1997 American Mathematical Society. All Rights Reserved) readonly def
+/FullName (CMSY9) readonly def
+/FamilyName (Computer Modern) readonly def
+/Weight (Medium) readonly def
+/ItalicAngle -14.035 def
+/isFixedPitch false def
+end readonly def
+/FontName /CMSY9 def
+/PaintType 0 def
+/FontType 1 def
+/FontMatrix [0.001 0 0 0.001 0 0] readonly def
+/Encoding 256 array
+0 1 255 {1 index exch /.notdef put} for
+dup 0 /.notdef put
+readonly def
+/FontBBox{-30 -958 1146 777}readonly def
+/UniqueID 5000819 def
+currentdict end
+currentfile eexec
+D9D66F633B846A97B686A97E45A3D0AA052F09F9C8ADE9D907C058B87E9B6964
+7D53359E51216774A4EAA1E2B58EC3176BD1184A633B951372B4198D4E8C5EF4
+A213ACB58AA0A658908035BF2ED8531779838A960DFE2B27EA49C37156989C85
+E21B3ABF72E39A89232CD9F4237FC80C9E64E8425AA3BEF7DED60B122A52922A
+221A37D9A807DD01161779DDE7D31FF2B87F97C73D63EECDDA4C49501773468A
+27D1663E0B62F461F6E40A5D6676D0037D33F24E2FAC2B0009AD3C8350CDF8CC
+65BCA87979C36D14CB552E9A985E48BE4E88ECA16DF418749AF04FDD2B0E1380
+D281BB2476BB45FF30946B247DFD7F57305FA87E50CA338121C71CDFDF927A9C
+77FF14CB4A1D6D80356FB1171ED38C37702350497B44E42CE31DB2F493807DAA
+15B887C671199A54C4C1294BC520F5538C15556BC43C9F62342B121C6DCD6C5F
+491DA47FF360201EE21C08A781ED0589A6DF91B99FE118B9B29E4F068672E52F
+1A06C514D91C4C937D4E642503392B1CD1BF5AF0BCA28EBD840AD76CC39AD7AA
+CF2C057239308AF5B66FC81B645B7631A135923EA24F2893A5409CEC8923BDEE
+47AFE90058EB41EEFA1AA8AC6CCF4A5E5882019D673B501A3F807EE207590962
+8CCFC7AC8338BBF0828113394C5513192BF1AD3647A222B65E233F4802EE8B6B
+94159FFF4EB48393F6EE60B1C8C27BD315CAC569196BFF41EE690D9D3FCB301B
+10D0E3030C63B602881B94E930B98708F2E576C8736226AB9697131E81287DAC
+BB6CA1121D65587A3AC6BA0BE244046B5AC2A4264D0F7E43DBAB87F1A5BEC44F
+3714775D771901B0BE079232C4341017F0518C64654566AF001F6AEDF649CDB5
+768146D878A7A6722FEF3434DFE2089EED50B81C0DAE24E198DE4E63FE8412B2
+C987623873C621A0D7EC33845D0553D4F36B585B214B640B46FEB19ADF5A5467
+A8A4A8C67D39363E5C36BD3E1E773953D7696061014C6DD797D341D6502FAF22
+32849E871C18498E62CC0258B4DFD8429099B35698C8DE277450EB0EA0620B5F
+472725A2D9A3C229C3779B6CE05FF4E11198A3C07F9A2F050B28DD2495ADC5D4
+16B64D2B7E01AB94D8CFFB34D9F17B25DD40BABB5292EF5A3227EF3D9D7DD61C
+8ACB2B93E9AC37E5C40E4195ED69965BF6515B6F198700D5C25DF46317CD7FFD
+E6F7266B034A09AF851355EEAD1E4BC86C27FAB9370613FCE36EF623694BB509
+B5E8C92A45B438CA460820405116C3926134CC0B3DBD2E49F6B07D1C06C984EA
+61BED067B7DE2A9BD7694F3BF14C4B5F
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+cleartomark
+%%EndFont 
+%%BeginFont: CMMI7
+%!PS-AdobeFont-1.1: CMMI7 1.100
+%%CreationDate: 1996 Jul 23 07:53:53
+% Copyright (C) 1997 American Mathematical Society. All Rights Reserved.
+11 dict begin
+/FontInfo 7 dict dup begin
+/version (1.100) readonly def
+/Notice (Copyright (C) 1997 American Mathematical Society. All Rights Reserved) readonly def
+/FullName (CMMI7) readonly def
+/FamilyName (Computer Modern) readonly def
+/Weight (Medium) readonly def
+/ItalicAngle -14.04 def
+/isFixedPitch false def
+end readonly def
+/FontName /CMMI7 def
+/PaintType 0 def
+/FontType 1 def
+/FontMatrix [0.001 0 0 0.001 0 0] readonly def
+/Encoding 256 array
+0 1 255 {1 index exch /.notdef put} for
+dup 0 /.notdef put
+readonly def
+/FontBBox{0 -250 1171 750}readonly def
+/UniqueID 5087382 def
+currentdict end
+currentfile eexec
+D9D66F633B846A97B686A97E45A3D0AA0529731C99A784CCBE85B4993B2EEBDE
+3B12D472B7CF54651EF21185116A69AB1096ED4BAD2F646635E019B6417CC77B
+532F85D811C70D1429A19A5307EF63EB5C5E02C89FC6C20F6D9D89E7D91FE470
+B72BEFDA23F5DF76BE05AF4CE93137A219ED8A04A9D7D6FDF37E6B7FCDE0D90B
+986423E5960A5D9FBB4C956556E8DF90CBFAEC476FA36FD9A5C8175C9AF513FE
+D919C2DDD26BDC0D99398B9F4D03D77639DF1232A4D6233A9CAF69B151DFD33F
+C0962EAC6E3EBFB8AD256A3C654EAAF9A50C51BC6FA90B61B60401C235AFAB7B
+B078D20B4B8A6D7F0300CF694E6956FF9C29C84FCC5C9E8890AA56B1BC60E868
+DA8488AC4435E6B5CE34EA88E904D5C978514D7E476BF8971D419363125D4811
+4D886EDDDCDDA8A6B0FDA5CF0603EA9FA5D4393BEBB26E1AB11C2D74FFA6FEE3
+FAFBC6F05B801C1C3276B11080F5023902B56593F3F6B1F37997038F36B9E3AB
+76C2E97E1F492D27A8E99F3E947A47166D0D0D063E4E6A9B535DC9F1BED129C5
+123775D5D68787A58C93009FD5DA55B19511B95168C83429BD2D878207C39770
+012318EA7AA39900C97B9D3859E3D0B04750B8390BF1F1BC29DC22BCAD50ECC6
+A3C633D0937A59E859E5185AF9F56704708D5F1C50F78F43DFAC43C4E7DC9413
+44CEFE43279AFD3C167C942889A352F2FF806C2FF8B3EB4908D50778AA58CFFC
+4D1B14597A06A994ED8414BBE8B26E74D49F6CF54176B7297CDA112A69518050
+01337CBA5478EB984CDD22020DAED9CA8311C33FBCC84177F5CE870E709FC608
+D28B3A7208EFF72988C136142CE79B4E9C7B3FE588E9824ABC6F04D141E589B3
+914A73A42801305439862414F893D5B6C327A7EE2730DEDE6A1597B09C258F05
+261BC634F64C9F8477CD51634BA648FC70F659C90DC042C0D6B68CD1DF36D615
+24F362B85A58D65A8E6DFD583EF9A79A428F2390A0B5398EEB78F4B5A89D9AD2
+A517E0361749554ABD6547072398FFDD863E40501C316F28FDDF8B550FF8D663
+9843D0BEA42289F85BD844891DB42EC7C51229D33EE7E83B1290404C799B8E8C
+889787CDC7AA8BEF7021B3C18A0A61A68CCEA80153A2E91409229EF4A70B955B
+CA4E406B758F77DCA956A5CF894C35825158D2C8C1F1601D08AF712A7185A3F7
+A5F2F82A70CF166D96859F9D293643912C5DF21F3A872EE4D7A8F91ED0B3D33D
+3A6CB14C69973F0B18924B0328C8415A8E56B72D71F0AE9F9BB7F92821AB4754
+9B7C73186F8D387DAD39F9C0192ED5FE113A1B7418035EF99989D635D5A34B8D
+52B93989CFF4D7F37F5C4D371332B0C9A38D60E12C06EEDD4F9A6A039ECB17F9
+F767A580E1F32CACB419A50A62D8804296BE57AA3AE9E2239B4E91E60BEECB6B
+9047DC01AFE15EAFD11621C138DDA59AE5FB6A3A23D7BEFCBD0F8D47458C127D
+6F2F7D47C9F863A513A24AA2B298041C466A8D778AF3882DB789753766C5B264
+43A8CEEC14932AC799C8174629E9E11781547D5EFE18B054F0ADAC608C2970CA
+50AB7C5F73603ECD1787D2E2E30A0195FDE2774DFBED9261B45BF981EBA78650
+CF4F807BDFF5F794F64CA291B37456082DFA5B560016DA89F65C1CE7A873F642
+D86481FA196C5E9AA074C43390146F69ECD0C13F8251299139670A5C06344B2C
+887B22118ACEBEC40C92DD32A50362FD35D2CCF68D806F3AB79E71978280E634
+E844002C399510FE910A7CF1455567C802AA91A2FAD9380E9C4D2DCED4BFFC35
+5C5E1EC783126453D563BEE02B21FF9571C322715DA08481DCD855130CDF4FA1
+33D48F1207E8F4B16A24B22ADBC833A8D1A6EC4688596F8D848D6BF875A1DA27
+297D98599F029EA8E53F0EE7415F67F31FACDF522CDEB818B2BB2A033C359ABE
+6FF89FCFB685FD0846EB10FD05BE042992D7E990F5A0982E0A6D8D648379747D
+08DB840F7E7B31D970D1F0888A2CE41920868C1E5DEA0CDD48FB91A7118A20AE
+16CE84C6E2BD5C5E48118D80D2E250FC1A5000FC2F9D6B58EAF5A96606C892C9
+D7953E4528112F51985422B685644B23F3C52E2C93B0A9354D9346F9167F1DBA
+2E3B54C686E3B4FF4B15DD3BAD09D84302A586BAF03447E8FF72C50A6491E0A5
+0813DAC8C654805021D2F6B117E931E14D1128C6768AA4EB01CAC880EEC86593
+BB70862F24A02503EDF8E719D23FB35F7A2AA98AAD167619BEDCC18967C25B00
+A0DDC4899A9F9CA0
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+cleartomark
+%%EndFont 
+%%BeginFont: CMSY10
+%!PS-AdobeFont-1.1: CMSY10 1.0
+%%CreationDate: 1991 Aug 15 07:20:57
+% Copyright (C) 1997 American Mathematical Society. All Rights Reserved.
+11 dict begin
+/FontInfo 7 dict dup begin
+/version (1.0) readonly def
+/Notice (Copyright (C) 1997 American Mathematical Society. All Rights Reserved) readonly def
+/FullName (CMSY10) readonly def
+/FamilyName (Computer Modern) readonly def
+/Weight (Medium) readonly def
+/ItalicAngle -14.035 def
+/isFixedPitch false def
+end readonly def
+/FontName /CMSY10 def
+/PaintType 0 def
+/FontType 1 def
+/FontMatrix [0.001 0 0 0.001 0 0] readonly def
+/Encoding 256 array
+0 1 255 {1 index exch /.notdef put} for
+dup 0 /.notdef put
+readonly def
+/FontBBox{-29 -960 1116 775}readonly def
+/UniqueID 5000820 def
+currentdict end
+currentfile eexec
+D9D66F633B846A97B686A97E45A3D0AA052F09F9C8ADE9D907C058B87E9B6964
+7D53359E51216774A4EAA1E2B58EC3176BD1184A633B951372B4198D4E8C5EF4
+A213ACB58AA0A658908035BF2ED8531779838A960DFE2B27EA49C37156989C85
+E21B3ABF72E39A89232CD9F4237FC80C9E64E8425AA3BEF7DED60B122A52922A
+221A37D9A807DD01161779DDE7D31FF2B87F97C73D63EECDDA4C49501773468A
+27D1663E0B62F461F6E40A5D6676D1D12B51E641C1D4E8E2771864FC104F8CBF
+5B78EC1D88228725F1C453A678F58A7E1B7BD7CA700717D288EB8DA1F57C4F09
+0ABF1D42C5DDD0C384C7E22F8F8047BE1D4C1CC8E33368FB1AC82B4E96146730
+DE3302B2E6B819CB6AE455B1AF3187FFE8071AA57EF8A6616B9CB7941D44EC7A
+71A7BB3DF755178D7D2E4BB69859EFA4BBC30BD6BB1531133FD4D9438FF99F09
+4ECC068A324D75B5F696B8688EEB2F17E5ED34CCD6D047A4E3806D000C199D7C
+515DB70A8D4F6146FE068DC1E5DE8BC57036431151EC603C8BCFE359BBD953AD
+5F3D998C6EE18EABCDD31D35C7E933DEA008418A4F0845FC9A361328AB270359
+C974485C9BCBCB1E9EBBF3ACC647C4108F7E05961E22390303FD667A2294F500
+7A085C40787133D07C482E4B40D1EBEB5913D53D47E8120BB9C8D8A487F6E11D
+88737CEADB4CB92B3E4FC831A52CAEE931426D9BD1FAB70571687E4BA2EB4085
+ED3A27F4F26B632C258BF56D45F530E37C5509EB2007656AAAA2373DE7502C24
+080D20FCF0F66EC907D0528B87308C9CD89903E5AD2F7EECD277E0EFCD7B180B
+8159219CADBA3160A185F96082F7021BE72A304F7D428811AB3AE95E1387F872
+7DED618655B94A1158FEDB5E0ABE17DA55B29293234FCF009BBA0BC41A949684
+3EFC3F88C63613DB8B5171D265F4B79D21DE7C6DBB32E78EB7FA8B78C967D8A1
+71B97205B4D0478C671ADE51C6EFF3CCFF2D90FD8834533F9E60ED90404CDFB9
+2D976D3620ADE7687F
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+cleartomark
+%%EndFont 
+%%BeginFont: CMMI10
+%!PS-AdobeFont-1.1: CMMI10 1.100
+%%CreationDate: 1996 Jul 23 07:53:57
+% Copyright (C) 1997 American Mathematical Society. All Rights Reserved.
+11 dict begin
+/FontInfo 7 dict dup begin
+/version (1.100) readonly def
+/Notice (Copyright (C) 1997 American Mathematical Society. All Rights Reserved) readonly def
+/FullName (CMMI10) readonly def
+/FamilyName (Computer Modern) readonly def
+/Weight (Medium) readonly def
+/ItalicAngle -14.04 def
+/isFixedPitch false def
+end readonly def
+/FontName /CMMI10 def
+/PaintType 0 def
+/FontType 1 def
+/FontMatrix [0.001 0 0 0.001 0 0] readonly def
+/Encoding 256 array
+0 1 255 {1 index exch /.notdef put} for
+dup 0 /.notdef put
+readonly def
+/FontBBox{-32 -250 1048 750}readonly def
+/UniqueID 5087385 def
+currentdict end
+currentfile eexec
+D9D66F633B846A97B686A97E45A3D0AA0529731C99A784CCBE85B4993B2EEBDE
+3B12D472B7CF54651EF21185116A69AB1096ED4BAD2F646635E019B6417CC77B
+532F85D811C70D1429A19A5307EF63EB5C5E02C89FC6C20F6D9D89E7D91FE470
+B72BEFDA23F5DF76BE05AF4CE93137A219ED8A04A9D7D6FDF37E6B7FCDE0D90B
+986423E5960A5D9FBB4C956556E8DF90CBFAEC476FA36FD9A5C8175C9AF513FE
+D919C2DDD26BDC0D99398B9F4D03D5993DFC0930297866E1CD0A319B6B1FD958
+9E394A533A081C36D456A09920001A3D2199583EB9B84B4DEE08E3D12939E321
+990CD249827D9648574955F61BAAA11263A91B6C3D47A5190165B0C25ABF6D3E
+6EC187E4B05182126BB0D0323D943170B795255260F9FD25F2248D04F45DFBFB
+DEF7FF8B19BFEF637B210018AE02572B389B3F76282BEB29CC301905D388C721
+59616893E774413F48DE0B408BC66DCE3FE17CB9F84D205839D58014D6A88823
+D9320AE93AF96D97A02C4D5A2BB2B8C7925C4578003959C46E3CE1A2F0EAC4BF
+8B9B325E46435BDE60BC54D72BC8ACB5C0A34413AC87045DC7B84646A324B808
+6FD8E34217213E131C3B1510415CE45420688ED9C1D27890EC68BD7C1235FAF9
+1DAB3A369DD2FC3BE5CF9655C7B7EDA7361D7E05E5831B6B8E2EEC542A7B38EE
+03BE4BAC6079D038ACB3C7C916279764547C2D51976BABA94BA9866D79F13909
+95AA39B0F03103A07CBDF441B8C5669F729020AF284B7FF52A29C6255FCAACF1
+74109050FBA2602E72593FBCBFC26E726EE4AEF97B7632BC4F5F353B5C67FED2
+3EA752A4A57B8F7FEFF1D7341D895F0A3A0BE1D8E3391970457A967EFF84F6D8
+47750B1145B8CC5BD96EE7AA99DDC9E06939E383BDA41175233D58AD263EBF19
+AFC0E2F840512D321166547B306C592B8A01E1FA2564B9A26DAC14256414E4C8
+42616728D918C74D13C349F4186EC7B9708B86467425A6FDB3A396562F7EE4D8
+40B43621744CF8A23A6E532649B66C2A0002DD04F8F39618E4F572819DD34837
+B5A08E643FDCA1505AF6A1FA3DDFD1FA758013CAED8ACDDBBB334D664DFF5B53
+956017667C419C4021DA92976C7550A196C257FC2124FAD1219D917D75E11299
+E7C59A90860E58D3C32DFBF59EA3C2CC10923A49690C438B3D0A6EC7F3439BF5
+123D18E54A317CF38A707F1E8FB16BABA63508A7621727B1897A95F1CAEDAD16
+F82F9E8604CC7E00CD31218BA27AA3D1FA9833177E3B11971E4C4B0A7C35EF68
+84B38B24DF9FEF362515B5F08A95FDD1680D1D8AA458EAA10F4436624D4C0284
+1D95031E5DEB7663921711DB5A3631DAF5431068EA44C971BD2EF417BC368F8D
+36B844BEFE32305E1ED5C0E794F85E4CFFCEA02BAA0B9C9E062DA219B2872C69
+EB1E49B47EAEA0D65060F243889165356A4B063350634B4D6BA2BED7A6DEDA23
+F283B9298E51F67A56D9C5AC078AF994B9580E01F9DC20784ABDF5E92E07E6D4
+0F7D2A444BD45DFD407E0D3F2813864131B4618FF49214B8DF015F1539D1E856
+5FB1A9135B7E935C423BBC57A42FFC1C156484DE1B3C746104B31ED27857E9A0
+79428B0E4A47F09AE5F0126B9E820B81A89B890FBA4931A123D085B15279272A
+043E3DE4574588BEBAAAE692C1F81044743DE953675C35093D739ACAD3FFC12B
+DE8804C4855DAACD49798214C04A67E2648644E5509772C25AE1F84AACFA4935
+BDF70E21B8690A736AEF7589193E45E22F264D6D5148D479EB83484361E6634E
+69DBFED1579066269AB9FB2E8E1CA02B8467B8E262C73FE95AF78AE3979D1D82
+B934A63963785CCE56DE03B17B65DBD1CF8503C6080EA26620D2964D11772FAF
+34C0501A96D1E20932C898ED65E0E00DCD094BF5792C8CED5CA5F407ABB8D113
+5D213A6BD40500196EA21D39D92E00CA1017635377640FB6B4EF9E45B3747492
+5F9EA0621B8CEA13809710CEC405CC45658B1D90664F9C5C7086EADF518E7FA7
+5BEA0F5AF7BDE6EBA8E604D7404D0F577C92236ACDF7BDC46DABB727D21B029D
+F48F06BA5F2E78DC61B2F1B470A5800B3B6694035F5572770EE48C90104BF162
+95C3AA22A1177EC9119D94925376A0B755427B51EC56CB7711222CBFEB77C18C
+907FDBFD7CAC903F6B3C7DA3C39176E9A11B6032D08543495CE496E317929701
+909B4B9683C66FD7D54B20358720BC62748C7C8E0EEF9BAE78825C32EC7D8C74
+F0660DA2BEE271DE01601D5FF1055366E9D42E2AD001EC8383B6A2489B5FEAE7
+97336FF91FDF44C9B03AE3CAEDEEF4703B9C5025CE1B762DBCDD9B1C1101F81B
+CC18DE44ECCBF6A857CEEC99FED5E7FD928674721F0593A84B90BC8290852EA4
+105B6AC1D67647C00E91E9E24F3E2FAD76C36D6B4B0B5EC861C2E33253BF9D1E
+498A30F77A7FDFC7902C8ECEACFD36583EE95E80E687D80B093DB2D3DAE307C8
+D427EEE11812A0F2642F79021E406C3F72DE7EF05F40AEDE479DC2EF3AD24514
+49D2B0C10AE0F832579929462269AF300D267D0FED31C8F84F8E551BC433AFAF
+AC25BF89187CBD5F33485E5F43578B677A5E02EBE324022DF9285B5D3B1837D1
+1844BE36D3995E3A5CC8331060E3202D80DCDA30A55A6916CECFC7553B54EC04
+3C164997BCD5961F9B95EE0F90E54C9F38C08E0C6D24C1E356BECE15538ADD1D
+4CB82F138AE513F1912A8FCE916CD01B9915218750587D8E7341C3CEF7E1F11B
+68290ADB7C0636C2E2FEC813212D274EB2CEBDCD28DC9D552AFF39D5558EE46D
+2810AA4B52D9A1F084733DC424B1AE12C9E2CC125666C3E895302164B698C5FA
+977362930DF3796F768A28EA3FD0755282C7AE6A27D696CC25F029041AE89E0E
+5A7AA1BB9B6C41BCB48BC9A4F766C0599FE7CA10CA4FB5838473D5BC12AE9281
+10391293B98C018F0D6BB556D6A5589FC052C0B854FD75D63CCBABCE91D01141
+F9ED96CD34C2318DA5581957974433D806FC34C6655C4381ABBD1DD29296E76F
+9B1B4C749F04653255C542EE755554B4F09FD051C0169CBCB680A76DF5740656
+1649E563B2E05E981BA09BBAE8B8A8624FBBDE008F447DDCCF19B67C720EA195
+914E19AA24AD1498B7555E7E111AF317293883945475DD4F87056663BBB1
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+cleartomark
+%%EndFont 
+TeXDict begin 40258431 52099146 1000 8000 8000 (ijcai07.dvi)
+@start /Fa 134[393 2[393 443 246 344 344 1[443 443 443
+639 246 393 1[246 443 443 246 393 443 393 1[443 9[738
+541 639 492 443 541 1[541 639 591 738 492 2[295 639 639
+1[541 1[591 1[541 6[295 3[443 443 443 4[246 221 295 45[{
+ TeXBase1Encoding ReEncodeFont }44 885.568 /Times-Italic
+rf /Fb 252[424 3[{ TeXbbad153fEncoding ReEncodeFont }1
+664.176 /CMSY6 rf /Fc 199[498 1[498 498 498 498 498 498
+498 1[249 46[{ TeXBase1Encoding ReEncodeFont }9 996.264
+/Times-Bold rf /Fd 139[277 7[277 6[442 3[498 50[249 46[{
+ TeXBase1Encoding ReEncodeFont }5 996.264 /Times-Italic
+rf /Fe 143[514 112[{ TeXaae443f0Encoding ReEncodeFont }1
+996.264 /CMMI9 rf /Ff 134[420 464 120[{
+ TeXaae443f0Encoding ReEncodeFont }2 664.176 /CMMI6 rf
+/Fg 152[512 512 102[{ TeXbbad153fEncoding ReEncodeFont }2
+996.264 /CMSY9 rf /Fh 134[553 553 2[615 369 431 491 615
+615 553 615 922 308 2[308 615 553 369 491 1[491 1[553
+13[615 2[676 3[738 4[861 1[738 3[799 18[277 46[{
+ TeXBase1Encoding ReEncodeFont }26 1106.96 /Times-Bold
+rf /Fi 134[449 502 13[366 106[{ TeXaae443f0Encoding ReEncodeFont }3
+774.872 /CMMI7 rf /Fj 205[738 34[553 15[{
+ TeXbbad153fEncoding ReEncodeFont }2 1106.96 /CMSY10
+rf /Fk 199[332 332 332 332 332 332 332 332 49[{
+ TeXBase1Encoding ReEncodeFont }8 664.176 /Times-Roman
+rf /Fl 75[295 29[443 27[393 443 443 639 443 443 246 344
+295 443 443 443 443 689 246 443 246 246 443 443 295 393
+443 393 443 393 3[295 1[295 541 639 639 836 639 639 541
+492 591 639 492 639 639 787 541 639 344 295 639 639 492
+541 639 591 591 639 6[246 443 443 443 443 443 443 443
+443 443 443 1[221 295 221 2[295 295 1[689 35[492 2[{
+ TeXBase1Encoding ReEncodeFont }74 885.568 /Times-Roman
+rf /Fm 136[792 6[557 3[330 24[679 6[753 13[861 1[861
+60[{ TeXaae443f0Encoding ReEncodeFont }7 1106.96 /CMMI10
+rf /Fn 199[387 387 387 387 387 387 387 387 49[{
+ TeXBase1Encoding ReEncodeFont }8 774.872 /Times-Roman
+rf /Fo 133[442 498 498 719 498 498 277 388 332 1[498
+498 498 775 277 498 1[277 498 498 332 442 498 442 498
+442 3[332 1[332 609 2[940 719 719 609 554 665 1[554 1[719
+886 609 1[388 332 1[719 554 609 1[665 665 719 6[277 498
+498 498 498 498 498 498 498 498 498 1[249 332 249 2[332
+332 332 36[554 2[{ TeXBase1Encoding ReEncodeFont }63
+996.264 /Times-Roman rf /Fp 165[487 575 1[752 1[575 487
+443 532 1[443 575 575 709 487 575 310 265 575 575 443
+487 575 532 532 575 65[{ TeXBase1Encoding ReEncodeFont }23
+797.011 /Times-Roman rf /Fq 134[606 606 2[674 404 472
+538 1[674 606 674 1010 337 2[337 674 606 404 538 674
+538 1[606 11[875 808 674 2[741 6[472 2[741 808 1[875
+808 875 10[606 606 606 606 606 606 2[303 404 42[674 2[{
+ TeXBase1Encoding ReEncodeFont }38 1212.12 /Times-Bold
+rf /Fr 134[491 1[738 491 553 308 431 431 1[553 553 553
+799 308 491 1[308 553 553 308 491 553 491 553 553 9[922
+12[491 1[799 799 1[676 1[738 676 676 18[277 369 42[553
+2[{ TeXBase1Encoding ReEncodeFont }33 1106.96 /Times-Italic
+rf /Fs 75[369 28[1107 553 1[491 491 24[491 553 553 799
+553 553 308 431 369 553 553 553 553 861 308 553 308 308
+553 553 369 491 553 491 553 491 3[369 1[369 1[799 1[1045
+799 799 676 615 738 799 615 799 799 984 676 799 431 369
+799 799 615 676 799 738 738 799 3[624 1[308 308 553 553
+553 553 553 553 553 553 553 553 308 277 369 277 624 553
+369 369 369 1[922 33[615 615 2[{ TeXBase1Encoding ReEncodeFont }82
+1106.96 /Times-Roman rf /Ft 134[664 664 1[664 664 369
+517 442 2[664 664 1033 369 2[369 664 664 442 590 664
+590 1[590 8[959 2[959 812 1[886 5[812 2[442 959 3[959
+3[1223 7[664 664 1[664 1[664 2[664 1[332 1[332 44[{
+ TeXBase1Encoding ReEncodeFont }35 1328.35 /Times-Roman
+rf /Fu 136[959 664 739 442 517 590 2[664 739 1[369 2[369
+739 664 442 590 739 590 739 664 10[959 1[886 739 959
+3[959 4[517 2[812 886 1[959 886 959 11[664 664 664 664
+664 49[{ TeXBase1Encoding ReEncodeFont }34 1328.35 /Times-Bold
+rf /Fv 136[1151 1[886 531 620 708 2[797 886 1328 443
+2[443 886 1[531 708 1[708 1[797 13[886 1151 14[1151 67[{
+ TeXBase1Encoding ReEncodeFont }18 1594.02 /Times-Bold
+rf end
+%%EndProlog
+%%BeginSetup
+%%Feature: *Resolution 8000dpi
+TeXDict begin
+%%BeginPaperSize: Letter
+letter
+%%EndPaperSize
+ end
+%%EndSetup
+%%Page: 1 1
+gsave initmatrix
+100 750 moveto
+/Times findfont 9 scalefont setfont
+(Proceedings of the Twentieth International Joint Conference on Artificial Intelligence (IJCAI), ) show
+100 740 moveto
+/Times findfont 9 scalefont setfont
+(Hyderabad, India, January 2007, pp. 1689--1694.) show
+grestore
+TeXDict begin 1 0 bop 10296 4098 a Fv(Shallo)-16 b(w)399
+b(Semantics)f(f)-40 b(or)399 b(Cor)-29 b(efer)g(ence)397
+b(Resolution)22833 6923 y Fu(V)-49 b(incent)332 b(Ng)13024
+8472 y Ft(Human)h(Language)f(T)-93 b(echnology)332 b(Research)g
+(Institute)18299 10022 y(Uni)-33 b(v)-20 b(ersity)333
+b(of)g(T)-93 b(e)-20 b(xas)331 b(at)h(Dallas)19931 11572
+y(Richardson,)h(TX)e(75083)19891 13122 y(vince@hlt.utdallas.edu)9029
+17107 y Fu(Abstract)214 19043 y Fs(This)293 b(paper)h(focuses)g(on)g
+(the)f(linguistic)g(aspect)h(of)f(noun)214 20261 y(phrase)584
+b(coreference,)662 b(in)-44 b(v)-17 b(estig)-6 b(ating)586
+b(the)d(kno)-28 b(wledge)214 21479 y(sources)530 b(that)g(can)h
+(potentially)g(impro)-17 b(v)g(e)531 b(a)f(learning-)214
+22696 y(based)767 b(coreference)i(resolution)e(system.)1810
+b(Unlik)-11 b(e)214 23914 y(traditional,)452 b(kno)-28
+b(wledge-lean)421 b(coreference)e(resolv)-17 b(ers,)214
+25131 y(which)273 b(rely)f(almost)f(e)-17 b(xclusi)-28
+b(v)-17 b(ely)275 b(on)e(morpho-syntactic)214 26349 y(cues,)357
+b(we)341 b(sho)-28 b(w)342 b(ho)-28 b(w)341 b(to)g(induce)i(features)d
+(that)h(encode)214 27567 y(semantic)512 b(kno)-28 b(wledge)515
+b(from)c(labeled)j(and)e(unlabeled)214 28784 y(corpora.)327
+b(Experiments)228 b(on)f(the)f(A)-44 b(CE)226 b(data)h(sets)f(indicate)
+214 30002 y(that)327 b(the)h(addition)h(of)e(these)h(ne)-28
+b(w)329 b(semantic)f(features)g(to)214 31220 y(a)416
+b(coreference)h(system)f(emplo)-11 b(ying)417 b(a)f(f)-11
+b(airly)415 b(standard)214 32437 y(feature)278 b(set)e(signi\002cantly)
+j(impro)-17 b(v)g(es)278 b(its)e(performance.)-2000 35496
+y Fu(1)1329 b(Intr)-24 b(oduction)-2000 37123 y Fs(Recent)226
+b(years)e(ha)-22 b(v)-17 b(e)227 b(seen)d(an)h(intensifying)g(interest)
+f(in)g(noun)i(phrase)-2000 38341 y(\(NP\))339 b(coreference)j(\227)e
+(the)g(problem)g(of)g(determining)h(which)g(NPs)-2000
+39559 y(refer)368 b(to)h(the)f(same)h(real-w)-11 b(orld)369
+b(entity)g(in)f(a)h(document,)394 b(o)-28 b(wing)370
+b(in)-2000 40776 y(part)340 b(to)h(the)f(Automatic)i(Content)g
+(Extraction)f(\(A)-44 b(CE\))340 b(e)-28 b(v)g(aluations)-2000
+41994 y(initiated)253 b(by)g(NIST)f(as)g(well)h(as)f(the)g(sur)-20
+b(ge)253 b(of)f(interest)g(in)g Fr(structur)-41 b(ed)-2000
+43212 y(pr)g(ediction)370 b Fs(in)e(the)h(machine)h(learning)f
+(community)-72 b(.)619 b(As)368 b(a)h(result,)-2000 44429
+y(v)-28 b(arious)425 b(ne)-28 b(w)425 b(models)f(and)h(approaches)i(to)
+c(NP)h(coreference)i(are)-2000 45647 y(de)-28 b(v)-17
+b(eloped.)619 b(F)-17 b(or)368 b(instance,)392 b(coreference)370
+b(has)e(been)h(recast)f(as)f(the)-2000 46865 y(problem)352
+b(of)f(\002nding)h(the)f(best)g(path)h(from)e(the)h(root)g(to)g(a)g
+(leaf)g(in)g(a)-2000 48082 y(Bell)340 b(tree)2184 47982
+y([)2552 48082 y(Luo)h Fr(et)f(al.)p Fs(,)355 b(2004)9796
+47982 y(])10167 48082 y(,)g(and)341 b(tackled)g(both)g(as)f(a)g
+Fr(r)-41 b(elational)-2000 49300 y(learning)395 b Fs(task)e(\(see)h
+(McCallum)h(and)g(W)-89 b(ellner)17488 49200 y([)17857
+49300 y(2004)20069 49200 y(])20439 49300 y(\))393 b(and)i(as)f(a)-2000
+50518 y Fr(supervised)278 b(clustering)g Fs(task)f(\(see)g(Li)f(and)j
+(Roth)17400 50418 y([)17769 50518 y(2005)19981 50418
+y(])20351 50518 y(\).)-893 51735 y(Equally)338 b(important)g(to)f(the)g
+(de)-28 b(v)-17 b(elopment)341 b(of)336 b(ne)-28 b(w)338
+b(coreference)-2000 52953 y(models)551 b(is)f(the)h(in)-44
+b(v)-17 b(estig)-6 b(ation)553 b(of)e(ne)-28 b(w)552
+b(linguistic)e(features)h(for)-2000 54170 y(the)388 b(problem.)678
+b(Ho)-28 b(we)g(v)-17 b(er)-44 b(,)418 b(until)387 b(recently)-72
+b(,)417 b(research)389 b(in)f(anaphora)-2000 55388 y(and)315
+b(coreference)h(resolution)e(has)g(lar)-20 b(gely)315
+b(adopted)h(a)e Fr(knowledg)-11 b(e-)-2000 56606 y(lean)454
+b Fs(approach,)498 b(in)453 b(which)h(resolv)-17 b(ers)453
+b(operate)h(by)f(relying)g(on)h(a)-2000 57823 y(set)415
+b(of)g(morpho-syntactic)j(cues.)759 b(While)416 b(these)g(kno)-28
+b(wledge-lean)-2000 59041 y(approaches)392 b(ha)-22 b(v)-17
+b(e)391 b(been)f(reasonably)i(successful)d(\(see)g(Mitk)-11
+b(o)-17 b(v)390 b Fr(et)-2000 60259 y(al.)-609 60159
+y Fs([)-241 60259 y(2001)1971 60159 y(])2342 60259 y(\),)257
+b(K)-28 b(ehler)254 b Fr(et)f(al.)8925 60159 y Fs([)9294
+60259 y(2004)11506 60159 y(])12129 60259 y(speculate)i(that)e(deeper)i
+(linguis-)-2000 61476 y(tic)358 b(kno)-28 b(wledge)361
+b(needs)f(to)e(be)g(made)i(a)-22 b(v)-28 b(ailable)360
+b(to)e(resolution)h(sys-)-2000 62694 y(tems)304 b(in)g(order)h(to)f
+(reach)i(the)e(ne)-17 b(xt)306 b(le)-28 b(v)-17 b(el)306
+b(of)e(performance.)427 b(In)304 b(f)-11 b(act,)-2000
+63912 y(it)362 b(should)h(not)g(be)h(surprising)e(that)g(certain)i
+(coreference)h(relations)-2000 65129 y(cannot)417 b(be)f(identi\002ed)i
+(by)e(using)g(string-matching)g(f)-11 b(acilities)415
+b(and)-2000 66347 y(syntactic)443 b(kno)-28 b(wledge)446
+b(alone.)841 b(F)-17 b(or)443 b(instance,)485 b(semantic)444
+b(kno)-28 b(wl-)-2000 67565 y(edge)272 b(is)e(needed)k(to)d(determine)h
+(the)f(coreference)i(relation)f(between)-2000 68782 y(tw)-11
+b(o)283 b(le)-17 b(xically)284 b(dissimilar)d(common)j(nouns)g(\(e.g.,)
+g Fr(talks)e Fs(and)i Fr(ne)-44 b(go-)-2000 70000 y(tiations)p
+Fs(\),)346 b(and)334 b(w)-11 b(orld)333 b(kno)-28 b(wledge)336
+b(might)d(be)h(required)g(to)f(resolv)-17 b(e)27000 17107
+y Fr(the)259 b(pr)-41 b(esident)259 b Fs(to)g Fr(Geor)-41
+b(g)-11 b(e)260 b(W)-102 b(.)258 b(Bush)h Fs(if)e(such)j(background)i
+(informa-)27000 18325 y(tion)277 b(w)-11 b(as)277 b(not)h(pro)-17
+b(vided)279 b(e)-17 b(xplicitly)278 b(in)f(the)g(associated)i
+(document.)28107 19542 y(Our)423 b(goal)g(in)f(this)g(paper)i(is)d(to)i
+(impro)-17 b(v)g(e)424 b(the)f(performance)i(of)27000
+20760 y(a)341 b(learning-based)h(coreference)h(system)d(by)h
+(introducing)i(features)27000 21978 y(that)400 b(encode)j(semantic)e
+(kno)-28 b(wledge)404 b(as)c(well)g(as)g(kno)-28 b(wledge)404
+b(that)27000 23195 y(is)347 b(potentially)i(useful)g(for)e(identifying)
+i(non-anaphoric)j(NPs)c(\(i.e.,)27000 24413 y(NPs)396
+b(that)g(do)h(not)f(ha)-22 b(v)-17 b(e)398 b(an)e(antecedent)j(and)e
+(hence)h(do)f(not)f(need)27000 25631 y(to)352 b(be)g(resolv)-17
+b(ed\).)568 b(T)-89 b(o)353 b(e)-28 b(v)g(aluate)354
+b(the)e(utility)f(of)h(the)g(ne)-28 b(w)353 b(linguistic)27000
+26848 y(features,)269 b(we)e(augment)h(a)f(baseline)h(feature)f(set)f
+(\(which)h(comprises)27000 28066 y(kno)-28 b(wledge)284
+b(sources)e(commonly)h(emplo)-11 b(yed)283 b(by)f(e)-17
+b(xisting)282 b(corefer)-22 b(-)27000 29284 y(ence)232
+b(engines\))g(with)e(these)h(ne)-28 b(w)232 b(features.)327
+b(In)231 b(an)g(e)-28 b(v)g(aluation)233 b(on)e(the)27000
+30501 y(A)-44 b(CE)403 b(datasets,)435 b(the)403 b(coreference)j
+(system)d(using)g(the)h(augmented)27000 31719 y(feature)446
+b(set)e(yields)h(a)h(statistically)e(signi\002cant)i(impro)-17
+b(v)g(ement)448 b(of)27000 32936 y(2.2-2.3\045)278 b(in)f(F-measure)h
+(o)-17 b(v)g(er)279 b(the)e(baseline)h(system.)28107
+34154 y(Another)e(contrib)-22 b(ution)276 b(of)f(our)g(w)-11
+b(ork)275 b(lies)f(in)h(the)g(use)h(of)e(corpus-)27000
+35372 y(based)363 b(methods)h(for)d(inducing)k(features)d(for)f
+(coreference)k(resolu-)27000 36589 y(tion.)630 b(Although)375
+b(there)e(ha)-22 b(v)-17 b(e)374 b(been)h(a)e(fe)-28
+b(w)373 b(attempts)f(on)i(inducing)27000 37807 y(gender)30289
+37707 y([)30657 37807 y(Ge)278 b Fr(et)f(al.)p Fs(,)f(1998)37204
+37707 y(])37575 37807 y(,)g(path)i(coreference)45750
+37707 y([)46118 37807 y(Ber)-20 b(gsma)278 b(and)h(Lin,)27000
+39025 y(2006)29212 38925 y(])29583 39025 y(,)391 b(NP)369
+b(anaphoricity)37936 38925 y([)38305 39025 y(Bean)h(and)g(Rilof)-28
+b(f,)392 b(1999)48413 38925 y(])48783 39025 y(,)g(and)370
+b(selec-)27000 40242 y(tional)349 b(preferences)35319
+40142 y([)35687 40242 y(Dag)-6 b(an)351 b(and)f(Itai,)365
+b(1990;)350 b(Y)-111 b(ang)350 b Fr(et)f(al.)p Fs(,)365
+b(2005)53629 40142 y(])27000 41460 y(for)391 b(coreference)i
+(resolution,)420 b(most)391 b(of)g(the)g(e)-17 b(xisting)392
+b(coreference)27000 42678 y(resolv)-17 b(ers)277 b(rely)g(on)h
+(heuristic)f(methods)h(for)f(feature)g(computation.)27000
+45254 y Fu(2)1329 b(New)332 b(F)-33 b(eatur)-24 b(es)330
+b(f)-33 b(or)332 b(Cor)-24 b(efer)g(ence)331 b(Resolution)27000
+46874 y Fs(In)280 b(this)g(section)i(we)f(describe)g(the)g(ne)-28
+b(w)282 b(linguistic)f(features)f(for)g(our)27000 48092
+y(learning-based)f(coreference)h(resolution)d(system.)27000
+50226 y Fq(2.1)1212 b(Inducing)303 b(a)g(Semantic)f(Agr)-22
+b(eement)304 b(F)-30 b(eatur)-22 b(e)27000 51735 y Fs(A)357
+b(feature)h(commonly)h(emplo)-11 b(yed)360 b(by)e(coreference)i(resolv)
+-17 b(ers)357 b(for)27000 52953 y(determining)343 b(whether)f(tw)-11
+b(o)341 b(NPs)g(are)g(coreferent)h(is)e(the)i Fr(semantic)27000
+54170 y(class)300 b Fs(\(SC\))h Fr(a)-11 b(gr)-41 b(eement)302
+b Fs(feature,)307 b(which)302 b(has)f(the)g(v)-28 b(alue)302
+b Fr(true)f Fs(if)e(the)27000 55388 y(SCs)425 b(of)g(tw)-11
+b(o)425 b(NPs)g(match)i(and)f Fr(false)f Fs(otherwise.)787
+b(The)427 b(accurac)-17 b(y)27000 56606 y(of)350 b(the)i(SC)f
+(agreement)h(feature,)370 b(therefore,)f(depends)353
+b(on)f(whether)27000 57823 y(the)403 b(SC)h(v)-28 b(alues)404
+b(of)f(the)h(tw)-11 b(o)403 b(NPs)g(are)g(computed)j(correctly)-72
+b(.)722 b(F)-17 b(or)27000 59041 y(a)428 b(named)i(entity)e(\(NE\),)f
+(the)h(SC)h(is)e(typically)h(determined)i(using)27000
+60259 y(an)333 b(NE)f(recognizer;)361 b(on)333 b(the)g(other)f(hand,)
+347 b(determining)334 b(the)e(SC)h(of)27000 61476 y(a)326
+b(common)i(noun)g(pro)-17 b(v)g(es)328 b(more)e(dif)-28
+b(\002cult,)339 b(in)326 b(part)g(because)i(man)-17 b(y)27000
+62694 y(w)-11 b(ords)231 b(are)g(polysemous)h(and)g(it)e(is)g(non-tri)
+-28 b(vial)231 b(to)g(determine)h(which)27000 63912 y(sense)277
+b(corresponds)i(to)e(the)g(intended)i(meaning)g(of)e(the)h(noun.)28107
+65129 y(T)-89 b(o)431 b(determine)h(the)f(SC)f(of)g(a)h(common)h(noun,)
+470 b(man)-17 b(y)432 b(e)-17 b(xisting)27000 66347 y(coreference)347
+b(systems)d(use)i(W)-89 b(ordNet)346 b(\(e.g.,)361 b(Soon)346
+b Fr(et)f(al.)50404 66247 y Fs([)50772 66347 y(2001)52984
+66247 y(])53355 66347 y(\),)27000 67565 y(simply)450
+b(assigning)h(to)f(the)h(noun)h(the)e(\002rst)g(\(i.e.,)492
+b(most)450 b(frequent\))27000 68782 y(W)-89 b(ordNet)412
+b(sense)f(as)f(its)f(SC.)i(It)f(is)f(not)i(easy)g(to)g(measure)g(the)g
+(ac-)27000 70000 y(curac)-17 b(y)408 b(of)d(this)g(heuristic,)437
+b(b)-22 b(ut)406 b(the)g(f)-11 b(act)406 b(that)g(the)g(SC)g(agreement)
+p eop end
+%%Page: 2 2
+TeXDict begin 2 1 bop -1763 -1956 26526 45 v -1785 1365
+45 3321 v -1073 -1181 a Fp(P)50 b(E)g(R)g(S)g(O)g(N)25
+b Fo(,)586 b Fp(O)50 b(R)g(G)g(A)g(N)g(I)g(Z)g(A)-39
+b(T)50 b(I)g(O)g(N)25 b Fo(,)585 b Fp(T)50 b(I)g(M)g(E)25
+b Fo(,)587 b Fp(D)18 b(A)-34 b(Y)25 b Fo(,)590 b Fp(M)50
+b(O)g(N)g(E)g(Y)25 b Fo(,)588 b Fp(P)50 b(E)g(R)g(C)g(E)g(N)g(T)25
+b Fo(,)-1073 -74 y Fp(M)50 b(E)g(A)g(S)g(U)g(R)g(E)25
+b Fo(,)283 b Fp(A)50 b(B)g(S)g(T)g(R)g(A)18 b(C)50 b(T)g(I)g(O)g(N)25
+b Fo(,)281 b Fp(P)50 b(S)g(Y)g(C)g(H)g(O)g(L)g(O)g(G)g(I)g(C)g(A)g(L)
+303 b(F)50 b(E)g(A)-39 b(T)50 b(U)g(R)g(E)25 b Fo(,)283
+b Fp(P)50 b(H)g(E)g Fo(-)-1073 1033 y Fp(N)g(O)g(M)g(E)g(N)g(O)g(N)25
+b Fo(,)270 b Fp(S)50 b(T)-24 b(A)-39 b(T)50 b(E)25 b
+Fo(,)271 b Fp(G)50 b(R)18 b(O)50 b(U)g(P)25 b Fo(,)271
+b Fp(O)50 b(B)g(J)g(E)g(C)g(T)25 b Fo(,)269 b Fp(U)50
+b(N)g(K)g(N)g(O)23 b(W)50 b(N)p 24740 1365 V -1763 1409
+26526 45 v -2000 3382 a Fs(T)-89 b(able)312 b(1:)409
+b(List)309 b(of)g(the)i(possible)f(semantic)h(class)e(v)-28
+b(alues)311 b(of)f(a)g(com-)-2000 4600 y(mon)278 b(noun)h(returned)f
+(by)f(the)h(\002rst-sense)e(heuristic)h(method.)-2000
+7340 y(feature)389 b(w)-11 b(as)389 b(not)h(used)f(by)h(Soon)g
+Fr(et)f(al.)p Fs(')-61 b(s)388 b(decision)i(tree)f(corefer)-22
+b(-)-2000 8557 y(ence)262 b(classi\002er)e(seems)h(to)f(suggest)h(that)
+g(the)g(SC)g(v)-28 b(alues)262 b(of)e(the)h(NPs)-2000
+9775 y(were)278 b(not)f(computed)j(accurately)f(by)e(this)g
+(\223\002rst-sense\224)g(heuristic.)-893 10993 y(Moti)-28
+b(v)g(ated)375 b(by)f(related)h(w)-11 b(ork)373 b(on)h(semantic)h(le)
+-17 b(xicon)375 b(construc-)-2000 12210 y(tion)331 b(\(e.g.,)344
+b(Hearst)5861 12110 y([)6230 12210 y(1992)8442 12110
+y(])8812 12210 y(,)g(Phillips)331 b(and)h(Rilof)-28 b(f)18024
+12110 y([)18393 12210 y(2002)20605 12110 y(])20975 12210
+y(\),)344 b(we)331 b(de-)-2000 13428 y(v)-17 b(elop)431
+b(the)f(follo)-28 b(wing)431 b(method)g(for)e(learning)i(the)f(SC)g(of)
+f(a)h(com-)-2000 14645 y(mon)423 b(noun,)459 b(with)422
+b(the)g(goal)h(of)f(impro)-17 b(ving)423 b(the)g(accurac)-17
+b(y)425 b(of)c(the)-2000 15863 y(SC)383 b(agreement)i(feature.)662
+b(Gi)-28 b(v)-17 b(en)384 b(a)f(lar)-20 b(ge,)410 b(unannotated)386
+b(corpus)24279 15461 y Fn(1)24723 15863 y Fs(,)-2000
+17081 y(we)308 b(use)f(\(1\))g(an)g(in-house)i(NE)e(recognizer)i
+(\(which)f(achie)-28 b(v)-17 b(es)310 b(an)e(F-)-2000
+18298 y(measure)438 b(of)f(93\045)h(on)g(the)f(MUC-6)h(test)e(set\))g
+(to)h(label)h(each)g(NE)-2000 19516 y(with)328 b(its)g(semantic)h
+(class,)341 b(and)330 b(\(2\))e(Lin')-61 b(s)14854 19416
+y([)15222 19516 y(1998b)17987 19416 y(])18687 19516 y(MINIP)-102
+b(AR)328 b(de-)-2000 20734 y(pendenc)-17 b(y)263 b(parser)d(to)f(e)-17
+b(xtract)260 b(all)f(the)h(appositi)-28 b(v)-17 b(e)261
+b(relations.)337 b(An)260 b(e)-17 b(x-)-2000 21951 y(ample)338
+b(e)-17 b(xtraction)338 b(w)-11 b(ould)338 b(be)f Fm(<)p
+Fr(Eastern)g(Airlines)p Fs(,)351 b Fr(the)337 b(carrier)p
+Fm(>)p Fs(,)-2000 23169 y(where)304 b(the)f(\002rst)f(entry)i(is)e(a)h
+(proper)h(noun)g(labeled)h(with)d(either)i(one)-2000
+24387 y(of)318 b(the)g(se)-28 b(v)-17 b(en)321 b(MUC-style)d(NE)g
+(types)13133 23985 y Fn(2)13894 24387 y Fs(or)346 b Fl(O)21
+b(T)56 b(H)g(E)g(R)e(S)18876 23985 y Fn(3)19631 24387
+y Fs(and)319 b(the)g(sec-)-2000 25604 y(ond)238 b(entry)e(is)g(a)h
+(common)h(noun.)331 b(If)236 b(the)h(proper)g(noun)h(is)d(not)i
+(labeled)-2000 26822 y(as)350 b Fl(O)21 b(T)56 b(H)g(E)g(R)e(S)28
+b Fs(,)328 b(we)323 b(may)g(infer)g(the)g(SC)g(of)f(the)h(common)i
+(noun)f(from)-2000 28040 y(that)217 b(of)h(the)f(proper)h(noun.)325
+b(Ho)-28 b(we)g(v)-17 b(er)-44 b(,)232 b(since)218 b(neither)g(MINIP)
+-102 b(AR)217 b(nor)-2000 29257 y(the)380 b(NE)f(recognizer)i(is)d
+(perfect,)405 b(we)380 b(use)f(a)g(more)h(rob)-22 b(ust)379
+b(method)-2000 30475 y(for)315 b(inferring)h(the)g(SC)g(of)f(a)h
+(common)i(noun:)422 b(\(1\))315 b(we)h(compute)h(the)-2000
+31693 y(probability)275 b(that)g(the)g(common)h(noun)g(co-occurs)g
+(with)e(each)i(of)e(the)-2000 32910 y(eight)365 b(NE)g(types)4754
+32509 y Fn(4)5562 32910 y Fs(based)h(on)f(the)g(e)-17
+b(xtracted)367 b(appositi)-28 b(v)-17 b(e)367 b(relations,)-2000
+34128 y(and)311 b(\(2\))e(if)g(the)h(most)f(lik)-11 b(ely)310
+b(NE)g(type)g(has)g(a)g(co-occurrence)j(prob-)-2000 35346
+y(ability)269 b(abo)-17 b(v)g(e)272 b(a)c(certain)i(threshold)f(\(we)g
+(set)g(the)g(threshold)g(to)g(0.7\),)-2000 36563 y(we)277
+b(label)h(the)g(common)h(noun)f(with)f(the)h(most)e(lik)-11
+b(ely)278 b(NE)f(type.)-893 37781 y(An)232 b(e)-17 b(xamination)234
+b(of)d(the)h(induced)h(SC)f(v)-28 b(alues)233 b(indicates)f(that)f(our)
+-2000 38999 y(method)275 b(\002x)-17 b(es)274 b(some)f(of)g(the)h
+(errors)e(commonly)j(made)g(by)f(the)f(\002rst-)-2000
+40216 y(sense)297 b(heuristic.)402 b(F)-17 b(or)298 b(instance,)k
+(common)d(nouns)f(such)g(as)e Fr(carrier)-2000 41434
+y Fs(and)303 b Fr(manufactur)-41 b(er)304 b Fs(are)e(typically)g(used)h
+(to)e(refer)h(to)f(or)-20 b(g)-6 b(anizations)-2000 42652
+y(in)248 b(ne)-28 b(ws)249 b(articles,)k(b)-22 b(ut)249
+b(were)f(labeled)i(as)276 b Fl(P)56 b(E)g(R)e(S)i(O)g(N)271
+b Fs(by)248 b(the)h(heuristic.)-893 43869 y(Ne)-28 b(v)-17
+b(ertheless,)351 b(our)335 b(method)i(has)e(a)g(potential)h(weakness:)
+460 b(com-)-2000 45087 y(mon)278 b(nouns)h(that)e(do)i(not)e(belong)j
+(to)d(an)-17 b(y)279 b(of)e(the)h(se)-28 b(v)-17 b(en)279
+b(NE)f(seman-)-2000 46305 y(tic)224 b(classes)f(remain)i(unlabeled.)328
+b(T)-89 b(o)224 b(address)h(this)e(problem,)235 b(we)225
+b(will)-2000 47522 y(set)320 b(the)i(SC)f(of)g(an)g(unlabeled)j(common)
+f(noun)f(to)f(be)g(the)h(v)-28 b(alue)322 b(re-)-2000
+48740 y(turned)300 b(by)f(the)g(\002rst-sense)f(heuristic.)408
+b(\(In)298 b(our)h(implementation)i(of)-2000 49958 y(the)384
+b(\002rst-sense)g(heuristic,)410 b(we)385 b(determine)g(which)h(of)d
+(the)i(14)g(SCs)-2000 51175 y(listed)264 b(in)g(T)-89
+b(able)266 b(1)e(a)h(common)h(noun)g(belongs)f(to)g(based)g(on)g(the)g
+(\002rst)-2000 52393 y(W)-89 b(ordNet)249 b(sense.\))334
+b(Ho)-28 b(we)g(v)-17 b(er)-44 b(,)256 b(we)248 b(e)-17
+b(xpect)251 b(that)d(our)g(method)i(will)d(be)-2000 53610
+y(able)282 b(to)g(label)g(most)f(of)g(the)h(common)i(nouns,)f(because)h
+(in)d(A)-44 b(CE)282 b(we)-2000 54828 y(are)328 b(primarily)f
+(interested)h(in)f(nouns)h(referring)g(to)f(a)g(person,)341
+b(or)-20 b(g)-6 b(a-)-2000 56046 y(nization,)278 b(or)f(location,)h(as)
+f(we)g(will)f(see)i(in)f(the)g(ne)-17 b(xt)278 b(subsection.)-2000
+58181 y Fq(2.2)1212 b(Inducing)303 b(an)g(A)-67 b(CE-Speci\002c)304
+b(Semantic)e(F)-30 b(eatur)-22 b(e)-2000 59692 y Fs(The)298
+b Fl(S)56 b(E)g(M)p 2044 59692 333 45 v 451 w(C)e(L)i(A)g(S)g(S)292
+b Fs(feature)270 b(described)g(in)f(the)g(pre)-28 b(vious)270
+b(subsection)-2000 60910 y(w)-11 b(as)324 b(de)-28 b(v)-17
+b(eloped)328 b(for)323 b(use)i(in)e(a)i(general-purpose)h(coreference)h
+(sys-)-2000 62127 y(tem.)399 b(Ho)-28 b(we)g(v)-17 b(er)-44
+b(,)303 b(because)298 b(of)d(the)h(w)-11 b(ay)297 b(the)f(A)-44
+b(CE)296 b(coreference)i(task)p -2000 62997 6642 45 v
+-594 63738 a Fk(1)-207 64161 y Fo(W)-80 b(e)265 b(used)e(\(1\))g(the)g
+(BLLIP)f(corpus)h(\(30M)g(w)-10 b(ords\),)267 b(which)d(consists)e(of)
+-2000 65268 y(W)-80 b(all)291 b(Street)f(Journal)h(articles)f(from)g
+(1987)g(to)g(1989,)301 b(and)291 b(\(2\))f(the)g(Reuters)-2000
+66375 y(Corpus)248 b(\(3.7GB)h(data\),)h(which)g(has)f(806,791)h
+(Reuters)e(articles.)-594 67160 y Fk(2)-207 67583 y Fo(Person,)h(or)-18
+b(g)-5 b(anization,)251 b(location,)f(date,)g(time,)f(mone)-15
+b(y)-65 b(,)250 b(and)g(percent.)-594 68369 y Fk(3)-207
+68792 y Fo(This)f(indicates)g(the)h(proper)f(noun)h(is)e(not)i(a)f(MUC)
+g(NE.)-594 69577 y Fk(4)-207 70000 y Fo(F)-15 b(or)249
+b(simplicity)-65 b(,)275 b Fp(O)18 b(T)50 b(H)g(E)g(R)g(S)269
+b Fo(is)249 b(vie)-25 b(wed)250 b(as)f(an)g(NE)g(type)h(here.)p
+27361 -1956 26279 45 v 27339 -849 45 1107 v 28050 -1181
+a Fp(P)50 b(E)g(R)g(S)g(O)g(N)p 34966 -849 V 4297 w Fo(human)p
+53617 -849 V 27361 -804 26279 45 v 27339 302 45 1107
+v 28050 -30 a Fp(O)g(R)g(G)g(A)g(N)g(I)g(Z)g(A)-39 b(T)50
+b(I)g(O)g(N)p 34966 302 V 1080 w Fo(corporation,)250
+b(agenc)-15 b(y)-65 b(,)251 b(go)-15 b(v)g(ernment)p
+53617 302 V 27361 347 26279 45 v 27339 1454 45 1107 v
+28050 1122 a Fp(F)-9 b(A)18 b(C)50 b(I)g(L)g(I)g(T)g(Y)p
+34966 1454 V 3714 w Fo(man-made)251 b(structure)e(\(e.g.,)g(b)-20
+b(uilding\))p 53617 1454 V 27361 1498 26279 45 v 27339
+2605 45 1107 v 28050 2273 a Fp(G)50 b(S)g(P)p 34966 2605
+V 6041 w Fo(geo-political)250 b(re)-15 b(gion)250 b(\(e.g.,)g(country)
+-65 b(,)249 b(city\))p 53617 2605 V 27361 2649 26279
+45 v 27339 4863 45 2214 v 28050 3424 a Fp(L)50 b(O)g(C)g(A)-39
+b(T)50 b(I)g(O)g(N)p 34966 4863 V 3270 w Fo(geographical)452
+b(area)f(and)f(landmass,)501 b(body)450 b(of)35652 4531
+y(w)-10 b(ater)-40 b(,)250 b(geological)h(formation)p
+53617 4863 V 27361 4907 26279 45 v 33539 6880 a Fs(T)-89
+b(able)279 b(2:)343 b(A)-44 b(CE)277 b(semantic)h(classes.)p
+27361 8907 V 27339 10014 45 1107 v 28050 9682 a Fp(O)50
+b(R)g(G)g(A)g(N)g(I)g(Z)g(A)-39 b(T)50 b(I)g(O)g(N)p
+34966 10014 V 1080 w Fo(social)250 b(group)p 53617 10014
+V 27361 10058 26279 45 v 27339 12272 45 2214 v 28050
+10833 a Fp(F)-9 b(A)18 b(C)50 b(I)g(L)g(I)g(T)g(Y)p 34966
+12272 V 3714 w Fo(establishment,)260 b(construction,)f(b)-20
+b(uilding,)260 b(f)-10 b(acil-)35652 11940 y(ity)-65
+b(,)250 b(w)-10 b(orkplace)p 53617 12272 V 27361 12317
+26279 45 v 27339 14530 45 2214 v 28050 13091 a Fp(G)50
+b(S)g(P)p 34966 14530 V 6041 w Fo(country)-65 b(,)377
+b(pro)-15 b(vince,)376 b(go)-15 b(v)g(ernment,)377 b(to)-25
+b(wn,)376 b(city)-65 b(,)35652 14198 y(administration,)250
+b(society)-65 b(,)250 b(island,)f(community)p 53617 14530
+V 27361 14575 26279 45 v 27339 16789 45 2214 v 28050
+15350 a Fp(L)50 b(O)g(C)g(A)-39 b(T)50 b(I)g(O)g(N)p
+34966 16789 V 3270 w Fo(dry)333 b(land,)354 b(re)-15
+b(gion,)355 b(landmass,)e(body)334 b(of)e(w)-10 b(ater)-40
+b(,)35652 16457 y(geographical)251 b(area,)f(geological)g(formation)p
+53617 16789 V 27361 16833 26279 45 v 27000 18806 a Fs(T)-89
+b(able)312 b(3:)410 b(List)309 b(of)h(k)-11 b(e)-17 b(yw)-11
+b(ords)312 b(used)f(in)g(W)-89 b(ordNet)311 b(search)g(for)f(deter)-22
+b(-)27000 20023 y(mining)278 b(the)f(A)-44 b(CE)278 b(semantic)g(class)
+e(of)h(a)g(common)i(noun.)27000 23005 y(is)233 b(de\002ned,)245
+b(we)235 b(may)g(be)g(able)g(to)f(impro)-17 b(v)g(e)236
+b(system)e(performance)i(on)27000 24223 y(the)244 b(A)-44
+b(CE)244 b(data)g(if)f(we)h(de)-28 b(v)-17 b(elop)246
+b(another)f(semantic)f(class)g(agreement)27000 25440
+y(feature)415 b(with)f(the)h(A)-44 b(CE)414 b(guidelines)i(in)e(mind.)
+756 b(Speci\002cally)-72 b(,)451 b(the)27000 26658 y(A)-44
+b(CE)281 b(coreference)i(task)e(is)f(concerned)k(with)c(resolving)i
+(references)27000 27876 y(to)439 b(NPs)g(belonging)i(to)e(one)h(of)f
+(the)g(\002)-28 b(v)-17 b(e)441 b Fr(A)-33 b(CE)439 b(semantic)h
+(classes)27000 29093 y Fs(\(ASCs\),)386 b(namely)-72
+b(,)416 b Fl(P)56 b(E)g(R)e(S)i(O)g(N)28 b Fs(,)409 b
+Fl(O)56 b(R)e(G)i(A)g(N)g(I)g(Z)g(A)-43 b(T)56 b(I)g(O)g(N)28
+b Fs(,)403 b Fl(F)-9 b(A)21 b(C)54 b(I)i(L)g(I)g(T)g(Y)28
+b Fs(,)405 b Fl(G)56 b(S)g(P)27000 30311 y Fs(\(a)351
+b(geographical-social-political)j(re)-17 b(gion\),)371
+b(and)380 b Fl(L)56 b(O)g(C)e(A)-43 b(T)56 b(I)g(O)g(N)372
+b Fs([see)27000 31529 y(T)-89 b(able)241 b(2)e(for)f(a)i(brief)e
+(description)i(of)f(the)h(ASCs].)330 b(In)239 b(particular)-44
+b(,)247 b(ref-)27000 32746 y(erences)333 b(to)f(NPs)f(belonging)k(to)c
+(other)h(SCs)g(are)g(not)g(to)g(be)g(mark)-11 b(ed)27000
+33964 y(up.)591 b(Hence,)381 b(we)360 b(desire)f(an)388
+b Fl(A)21 b(C)54 b(E)p 40481 33964 333 45 v 452 w(S)i(E)g(M)p
+42865 33964 V 451 w(C)e(L)i(A)g(S)g(S)383 b Fs(feature)360
+b(that)f(con-)27000 35182 y(siders)248 b(tw)-11 b(o)249
+b(NPs)g(semantically)h(compatible)h(if)d(and)i(only)g(if)e(the)i(tw)-11
+b(o)27000 36399 y(NPs)438 b(ha)-22 b(v)-17 b(e)440 b(a)f(common)h(ASC.)
+f(The)g(rest)e(of)h(this)g(subsection)h(de-)27000 37617
+y(scribes)280 b(ho)-28 b(w)281 b(we)f(determine)h(the)g(ASC)f(of)g(an)h
+(NP)-123 b(.)280 b(As)f(we)i(will)e(see,)27000 38835
+y(we)242 b(allo)-28 b(w)242 b(an)g(NP)g(to)f(possess)g(more)h(than)g
+(one)g(ASC)g(in)g(some)g(cases.)28107 40095 y(Our)407
+b(method)h(for)e(determining)i(the)g(ASC)f(of)f(an)i(NP)f(is)e(based)
+27000 41313 y(in)333 b(part)g(on)h(its)e(SC)h(v)-28 b(alue)335
+b(as)e(computed)j(by)e(the)361 b Fl(S)56 b(E)g(M)p 48589
+41313 V 451 w(C)e(L)i(A)g(S)g(S)357 b Fs(fea-)27000 42530
+y(ture.)977 b(In)488 b(particular)-44 b(,)541 b(the)488
+b(method)i(hinges)f(on)g(the)g(observ)-28 b(ation)27000
+43748 y(that)395 b(\(1\))421 b Fl(S)56 b(E)g(M)p 32793
+43748 V 452 w(C)e(L)i(A)g(S)g(S)28 b Fs(')-61 b(s)417
+b Fl(O)56 b(R)e(G)i(A)g(N)g(I)g(Z)g(A)-43 b(T)56 b(I)g(O)g(N)411
+b Fs(class)394 b(roughly)i(corre-)27000 44966 y(sponds)252
+b(to)f(tw)-11 b(o)252 b(ASCs:)358 b Fl(F)-9 b(A)21 b(C)54
+b(I)i(L)g(I)g(T)g(Y)271 b Fs(and)280 b Fl(O)56 b(R)e(G)i(A)g(N)g(I)g(Z)
+g(A)-43 b(T)56 b(I)g(O)g(N)28 b Fs(,)245 b(and)252 b(\(2\))27028
+46183 y Fl(S)56 b(E)g(M)p 29054 46183 V 451 w(C)e(L)i(A)g(S)g(S)28
+b Fs(')-61 b(s)445 b Fl(L)56 b(O)g(C)e(A)-43 b(T)56 b(I)g(O)g(N)443
+b Fs(class)421 b(roughly)j(corresponds)g(to)e(tw)-11
+b(o)27000 47401 y(ASCs:)502 b Fl(G)56 b(S)g(P)366 b Fs(and)372
+b Fl(L)56 b(O)g(C)e(A)-43 b(T)56 b(I)g(O)g(N)28 b Fs(.)531
+b(Gi)-28 b(v)-17 b(en)344 b(this)e(observ)-28 b(ation,)360
+b(we)343 b(can)27000 48619 y(determine)278 b(the)g(ASC)g(of)e(an)i(NP)g
+(as)e(follo)-28 b(ws:)28107 50050 y Fj(\017)554 b Fs(If)211
+b(its)239 b Fl(S)56 b(E)g(M)p 33475 50050 V 451 w(C)e(L)i(A)g(S)g(S)236
+b Fs(v)-28 b(alue)213 b(is)f(not)240 b Fl(P)56 b(E)g(R)e(S)i(O)g(N)28
+b Fs(,)247 b Fl(O)56 b(R)e(G)i(A)g(N)g(I)g(Z)g(A)-43
+b(T)56 b(I)g(O)g(N)28 b Fs(,)29214 51267 y(or)305 b Fl(L)56
+b(O)g(C)e(A)-43 b(T)56 b(I)g(O)g(N)28 b Fs(,)269 b(its)276
+b(ASC)i(will)e(be)306 b Fl(O)21 b(T)56 b(H)g(E)g(R)e(S)28
+b Fs(.)28107 52698 y Fj(\017)554 b Fs(If)276 b(its)304
+b Fl(S)56 b(E)g(M)p 33605 52698 V 451 w(C)e(L)i(A)g(S)g(S)300
+b Fs(is)k Fl(P)56 b(E)g(R)e(S)i(O)g(N)28 b Fs(,)271 b(its)276
+b(ASC)i(will)e(be)306 b Fl(P)56 b(E)g(R)e(S)i(O)g(N)28
+b Fs(.)28107 54129 y Fj(\017)554 b Fs(If)356 b(its)383
+b Fl(S)56 b(E)g(M)p 33764 54129 V 451 w(C)e(L)i(A)g(S)g(S)380
+b Fs(is)k Fl(L)56 b(O)g(C)e(A)-43 b(T)56 b(I)g(O)g(N)28
+b Fs(,)369 b(we)357 b(will)f(ha)-22 b(v)-17 b(e)358 b(to)f(deter)-22
+b(-)29214 55347 y(mine)221 b(whether)h(its)d(ASC)i(is)248
+b Fl(L)56 b(O)g(C)e(A)-43 b(T)56 b(I)g(O)g(N)241 b Fs(or)248
+b Fl(G)56 b(S)g(P)28 b Fs(,)228 b(according)223 b(to)29214
+56565 y(our)338 b(observ)-28 b(ation)340 b(abo)-17 b(v)g(e.)528
+b(Speci\002cally)-72 b(,)355 b(we)339 b(\002rst)d(use)i(W)-89
+b(ord-)29214 57782 y(Net)342 b(to)g(determine)h(whether)g(the)g(head)g
+(noun)h(of)e(the)g(NP)h(is)e(a)29214 59000 y(h)-6 b(ypern)-17
+b(ym)254 b(of)d(one)h(of)f(the)279 b Fl(G)56 b(S)g(P)275
+b Fs(k)-11 b(e)-17 b(yw)-11 b(ords)253 b(listed)e(in)f(T)-89
+b(able)253 b(3.)53557 58598 y Fn(5)29214 60218 y Fs(W)-89
+b(e)232 b(then)f(repeat)h(this)f(W)-89 b(ordNet)232 b(lookup)h
+(procedure)g(using)e(the)29242 61435 y Fl(L)56 b(O)g(C)e(A)-43
+b(T)56 b(I)g(O)g(N)238 b Fs(k)-11 b(e)-17 b(yw)-11 b(ords.)325
+b(If)217 b(both)h(lookups)h(are)f(successful,)229 b(the)29214
+62653 y(ASC)303 b(of)e(the)i(NP)f(will)f(be)i(both)331
+b Fl(G)56 b(S)g(P)326 b Fs(and)331 b Fl(L)56 b(O)g(C)e(A)-43
+b(T)56 b(I)g(O)g(N)28 b Fs(;)307 b(other)-22 b(-)29214
+63870 y(wise)277 b(the)g(ASC)h(will)e(be)i(one)g(of)f(these)g(tw)-11
+b(o)277 b(classes.)28107 65616 y Fj(\017)554 b Fs(If)414
+b(its)442 b Fl(S)56 b(E)g(M)p 33881 65616 V 451 w(C)e(L)i(A)g(S)g(S)439
+b Fs(is)j Fl(O)56 b(R)e(G)i(A)g(N)g(I)g(Z)g(A)-43 b(T)56
+b(I)g(O)g(N)28 b Fs(,)439 b(we)415 b(will)g(ha)-22 b(v)-17
+b(e)417 b(to)29214 66834 y(determine)436 b(whether)f(its)f(ASC)h(is)461
+b Fl(O)56 b(R)e(G)i(A)g(N)g(I)g(Z)g(A)-43 b(T)56 b(I)g(O)g(N)451
+b Fs(or)462 b Fl(F)-9 b(A)56 b Fs(-)p 27000 67729 6642
+45 v 28406 68470 a Fk(5)28793 68893 y Fo(The)235 b(k)-10
+b(e)-15 b(yw)-10 b(ords)235 b(are)f(obtained)i(via)e(our)h(e)-15
+b(xperimentation)236 b(with)e(W)-80 b(ord-)27000 70000
+y(Net)250 b(and)f(the)h(ASCs)e(of)h(the)h(NPs)e(in)i(the)f(training)g
+(data.)p eop end
+%%Page: 3 3
+TeXDict begin 3 2 bop 242 -893 a Fl(C)54 b(I)i(L)g(I)g(T)g(Y)28
+b Fs(.)437 b(W)-89 b(e)311 b(can)h(similarly)e(use)g(the)h(procedure)i
+(outlined)f(in)214 325 y(the)289 b(pre)-28 b(vious)290
+b(b)-22 b(ullet)289 b(to)f(determine)i(whether)g(its)e(ASC)h(is)316
+b Fl(O)56 b(R)e Fs(-)242 1542 y Fl(G)i(A)g(N)g(I)g(Z)g(A)-43
+b(T)56 b(I)g(O)g(N)28 b Fs(,)294 b Fl(F)-9 b(A)21 b(C)54
+b(I)i(L)g(I)g(T)g(Y)28 b Fs(,)268 b(or)276 b(both.)-2000
+3877 y Fq(2.3)1212 b(Inducing)303 b(a)g(Semantic)f(Similarity)h(F)-30
+b(eatur)-22 b(e)-2000 5548 y Fs(Man)-17 b(y)441 b(reference)g(resolv)
+-17 b(ers)440 b(use)g(W)-89 b(ordNet)441 b(to)f(compute)h(the)f(se-)
+-2000 6765 y(mantic)382 b(similarity)d(between)k(tw)-11
+b(o)381 b(common)i(nouns)f(\(e.g.,)407 b(Poesio)-2000
+7983 y Fr(et)353 b(al.)643 7883 y Fs([)1012 7983 y(2004)3224
+7883 y(])3947 7983 y(and)i(Daum)8664 7977 y(\264)8603
+7983 y(e)g(and)f(Marcu)14642 7883 y([)15011 7983 y(2005)17223
+7883 y(])17594 7983 y(\).)571 b(Ho)-28 b(we)g(v)-17 b(er)-44
+b(,)374 b(this)-2000 9201 y(approach)365 b(to)d(determining)i(semantic)
+f(similarity)e(may)j(not)e(be)h(ro-)-2000 10418 y(b)-22
+b(ust,)284 b(since)f(its)f(success)h(depends)i(to)d(a)h(lar)-20
+b(ge)284 b(e)-17 b(xtent)284 b(on)f(the)h(ability)-2000
+11636 y(to)277 b(determine)h(the)g(correct)f(W)-89 b(ordNet)279
+b(sense)e(of)g(the)g(gi)-28 b(v)-17 b(en)279 b(nouns.)-893
+12894 y(Moti)-28 b(v)g(ated)527 b(by)g(research)f(in)g(le)-17
+b(xical)526 b(semantics,)588 b(we)526 b(instead)-2000
+14111 y(adopt)445 b(a)e Fr(distrib)-22 b(utional)443
+b Fs(approach)j(to)e(computing)h(the)f(semantic)-2000
+15329 y(similarity)400 b(between)k(tw)-11 b(o)401 b(common)j(nouns:)593
+b(we)402 b(capture)g(the)g(se-)-2000 16547 y(mantics)250
+b(of)g(a)g(noun)h(by)f(counting)i(ho)-28 b(w)251 b(frequent)g(it)e
+(co-occurs)i(with)-2000 17764 y(other)354 b(w)-11 b(ords,)373
+b(determining)355 b(a)f(pair)g(of)f(common)j(nouns)f(to)f(be)g(se-)
+-2000 18982 y(mantically)278 b(similar)e(if)g(their)h(co-occurrence)j
+(patterns)e(are)f(similar)-61 b(.)-893 20240 y(Instead)340
+b(of)f(acquiring)i(semantic)g(similarity)d(information)i(from)-2000
+21458 y(scratch,)467 b(we)429 b(use)g(the)g(semantic)g(similarity)e(v)
+-28 b(alues)430 b(pro)-17 b(vided)431 b(by)-2000 22675
+y(Lin')-61 b(s)808 22575 y([)1176 22675 y(1998a)3879
+22575 y(])4782 22675 y(dependenc)-17 b(y-based)538 b(thesaurus,)596
+b(which)533 b(is)e(con-)-2000 23893 y(structed)470 b(using)g(a)h
+(distrib)-22 b(utional)469 b(approach)k(combined)f(with)e(an)-2000
+25111 y(information-theoretic)390 b(de\002nition)g(of)e(similarity)-72
+b(.)676 b(Each)390 b(w)-11 b(ord)389 b Fm(w)-2000 26328
+y Fs(in)315 b(the)g(thesaurus)g(is)f(associated)i(with)e(a)h(list)e(of)
+i(w)-11 b(ords)315 b(most)f(simi-)-2000 27546 y(lar)277
+b(to)g Fm(w)307 b Fs(together)278 b(with)f(the)g(semantic)h(similarity)
+e(v)-28 b(alues.)-893 28804 y(Gi)g(v)-17 b(en)234 b(the)f(thesaurus,)
+242 b(we)232 b(can)i(construct)f(a)g(semantic)g(similarity)-2000
+30022 y(feature,)256 b Fl(S)56 b(E)g(M)p 3631 30022 333
+45 v 452 w(S)g(I)g(M)28 b Fs(,)224 b(for)216 b(coreference)i
+(resolution,)228 b(in)216 b(which)h(we)f(use)-2000 31239
+y(a)337 b(binary)h(v)-28 b(alue)338 b(to)f(denote)i(whether)f(tw)-11
+b(o)337 b(NPs,)379 b Fl(N)56 b(P)18605 31405 y Fi(x)19497
+31239 y Fs(and)366 b Fl(N)56 b(P)22491 31405 y Fi(y)23020
+31239 y Fs(,)351 b(are)-2000 32457 y(semantically)392
+b(similar)-61 b(.)684 b(Speci\002cally)-72 b(,)422 b(the)392
+b(feature)f(has)h(the)f(v)-28 b(alue)-2000 33674 y Fr(true)385
+b Fs(if)g(and)h(only)g(if)412 b Fl(N)56 b(P)7686 33840
+y Fi(x)8626 33674 y Fs(is)384 b(among)k(the)d(5-nearest)h(neighbors)h
+(of)-1972 34892 y Fl(N)56 b(P)-941 35058 y Fi(y)-135
+34892 y Fs(according)280 b(to)d(the)g(thesaurus)h(or)f(vice)g(v)-17
+b(ersa.)-2000 37227 y Fq(2.4)1212 b(Inducing)303 b(a)g(P)-12
+b(atter)-18 b(n-Based)302 b(F)-30 b(eatur)-22 b(e)-2000
+38897 y Fs(Ne)-17 b(xt,)423 b(we)393 b(induce)i(a)421
+b Fl(P)-25 b(A)-43 b(T)56 b(T)g(E)g(R)e(N)p 11005 38897
+V 448 w(B)24 b(A)56 b(S)g(E)g(D)417 b Fs(feature)393
+b(using)h(informa-)-2000 40115 y(tion)271 b(pro)-17 b(vided)274
+b(by)e(an)g(algorithm)g(that)f(learns)h(patterns)f(for)g(e)-17
+b(xtract-)-2000 41333 y(ing)215 b(coreferent)g(NP)g(pairs,)226
+b(each)216 b(of)e(which)h(in)-44 b(v)-22 b(olv)-17 b(es)216
+b(a)e(pronoun)j(and)-2000 42550 y(its)357 b(antecedent.)591
+b(Bean)361 b(and)e(Rilof)-28 b(f)12568 42450 y([)12936
+42550 y(2004)15148 42450 y(])15877 42550 y(also)359 b(learn)g(e)-17
+b(xtraction)-2000 43768 y(patterns)440 b(for)f(coreference)j
+(resolution,)481 b(b)-22 b(ut)440 b(unlik)-11 b(e)440
+b(our)g(method,)-2000 44986 y(their)277 b(method)h(is)e(unsupervised)k
+(and)e(domain-speci\002c.)-893 46244 y(Before)241 b(sho)-28
+b(wing)241 b(ho)-28 b(w)241 b(to)f(compute)i(our)268
+b Fl(P)-25 b(A)-43 b(T)56 b(T)g(E)g(R)e(N)p 19568 46244
+V 448 w(B)24 b(A)56 b(S)g(E)g(D)264 b Fs(fea-)-2000 47461
+y(ture,)d(let)c(us)g(describe)h(the)f(pattern)h(learner)-44
+b(,)261 b(which)d(operates)h(as)e(fol-)-2000 48679 y(lo)-28
+b(ws:)393 b(\(1\))301 b(patterns)h(are)g(acquired)i(from)d(a)h(corpus)h
+(annotated)h(with)-2000 49897 y(coreference)248 b(information,)k(and)
+247 b(\(2\))e(the)h(accurac)-17 b(y)249 b(of)c(each)i(learned)-2000
+51114 y(pattern)278 b(is)e(estimated.)344 b(Belo)-28
+b(w)278 b(we)f(elaborate)i(these)f(tw)-11 b(o)277 b(steps.)-2000
+52913 y Fh(Acquiring)263 b(the)e(patter)-17 b(ns.)1108
+b Fs(Recall)262 b(that)f(a)g(pattern)h(is)e(used)h(to)g(e)-17
+b(x-)-2000 54130 y(tract)378 b(coreferent)i(NP)f(pairs;)428
+b(hence)381 b(a)d(good)i(pattern)g(should)f(cap-)-2000
+55348 y(ture)352 b(features)g(of)g(the)h(tw)-11 b(o)352
+b(NPs)g(in)-44 b(v)-22 b(olv)-17 b(ed)354 b(as)e(well)f(as)h(the)h
+(conte)-17 b(xt)-2000 56566 y(in)285 b(which)h(the)-17
+b(y)286 b(occur)-61 b(.)368 b(T)-89 b(o)286 b(illustrate)d(ho)-28
+b(w)286 b(to)f(induce)i(a)e(pattern,)i(let)-2000 57783
+y(us)405 b(consider)i(the)f(follo)-28 b(wing)406 b Fr(cor)-41
+b(efer)g(ence)408 b(se)-44 b(gment)407 b Fs(\(CS\),)e(which)-2000
+59001 y(we)350 b(de\002ne)h(as)e(a)h(te)-17 b(xt)349
+b(se)-17 b(gment)351 b(that)f(starts)d(with)j(an)g(NP)-123
+b(,)377 b Fl(N)56 b(P)22203 59167 y Fi(x)22758 59001
+y Fs(,)367 b(and)-2000 60218 y(ends)316 b(with)e(a)i(pronoun)h(that)e
+(co-refers)f(with)343 b Fl(N)56 b(P)17001 60384 y Fi(x)17556
+60218 y Fs(:)419 b(\223John)316 b(is)e(study-)-2000 61436
+y(ing)334 b(hard)g(for)g(the)g(e)-17 b(xam.)514 b(He\224.)g(From)334
+b(this)f(CS,)h(we)g(can)h(induce)h(a)-2000 62654 y(pattern)244
+b(that)g(simply)g(comprises)g(all)g(the)g(tok)-11 b(ens)244
+b(in)g(the)g(se)-17 b(gment.)334 b(If)-2000 63871 y(we)242
+b(see)f(this)g(sequence)j(of)d(tok)-11 b(ens)242 b(in)g(a)f(test)g(te)
+-17 b(xt,)249 b(we)241 b(can)i(apply)f(this)-2000 65089
+y(pattern)278 b(to)f(determine)h(that)f Fr(J)-28 b(ohn)279
+b Fs(and)555 b Fr(He)278 b Fs(are)f(lik)-11 b(ely)277
+b(to)g(co-refer)-61 b(.)-893 66347 y(The)337 b(abo)-17
+b(v)g(e)338 b(pattern,)351 b(ho)-28 b(we)g(v)-17 b(er)-44
+b(,)353 b(may)337 b(not)f(be)h(useful)f(because)i(it)-2000
+67565 y(is)324 b(unlik)-11 b(ely)326 b(that)f(we)h(will)e(see)h(e)-17
+b(xactly)327 b(the)e(same)h(te)-17 b(xt)325 b(se)-17
+b(gment)327 b(in)-2000 68782 y(an)380 b(unseen)h(te)-17
+b(xt.)651 b(Hence,)406 b(we)380 b(desire)g(a)f(pattern)h(learner)g
+(that)g(can)-2000 70000 y(generalize)314 b(from)d(a)h(CS)g(and)h(yet)f
+(retain)g(suf)-28 b(\002cient)312 b(information)h(to)27000
+-893 y(e)-17 b(xtract)299 b(coreferent)h(NP)e(pairs.)406
+b(Speci\002cally)-72 b(,)306 b(we)299 b(design)g(a)f(pattern)27000
+325 y(learner)234 b(that)f(induces)i(from)d(each)j(CS)f(in)f(a)g(gi)-28
+b(v)-17 b(en)235 b(annotated)h(corpus)27000 1542 y(three)273
+b(e)-17 b(xtraction)274 b(patterns,)f(each)h(of)f(which)g(represents)g
+(a)f(dif)-28 b(ferent)27000 2760 y(de)-17 b(gree)343
+b(of)d(generalization)j(from)d(the)h(CS.)g(In)f(this)f(w)-11
+b(ork,)357 b(we)341 b(only)27000 3978 y(consider)373
+b(se)-17 b(gments)374 b(in)e(which)i(the)f(antecedent)i(and)f(the)f
+(anaphor)27000 5195 y(are)277 b(fe)-28 b(wer)278 b(than)g(three)f
+(sentences)i(apart.)28107 6440 y(T)-89 b(able)236 b(4)e(sho)-28
+b(ws)235 b(the)f(three)h(patterns)f(that)g(the)h(learner)g(will)e
+(induce)27000 7658 y(for)243 b(the)h(e)-17 b(xample)246
+b(CS)e(abo)-17 b(v)g(e.)335 b(The)245 b(\002rst)d(pattern)i(\(see)g(ro)
+-28 b(w)244 b(1\))f(is)g(cre-)27000 8876 y(ated)328 b(by)g(\(1\))f
+(representing)i(the)e(antecedent)k(and)d(the)g(anaphor)h(as)f(a)27000
+10093 y(set)263 b(of)h(attrib)-22 b(ute)263 b(v)-28 b(alues)265
+b(indicating)h(its)c(gender)-44 b(,)268 b(number)-44
+b(,)267 b(semantic)27000 11311 y(class,)327 b(grammatical)319
+b(role,)328 b(and)319 b(NP)f(type)43486 10909 y Fn(6)43930
+11311 y Fs(;)337 b(\(2\))317 b(representing)i(each)27000
+12529 y(of)366 b(the)g(remaining)i(NPs)e(in)g(the)g(CS)h(by)g(the)f
+(tok)-11 b(en)395 b Fl(N)56 b(P)28 b Fs(;)408 b(\(3\))366
+b(repre-)27000 13746 y(senting)376 b(each)i(non-v)-17
+b(erbal)378 b(and)f(non-adv)-17 b(erbial)379 b(tok)-11
+b(en)377 b(that)f(is)e(not)27000 14964 y(enclosed)328
+b(by)f(an)-17 b(y)328 b(NP)f(by)g(its)e(part-of-speech)j(tag;)351
+b(and)328 b(\(4\))e(repre-)27000 16182 y(senting)390
+b(each)i(v)-17 b(erbal)391 b(tok)-11 b(en)391 b(as)f(it)f(is.)680
+b(The)391 b(reason)g(for)e(retaining)27000 17399 y(the)312
+b(v)-17 b(erbal)314 b(tok)-11 b(ens)313 b(is)e(moti)-28
+b(v)g(ated)314 b(by)f(the)f(intuition)h(that)f(v)-17
+b(erbs)313 b(can)27000 18617 y(sometimes)441 b(play)g(an)g(important)g
+(role)g(in)f(identifying)i(coreferent)27000 19835 y(NP)294
+b(pairs.)394 b(On)294 b(the)g(other)g(hand,)300 b(adv)-17
+b(erbs)296 b(are)e(not)g(represented)h(be-)27000 21052
+y(cause)k(the)-17 b(y)300 b(generally)g(do)e(not)h(contain)g(useful)g
+(information)f(as)g(f)-11 b(ar)27000 22270 y(as)277 b(identifying)h
+(coreferent)g(NP)g(pairs)e(is)g(concerned.)28107 23515
+y(The)317 b(second)h(pattern)f(\(sho)-28 b(wn)317 b(in)f(ro)-28
+b(w)316 b(2)h(of)e(T)-89 b(able)318 b(4\))e(is)f(created)27000
+24733 y(via)367 b(the)g(same)g(procedure)i(as)d(the)h(\002rst)f
+(pattern,)390 b(e)-17 b(xcept)368 b(that)f(each)27000
+25950 y(v)-17 b(erbal)348 b(tok)-11 b(en)349 b(is)d(replaced)j(by)e
+(its)f(part-of-speech)i(tag.)554 b(The)348 b(third)27000
+27168 y(pattern)324 b(\(see)g(ro)-28 b(w)324 b(3)f(of)h(T)-89
+b(able)325 b(4\))e(is)g(created)i(via)f(the)g(same)g(proce-)27000
+28386 y(dure)i(as)f(the)h(preceding)i(tw)-11 b(o)326
+b(patterns,)337 b(e)-17 b(xcept)328 b(that)e(only)g(the)g(NPs)27000
+29603 y(are)371 b(retained.)624 b(So,)394 b(the)371 b(three)g(patterns)
+g(represent)g(three)f(dif)-28 b(ferent)27000 30821 y(le)g(v)-17
+b(els)261 b(of)g(generalizations)h(from)e(the)h(CS,)g(with)f(the)h
+(\002rst)f(one)h(being)27000 32039 y(the)277 b(most)g(speci\002c)i(and)
+f(the)f(third)g(one)h(being)h(the)e(most)g(general.)28107
+33284 y(Note)400 b(that)f(some)h(of)f(the)g(induced)j(patterns)d(may)i
+(e)-17 b(xtract)400 b(both)27000 34502 y(coreferent)438
+b Fr(and)g Fs(non-coreferent)i(NP)d(pairs,)476 b(thus)437
+b(ha)-22 b(ving)439 b(a)e(lo)-28 b(w)27000 35719 y(e)-17
+b(xtraction)434 b(accurac)-17 b(y)-72 b(.)814 b(The)434
+b(reason)f(is)f(that)h(our)g(pattern)g(learner)27000
+36937 y(does)423 b(not)f(capture)i(e)-28 b(vidence)425
+b(outside)e(a)f(CS)h(se)-17 b(gment,)460 b(which)423
+b(in)27000 38154 y(some)298 b(cases)f(may)i(be)f(crucial)g(for)e
+(inducing)k(high-precision)e(rules.)27000 39372 y(Hence,)355
+b(we)339 b(need)h(to)e(estimate)h(the)f(accurac)-17 b(y)342
+b(of)c(each)i(pattern,)354 b(so)27000 40590 y(that)377
+b(a)h(coreference)h(system)e(can)i(decide)g(whether)f(it)e(should)j
+(dis-)27000 41807 y(card)278 b(NP)f(pairs)g(e)-17 b(xtracted)279
+b(by)f(patterns)f(with)g(a)g(lo)-28 b(w)278 b(accurac)-17
+b(y)-72 b(.)27000 43535 y Fh(Estimating)450 b(patter)-17
+b(n)451 b(accuracy)-77 b(.)1110 b Fs(After)449 b(we)h(acquire)i(a)e
+(list)e(of)27000 44753 y(e)-17 b(xtraction)320 b(patterns)f
+Fm(L)f Fs(\(with)g(the)g(redundant)j(patterns)e(remo)-17
+b(v)g(ed\),)27000 45971 y(we)440 b(can)h(estimate)f(the)g
+Fr(accur)-17 b(acy)443 b Fs(of)c(each)i(pattern)g(on)f(an)g(anno-)27000
+47188 y(tated)261 b(corpus)h(simply)f(by)g(counting)i(the)e(number)h
+(of)e(coreferent)i(NP)27000 48406 y(pairs)267 b(it)f(e)-17
+b(xtracts)268 b(di)-28 b(vided)269 b(by)f(the)g(total)f(number)h(of)f
+(NP)h(pairs)f(it)f(e)-17 b(x-)27000 49624 y(tracts,)351
+b(as)336 b(described)j(belo)-28 b(w)-72 b(.)523 b(First,)351
+b(we)337 b(collect)g(all)g(the)g(CS')-61 b(s)337 b(and)27000
+50841 y Fr(non-cor)-41 b(efer)g(ence)354 b(se)-44 b(gments)352
+b Fs(\(NCS')-61 b(s\))350 b(from)g(the)h(same)g(annotated)27000
+52059 y(corpus)408 b(that)f(we)g(used)g(to)g(induce)h(our)g(patterns,)
+439 b(where)408 b(an)f(NCS)27000 53277 y(is)342 b(de\002ned)k(as)e(a)f
+(te)-17 b(xt)344 b(se)-17 b(gment)345 b(be)-17 b(ginning)346
+b(with)e(an)g(NP)-123 b(,)371 b Fl(N)56 b(P)51210 53443
+y Fi(x)51765 53277 y Fs(,)360 b(and)27000 54494 y(ends)252
+b(with)f(a)g(pronoun,)286 b Fl(N)56 b(P)37522 54660 y
+Fi(y)38052 54494 y Fs(,)255 b(such)d(that)280 b Fl(N)56
+b(P)43835 54660 y Fi(x)44640 54494 y Fs(is)250 b Fr(not)i
+Fs(coreferent)g(with)27028 55712 y Fl(N)56 b(P)28059
+55878 y Fi(y)28588 55712 y Fs(.)765 b(\(As)416 b(before,)453
+b(we)418 b(only)h(consider)f(CS')-61 b(s)418 b(and)g(NCS')-61
+b(s)418 b(where)27000 56930 y(the)282 b(tw)-11 b(o)282
+b(enclosing)i(NPs)e(are)g(separated)i(by)e(fe)-28 b(wer)283
+b(than)f(three)h(sen-)27000 58147 y(tences.\))688 b(From)393
+b(each)g(CS/NCS,)g(we)f(use)h(our)f(pattern)g(learner)h(to)27000
+59365 y(induce)277 b(three)f(patterns)f(in)g(the)h(same)f(w)-11
+b(ay)276 b(as)f(before,)h(b)-22 b(ut)276 b(this)e(time)27000
+60583 y(we)282 b(additionally)h(label)g(each)g(pattern)f(with)g(a)f
+('-')f(if)h(it)g(w)-11 b(as)281 b(induced)27000 61800
+y(from)378 b(an)g(NCS)h(and)g(a)f('+')f(otherwise.)647
+b(W)-89 b(e)378 b(then)h(insert)f(all)f(these)27000 63018
+y(labeled)324 b(patterns)e(into)h(a)f(list)f Fm(S)64
+b Fs(,)332 b(with)322 b(the)h(redundant)i(patterns)d(re-)27000
+64236 y(tained.)330 b(Finally)-72 b(,)243 b(we)233 b(compute)j(the)e
+(accurac)-17 b(y)236 b(of)e(a)f(pattern)h Fm(l)330 b
+Fj(2)307 b Fm(L)234 b Fs(as)27000 65453 y(the)291 b(number)h(of)e
+(times)g Fm(l)312 b Fs(appears)291 b(in)g Fm(S)353 b
+Fs(with)290 b(the)h(label)g('+')f(di)-28 b(vided)27000
+66671 y(by)278 b(the)f(total)g(number)h(of)f(times)g
+Fm(l)299 b Fs(appears)278 b(in)f Fm(S)64 b Fs(.)p 27000
+67729 6642 45 v 28406 68470 a Fk(6)28793 68893 y Fo(The)493
+b(possible)e(NP)i(types)f(are)517 b Fp(P)50 b(R)18 b(O)50
+b(N)g(O)g(U)g(N)25 b Fo(,)575 b Fp(P)50 b(R)18 b(O)50
+b(P)g(E)g(R)p 48968 68893 299 45 v 403 w(N)g(O)g(U)g(N)25
+b Fo(,)551 b(and)27025 70000 y Fp(C)50 b(O)g(M)g(M)g(O)g(N)p
+31035 70000 V 405 w(N)g(O)g(U)g(N)25 b Fo(.)p eop end
+%%Page: 4 4
+TeXDict begin 4 3 bop 676 -1956 50648 45 v 654 258 45
+2214 v 1340 -1181 a Fo(1.)1329 b Fg(f)372 b Fp(G)50 b(E)g(N)g(D)g(E)g
+(R)g Fo(:)g Fp(M)g Fo(,)417 b Fp(N)50 b(U)g(M)g(B)g(E)g(R)g
+Fo(:)g Fp(S)g(I)g(N)g(G)g Fo(,)416 b Fp(S)50 b(E)g(M)g(C)g(L)g(A)g(S)g
+(S)g Fo(:)g Fp(P)g(E)g(R)g(S)g(O)g(N)g Fo(,)410 b Fp(G)50
+b(R)g(A)g(M)g(R)18 b(O)50 b(L)g(E)g Fo(:)g Fp(S)g(U)g(B)g(J)g
+Fo(,)414 b Fp(N)50 b(P)g(T)g(Y)g(P)g(E)g Fo(:)g Fp(P)g(N)366
+b Fg(g)348 b Fo(is)f(studying)373 b(I)50 b(N)398 b Fp(N)50
+b(P)371 b Fo(.)605 b Fg(f)373 b Fp(G)50 b(E)g(N)g Fo(-)3441
+-74 y Fp(D)g(E)g(R)g Fo(:)g Fp(M)g Fo(,)295 b Fp(N)50
+b(U)g(M)g(B)g(E)g(R)g Fo(:)g Fp(S)g(I)g(N)g(G)g Fo(,)292
+b Fp(S)50 b(E)g(M)g(C)g(L)g(A)g(S)g(S)g Fo(:)g Fp(P)g(E)g(R)g(S)g(O)g
+(N)g Fo(,)287 b Fp(G)50 b(R)g(A)g(M)g(R)18 b(O)50 b(L)g(E)g
+Fo(:)g Fp(S)g(U)g(B)g(J)g Fo(,)290 b Fp(N)50 b(P)g(T)g(Y)g(P)g(E)g
+Fo(:)g Fp(P)g(R)18 b(O)267 b Fg(g)p 51302 258 V 676 302
+50648 45 v 654 2516 45 2214 v 1340 1077 a Fo(2.)1329
+b Fg(f)379 b Fp(G)50 b(E)g(N)g(D)g(E)g(R)g Fo(:)g Fp(M)g
+Fo(,)425 b Fp(N)50 b(U)g(M)g(B)g(E)g(R)g Fo(:)g Fp(S)g(I)g(N)g(G)g
+Fo(,)423 b Fp(S)50 b(E)g(M)g(C)g(L)g(A)g(S)g(S)g Fo(:)g
+Fp(P)g(E)g(R)g(S)g(O)g(N)g Fo(,)418 b Fp(G)50 b(R)g(A)g(M)g(R)18
+b(O)50 b(L)g(E)g Fo(:)g Fp(S)g(U)g(B)g(J)g Fo(,)421 b
+Fp(N)50 b(P)g(T)g(Y)g(P)g(E)g Fo(:)g Fp(P)g(N)373 b Fg(g)355
+b Fo(VBZ)e(VBG)h(IN)379 b Fp(N)50 b(P)378 b Fo(.)624
+b Fg(f)379 b Fp(G)50 b(E)g(N)g Fo(-)3441 2184 y Fp(D)g(E)g(R)g
+Fo(:)g Fp(M)g Fo(,)295 b Fp(N)50 b(U)g(M)g(B)g(E)g(R)g
+Fo(:)g Fp(S)g(I)g(N)g(G)g Fo(,)292 b Fp(S)50 b(E)g(M)g(C)g(L)g(A)g(S)g
+(S)g Fo(:)g Fp(P)g(E)g(R)g(S)g(O)g(N)g Fo(,)287 b Fp(G)50
+b(R)g(A)g(M)g(R)18 b(O)50 b(L)g(E)g Fo(:)g Fp(S)g(U)g(B)g(J)g
+Fo(,)290 b Fp(N)50 b(P)g(T)g(Y)g(P)g(E)g Fo(:)g Fp(P)g(R)18
+b(O)267 b Fg(g)p 51302 2516 V 676 2561 50648 45 v 654
+4775 45 2214 v 1340 3336 a Fo(3.)1329 b Fg(f)518 b Fp(G)50
+b(E)g(N)g(D)g(E)g(R)g Fo(:)g Fp(M)g Fo(,)599 b Fp(N)50
+b(U)g(M)g(B)g(E)g(R)g Fo(:)g Fp(S)g(I)g(N)g(G)g Fo(,)598
+b Fp(S)50 b(E)g(M)g(C)g(L)g(A)g(S)g(S)g Fo(:)g Fp(P)g(E)g(R)g(S)g(O)g
+(N)g Fo(,)593 b Fp(G)50 b(R)g(A)g(M)g(R)18 b(O)50 b(L)g(E)g
+Fo(:)g Fp(S)g(U)g(B)g(J)g Fo(,)595 b Fp(N)50 b(P)g(T)g(Y)g(P)g(E)g
+Fo(:)g Fp(P)g(N)512 b Fg(g)519 b Fp(N)50 b(P)517 b Fg(f)i
+Fp(G)50 b(E)g(N)g(D)g(E)g(R)g Fo(:)g Fp(M)g Fo(,)599
+b Fp(N)50 b(U)g(M)g Fo(-)3441 4443 y Fp(B)g(E)g(R)g Fo(:)g
+Fp(S)g(I)g(N)g(G)g Fo(,)293 b Fp(S)50 b(E)g(M)g(C)g(L)g(A)g(S)g(S)g
+Fo(:)g Fp(P)g(E)g(R)g(S)g(O)g(N)g Fo(,)287 b Fp(G)50
+b(R)g(A)g(M)g(R)18 b(O)50 b(L)g(E)g Fo(:)g Fp(S)g(U)g(B)g(J)g
+Fo(,)290 b Fp(N)50 b(P)g(T)g(Y)g(P)g(E)g Fo(:)g Fp(P)g(R)18
+b(O)267 b Fg(g)p 51302 4775 V 676 4819 50648 45 v 2493
+6791 a Fs(T)-89 b(able)279 b(4:)343 b(The)278 b(three)g(patterns)f
+(induced)j(for)c(the)i(coreference)h(se)-17 b(gment)279
+b(\223John)f(is)e(studying)i(hard)g(for)e(the)i(e)-17
+b(xam.)345 b(He\224.)-893 9909 y(Using)295 b(the)h(list)d(of)i(e)-17
+b(xtraction)296 b(patterns)g Fm(L)f Fs(sorted)g(in)g(decreasing)-2000
+11127 y(order)233 b(of)g(accurac)-17 b(y)-72 b(,)245
+b(we)234 b(can)g(create)g(our)261 b Fl(P)-25 b(A)-43
+b(T)56 b(T)g(E)g(R)e(N)p 18222 11127 333 45 v 448 w(B)24
+b(A)56 b(S)g(E)g(D)257 b Fs(feature)-2000 12345 y(as)319
+b(follo)-28 b(ws.)471 b(Gi)-28 b(v)-17 b(en)321 b(a)f(pair)g(of)f(NPs,)
+330 b(we)320 b(march)h(do)-28 b(wn)321 b(the)f(pattern)-2000
+13562 y(list)231 b Fm(L)i Fs(and)g(check)i(if)d(an)-17
+b(y)234 b(of)e(the)h(patterns)g(can)h(e)-17 b(xtract)233
+b(the)g(tw)-11 b(o)233 b(NPs.)-2000 14780 y(If)289 b(so,)j(the)f
+(feature)f(v)-28 b(alue)292 b(is)d(the)h(accurac)-17
+b(y)293 b(of)d(the)g Fr(\002r)-11 b(st)289 b Fs(pattern)i(that)-2000
+15997 y(e)-17 b(xtracts)278 b(the)f(tw)-11 b(o)277 b(NPs;)g(otherwise)h
+(the)f(feature)h(v)-28 b(alue)278 b(is)e(0.)-2000 18250
+y Fq(2.5)1212 b(Inducing)303 b(an)g(Anaphoricity)g(F)-30
+b(eatur)-22 b(e)-2000 19838 y Fr(Anaphoricity)446 b(determination)g
+Fs(refers)c(to)i(the)g(problem)h(of)f(deter)-22 b(-)-2000
+21055 y(mining)309 b(whether)g(an)f(NP)g(has)g(an)h(antecedent)h(or)e
+(not.)436 b(Kno)-28 b(wledge)-2000 22273 y(of)356 b(anaphoricity)j(can)
+e(potentially)h(be)f(used)g(to)f(identify)h(and)g(\002lter)-2000
+23491 y(non-anaphoric)425 b(NPs)c(prior)g(to)g(coreference)j
+(resolution,)457 b(thereby)-2000 24708 y(impro)-17 b(ving)294
+b(the)f(precision)g(of)f(a)h(coreference)h(system.)389
+b(There)294 b(ha)-22 b(v)-17 b(e)-2000 25926 y(been)577
+b(attempts)f(on)g(identifying)g(non-anaphoric)j(phrases)d(such)-2000
+27144 y(as)497 b(pleonastic)i Fr(it)d Fs(\(e.g.,)552
+b(Lappin)499 b(and)f(Leass)17059 27044 y([)17427 27144
+y(1994)19639 27044 y(])20010 27144 y(\))f(and)h(non-)-2000
+28361 y(anaphoric)235 b(de\002nite)f(descriptions)f(\(e.g.,)241
+b(Bean)234 b(and)f(Rilof)-28 b(f)21404 28261 y([)21772
+28361 y(1999)23984 28261 y(])24355 28361 y(\).)-893 29592
+y(Unlik)-11 b(e)328 b(pre)-28 b(vious)329 b(w)-11 b(ork,)341
+b(our)328 b(goal)g(here)h(is)d Fr(not)i Fs(to)g(b)-22
+b(uild)328 b(a)g(full-)-2000 30809 y(\003edged)506 b(system)d(for)g
+(identifying)i(and)f(\002ltering)g(non-anaphoric)-2000
+32027 y(NPs.)327 b(Rather)-44 b(,)237 b(we)227 b(w)-11
+b(ant)228 b(to)f(e)-17 b(xamine)230 b(whether)e Fr(shallow)g
+Fs(anaphoric-)-2000 33245 y(ity)384 b(information,)412
+b(when)387 b(encoded)g(as)e(a)g(feature,)412 b(could)386
+b(bene\002t)h(a)-2000 34462 y(learning-based)225 b(coreference)f
+(system.)325 b(Speci\002cally)-72 b(,)236 b(we)223 b(emplo)-11
+b(y)224 b(a)-2000 35680 y(simple)327 b(method)i(for)e(inducing)i
+(anaphoricity)g(information:)445 b(gi)-28 b(v)-17 b(en)-2000
+36898 y(a)372 b(corpus)h(labeled)g(with)e(coreference)k(information,)
+396 b(we)372 b(compute)-2000 38115 y(the)351 b(anaphoricity)i(v)-28
+b(alue)353 b(of)e(an)g(NP)-123 b(,)379 b Fl(N)56 b(P)13954
+38281 y Fi(x)14509 38115 y Fs(,)369 b(as)350 b(the)i(probability)g
+(that)-1972 39333 y Fl(N)56 b(P)-941 39499 y Fi(x)-28
+39333 y Fs(has)360 b(an)f(antecedent)j(in)d(the)g(corpus.)590
+b(If)386 b Fl(N)56 b(P)17205 39499 y Fi(x)18118 39333
+y Fs(ne)-28 b(v)-17 b(er)361 b(occurs)f(in)-2000 40551
+y(the)379 b(annotated)j(corpus,)404 b(we)380 b(assign)e(to)h(it)f(the)h
+(def)-11 b(ault)380 b(anaphoric-)-2000 41768 y(ity)385
+b(v)-28 b(alue)388 b(of)d(-1.)669 b(Hence,)415 b(unlik)-11
+b(e)387 b(pre)-28 b(vious)387 b(w)-11 b(ork,)413 b(we)386
+b(represent)-2000 42986 y(anaphoricity)279 b(as)e(a)g(real)g(v)-28
+b(alue)279 b(rather)e(than)h(a)f(binary)h(v)-28 b(alue.)-893
+44216 y(No)g(w)321 b(we)g(can)g(encode)i(anaphoricity)g(information)e
+(as)f(a)g(feature)-2000 45434 y(for)312 b(our)i(learning-based)h
+(coreference)g(system)e(as)g(follo)-28 b(ws.)451 b(Gi)-28
+b(v)-17 b(en)-2000 46652 y(a)232 b(coreference)h(instance)g(in)-44
+b(v)-22 b(olving)260 b Fl(N)56 b(P)13441 46818 y Fi(x)14227
+46652 y Fs(and)261 b Fl(N)56 b(P)17116 46818 y Fi(y)17645
+46652 y Fs(,)240 b(we)232 b(create)g(a)g(fea-)-2000 47869
+y(ture)277 b(whose)h(v)-28 b(alue)279 b(is)d(simply)305
+b Fl(N)56 b(P)11115 48035 y Fi(y)11644 47869 y Fs(')-61
+b(s)276 b(anaphoricity)k(v)-28 b(alue.)-893 49100 y(Concei)g(v)g(ably)
+-72 b(,)241 b(data)228 b(sparseness)f(may)h(render)g(our)255
+b Fl(A)56 b(N)26 b(A)56 b(P)g(H)g(O)g(R)e(I)i(C)e Fs(-)-1972
+50317 y Fl(I)i(T)g(Y)296 b Fs(feature)273 b(less)f(useful)g(than)i(we)e
+(desire.)342 b(Ho)-28 b(we)g(v)-17 b(er)-44 b(,)276 b(a)c(glimpse)h(at)
+-2000 51535 y(the)347 b(anaphoricity)h(v)-28 b(alues)348
+b(computed)h(by)e(this)e(feature)i(sho)-28 b(ws)347 b(that)-2000
+52753 y(it)404 b(can)i(capture)g(some)g(potentially)g(useful)e
+(information.)728 b(F)-17 b(or)405 b(in-)-2000 53970
+y(stance,)276 b(the)f(feature)h(encodes)h(that)e Fr(it)f
+Fs(only)i(has)f(a)g(moderate)i(proba-)-2000 55188 y(bility)258
+b(of)g(being)i(anaphoric,)265 b(and)259 b(the)g(NP)g
+Fr(the)g(contr)-17 b(ary)260 b Fs(tak)-11 b(en)260 b(from)-2000
+56406 y(the)277 b(phrase)h Fr(on)g(the)f(contr)-17 b(ary)279
+b Fs(is)d(ne)-28 b(v)-17 b(er)279 b(anaphoric.)-2000
+58658 y Fq(2.6)1212 b(Inducing)303 b(a)g(Cor)-22 b(efer)g(entiality)303
+b(F)-30 b(eatur)-22 b(e)-2000 60246 y Fs(W)-89 b(e)255
+b(can)g(adapt)h(the)e(abo)-17 b(v)g(e)257 b(method)f(for)e(generating)i
+(the)f(anaphoric-)-2000 61464 y(ity)448 b(feature)g(to)g(create)h(a)476
+b Fl(C)54 b(O)i(R)e(E)i(F)g(E)g(R)e(E)i(N)g(T)g(I)g(A)g(L)g(I)g(T)g(Y)
+461 b Fs(feature,)491 b(which)-2000 62681 y(encodes)382
+b(the)f(probability)g(that)f(tw)-11 b(o)380 b(NPs)g(are)g(coreferent.)
+654 b(These)-2000 63899 y(coreferentiality)557 b(probabilities)g(can)g
+(ag)-6 b(ain)558 b(be)e(estimated)h(from)-2000 65117
+y(a)471 b(corpus)h(annotated)i(with)d(coreference)i(information;)568
+b(in)471 b(cases)-2000 66334 y(where)296 b(one)f(or)g(both)g(of)g(the)g
+(gi)-28 b(v)-17 b(en)296 b(NPs)f(do)g(not)g(appear)h(in)f(the)g(cor)-22
+b(-)-2000 67552 y(pus,)277 b(we)g(set)g(the)g(coreferentiality)i(v)-28
+b(alue)278 b(of)f(the)g(NP)h(pair)f(to)g(-1.)-893 68782
+y(Our)350 b(method)h(of)f(inducing)i(the)378 b Fl(C)54
+b(O)i(R)e(E)i(F)g(E)g(R)e(E)i(N)g(T)g(I)g(A)g(L)g(I)g(T)g(Y)362
+b Fs(feature)-2000 70000 y(may)292 b(also)g(suf)-28 b(fer)291
+b(from)g(data)i(sparseness.)386 b(Ho)-28 b(we)g(v)-17
+b(er)-44 b(,)298 b(whether)292 b(this)27000 9909 y(feature)266
+b(is)f(useful)h(at)g(all)f(for)g(coreference)k(resolution)d(is)f(an)h
+(empiri-)27000 11127 y(cal)277 b(question,)h(and)h(we)e(will)f(e)-28
+b(v)g(aluate)280 b(its)c(utility)g(in)h(Section)h(4.)27000
+13831 y Fu(3)1329 b(The)331 b(Baseline)h(F)-33 b(eatur)-24
+b(e)331 b(Set)27000 15526 y Fs(The)258 b(pre)-28 b(vious)259
+b(section)f(introduced)i(our)e(ne)-28 b(w)258 b(features)g(for)f
+(corefer)-22 b(-)27000 16744 y(ence)297 b(resolution.)398
+b(As)295 b(mentioned)i(in)e(the)h(introduction,)301 b(these)296
+b(fea-)27000 17962 y(tures)336 b(will)f(be)i(used)h(in)e(combination)j
+(with)d(a)g(set)g(of)g(baseline)i(fea-)27000 19179 y(tures.)542
+b(This)343 b(section)h(describes)g(our)g(baseline)g(feature)g(set,)360
+b(which)27000 20397 y(comprises)260 b(34)h(selected)f(features)g(emplo)
+-11 b(yed)263 b(by)d(high-performing)27000 21615 y(coreference)550
+b(systems)c(such)i(as)f(Soon)i Fr(et)e(al.)46660 21515
+y Fs([)47028 21615 y(2001)49240 21515 y(])49611 21615
+y(,)614 b(Ng)548 b(and)27000 22832 y(Cardie)30228 22732
+y([)30596 22832 y(2002)32808 22732 y(])33179 22832 y(,)276
+b(and)j(Ponzetto)g(and)f(Strube)44801 22732 y([)45170
+22832 y(2006)47382 22732 y(])47752 22832 y(.)27000 24159
+y Fh(Lexical)426 b(featur)-20 b(es.)1108 b Fs(W)-89 b(e)426
+b(use)f(nine)g(features)g(to)g(allo)-28 b(w)425 b(dif)-28
+b(ferent)27000 25377 y(types)391 b(of)f(string)g(matching)i(operations)
+g(to)e(be)i(performed)f(on)g(the)27000 26594 y(gi)-28
+b(v)-17 b(en)395 b(pair)e(of)g(NPs,)450 b Fl(N)56 b(P)36840
+26760 y Fi(x)37787 26594 y Fs(and)423 b Fl(N)56 b(P)40838
+26760 y Fi(y)41367 26193 y Fn(7)41810 26594 y Fs(,)421
+b(including)395 b(\(1\))e(e)-17 b(xact)394 b(string)27000
+27812 y(match)316 b(for)e(pronouns,)326 b(proper)315
+b(nouns,)325 b(and)316 b(non-pronominal)i(NPs)27000 29030
+y(\(both)219 b(before)h(and)f(after)g(determiners)g(are)g(remo)-17
+b(v)g(ed\);)240 b(\(2\))218 b(substring)27000 30247 y(match)453
+b(for)d(proper)j(nouns)f(and)h(non-pronominal)h(NPs;)539
+b(and)452 b(\(3\))27000 31465 y(head)297 b(noun)g(match.)399
+b(In)295 b(addition,)300 b(a)c(nationality)g(matching)h(feature)27000
+32682 y(is)331 b(used)i(to)g(match,)347 b(for)331 b(instance,)347
+b Fr(British)332 b Fs(with)g Fr(Britain)p Fs(.)509 b(Further)-22
+b(-)27000 33900 y(more,)332 b(we)321 b(ha)-22 b(v)-17
+b(e)322 b(a)f(feature)g(that)g(tests)e(whether)j(all)e(the)h(w)-11
+b(ords)321 b(that)27000 35118 y(appear)279 b(in)e(one)h(NP)f(also)g
+(appear)i(in)e(the)g(other)h(NP)-123 b(.)27000 36444
+y Fh(Grammatical)493 b(featur)-20 b(es.)1108 b Fs(23)493
+b(features)f(test)f(the)h(grammatical)27000 37662 y(properties)330
+b(of)f(one)h(or)g(both)g(of)f(the)h(NPs.)500 b(These)330
+b(include)h(ten)f(fea-)27000 38880 y(tures)216 b(that)g(test)f(whether)
+j(each)f(of)f(the)h(tw)-11 b(o)216 b(NPs)g(is)f(a)h(pronoun,)231
+b(a)216 b(def-)27000 40097 y(inite)291 b(NP)-123 b(,)292
+b(an)g(inde\002nite)h(NP)-123 b(,)292 b(a)g(nested)g(NP)-123
+b(,)292 b(and)g(a)g(clausal)g(subject.)27000 41315 y(A)276
+b(similar)f(set)g(of)h(\002)-28 b(v)-17 b(e)278 b(features)e(is)f(used)
+i(to)f(test)g(whether)h(both)g(NPs)27000 42533 y(are)415
+b(pronouns,)450 b(de\002nite)416 b(NPs,)448 b(nested)415
+b(NPs,)449 b(proper)415 b(nouns,)450 b(and)27000 43750
+y(clausal)293 b(subjects.)389 b(In)292 b(addition,)297
+b(\002)-28 b(v)-17 b(e)294 b(features)e(determine)i(whether)27000
+44968 y(the)339 b(tw)-11 b(o)338 b(NPs)h(are)g(compatible)h(with)e
+(respect)h(to)g(gender)-44 b(,)355 b(number)-44 b(,)27000
+46186 y(animac)-17 b(y)-72 b(,)462 b(and)424 b(grammatical)g(role.)782
+b(Furthermore,)460 b(tw)-11 b(o)424 b(features)27000
+47403 y(test)376 b(whether)j(the)e(tw)-11 b(o)377 b(NPs)h(are)f(in)g
+(apposition)i(or)e(participate)h(in)27000 48621 y(a)301
+b(predicate)i(nominal)g(construction)g(\(i.e.,)j(the)301
+b(IS-A)g(relation\).)416 b(Fi-)27000 49839 y(nally)-72
+b(,)283 b(moti)-28 b(v)g(ated)283 b(by)f(Soon)h Fr(et)f(al.)40799
+49739 y Fs([)41167 49839 y(2001)43379 49739 y(])43750
+49839 y(,)g(we)g(ha)-22 b(v)-17 b(e)283 b(a)f(feature)g(that)27000
+51056 y(determines)c(whether)306 b Fl(N)56 b(P)37035
+51222 y Fi(y)37841 51056 y Fs(is)277 b(a)g(demonstrati)-28
+b(v)-17 b(e)279 b(NP)-123 b(.)27000 52383 y Fh(Semantic)364
+b(featur)-20 b(es.)1108 b Fs(There)363 b(are)g(tw)-11
+b(o)362 b(semantic)h(features,)384 b(both)27000 53600
+y(of)344 b(which)h(are)g(emplo)-11 b(yed)346 b(by)f(Soon)h
+Fr(et)e(al.)p Fs(')-61 b(s)343 b(coreference)j(system.)27000
+54818 y(The)444 b(\002rst)d(feature)j(tests)d(whether)j(the)f(tw)-11
+b(o)443 b(NPs)g(ha)-22 b(v)-17 b(e)444 b(the)f(same)27000
+56036 y(semantic)258 b(class.)336 b(Here,)262 b(the)c(semantic)g(class)
+f(of)g(a)g(proper)i(noun)g(and)27000 57253 y(a)219 b(common)i(noun)f
+(is)e(computed)k(using)d(an)g(NE)h(\002nder)g(and)g(W)-89
+b(ordNet)27000 58471 y(\(by)242 b(choosing)j(the)d(\002rst)f(sense\),)
+249 b(respecti)-28 b(v)-17 b(ely)-72 b(.)334 b(The)243
+b(second)h(feature)27000 59689 y(tests)270 b(whether)j(one)f(NP)g(is)e
+(a)i(name)h(alias)e(or)g(acron)-17 b(ym)273 b(of)f(the)f(other)-61
+b(.)27000 61015 y Fh(P)-22 b(ositional)496 b(featur)-20
+b(es.)1108 b Fs(W)-89 b(e)497 b(ha)-22 b(v)-17 b(e)498
+b(one)f(positional)g(feature)g(that)27000 62233 y(measures)278
+b(the)f(distance)h(between)h(the)f(tw)-11 b(o)277 b(NPs)g(in)g
+(sentences.)27000 64937 y Fu(4)1329 b(Ev)-13 b(aluation)27000
+66632 y Fs(In)215 b(this)g(section,)228 b(we)216 b(e)-28
+b(v)g(aluate)218 b(the)e(ef)-28 b(fecti)g(v)-17 b(eness)217
+b(of)e(our)h(ne)-28 b(wly)217 b(pro-)27000 67850 y(posed)278
+b(features)f(in)g(impro)-17 b(ving)279 b(the)f(baseline)g(coreference)h
+(system.)p 27000 68845 6642 45 v 28406 69577 a Fk(7)28793
+70000 y Fo(W)-80 b(e)250 b(assume)f(that)275 b Fp(N)50
+b(P)36218 70111 y Ff(x)36985 70000 y Fo(precedes)275
+b Fp(N)50 b(P)41666 70111 y Ff(y)42414 70000 y Fo(in)249
+b(the)g(associated)h(te)-15 b(xt.)p eop end
+%%Page: 5 5
+TeXDict begin 5 4 bop -2000 -893 a Fq(4.1)1212 b(Experimental)304
+b(Setup)-2000 688 y Fs(W)-89 b(e)286 b(use)g(the)g(A)-44
+b(CE-2)286 b(\(V)-123 b(ersion)286 b(1.0\))g(coreference)i(corpus)e
+(for)g(e)-28 b(v)g(al-)-2000 1906 y(uation)362 b(purposes.)596
+b(The)363 b(corpus)f(is)e(composed)j(of)e(three)h(data)g(sets)-2000
+3124 y(tak)-11 b(en)487 b(from)e(three)h(dif)-28 b(ferent)486
+b(ne)-28 b(ws)486 b(sources:)760 b(Broadcast)487 b(Ne)-28
+b(ws)-2000 4341 y(\(BR\),)432 b(Ne)-28 b(wspaper)435
+b(\(P)-102 b(A\),)432 b(and)i(Ne)-28 b(wswire)433 b(\(WI\).)e(Each)j
+(data)f(set)-2000 5559 y(comprises)465 b(a)g(set)g(of)f(training)i(te)
+-17 b(xts)465 b(for)f(acquiring)i(coreference)-2000 6777
+y(classi\002ers)386 b(and)h(a)f(set)g(of)f(test)h(sets)f(for)g(e)-28
+b(v)g(aluating)389 b(the)e(output)g(of)-2000 7994 y(the)370
+b(coreference)i(system.)621 b(W)-89 b(e)370 b(report)g(performance)h
+(in)f(terms)f(of)-2000 9212 y(recall,)382 b(precision,)h(and)362
+b(F-measure)h(using)e(tw)-11 b(o)362 b(dif)-28 b(ferent)361
+b(scoring)-2000 10430 y(programs:)722 b(the)467 b(commonly-used)i(MUC)d
+(scorer)18785 10330 y([)19154 10430 y(V)-66 b(ilain)465
+b Fr(et)h(al.)p Fs(,)-2000 11647 y(1995)212 11547 y(])896
+11647 y(and)315 b(the)g(recently-de)-28 b(v)-17 b(eloped)319
+b(CEAF)c(scorer)19389 11547 y([)19758 11647 y(Luo,)324
+b(2005)24353 11547 y(])24723 11647 y(.)-2000 12865 y(According)373
+b(to)d(Luo,)395 b(CEAF)372 b(is)e(designed)i(to)f(address)g(a)g
+(potential)-2000 14083 y(problem)j(with)e(the)h(MUC)f(scorer:)534
+b(partitions)372 b(in)h(which)g(NPs)f(are)-2000 15300
+y(o)-17 b(v)g(er)-22 b(-clustered)340 b(tend)f(to)e(be)i(under)-22
+b(-penalized.)529 b(F)-17 b(or)339 b(all)e(of)h(the)g(e)-17
+b(x-)-2000 16518 y(periments)287 b(conducted)k(in)286
+b(this)g(paper)-44 b(,)291 b(we)c(use)g(NPs)g(automatically)-2000
+17736 y(e)-17 b(xtracted)279 b(by)f(an)g(in-house)g(NP)f(chunk)-11
+b(er)279 b(and)f(an)g(NE)f(recognizer)-61 b(.)-2000 19981
+y Fq(4.2)1212 b(The)304 b(Baseline)f(Cor)-22 b(efer)g(ence)305
+b(System)-2000 21563 y Fs(Our)339 b(baseline)i(system)e(uses)g(the)h
+(C4.5)g(decision)g(tree)g(learning)g(al-)-2000 22781
+y(gorithm)1824 22681 y([)2193 22781 y(Quinlan,)330 b(1993)8577
+22681 y(])9265 22781 y(in)319 b(conjunction)i(with)d(the)h(34)h
+(baseline)-2000 23998 y(features)296 b(described)h(in)e(Section)i(3)f
+(to)f(acquire)i(a)f(coreference)i(clas-)-2000 25216 y(si\002er)345
+b(on)h(the)g(training)g(te)-17 b(xts)346 b(for)f(determining)i(whether)
+g(tw)-11 b(o)346 b(NPs)-2000 26433 y(are)305 b(coreferent.)427
+b(T)-89 b(o)306 b(create)g(training)f(instances,)312
+b(we)305 b(pair)g(each)h(NP)-2000 27651 y(in)317 b(a)h(training)f(te)
+-17 b(xt)318 b(with)f(each)i(of)f(its)e(preceding)j(NPs,)327
+b(labeling)319 b(an)-2000 28869 y(instance)225 b(as)f(positi)-28
+b(v)-17 b(e)226 b(if)d(the)i(tw)-11 b(o)224 b(NPs)g(are)h(in)f(the)h
+(same)f(coreference)-2000 30086 y(chain)278 b(in)f(the)h(associated)g
+(te)-17 b(xt)278 b(and)g(ne)-17 b(g)-6 b(ati)-28 b(v)-17
+b(e)280 b(otherwise.)-893 31315 y(After)337 b(training,)353
+b(the)338 b(decision)h(tree)e(classi\002er)h(is)f(used)h(to)g(select)
+-2000 32532 y(an)353 b(antecedent)j(for)c(each)j(NP)e(in)g(a)g(test)f
+(te)-17 b(xt.)570 b(F)-17 b(ollo)-28 b(wing)355 b(Soon)g
+Fr(et)-2000 33750 y(al.)-490 33650 y Fs([)-121 33750
+y(2001)2091 33650 y(])2461 33750 y(,)397 b(we)373 b(select)f(as)h(the)g
+(antecedent)j(of)c(each)j(NP)-123 b(,)400 b Fl(N)56 b(P)22510
+33916 y Fi(j)22974 33750 y Fs(,)396 b(the)-2000 34968
+y Fr(closest)279 b Fs(preceding)j(NP)e(that)g(is)e(classi\002ed)i(as)f
+(coreferent)i(with)307 b Fl(N)56 b(P)24259 35134 y Fi(j)24723
+34968 y Fs(.)-2000 36185 y(If)276 b(no)i(such)f(NP)h(e)-17
+b(xists,)276 b(no)i(antecedent)i(is)c(selected)i(for)305
+b Fl(N)56 b(P)21331 36351 y Fi(j)21795 36185 y Fs(.)-893
+37414 y(Ro)-28 b(w)462 b(1)f(of)g(T)-89 b(able)462 b(5)f(and)h(T)-89
+b(able)463 b(6)e(sho)-28 b(ws)461 b(the)h(results)e(of)g(the)-2000
+38631 y(baseline)310 b(system)e(obtained)i(via)f(the)g(MUC)g(scorer)f
+(and)i(the)f(CEAF)-2000 39849 y(scorer)-44 b(,)339 b(respecti)-28
+b(v)-17 b(ely)-72 b(.)495 b(Each)329 b(ro)-28 b(w)327
+b(of)g(the)g(tw)-11 b(o)327 b(tables)g(corresponds)-2000
+41067 y(to)286 b(an)h(e)-17 b(xperiment)289 b(e)-28 b(v)g(aluated)290
+b(on)d(four)f(dif)-28 b(ferent)287 b(test)f(sets:)361
+b(the)286 b(en-)-2000 42284 y(tire)444 b(A)-44 b(CE)444
+b(test)g(set)g(\(comprising)h(all)f(the)h(BR,)g(P)-102
+b(A,)444 b(and)i(WI)d(test)-2000 43502 y(te)-17 b(xts\))345
+b(and)h(each)g(of)f(the)h(BR,)f(P)-102 b(A,)345 b(and)h(WI)e(test)h
+(sets.)546 b(These)346 b(four)-2000 44720 y(sets)474
+b(of)h(results)g(are)g(obtained)i(by)f(applying)h(the)f(same)g(corefer)
+-22 b(-)-2000 45937 y(ence)323 b(classi\002er)e(that)h(is)e(trained)i
+(on)g(the)g(entire)g(A)-44 b(CE)321 b(training)h(cor)-22
+b(-)-2000 47155 y(pus)299 b(\(comprising)g(all)f(the)h(training)g(te)
+-17 b(xts)299 b(from)f(P)-102 b(A,)299 b(WI,)e(and)j(BR\).)-2000
+48372 y(Owing)431 b(to)f(space)i(limitations,)467 b(we)431
+b(will)e(mainly)i(discuss)f(results)-2000 49590 y(obtained)379
+b(on)f(the)f(entire)h(test)e(set.)643 b(As)376 b(we)i(can)g(see,)402
+b(the)378 b(baseline)-2000 50808 y(achie)-28 b(v)-17
+b(es)280 b(an)d(F-measure)i(of)d(62.0)i(\(MUC\))f(and)h(60.0)g
+(\(CEAF\).)-893 52036 y(T)-89 b(o)364 b(get)g(a)f(better)h(sense)f(of)g
+(ho)-28 b(w)364 b(strong)g(these)f(baseline)i(results)-2000
+53254 y(are,)404 b(we)379 b(repeat)h(the)f(abo)-17 b(v)g(e)382
+b(e)-17 b(xperiment)380 b(e)-17 b(xcept)381 b(that)e(we)g(replace)-2000
+54471 y(the)458 b(34)f(features)h(with)f(the)g(12)h(features)g(emplo)
+-11 b(yed)459 b(by)f(Soon)h Fr(et)-2000 55689 y(al.)p
+Fs(')-61 b(s)239 55589 y([)607 55689 y(2001)2819 55589
+y(])3552 55689 y(coreference)365 b(resolv)-17 b(er)-61
+b(.)601 b(Results)362 b(of)g(the)h(Soon)i Fr(et)d(al.)-2000
+56907 y Fs(system,)f(sho)-28 b(wn)346 b(in)f(ro)-28 b(w)345
+b(2)g(of)f(the)i(tw)-11 b(o)344 b(tables,)362 b(indicates)346
+b(that)e(our)-2000 58124 y(baseline)225 b(features)f(yield)h
+(signi\002cantly)g(better)g(results)d(than)j(Soon)h Fr(et)-2000
+59342 y(al.)p Fs(')-61 b(s)-123 58940 y Fn(8)319 59342
+y Fs(:)343 b(F-measure)278 b(increases)g(by)f(5.4)h(\(MUC\))f(and)h
+(3.7)f(\(CEAF\).)-2000 61588 y Fq(4.3)1212 b(Cor)-22
+b(efer)g(ence)305 b(Using)d(the)h(Expanded)h(F)-30 b(eatur)-22
+b(e)302 b(Set)-2000 63169 y Fs(Ne)-17 b(xt,)342 b(we)329
+b(train)f(a)h(coreference)i(resolv)-17 b(er)329 b(using)g(the)g
+(baseline)h(fea-)-2000 64387 y(ture)426 b(set)g(augmented)j(with)c(the)
+i(\002)-28 b(v)-17 b(e)428 b(ne)-28 b(w)427 b(features)f(described)i
+(in)-2000 65604 y(Sections)416 b(2.2\2262.6,)450 b(namely)-72
+b(,)479 b Fl(A)21 b(C)54 b(E)p 12093 65604 333 45 v 452
+w(S)i(E)g(M)g(C)e(L)i(A)g(S)g(S)28 b Fs(,)469 b Fl(S)56
+b(E)g(M)p 20216 65604 V 451 w(S)g(I)g(M)28 b Fs(,)474
+b Fl(P)-25 b(A)-43 b(T)-35 b Fs(-)-1972 66822 y Fl(T)56
+b(E)g(R)e(N)p 600 66822 V 451 w(B)24 b(A)56 b(S)g(E)g(D)28
+b Fs(,)610 b Fl(A)56 b(N)26 b(A)56 b(P)g(H)g(O)g(R)e(I)i(C)e(I)i(T)g(Y)
+28 b Fs(,)576 b(and)554 b Fl(C)54 b(O)i(R)e(E)i(F)g(E)g(R)e(E)i(N)g(T)g
+(I)g(A)g(L)g(I)g(T)g(Y)28 b Fs(.)p -2000 67729 6642 45
+v -594 68470 a Fk(8)-207 68893 y Fo(Lik)-10 b(e)190 b(the)g(MUC)f(or)
+-18 b(g)-5 b(anizers,)202 b(we)190 b(use)g(Noreen')-55
+b(s)16897 68803 y([)17229 68893 y(1989)19221 68803 y(])19743
+68893 y(Approximate)-2000 70000 y(Randomization)250 b(method)g(for)f
+(signi\002cance)h(testing,)f(with)g Fe(p)g Fo(set)g(to)g(0.05.)27000
+-893 y Fs(In)243 b(addition,)250 b(we)244 b(replace)g(the)f
+(heuristic-based)h(SC)g(agreement)h(fea-)27000 325 y(ture)357
+b(in)f(the)h(baseline)h(feature)f(set)f(with)g(our)385
+b Fl(S)56 b(E)g(M)p 47213 325 333 45 v 451 w(C)e(L)i(A)g(S)g(S)380
+b Fs(feature)27000 1542 y(\(see)317 b(Section)h(2.1\).)464
+b(W)-89 b(e)317 b(emplo)-11 b(y)319 b(the)e(same)h(methods)g(for)e
+(training)27000 2760 y(instance)278 b(creation)g(and)h(antecedent)h
+(selection)e(as)e(in)h(the)h(baseline.)28107 4130 y(Recall)554
+b(that)f(the)581 b Fl(P)-25 b(A)-43 b(T)56 b(T)g(E)g(R)e(N)p
+39866 4130 V 448 w(B)24 b(A)56 b(S)g(E)g(D)28 b Fs(,)645
+b Fl(A)56 b(N)26 b(A)56 b(P)g(H)g(O)g(R)e(I)i(C)e(I)i(T)g(Y)28
+b Fs(,)612 b(and)27028 5348 y Fl(C)54 b(O)i(R)e(E)i(F)g(E)g(R)e(E)i(N)g
+(T)g(I)g(A)g(L)g(I)g(T)g(Y)357 b Fs(features)344 b(are)g(all)g
+(computed)i(using)f(a)f(data)27000 6566 y(set)314 b(annotated)j(with)d
+(coreference)i(information.)456 b(Hence,)325 b(we)315
+b(need)27000 7783 y(to)390 b(reserv)-17 b(e)390 b(a)g(portion)h(of)e
+(our)h(training)h(te)-17 b(xts)389 b(for)h(the)g(purpose)h(of)27000
+9001 y(computing)264 b(these)f(features.)338 b(Speci\002cally)-72
+b(,)268 b(we)263 b(partition)f(the)g(a)-22 b(v)-28 b(ail-)27000
+10219 y(able)288 b(training)f(te)-17 b(xts)288 b(into)f(tw)-11
+b(o)287 b(sets)f(of)h(roughly)h(the)g(same)f(size:)363
+b(the)27000 11436 y(training)233 b(subset)g(and)h(the)g(de)-28
+b(v)-17 b(elopment)236 b(subset.)329 b(The)234 b(de)-28
+b(v)-17 b(elopment)27000 12654 y(subset)309 b(will)e(be)j(used)f(for)f
+(computing)j(those)e(features)f(that)h(require)27000
+13872 y(an)359 b(annotated)i(corpus,)380 b(and)360 b(the)f(training)g
+(subset)f(will)g(be)h(used)h(to)27000 15089 y(train)246
+b(the)g(coreference)i(classi\002er)e(using)h(the)f(e)-17
+b(xpanded)250 b(feature)c(set.)28107 16460 y(Results)303
+b(using)h(the)g(e)-17 b(xpanded)307 b(feature)d(set)f(are)h(sho)-28
+b(wn)304 b(in)g(ro)-28 b(w)304 b(3)27000 17678 y(of)251
+b(the)h(tw)-11 b(o)251 b(tables.)334 b(In)251 b(comparison)i(to)e(the)h
+(baseline)g(results)e(in)h(ro)-28 b(w)27000 18895 y(1,)297
+b(we)c(see)g(that)g(F-measure)h(increases)f(from)g(62.0)h(to)e(64.2)i
+(\(MUC\))27000 20113 y(and)245 b(60.0)g(to)g(62.3)g(\(CEAF\).)f
+(Although)i(the)e(g)-6 b(ains)245 b(may)h(seem)e(mod-)27000
+21331 y(erate,)357 b(the)341 b(performance)h(dif)-28
+b(ference)342 b(as)f(measured)h(by)f(both)g(scor)-22
+b(-)27000 22548 y(ers)245 b(is)g(in)h(f)-11 b(act)245
+b(highly)i(statistically)e(signi\002cant,)253 b(with)245
+b Fm(p)p Fs(=0.0004)j(for)27000 23766 y(MUC)277 b(and)i
+Fm(p)p Fs(=0.0016)g(for)d(CEAF)-89 b(.)27000 26438 y
+Fq(4.4)1212 b(F)-30 b(eatur)-22 b(e)303 b(Analysis)27000
+28447 y Fs(T)-89 b(o)337 b(better)e(understand)j(which)f(features)f
+(are)f(important)i(for)e(coref-)27000 29664 y(erence)383
+b(resolution,)407 b(we)381 b(e)-17 b(xamine)384 b(the)d(decision)h
+(tree)f(learned)h(us-)27000 30882 y(ing)424 b(the)g(e)-17
+b(xpanded)428 b(feature)d(set)e(\(not)h(sho)-28 b(wn)425
+b(here)g(due)g(to)e(space)27000 32100 y(limitations\).)732
+b(At)407 b(the)h(top)f(of)g(the)g(tree)g(are)h(the)f(tw)-11
+b(o)408 b(le)-17 b(xical)408 b(fea-)27000 33317 y(tures)439
+b(that)g(test)g(e)-17 b(xact)441 b(string)e(match)h(for)f(proper)h
+(nouns)h(and)f(for)27000 34535 y(non-pronominal)429 b(NPs.)792
+b(This)426 b(should)h(not)g(be)g(surprising,)463 b(since)27000
+35753 y(these)283 b(string)f(matching)i(features)f(are)g(generally)i
+(strong)d(indicators)27000 36970 y(of)414 b(coreference.)756
+b(Looking)417 b(further)c(do)-28 b(wn)416 b(the)f(tree,)448
+b(we)414 b(see)g(the)27028 38188 y Fl(S)56 b(E)g(M)p
+29054 38188 V 451 w(C)e(L)i(A)g(S)g(S)28 b Fs(,)258 b
+Fl(A)56 b(N)26 b(A)56 b(P)g(H)g(O)g(R)e(I)i(C)e(I)i(T)g(Y)28
+b Fs(,)225 b(and)253 b Fl(C)54 b(O)i(R)e(E)i(F)g(E)g(R)e(E)i(N)g(T)g(I)
+g(A)g(L)g(I)g(T)g(Y)237 b Fs(fea-)27000 39406 y(tures)280
+b(appearing)j(in)e(the)g(third)f(and)i(fourth)f(le)-28
+b(v)-17 b(els)281 b(of)g(the)g(tree.)354 b(This)27000
+40623 y(indicates)426 b(that)f(these)g(three)g(features)g(play)h(a)f
+(signi\002cant)h(role)f(in)27000 41841 y(determining)279
+b(whether)f(tw)-11 b(o)277 b(NPs)g(are)g(coreferent.)28107
+43212 y(T)-89 b(o)346 b(further)f(in)-44 b(v)-17 b(estig)-6
+b(ate)347 b(the)e(contrib)-22 b(ution)347 b(of)e(each)h(of)f(our)g(ne)
+-28 b(w)27000 44429 y(features)279 b(to)g(o)-17 b(v)g(erall)280
+b(performance,)i(we)d(remo)-17 b(v)g(e)281 b(each)g(ne)-28
+b(w)280 b(feature)27000 45647 y(\(one)289 b(at)f(a)g(time\))f(from)h
+(the)g(e)-17 b(xpanded)292 b(feature)c(set)g(and)h(re-train)e(the)27000
+46865 y(coreference)391 b(classi\002er)e(using)h(the)f(remaining)i
+(features.)679 b(Results)27000 48082 y(are)353 b(sho)-28
+b(wn)353 b(in)f(ro)-28 b(ws)352 b(4\2269)i(of)e(T)-89
+b(ables)353 b(5)g(and)g(6,)371 b(where)353 b(an)g(asterisk)27000
+49300 y(\(*\))424 b(is)g(used)h(to)g(indicate)h(that)f(the)g
+(corresponding)i(F-measure)f(is)27000 50518 y(signi\002cantly)364
+b(dif)-28 b(ferent)362 b(from)f(that)h(in)g(ro)-28 b(w)363
+b(3)f(\(at)f Fm(p)p Fs(=0.05\).)599 b(From)27000 51735
+y(these)472 b(results,)519 b(we)473 b(mak)-11 b(e)473
+b(tw)-11 b(o)472 b(observ)-28 b(ations.)929 b(First,)519
+b(remo)-17 b(ving)27028 52953 y Fl(A)56 b(N)26 b(A)56
+b(P)g(H)g(O)g(R)e(I)i(C)e(I)i(T)g(Y)28 b Fs(,)472 b Fl(C)54
+b(O)i(R)e(E)i(F)g(E)g(R)e(E)i(N)g(T)g(I)g(A)g(L)g(I)g(T)g(Y)432
+b Fs(or)447 b Fl(A)21 b(C)54 b(E)p 48258 52953 V 452
+w(S)i(E)g(M)p 50642 52953 V 451 w(C)e(L)i(A)g(S)g(S)27000
+54170 y Fs(precipitates)314 b(a)f(signi\002cant)h(drop)f(in)g
+(F-measure,)323 b(whiche)-28 b(v)-17 b(er)315 b(scor)-22
+b(-)27000 55388 y(ing)303 b(program)g(is)f(used.)419
+b(Interestingly)-72 b(,)309 b(e)-28 b(v)-17 b(en)305
+b(though)f(we)f(are)g(f)-11 b(aced)27000 56606 y(with)420
+b(data)g(sparseness)g(when)h(computing)450 b Fl(A)56
+b(N)26 b(A)56 b(P)g(H)g(O)g(R)e(I)i(C)e(I)i(T)g(Y)438
+b Fs(and)27028 57823 y Fl(C)54 b(O)i(R)e(E)i(F)g(E)g(R)e(E)i(N)g(T)g(I)
+g(A)g(L)g(I)g(T)g(Y)28 b Fs(,)554 b(both)512 b(features)f(turn)g(out)g
+(to)g(be)h(useful.)27000 59041 y(Second,)495 b(although)451
+b(remo)-17 b(ving)480 b Fl(S)56 b(E)g(M)p 42081 59041
+V 451 w(C)e(L)i(A)g(S)g(S)473 b Fs(does)450 b(not)g(result)f(in)27000
+60259 y(a)530 b(signi\002cant)i(drop)f(in)f(performance,)595
+b(it)530 b(does)h(not)f(imply)h(that)27028 61476 y Fl(S)56
+b(E)g(M)p 29054 61476 V 451 w(C)e(L)i(A)g(S)g(S)432 b
+Fs(is)408 b(not)h(useful.)737 b(In)409 b(f)-11 b(act,)441
+b(as)408 b(mentioned)j(at)d(the)h(be-)27000 62694 y(ginning)335
+b(of)e(this)g(subsection,)377 b Fl(S)56 b(E)g(M)p 41256
+62694 V 451 w(C)e(L)i(A)g(S)g(S)357 b Fs(appears)335
+b(near)f(the)g(top)27000 63912 y(of)258 b(the)h(tree.)337
+b(An)259 b(inspection)h(of)f(the)g(rele)-28 b(v)g(ant)260
+b(decision)g(tree)e(re)-28 b(v)-17 b(eals)27000 65129
+y(that)305 b(the)g(learner)g(substitutes)333 b Fl(A)21
+b(C)54 b(E)p 40947 65129 V 452 w(S)i(E)g(M)p 43331 65129
+V 451 w(C)e(L)i(A)g(S)g(S)328 b Fs(for)k Fl(S)56 b(E)g(M)p
+50642 65129 V 451 w(C)e(L)i(A)g(S)g(S)27000 66347 y Fs(when)370
+b(the)f(latter)g(feature)g(is)f(absent.)619 b(This)369
+b(e)-17 b(xplains)370 b(in)f(part)f(wh)-6 b(y)27000 67565
+y(we)444 b(do)h(not)f(see)g(a)g(lar)-20 b(ge)444 b(drop)g(in)g
+(F-measure.)844 b(Hence,)487 b(we)445 b(can)27000 68782
+y(only)330 b(claim)f(that)357 b Fl(S)56 b(E)g(M)p 36128
+68782 V 451 w(C)e(L)i(A)g(S)g(S)352 b Fs(is)328 b(not)h(important)g(in)
+g(the)g(presence)27000 70000 y(of)305 b Fl(A)21 b(C)54
+b(E)p 30167 70000 V 452 w(S)i(E)g(M)p 32551 70000 V 451
+w(C)e(L)i(A)g(S)g(S)28 b Fs(,)272 b(a)277 b(feature)h(with)f(which)h
+(it)e(is)g(correlated.)p eop end
+%%Page: 6 6
+TeXDict begin 6 5 bop 253 -1956 53320 45 v 231 -893 45
+1107 v 14788 -893 V 14788 -893 V 16704 -1225 a Fo(Entire)249
+b(T)-70 b(est)249 b(Set)p 24428 -893 V 24649 -893 V 24649
+-893 V 2779 w(Broadcast)h(Ne)-25 b(ws)249 b(\(BR\))p
+34696 -893 V 34696 -893 V 1995 w(Ne)-25 b(wspaper)251
+b(\(P)-92 b(A\))p 43911 -893 V 43911 -893 V 3053 w(Ne)-25
+b(wswire)250 b(\(WI\))p 53551 -893 V 231 214 V 918 -118
+a(Experiments)p 14788 214 V 9520 w(R)2407 b(P)2518 b(F)p
+24428 214 V 24649 214 V 3163 w(R)2407 b(P)2518 b(F)p
+34696 214 V 3349 w(R)2407 b(P)2518 b(F)p 43911 214 V
+2517 w(R)2407 b(P)2518 b(F)p 53551 214 V 253 258 53320
+45 v -909 989 a(1)p 231 1321 45 1107 v 1329 w(Using)249
+b(the)g(baseline)h(features)f(only)p 14788 1321 V 1774
+w(53.7)1329 b(73.4)g(62.0)p 24428 1321 V 24649 1321 V
+1974 w(53.6)g(72.7)g(61.7)p 34696 1321 V 2160 w(55.3)g(74.7)g(63.5)p
+43911 1321 V 1328 w(52.2)g(72.9)g(60.8)p 53551 1321 V
+253 1365 53320 45 v -909 2096 a(2)p 231 2428 45 1107
+v 1329 w(Using)249 b(Soon)g Fd(et)g(al.)p Fo(')-55 b(s)249
+b(features)g(only)p 14788 2428 V 1551 w(46.2)1329 b(73.2)g(56.6)p
+24428 2428 V 24649 2428 V 1974 w(43.8)g(70.4)g(54.0)p
+34696 2428 V 2160 w(50.0)g(75.9)g(60.3)p 43911 2428 V
+1328 w(44.6)g(73.0)g(55.4)p 53551 2428 V 253 2472 53320
+45 v -909 3203 a(3)p 231 3535 45 1107 v 1329 w(Using)249
+b(the)g(e)-15 b(xpanded)251 b(feature)f(set)p 14788 3535
+V 2287 w(54.7)1329 b(77.8)g(64.2)p 24428 3535 V 24649
+3535 V 1974 w(56.1)g(76.3)g(64.7)p 34696 3535 V 2160
+w(54.4)g(79.7)g(64.6)p 43911 3535 V 1328 w(53.5)g(77.5)g
+Fc(63.3)p 53551 3535 V -909 4310 a Fo(4)p 231 4642 V
+2523 w(without)274 b Fp(S)50 b(E)g(M)p 7254 4310 299
+45 v 406 w(C)g(L)g(A)g(S)g(S)p 14788 4642 45 1107 v 5219
+w Fo(55.1)1329 b(77.5)g(64.4)p 24428 4642 V 24649 4642
+V 1974 w(56.1)g(75.7)g(64.5)p 34696 4642 V 2160 w(55.3)g(79.5)g(65.3)p
+43911 4642 V 1328 w(53.6)g(77.3)g Fc(63.3)p 53551 4642
+V -909 5417 a Fo(5)p 231 5749 V 2523 w(without)274 b
+Fp(A)18 b(C)50 b(E)p 7177 5417 299 45 v 406 w(S)g(E)g(M)p
+9322 5417 V 406 w(C)g(L)g(A)g(S)g(S)p 14788 5749 45 1107
+v 3151 w Fo(53.4)1329 b(77.1)g(63.1)p Fb(\003)p 24428
+5749 V 24649 5749 V 1550 w Fo(55.2)g(76.2)g(64.0)p 34696
+5749 V 2160 w(54.0)g(79.2)g(64.2)p 43911 5749 V 1328
+w(50.9)g(75.9)g(60.9)p Fb(\003)p 53551 5749 V -909 6524
+a Fo(6)p 231 6856 V 2523 w(without)274 b Fp(S)50 b(E)g(M)p
+7254 6524 299 45 v 406 w(S)g(I)g(M)p 14788 6856 45 1107
+v 6382 w Fo(54.7)1329 b(77.6)g(64.2)p 24428 6856 V 24649
+6856 V 1974 w(56.1)g(76.1)g(64.6)p 34696 6856 V 2160
+w(54.7)g(79.6)g(64.8)p 43911 6856 V 1328 w(53.2)g(77.3)g(63.0)p
+53551 6856 V -909 7631 a(7)p 231 7963 V 2523 w(without)274
+b Fp(P)-23 b(A)-39 b(T)50 b(T)g(E)g(R)g(N)p 9239 7631
+299 45 v 404 w(B)23 b(A)50 b(S)g(E)g(D)p 14788 7963 45
+1107 v 3131 w Fo(55.0)1329 b(77.8)g Fc(64.5)p 24428 7963
+V 24649 7963 V 1974 w Fo(57.2)g(76.3)g Fc(65.4)p Fb(\003)p
+34696 7963 V 1736 w Fo(54.6)g(80.0)g Fc(65.0)p 43911
+7963 V 1328 w Fo(53.2)g(76.7)g(62.8)p 53551 7963 V -909
+8738 a(8)p 231 9070 V 2523 w(without)274 b Fp(A)50 b(N)23
+b(A)50 b(P)g(H)g(O)g(R)g(I)g(C)g(I)g(T)g(Y)p 14788 9070
+V 3547 w Fo(53.7)1329 b(77.8)g(63.5)p Fb(\003)p 24428
+9070 V 24649 9070 V 1550 w Fo(54.0)g(76.6)g(63.4)p Fb(\003)p
+34696 9070 V 1736 w Fo(54.8)g(79.5)g(64.9)p 43911 9070
+V 1328 w(52.2)g(77.3)g(62.3)p 53551 9070 V -909 9844
+a(9)p 231 10177 V 2523 w(without)274 b Fp(C)50 b(O)g(R)g(E)g(F)g(E)g(R)
+g(E)g(N)g(T)g(I)g(A)g(L)g(I)g(T)g(Y)p 14788 10177 V 1503
+w Fo(53.7)1329 b(78.3)g(63.3)p Fb(\003)p 24428 10177
+V 24649 10177 V 1550 w Fo(54.3)g(76.5)g(63.5)p 34696
+10177 V 2160 w(53.7)g(80.9)g(64.6)p 43911 10177 V 1328
+w(51.2)g(77.7)g(61.7)p 53551 10177 V 253 10221 53320
+45 v -270 12703 a Fs(T)-89 b(able)279 b(5:)344 b(Results)276
+b(obtained)j(via)f(the)f(MUC)h(scorer)f(by)g(learning)h(coreference)i
+(classi\002ers)c(from)h(the)g(entire)h(A)-44 b(CE)277
+b(training)h(corpus.)p 41 14315 53744 45 v 19 15378 45
+1107 v 14576 15378 V 14576 15378 V 16492 15045 a Fo(Entire)249
+b(T)-70 b(est)249 b(Set)p 24216 15378 V 24437 15378 V
+24437 15378 V 2779 w(Broadcast)g(Ne)-25 b(ws)250 b(\(BR\))p
+34484 15378 V 34484 15378 V 2207 w(Ne)-25 b(wspaper)251
+b(\(P)-92 b(A\))p 44123 15378 V 44123 15378 V 3265 w(Ne)-25
+b(wswire)250 b(\(WI\))p 53763 15378 V 19 16485 V 705
+16152 a(Experiments)p 14576 16485 V 9521 w(R)2407 b(P)2518
+b(F)p 24216 16485 V 24437 16485 V 3163 w(R)2407 b(P)2518
+b(F)p 34484 16485 V 3349 w(R)2407 b(P)2517 b(F)p 44123
+16485 V 2943 w(R)2406 b(P)2518 b(F)p 53763 16485 V 41
+16529 53744 45 v -1121 17259 a(1)p 19 17592 45 1107 v
+1328 w(Using)250 b(the)f(baseline)h(features)f(only)p
+14576 17592 V 1774 w(55.4)1329 b(65.4)g(60.0)p 24216
+17592 V 24437 17592 V 1974 w(56.8)g(66.0)g(61.1)p 34484
+17592 V 2160 w(53.9)g(63.5)f(58.3)p 44123 17592 V 1754
+w(55.5)g(66.8)h(60.7)p 53763 17592 V 41 17636 53744 45
+v -1121 18366 a(2)p 19 18698 45 1107 v 1328 w(Using)250
+b(Soon)f Fd(et)g(al.)p Fo(')-55 b(s)249 b(features)g(only)p
+14576 18698 V 1551 w(49.8)1329 b(64.9)g(56.3)p 24216
+18698 V 24437 18698 V 1974 w(49.3)g(63.7)g(55.6)p 34484
+18698 V 2160 w(50.0)g(64.4)f(56.3)p 44123 18698 V 1754
+w(50.2)g(66.7)h(57.3)p 53763 18698 V 41 18743 53744 45
+v -1121 19473 a(3)p 19 19805 45 1107 v 1328 w(Using)250
+b(the)f(e)-15 b(xpanded)251 b(feature)e(set)p 14576 19805
+V 2288 w(56.7)1329 b(69.0)g Fc(62.3)p 24216 19805 V 24437
+19805 V 1974 w Fo(57.3)g(66.9)g(61.7)p 34484 19805 V
+2160 w(55.1)g(69.5)f(61.5)p 44123 19805 V 1754 w(57.7)g(70.9)h
+Fc(63.6)p 53763 19805 V -1121 20580 a Fo(4)p 19 20912
+V 2522 w(without)275 b Fp(S)50 b(E)g(M)p 7042 20580 299
+45 v 406 w(C)g(L)g(A)g(S)g(S)p 14576 20912 45 1107 v
+5219 w Fo(56.1)1329 b(67.9)g(61.4)p 24216 20912 V 24437
+20912 V 1974 w(57.1)g(66.3)g(61.4)p 34484 20912 V 2160
+w(53.7)g(67.2)f(59.8)p 44123 20912 V 1754 w(57.2)g(70.4)h(63.1)p
+53763 20912 V -1121 21687 a(5)p 19 22019 V 2522 w(without)275
+b Fp(A)18 b(C)50 b(E)p 6965 21687 299 45 v 406 w(S)g(E)g(M)p
+9110 21687 V 406 w(C)g(L)g(A)g(S)g(S)p 14576 22019 45
+1107 v 3151 w Fo(54.6)1329 b(67.2)g(60.2)p Fb(\003)p
+24216 22019 V 24437 22019 V 1550 w Fo(56.3)g(66.6)g(61.0)p
+34484 22019 V 2160 w(52.5)g(66.3)f(58.6)p Fb(\003)p 44123
+22019 V 1330 w Fo(55.9)g(68.9)h(61.1)p Fb(\003)p 53763
+22019 V -1121 22794 a Fo(6)p 19 23126 V 2522 w(without)275
+b Fp(S)50 b(E)g(M)p 7042 22794 299 45 v 406 w(S)g(I)g(M)p
+14576 23126 45 1107 v 6382 w Fo(56.4)1329 b(68.1)g(61.7)p
+24216 23126 V 24437 23126 V 1974 w(57.1)g(66.5)g(61.5)p
+34484 23126 V 2160 w(55.4)g(69.7)f Fc(61.8)p 44123 23126
+V 1754 w Fo(57.2)g(70.1)h(63.0)p 53763 23126 V -1121
+23901 a(7)p 19 24233 V 2522 w(without)275 b Fp(P)-23
+b(A)-39 b(T)50 b(T)g(E)g(R)g(N)p 9027 23901 299 45 v
+403 w(B)23 b(A)50 b(S)g(E)g(D)p 14576 24233 45 1107 v
+3132 w Fo(56.2)1329 b(68.2)g(61.6)p 24216 24233 V 24437
+24233 V 1974 w(58.0)g(67.5)g Fc(62.4)p 34484 24233 V
+2160 w Fo(53.4)g(67.6)f(59.7)p 44123 24233 V 1754 w(57.0)g(69.7)h(62.7)
+p 53763 24233 V -1121 25008 a(8)p 19 25340 V 2522 w(without)275
+b Fp(A)50 b(N)23 b(A)50 b(P)g(H)g(O)g(R)g(I)g(C)g(I)g(T)g(Y)p
+14576 25340 V 3547 w Fo(55.0)1329 b(67.9)g(60.8)p Fb(\003)p
+24216 25340 V 24437 25340 V 1550 w Fo(55.6)g(66.6)g(60.6)p
+34484 25340 V 2160 w(54.8)g(69.1)f(61.1)p 44123 25340
+V 1754 w(54.6)g(68.0)h(60.6)p Fb(\003)p 53763 25340 V
+-1121 26115 a Fo(9)p 19 26447 V 2522 w(without)275 b
+Fp(C)50 b(O)g(R)g(E)g(F)g(E)g(R)g(E)g(N)g(T)g(I)g(A)g(L)g(I)g(T)g(Y)p
+14576 26447 V 1503 w Fo(55.0)1329 b(68.5)g(61.0)p Fb(\003)p
+24216 26447 V 24437 26447 V 1550 w Fo(55.3)g(66.3)g(60.3)p
+34484 26447 V 2160 w(53.5)g(68.1)f(59.9)p 44123 26447
+V 1754 w(56.3)g(71.3)h(62.9)p 53763 26447 V 41 26491
+53744 45 v -423 28973 a Fs(T)-89 b(able)278 b(6:)344
+b(Results)276 b(obtained)j(via)f(the)f(CEAF)h(scorer)f(by)h(learning)g
+(coreference)i(classi\002ers)c(from)h(the)g(entire)h(A)-44
+b(CE)277 b(training)g(corpus.)-2000 31538 y Fu(5)1329
+b(Conclusions)-2000 33215 y Fs(In)310 b(this)f(paper)-44
+b(,)320 b(we)310 b(in)-44 b(v)-17 b(estig)-6 b(ated)313
+b(the)d(relati)-28 b(v)-17 b(e)312 b(contrib)-22 b(ution)311
+b(of)f(our)-2000 34432 y(proposed)355 b(features)f(for)e
+(learning-based)k(coreference)f(resolution.)-2000 35650
+y(While)269 b(we)h(obtained)h(encouraging)h(results)c(on)i(the)f(A)-44
+b(CE)270 b(data)g(sets,)-2000 36868 y(we)467 b(should)g(note)g(that)g
+(performance)h(g)-6 b(ains)468 b(are)e(limited)g(in)h(part)-2000
+38085 y(by)272 b(the)g(dif)-28 b(\002culty)273 b(in)e(accurately)j
+(computing)g(these)e(features)g(gi)-28 b(v)-17 b(en)-2000
+39303 y(current)304 b(language)h(technologies.)424 b(W)-89
+b(e)304 b(e)-17 b(xpect)305 b(that)e(these)h(features)-2000
+40521 y(can)d(pro)-17 b(vide)302 b(further)d(impro)-17
+b(v)g(ements)302 b(if)d(we)h(increase)h(the)f(training)-2000
+41738 y(data)409 b(and)g(de)-28 b(v)-17 b(elop)411 b(e)-28
+b(v)-17 b(en)411 b(better)d(methods)h(for)f(computing)i(them.)-2000
+42956 y(As)301 b(noted)h(before,)308 b(there)301 b(ha)-22
+b(v)-17 b(e)303 b(been)g(v)-17 b(ery)302 b(fe)-28 b(w)301
+b(attempts)h(on)f(using)-2000 44174 y(corpus-based)383
+b(methods)g(for)e(inducing)j(features)d(for)g(coreference)-2000
+45391 y(resolution,)240 b(and)232 b(we)f(belie)-28 b(v)-17
+b(e)233 b(our)f(w)-11 b(ork)231 b(contrib)-22 b(utes)231
+b(to)g(the)g(corpus-)-2000 46609 y(based)300 b(induction)g(of)f
+(semantic)g(and)h(other)f(non-morpho-syntactic)-2000
+47827 y(features)277 b(for)g(coreference)i(resolution.)-2000
+50506 y Fu(Refer)-24 b(ences)-2000 51882 y Fl([)-1705
+51962 y(Bean)221 b(and)g(Rilof)-22 b(f,)221 b(1999)6144
+51882 y(])6992 51962 y(D.)h(Bean)g(and)f(E.)h(Rilof)-22
+b(f.)320 b(Corpus-based)221 b(identi\002cation)-857 52958
+y(of)g(non-anaphoric)g(noun)f(phrases.)320 b(In)221 b
+Fa(Pr)-40 b(oc.)223 b(of)e(the)h(A)-27 b(CL)p Fl(,)222
+b(pages)g(373\226380.)-2000 54045 y([)-1705 54125 y(Bean)f(and)g(Rilof)
+-22 b(f,)221 b(2004)6144 54045 y(])6992 54125 y(D.)311
+b(Bean)f(and)f(E.)i(Rilof)-22 b(f.)602 b(Unsupervised)310
+b(learning)g(of)-857 55121 y(conte)-13 b(xtual)222 b(role)f(kno)-22
+b(wledge)221 b(for)g(coreference)h(resolution.)319 b(In)221
+b Fa(N)-24 b(AA)d(CL)p Fl(.)-2000 56208 y([)-1705 56288
+y(Ber)-16 b(gsma)222 b(and)f(Lin,)g(2006)6593 56208 y(])7441
+56288 y(S.)200 b(Ber)-16 b(gsma)200 b(and)f(D.)h(Lin.)271
+b(Bootstrapping)199 b(path-based)-857 57284 y(pronoun)220
+b(resolution.)320 b(In)221 b Fa(Pr)-40 b(oc.)222 b(of)g(COLING/A)-27
+b(CL)p Fl(,)222 b(pages)g(33\22640.)-2000 58371 y([)-1705
+58451 y(Dag)l(an)f(and)g(Itai,)i(1990)5719 58371 y(])6566
+58451 y(I.)240 b(Dag)l(an)f(and)g(A.)h(Itai.)377 b(Automatic)240
+b(processing)g(of)f(lar)-16 b(ge)-857 59447 y(corpora)221
+b(for)g(the)h(resolution)f(of)g(anaphora)g(references.)320
+b(In)221 b Fa(Pr)-40 b(oc.)223 b(of)e(COLING)p Fl(.)-2000
+60534 y([)-1705 60614 y(Daum)508 60610 y(\264)459 60614
+y(e)h(and)f(Marcu,)h(2005)7100 60534 y(])7948 60614 y(H.)284
+b(Daum)11305 60610 y(\264)11256 60614 y(e)g(III)f(and)g(D.)h(Marcu.)518
+b(A)284 b(lar)-16 b(ge-scale)284 b(e)-13 b(x-)-857 61610
+y(ploration)201 b(of)f(ef)-22 b(fecti)g(v)-13 b(e)201
+b(global)f(features)i(for)e(a)h(joint)f(entity)h(detection)g(and)g
+(track-)-857 62606 y(ing)221 b(model.)319 b(In)222 b
+Fa(Pr)-40 b(oc.)222 b(of)f(HL)-18 b(T/EMNLP)p Fl(,)224
+b(pages)d(97\226104.)-2000 63693 y([)-1705 63773 y(Ge)h
+Fa(et)g(al.)p Fl(,)g(1998)3535 63693 y(])4382 63773 y(N.)246
+b(Ge,)253 b(J.)246 b(Hale,)252 b(and)246 b(E.)f(Charniak.)396
+b(A)245 b(statistical)j(approach)d(to)-857 64769 y(anaphora)221
+b(resolution.)320 b(In)221 b Fa(Pr)-40 b(oc.)222 b(of)g(WVLC)p
+Fl(,)f(pages)h(161\226170.)-2000 65856 y([)-1705 65936
+y(Hearst,)h(1992)2821 65856 y(])3668 65936 y(M.)173 b(A.)g(Hearst.)214
+b(Automatic)173 b(acquisition)g(of)f(h)l(ypon)-13 b(yms)171
+b(from)h(lar)-16 b(ge)-857 66932 y(te)j(xt)222 b(corpora.)318
+b(In)221 b Fa(Pr)-40 b(oc.)223 b(of)e(COLING)p Fl(,)h(pages)g
+(539\226545.)-2000 68019 y([)-1705 68099 y(K)-22 b(ehler)222
+b Fa(et)g(al.)p Fl(,)g(2004)4890 68019 y(])5737 68099
+y(A.)286 b(K)-22 b(ehler)-35 b(,)301 b(D.)286 b(Appelt,)302
+b(L.)285 b(T)-71 b(aylor)-35 b(,)301 b(and)285 b(A.)h(Simma.)523
+b(The)-857 69095 y(\(non\)utility)193 b(of)f(predicate-ar)-16
+b(gument)193 b(frequencies)h(for)e(pronoun)f(interpretation.)-857
+70092 y(In)221 b Fa(Pr)-40 b(oc.)223 b(of)e(HL)-18 b(T/N)-24
+b(AA)d(CL)p Fl(,)224 b(pages)e(289\226296.)27000 31458
+y([)27295 31538 y(Lappin)f(and)g(Leass,)i(1994)35756
+31458 y(])36604 31538 y(S.)504 b(Lappin)e(and)h(H.)h(Leass.)1221
+b(An)504 b(algorithm)e(for)28143 32534 y(pronominal)221
+b(anaphora)g(resolution.)319 b Fa(Computational)221 b(Linguistics)p
+Fl(,)i(20\(4\).)27000 33516 y([)27295 33596 y(Li)f(and)f(Roth,)g(2005)
+33741 33516 y(])34588 33596 y(X.)179 b(Li)f(and)f(D.)h(Roth.)224
+b(Discriminati)-22 b(v)-13 b(e)179 b(training)e(of)g(clustering)28143
+34592 y(functions:)273 b(Theory)217 b(and)h(e)-13 b(xperiments)218
+b(with)g(entity)g(identi\002cation.)313 b(In)217 b Fa(CoNLL)p
+Fl(.)27000 35574 y([)27295 35654 y(Lin,)222 b(1998a)31133
+35574 y(])31980 35654 y(D.)204 b(Lin.)279 b(Automatic)204
+b(retrie)-22 b(v)g(al)204 b(and)e(clustering)i(of)f(similar)h(w)-9
+b(ords.)279 b(In)28143 36650 y Fa(Pr)-40 b(oc.)223 b(of)e(COLING/A)-27
+b(CL)p Fl(,)223 b(pages)f(768\226774.)27000 37632 y([)27295
+37712 y(Lin,)g(1998b)31183 37632 y(])32030 37712 y(D.)247
+b(Lin.)400 b(Dependenc)-13 b(y-based)247 b(e)-22 b(v)g(aluation)246
+b(of)h(MINIP)-81 b(AR.)400 b(In)246 b Fa(Pr)-40 b(oc.)28143
+38708 y(of)222 b(the)f(LREC)h(W)-81 b(orkshop)221 b(on)g(the)g
+(Evaluation)g(of)h(P)-71 b(ar)-9 b(sing)222 b(Systems)p
+Fl(.)27000 39690 y([)27295 39770 y(Luo,)f(2005)30936
+39690 y(])31784 39770 y(X.)324 b(Luo.)647 b(On)324 b(coreference)g
+(resolution)h(performance)e(metrics.)648 b(In)28143 40766
+y Fa(Pr)-40 b(oc.)223 b(of)e(HL)-18 b(T/EMNLP)p Fl(,)223
+b(pages)f(25\22632.)27000 41748 y([)27295 41828 y(Luo)f
+Fa(et)h(al.)p Fl(,)g(2004)32929 41748 y(])33776 41828
+y(X.)469 b(Luo,)530 b(A.)469 b(Ittycheriah,)530 b(H.)469
+b(Jing,)530 b(N.)469 b(Kambhatla,)531 b(and)28143 42825
+y(S.)389 b(Rouk)-9 b(os.)853 b(A)389 b(mention-synchronous)f
+(coreference)g(resolution)h(algorithm)28143 43821 y(based)222
+b(on)f(the)h(Bell)f(tree.)320 b(In)221 b Fa(Pr)-40 b(oc.)222
+b(of)g(the)f(A)-27 b(CL)p Fl(,)223 b(pages)e(153\226142.)27000
+44803 y([)27295 44883 y(McCallum)h(and)f(W)-71 b(ellner)-35
+b(,)222 b(2004)37766 44803 y(])38613 44883 y(A.)265 b(McCallum)f(and)g
+(B.)g(W)-71 b(ellner)-49 b(.)456 b(Conditional)28143
+45879 y(models)286 b(of)g(identity)g(uncertainty)g(with)g(application)h
+(to)f(noun)f(coreference.)525 b(In)28143 46875 y Fa(Advances)222
+b(in)f(NIPS)p Fl(.)27000 47857 y([)27295 47937 y(Mitk)-9
+b(o)c(v)221 b Fa(et)h(al.)p Fl(,)g(2001)34088 47857 y(])34936
+47937 y(R.)258 b(Mitk)-9 b(o)c(v)-58 b(,)268 b(B.)258
+b(Bogurae)-22 b(v)-58 b(,)268 b(and)258 b(S.)h(Lappin.)437
+b(Introduction)28143 48933 y(to)190 b(the)g(special)h(issue)g(on)e
+(computational)h(anaphora)g(resolution.)251 b Fa(Computational)28143
+49930 y(Linguistics)p Fl(,)224 b(27\(4\):473\226477.)27000
+50912 y([)27295 50992 y(Ng)d(and)h(Cardie,)f(2002)34674
+50912 y(])35522 50992 y(V)-114 b(.)298 b(Ng)g(and)f(C.)h(Cardie.)563
+b(Impro)-13 b(ving)296 b(machine)i(learning)28143 51988
+y(approaches)222 b(to)f(coreference)h(resolution.)319
+b(In)222 b Fa(Pr)-40 b(oc.)222 b(of)f(the)h(A)-27 b(CL)p
+Fl(.)27000 52970 y([)27295 53050 y(Noreen,)222 b(1989)32116
+52970 y(])32963 53050 y(E.)g(W)-81 b(.)222 b(Noreen.)319
+b(1989.)f Fa(Computer)222 b(Intensive)g(Methods)g(for)f(T)-81
+b(est-)28143 54046 y(ing)221 b(Hypothesis:)276 b(An)221
+b(Intr)-40 b(oduction)p Fl(.)320 b(John)221 b(W)-35 b(ile)-13
+b(y)221 b(&)g(Sons.)27000 55028 y([)27295 55108 y(Phillips)h(and)g
+(Rilof)-22 b(f,)221 b(2002)36032 55028 y(])36879 55108
+y(W)-81 b(.)216 b(Phillips)h(and)f(E.)h(Rilof)-22 b(f.)306
+b(Exploiting)216 b(strong)g(syn-)28143 56104 y(tactic)282
+b(heuristics)f(and)g(co-training)f(to)g(learn)h(semantic)g(le)-13
+b(xicons.)509 b(In)280 b Fa(EMNLP)p Fl(.)27000 57106
+y([)27295 57186 y(Poesio)222 b Fa(et)g(al.)p Fl(,)g(2004)33864
+57106 y(])34711 57186 y(M.)279 b(Poesio,)294 b(R.)278
+b(Mehta,)293 b(A.)279 b(Maroudas,)294 b(and)278 b(J.)h(Hitzeman.)28143
+58182 y(Learning)222 b(to)f(resolv)-13 b(e)221 b(bridging)g
+(references.)320 b(In)221 b Fa(Pr)-40 b(oc.)223 b(of)e(the)h(A)-27
+b(CL)p Fl(.)27000 59164 y([)27295 59244 y(Ponzetto)222
+b(and)f(Strube,)h(2006)36643 59164 y(])37490 59244 y(S.)314
+b(P)-98 b(.)313 b(Ponzetto)g(and)g(M.)g(Strube.)612 b(Exploiting)312
+b(se-)28143 60240 y(mantic)235 b(role)f(labeling,)k(W)-71
+b(ordNet)235 b(and)f(Wikipedia)g(for)g(coreference)g(resolution.)28143
+61237 y(In)221 b Fa(Pr)-40 b(oc.)223 b(of)e(HL)-18 b(T/N)-24
+b(AA)d(CL)p Fl(,)224 b(pages)e(192\226199.)27000 62218
+y([)27295 62298 y(Quinlan,)g(1993)32363 62218 y(])33210
+62298 y(J.)h(R.)e(Quinlan.)320 b Fa(C4.5:)274 b(Pr)-40
+b(o)-9 b(gr)c(ams)222 b(for)g(Mac)-13 b(hine)221 b(Learning)p
+Fl(.)27000 63280 y([)27295 63360 y(Soon)g Fa(et)h(al.)p
+Fl(,)g(2001)33323 63280 y(])34170 63360 y(W)-81 b(.)300
+b(M.)h(Soon,)319 b(H.)301 b(T)-66 b(.)300 b(Ng,)320 b(and)300
+b(D.)g(C.)g(Y)-114 b(.)300 b(Lim.)571 b(A)300 b(machine)28143
+64357 y(learning)276 b(approach)f(to)g(coreference)h(resolution)g(of)f
+(noun)g(phrases.)493 b Fa(Computa-)28143 65353 y(tional)222
+b(Linguistics)p Fl(,)h(27\(4\):521\226544.)27000 66335
+y([)27295 66415 y(V)-53 b(ilain)222 b Fa(et)g(al.)p Fl(,)g(1995)33663
+66335 y(])34510 66415 y(M.)367 b(V)-53 b(ilain,)404 b(J.)367
+b(Bur)-16 b(ger)-35 b(,)401 b(J.)367 b(Aberdeen,)403
+b(D.)367 b(Connolly)-58 b(,)402 b(and)28143 67411 y(L.)173
+b(Hirschman.)215 b(A)173 b(model-theoretic)g(coreference)g(scoring)g
+(scheme.)214 b(In)172 b Fa(MUC-6)p Fl(.)27000 68413 y([)27295
+68493 y(Y)-89 b(ang)222 b Fa(et)g(al.)p Fl(,)g(2005)33332
+68413 y(])34179 68493 y(X.)k(Y)-89 b(ang,)227 b(J.)f(Su,)h(and)d(C.)i
+(L.)f(T)-71 b(an.)331 b(Impro)-13 b(ving)224 b(pronoun)g(reso-)28143
+69489 y(lution)e(using)f(statistics-based)j(semantic)f(compatibility)f
+(information.)319 b(In)221 b Fa(A)-27 b(CL)p Fl(.)p eop
+end
+%%Trailer
+
+userdict /end-hook known{end-hook}if
+%%EOF

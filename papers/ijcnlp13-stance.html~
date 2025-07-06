@@ -1,0 +1,45 @@
+<HTML>
+<HEAD>
+<TITLE>Stance Classification of Ideological Debates: Data, Models, Features, and Constraints</TITLE>
+</HEAD>
+<BODY>
+<H3>Stance Classification of Ideological Debates: Data, Models, Features, and Constraints</H3>
+Kazi Saidul Hasan and Vincent Ng.
+<br>
+<i>Proceedings of the 6th International Joint Conference on Natural Language Learning</i> (IJCNLP), pp. 1348-1356, 2013.
+<P>
+
+
+Click here for the <a href="ijcnlp13-stance.ps">Postscript</a> and <a href="ijcnlp13-stance.pdf">PDF</a> version. 
+The talk slides are available <a href="../talks.html#ijcnlp13-stance">here</a>.
+</p>
+
+<H3>Abstract</H3>
+
+Determining the stance expressed in a post written for a two-sided debate in an online debate forum is a relatively new and challenging problem in opinion mining. We seek to gain a better understanding of how to improve machine learning approaches to stance classification of ideological debates, specifically by examining how the performance of a learning-based stance classification system varies with the amount and quality of the training data, the complexity of the underlying model, the richness of the feature set, as well as the application of extra-linguistic constraints.
+
+<P>
+
+<H3>Dataset</H3> 
+The dataset used in this paper is available from 
+<a href="http://www.hlt.utdallas.edu/~saidul/stance/">this</a> page.
+
+<P>
+
+<H3>BibTeX entry</H3>
+
+<pre>
+@InProceedings{Hasan+Ng:13c,
+  author = {Hasa, Kazi Saidul and Vincent Ng},
+  title = {Stance Classification of Ideological Debates: Data, Models, Features, and Constraints},
+  booktitle = {Proceedings of the 6th International Joint Conference on Natural Language Processing},
+  pages = {1348--1356},
+  year = 2013
+}
+</pre>
+
+<br>
+<p align="center"><img src="ijcnlp13-curves.jpg" alt="poster" width="80%";></p>
+<HR> 
+</BODY>
+</HTML>

@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<title>Deexaggeration</title>
+</head>
+<body>
+
+<h3>Deexaggeration</h3>
+Li Kong and Chuanyi Li and Vincent Ng.
+<br>
+<i>Proceedings of the 31st International Joint Conference on Artificial Intelligence and the 25th European Conference on Artificial Intelligence</i>, 2022. 
+
+<!--
+<p>Click here for the <a href="ijcai22-hyperbole.pdf">PDF</a> version. -->
+<!-- The talk slides are available <a href="../talks.html#acl17">here</a>. -->
+
+<p>
+<h3>Abstract</h3>
+
+We introduce a new task in hyperbole processing, deexaggeration, which concerns the recovery of the meaning of what is being exaggerated in a hyperbolic sentence in the form of a structured representation. In this paper, we lay the groundwork for the computational study of understanding hyperbole by (1) defining a structured representation to encode what is being exaggerated in a hyperbole in a non-hyperbolic manner, (2) annotating the hyperbolic sentences in two existing datasets, HYPO and HYPO-cn, using this structured representation, (3) conducting an empirical analysis of our annotated corpora, and (4) presenting preliminary results on the deexaggeration task.
+
+<p>
+<h3>BibTeX entry</h3>
+
+<pre>
+@InProceedings{Kong+etal:22a,
+  author = {Li Kong and Chuanyi Li and Vincent Ng},
+  title = {Deexaggeration},
+  booktitle = {Proceedings of the 31st International Joint Conference on Artificial Intelligence and the 25th European Conference on Artificial Intelligence},
+<!--  pages = {3708--3721}, -->
+  year = 2022}
+</pre>
+<br>
+
+<!--
+<p align="center"><img src="emnlp13-poster.jpg" alt="poster" width="100%";></p>
+-->
+<hr>
+</body>
+
+</html>
