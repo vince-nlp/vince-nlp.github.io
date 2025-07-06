@@ -1,0 +1,66 @@
+<HTML>
+<HEAD>
+<TITLE>Modeling Argument Strength in Student Essays</TITLE>
+</HEAD>
+<BODY>
+
+<h3>Modeling Argument Strength in Student Essays</h3>
+
+<p class=MsoNormal>Isaac Persing and Vincent Ng. <br>
+<i>Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)</i>, pp. 543-552, 2015. </p>
+
+
+<p>Click here for the <a href="acl15.ps">PostScript</a> or <a href="acl15.pdf">PDF</a>
+version.
+<!--
+The talk slides are available <a href="../talks.html#acl14-essay">here</a>. </P>
+-->
+
+
+<h3>Abstract</h3>
+
+While recent years have seen a surge of interest
+in automated essay grading, including
+work on grading essays with respect
+to particular dimensions such as prompt
+adherence, coherence, and technical quality,
+there has been relatively little work
+on grading the essay dimension of argument
+strength, which is arguably the most
+important aspect of argumentative essays.
+We introduce a new corpus of argumentative
+student essays annotated with argument
+strength scores and propose a supervised,
+feature-rich approach to automatically
+scoring the essays along this
+dimension. Our approach significantly
+outperforms a baseline that relies solely
+on heuristically applied sentence argument
+function labels by up to 16.1%.
+
+<P>
+
+<H3>Dataset</H3> 
+The human annotation used in this paper is available from 
+<a href="http://www.hlt.utdallas.edu/~persingq/ICLE/">this</a> page.
+
+<P>
+
+
+<h3>BibTeX entry</h3>
+
+<pre>
+@InProceedings{Persing+Ng:15a,
+  author = {Isaac Persing and Vincent Ng},
+  title = {Modeling Argument Strength in Student Essays},
+  booktitle = {Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)},
+  pages = {543--552},
+  year = 2015}
+</pre>
+
+<p align="center"><img src="acl15-poster.jpg" alt="poster" width="100%";></p>
+
+<HR>
+</body>
+
+</html>
