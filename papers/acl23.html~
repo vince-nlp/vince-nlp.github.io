@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<title>Constrained Multi-Task Learning for Bridging Resolution</title>
+</head>
+<body>
+
+<h3>Constrained Multi-Task Learning for Bridging Resolution</h3>
+Hideo Kobayashi, Yufang Hou and Vincent Ng.
+<br>
+<i>Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics</i>, pp. 759-770, 2022. 
+
+
+<p>Click here for the <a href="acl22-bridging.pdf">PDF</a> version. 
+<!-- The talk slides are available <a href="../talks.html#acl17">here</a>. -->
+
+<p>
+<h3>Abstract</h3>
+
+We examine the extent to which supervised bridging resolvers can be improved without employing additional labeled bridging data by proposing a novel constrained multi-task learning framework for bridging resolution, within which we (1) design cross-task consistency constraints to guide the learning process; (2) pre-train the entity coreference model in the multi-task framework on the large amount of publicly available coreference data; and (3) integrate prior knowledge encoded in rule-based resolvers. Our approach achieves state-of-the-art results on three standard evaluation corpora.
+
+<p>
+<h3>BibTeX entry</h3>
+
+<pre>
+@InProceedings{Kobayashi+etal:22a,
+  author = {Hideo Kobayashi and Yufang Hou and Vincent Ng},
+  title = {Constrained Multi-Task Learning for Bridging Resolution},
+  booktitle = {Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages = {759--770}, 
+  year = 2022}
+</pre>
+<br>
+
+<!--
+<p align="center"><img src="emnlp13-poster.jpg" alt="poster" width="100%";></p>
+-->
+<hr>
+</body>
+
+</html>

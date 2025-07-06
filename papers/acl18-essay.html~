@@ -1,0 +1,51 @@
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<title>Give Me More Feedback: Annotating Argument Persuasiveness and Related Attributes in Student Essays</title>
+</head>
+<body>
+
+<h3>Give Me More Feedback: Annotating Argument Persuasiveness and Related Attributes in Student Essays</h3>
+Winston Carlile, Nishant Gurrapadi, Zixuan Ke, and Vincent Ng.
+<br>
+<i>Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics</i>, pp. 621-631, 2018. 
+
+
+<p>Click here for the 
+<!-- <a href="acl17.ps">PostScript</a> or  -->
+<!-- <a href="https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/download/9925/9528"> -->
+<a href="acl18-essay.pdf">PDF</a> version. 
+<!-- The talk slides are available <a href="../talks.html#acl17">here</a>. -->
+
+<p>
+<h3>Abstract</h3>
+
+While argument persuasiveness is one of the most important dimensions of argumentative essay quality, it is relatively little studied in automated essay scoring research. Progress on scoring argument persuasiveness is hindered in part by the scarcity of annotated corpora. We present the first corpus of essays that are simultaneously annotated with argument components, argument persuasiveness scores, and attributes of argument components that impact an argument’s persuasiveness. This corpus could trigger the development of novel computational models concerning argument persuasiveness that provide useful feedback to students on why their arguments are (un)persuasive in addition to how persuasive they are.
+
+<P>
+
+<H3>Dataset</H3> 
+The human annotation used in this paper is available from 
+<a href="https://www.hlt.utdallas.edu/~zixuan/EssayScoring/persuasiveness/essays.zip">this</a> file.
+
+
+<p>
+<h3>BibTeX entry</h3>
+
+<pre>
+@InProceedings{Carlile+etal:18a,
+  author = {Winston Carlile and Nishant Gurrapadi and Zixuan Ke and Vincent Ng},
+  title = {Give Me More Feedback: Annotating Argument Persuasiveness and Related Attributes in Student Essays},
+  booktitle = {Proceedings of 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages = {621--631}, 
+  year = 2018}
+</pre>
+<br>
+
+<!--
+<p align="center"><img src="emnlp13-poster.jpg" alt="poster" width="100%";></p>
+-->
+<hr>
+</body>
+
+</html>

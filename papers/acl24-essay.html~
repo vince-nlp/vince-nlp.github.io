@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<title>Legal Case Retrieval: A Survey of the State of the Art</title>
+</head>
+<body>
+
+<h3>Legal Case Retrieval: A Survey of the State of the Art</h3>
+Yi Feng, Chuanyi Li and Vincent Ng.
+<br>
+<i>Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics</i>, pp. 6472-6487, 2024. 
+
+
+<p>Click here for the <a href="acl24-lcr.pdf">PDF</a> version. 
+<!-- The talk slides are available <a href="../talks.html#acl17">here</a>. -->
+
+<p>
+<h3>Abstract</h3>
+
+Recent years have seen increasing attention on Legal Case Retrieval (LCR), a key task in the area of Legal AI that concerns the retrieval of cases from a large legal database of historical cases that are similar to a given query. This paper presents a survey of the major milestones made in LCR research, targeting researchers who are finding their way into the field and seek a brief account of the relevant datasets and the recent neural models and their performances.
+
+<p>
+<h3>BibTeX entry</h3>
+
+<pre>
+@InProceedings{Feng+etal:24a,
+  author = {Yi Feng and Chuanyi Li and Vincent Ng},
+  title = {Legal Case Retrieval: A Survey of the State of the Art},
+  booktitle = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages = {6472--6485}, 
+  year = 2024}
+</pre>
+<br>
+
+<!--
+<p align="center"><img src="emnlp13-poster.jpg" alt="poster" width="100%";></p>
+-->
+<hr>
+</body>
+
+</html>

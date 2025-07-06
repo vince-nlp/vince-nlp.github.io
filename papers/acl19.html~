@@ -1,0 +1,47 @@
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<title>Give Me More Feedback II: Annotating Thesis Strength and Related Attributes in Student Essays</title>
+</head>
+<body>
+
+<h3>Give Me More Feedback II: Annotating Thesis Strength and Related Attributes in Student Essays</h3>
+Zixuan Ke, Hrishikesh Inamdar, Hui Lin, and Vincent Ng.
+<br>
+<i>Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics</i>, pp. 3994-4004, 2019. 
+
+
+<p>Click here for the 
+<!-- <a href="acl17.ps">PostScript</a> or  -->
+<!-- <a href="https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/download/9925/9528"> -->
+<a href="acl19.pdf">PDF</a> version. 
+The talk slides are available <a href="../talks.html#acl19">here</a>. 
+
+<p>
+<h3>Abstract</h3>
+
+While the vast majority of existing work on automated essay scoring has focused on holistic scoring, 
+%a holistic score provides little feedback to a student on what went wrong and how she can improve her essay if she receives a low score. To address this problem, 
+researchers have recently begun work on scoring specific dimensions of essay quality. Nevertheless, progress in dimension-specific essay scoring research is hindered in part by the lack of annotated corpora. To facilitate advances in this area of research, we design a rubric for scoring an important, yet unexplored dimension of persuasive essay quality, thesis strength, and annotate a corpus of essays with thesis strength scores. We additionally identify the attributes that could impact thesis strength and annotate the essays with the values of these attributes, which, when predicted by computational models, could provide %further 
+feedback to students on why her essay receives a particular thesis strength score.
+<p>
+
+<h3>BibTeX entry</h3>
+
+<pre>
+@InProceedings{Ke+etal:19a,
+  author = {Zixuan Ke and Hrishikesh Inamdar and Hui Lin and Vincent Ng},
+  title = {Give Me More Feedback II: Annotating Thesis Strength and Related Attributes in Student Essays},
+  booktitle = {Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages = {3994--4004}, 
+  year = 2019}
+</pre>
+<br>
+
+<!--
+<p align="center"><img src="emnlp13-poster.jpg" alt="poster" width="100%";></p>
+-->
+<hr>
+</body>
+
+</html>
