@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<title>Teaching AI the ‘Why’ and ‘How’ of Software Vulnerability Fixes</title>
+</head>
+<body>
+
+<h3>Teaching AI the ‘Why’ and ‘How’ of Software Vulnerability Fixes</h3>
+Amiao Gao, Zenong Zhang, Simin Wang, Liguo Huang, Shiyi Wei, and Vincent Ng.
+<br>
+<i>Proceedings of the ACM on Software Engineering 2(FSE)</i>, pp. 2006-2029, 2025. 
+
+
+<p>Click here for the <a href="fse25.pdf">PDF</a> version. 
+<!-- The talk slides are available <a href="../talks.html#acl17">here</a>. -->
+
+<p>
+<h3>Abstract</h3>
+
+Understanding software vulnerabilities and their resolutions is crucial for securing modern software systems. This study presents a novel traceability model that links a pair of sentences describing at least one of the three types of semantics (triggers, crash phenomenon and fix action) for a vulnerability in natural language (NL) vulnerability artifacts, to their corresponding pair of code statements. Different from the traditional traceability models, our trace links between a pair of related NL sentences and a pair of code statements can recover the semantic relationship between code statements so that the specific role played by each code statement in a vulnerability can be automatically identified. Our end-to-end approach is implemented in two key steps: VulnExtract and VulnTrace. VulnExtract automatically extracts sentences describing triggers, crash phenomenon and/or fix action for a vulnerability using 37 discourse patterns derived from NL artifacts (CVE summary, bug reports and commit messages). VulnTrace employs pre-trained code search models to trace these sentences to corresponding code statements. Our empirical study, based on 341 CVEs and their associated code snippets, demonstrates the effectiveness of our approach, with recall exceeding 90% in most cases for NL sentence extraction. VulnTrace achieves a Top5 accuracy of over 68.2% for mapping a pair of related NL sentences to corresponding pair of code statements. The end-to-end combined VulnExtract+VulnTrace achieves a Top5 accuracy of 59.6% and 53.1% for mapping two pairs of NL sentences to code statements. These results highlight the potential of our method in automating vulnerability comprehension and reducing manual effort.
+
+<p>
+<h3>BibTeX entry</h3>
+
+<pre>
+@InProceedings{Gao+etal:25a,
+  author = {Amiao Gao and Zenong Zhang and Simin Wang and Liguo Huang and Shiyi Wei and Vincent Ng},
+  title = {Teaching AI the 'Why' and 'How' of Software Vulnerability Fixes},
+  booktitle = {Proceedings of the ACM on Software Engineering 2(FSE)},
+  pages = {2006--2029},
+  year = 2025}
+</pre>
+<br>
+
+<!--
+<p align="center"><img src="emnlp13-poster.jpg" alt="poster" width="100%";></p>
+-->
+<hr>
+</body>
+
+</html>

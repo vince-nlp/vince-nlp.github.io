@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<title>Multi-Modal Neural Machine Translation: A Survey of the State of the Art</title>
+</head>
+<body>
+
+<h3>Multi-Modal Neural Machine Translation: A Survey of the State of the Art</h3>
+Yi Feng, Chuanyi Li, Jiatong He, Zhenyu Hou, and Vincent Ng.
+<br>
+<i>Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing</i>, <!-- pp. 28576-28585,--> 2025. 
+
+
+<p>Click here for the <a href="emnlp25-mt.pdf">PDF</a> version. 
+<!-- The talk slides are available <a href="../talks.html#acl17">here</a>. -->
+
+<p>
+<h3>Abstract</h3>
+
+Multimodal neural machine translation (MNMT), has received increasing attention due to its widespread applications in various fields such as cross-border e-commerce and cross-border social media platforms. The task which aims to integrate other modalities, such as the visual modality, with textual data to enhance translation performance, has recently received a lot of attention. We survey the major milestones in MNMT research, discussing key challenges and promising research directions for advancing MNMT.
+
+<p>
+<h3>BibTeX entry</h3>
+
+<pre>
+@InProceedings{Feng+etal:25b,
+  author = {Yi Feng and Chuanyi Li and Jiatong He and Zhenyu Hou and Vincent Ng},
+  title = {Multi-Modal Neural Machine Translation: A Survey of the State of the Art},
+  booktitle = {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+<!--  pages = {28576--28585}, -->
+  year = 2025}
+</pre>
+<br>
+
+<!--
+<p align="center"><img src="emnlp13-poster.jpg" alt="poster" width="100%";></p>
+-->
+<hr>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<title>Graph-Based Mult-Trait Essay Scoring</title>
+</head>
+<body>
+
+<h3>Graph-Based Multi-Trait Essay Scoring</h3>
+Shengjie Li and Vincent Ng.
+<br>
+<i>Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing</i>, <!-- pp. 17876-17888,--> 2025. 
+
+
+<p>Click here for the <a href="emnlp25-essay.pdf">PDF</a> version. 
+<!-- The talk slides are available <a href="../talks.html#acl17">here</a>. -->
+
+<p>
+<h3>Abstract</h3>
+
+While virtually all existing work on Automated Essay Scoring (AES) models an essay as a word sequence, we put forward the novel view that an essay can be modeled as a graph and subsequently propose GAT-AES, a graph-attention network approach to AES. A key advantage of a graph-based approach to AES is that it allows us to easily capture the interactions among essay traits directly. Experimental results show that GAT-AES has achieved the best multi-trait scoring results to date on the ASAP++ dataset.
+
+<p>
+  <H3>Code</H3>
+  Our code and trained checkpoint are available <a href="https://anonymous.4open.science/r/GAT-AES-E2B4/">here</a>.
+  
+<p>
+<h3>BibTeX entry</h3>
+
+<pre>
+@InProceedings{Li+Ng:25a,
+  author = {Shengjie Li and Vincent Ng},
+  title = {Graph-Based Multi-Trait Essay Scoring},
+  booktitle = {Proceedings of the 2025 Empirical Methods in Natural Language Processing},
+<!--  pages = {17876--17888}, -->
+  year = 2025}
+</pre>
+<br>
+
+<!--
+<p align="center"><img src="emnlp13-poster.jpg" alt="poster" width="100%";></p>
+-->
+<hr>
+</body>
+
+</html>
