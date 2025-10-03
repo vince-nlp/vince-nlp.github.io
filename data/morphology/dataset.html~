@@ -1,0 +1,28 @@
+<html><head><title>Data</title></head>
+<body bgcolor="#ffffff" text="#000000">
+
+<h1>Unsupervised Morphological Segmentation Dataset </h1>
+This page is a distribution site for unsupervised word segmentaion data for Bengali.
+This data set was introduced in the following papers: 
+<br>
+<br>
+<a href="ICONFinal.pdf">  <b>Unsupervised Word Segmentation for Bangla.</b></a>
+Sajib Dasgupta and Vincent Ng. To appear in the 5th International Conference on Natural Language Processing (ICON), Hyderabad, India, 4 - 6 January 2007.
+<br>
+<br>
+<a href="LRE.fdf">  <b>Unsupervised Morphological Parsing of Bengali.</b></a>
+Sajib Dasgupta and Vincent Ng. To appear in the Journal of Language Resources and Evaluation (LRE) 2007, published by Springer.
+<br>
+<br>
+Here are the files: 
+<br>
+<br>
+<a href="datasetJournal.txt"> Bengali Dataset (Transliterated) </a>: These are the 4110 instances used in the LRE paper. The first 2511 instances are used in the ICON paper.
+<br>
+<br>
+<a href="datasetJournalBengali.txt"> Bengali Dataset (Original) </a>: These are the 4110 instances used in the LRE paper in Bengali Font.
+<br>
+<br>
+<a href="mapping.txt"> Mapping </a>: The transliteration we used to map Bengali to English.
+<br>
+

@@ -1,0 +1,21 @@
+<html><head><title>Morphology Output Distribution</title></head>
+<body bgcolor="#ffffff" text="#000000">
+
+<h1>Unsupervised Morphological Segmentation Output</h1>
+This page is a distribution site for unsupervised morphological segmentation output, generated from the system introduced in the following paper: 
+<br>
+<br>
+<a href="NAACL07.pdf"> High-Performance, Language-Independent Morphological Segmentation.</a>
+<br>Sajib Dasgupta and Vincent Ng. 
+<br>In the annual conference of the NAACL-HLT, New York, 2007.
+<br>
+<br>
+<font size=4 face="Verdana">
+<b>Select Language:</b>
+<li><a href="Morphology-Output-Distribution.html">English</a></li>
+<li><a href="Morphology-Output-Distribution-Bangla.html">Bengali</a></li>
+</font>
+<br>
+<br>
+The related software is here: <a href="Morphology-Software-Distribution.html"> Software </a>
+

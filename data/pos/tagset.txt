@@ -1,0 +1,13 @@
+TagSet for Bengali
+==========================
+JJ:  Adjective 			  e.g. vhalo, garam, kharap
+NN:  Singular noun		  e.g. kanna, ridoy, shoshon
+NN2: 2nd order inflectional noun  e.g. dhopake, kalamtike
+NN6: 6th order inflectional noun  e.g. gharer, manusher
+NN7: 7th order inflectional noun  e.g. dhakai, barite, graame
+NNP: Proper noun		  e.g. arjun, ahmmad
+NNS: Plural noun	          e.g. manushgulo, pakhider
+NNSH:Noun ending with “sh”	  e.g. barish, jatrish
+VB:  Finite verb	          e.g. kheyechi, krlam, krI
+VBN: Non-finite verb		  e.g. kre, giye, jete, kadte
+ADV: Adverb		  	  e.g. aaste, jore, ovhabe

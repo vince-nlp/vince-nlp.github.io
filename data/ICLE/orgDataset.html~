@@ -1,0 +1,92 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META name="Description" content="Isaac Persing">
+<LINK rel="stylesheet" type="text/css" href="style.css">
+  <title>Essay Organization Dataset</title>
+  <!-- all relative URLs are evaluated using this URL as the base --> <base
+  href="https://www.hlt.utdallas.edu/~persingq/ICLE/"><!-- keywords used by search engines --> 
+      <style type="text/css">
+    a { text-decoration:none }
+  </style> 
+</head>
+<body bgcolor="#ffffff" text="#000000">
+
+
+<h1>Organization Dataset</h1>
+
+<br>
+
+<p>This page is a distribution site of essay data for the task of Essay Organization Scoring.  Data available on this page include annotated organization scores for 1,003 essays from the International Corpus of Learner English (ICLE).</p>
+
+<p>The problem of <i>Essay Organization Scoring</i> for which this dataset is intended was described in:</p>
+
+<ul> <li> <a
+href="https://www.hlt.utdallas.edu/~persingq/">Isaac Persing</a>, Alan Davis, and <a
+href="https://www.hlt.utdallas.edu/~vince/">Vincent Ng</a>, <a
+href="Modeling_emnlp10.pdf">Modeling Organization in Student Essays</a>,
+<i>Proceedings of EMNLP 2010.</i> 
+</ul> 
+
+
+<br>
+
+
+</p><hr>
+<br>
+
+
+<h3><font color="red">Essay Scoring Dataset</font></h3>
+
+
+<ul>
+<li><a href="OrganizationScores.txt">Essay Scores</a> Includes organization scores for 1,003 essays (one per line).  Some essays were annotated by multiple graders.  In these cases, the multiple organization scores are separated by commas.  Note that, though multiple Organization scores are available for most essays, in our experiments, we only used the first Organization score listed for each essay.
+</li>
+</ul>
+
+<br>
+
+<ul>
+<li><a href="EssayFolds.txt">Cross Validation Folds</a> Includes lists of the essays in each of the five folds used for cross validation in the experiments described in Modeling Organization in Student Essays.  
+</li>
+</ul>
+
+<br>
+
+<ul>
+<li><a href="SentenceRules.txt">Sentence</a> and <a href="ParagraphRules.txt">Paragraph</a> labeling heuristics describe the rules used in Modeling Organization in Student Essays for heuristically applying labels to paragraphs and sentences.
+</li>
+</ul>
+
+<br>
+
+<ul>
+<li>Note that we only own the annotations on the ICLE essay dataset.  The essays themselves must be purchased <a href="https://www.i6doc.com/EN/book/?gcoi=28001100825990">here</a>.
+</li>
+</ul>
+
+
+<br>
+</p><hr>
+<br>
+
+The creation of this website is based upon work supported in part by National Science Foundation (NSF) Grant IIS-0812261. Any opinions, findings, and conclusions or
+recommendations expressed above are those of the authors and do not
+necessarily reflect the views of NSF and should 
+not be interpreted as representing the official policies, either expressed 
+or implied, of any sponsoring institution, the U.S. government or any other 
+entity.
+
+<br>
+<br>
+<p>
+If you have any questions or comments regarding this site, please send
+email to <a href="https://www.hlt.utdallas.edu/~persingq/">Isaac Persing</a>.
+
+
+</body></html>
+
+
+
+
+

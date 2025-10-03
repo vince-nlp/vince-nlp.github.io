@@ -1,0 +1,24 @@
+<html><head><title>POS Output Distribution</title></head>
+<body bgcolor="#ffffff" text="#000000">
+
+<h1>Unsupervised Part Of Speech Lexicon Induction Output</h1>
+This page is a distribution site for unsupervised POS lexicon induction output, generated from the system introduced in the following paper: 
+<br>
+<br>
+<a href="EMNLP-07.pdf"> Unsupervised Part-of-Speech Acquisition for Resource-Scarce Languages.</a>
+<br>Sajib Dasgupta and Vincent Ng.
+<br>In the proceedings of the conference on Empirical Methods in Natural Language Processing (EMNLP), Prague, 2007.
+<br>
+<br>
+Please see my thesis for more details:
+<br>
+<a href="Thesis-Sajib.pdf">Toward Language Independent Morphological Segmentation and Part-of-speech Induction</a> 
+<br>
+Advisor: Vincent Ng, University of Texas at Dallas.
+<br>
+<br>
+<font size=4 face="Verdana">
+<b>Select Language:</b>
+<li><a href="POS-Output-Distribution.html">English</a></li>
+<li><a href="POS-Output-Distribution-Bangla.html">Bengali</a></li>
+</font>

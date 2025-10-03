@@ -1,0 +1,47 @@
+#Each group of lines consists of a whole prompt (the first line), and 1-3 additional lines beneath it, one for each prompt component associated with the prompt.  Each prompt component line consists of the lemmatized prompt component, followed by a tab, followed by a space-separated list of lemmatized keywords associated with the prompt component.
+Some people say that in our modern world, dominated by science and technology and industrialisation, there is no longer a place for dreaming and imagination. What is your opinion?
+we modern world dominate by science and technology and industrialisation	dominate science technology industrialisation
+there be no longer a place for dream and imagination	dream imagination
+
+Most University degrees are theoretical and do not prepare us for the real life. Do you agree or disagree?
+most university degree be theoretical	university degree theoretical
+most university degree do not prepare we for real life	university degree prepare real life
+
+In his novel "Animal Farm" George Orwell wrote "All men are equal but some are more equal than others". How true is this today?
+all man be equal but some be more equal than other	more equal
+
+The prison system is outdated. No civilized society should punish its criminals: it should rehabilitate them
+the prison system be outdate	prison outdate
+no civilized society should punish its criminal	punish criminal
+society should rehabilitate they	rehabilitate
+
+Feminists have done more harm to the cause of women than good
+feminist have do more harm to the cause of woman than good	feminist harm good
+
+All armies should consist entirely of professional soldiers: there is no value in a system of military service
+all army should consist entirely of professional soldier	army professional
+there be no value in a system of military service	value military service
+
+Crime does not pay
+crime do not pay	crime pay
+
+Poverty is the cause of the HIV/AIDS epidemic in Africa.
+poverty be the cause of the hiv aids epidemic in Africa	poverty hiv aids
+
+In the words of the old song: "Money is the root of all evil"
+money be the root of all evil	money root evil
+
+Television is the opium of the masses in modern society. Discuss.
+television be the opium of the mass in modern society	television opium
+
+Marx once said that religion was the opium of the masses. If he was alive at the end of the 20th century, he would replace religion with television
+religion be the opium of the mass	religion opium
+television be the opium of the mass	television opium
+
+South African soccer players should be paid more to ensure that they play in South Africa
+south african soccer player should be pay more to ensure that they play in south africa	soccer player pay play
+
+Most university degrees are theoretical and do not prepare students for the real world. They are therefore of very little value
+most university degree be theoretical	university degree theoretical
+most university degree do not prepare student for the real world	university degree prepare real world
+most university degree be of very little value	university degree value

@@ -1,0 +1,48 @@
+3|null@Planetside^1440706118#3in1pt:Aveik$:alt key glitch?
+0|0@Planetside^1440707793#cuhvr21:SpiroAgnewTR$:Assuming this is a software issue, a possible workaround would be installing the Steam version of the client which allows you to Shift-Tab instead of Alt-Tabbing. Obviously installing a whole new client is a pain, but this could serve as a last resort in the event you can't get to the bottom of this.
+0|0@Planetside^1440707871#cuhvsxl:Aveik$:yes i have the steam client unfortunately, ill try to find a workarround and dont worry about another installment, that i usually download at 40mb/s
+1|0@Planetside^1440707917#cuhvu17:SpiroAgnewTR$:Good luck to you sir, sorry about the troll.
+1|0@Planetside^1440708038#cuhvwx3:Aveik$:yeah, its fine eventually theyll grow up
+1|0@Planetside^1440708099#cuhvycm:SpiroAgnewTR$:I admire your faith in humanity.
+1|0@Planetside^1440708167#cuhw00w:Aveik$:: ^ )
+0|0@Planetside^1440707890#cuhvte3:computertechie$:When you press ALT in-game, it releases the mouse lock and blocks most keyboard input. Press it again to return to input mode.
+1|0@Planetside^1440707985#cuhvvmh:shaql$:&gt; (INgame alt function is on right alt)
+0|0@Planetside^1440708023#cuhvwja:Aveik$:exactly what it does, but i need to get rid of this function any more context?
+2|0@Planetside^1440708036#cuhvwv9:dahazeyniinja$:It's an old bug with Razer's software that they [resolved](https://dgcissuetracker.com/browse/PS-826), but has come back in one of the recent patches. The solution is to either disable the statistics/heatmap tracking or close Synapse. 
+2|0@Planetside^1440708104#cuhvygq:BCKrogoth$:DING DING DING. Could've told OP this pretty quick, but he decided to be defensive about his keyboard choice. I also have a BW 2013 and 90% of the time I have an issue its because of their shit software
+0|0@Planetside^1440708398#cuhw5pd:Aveik$:Like the keyboard is really good, but the software is shit
+2|0@Planetside^1440708531#cuhw92s:BCKrogoth$:which is why I asked what keyboard you had. They generally have some kind of software, and Razer's is absolute shit (which since I've had this same exact issue I had figured that's what you had). In the future, don't think people are coming after you because they're asking a pretty basic troubleshooting question. If i hadn't dropped $100+ on it I'd have tossed it in the trash already
+0|0@Planetside^1440708641#cuhwbq5:Aveik$:Indeed yes, but every time i post what gear i have someone says everything is shit which is just annoying should have just said that "yo i had the same problem with razer synapse and bam theres the answer to my problem" :p
+2|0@Planetside^1440708829#cuhwge5:BCKrogoth$:if we're offering advice, calling people autists in an attempt to insult them isn't the best way to get people to help you, either.
+1|0@Planetside^1440708899#cuhwi5l:Aveik$:Sorry i was just really angry and needed fixing
+1|0@Planetside^1440708153#cuhvzom:Aveik$:of this fucking Synapse, i thought with recent patches it fixed all the bugs but this shit appeared, so the solution is to close synapse or it might be razer cortex that shit is annoying! alright thank you my friend
+1|0@Planetside^1440706227#cuhupei:Squiggelz$:Stupid question, is your alt key stuck? Because it sounds stuck.
+0|0@Planetside^1440706269#cuhuqdy:Aveik$:no its not stuck, cleaned keyboard yesterday still happening also its a high quality mechanical keyboard
+1|0@Planetside^1440708249#cuhw1zh:Squiggelz$:Not sure then mate, was worth a suggestion cos some one was asking a similar question about start stop aiming/rezing in the week and his mouse was fucked lol. I ain't got a mechanical keyboard so no input for you there. GL finding a solution, it sounds like a pain in the ass.
+0|0@Planetside^1440708370#cuhw50k:Aveik$:ye all fine found a solution
+2|0@Planetside^1440706437#cuhuuh6:BCKrogoth$:&gt; high quality mechanical keyboard what brand 
+-3|0@Planetside^1440706478#cuhuvi7:Aveik$:not gonna bother telling you the model or brand because you will say its shit anyways
+1|0@Planetside^1440707282#cuhverw:SpiroAgnewTR$:What kinda MX switches does it have? Can you pop off the ALT key and confirm it's working properly and that the Windows Sticky Key feature is disabled?
+1|0@Planetside^1440707616#cuhvmt3:Aveik$:MX Blue switches and yes, popped ALT it is working correctly. Windows sticky key: http://i.imgur.com/bdz1xPo.png (everything disabled, dunno if you understand)
+1|0@Planetside^1440708050#cuhvx77:SpiroAgnewTR$:I can't read that language, is it Polish? Either way, you seem more than competant enough to have already explored the obvious possible problems I have mentioned so far, so it's safe to assume it must be something else.
+1|0@Planetside^1440708081#cuhvxxf:Aveik$:Its Slovakian
+1|0@Planetside^1440708158#cuhvzsj:SpiroAgnewTR$:Oh, sorry.
+2|0@Planetside^1440706535#cuhuwu8:BCKrogoth$:If you're gunna ask for help and shit on people, don't bother asking for help. I've had this exact same issue with a particular brand, which is why I asked. but feel free to be a cunt.
+0|0@Planetside^1440706665#cuhv00f:Aveik$:BlackWidow 2013.... also there are no problems with my keyboard it seems to be some kind of bind
+2|1@Planetside^1440706879#cuhv54n:VSBlock$:There's your problem right there, that's a shit keyboard.... 
+0|0@Planetside^1440707010#cuhv88p:Aveik$:No its not shit, as i said there are no problems with the keyboard, had it since it came out no problems awesome stability really good handling good functions, had this ALT problem year ago and i dunno how i fixed it now iam asking here. this is the reason i didnt want to share the keyboard, because these autists on internet can know everything
+1|0@Planetside^1440707440#cuhvilf:shaql$:don't feed the troll, ignore him. 
+1|0@Planetside^1440707672#cuhvo3w:Aveik$:you can never get a normal answer on the internet without someone shitting on your head
+1|0@Planetside^1440707702#cuhvou4:BCKrogoth$:pot meet kettle
+0|0@Planetside^1440707718#cuhvp8g:Aveik$:ok
+-2|1@Planetside^1440707513#cuhvkda:VSBlock$:Glad you find it works well for you, but seriously, this is the BlackWidow 2013 comparison to other gaming keyboards which have been on the market over the last 2 years http://images.akamai.steamusercontent.com/ugc/543022736890858021/04BE3D54CC9C1209F858E722E15F936BC313ADEE/
+0|0@Planetside^1440707650#cuhvnla:Aveik$:just fk off and eat some more shit
+3|0@Planetside^1440708737#cuhwe2y:VSBlock$:You might want to think about certing into a sense of humour dude, holy shit.
+-1|0@Planetside^1440708833#cuhwgik:Aveik$:you might want to think about paying for some books on how not to be a faggot over internet
+3|0@Planetside^1440709308#cuhwrue:VSBlock$:I'm no expert but I do not believe one's sexuality is found in books. Anyhoo, you obviously have anger issues and probably find enjoyment drowning cats so I'm out.
+1|0@Planetside^1440709409#cuhwu85:[deleted]$:[deleted]
+2|0@Planetside^1440727015#cui6mxr:SanguinaryXII$:I found it funny :( Also, you could find things that could alter your sexuality in books! Information is a wonderful thing!
+0|0@Planetside^1440713647#cuhzgnh:Aveik$:I have no anger issues whatsoever but you have some issues whining about some personal preference of other people on the internet.
+1|0@Planetside^1440707816#cuhvrlp:[deleted]$:[deleted]
+-1|0@Planetside^1440707057#cuhv9cw:[deleted]$:[deleted]
+1|0@Planetside^1440706668#cuhv02g:shaql$:or windows sticky keys? :P

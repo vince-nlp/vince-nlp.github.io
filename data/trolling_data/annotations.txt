@@ -1,0 +1,5005 @@
+3im30u$cuhl3kv$cui2pfc
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuiari6~nekokuroneko': 'CIN2#notrolling'}
+CRES: {'cuiari6~nekokuroneko': 'CRES0#Normal'}
+3g16hk$ctu3wxb$ctu46ka
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctu4bgc~VikingRevenant': 'CIN2#notrolling', 'ctu4a5l~_Relyter_': 'CIN2#notrolling', 'ctu4aou~CALLOFDUTY5EVER': 'CIN2#notrolling'}
+CRES: {'ctu4bgc~VikingRevenant': 'CRES0#Normal', 'ctu4a5l~_Relyter_': 'CRES0#Normal', 'ctu4aou~CALLOFDUTY5EVER': 'CRES4#Troll'}
+3ia7af$cuezqa9$cuf0ci4
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuf0ee7~SetFireToTheRane': 'CIN0#trolling'}
+CRES: {'cuf0ee7~SetFireToTheRane': 'CRES1#Frustrate'}
+3h94s7$cu5j7mj$cu5jewi
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu5mwkd~Nukemarine': 'CIN2#notrolling'}
+CRES: {'cu5mwkd~Nukemarine': 'CRES0#Normal'}
+3hylmc$cubrr6t$cubs22u
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cubsf98~Minxie': 'CIN0#trolling'}
+CRES: {'cubsf98~Minxie': 'CRES2#Neutralize'}
+3hq0q4$cu9qctt$cu9qe1b
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu9qj3u~sjrossman0': 'CIN2#notrolling'}
+CRES: {'cu9qj3u~sjrossman0': 'CRES0#Normal'}
+3figou$ctp2nm9$ctp338i
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctp3eru~Superfuzz_BigMuff': 'CIN0#trolling'}
+CRES: {'ctp3eru~Superfuzz_BigMuff': 'CRES0#Normal'}
+3hcvlv$cu6n6zh$cu6nc1b
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6pjsm~Lagao': 'CIN0#trolling'}
+CRES: {'cu6pjsm~Lagao': 'CRES1#Frustrate'}
+3iqe5g$cujktdw$cujmed0
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cujwfrk~qwertydingdong': 'CIN0#trolling', 'cujqzik~Alikese': 'CIN2#notrolling'}
+CRES: {'cujwfrk~qwertydingdong': 'CRES3#Engage', 'cujqzik~Alikese': 'CRES4#Troll'}
+3i2788$cucrmaf$cucrs5v
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuct0yq~zer0t3ch': 'CIN0#trolling'}
+CRES: {'cuct0yq~zer0t3ch': 'CRES4#Troll'}
+3i4gbn$cudfjip$cudfq8c
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cudiguz~Bluebe123': 'CIN0#trolling'}
+CRES: {'cudiguz~Bluebe123': 'CRES0#Normal'}
+3ic5lh$cuijo68$cuiwgm9
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cukh8es~Justusbraz': 'CIN0#trolling'}
+CRES: {'cukh8es~Justusbraz': 'CRES3#Engage'}
+3hul3p$cub9s8k$cub9xcg
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cubftgx~Increduloud': 'CIN0#trolling'}
+CRES: {'cubftgx~Increduloud': 'CRES3#Engage'}
+3fskk0$ctsjrzm$ctsudoj
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctsv7wz~two_xjs': 'CIN0#trolling'}
+CRES: {'ctsv7wz~two_xjs': 'CRES3#Engage'}
+3hz0wr$cubuvag$cubvvsp
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuc0oi5~deleted': 'CIN2#notrolling'}
+CRES: {'cuc0oi5~deleted': 'CRES0#Normal'}
+3isy6m$cujei1e$cujfbb8
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cujfh2q~SeaDooCanDo': 'CIN2#notrolling'}
+CRES: {'cujfh2q~SeaDooCanDo': 'CRES4#Troll'}
+3h761c$cu519yi$cu5npvq
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu5nu6n~bluntsarebest': 'CIN0#trolling'}
+CRES: {'cu5nu6n~bluntsarebest': 'CRES3#Engage'}
+3htgnc$cuarv2s$cub4zz4
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cub7mps~DryHeatDesigns': 'CIN0#trolling'}
+CRES: {'cub7mps~DryHeatDesigns': 'CRES1#Frustrate'}
+3hwbd4$cub8ahh$cub9a11
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cubj9rx~alexa_488': 'CIN2#notrolling'}
+CRES: {'cubj9rx~alexa_488': 'CRES0#Normal'}
+3hu6j4$cubpc5j$cubppim
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cubpqb4~EwanWhoseArmy': 'CIN0#trolling'}
+CRES: {'cubpqb4~EwanWhoseArmy': 'CRES2#Neutralize'}
+3iij7g$cugwyis$cuh223a
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuhcaev~phrunk': 'CIN2#notrolling', 'cuhbxbn~Madvillain_111': 'CIN2#notrolling', 'cuh7xwd~erelim': 'CIN0#trolling'}
+CRES: {'cuhcaev~phrunk': 'CRES2#Neutralize', 'cuhbxbn~Madvillain_111': 'CRES3#Engage', 'cuh7xwd~erelim': 'CRES4#Troll'}
+3hxtef$cuchbda$cucipda
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cucok00~JohnnyricoMC': 'CIN0#trolling', 'cucnor4~thetaiyaki': 'CIN0#trolling'}
+CRES: {'cucok00~JohnnyricoMC': 'CRES0#Normal', 'cucnor4~thetaiyaki': 'CRES1#Frustrate'}
+3i2swe$cuey0nn$cuf0djg
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuf0qp8~swegen9': 'CIN0#trolling'}
+CRES: {'cuf0qp8~swegen9': 'CRES4#Troll'}
+3ipmhd$cuja5zn$cujadh5
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cujao82~Cheesuschessus64': 'CIN0#trolling'}
+CRES: {'cujao82~Cheesuschessus64': 'CRES3#Engage'}
+3hl2dw$cu8uuol$cu8v2ll
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cu8vf5n~takereasygreasy': 'CIN1#playing'}
+CRES: {'cu8vf5n~takereasygreasy': 'CRES5#Follow'}
+3g8op5$ctw6eri$ctw6ivx
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctwav2t~gahyoujerk': 'CIN2#notrolling', 'ctw6phz~FullMetalGemling': 'CIN0#trolling'}
+CRES: {'ctwav2t~gahyoujerk': 'CRES0#Normal', 'ctw6phz~FullMetalGemling': 'CRES4#Troll'}
+3fqlno$ctrdojo$ctre09u
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctrhpew~Tenaciousceeee': 'CIN0#trolling'}
+CRES: {'ctrhpew~Tenaciousceeee': 'CRES3#Engage'}
+3hnj47$3hnj47$cu97ges
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu97n2y~deleted': 'CIN2#notrolling'}
+CRES: {'cu97n2y~deleted': 'CRES4#Troll'}
+3ie5xe$cugqccq$cugttm2
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cugu0ih~trenchdota': 'CIN1#playing'}
+CRES: {'cugu0ih~trenchdota': 'CRES1#Frustrate'}
+3fw5wk$ctshi80$ctshjvy
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctshksy~sandvichnyet': 'CIN0#trolling'}
+CRES: {'ctshksy~sandvichnyet': 'CRES3#Engage'}
+3ig8ll$cug9agr$cugcp1m
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cugct7n~YOUARESODUMBFOREAL': 'CIN0#trolling'}
+CRES: {'cugct7n~YOUARESODUMBFOREAL': 'CRES4#Troll'}
+3hadwi$cu5qzzu$cu5ruem
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu60bcb~mindbleach': 'CIN2#notrolling'}
+CRES: {'cu60bcb~mindbleach': 'CRES0#Normal'}
+3igq6t$cugarv0$cugb695
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cugbdmj~grundissimo': 'CIN0#trolling', 'cugbd6z~wubbalubbadubbbdubbs': 'CIN0#trolling'}
+CRES: {'cugbdmj~grundissimo': 'CRES1#Frustrate', 'cugbd6z~wubbalubbadubbbdubbs': 'CRES0#Normal'}
+3hl0vx$cu8fn4z$cu8gpwb
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu8iy5f~HighlyAnalytical': 'CIN0#trolling'}
+CRES: {'cu8iy5f~HighlyAnalytical': 'CRES1#Frustrate'}
+3fir3p$ctp9wq5$ctpbcs9
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctpbvez~Xaxxon': 'CIN2#notrolling', 'ctpep24~KarsaOrlong42': 'CIN2#notrolling'}
+CRES: {'ctpbvez~Xaxxon': 'CRES0#Normal', 'ctpep24~KarsaOrlong42': 'CRES0#Normal'}
+3hhwg3$cu7sbee$cu85jex
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu87yso~_my_troll_account': 'CIN2#notrolling'}
+CRES: {'cu87yso~_my_troll_account': 'CRES0#Normal'}
+3gmpfn$ctzib1y$ctzj7mb
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctzk6wy~rg44_at_the_office': 'CIN2#notrolling'}
+CRES: {'ctzk6wy~rg44_at_the_office': 'CRES4#Troll'}
+3i231g$3i231g$cucmulj
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cucn2hm~Bunnygagajessica': 'CIN0#trolling'}
+CRES: {'cucn2hm~Bunnygagajessica': 'CRES4#Troll'}
+3h42ct$cu461p6$cu47t4s
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu4rney~Doffarlino': 'CIN2#notrolling'}
+CRES: {'cu4rney~Doffarlino': 'CRES4#Troll'}
+3g9vf4$ctwlpva$ctwno81
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctwnttj~DataLoreThrowaway': 'CIN0#trolling'}
+CRES: {'ctwnttj~DataLoreThrowaway': 'CRES3#Engage'}
+3i3s9l$cud2gyr$cudlyn9
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuds6pa~ckn': 'CIN0#trolling'}
+CRES: {'cuds6pa~ckn': 'CRES1#Frustrate'}
+3fpqyu$ctqv471$ctqv7ps
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctqvbd9~Johndamon77': 'CIN0#trolling'}
+CRES: {'ctqvbd9~Johndamon77': 'CRES3#Engage'}
+3gi3tn$ctydvdb$ctydzy4
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctye85m~STrain67': 'CIN0#trolling'}
+CRES: {'ctye85m~STrain67': 'CRES2#Neutralize'}
+3i3p9p$cud50x6$cud5d3c
+CON: ['CON1:hidden']
+AIN: ['AIN1#playing']
+CIN: {'cud5o44~CloudFo': 'CIN2#notrolling', 'cud5ede~Laz_The_Kid': 'CIN0#trolling'}
+CRES: {'cud5o44~CloudFo': 'CRES5#Follow', 'cud5ede~Laz_The_Kid': 'CRES4#Troll'}
+3hyxhv$cud42yc$cuds19y
+CON: ['CON1:hidden']
+AIN: ['AIN1#playing']
+CIN: {'cudsbco~blakeleywood': 'CIN0#trolling'}
+CRES: {'cudsbco~blakeleywood': 'CRES6#Praise'}
+3gb3rd$ctx31zw$ctx3qbc
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctxulbf~feelz_goodman': 'CIN2#notrolling'}
+CRES: {'ctxulbf~feelz_goodman': 'CRES4#Troll'}
+3geedw$ctxl7vz$ctxl9xj
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctxlgjn~CheezyAss': 'CIN2#notrolling', 'ctxpiwl~willesuger': 'CIN2#notrolling'}
+CRES: {'ctxlgjn~CheezyAss': 'CRES3#Engage', 'ctxpiwl~willesuger': 'CRES0#Normal'}
+3firow$ctr7d80$ctr9qr9
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctrgwpk~Voxar': 'CIN0#trolling'}
+CRES: {'ctrgwpk~Voxar': 'CRES3#Engage'}
+3ftx4u$ctrxol9$ctrxsog
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctry0n3~FadedGenes': 'CIN0#trolling'}
+CRES: {'ctry0n3~FadedGenes': 'CRES2#Neutralize'}
+3fdqlv$ctpfjxj$ctpfqhv
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctpg02u~ElitePoogie': 'CIN0#trolling'}
+CRES: {'ctpg02u~ElitePoogie': 'CRES3#Engage'}
+3hly1n$cu8hob7$cu8nn20
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu8p77h~2busy2blizzy': 'CIN2#notrolling'}
+CRES: {'cu8p77h~2busy2blizzy': 'CRES0#Normal'}
+3isd4b$cujddrw$cujdkrt
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cuje3wo~antisocialmogul': 'CIN0#trolling'}
+CRES: {'cuje3wo~antisocialmogul': 'CRES3#Engage'}
+3i5dv8$cudl9ww$cudlj4t
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cudloc8~devilwaif': 'CIN0#trolling'}
+CRES: {'cudloc8~devilwaif': 'CRES2#Neutralize'}
+3hcbg8$cu64vcj$cu6bykr
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cu6crs1~CaptainHayashi': 'CIN0#trolling'}
+CRES: {'cu6crs1~CaptainHayashi': 'CRES3#Engage'}
+3hwlq5$cuccn8i$cucdsce
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cucf6nw~mflbninja': 'CIN0#trolling'}
+CRES: {'cucf6nw~mflbninja': 'CRES3#Engage'}
+3fwiy0$ctso6mx$ctso8oi
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctsoou7~lukeestudios': 'CIN0#trolling'}
+CRES: {'ctsoou7~lukeestudios': 'CRES2#Neutralize'}
+3fstf5$3fstf5$ctrqfru
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctrsue9~ElitePoogie': 'CIN0#trolling'}
+CRES: {'ctrsue9~ElitePoogie': 'CRES4#Troll'}
+3igv78$cuh6j07$cuh7m6l
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuh8tgz~SignalHillSoldier': 'CIN0#trolling', 'cuhaimw~booofedoof': 'CIN0#trolling'}
+CRES: {'cuh8tgz~SignalHillSoldier': 'CRES4#Troll', 'cuhaimw~booofedoof': 'CRES1#Frustrate'}
+3g8t1r$ctw001b$ctw0tvt
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctw1s7x~f8trix': 'CIN0#trolling'}
+CRES: {'ctw1s7x~f8trix': 'CRES3#Engage'}
+3g4en1$ctv1o8f$ctvarjd
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'ctvc4ze~eighteenth': 'CIN0#trolling'}
+CRES: {'ctvc4ze~eighteenth': 'CRES1#Frustrate'}
+3fh9va$3fh9va$ctoozv8
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctoybgd~aalewisrebooted': 'CIN2#notrolling', 'ctopvoh~saviouroftheweak': 'CIN2#notrolling'}
+CRES: {'ctoybgd~aalewisrebooted': 'CRES0#Normal', 'ctopvoh~saviouroftheweak': 'CRES0#Normal'}
+3hj1ty$cu9w0tl$cu9xnxd
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cua02jz~Bwhippped': 'CIN0#trolling'}
+CRES: {'cua02jz~Bwhippped': 'CRES4#Troll'}
+3gd5tf$ctx3tlg$ctx4eiq
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctx4zdu~sleazyweaselneedles': 'CIN2#notrolling', 'ctx5chl~EdgeoftheOcean': 'CIN0#trolling'}
+CRES: {'ctx4zdu~sleazyweaselneedles': 'CRES3#Engage', 'ctx5chl~EdgeoftheOcean': 'CRES1#Frustrate'}
+3fplob$ctqszs3$ctqtaf9
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctqtlxr~deleted': 'CIN0#trolling', 'ctqwgr8~xXxXx_69sw4g20_xXxXx': 'CIN2#notrolling'}
+CRES: {'ctqtlxr~deleted': 'CRES4#Troll', 'ctqwgr8~xXxXx_69sw4g20_xXxXx': 'CRES0#Normal'}
+3itirt$cukxss1$cuky5e7
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cul1avr~Thereg123': 'CIN0#trolling'}
+CRES: {'cul1avr~Thereg123': 'CRES3#Engage'}
+3gd3m1$ctxbgix$ctxc995
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctxfjyu~caboosemyhero': 'CIN0#trolling'}
+CRES: {'ctxfjyu~caboosemyhero': 'CRES0#Normal'}
+3i2ws0$3i2ws0$cud3vq3
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cud4yz1~ChendarSC': 'CIN1#playing'}
+CRES: {'cud4yz1~ChendarSC': 'CRES1#Frustrate'}
+3g63o9$ctvd8vp$ctvdevw
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctvj0l3~cablemonster456': 'CIN2#notrolling', 'ctvexvw~dubs2112': 'CIN2#notrolling', 'ctvp8lo~hedic': 'CIN2#notrolling'}
+CRES: {'ctvj0l3~cablemonster456': 'CRES4#Troll', 'ctvexvw~dubs2112': 'CRES0#Normal', 'ctvp8lo~hedic': 'CRES4#Troll'}
+3i3a5i$cud1kmi$cud1pf3
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cud1s7a~Scottwilson07': 'CIN0#trolling'}
+CRES: {'cud1s7a~Scottwilson07': 'CRES1#Frustrate'}
+3hnk6l$cu9a8js$cu9acry
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu9aegx~gravler11': 'CIN2#notrolling'}
+CRES: {'cu9aegx~gravler11': 'CRES0#Normal'}
+3gec5z$ctxs4eh$ctxt99o
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctxtbwk~Silvester_': 'CIN0#trolling'}
+CRES: {'ctxtbwk~Silvester_': 'CRES1#Frustrate'}
+3hh3v3$cu7gfmy$cu7gwmj
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cu7hpqr~WhoAteMyPizza': 'CIN0#trolling', 'cu7gz7s~thisisATHENS': 'CIN0#trolling'}
+CRES: {'cu7hpqr~WhoAteMyPizza': 'CRES1#Frustrate', 'cu7gz7s~thisisATHENS': 'CRES3#Engage'}
+3hq1q4$cu9l4mb$cu9oq4w
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu9ozhu~advice_animorph': 'CIN1#playing', 'cu9r47j~Shadow6ix': 'CIN2#notrolling'}
+CRES: {'cu9ozhu~advice_animorph': 'CRES3#Engage', 'cu9r47j~Shadow6ix': 'CRES1#Frustrate'}
+3ihgf7$cugs6eh$cugsgkf
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cugsrhc~clangerhammer': 'CIN0#trolling'}
+CRES: {'cugsrhc~clangerhammer': 'CRES4#Troll'}
+3fxp47$cttjyor$cttoovl
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cttsge2~LexLugerChantSample': 'CIN0#trolling'}
+CRES: {'cttsge2~LexLugerChantSample': 'CRES3#Engage'}
+3g6qth$ctvdy7g$ctvdzch
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctve85i~FloraHyalina': 'CIN0#trolling'}
+CRES: {'ctve85i~FloraHyalina': 'CRES6#Praise'}
+3irk0n$cujdsn5$cujdu8f
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cujf0lz~lepigpen': 'CIN0#trolling'}
+CRES: {'cujf0lz~lepigpen': 'CRES1#Frustrate'}
+3iy94u$cul53xq$cul59vk
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cul5dr6~prxncetxn': 'CIN2#notrolling'}
+CRES: {'cul5dr6~prxncetxn': 'CRES4#Troll'}
+3im4kk$cuhlb72$cuhp05u
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuhp0m8~abdada': 'CIN2#notrolling'}
+CRES: {'cuhp0m8~abdada': 'CRES4#Troll'}
+3ihc2y$cugzjif$cuh0dea
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuh1zpn~sasnfbi1234': 'CIN0#trolling', 'cuh1zp9~sasnfbi1234': 'CIN0#trolling'}
+CRES: {'cuh1zpn~sasnfbi1234': 'CRES4#Troll', 'cuh1zp9~sasnfbi1234': 'CRES4#Troll'}
+3hcixw$cu8t7cw$cu9ivv2
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu9od9a~JustZisGuy': 'CIN0#trolling'}
+CRES: {'cu9od9a~JustZisGuy': 'CRES1#Frustrate'}
+3g2gsb$3g2gsb$ctuhb1x
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctuilfc~TheGreatTerror': 'CIN2#notrolling'}
+CRES: {'ctuilfc~TheGreatTerror': 'CRES4#Troll'}
+3g5w4o$ctvo068$ctvpnu7
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctvqsvy~rusemean': 'CIN2#notrolling', 'ctvqq7v~Isiwjee': 'CIN2#notrolling', 'ctvpw59~anarchyseeds': 'CIN2#notrolling'}
+CRES: {'ctvqsvy~rusemean': 'CRES0#Normal', 'ctvqq7v~Isiwjee': 'CRES0#Normal', 'ctvpw59~anarchyseeds': 'CRES4#Troll'}
+3hq454$cua8xlf$cua9bwt
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuaa1py~Luvsmah': 'CIN0#trolling'}
+CRES: {'cuaa1py~Luvsmah': 'CRES1#Frustrate'}
+3hbuxd$cu67671$cu67jae
+CON: ['CON1:hidden']
+AIN: ['AIN2#notrolling']
+CIN: {'cu67lll~Vivillontrainer': 'CIN0#trolling'}
+CRES: {'cu67lll~Vivillontrainer': 'CRES3#Engage'}
+3hkqha$cu869ys$cu86epv
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu86j6z~Cybiu5': 'CIN2#notrolling', 'cu88bto~lolatthecavs': 'CIN2#notrolling', 'cu87u2u~alt_as_frak': 'CIN0#trolling'}
+CRES: {'cu86j6z~Cybiu5': 'CRES0#Normal', 'cu88bto~lolatthecavs': 'CRES0#Normal', 'cu87u2u~alt_as_frak': 'CRES2#Neutralize'}
+3hg9o6$cu8y63j$cu8z7lu
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu8ztwl~franklin_stubbs': 'CIN0#trolling'}
+CRES: {'cu8ztwl~franklin_stubbs': 'CRES1#Frustrate'}
+3hlgra$cu8qkqz$cu8tou4
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu8u95h~quantum_darkness': 'CIN0#trolling'}
+CRES: {'cu8u95h~quantum_darkness': 'CRES3#Engage'}
+3hyz96$cuccds1$cucv48d
+CON: ['CON1:hidden']
+AIN: ['AIN1#playing']
+CIN: {'cucv840~Jess_than_three': 'CIN0#trolling', 'cucwuqw~zxDanKwan': 'CIN1#playing'}
+CRES: {'cucv840~Jess_than_three': 'CRES3#Engage', 'cucwuqw~zxDanKwan': 'CRES5#Follow'}
+3g1xsu$cturdvw$ctusmf3
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctuty5m~butterlog': 'CIN0#trolling'}
+CRES: {'ctuty5m~butterlog': 'CRES1#Frustrate'}
+3g980d$ctwgo11$ctwhpdi
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctwi3js~___AirWick___': 'CIN0#trolling'}
+CRES: {'ctwi3js~___AirWick___': 'CRES3#Engage'}
+3i43sc$cud8gnk$cudaf3u
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cudbz0m~I_am_a_asshole': 'CIN2#notrolling', 'cudcx0r~Shniggles': 'CIN0#trolling', 'cudc7jg~TheRealVilladelfia': 'CIN0#trolling'}
+CRES: {'cudbz0m~I_am_a_asshole': 'CRES4#Troll', 'cudcx0r~Shniggles': 'CRES0#Normal', 'cudc7jg~TheRealVilladelfia': 'CRES0#Normal'}
+3hcfej$cu655pp$cu6n4e3
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6oi44~Doodobirdie': 'CIN1#playing'}
+CRES: {'cu6oi44~Doodobirdie': 'CRES1#Frustrate'}
+3hdprz$cu6iqpz$cu6t540
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cu7k20u~pandorarosie': 'CIN0#trolling'}
+CRES: {'cu7k20u~pandorarosie': 'CRES2#Neutralize'}
+3g70g6$ctw8d20$ctw8eq1
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctw8kpj~egs1928': 'CIN0#trolling'}
+CRES: {'ctw8kpj~egs1928': 'CRES3#Engage'}
+3hgrfk$cu80ney$cu8i5lk
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu98hc0~heckur': 'CIN2#notrolling'}
+CRES: {'cu98hc0~heckur': 'CRES0#Normal'}
+3h56dc$cu4bfvu$cu4cz94
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu4dcyx~DualSpirals': 'CIN0#trolling'}
+CRES: {'cu4dcyx~DualSpirals': 'CRES2#Neutralize'}
+3hbbvy$cu60ho2$cu62ooz
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu8mcrg~Renegade__': 'CIN2#notrolling'}
+CRES: {'cu8mcrg~Renegade__': 'CRES0#Normal'}
+3gd2dv$ctxrcya$ctxv6zu
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctyx54f~BVKrustev': 'CIN2#notrolling', 'cty136r~Aristotle29': 'CIN2#notrolling'}
+CRES: {'ctyx54f~BVKrustev': 'CRES4#Troll', 'cty136r~Aristotle29': 'CRES0#Normal'}
+3ffb31$ctofvvm$ctog5am
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctogel4~SergeantTibbs': 'CIN0#trolling', 'ctoicfk~whitecrane': 'CIN2#notrolling'}
+CRES: {'ctogel4~SergeantTibbs': 'CRES2#Neutralize', 'ctoicfk~whitecrane': 'CRES0#Normal'}
+3imq1l$cuhshdb$cuhv0lq
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuhv5uf~nigsbenoggin': 'CIN2#notrolling'}
+CRES: {'cuhv5uf~nigsbenoggin': 'CRES4#Troll'}
+3fwe9q$ctt3jf4$ctt3r52
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctt3un5~Andy1_1': 'CIN0#trolling'}
+CRES: {'ctt3un5~Andy1_1': 'CRES3#Engage'}
+3hdbtl$cu6qif0$cu6qvta
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6qyum~UBC_Whisperer': 'CIN0#trolling'}
+CRES: {'cu6qyum~UBC_Whisperer': 'CRES1#Frustrate'}
+3ifd6a$cufxg3z$cufxhok
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cufxj6q~Late_Night_Grumbler': 'CIN0#trolling'}
+CRES: {'cufxj6q~Late_Night_Grumbler': 'CRES4#Troll'}
+3ilyvn$cuhwj1v$cuhxq8p
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuibk20~MidEastBeast777': 'CIN0#trolling', 'cui5xjj~geosmin': 'CIN0#trolling'}
+CRES: {'cuibk20~MidEastBeast777': 'CRES4#Troll', 'cui5xjj~geosmin': 'CRES4#Troll'}
+3hacdk$cu5nxwb$cu5olr0
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu5r867~lonelyspirit': 'CIN0#trolling'}
+CRES: {'cu5r867~lonelyspirit': 'CRES2#Neutralize'}
+3ir3ny$3ir3ny$cuixqy2
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cujeiqx~tkama': 'CIN2#notrolling', 'cuj49c8~ChandyC': 'CIN2#notrolling'}
+CRES: {'cujeiqx~tkama': 'CRES0#Normal', 'cuj49c8~ChandyC': 'CRES4#Troll'}
+3hrtv9$cua6aes$cua7p12
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cua7w0q~KurtCobanus': 'CIN2#notrolling'}
+CRES: {'cua7w0q~KurtCobanus': 'CRES4#Troll'}
+3h98fm$cu5jg5o$cu5k62u
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu5l5z4~GGDisposable': 'CIN0#trolling'}
+CRES: {'cu5l5z4~GGDisposable': 'CRES5#Follow'}
+3itxdn$cujqm3k$cujr6cr
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cujrglj~PhreakedCanuck': 'CIN2#notrolling'}
+CRES: {'cujrglj~PhreakedCanuck': 'CRES0#Normal'}
+3iq8et$cuiqvso$cuir4j4
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuirda6~Juscuz': 'CIN2#notrolling', 'cuirrst~katf1sh': 'CIN0#trolling'}
+CRES: {'cuirda6~Juscuz': 'CRES0#Normal', 'cuirrst~katf1sh': 'CRES4#Troll'}
+3hg2eq$cu71h13$cu77f86
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu77onk~Sardonnicus': 'CIN2#notrolling'}
+CRES: {'cu77onk~Sardonnicus': 'CRES4#Troll'}
+3i4psq$cudlqk2$cudm84p
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuecsbn~AlcoholicJesus': 'CIN0#trolling', 'cudmdbv~deleted': 'CIN0#trolling'}
+CRES: {'cuecsbn~AlcoholicJesus': 'CRES0#Normal', 'cudmdbv~deleted': 'CRES4#Troll'}
+3hrtqc$cua8khz$cua8oun
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cua8vn4~suvoyager': 'CIN1#playing'}
+CRES: {'cua8vn4~suvoyager': 'CRES0#Normal'}
+3gkb0b$ctyzzma$ctz2x50
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctz3l56~pelka01': 'CIN0#trolling'}
+CRES: {'ctz3l56~pelka01': 'CRES3#Engage'}
+3hyj3m$cucd0v7$cucd8j7
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cucdako~fkthisusernameshit': 'CIN0#trolling'}
+CRES: {'cucdako~fkthisusernameshit': 'CRES4#Troll'}
+3heg4h$cu6q4da$cu7ja0j
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu7tbcn~thedz': 'CIN2#notrolling'}
+CRES: {'cu7tbcn~thedz': 'CRES4#Troll'}
+3hucw2$cuamaml$cub3dse
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cubbbqv~gnarlee4life': 'CIN0#trolling', 'cub3rag~somnodoc': 'CIN2#notrolling'}
+CRES: {'cubbbqv~gnarlee4life': 'CRES1#Frustrate', 'cub3rag~somnodoc': 'CRES0#Normal'}
+3haxm9$cu5vcpm$cu5vksb
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu5vq5y~DarkSkyz': 'CIN0#trolling'}
+CRES: {'cu5vq5y~DarkSkyz': 'CRES2#Neutralize'}
+3hin0s$cu8kkbo$cu8sqi8
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu8yllv~mnfigjam': 'CIN2#notrolling'}
+CRES: {'cu8yllv~mnfigjam': 'CRES0#Normal'}
+3htab8$cuaxn4i$cugkfj6
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cugnd8r~PuffmaisMachtFrei': 'CIN0#trolling'}
+CRES: {'cugnd8r~PuffmaisMachtFrei': 'CRES4#Troll'}
+3hs1kw$cua71zp$cua74e9
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cua7fc6~oasis948151': 'CIN2#notrolling'}
+CRES: {'cua7fc6~oasis948151': 'CRES0#Normal'}
+3iad6f$cugmcqk$cugmx9x
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cugofko~LOST_TALE': 'CIN0#trolling'}
+CRES: {'cugofko~LOST_TALE': 'CRES1#Frustrate'}
+3hrw8d$cub3k2s$cub3toz
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cub4d9p~LinesWithRobFord': 'CIN0#trolling'}
+CRES: {'cub4d9p~LinesWithRobFord': 'CRES3#Engage'}
+3fwtt4$ctsnxf4$ctwa98v
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctwviip~boldbird': 'CIN0#trolling'}
+CRES: {'ctwviip~boldbird': 'CRES6#Praise'}
+3ioyfj$3ioyfj$cuicnl1
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuicrzh~godfuckingdarnit': 'CIN0#trolling'}
+CRES: {'cuicrzh~godfuckingdarnit': 'CRES1#Frustrate'}
+3i06kc$cuc8nap$cuc8re0
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cucdpji~Spideraphobia': 'CIN2#notrolling', 'cuctjca~Qbopper': 'CIN2#notrolling', 'cuc922l~ThatOldSchooler': 'CIN0#trolling'}
+CRES: {'cucdpji~Spideraphobia': 'CRES0#Normal', 'cuctjca~Qbopper': 'CRES0#Normal', 'cuc922l~ThatOldSchooler': 'CRES2#Neutralize'}
+3fq147$ctrq0ls$ctrr3r4
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctrrqxv~Hermit_Lailoken': 'CIN0#trolling'}
+CRES: {'ctrrqxv~Hermit_Lailoken': 'CRES1#Frustrate'}
+3gavn8$ctwnhge$ctwnk4a
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctwnpz3~jlu10': 'CIN2#notrolling', 'cu1hkx7~SingularMimms': 'CIN2#notrolling', 'ctwtzr7~LAVA_ENEMA': 'CIN2#notrolling'}
+CRES: {'ctwnpz3~jlu10': 'CRES0#Normal', 'cu1hkx7~SingularMimms': 'CRES0#Normal', 'ctwtzr7~LAVA_ENEMA': 'CRES4#Troll'}
+3hgi2g$cu7fswg$cu7hzlh
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu7mhx6~Aris_Throttle': 'CIN2#notrolling', 'cu7jt1e~oasfox': 'CIN2#notrolling'}
+CRES: {'cu7mhx6~Aris_Throttle': 'CRES0#Normal', 'cu7jt1e~oasfox': 'CRES4#Troll'}
+3hq0xp$cua3vnc$cua410g
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cua5a52~OldW0rldBlues': 'CIN0#trolling', 'cua4u9p~Whitey_Knightey': 'CIN0#trolling'}
+CRES: {'cua5a52~OldW0rldBlues': 'CRES4#Troll', 'cua4u9p~Whitey_Knightey': 'CRES4#Troll'}
+3hqhb5$cu9mfd6$cu9mhe0
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu9mk7r~witchydoll': 'CIN2#notrolling'}
+CRES: {'cu9mk7r~witchydoll': 'CRES0#Normal'}
+3h37hj$cu3tv26$cu3twxy
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cu3udqb~PooDiePie': 'CIN0#trolling'}
+CRES: {'cu3udqb~PooDiePie': 'CRES1#Frustrate'}
+3h72sl$cu5jjoo$cu65ykd
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu68dhu~RedditorInCh1ef': 'CIN2#notrolling'}
+CRES: {'cu68dhu~RedditorInCh1ef': 'CRES0#Normal'}
+3hptkz$cu9tlpf$cu9tqcj
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu9ttqu~Kataquan': 'CIN0#trolling'}
+CRES: {'cu9ttqu~Kataquan': 'CRES2#Neutralize'}
+3gox2x$cu03vnz$cu07lnu
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu07qpa~Knotknewtooreaddit': 'CIN0#trolling'}
+CRES: {'cu07qpa~Knotknewtooreaddit': 'CRES1#Frustrate'}
+3g1t59$ctu4vgy$ctu4xb9
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctu5e12~NotsopeculiaR': 'CIN2#notrolling', 'ctu52z5~CaveDweller12': 'CIN2#notrolling'}
+CRES: {'ctu5e12~NotsopeculiaR': 'CRES0#Normal', 'ctu52z5~CaveDweller12': 'CRES4#Troll'}
+3iol74$3iol74$cuj4qcn
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cuj61gs~HypnoToadHarvester': 'CIN1#playing'}
+CRES: {'cuj61gs~HypnoToadHarvester': 'CRES6#Praise'}
+3hk2c1$cu82h3o$cu8snyr
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu8srlu~SCf3': 'CIN0#trolling'}
+CRES: {'cu8srlu~SCf3': 'CRES2#Neutralize'}
+3gcnv4$ctwy14e$ctwymkq
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'ctx0ofz~strallweat': 'CIN0#trolling', 'ctwzoiu~schwertfeger': 'CIN0#trolling', 'ctwyvjg~gt14199': 'CIN1#playing'}
+CRES: {'ctx0ofz~strallweat': 'CRES4#Troll', 'ctwzoiu~schwertfeger': 'CRES4#Troll', 'ctwyvjg~gt14199': 'CRES1#Frustrate'}
+3fu1dk$ctry5pp$ctry780
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'ctry8hg~Nillix': 'CIN0#trolling', 'ctry8ku~sehrah': 'CIN1#playing'}
+CRES: {'ctry8hg~Nillix': 'CRES1#Frustrate', 'ctry8ku~sehrah': 'CRES1#Frustrate'}
+3idu1g$cufqhju$cufuifj
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cug32qn~Das_bitcoin': 'CIN0#trolling'}
+CRES: {'cug32qn~Das_bitcoin': 'CRES2#Neutralize'}
+3hx3tf$cubzilq$cubzkpc
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cubzmii~finnishdude101': 'CIN2#notrolling'}
+CRES: {'cubzmii~finnishdude101': 'CRES4#Troll'}
+3flyg8$ctq6okd$ctq6pm9
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctq6tns~Vawnn': 'CIN0#trolling'}
+CRES: {'ctq6tns~Vawnn': 'CRES3#Engage'}
+3fvldd$ctsc709$ctsd5z0
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctsdl8v~Vaiist': 'CIN2#notrolling'}
+CRES: {'ctsdl8v~Vaiist': 'CRES0#Normal'}
+3hq40i$cub6108$cub658d
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cub6dff~seycyrus': 'CIN2#notrolling'}
+CRES: {'cub6dff~seycyrus': 'CRES4#Troll'}
+3i86hs$cue9mvz$cueavay
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cueaxlf~Sekruez': 'CIN2#notrolling'}
+CRES: {'cueaxlf~Sekruez': 'CRES0#Normal'}
+3irjw0$cuizulz$cuizvfj
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuizx9o~TradeWithMePls': 'CIN2#notrolling'}
+CRES: {'cuizx9o~TradeWithMePls': 'CRES3#Engage'}
+3ia3pe$cuf2jjk$cuf88ft
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuf8otz~rmarti78': 'CIN0#trolling'}
+CRES: {'cuf8otz~rmarti78': 'CRES4#Troll'}
+3fpru3$ctr8buh$ctr947q
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctr9dwy~thieflar': 'CIN2#notrolling'}
+CRES: {'ctr9dwy~thieflar': 'CRES0#Normal'}
+3istgr$cujvhzw$cuk1hkm
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuk2pa0~swinny89': 'CIN2#notrolling'}
+CRES: {'cuk2pa0~swinny89': 'CRES4#Troll'}
+3fh4jx$ctokg03$ctom3ue
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctow9m7~steelkin': 'CIN0#trolling'}
+CRES: {'ctow9m7~steelkin': 'CRES1#Frustrate'}
+3hqvbq$cu9qio0$cu9tfjt
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu9tjpy~Super_Nerd92': 'CIN2#notrolling'}
+CRES: {'cu9tjpy~Super_Nerd92': 'CRES0#Normal'}
+3fz2yu$cttj9md$ctu0yin
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctu15jl~Break_My_Mind': 'CIN0#trolling'}
+CRES: {'ctu15jl~Break_My_Mind': 'CRES1#Frustrate'}
+3iasss$cufp7m3$cufpm63
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cufpohr~MrKeemstar': 'CIN2#notrolling'}
+CRES: {'cufpohr~MrKeemstar': 'CRES4#Troll'}
+3fpoei$cts93mq$ctsa8li
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctsav9p~bondobert': 'CIN0#trolling'}
+CRES: {'ctsav9p~bondobert': 'CRES3#Engage'}
+3hb1yq$cu64m25$cu651dx
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6628a~FOR_PRUSSIA': 'CIN2#notrolling'}
+CRES: {'cu6628a~FOR_PRUSSIA': 'CRES4#Troll'}
+3ivi4j$cuk8qpf$cukaqba
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cukauao~Zocom': 'CIN2#notrolling'}
+CRES: {'cukauao~Zocom': 'CRES0#Normal'}
+3h35i1$cu4c8ik$cu4g96k
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu4h305~glassuser': 'CIN0#trolling'}
+CRES: {'cu4h305~glassuser': 'CRES2#Neutralize'}
+3fo7k5$ctqev5x$ctqf1ah
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctqf7th~WolftheLionheart': 'CIN2#notrolling'}
+CRES: {'ctqf7th~WolftheLionheart': 'CRES4#Troll'}
+3g9q13$ctw4xuf$ctw51tc
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctw53mb~halolord_liam': 'CIN2#notrolling', 'ctw52ab~Pepsiisgood1997': 'CIN0#trolling'}
+CRES: {'ctw53mb~halolord_liam': 'CRES3#Engage', 'ctw52ab~Pepsiisgood1997': 'CRES1#Frustrate'}
+3ipu0f$cuins2q$cuiq4aj
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuj1a2v~DtownBoogiette': 'CIN2#notrolling', 'cuiu9j9~Harum_Scarums': 'CIN0#trolling'}
+CRES: {'cuj1a2v~DtownBoogiette': 'CRES0#Normal', 'cuiu9j9~Harum_Scarums': 'CRES1#Frustrate'}
+3hmkvg$3hmkvg$cu8olyw
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu8prku~RastaCook': 'CIN0#trolling', 'cua1ubx~DocPantsOnHead': 'CIN0#trolling'}
+CRES: {'cu8prku~RastaCook': 'CRES3#Engage', 'cua1ubx~DocPantsOnHead': 'CRES5#Follow'}
+3fecbx$cto2nl1$cto7wzo
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctonsdk~TheSwolerBear': 'CIN2#notrolling'}
+CRES: {'ctonsdk~TheSwolerBear': 'CRES4#Troll'}
+3i8h8y$cuf44ti$cuf4hj0
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuf4l6t~HipsterDoofus31': 'CIN0#trolling'}
+CRES: {'cuf4l6t~HipsterDoofus31': 'CRES1#Frustrate'}
+3fqp1c$ctr72kd$ctrdn7q
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctw00jw~Hi_im_jesus_': 'CIN0#trolling'}
+CRES: {'ctw00jw~Hi_im_jesus_': 'CRES1#Frustrate'}
+3irf0n$cujx2cy$cujx8em
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cujxrou~aedansblade36': 'CIN0#trolling'}
+CRES: {'cujxrou~aedansblade36': 'CRES5#Follow'}
+3hfuuf$cu73udu$cu7erce
+CON: ['CON1:hidden']
+AIN: ['AIN1#playing']
+CIN: {'cu7etjv~AthiestCowboy': 'CIN0#trolling'}
+CRES: {'cu7etjv~AthiestCowboy': 'CRES2#Neutralize'}
+3immcs$cuhw7g9$cui5juk
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cui6vv8~deleted': 'CIN0#trolling'}
+CRES: {'cui6vv8~deleted': 'CRES1#Frustrate'}
+3i81u7$cuei1i5$cuejfei
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuejtli~bburchibanez': 'CIN0#trolling'}
+CRES: {'cuejtli~bburchibanez': 'CRES2#Neutralize'}
+3ho80j$cu946x1$cu9kiw8
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cub2qg3~IAMADeinonychusAMA': 'CIN2#notrolling', 'cu9y8hs~Youreprobablygay': 'CIN2#notrolling'}
+CRES: {'cub2qg3~IAMADeinonychusAMA': 'CRES1#Frustrate', 'cu9y8hs~Youreprobablygay': 'CRES4#Troll'}
+3hprx9$cua2my9$cua2yrg
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cua5986~MikhailBaxter': 'CIN0#trolling'}
+CRES: {'cua5986~MikhailBaxter': 'CRES4#Troll'}
+3fgb9f$ctopscz$ctopwg1
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'ctosu7h~GreyLlama': 'CIN0#trolling'}
+CRES: {'ctosu7h~GreyLlama': 'CRES3#Engage'}
+3hl983$cu8cxtt$cu8dhpq
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu8drkk~BoardroomBimmy': 'CIN2#notrolling', 'cu8eqol~JunkerHQ': 'CIN0#trolling', 'cu8l882~GRIZx': 'CIN0#trolling'}
+CRES: {'cu8drkk~BoardroomBimmy': 'CRES4#Troll', 'cu8eqol~JunkerHQ': 'CRES6#Praise', 'cu8l882~GRIZx': 'CRES5#Follow'}
+3hj528$cu87g1x$cu8h17y
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu8h6tb~NegativeNegative_': 'CIN0#trolling'}
+CRES: {'cu8h6tb~NegativeNegative_': 'CRES0#Normal'}
+3g9c31$ctw24o4$ctw27i3
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctw3r04~hyperpenguin100': 'CIN2#notrolling', 'ctw739w~foamatthemouth': 'CIN2#notrolling'}
+CRES: {'ctw3r04~hyperpenguin100': 'CRES4#Troll', 'ctw739w~foamatthemouth': 'CRES0#Normal'}
+3i1et7$cued8md$cuedc3y
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cueg08j~CrazyLegs88': 'CIN2#notrolling'}
+CRES: {'cueg08j~CrazyLegs88': 'CRES2#Neutralize'}
+3hysb6$cui4885$cuia9eg
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuijhco~WebbyDasserman': 'CIN0#trolling'}
+CRES: {'cuijhco~WebbyDasserman': 'CRES3#Engage'}
+3fml1u$ctq9061$ctqb2cd
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctqcypo~Depression_Is_Fake': 'CIN2#notrolling', 'ctqcqi5~SyllableLogic': 'CIN0#trolling'}
+CRES: {'ctqcypo~Depression_Is_Fake': 'CRES0#Normal', 'ctqcqi5~SyllableLogic': 'CRES2#Neutralize'}
+3flbng$ctpntie$ctpnuod
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'ctpnvns~kylezz': 'CIN0#trolling'}
+CRES: {'ctpnvns~kylezz': 'CRES2#Neutralize'}
+3hbb2v$cu6ohos$cu6spcx
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cu6tlxb~toxiboxi': 'CIN0#trolling'}
+CRES: {'cu6tlxb~toxiboxi': 'CRES2#Neutralize'}
+3igxzi$cugbhoc$cugggvi
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cugh19n~Mastersofus': 'CIN0#trolling'}
+CRES: {'cugh19n~Mastersofus': 'CRES3#Engage'}
+3hsjni$cuatfst$cuatk1f
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cub7c4a~problematic89': 'CIN0#trolling', 'cuau0tm~MisterWonka': 'CIN0#trolling', 'cub7640~problematic89': 'CIN0#trolling'}
+CRES: {'cub7c4a~problematic89': 'CRES4#Troll', 'cuau0tm~MisterWonka': 'CRES2#Neutralize', 'cub7640~problematic89': 'CRES4#Troll'}
+3iht0x$cuh5mk2$cuh5q3v
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuh5v2o~matts2': 'CIN0#trolling'}
+CRES: {'cuh5v2o~matts2': 'CRES4#Troll'}
+3i0k9x$cuch1x0$cucnpv6
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cucqhx5~DogPawsCanType': 'CIN0#trolling'}
+CRES: {'cucqhx5~DogPawsCanType': 'CRES1#Frustrate'}
+3fffbc$ctoajx2$ctoan8p
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctocvvh~DAE_LE_TRIGGERED': 'CIN2#notrolling', 'ctogqwi~Koalasonfire': 'CIN2#notrolling'}
+CRES: {'ctocvvh~DAE_LE_TRIGGERED': 'CRES4#Troll', 'ctogqwi~Koalasonfire': 'CRES0#Normal'}
+3hlfmv$cu8fs4q$cu8t7d0
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu8taso~sleepybrains': 'CIN2#notrolling', 'cu8uahf~watchitfortheplot': 'CIN2#notrolling'}
+CRES: {'cu8taso~sleepybrains': 'CRES3#Engage', 'cu8uahf~watchitfortheplot': 'CRES4#Troll'}
+3ik8o8$cuhmpta$cuhmruz
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuholq4~fear865': 'CIN0#trolling', 'cuhqmks~ggclose_': 'CIN0#trolling'}
+CRES: {'cuholq4~fear865': 'CRES2#Neutralize', 'cuhqmks~ggclose_': 'CRES4#Troll'}
+3hr18q$3hr18q$cuacl95
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cuagwtt~hirethestache': 'CIN0#trolling'}
+CRES: {'cuagwtt~hirethestache': 'CRES3#Engage'}
+3i7hlj$cue3hc0$cue5ws7
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cue6130~PotatoManPerson': 'CIN0#trolling'}
+CRES: {'cue6130~PotatoManPerson': 'CRES2#Neutralize'}
+3fuqgn$cts7541$cts8mz2
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctsni0b~Caa112': 'CIN0#trolling'}
+CRES: {'ctsni0b~Caa112': 'CRES4#Troll'}
+3iwtcw$cukpqku$cukxj3n
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cukxzl4~jcm267': 'CIN0#trolling'}
+CRES: {'cukxzl4~jcm267': 'CRES3#Engage'}
+3igvn6$cugcine$cugcoa8
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cugcrsr~BanjoCatt': 'CIN0#trolling'}
+CRES: {'cugcrsr~BanjoCatt': 'CRES3#Engage'}
+3hndky$cu9fcs7$cu9fece
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu9fhbh~thegreatolga': 'CIN2#notrolling'}
+CRES: {'cu9fhbh~thegreatolga': 'CRES4#Troll'}
+3irq6q$cuj2qhk$cuj5c1k
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cuj5fmi~Turning_Pages': 'CIN2#notrolling'}
+CRES: {'cuj5fmi~Turning_Pages': 'CRES3#Engage'}
+3g2hmu$ctuivon$ctuixk9
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'ctumlfe~Sandbucketman': 'CIN2#notrolling', 'ctuiz50~punkbrad7': 'CIN0#trolling'}
+CRES: {'ctumlfe~Sandbucketman': 'CRES3#Engage', 'ctuiz50~punkbrad7': 'CRES1#Frustrate'}
+3fmtxh$ctqadzl$ctqavir
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctqv8md~Heinemenusch': 'CIN2#notrolling'}
+CRES: {'ctqv8md~Heinemenusch': 'CRES4#Troll'}
+3gdj3h$3gdj3h$ctxgohb
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'ctxn4ox~Ratspike123': 'CIN0#trolling', 'ctxievx~XC4me': 'CIN2#notrolling'}
+CRES: {'ctxn4ox~Ratspike123': 'CRES6#Praise', 'ctxievx~XC4me': 'CRES3#Engage'}
+3g95z9$ctvzz3y$ctw0e29
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'ctw0im6~kanasterkind': 'CIN1#playing', 'ctx1py7~burningsensation': 'CIN0#trolling'}
+CRES: {'ctw0im6~kanasterkind': 'CRES5#Follow', 'ctx1py7~burningsensation': 'CRES2#Neutralize'}
+3hlxdm$cu8gz51$cu8h79x
+CON: ['CON1:hidden']
+AIN: ['AIN1#playing']
+CIN: {'cu8hfvf~SkyWardDiego': 'CIN1#playing', 'cu8hefg~Wade_Williams': 'CIN0#trolling'}
+CRES: {'cu8hfvf~SkyWardDiego': 'CRES5#Follow', 'cu8hefg~Wade_Williams': 'CRES2#Neutralize'}
+3isl2r$cuke62d$cukf77r
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cukgcoy~Fullmoongrass': 'CIN2#notrolling'}
+CRES: {'cukgcoy~Fullmoongrass': 'CRES4#Troll'}
+3hppl4$3hppl4$cu9qjh5
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu9rnxm~STOMP1E': 'CIN2#notrolling'}
+CRES: {'cu9rnxm~STOMP1E': 'CRES0#Normal'}
+3h41o9$cu44yoc$cu4522s
+CON: ['CON1:hidden']
+AIN: ['AIN1#playing']
+CIN: {'cu45913~zigglezip': 'CIN0#trolling'}
+CRES: {'cu45913~zigglezip': 'CRES2#Neutralize'}
+3hbegr$cu6snsq$cu6t4xu
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cu7w1ax~wuweiwei': 'CIN1#playing'}
+CRES: {'cu7w1ax~wuweiwei': 'CRES6#Praise'}
+3he98b$cu6yx3j$cu6zzpa
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cu70u7n~DbolishThatPussy': 'CIN0#trolling'}
+CRES: {'cu70u7n~DbolishThatPussy': 'CRES3#Engage'}
+3hs5le$cua2wrr$cua34n7
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cua35q1~KSIXxChaoticxX': 'CIN2#notrolling', 'cua37oe~KSIXxChaoticxX': 'CIN1#playing'}
+CRES: {'cua35q1~KSIXxChaoticxX': 'CRES3#Engage', 'cua37oe~KSIXxChaoticxX': 'CRES3#Engage'}
+3i1za0$cud683x$cud6r64
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cud7fvb~sirbruce': 'CIN0#trolling'}
+CRES: {'cud7fvb~sirbruce': 'CRES3#Engage'}
+3hks9e$cu87ft6$cu8gzil
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cu8ifqa~smelly_nigger': 'CIN1#playing', 'cu8haq0~SquincyAdams59': 'CIN1#playing'}
+CRES: {'cu8ifqa~smelly_nigger': 'CRES5#Follow', 'cu8haq0~SquincyAdams59': 'CRES5#Follow'}
+3hdm0c$cu6vk1w$cu6vmz8
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu75gew~W1NGUSD1NGUS': 'CIN0#trolling'}
+CRES: {'cu75gew~W1NGUSD1NGUS': 'CRES6#Praise'}
+3gl7h1$ctzbn3x$ctzbwxb
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctzc5ng~SetFireToTheRane': 'CIN0#trolling'}
+CRES: {'ctzc5ng~SetFireToTheRane': 'CRES3#Engage'}
+3fxfxv$cttgukc$cttl89t
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cttrwx6~sykelone': 'CIN2#notrolling'}
+CRES: {'cttrwx6~sykelone': 'CRES2#Neutralize'}
+3h65m6$cu50j14$cu50u4x
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu50zv6~deleted': 'CIN0#trolling'}
+CRES: {'cu50zv6~deleted': 'CRES3#Engage'}
+3is0iu$cuj80a0$cuj8s72
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cujak4n~Truth_and_Madness': 'CIN2#notrolling', 'cuj9q0p~Davidhasahead': 'CIN2#notrolling'}
+CRES: {'cujak4n~Truth_and_Madness': 'CRES0#Normal', 'cuj9q0p~Davidhasahead': 'CRES0#Normal'}
+3gc948$ctxo3i6$ctxt5qi
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctyxih6~shroom_throwaway9722': 'CIN0#trolling'}
+CRES: {'ctyxih6~shroom_throwaway9722': 'CRES3#Engage'}
+3fzd6a$ctu7v70$ctu7wd6
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctu7yeo~Zaeh': 'CIN0#trolling', 'ctujgka~tyler1618': 'CIN0#trolling', 'ctvbj3f~pdunky': 'CIN0#trolling'}
+CRES: {'ctu7yeo~Zaeh': 'CRES3#Engage', 'ctujgka~tyler1618': 'CRES1#Frustrate', 'ctvbj3f~pdunky': 'CRES4#Troll'}
+3i94xp$cueeb4r$cueefo5
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cueyi31~ShooTa666': 'CIN2#notrolling', 'cueev7q~gottaspeakupnow': 'CIN0#trolling'}
+CRES: {'cueyi31~ShooTa666': 'CRES3#Engage', 'cueev7q~gottaspeakupnow': 'CRES0#Normal'}
+3idjh0$cufv1u2$cufwtnt
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cufx0ia~WorseThanHipster': 'CIN2#notrolling'}
+CRES: {'cufx0ia~WorseThanHipster': 'CRES0#Normal'}
+3h18in$3h18in$cu3hcvc
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu3l1bd~AdultOnsetMathGeek': 'CIN0#trolling'}
+CRES: {'cu3l1bd~AdultOnsetMathGeek': 'CRES3#Engage'}
+3fzt8c$ctu3nne$ctu56tv
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctu6yzd~FormerlyFlintlox': 'CIN2#notrolling', 'ctu5qnc~RonPaulReagan': 'CIN2#notrolling'}
+CRES: {'ctu6yzd~FormerlyFlintlox': 'CRES0#Normal', 'ctu5qnc~RonPaulReagan': 'CRES0#Normal'}
+3ihjv9$cugna84$cugwcfx
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cugxdtx~cputnik': 'CIN0#trolling'}
+CRES: {'cugxdtx~cputnik': 'CRES1#Frustrate'}
+3fi8dq$ctoy86c$ctoyaxo
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctoymfy~MarshallTom': 'CIN0#trolling'}
+CRES: {'ctoymfy~MarshallTom': 'CRES3#Engage'}
+3fy7dr$ctt7p4u$ctt7t1g
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cttf380~ThisIs_MyName': 'CIN0#trolling', 'ctt8en0~Outofthewild': 'CIN0#trolling'}
+CRES: {'cttf380~ThisIs_MyName': 'CRES1#Frustrate', 'ctt8en0~Outofthewild': 'CRES5#Follow'}
+3ief0s$cug3qi8$cug3x0j
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cug3ybs~WaitingToBeBanned': 'CIN0#trolling'}
+CRES: {'cug3ybs~WaitingToBeBanned': 'CRES1#Frustrate'}
+3hfqxo$cu71glm$cu72wz8
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cu736pk~__The_': 'CIN0#trolling'}
+CRES: {'cu736pk~__The_': 'CRES3#Engage'}
+3irx6u$cuj46sv$cuj4gel
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuj4hlb~Late_Night_Grumbler': 'CIN2#notrolling'}
+CRES: {'cuj4hlb~Late_Night_Grumbler': 'CRES4#Troll'}
+3hj41k$cu8w1wr$cu8zgqo
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu8zsxc~alclarkey': 'CIN0#trolling'}
+CRES: {'cu8zsxc~alclarkey': 'CRES2#Neutralize'}
+3i7ray$cue4xrs$cue5l3x
+CON: ['CON1:hidden']
+AIN: ['AIN1#playing']
+CIN: {'cue5ni3~sblanky': 'CIN1#playing'}
+CRES: {'cue5ni3~sblanky': 'CRES1#Frustrate'}
+3h94g5$cu5d1o6$cu5d8id
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu5dcek~methinksitlikea': 'CIN2#notrolling'}
+CRES: {'cu5dcek~methinksitlikea': 'CRES0#Normal'}
+3he348$cu7hs7k$cu7pkhk
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu7pw7v~OScurO': 'CIN2#notrolling'}
+CRES: {'cu7pw7v~OScurO': 'CRES0#Normal'}
+3hx6n7$cubm06f$cubm568
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cubm88v~ej2k15': 'CIN0#trolling'}
+CRES: {'cubm88v~ej2k15': 'CRES1#Frustrate'}
+3g9r1t$ctwmz6y$ctwn4kr
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctwqlex~Crag_r': 'CIN2#notrolling', 'ctwnctj~SvtMrRed': 'CIN1#playing'}
+CRES: {'ctwqlex~Crag_r': 'CRES0#Normal', 'ctwnctj~SvtMrRed': 'CRES3#Engage'}
+3hckif$cu69jdn$cu6csf4
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6dw9s~Mr_Clam': 'CIN2#notrolling'}
+CRES: {'cu6dw9s~Mr_Clam': 'CRES0#Normal'}
+3fuqxm$ctsgvd4$ctsh3r8
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctshj7e~Sabuleon': 'CIN2#notrolling', 'ctssoh2~PkrToucan': 'CIN2#notrolling'}
+CRES: {'ctshj7e~Sabuleon': 'CRES0#Normal', 'ctssoh2~PkrToucan': 'CRES4#Troll'}
+3g893s$ctw95ig$ctwddhk
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctwymxy~flappothegrate': 'CIN0#trolling', 'ctwdlb5~GeneParm': 'CIN0#trolling'}
+CRES: {'ctwymxy~flappothegrate': 'CRES5#Follow', 'ctwdlb5~GeneParm': 'CRES3#Engage'}
+3gcrxz$ctxdlde$ctxe5jp
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctxezmv~nodsjewishly': 'CIN2#notrolling', 'ctxff2w~Taylorswiftfan69': 'CIN2#notrolling', 'ctxlxhd~Bleatmop': 'CIN2#notrolling'}
+CRES: {'ctxezmv~nodsjewishly': 'CRES0#Normal', 'ctxff2w~Taylorswiftfan69': 'CRES0#Normal', 'ctxlxhd~Bleatmop': 'CRES0#Normal'}
+3hcbws$cu6g1g4$cu6g4xo
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu6g824~Pablopubes': 'CIN0#trolling'}
+CRES: {'cu6g824~Pablopubes': 'CRES3#Engage'}
+3g7vjx$ctzlgi0$ctzphdb
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu0gsus~TerrenceTas': 'CIN0#trolling'}
+CRES: {'cu0gsus~TerrenceTas': 'CRES2#Neutralize'}
+3hz5xm$cubyui2$cubz002
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cubznrr~RekdAnalCavity': 'CIN0#trolling', 'cubz96e~wagecuck1': 'CIN2#notrolling'}
+CRES: {'cubznrr~RekdAnalCavity': 'CRES1#Frustrate', 'cubz96e~wagecuck1': 'CRES0#Normal'}
+3inlwa$cuj9hza$cujbjtj
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cujdpkr~californiarepublik': 'CIN0#trolling'}
+CRES: {'cujdpkr~californiarepublik': 'CRES2#Neutralize'}
+3h74s9$cu58skq$cu5b0bb
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu5dojo~Nightgloom': 'CIN0#trolling'}
+CRES: {'cu5dojo~Nightgloom': 'CRES3#Engage'}
+3idba1$cufu4l5$cufv019
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cug4og0~bambamtx': 'CIN0#trolling'}
+CRES: {'cug4og0~bambamtx': 'CRES4#Troll'}
+3hvhp6$cuazqkr$cuazvha
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cub8zi4~TheSummerain': 'CIN2#notrolling', 'cuazx14~Loire55': 'CIN0#trolling'}
+CRES: {'cub8zi4~TheSummerain': 'CRES0#Normal', 'cuazx14~Loire55': 'CRES2#Neutralize'}
+3ixbs5$cukiumr$cukivlq
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cukiwjf~chunes': 'CIN0#trolling', 'cukixzk~anakmager': 'CIN0#trolling'}
+CRES: {'cukiwjf~chunes': 'CRES3#Engage', 'cukixzk~anakmager': 'CRES4#Troll'}
+3hpqkq$cu9fcpv$cu9fsxe
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu9fzkf~elricmon2099': 'CIN2#notrolling'}
+CRES: {'cu9fzkf~elricmon2099': 'CRES0#Normal'}
+3gl0vj$ctzfx2x$ctzg2hw
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctzl013~punk___as': 'CIN0#trolling'}
+CRES: {'ctzl013~punk___as': 'CRES3#Engage'}
+3g8o7v$ctvxebt$ctvxgsq
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctvycdp~Zero_the_Unicorn': 'CIN0#trolling'}
+CRES: {'ctvycdp~Zero_the_Unicorn': 'CRES3#Engage'}
+3femuo$ctoe79w$ctof81c
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctoqzxx~Dr_Worm88': 'CIN0#trolling'}
+CRES: {'ctoqzxx~Dr_Worm88': 'CRES1#Frustrate'}
+3irkmp$3irkmp$cuj9s8g
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuj9t40~dEyBIDJESUS': 'CIN0#trolling'}
+CRES: {'cuj9t40~dEyBIDJESUS': 'CRES0#Normal'}
+3hpxbx$cucxvv0$cud2j39
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cud3kjl~GreedDisaster': 'CIN0#trolling'}
+CRES: {'cud3kjl~GreedDisaster': 'CRES4#Troll'}
+3inm41$cui0be0$cui0e2u
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cui0fss~friendshill': 'CIN0#trolling'}
+CRES: {'cui0fss~friendshill': 'CRES4#Troll'}
+3fvm0r$ctsby2b$ctsc3xa
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctsc5h6~SuperHighTiger': 'CIN2#notrolling'}
+CRES: {'ctsc5h6~SuperHighTiger': 'CRES0#Normal'}
+3fgkf9$ctpbjpa$ctpi3me
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctpqyjo~GetMoneySmokeWeed': 'CIN2#notrolling', 'ctq8omz~ohnoyoudidnt29': 'CIN2#notrolling'}
+CRES: {'ctpqyjo~GetMoneySmokeWeed': 'CRES4#Troll', 'ctq8omz~ohnoyoudidnt29': 'CRES0#Normal'}
+3hh36x$cu7h906$cu7hezi
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu7hna1~LULZYKitten': 'CIN2#notrolling'}
+CRES: {'cu7hna1~LULZYKitten': 'CRES4#Troll'}
+3hfvzv$cu7e4nn$cu7hz5u
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu7wsuj~wearebestfwends': 'CIN2#notrolling'}
+CRES: {'cu7wsuj~wearebestfwends': 'CRES0#Normal'}
+3iolyw$cuii905$cujo5ck
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cukdebn~Koxinga1661': 'CIN0#trolling', 'cukbeia~aZnmessenger': 'CIN2#notrolling'}
+CRES: {'cukdebn~Koxinga1661': 'CRES4#Troll', 'cukbeia~aZnmessenger': 'CRES3#Engage'}
+3geqfc$3geqfc$ctxlnuz
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'ctxlxv6~50ShadesOfJonTron': 'CIN0#trolling'}
+CRES: {'ctxlxv6~50ShadesOfJonTron': 'CRES1#Frustrate'}
+3htsys$cubort2$cubzgji
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cud2cn6~traitorbanker': 'CIN0#trolling'}
+CRES: {'cud2cn6~traitorbanker': 'CRES4#Troll'}
+3hl4lt$cu8lkxw$cu8xmqa
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cu8yccv~RedYellowPlaid': 'CIN0#trolling'}
+CRES: {'cu8yccv~RedYellowPlaid': 'CRES3#Engage'}
+3hky2m$cu8dfsq$cu8dlg1
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu8sqxy~deathchimp': 'CIN0#trolling', 'cu8dsrt~Rubykuby': 'CIN0#trolling'}
+CRES: {'cu8sqxy~deathchimp': 'CRES2#Neutralize', 'cu8dsrt~Rubykuby': 'CRES3#Engage'}
+3hl05q$cu89xea$cu8av7t
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu8b1h4~anniedabeast': 'CIN2#notrolling', 'cu8gpp1~mistmare1': 'CIN0#trolling'}
+CRES: {'cu8b1h4~anniedabeast': 'CRES3#Engage', 'cu8gpp1~mistmare1': 'CRES2#Neutralize'}
+3fkkle$ctpijcy$ctqu98b
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctr1h8q~sid32': 'CIN0#trolling', 'ctrgmgo~el_diamond_g': 'CIN2#notrolling'}
+CRES: {'ctr1h8q~sid32': 'CRES1#Frustrate', 'ctrgmgo~el_diamond_g': 'CRES0#Normal'}
+3iak1j$cuf39nh$cuf3i42
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuf4gtj~HaniiBlu': 'CIN0#trolling'}
+CRES: {'cuf4gtj~HaniiBlu': 'CRES3#Engage'}
+3iow0v$cum1zkp$cum2n3k
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cum6w41~macleod185': 'CIN0#trolling'}
+CRES: {'cum6w41~macleod185': 'CRES4#Troll'}
+3iu9kt$cum8lse$cum8vlk
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cum8wlp~devention': 'CIN0#trolling'}
+CRES: {'cum8wlp~devention': 'CRES2#Neutralize'}
+3hruvj$cua90ch$cua9bth
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cua9w8e~Fuaaaaaark': 'CIN0#trolling'}
+CRES: {'cua9w8e~Fuaaaaaark': 'CRES4#Troll'}
+3hcdyk$cu6syzu$cu7j3y1
+CON: ['CON1:hidden']
+AIN: ['AIN1#playing']
+CIN: {'cu7r3p9~MixingDrinks': 'CIN0#trolling'}
+CRES: {'cu7r3p9~MixingDrinks': 'CRES2#Neutralize'}
+3itrld$cuk7p74$cuka4xu
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cukin53~Ptebbutt': 'CIN0#trolling'}
+CRES: {'cukin53~Ptebbutt': 'CRES4#Troll'}
+3hemnj$cu7dufa$cu7e3gc
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu7g4ra~__loki': 'CIN2#notrolling'}
+CRES: {'cu7g4ra~__loki': 'CRES4#Troll'}
+3i6sdl$cuf4whb$cuf50pb
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuf51ig~cumbubbles420': 'CIN2#notrolling'}
+CRES: {'cuf51ig~cumbubbles420': 'CRES3#Engage'}
+3g0mry$ctuqtv6$cturah2
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cturh2u~kohalikpagan': 'CIN0#trolling'}
+CRES: {'cturh2u~kohalikpagan': 'CRES3#Engage'}
+3iieh5$cuhw7wi$cuhwmv3
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cui1xjy~IshJecka': 'CIN2#notrolling'}
+CRES: {'cui1xjy~IshJecka': 'CRES4#Troll'}
+3fdwfc$ctns89s$ctns8qy
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctnsa24~zenyl': 'CIN0#trolling'}
+CRES: {'ctnsa24~zenyl': 'CRES1#Frustrate'}
+3hysbj$cucbtu2$cuccaxc
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cuekpc4~LaoTzusGymShoes': 'CIN2#notrolling', 'cucihd8~gordiep': 'CIN0#trolling'}
+CRES: {'cuekpc4~LaoTzusGymShoes': 'CRES3#Engage', 'cucihd8~gordiep': 'CRES1#Frustrate'}
+3ia720$cuf81vt$cuf9f66
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuf9s92~GeorgeFlowers': 'CIN2#notrolling'}
+CRES: {'cuf9s92~GeorgeFlowers': 'CRES4#Troll'}
+3g9u4x$cty4zio$ctycpgo
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'ctyiutn~WOVigilant': 'CIN0#trolling'}
+CRES: {'ctyiutn~WOVigilant': 'CRES3#Engage'}
+3i3d3f$cud3nbw$cud5dcp
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cudkg1a~Netprincess': 'CIN1#playing'}
+CRES: {'cudkg1a~Netprincess': 'CRES6#Praise'}
+3i38hk$cucwcxj$cucweap
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cucwgfo~DrProfRabbit': 'CIN0#trolling'}
+CRES: {'cucwgfo~DrProfRabbit': 'CRES2#Neutralize'}
+3i9k78$cuehdtv$cuehf90
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuehgrq~Adds_To_Circlejerk': 'CIN1#playing'}
+CRES: {'cuehgrq~Adds_To_Circlejerk': 'CRES6#Praise'}
+3g7f6q$ctwrhli$ctwri51
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'ctwrjsz~thewritingchair': 'CIN0#trolling'}
+CRES: {'ctwrjsz~thewritingchair': 'CRES3#Engage'}
+3ga3ze$ctwd1qy$ctwd83l
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'ctwdgbm~ewk': 'CIN0#trolling'}
+CRES: {'ctwdgbm~ewk': 'CRES3#Engage'}
+3gdf3o$ctx60jx$ctx63so
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctx6s11~TocTheEternal': 'CIN2#notrolling', 'ctx6r5s~hydrogenc4r': 'CIN2#notrolling'}
+CRES: {'ctx6s11~TocTheEternal': 'CRES0#Normal', 'ctx6r5s~hydrogenc4r': 'CRES3#Engage'}
+3hyopr$cubvdmm$cubz4up
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cucw0uh~JustifiedBlade': 'CIN2#notrolling'}
+CRES: {'cucw0uh~JustifiedBlade': 'CRES0#Normal'}
+3ia31w$cuf6dna$cuf8u1t
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cufemwg~matts2': 'CIN0#trolling'}
+CRES: {'cufemwg~matts2': 'CRES4#Troll'}
+3hfylb$cu70klk$cu7rh7b
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu7slnj~No_big_whoop': 'CIN0#trolling'}
+CRES: {'cu7slnj~No_big_whoop': 'CRES3#Engage'}
+3hrr3b$cua7wm2$cuahniz
+CON: ['CON1:hidden']
+AIN: ['AIN1#playing']
+CIN: {'cuanb2a~mszegedy': 'CIN1#playing'}
+CRES: {'cuanb2a~mszegedy': 'CRES4#Troll'}
+3fg8vm$ctoh5s3$ctohdlb
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctojdak~Das_merovingian': 'CIN0#trolling'}
+CRES: {'ctojdak~Das_merovingian': 'CRES1#Frustrate'}
+3fqvui$ctzenpe$ctzg7o1
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu0npmp~IT_dude_76': 'CIN0#trolling'}
+CRES: {'cu0npmp~IT_dude_76': 'CRES1#Frustrate'}
+3i91r4$cuefpep$cuefqt8
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuefsj4~deleted': 'CIN0#trolling'}
+CRES: {'cuefsj4~deleted': 'CRES3#Engage'}
+3hvsam$cube6po$cubefok
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cubenzt~gateboy13': 'CIN0#trolling'}
+CRES: {'cubenzt~gateboy13': 'CRES3#Engage'}
+3i4aa6$cud8pi8$cud9izx
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cud9k56~Late_Night_Grumbler': 'CIN2#notrolling'}
+CRES: {'cud9k56~Late_Night_Grumbler': 'CRES4#Troll'}
+3imssc$cuhs1jv$cuhs2kx
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cuht9dm~nsaman6359': 'CIN1#playing', 'cuhs4ni~iTrejo': 'CIN0#trolling', 'cuhsnz6~Ross5512': 'CIN2#notrolling'}
+CRES: {'cuht9dm~nsaman6359': 'CRES4#Troll', 'cuhs4ni~iTrejo': 'CRES3#Engage', 'cuhsnz6~Ross5512': 'CRES0#Normal'}
+3h884h$cu5dx79$cu5ehm4
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu5es4f~armeggedonCounselor': 'CIN0#trolling'}
+CRES: {'cu5es4f~armeggedonCounselor': 'CRES3#Engage'}
+3frxov$ctryd7z$ctsmimh
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctsqe3i~nihil2909': 'CIN0#trolling'}
+CRES: {'ctsqe3i~nihil2909': 'CRES4#Troll'}
+3hs1em$cua319e$cua55ki
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cua5ayl~miketheike7': 'CIN2#notrolling'}
+CRES: {'cua5ayl~miketheike7': 'CRES4#Troll'}
+3fvp8u$ctsg2yz$ctshey3
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctshm4r~InnerSpikeWork': 'CIN2#notrolling', 'ctshu6z~ElGoddamnDorado': 'CIN0#trolling'}
+CRES: {'ctshm4r~InnerSpikeWork': 'CRES3#Engage', 'ctshu6z~ElGoddamnDorado': 'CRES2#Neutralize'}
+3hj1ud$cu8be09$cu8bnf1
+CON: ['CON1:hidden']
+AIN: ['AIN1#playing']
+CIN: {'cu8g28x~idontlose': 'CIN1#playing', 'cu8jwo2~Dillrun': 'CIN1#playing'}
+CRES: {'cu8g28x~idontlose': 'CRES6#Praise', 'cu8jwo2~Dillrun': 'CRES5#Follow'}
+3hphu4$cu9juwy$cu9kia8
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cu9ro8r~Arquinsiel': 'CIN0#trolling'}
+CRES: {'cu9ro8r~Arquinsiel': 'CRES4#Troll'}
+3iwytf$cukdegl$cukdj06
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cukdjua~Ser_Rodrick_Cassel': 'CIN0#trolling', 'cukdlbd~fappinatwork': 'CIN0#trolling'}
+CRES: {'cukdjua~Ser_Rodrick_Cassel': 'CRES4#Troll', 'cukdlbd~fappinatwork': 'CRES1#Frustrate'}
+3hfmzq$cu7120u$cu71cku
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cu74fh7~HopeImNotAStalker': 'CIN0#trolling', 'cu792ui~Hypnoboy': 'CIN0#trolling', 'cu73ckn~Broking37': 'CIN0#trolling'}
+CRES: {'cu74fh7~HopeImNotAStalker': 'CRES3#Engage', 'cu792ui~Hypnoboy': 'CRES1#Frustrate', 'cu73ckn~Broking37': 'CRES4#Troll'}
+3ibh15$cuf2pst$cuf84ho
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cufrrej~SafariMaceram': 'CIN0#trolling'}
+CRES: {'cufrrej~SafariMaceram': 'CRES3#Engage'}
+3ic5p2$cuf8i3f$cufabhf
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cufbed2~Rob0tEars': 'CIN0#trolling'}
+CRES: {'cufbed2~Rob0tEars': 'CRES1#Frustrate'}
+3hgjeo$cu7pvn8$cu7x4c0
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cu82v2k~butitwascold': 'CIN1#playing'}
+CRES: {'cu82v2k~butitwascold': 'CRES6#Praise'}
+3ieehm$cufqdb7$cufthbv
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuftzpw~gazzy82': 'CIN0#trolling'}
+CRES: {'cuftzpw~gazzy82': 'CRES3#Engage'}
+3hc1cc$cu65hzn$cu6bfer
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6bosm~longfalcon': 'CIN0#trolling'}
+CRES: {'cu6bosm~longfalcon': 'CRES2#Neutralize'}
+3fre1f$ctr7nkr$ctr7p2w
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctr80p1~CyadeSix': 'CIN2#notrolling', 'ctr91q2~Varthiel': 'CIN2#notrolling'}
+CRES: {'ctr80p1~CyadeSix': 'CRES4#Troll', 'ctr91q2~Varthiel': 'CRES0#Normal'}
+3hp2aa$cu9g708$cu9nju3
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cua7pnd~Yetkinler': 'CIN2#notrolling', 'cua5ffl~xian16': 'CIN2#notrolling'}
+CRES: {'cua7pnd~Yetkinler': 'CRES0#Normal', 'cua5ffl~xian16': 'CRES0#Normal'}
+3fncz4$3fncz4$ctqemah
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctquo8y~shmalz': 'CIN0#trolling', 'ctqf0fj~iwilllurkreddit': 'CIN0#trolling'}
+CRES: {'ctquo8y~shmalz': 'CRES4#Troll', 'ctqf0fj~iwilllurkreddit': 'CRES4#Troll'}
+3g5ekw$ctv21l3$ctv24mn
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctv2trl~xOxOqTbByGrLxOxO': 'CIN2#notrolling', 'ctvdbp2~ancap47': 'CIN0#trolling', 'ctv51yn~LDL2': 'CIN0#trolling'}
+CRES: {'ctv2trl~xOxOqTbByGrLxOxO': 'CRES0#Normal', 'ctvdbp2~ancap47': 'CRES1#Frustrate', 'ctv51yn~LDL2': 'CRES4#Troll'}
+3gd08a$ctxeiv3$ctxgude
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'ctxhof9~Taintedone': 'CIN0#trolling'}
+CRES: {'ctxhof9~Taintedone': 'CRES1#Frustrate'}
+3hu66g$cuajula$cuaqxvi
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cuaskvq~jocko271': 'CIN0#trolling'}
+CRES: {'cuaskvq~jocko271': 'CRES3#Engage'}
+3i6nv4$cudqzne$cudr5qp
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cudr820~SenseiSwag': 'CIN2#notrolling', 'cudri14~SNHC': 'CIN2#notrolling', 'cudrhnj~Dotdotslash_bg': 'CIN2#notrolling'}
+CRES: {'cudr820~SenseiSwag': 'CRES4#Troll', 'cudri14~SNHC': 'CRES0#Normal', 'cudrhnj~Dotdotslash_bg': 'CRES0#Normal'}
+3ige9o$cugf6y7$cughd3t
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cugp3qf~Yousunkmyredditship1': 'CIN2#notrolling', 'cughiuk~Watchful1ntervention': 'CIN0#trolling', 'cuglleq~ViktorV': 'CIN0#trolling'}
+CRES: {'cugp3qf~Yousunkmyredditship1': 'CRES3#Engage', 'cughiuk~Watchful1ntervention': 'CRES2#Neutralize', 'cuglleq~ViktorV': 'CRES3#Engage'}
+3fdmi5$ctnrwzt$ctns9qn
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'ctnt8bm~Lukasyus': 'CIN0#trolling'}
+CRES: {'ctnt8bm~Lukasyus': 'CRES6#Praise'}
+3hu28g$cucltzi$cuclxsi
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cucm0ar~nanbullen': 'CIN0#trolling'}
+CRES: {'cucm0ar~nanbullen': 'CRES3#Engage'}
+3iul67$cuke13g$cukghkw
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cukgtdi~aarmadale': 'CIN2#notrolling'}
+CRES: {'cukgtdi~aarmadale': 'CRES0#Normal'}
+3irvgv$cuj56fa$cuj5ekc
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuj5ltt~PirateRadioSignal': 'CIN2#notrolling', 'cuj5hro~LauroSkr': 'CIN2#notrolling'}
+CRES: {'cuj5ltt~PirateRadioSignal': 'CRES3#Engage', 'cuj5hro~LauroSkr': 'CRES4#Troll'}
+3hd481$cu72kfs$cu78vdx
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu7gayy~Dashing_Snow': 'CIN2#notrolling'}
+CRES: {'cu7gayy~Dashing_Snow': 'CRES4#Troll'}
+3g04to$cttkase$cttkemq
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cttkfwr~Moonpiles': 'CIN0#trolling'}
+CRES: {'cttkfwr~Moonpiles': 'CRES4#Troll'}
+3ij45y$cuhn0k6$cuhpseu
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuhq8j5~assholesallthewaydow': 'CIN0#trolling'}
+CRES: {'cuhq8j5~assholesallthewaydow': 'CRES1#Frustrate'}
+3ihb32$cugfq68$cuh40is
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuhi4s9~Dat_J3w': 'CIN0#trolling', 'cuhd6n4~spokedsalute': 'CIN1#playing'}
+CRES: {'cuhi4s9~Dat_J3w': 'CRES3#Engage', 'cuhd6n4~spokedsalute': 'CRES6#Praise'}
+3ipq5d$cuj08ip$cuj0kyi
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuj0mte~seshfan': 'CIN2#notrolling', 'cuj0ubq~RagePoop': 'CIN0#trolling'}
+CRES: {'cuj0mte~seshfan': 'CRES4#Troll', 'cuj0ubq~RagePoop': 'CRES3#Engage'}
+3ixqqg$cukob9j$cukp38b
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cukp9o4~scouserdave': 'CIN2#notrolling'}
+CRES: {'cukp9o4~scouserdave': 'CRES4#Troll'}
+3hz7dx$cuc46gt$cuc4j3u
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuc4kto~Goodbadfugly': 'CIN0#trolling', 'cuc6luf~WhiteCotton': 'CIN0#trolling'}
+CRES: {'cuc4kto~Goodbadfugly': 'CRES4#Troll', 'cuc6luf~WhiteCotton': 'CRES4#Troll'}
+3hgj29$cu7ub7j$cu7v32r
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu7w75k~Gerden': 'CIN2#notrolling', 'cu803lp~ANAL_BEAD_CHAINSAW': 'CIN2#notrolling'}
+CRES: {'cu7w75k~Gerden': 'CRES4#Troll', 'cu803lp~ANAL_BEAD_CHAINSAW': 'CRES4#Troll'}
+3h424p$cu4433o$cu4498v
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu4sv41~mrpots024': 'CIN0#trolling'}
+CRES: {'cu4sv41~mrpots024': 'CRES1#Frustrate'}
+3fsu3p$ctry3cl$cts8v6q
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctshhxb~JudgeJBS': 'CIN0#trolling', 'cts9rjs~EHsE': 'CIN2#notrolling'}
+CRES: {'ctshhxb~JudgeJBS': 'CRES1#Frustrate', 'cts9rjs~EHsE': 'CRES0#Normal'}
+3h92nf$cu67pfb$cu682km
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu693y8~_jamil_': 'CIN2#notrolling'}
+CRES: {'cu693y8~_jamil_': 'CRES4#Troll'}
+3ina01$cuibht8$cuibneo
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuibom1~davemaster': 'CIN0#trolling'}
+CRES: {'cuibom1~davemaster': 'CRES1#Frustrate'}
+3g5lwp$ctv2kun$ctv99pc
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'ctvdx3a~TheMagicianDolph': 'CIN0#trolling', 'ctvbl1z~Bigbohn': 'CIN2#notrolling'}
+CRES: {'ctvdx3a~TheMagicianDolph': 'CRES3#Engage', 'ctvbl1z~Bigbohn': 'CRES3#Engage'}
+3iqvi7$cuisvme$cuisz0q
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuit4dd~amacdvt': 'CIN2#notrolling'}
+CRES: {'cuit4dd~amacdvt': 'CRES4#Troll'}
+3fvlb1$ctsgd3c$ctsgz01
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctsh9ks~840meanstwiceasmuch': 'CIN0#trolling'}
+CRES: {'ctsh9ks~840meanstwiceasmuch': 'CRES4#Troll'}
+3h375z$3h375z$cu3vd6h
+CON: ['CON1:hidden']
+AIN: ['AIN1#playing']
+CIN: {'cu3vqc6~SwiperSlyDragon': 'CIN0#trolling'}
+CRES: {'cu3vqc6~SwiperSlyDragon': 'CRES1#Frustrate'}
+3ipshs$cuirjia$cuirqpj
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuis478~meatchariot': 'CIN0#trolling'}
+CRES: {'cuis478~meatchariot': 'CRES2#Neutralize'}
+3g2dtn$ctufo2f$ctuh5dp
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctui2fo~gimmiegimmienow': 'CIN2#notrolling'}
+CRES: {'ctui2fo~gimmiegimmienow': 'CRES0#Normal'}
+3idn1g$cufhi6g$cufi3mt
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cufi55v~kelevra206': 'CIN1#playing'}
+CRES: {'cufi55v~kelevra206': 'CRES4#Troll'}
+3i352q$cud8n02$cujpg30
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cujsop5~sevencounter': 'CIN1#playing'}
+CRES: {'cujsop5~sevencounter': 'CRES5#Follow'}
+3ge02y$ctxg454$ctxhcgq
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctxhhrh~nobodybelievesyou': 'CIN2#notrolling', 'ctxy73y~sciencehatesyou': 'CIN2#notrolling', 'ctxjgsj~DanDarden': 'CIN0#trolling'}
+CRES: {'ctxhhrh~nobodybelievesyou': 'CRES3#Engage', 'ctxy73y~sciencehatesyou': 'CRES3#Engage', 'ctxjgsj~DanDarden': 'CRES5#Follow'}
+3h5933$cu4fsgu$cu4fufc
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu4iw7j~asifmallik': 'CIN2#notrolling'}
+CRES: {'cu4iw7j~asifmallik': 'CRES4#Troll'}
+3fsds9$ctrv4zu$ctrv701
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctrvbws~Savage9645': 'CIN0#trolling'}
+CRES: {'ctrvbws~Savage9645': 'CRES4#Troll'}
+3hr945$cu9vrz9$cua3bjd
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cua4gbz~Nighteyez07': 'CIN0#trolling', 'cua8yz1~econoquist': 'CIN0#trolling', 'cua7xb9~BustergunFIRE': 'CIN0#trolling'}
+CRES: {'cua4gbz~Nighteyez07': 'CRES4#Troll', 'cua8yz1~econoquist': 'CRES3#Engage', 'cua7xb9~BustergunFIRE': 'CRES3#Engage'}
+3hfbi0$cu88tgk$cu88z3n
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu89p52~Murlocs_Gangbang': 'CIN0#trolling'}
+CRES: {'cu89p52~Murlocs_Gangbang': 'CRES2#Neutralize'}
+3fi8k1$ctp01x6$ctp1eb8
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctp1eu0~LeonardoDaVincent': 'CIN2#notrolling'}
+CRES: {'ctp1eu0~LeonardoDaVincent': 'CRES4#Troll'}
+3ilzu2$culru6e$culs22r
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'culsdr5~arachnopussy': 'CIN0#trolling'}
+CRES: {'culsdr5~arachnopussy': 'CRES4#Troll'}
+3in3il$cui7lnz$cui7ms5
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cui7p59~jerk_o': 'CIN2#notrolling'}
+CRES: {'cui7p59~jerk_o': 'CRES0#Normal'}
+3hg7tf$cu75xto$cu7fqsl
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cu7pgj2~swayingdaisies': 'CIN0#trolling'}
+CRES: {'cu7pgj2~swayingdaisies': 'CRES3#Engage'}
+3fq68j$cts4ayx$ctsh0d9
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctsk7w7~LeonardoDaVincent': 'CIN0#trolling'}
+CRES: {'ctsk7w7~LeonardoDaVincent': 'CRES1#Frustrate'}
+3igj7w$cug7z6i$cug8bjw
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cugb421~heponatnokto': 'CIN2#notrolling'}
+CRES: {'cugb421~heponatnokto': 'CRES0#Normal'}
+3g2k3m$ctvc29e$ctvdqu4
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctvdzdt~darklinkuk': 'CIN0#trolling'}
+CRES: {'ctvdzdt~darklinkuk': 'CRES3#Engage'}
+3h53ob$cu4ljru$cu4pha6
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu4q6r5~Lots42': 'CIN0#trolling'}
+CRES: {'cu4q6r5~Lots42': 'CRES3#Engage'}
+3ibz69$3ibz69$cuf7y7e
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cufaox9~Snoozeybutton': 'CIN0#trolling'}
+CRES: {'cufaox9~Snoozeybutton': 'CRES2#Neutralize'}
+3g08j0$3g08j0$cttsj29
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cttu16f~StarDestinyGuy': 'CIN0#trolling'}
+CRES: {'cttu16f~StarDestinyGuy': 'CRES1#Frustrate'}
+3i6xvt$cueur0c$cuevfm5
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cuevhsc~acethunder21': 'CIN0#trolling'}
+CRES: {'cuevhsc~acethunder21': 'CRES2#Neutralize'}
+3hqyad$cua9h5o$cua9pxj
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cua9uy4~omgpieftw': 'CIN0#trolling', 'cua9uha~omgpieftw': 'CIN0#trolling'}
+CRES: {'cua9uy4~omgpieftw': 'CRES2#Neutralize', 'cua9uha~omgpieftw': 'CRES2#Neutralize'}
+3hnjs7$cu8xosb$cu8y0b8
+CON: ['CON1:hidden']
+AIN: ['AIN1#playing']
+CIN: {'cu90dc4~adifferenttimezone': 'CIN2#notrolling', 'cu8y43g~GraveMercy': 'CIN1#playing', 'cu8y2ph~doplebanger': 'CIN0#trolling'}
+CRES: {'cu90dc4~adifferenttimezone': 'CRES3#Engage', 'cu8y43g~GraveMercy': 'CRES5#Follow', 'cu8y2ph~doplebanger': 'CRES5#Follow'}
+3g9hdj$ctwjopu$ctwocuz
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctwohrm~cam_monster': 'CIN0#trolling', 'ctworku~Legario': 'CIN2#notrolling'}
+CRES: {'ctwohrm~cam_monster': 'CRES1#Frustrate', 'ctworku~Legario': 'CRES0#Normal'}
+3hru3e$cua0wn3$cua0ymz
+CON: ['CON1:hidden']
+AIN: ['AIN1#playing']
+CIN: {'cua14lg~Polyneophite': 'CIN2#notrolling', 'cua10w2~green31OSU': 'CIN1#playing', 'cua10io~Polyneophite': 'CIN2#notrolling'}
+CRES: {'cua14lg~Polyneophite': 'CRES3#Engage', 'cua10w2~green31OSU': 'CRES2#Neutralize', 'cua10io~Polyneophite': 'CRES3#Engage'}
+3ivxmn$cukki9n$cuklk9e
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cukmi57~mfukar': 'CIN0#trolling'}
+CRES: {'cukmi57~mfukar': 'CRES4#Troll'}
+3hftak$cu6z4un$cu6zkkb
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cu6zuqb~RetardedNarhwal': 'CIN0#trolling'}
+CRES: {'cu6zuqb~RetardedNarhwal': 'CRES6#Praise'}
+3g4rk7$ctut2ez$ctuvjpi
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctuvm82~Kristoph_McKane': 'CIN0#trolling'}
+CRES: {'ctuvm82~Kristoph_McKane': 'CRES3#Engage'}
+3hfu9x$cu77yt5$cu783jl
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu78a84~thunderkitty600': 'CIN2#notrolling'}
+CRES: {'cu78a84~thunderkitty600': 'CRES4#Troll'}
+3is5ze$cuj8qc8$cuj981p
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuj9gyq~of_the_brocean': 'CIN2#notrolling', 'cujb2hm~CubanMissileCrisis': 'CIN0#trolling'}
+CRES: {'cuj9gyq~of_the_brocean': 'CRES3#Engage', 'cujb2hm~CubanMissileCrisis': 'CRES4#Troll'}
+3i92ut$cueox7n$cuepizj
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuepqp5~i_will_cut_jew': 'CIN0#trolling'}
+CRES: {'cuepqp5~i_will_cut_jew': 'CRES3#Engage'}
+3foup4$ctr31wt$ctr3ims
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctr3tfu~arbys_crapper': 'CIN2#notrolling'}
+CRES: {'ctr3tfu~arbys_crapper': 'CRES3#Engage'}
+3hg5i5$cu74uxs$cu7gaqr
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu7iffu~babykillerthrowaway1': 'CIN0#trolling'}
+CRES: {'cu7iffu~babykillerthrowaway1': 'CRES3#Engage'}
+3hhrx3$cu7hx2v$cu7v9iq
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu7wnhp~HomoVehkuel': 'CIN2#notrolling'}
+CRES: {'cu7wnhp~HomoVehkuel': 'CRES0#Normal'}
+3hsovq$cuag1l7$cuag2vy
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuag5bn~brassmonkeyyy': 'CIN2#notrolling', 'cuag626~sayswtf': 'CIN0#trolling'}
+CRES: {'cuag5bn~brassmonkeyyy': 'CRES0#Normal', 'cuag626~sayswtf': 'CRES4#Troll'}
+3fg1ns$ctph1x7$ctpkc9n
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctpm5c4~Teethpasta': 'CIN2#notrolling'}
+CRES: {'ctpm5c4~Teethpasta': 'CRES4#Troll'}
+3hm6ix$3hm6ix$cu8uvi3
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cu8y2pr~Diabeatnik': 'CIN0#trolling', 'cu8xvgp~Knockers456': 'CIN2#notrolling'}
+CRES: {'cu8y2pr~Diabeatnik': 'CRES4#Troll', 'cu8xvgp~Knockers456': 'CRES3#Engage'}
+3ipqjn$cuim03c$cuim85n
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cuimuz7~GnarlyBellyButton69': 'CIN0#trolling'}
+CRES: {'cuimuz7~GnarlyBellyButton69': 'CRES3#Engage'}
+3h34vq$cu41x78$cu420jz
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu4224n~cheezychicken': 'CIN0#trolling'}
+CRES: {'cu4224n~cheezychicken': 'CRES1#Frustrate'}
+3hbx5j$cu6r1fh$cu6rm4j
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6wzwc~UnwrittenTycoon': 'CIN0#trolling'}
+CRES: {'cu6wzwc~UnwrittenTycoon': 'CRES2#Neutralize'}
+3fhf0q$3fhf0q$ctomr51
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctonm7q~IceCreamPirate': 'CIN0#trolling'}
+CRES: {'ctonm7q~IceCreamPirate': 'CRES1#Frustrate'}
+3iycke$3iycke$cuku3cx
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'culc634~SpaceyBening': 'CIN0#trolling', 'cukuztq~omimico': 'CIN2#notrolling'}
+CRES: {'culc634~SpaceyBening': 'CRES3#Engage', 'cukuztq~omimico': 'CRES4#Troll'}
+3iifa8$cugt6yt$cugu2qe
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuh7umo~DarkerTurtles': 'CIN0#trolling', 'cugubwa~livemau5': 'CIN2#notrolling', 'cuhflmr~rectec': 'CIN2#notrolling'}
+CRES: {'cuh7umo~DarkerTurtles': 'CRES6#Praise', 'cugubwa~livemau5': 'CRES0#Normal', 'cuhflmr~rectec': 'CRES3#Engage'}
+3g4jv2$ctz79qm$ctz7peq
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctz8my7~MaddenMan73': 'CIN0#trolling'}
+CRES: {'ctz8my7~MaddenMan73': 'CRES4#Troll'}
+3gluzo$ctzks1g$ctzlea4
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'ctzmtpt~HoggyLagoon': 'CIN1#playing'}
+CRES: {'ctzmtpt~HoggyLagoon': 'CRES5#Follow'}
+3gavj7$ctwmqmm$ctwtbxs
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctwwaok~RossaF1': 'CIN0#trolling'}
+CRES: {'ctwwaok~RossaF1': 'CRES3#Engage'}
+3gm44i$cu0mbgg$cu0so1c
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu0tiu6~Voggix': 'CIN0#trolling'}
+CRES: {'cu0tiu6~Voggix': 'CRES3#Engage'}
+3hbwef$cu6g2px$cu6mc7q
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6o949~raisedbysheep': 'CIN2#notrolling'}
+CRES: {'cu6o949~raisedbysheep': 'CRES0#Normal'}
+3fym7v$ctt6xdc$ctt83qp
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctt85ux~PM_ME_CLEAVAGE': 'CIN0#trolling', 'cttagk8~vinny420': 'CIN2#notrolling', 'ctt8cbw~pigeon56': 'CIN0#trolling'}
+CRES: {'ctt85ux~PM_ME_CLEAVAGE': 'CRES1#Frustrate', 'cttagk8~vinny420': 'CRES0#Normal', 'ctt8cbw~pigeon56': 'CRES1#Frustrate'}
+3ix79x$cukp6ae$cukph8x
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cukpikf~1893Chicago': 'CIN0#trolling', 'cukrmqr~tkms': 'CIN0#trolling'}
+CRES: {'cukpikf~1893Chicago': 'CRES3#Engage', 'cukrmqr~tkms': 'CRES1#Frustrate'}
+3fsdnx$ctrjjv2$ctscuqu
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctstlz9~Mattyyv': 'CIN2#notrolling'}
+CRES: {'ctstlz9~Mattyyv': 'CRES0#Normal'}
+3i9bzh$cuev8d4$cufbpsy
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cufjymf~Amethhyst': 'CIN0#trolling'}
+CRES: {'cufjymf~Amethhyst': 'CRES3#Engage'}
+3fcsiu$3fcsiu$ctng8gy
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctngh4o~ProudChinaFag': 'CIN0#trolling', 'ctngp45~ProudChinaFag': 'CIN0#trolling'}
+CRES: {'ctngh4o~ProudChinaFag': 'CRES4#Troll', 'ctngp45~ProudChinaFag': 'CRES4#Troll'}
+3ivvr5$cuk2lpp$cuk2s18
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuk2svd~SteamySlugma': 'CIN2#notrolling'}
+CRES: {'cuk2svd~SteamySlugma': 'CRES0#Normal'}
+3i0n5p$cuca2jq$cucc1vu
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cuccdy3~Nendow': 'CIN0#trolling'}
+CRES: {'cuccdy3~Nendow': 'CRES3#Engage'}
+3gf9xk$ctxroyv$ctxrxua
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctxuwzz~wooahh': 'CIN0#trolling'}
+CRES: {'ctxuwzz~wooahh': 'CRES2#Neutralize'}
+3hkmom$cu8516p$cu852ra
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu8aijm~JimmyRust': 'CIN2#notrolling', 'cu853yf~Nestledrink': 'CIN0#trolling'}
+CRES: {'cu8aijm~JimmyRust': 'CRES0#Normal', 'cu853yf~Nestledrink': 'CRES2#Neutralize'}
+3it6kh$cujj1mv$cujllx5
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cujlwep~afidak': 'CIN2#notrolling'}
+CRES: {'cujlwep~afidak': 'CRES4#Troll'}
+3iwzw0$cukddo2$cukiaz8
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cukizfh~blackarmchair': 'CIN2#notrolling'}
+CRES: {'cukizfh~blackarmchair': 'CRES0#Normal'}
+3if2lv$cufzpkz$cug06p6
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cug611b~minddagapz': 'CIN0#trolling'}
+CRES: {'cug611b~minddagapz': 'CRES3#Engage'}
+3h5oec$cu4ixh7$cu4js84
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu4k814~Abscess2': 'CIN0#trolling'}
+CRES: {'cu4k814~Abscess2': 'CRES1#Frustrate'}
+3ix4bq$3ix4bq$cukraad
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cul7aw1~youareahomo': 'CIN0#trolling', 'cukw0fg~itssydneyy': 'CIN0#trolling', 'cuksnrz~iTurnUp4Turnips': 'CIN0#trolling'}
+CRES: {'cul7aw1~youareahomo': 'CRES4#Troll', 'cukw0fg~itssydneyy': 'CRES3#Engage', 'cuksnrz~iTurnUp4Turnips': 'CRES4#Troll'}
+3hpy08$cua75yh$cuaqjl7
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuar894~enigmaman49': 'CIN0#trolling'}
+CRES: {'cuar894~enigmaman49': 'CRES3#Engage'}
+3hu4tg$cuaskyh$cuassxx
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cuastc8~thankyoudrsarno': 'CIN0#trolling'}
+CRES: {'cuastc8~thankyoudrsarno': 'CRES1#Frustrate'}
+3it8xy$cujtkov$cujv047
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuk0qkp~shorty_cant_surf': 'CIN2#notrolling'}
+CRES: {'cuk0qkp~shorty_cant_surf': 'CRES0#Normal'}
+3iottj$cuitasj$cuiti8f
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuits39~Murderrsoccermods': 'CIN0#trolling'}
+CRES: {'cuits39~Murderrsoccermods': 'CRES1#Frustrate'}
+3g4zf2$3g4zf2$ctuuzkf
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'ctuv59t~adamdharrington': 'CIN1#playing'}
+CRES: {'ctuv59t~adamdharrington': 'CRES6#Praise'}
+3hs6vc$cub462a$cub6owb
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cub72n4~kingfirley': 'CIN0#trolling'}
+CRES: {'cub72n4~kingfirley': 'CRES4#Troll'}
+3irlz8$cujg1ee$cujg5hx
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cujghhv~Tischlampe': 'CIN0#trolling'}
+CRES: {'cujghhv~Tischlampe': 'CRES3#Engage'}
+3ilizp$cuhl8p5$cuhp6sq
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuhpdbg~Triboluminescent': 'CIN0#trolling'}
+CRES: {'cuhpdbg~Triboluminescent': 'CRES3#Engage'}
+3fdlrl$cto10e7$ctoe2kq
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctof37k~worduphomefry': 'CIN2#notrolling', 'ctp1049~Hell_Brigade': 'CIN0#trolling'}
+CRES: {'ctof37k~worduphomefry': 'CRES0#Normal', 'ctp1049~Hell_Brigade': 'CRES4#Troll'}
+3fw23l$ctswyzp$ctsx3q9
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctsxaq0~kochevnikov': 'CIN0#trolling'}
+CRES: {'ctsxaq0~kochevnikov': 'CRES4#Troll'}
+3hucbe$cuan4o3$cuappqi
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuasm7i~Wh00ligan': 'CIN2#notrolling', 'cub29np~janetar': 'CIN2#notrolling'}
+CRES: {'cuasm7i~Wh00ligan': 'CRES0#Normal', 'cub29np~janetar': 'CRES0#Normal'}
+3ilrpb$cuhrmvc$cui215e
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cui32h5~Aescholus': 'CIN0#trolling'}
+CRES: {'cui32h5~Aescholus': 'CRES3#Engage'}
+3hpc4j$cua93wo$cuaaxw0
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cuafjw1~lakelurk': 'CIN0#trolling', 'cuab6qt~Fishums1': 'CIN0#trolling'}
+CRES: {'cuafjw1~lakelurk': 'CRES2#Neutralize', 'cuab6qt~Fishums1': 'CRES6#Praise'}
+3hmn5z$cu8t2h0$cu8v4aw
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cu96hyx~liveawkwardly': 'CIN0#trolling'}
+CRES: {'cu96hyx~liveawkwardly': 'CRES3#Engage'}
+3he0ui$cu6mnkk$cu6ms17
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6mu0m~eanew': 'CIN2#notrolling'}
+CRES: {'cu6mu0m~eanew': 'CRES4#Troll'}
+3hko8z$cu8dcph$cu8dhhg
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu8m6f3~idiotseparator': 'CIN0#trolling'}
+CRES: {'cu8m6f3~idiotseparator': 'CRES6#Praise'}
+3hku9b$cu8troj$cu9eab9
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu9jhx1~Milkpulp': 'CIN0#trolling'}
+CRES: {'cu9jhx1~Milkpulp': 'CRES3#Engage'}
+3iu9nj$cujttyt$cujwnm5
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cujwvxr~Osiris32': 'CIN0#trolling', 'cujwwqj~pyanes93': 'CIN2#notrolling'}
+CRES: {'cujwvxr~Osiris32': 'CRES1#Frustrate', 'cujwwqj~pyanes93': 'CRES3#Engage'}
+3il753$cuheja9$cuhk7g4
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuhksvz~soebek': 'CIN0#trolling', 'cuho9js~IceVest': 'CIN0#trolling'}
+CRES: {'cuhksvz~soebek': 'CRES4#Troll', 'cuho9js~IceVest': 'CRES1#Frustrate'}
+3fq6on$ctqyt5s$ctqyvzx
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctqz0ng~fuckmanimsofucked': 'CIN0#trolling', 'ctr17f9~urbanage': 'CIN2#notrolling'}
+CRES: {'ctqz0ng~fuckmanimsofucked': 'CRES6#Praise', 'ctr17f9~urbanage': 'CRES0#Normal'}
+3hc9j9$cu6aysr$cu6bdcp
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6c6d1~socialjusticeorc': 'CIN0#trolling'}
+CRES: {'cu6c6d1~socialjusticeorc': 'CRES3#Engage'}
+3ftci1$cts1oxi$cts1pai
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cts2g4u~Dynamiklol': 'CIN0#trolling', 'cts1wc9~DirtyPerrier': 'CIN2#notrolling'}
+CRES: {'cts2g4u~Dynamiklol': 'CRES1#Frustrate', 'cts1wc9~DirtyPerrier': 'CRES0#Normal'}
+3hj4jk$cu8neai$cu8nw43
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu90dtw~Beastabuelos': 'CIN0#trolling'}
+CRES: {'cu90dtw~Beastabuelos': 'CRES4#Troll'}
+3g4taw$3g4taw$ctvglth
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctvlsl5~Reclaimer_117': 'CIN0#trolling'}
+CRES: {'ctvlsl5~Reclaimer_117': 'CRES3#Engage'}
+3hu586$cubiydn$cubiyzp
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cubj1vj~imallin': 'CIN0#trolling'}
+CRES: {'cubj1vj~imallin': 'CRES3#Engage'}
+3ip23l$cuigm7a$cuign8b
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cuijgva~Blazicus': 'CIN0#trolling', 'cuigso8~TheGoshDarnedBatman': 'CIN2#notrolling', 'cuiho7q~Zaargg': 'CIN0#trolling'}
+CRES: {'cuijgva~Blazicus': 'CRES1#Frustrate', 'cuigso8~TheGoshDarnedBatman': 'CRES3#Engage', 'cuiho7q~Zaargg': 'CRES3#Engage'}
+3iuq83$cuk1ltr$cuk1n37
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cuk3rxa~TasteTheRaimbow': 'CIN1#playing', 'cuk1sob~OGSnowflake': 'CIN1#playing'}
+CRES: {'cuk3rxa~TasteTheRaimbow': 'CRES0#Normal', 'cuk1sob~OGSnowflake': 'CRES5#Follow'}
+3gr6ig$cu0u2dq$cu0vvys
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu185vb~AlabamaLegsweep': 'CIN2#notrolling', 'cu12b33~televisionceo': 'CIN0#trolling'}
+CRES: {'cu185vb~AlabamaLegsweep': 'CRES0#Normal', 'cu12b33~televisionceo': 'CRES1#Frustrate'}
+3hl4se$3hl4se$cu8kdts
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cu8mwi7~SirKlokkwork': 'CIN1#playing'}
+CRES: {'cu8mwi7~SirKlokkwork': 'CRES6#Praise'}
+3g88a9$ctw3gf4$ctw3its
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctwm6qw~_Gehirn_': 'CIN2#notrolling'}
+CRES: {'ctwm6qw~_Gehirn_': 'CRES0#Normal'}
+3fghyy$ctoe43d$ctoeej3
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctoey8o~HumanMilkshake': 'CIN2#notrolling'}
+CRES: {'ctoey8o~HumanMilkshake': 'CRES0#Normal'}
+3hnz09$cu93c6v$cu93gjx
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu93kbe~conbini_nikuman': 'CIN2#notrolling', 'cu99xo1~Bumwax': 'CIN0#trolling'}
+CRES: {'cu93kbe~conbini_nikuman': 'CRES4#Troll', 'cu99xo1~Bumwax': 'CRES1#Frustrate'}
+3igni2$cugoi7o$cugosov
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cugpedg~kamoras': 'CIN0#trolling'}
+CRES: {'cugpedg~kamoras': 'CRES4#Troll'}
+3fxi5z$cttao68$cttavob
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cttazq9~TelFiRE': 'CIN0#trolling'}
+CRES: {'cttazq9~TelFiRE': 'CRES3#Engage'}
+3i1xbd$cucxzc7$cucy4d3
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cucz41w~Jimla': 'CIN0#trolling'}
+CRES: {'cucz41w~Jimla': 'CRES2#Neutralize'}
+3i2xnr$cucyo7y$cudac76
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuedtk8~AtlasDM': 'CIN2#notrolling', 'cudqb9a~ithinkimtim': 'CIN2#notrolling'}
+CRES: {'cuedtk8~AtlasDM': 'CRES3#Engage', 'cudqb9a~ithinkimtim': 'CRES0#Normal'}
+3hpmga$cuaa7bn$cual28u
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuan8mu~Aeiy': 'CIN2#notrolling'}
+CRES: {'cuan8mu~Aeiy': 'CRES4#Troll'}
+3ic2iw$cugtjhs$cugunqp
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cugv6x9~AdamPhool': 'CIN0#trolling'}
+CRES: {'cugv6x9~AdamPhool': 'CRES4#Troll'}
+3gvb0l$cu2s6bm$cu33bi2
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cu361nl~BabyRingtail': 'CIN0#trolling'}
+CRES: {'cu361nl~BabyRingtail': 'CRES2#Neutralize'}
+3hayxt$cu6uieu$cu6uk99
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6ulqh~chrisps989': 'CIN0#trolling'}
+CRES: {'cu6ulqh~chrisps989': 'CRES3#Engage'}
+3fs53q$ctrg2ky$ctrg6da
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctrhb6c~DoctorSalad': 'CIN0#trolling', 'ctrgkit~towaway989': 'CIN2#notrolling', 'ctrp0s8~midgetpenguin': 'CIN2#notrolling'}
+CRES: {'ctrhb6c~DoctorSalad': 'CRES3#Engage', 'ctrgkit~towaway989': 'CRES0#Normal', 'ctrp0s8~midgetpenguin': 'CRES0#Normal'}
+3iq5fb$cuize4t$cuizixi
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuj3px4~YouMad': 'CIN0#trolling', 'cuj09h2~rdeluca': 'CIN2#notrolling'}
+CRES: {'cuj3px4~YouMad': 'CRES6#Praise', 'cuj09h2~rdeluca': 'CRES0#Normal'}
+3hhjvp$cu7fpy1$cu7fvs1
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu7fyi7~Abso69': 'CIN0#trolling', 'cu7h48b~kingkang1988': 'CIN2#notrolling'}
+CRES: {'cu7fyi7~Abso69': 'CRES2#Neutralize', 'cu7h48b~kingkang1988': 'CRES0#Normal'}
+3gvvku$cu2n5bz$cu2nn7l
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu2q6lq~dcb2821': 'CIN2#notrolling', 'cu2orcg~TaTaToothey': 'CIN2#notrolling', 'cu2orn4~jackavsfan': 'CIN0#trolling'}
+CRES: {'cu2q6lq~dcb2821': 'CRES0#Normal', 'cu2orcg~TaTaToothey': 'CRES0#Normal', 'cu2orn4~jackavsfan': 'CRES6#Praise'}
+3hcwis$cu6hfo7$cu6ubrg
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu76j0p~suburban_scum': 'CIN2#notrolling'}
+CRES: {'cu76j0p~suburban_scum': 'CRES4#Troll'}
+3hkm0k$cu9d07l$cuflfpu
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cug37co~glottony': 'CIN0#trolling'}
+CRES: {'cug37co~glottony': 'CRES2#Neutralize'}
+3hba5p$3hba5p$cu5uhu1
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu5v1id~moving_target': 'CIN0#trolling'}
+CRES: {'cu5v1id~moving_target': 'CRES3#Engage'}
+3hrgid$cuc07ic$cuc3w1u
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuc67ci~Eddard_Karstark': 'CIN0#trolling'}
+CRES: {'cuc67ci~Eddard_Karstark': 'CRES2#Neutralize'}
+3hbu6s$cu60toy$cu67o3j
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu68msy~iammrinal0': 'CIN2#notrolling'}
+CRES: {'cu68msy~iammrinal0': 'CRES0#Normal'}
+3hh3k5$cu7c1pc$cu7judo
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu7mjgd~jordash25': 'CIN0#trolling', 'cu7le85~deleted': 'CIN0#trolling'}
+CRES: {'cu7mjgd~jordash25': 'CRES3#Engage', 'cu7le85~deleted': 'CRES5#Follow'}
+3hq4ix$cu9rbac$cu9ulpk
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu9usho~deleted': 'CIN2#notrolling', 'cua0bi8~EuropaIrredenta': 'CIN0#trolling'}
+CRES: {'cu9usho~deleted': 'CRES0#Normal', 'cua0bi8~EuropaIrredenta': 'CRES1#Frustrate'}
+3hpess$cu9fabs$cu9grkm
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cu9hgt5~Drolykz': 'CIN1#playing'}
+CRES: {'cu9hgt5~Drolykz': 'CRES1#Frustrate'}
+3hqk8k$cu9vl82$cua2fae
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cua2tv8~Long_dan': 'CIN0#trolling'}
+CRES: {'cua2tv8~Long_dan': 'CRES3#Engage'}
+3ios01$cuiv736$cuiwqya
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cujfdzv~Lilkriz': 'CIN0#trolling', 'cuiyl1y~cms9690': 'CIN0#trolling'}
+CRES: {'cujfdzv~Lilkriz': 'CRES5#Follow', 'cuiyl1y~cms9690': 'CRES1#Frustrate'}
+3fj1n9$3fj1n9$ctpbmp8
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctpdhyc~artimusMaxpressure': 'CIN0#trolling', 'ctpivbx~ThorneLea': 'CIN0#trolling'}
+CRES: {'ctpdhyc~artimusMaxpressure': 'CRES2#Neutralize', 'ctpivbx~ThorneLea': 'CRES1#Frustrate'}
+3i6y22$cufbcu3$cufckkn
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cufd1l3~Hughjarse': 'CIN0#trolling'}
+CRES: {'cufd1l3~Hughjarse': 'CRES3#Engage'}
+3h919a$cu5z2ok$cu5zcea
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu5zgzg~Dancatpro': 'CIN0#trolling'}
+CRES: {'cu5zgzg~Dancatpro': 'CRES1#Frustrate'}
+3hbqd2$3hbqd2$cu5yem0
+CON: ['CON2:none']
+AIN: ['AIN0#trolling']
+CIN: {'cu62t2g~ThinKrisps': 'CIN2#notrolling'}
+CRES: {'cu62t2g~ThinKrisps': 'CRES0#Normal'}
+3is03r$cujke5p$cujkhfq
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cujx5n2~Hurriname': 'CIN2#notrolling'}
+CRES: {'cujx5n2~Hurriname': 'CRES0#Normal'}
+3fshrx$3fshrx$ctrzz4o
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctsv5py~catalytica': 'CIN0#trolling'}
+CRES: {'ctsv5py~catalytica': 'CRES6#Praise'}
+3i7ilp$cudz2t3$cudziwn
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cue2n4z~FZero68': 'CIN2#notrolling', 'cudzxe0~Cyralea': 'CIN2#notrolling'}
+CRES: {'cue2n4z~FZero68': 'CRES0#Normal', 'cudzxe0~Cyralea': 'CRES4#Troll'}
+3hh6f3$cu7hxrw$cu7hyxj
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cu7iekg~BushPrintzle_': 'CIN0#trolling', 'cu7kykj~jackwoww': 'CIN0#trolling'}
+CRES: {'cu7iekg~BushPrintzle_': 'CRES3#Engage', 'cu7kykj~jackwoww': 'CRES1#Frustrate'}
+3hvglg$cuawere$cuawkpa
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cuaxd5u~cptSMU': 'CIN2#notrolling', 'cuaxj5j~RIC_FLAIR_WOOO': 'CIN2#notrolling', 'cuawt5q~Giaccherinho': 'CIN1#playing'}
+CRES: {'cuaxd5u~cptSMU': 'CRES0#Normal', 'cuaxj5j~RIC_FLAIR_WOOO': 'CRES0#Normal', 'cuawt5q~Giaccherinho': 'CRES6#Praise'}
+3is3re$cujkeec$cujkn6o
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cujkq4g~xFluffDawg': 'CIN0#trolling'}
+CRES: {'cujkq4g~xFluffDawg': 'CRES3#Engage'}
+3iq8rc$cuiml5b$cuimot8
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuin2bk~dfjsdff': 'CIN0#trolling'}
+CRES: {'cuin2bk~dfjsdff': 'CRES1#Frustrate'}
+3ik4p1$cujgvqk$cujh7wx
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuk9qvt~LiquidCatnip': 'CIN0#trolling'}
+CRES: {'cuk9qvt~LiquidCatnip': 'CRES3#Engage'}
+3i2dmd$cucss13$cuct9j6
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuctav9~BreakFarst': 'CIN2#notrolling'}
+CRES: {'cuctav9~BreakFarst': 'CRES4#Troll'}
+3fxvze$cttcwz1$cttfd27
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cttg2li~deleted': 'CIN2#notrolling'}
+CRES: {'cttg2li~deleted': 'CRES0#Normal'}
+3fx1by$ctt63r0$ctt6bul
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctt6kji~marcAnthem': 'CIN0#trolling'}
+CRES: {'ctt6kji~marcAnthem': 'CRES1#Frustrate'}
+3h48vl$cu431jt$cu4ar37
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu4ax31~_EC3_': 'CIN0#trolling'}
+CRES: {'cu4ax31~_EC3_': 'CRES3#Engage'}
+3i8hq8$cug9rng$cug9vna
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cugc9w6~SeeYouInSeptember': 'CIN2#notrolling'}
+CRES: {'cugc9w6~SeeYouInSeptember': 'CRES4#Troll'}
+3glj93$ctzqiu3$ctzr8cu
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctzrclj~Slacquer': 'CIN2#notrolling'}
+CRES: {'ctzrclj~Slacquer': 'CRES4#Troll'}
+3fhpwd$ctouuwp$ctouvk2
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctouwsb~TeaLiger': 'CIN0#trolling'}
+CRES: {'ctouwsb~TeaLiger': 'CRES4#Troll'}
+3igfrk$cug8mkp$cug8ujr
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuga3c3~sollniss': 'CIN0#trolling'}
+CRES: {'cuga3c3~sollniss': 'CRES3#Engage'}
+3i0qpa$cue7yzj$cuef0jy
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cueo5z7~Omega_Molecule': 'CIN2#notrolling'}
+CRES: {'cueo5z7~Omega_Molecule': 'CRES4#Troll'}
+3i9dv6$cuf2yka$cuf3cdp
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cuf3qbr~Mdogg2005': 'CIN2#notrolling', 'cufde30~NunoM': 'CIN1#playing'}
+CRES: {'cuf3qbr~Mdogg2005': 'CRES0#Normal', 'cufde30~NunoM': 'CRES5#Follow'}
+3hxcvd$cuck000$cuckazk
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cuckktl~idapitbwidiuatabip': 'CIN0#trolling'}
+CRES: {'cuckktl~idapitbwidiuatabip': 'CRES1#Frustrate'}
+3gfbq9$ctxodu3$ctxoqlr
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'ctxos7m~Ellenpaosfishface': 'CIN2#notrolling', 'ctxoss8~Yoloaccount1234': 'CIN2#notrolling'}
+CRES: {'ctxos7m~Ellenpaosfishface': 'CRES3#Engage', 'ctxoss8~Yoloaccount1234': 'CRES0#Normal'}
+3ipox7$cuijq9v$cuijtwh
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuj2dzn~Hooty__McBoob': 'CIN0#trolling', 'cuikgxm~Congzilla': 'CIN0#trolling'}
+CRES: {'cuj2dzn~Hooty__McBoob': 'CRES4#Troll', 'cuikgxm~Congzilla': 'CRES4#Troll'}
+3hq8mr$cu9rnv1$cua52h6
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cua6tom~BoneChillington': 'CIN2#notrolling', 'cuae5w0~PM_PICS_OF_HITLER': 'CIN0#trolling'}
+CRES: {'cua6tom~BoneChillington': 'CRES0#Normal', 'cuae5w0~PM_PICS_OF_HITLER': 'CRES3#Engage'}
+3hw17m$cubga3w$cubl3eg
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cubneq0~rainbowbucket': 'CIN0#trolling'}
+CRES: {'cubneq0~rainbowbucket': 'CRES4#Troll'}
+3ftbec$ctrtpig$ctsia68
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctsj5hf~324404599': 'CIN0#trolling'}
+CRES: {'ctsj5hf~324404599': 'CRES3#Engage'}
+3hm98c$cu8ocg0$cu99ada
+CON: ['CON1:hidden']
+AIN: ['AIN1#playing']
+CIN: {'cu9ccf9~Rivin64': 'CIN2#notrolling'}
+CRES: {'cu9ccf9~Rivin64': 'CRES3#Engage'}
+3idhg5$cuffsff$cuffvny
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cufg0su~RSM34': 'CIN0#trolling'}
+CRES: {'cufg0su~RSM34': 'CRES2#Neutralize'}
+3fnzj3$ctrncrt$ctrnp00
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctrns3v~PenisInBlender': 'CIN0#trolling'}
+CRES: {'ctrns3v~PenisInBlender': 'CRES3#Engage'}
+3gflix$ctyw38o$ctz1f75
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'ctz4zo1~learnyouahaskell': 'CIN0#trolling'}
+CRES: {'ctz4zo1~learnyouahaskell': 'CRES2#Neutralize'}
+3ibs2t$cufex0y$cuffdic
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cufflte~AnonymousMaleZero': 'CIN2#notrolling', 'cug02z8~hacksbeenjamin': 'CIN2#notrolling'}
+CRES: {'cufflte~AnonymousMaleZero': 'CRES0#Normal', 'cug02z8~hacksbeenjamin': 'CRES4#Troll'}
+3fpv0n$3fpv0n$cts5ndr
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctu8h6p~ItsJustJoss': 'CIN2#notrolling'}
+CRES: {'ctu8h6p~ItsJustJoss': 'CRES0#Normal'}
+3hqzv7$cub3sko$cub40t9
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cub52id~xhopesfall24': 'CIN0#trolling'}
+CRES: {'cub52id~xhopesfall24': 'CRES2#Neutralize'}
+3hah39$cu5p59g$cu5pv8f
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu5pxmz~czhihong': 'CIN2#notrolling'}
+CRES: {'cu5pxmz~czhihong': 'CRES0#Normal'}
+3hieet$cubcl7e$cubp3dv
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cubpfcm~VaguerCrusader': 'CIN0#trolling'}
+CRES: {'cubpfcm~VaguerCrusader': 'CRES4#Troll'}
+3hmx2h$cu8twwv$cu8tyx0
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cu8u9i3~genYESide': 'CIN0#trolling', 'cu8u9xv~genYESide': 'CIN0#trolling'}
+CRES: {'cu8u9i3~genYESide': 'CRES3#Engage', 'cu8u9xv~genYESide': 'CRES3#Engage'}
+3hyomk$cubuc6c$cubv88q
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuc3ana~The_Sven': 'CIN0#trolling', 'cubyr34~science_the_bear': 'CIN2#notrolling'}
+CRES: {'cuc3ana~The_Sven': 'CRES3#Engage', 'cubyr34~science_the_bear': 'CRES0#Normal'}
+3g2ylc$ctud6wx$ctud7tj
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctudixu~Buddhamama42': 'CIN2#notrolling', 'ctujw66~maidrin': 'CIN2#notrolling'}
+CRES: {'ctudixu~Buddhamama42': 'CRES0#Normal', 'ctujw66~maidrin': 'CRES0#Normal'}
+3fmacd$ctpwfqr$ctpworq
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctpxvne~Pich23': 'CIN0#trolling'}
+CRES: {'ctpxvne~Pich23': 'CRES3#Engage'}
+3fq2c4$ctspkf1$ctt1g6p
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctt7va7~ScrabCrab': 'CIN0#trolling'}
+CRES: {'ctt7va7~ScrabCrab': 'CRES3#Engage'}
+3hdnu9$cu6pmo0$cu6r8ll
+CON: ['CON1:hidden']
+AIN: ['AIN1#playing']
+CIN: {'cu746q3~oEMPYREo': 'CIN0#trolling'}
+CRES: {'cu746q3~oEMPYREo': 'CRES6#Praise'}
+3is4uj$cuj8yd7$cujdfys
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cujdje1~RNAPII': 'CIN0#trolling'}
+CRES: {'cujdje1~RNAPII': 'CRES1#Frustrate'}
+3if5vf$3if5vf$cufzxue
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cugb1t6~Wangchief': 'CIN2#notrolling'}
+CRES: {'cugb1t6~Wangchief': 'CRES0#Normal'}
+3hdkhk$cu6hwvq$cu6i1be
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu6i6jd~deleted': 'CIN2#notrolling', 'cu6m8t9~thanks_for_the_fish': 'CIN0#trolling'}
+CRES: {'cu6i6jd~deleted': 'CRES3#Engage', 'cu6m8t9~thanks_for_the_fish': 'CRES2#Neutralize'}
+3fhcf0$ctp111o$ctpbjzo
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctpeo8a~legalizehazing': 'CIN0#trolling'}
+CRES: {'ctpeo8a~legalizehazing': 'CRES3#Engage'}
+3id4s1$cug8s72$cug8swd
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cug9ash~BuddhaRocks': 'CIN0#trolling'}
+CRES: {'cug9ash~BuddhaRocks': 'CRES3#Engage'}
+3hkxlh$cu8c32a$cu8c6v4
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu8cbmp~2unique4suicide': 'CIN0#trolling'}
+CRES: {'cu8cbmp~2unique4suicide': 'CRES1#Frustrate'}
+3heqtc$cu6rhy7$cu6uthq
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu6uxkm~Zavasta': 'CIN2#notrolling', 'cu6uyb6~TheTazerPanda': 'CIN0#trolling', 'cu7jhhu~SyzbuH': 'CIN2#notrolling'}
+CRES: {'cu6uxkm~Zavasta': 'CRES0#Normal', 'cu6uyb6~TheTazerPanda': 'CRES3#Engage', 'cu7jhhu~SyzbuH': 'CRES3#Engage'}
+3gkug6$ctz4yai$ctz50es
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctz56ix~jmconee': 'CIN0#trolling'}
+CRES: {'ctz56ix~jmconee': 'CRES3#Engage'}
+3fqwuq$ctrhwy7$ctrhz9f
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'ctri1t5~Sp00ch123': 'CIN0#trolling'}
+CRES: {'ctri1t5~Sp00ch123': 'CRES3#Engage'}
+3hboqh$cu5z8nt$cu5znch
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6ak1s~deleted': 'CIN0#trolling'}
+CRES: {'cu6ak1s~deleted': 'CRES6#Praise'}
+3fn6vd$3fn6vd$ctq8ven
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctq9tao~Deka145': 'CIN0#trolling'}
+CRES: {'ctq9tao~Deka145': 'CRES1#Frustrate'}
+3hgkdk$3hgkdk$cu759zm
+CON: ['CON1:hidden']
+AIN: ['AIN1#playing']
+CIN: {'cu75fll~OblvThorns': 'CIN0#trolling'}
+CRES: {'cu75fll~OblvThorns': 'CRES3#Engage'}
+3i6kuk$cudwuf7$cudyb6v
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cudz1ch~JohnnySwimm': 'CIN1#playing'}
+CRES: {'cudz1ch~JohnnySwimm': 'CRES0#Normal'}
+3hcmvr$cu6p3ob$cu6pdln
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cu6qglv~TEARANUSSOREASSREKT': 'CIN0#trolling', 'cu6pti5~utouchme': 'CIN0#trolling'}
+CRES: {'cu6qglv~TEARANUSSOREASSREKT': 'CRES1#Frustrate', 'cu6pti5~utouchme': 'CRES4#Troll'}
+3fnfgl$cts35yw$cts3fm0
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctso8pp~hipsterdill': 'CIN0#trolling'}
+CRES: {'ctso8pp~hipsterdill': 'CRES3#Engage'}
+3hc4sy$cu74fzb$cu75f3b
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu75n4b~Drapetomania': 'CIN2#notrolling'}
+CRES: {'cu75n4b~Drapetomania': 'CRES0#Normal'}
+3irrdy$cuj5xrt$cuj6rf6
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuj6x64~hissak': 'CIN0#trolling'}
+CRES: {'cuj6x64~hissak': 'CRES4#Troll'}
+3hevwa$cu6s973$cu6s9kf
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6sged~_BitcoinXT_': 'CIN0#trolling', 'cu6sb53~Mike_Hearn': 'CIN0#trolling'}
+CRES: {'cu6sged~_BitcoinXT_': 'CRES1#Frustrate', 'cu6sb53~Mike_Hearn': 'CRES3#Engage'}
+3is96b$cujh1f1$cujh2fx
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cujhb9e~inekarma': 'CIN0#trolling'}
+CRES: {'cujhb9e~inekarma': 'CRES3#Engage'}
+3hqsnl$cu9pi9a$cu9pm5u
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuapa9u~RedditMan77': 'CIN0#trolling'}
+CRES: {'cuapa9u~RedditMan77': 'CRES3#Engage'}
+3hvoit$cubakx7$cubb8uu
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuc196f~Terraxos': 'CIN0#trolling'}
+CRES: {'cuc196f~Terraxos': 'CRES1#Frustrate'}
+3h72v5$cu4v3oq$cu4v6gc
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu4whmn~celestial1': 'CIN0#trolling'}
+CRES: {'cu4whmn~celestial1': 'CRES2#Neutralize'}
+3i0h2b$3i0h2b$cucgtww
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cuci50r~wee0x1b': 'CIN0#trolling', 'cuchpj5~ihave_problems': 'CIN0#trolling'}
+CRES: {'cuci50r~wee0x1b': 'CRES4#Troll', 'cuchpj5~ihave_problems': 'CRES3#Engage'}
+3he7up$cu6nbu5$cu6nz9b
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu6o14z~TheEqsuire': 'CIN0#trolling'}
+CRES: {'cu6o14z~TheEqsuire': 'CRES3#Engage'}
+3hzq90$3hzq90$cuc4adq
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuc5ate~Ihateallgigginox': 'CIN0#trolling'}
+CRES: {'cuc5ate~Ihateallgigginox': 'CRES4#Troll'}
+3hc8q4$cu6huhc$cu6i4r3
+CON: ['CON2:none']
+AIN: ['AIN0#trolling']
+CIN: {'cu6kqkn~laposte': 'CIN0#trolling'}
+CRES: {'cu6kqkn~laposte': 'CRES2#Neutralize'}
+3ibyym$cug0nec$cug0nyy
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cug0qsv~MakhnoYouDidnt': 'CIN0#trolling'}
+CRES: {'cug0qsv~MakhnoYouDidnt': 'CRES3#Engage'}
+3hsygl$cuba4y4$cubaj1o
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cubaol5~Know_What_Fvck_This': 'CIN0#trolling'}
+CRES: {'cubaol5~Know_What_Fvck_This': 'CRES4#Troll'}
+3iwctp$cuk7i9h$cuk8wew
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuk926b~ContraKiller23': 'CIN0#trolling'}
+CRES: {'cuk926b~ContraKiller23': 'CRES1#Frustrate'}
+3fxvua$ctt16v7$ctt1a7y
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctt1p90~VeggieWombat': 'CIN0#trolling'}
+CRES: {'ctt1p90~VeggieWombat': 'CRES3#Engage'}
+3fx29d$3fx29d$ctsr3ek
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctsr62w~ghmorello': 'CIN0#trolling', 'ctstwdb~ghmorello': 'CIN0#trolling'}
+CRES: {'ctsr62w~ghmorello': 'CRES3#Engage', 'ctstwdb~ghmorello': 'CRES3#Engage'}
+3hrjrv$cua4qwn$cua4uuv
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cua530q~pllllllllllllllllll': 'CIN2#notrolling'}
+CRES: {'cua530q~pllllllllllllllllll': 'CRES3#Engage'}
+3i4ifo$cud7mwa$cud8eha
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cud8kxv~MikeMcNorv': 'CIN0#trolling', 'cud9sdu~esoteryk': 'CIN0#trolling', 'cud8nrw~LedZepp42': 'CIN0#trolling'}
+CRES: {'cud8kxv~MikeMcNorv': 'CRES3#Engage', 'cud9sdu~esoteryk': 'CRES4#Troll', 'cud8nrw~LedZepp42': 'CRES4#Troll'}
+3im6j4$cuj0ge3$cuj0psp
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cuj0ury~ScrabCrab': 'CIN0#trolling'}
+CRES: {'cuj0ury~ScrabCrab': 'CRES4#Troll'}
+3hq1ze$cua9jvc$cua9o0v
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cua9uvq~RicoSoularFly': 'CIN0#trolling'}
+CRES: {'cua9uvq~RicoSoularFly': 'CRES3#Engage'}
+3hqnsw$cu9q6um$cu9sulm
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu9un7y~drios1': 'CIN2#notrolling'}
+CRES: {'cu9un7y~drios1': 'CRES4#Troll'}
+3h35uu$cu4280x$cu43aw7
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu43gcw~lysii': 'CIN0#trolling'}
+CRES: {'cu43gcw~lysii': 'CRES1#Frustrate'}
+3iq5kd$cuir92c$cuird8z
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cuirg97~convoy465': 'CIN1#playing', 'cuivc69~THIEVINGKNIGHT': 'CIN1#playing'}
+CRES: {'cuirg97~convoy465': 'CRES5#Follow', 'cuivc69~THIEVINGKNIGHT': 'CRES3#Engage'}
+3hh5mj$cu7en80$cu7ht4x
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu7ih22~xAekov': 'CIN0#trolling'}
+CRES: {'cu7ih22~xAekov': 'CRES4#Troll'}
+3ic9fl$cuf4b24$cufbbdp
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cufbjss~TheSeaOfThySoul': 'CIN2#notrolling'}
+CRES: {'cufbjss~TheSeaOfThySoul': 'CRES0#Normal'}
+3i7olq$cue0ye8$cue6esc
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cue6rmp~thorizzle117': 'CIN0#trolling'}
+CRES: {'cue6rmp~thorizzle117': 'CRES3#Engage'}
+3imdu8$cuhqbgu$cui9dnk
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cui9sju~Conservative_Horse': 'CIN0#trolling'}
+CRES: {'cui9sju~Conservative_Horse': 'CRES3#Engage'}
+3ixabz$cukoflh$cukpef1
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cukpmga~postingstuff': 'CIN0#trolling', 'cukpkk4~jmerridew124': 'CIN0#trolling'}
+CRES: {'cukpmga~postingstuff': 'CRES4#Troll', 'cukpkk4~jmerridew124': 'CRES3#Engage'}
+3fosox$ctr57fg$ctr5ag1
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctr5bnh~MaybeJoeBiden': 'CIN0#trolling'}
+CRES: {'ctr5bnh~MaybeJoeBiden': 'CRES4#Troll'}
+3ikk50$cuhd97u$cuhin6g
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cuhxt36~greedwatcher': 'CIN1#playing', 'cuhx9cc~GreedDisaster': 'CIN2#notrolling', 'cuht30n~grogbast': 'CIN0#trolling'}
+CRES: {'cuhxt36~greedwatcher': 'CRES4#Troll', 'cuhx9cc~GreedDisaster': 'CRES0#Normal', 'cuht30n~grogbast': 'CRES4#Troll'}
+3imabz$cui8j2p$cui9g2r
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cui9zf2~pigchickencow': 'CIN0#trolling'}
+CRES: {'cui9zf2~pigchickencow': 'CRES3#Engage'}
+3hlrdj$cu9jju7$cu9kguk
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu9m5q6~videsh': 'CIN0#trolling'}
+CRES: {'cu9m5q6~videsh': 'CRES4#Troll'}
+3hio9y$cu7qhpc$cu7rhxe
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuaehap~The_Reebokman': 'CIN0#trolling', 'cu7rla6~Senzu': 'CIN0#trolling'}
+CRES: {'cuaehap~The_Reebokman': 'CRES4#Troll', 'cu7rla6~Senzu': 'CRES4#Troll'}
+3ig7vb$cug40zr$cug42c3
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cug47ek~AprilFoolsGold': 'CIN2#notrolling'}
+CRES: {'cug47ek~AprilFoolsGold': 'CRES4#Troll'}
+3git2k$ctyicbp$ctykfda
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctykh64~yungpianist': 'CIN2#notrolling'}
+CRES: {'ctykh64~yungpianist': 'CRES0#Normal'}
+3gdy51$cty3bms$cty99y4
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctye0od~violentape': 'CIN0#trolling'}
+CRES: {'ctye0od~violentape': 'CRES4#Troll'}
+3hm0qf$cu9o8lh$cu9od7o
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu9oerz~WalrusKaput': 'CIN0#trolling'}
+CRES: {'cu9oerz~WalrusKaput': 'CRES3#Engage'}
+3irrzf$cujpgac$cujvw2m
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuk8k1x~DrMonsi': 'CIN0#trolling', 'cujwb0m~Raxo122': 'CIN2#notrolling', 'culovou~FroggierSnow7': 'CIN0#trolling'}
+CRES: {'cuk8k1x~DrMonsi': 'CRES3#Engage', 'cujwb0m~Raxo122': 'CRES0#Normal', 'culovou~FroggierSnow7': 'CRES3#Engage'}
+3g4zln$ctv1wlg$ctv24ie
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctv27d1~SetFireToTheRane': 'CIN2#notrolling'}
+CRES: {'ctv27d1~SetFireToTheRane': 'CRES4#Troll'}
+3hj5fb$cu9d1v2$cu9fv9w
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu9r3y3~JetBlackSunrise': 'CIN2#notrolling'}
+CRES: {'cu9r3y3~JetBlackSunrise': 'CRES0#Normal'}
+3hp8cf$cu9gjvo$cu9gmcl
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu9gobj~Tapapummi': 'CIN0#trolling', 'cu9gpid~xNicolex': 'CIN2#notrolling'}
+CRES: {'cu9gobj~Tapapummi': 'CRES3#Engage', 'cu9gpid~xNicolex': 'CRES0#Normal'}
+3ileuk$cuhz7am$cui2q25
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cui85jl~thecrazytexan': 'CIN2#notrolling'}
+CRES: {'cui85jl~thecrazytexan': 'CRES4#Troll'}
+3hg69e$cu761bo$cu76579
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu767zr~Msiqpbiana': 'CIN2#notrolling', 'cu7hhcp~stupidinternet': 'CIN0#trolling'}
+CRES: {'cu767zr~Msiqpbiana': 'CRES1#Frustrate', 'cu7hhcp~stupidinternet': 'CRES4#Troll'}
+3hzd6d$cuc3mrz$cuc5n03
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuc7tq6~ericcantonevilcousin': 'CIN0#trolling', 'cuc8wyj~matts2': 'CIN2#notrolling'}
+CRES: {'cuc7tq6~ericcantonevilcousin': 'CRES1#Frustrate', 'cuc8wyj~matts2': 'CRES0#Normal'}
+3iu1zj$cujtz0m$cujuo7o
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cujw9xw~UnityNow': 'CIN0#trolling'}
+CRES: {'cujw9xw~UnityNow': 'CRES3#Engage'}
+3iunpy$cukysal$cukzval
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'culgyac~KingOfNiche': 'CIN0#trolling'}
+CRES: {'culgyac~KingOfNiche': 'CRES3#Engage'}
+3iuw9y$cukvae7$cukvbz8
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cukvfby~Sqwirrelz': 'CIN2#notrolling'}
+CRES: {'cukvfby~Sqwirrelz': 'CRES4#Troll'}
+3fhjne$3fhjne$ctopb7e
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctopbhh~Delhi_Police': 'CIN2#notrolling'}
+CRES: {'ctopbhh~Delhi_Police': 'CRES4#Troll'}
+3fp1gx$ctscher$ctsdlaj
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctsegje~2_poor_4_Porsche': 'CIN2#notrolling'}
+CRES: {'ctsegje~2_poor_4_Porsche': 'CRES0#Normal'}
+3i4luq$cuddae8$cuddjdc
+CON: ['CON1:hidden']
+AIN: ['AIN1#playing']
+CIN: {'cuder9m~BarlesCzarkley': 'CIN1#playing', 'cudeons~SeasideSunrise': 'CIN0#trolling'}
+CRES: {'cuder9m~BarlesCzarkley': 'CRES5#Follow', 'cudeons~SeasideSunrise': 'CRES3#Engage'}
+3hyysm$cuc6acx$cucanpj
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cucb1b1~aDAMNPATRIOT': 'CIN2#notrolling'}
+CRES: {'cucb1b1~aDAMNPATRIOT': 'CRES3#Engage'}
+3ir2ho$cuivc8f$cuivd0t
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuivf0f~WeedAndHookerSmell': 'CIN0#trolling'}
+CRES: {'cuivf0f~WeedAndHookerSmell': 'CRES4#Troll'}
+3fslj0$ctrslbo$ctruove
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cts9nfm~qemiste': 'CIN0#trolling'}
+CRES: {'cts9nfm~qemiste': 'CRES4#Troll'}
+3iuch8$cujqiu4$cuk3u6f
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cuk696y~FranzJoseph93': 'CIN0#trolling'}
+CRES: {'cuk696y~FranzJoseph93': 'CRES3#Engage'}
+3fdgho$ctnn4yc$ctnn8ht
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctnnnr0~Diamanka': 'CIN0#trolling'}
+CRES: {'ctnnnr0~Diamanka': 'CRES3#Engage'}
+3h9gdg$cu5t6k1$cu5tsmt
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cu5ty2o~Acapell0': 'CIN2#notrolling'}
+CRES: {'cu5ty2o~Acapell0': 'CRES3#Engage'}
+3igmtx$cui4gol$culagbh
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'culgo1m~emilhoff': 'CIN0#trolling'}
+CRES: {'culgo1m~emilhoff': 'CRES1#Frustrate'}
+3hp79g$cu9gkdn$cu9om1n
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cu9oy72~quantumtrollening': 'CIN0#trolling'}
+CRES: {'cu9oy72~quantumtrollening': 'CRES1#Frustrate'}
+3h39t3$cu429at$cu43675
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu43g5v~dtdroid': 'CIN0#trolling'}
+CRES: {'cu43g5v~dtdroid': 'CRES3#Engage'}
+3ixuzh$culbxvt$culc8k1
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'culcado~piezo32': 'CIN2#notrolling'}
+CRES: {'culcado~piezo32': 'CRES4#Troll'}
+3i9xmo$cueuba9$cuewn4u
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuf5nln~rssnlsn': 'CIN0#trolling', 'cuez2uk~ogrebattler': 'CIN0#trolling'}
+CRES: {'cuf5nln~rssnlsn': 'CRES2#Neutralize', 'cuez2uk~ogrebattler': 'CRES2#Neutralize'}
+3fiqyr$ctoz53w$ctozfyx
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctozksk~mod_piracy_4_life': 'CIN2#notrolling', 'ctpbrlm~mr_rivers1': 'CIN0#trolling', 'ctp19eu~a3wagner': 'CIN2#notrolling'}
+CRES: {'ctozksk~mod_piracy_4_life': 'CRES0#Normal', 'ctpbrlm~mr_rivers1': 'CRES3#Engage', 'ctp19eu~a3wagner': 'CRES0#Normal'}
+3fkesr$ctpg49g$ctpg5zv
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctpg77l~panzerkampfwagen': 'CIN0#trolling'}
+CRES: {'ctpg77l~panzerkampfwagen': 'CRES3#Engage'}
+3fhhjn$ctp1w1v$ctpbuaj
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctpdj0g~siberian': 'CIN0#trolling', 'ctplibl~vito_a16': 'CIN2#notrolling'}
+CRES: {'ctpdj0g~siberian': 'CRES3#Engage', 'ctplibl~vito_a16': 'CRES3#Engage'}
+3g5ia3$ctw4sn7$ctw4vot
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctw594g~CumForJesus': 'CIN2#notrolling'}
+CRES: {'ctw594g~CumForJesus': 'CRES4#Troll'}
+3hq7bd$cua8tcj$cuaaj3c
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cuabsi6~lightstorm33': 'CIN0#trolling'}
+CRES: {'cuabsi6~lightstorm33': 'CRES1#Frustrate'}
+3g289z$ctub4yg$ctuehq5
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctummd0~art_738292': 'CIN0#trolling'}
+CRES: {'ctummd0~art_738292': 'CRES1#Frustrate'}
+3i8gyj$cuezbtb$cuf42rh
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuf4lcs~HackFish': 'CIN0#trolling'}
+CRES: {'cuf4lcs~HackFish': 'CRES3#Engage'}
+3hbpqk$cu6j0sy$cu6j8a8
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6jghq~ChornWork2': 'CIN2#notrolling'}
+CRES: {'cu6jghq~ChornWork2': 'CRES4#Troll'}
+3h88w9$cu5e921$cu5eiv3
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu5ex2k~Harleequin': 'CIN2#notrolling'}
+CRES: {'cu5ex2k~Harleequin': 'CRES0#Normal'}
+3i21kv$cud1nu5$cud51fg
+CON: ['CON2:none']
+AIN: ['AIN1#playing']
+CIN: {'cud653l~OptionK': 'CIN2#notrolling', 'cudd07o~MachineLearningAI': 'CIN0#trolling'}
+CRES: {'cud653l~OptionK': 'CRES4#Troll', 'cudd07o~MachineLearningAI': 'CRES2#Neutralize'}
+3i7akx$cuf0jlm$cuf2fno
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuf80ur~Kyatto': 'CIN2#notrolling'}
+CRES: {'cuf80ur~Kyatto': 'CRES4#Troll'}
+3iap0s$cuetbwh$cueuw6z
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuev3zo~DivineEmbers': 'CIN2#notrolling'}
+CRES: {'cuev3zo~DivineEmbers': 'CRES4#Troll'}
+3iuqwi$cuk4bo9$cuk4c8j
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuk4jve~zymurgist69': 'CIN0#trolling'}
+CRES: {'cuk4jve~zymurgist69': 'CRES3#Engage'}
+3h31hi$cu3u2bz$cu3u60c
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu3ukf5~KubrickIsMyCopilot': 'CIN0#trolling'}
+CRES: {'cu3ukf5~KubrickIsMyCopilot': 'CRES0#Normal'}
+3fgmet$ctoplqd$ctorafz
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctormi4~d0ggzilla': 'CIN0#trolling'}
+CRES: {'ctormi4~d0ggzilla': 'CRES4#Troll'}
+3ht7rk$cubhbcq$cubty14
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cucpmyk~Chisinf': 'CIN2#notrolling'}
+CRES: {'cucpmyk~Chisinf': 'CRES0#Normal'}
+3g4ka5$ctutzdj$ctvakuy
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctvbeid~The_Ccrusader': 'CIN0#trolling'}
+CRES: {'ctvbeid~The_Ccrusader': 'CRES1#Frustrate'}
+3g76or$ctvi522$ctvifl6
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctvj2gc~ModernPoultry': 'CIN2#notrolling'}
+CRES: {'ctvj2gc~ModernPoultry': 'CRES0#Normal'}
+3fszxu$ctrpml7$ctrpu4w
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctrq10c~MuhamedBesic': 'CIN0#trolling', 'ctrqgjl~BrokeBlokeWithACoke': 'CIN0#trolling', 'ctrzuyf~Ciceros_Assassin': 'CIN2#notrolling'}
+CRES: {'ctrq10c~MuhamedBesic': 'CRES3#Engage', 'ctrqgjl~BrokeBlokeWithACoke': 'CRES2#Neutralize', 'ctrzuyf~Ciceros_Assassin': 'CRES0#Normal'}
+3gm5mz$ctzp3u0$ctzq624
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctzu6b7~dcbcpc': 'CIN2#notrolling', 'ctzqcrb~selfintersection': 'CIN2#notrolling', 'ctzqjvb~Ki_Low': 'CIN2#notrolling'}
+CRES: {'ctzu6b7~dcbcpc': 'CRES4#Troll', 'ctzqcrb~selfintersection': 'CRES0#Normal', 'ctzqjvb~Ki_Low': 'CRES0#Normal'}
+3ia8hu$3ia8hu$cuglzh1
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuhnm89~Aleksx000': 'CIN2#notrolling'}
+CRES: {'cuhnm89~Aleksx000': 'CRES0#Normal'}
+3i3umn$cud1qea$cud24j0
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cud29o2~Sojourner_Truth': 'CIN2#notrolling', 'cud35bh~Sojourner_Truth': 'CIN2#notrolling'}
+CRES: {'cud29o2~Sojourner_Truth': 'CRES0#Normal', 'cud35bh~Sojourner_Truth': 'CRES4#Troll'}
+3hqufl$cu9vw5x$cu9zrei
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cua16zm~kandoras': 'CIN2#notrolling'}
+CRES: {'cua16zm~kandoras': 'CRES0#Normal'}
+3g1nxm$ctv9gr8$ctx4lsx
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctxatwb~Trair': 'CIN0#trolling'}
+CRES: {'ctxatwb~Trair': 'CRES3#Engage'}
+3iw0r7$cuk85ns$cuk98j6
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cukfa45~badwolf42': 'CIN0#trolling'}
+CRES: {'cukfa45~badwolf42': 'CRES3#Engage'}
+3hcpg1$cu6josa$cu6kgjp
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6kshs~samlev': 'CIN2#notrolling', 'cu6kn6f~LOOLmonster': 'CIN0#trolling'}
+CRES: {'cu6kshs~samlev': 'CRES0#Normal', 'cu6kn6f~LOOLmonster': 'CRES1#Frustrate'}
+3i8x9h$cuer0xk$cuer7s0
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cufkzkz~Toast2704': 'CIN2#notrolling', 'cuergy2~HaltRedditCensorship': 'CIN2#notrolling', 'cuerm1a~Squirtcub': 'CIN2#notrolling'}
+CRES: {'cufkzkz~Toast2704': 'CRES0#Normal', 'cuergy2~HaltRedditCensorship': 'CRES0#Normal', 'cuerm1a~Squirtcub': 'CRES4#Troll'}
+3g9nxd$ctw89n9$ctw8xxb
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctw9gtf~2fish_3fish_fuckfish': 'CIN2#notrolling', 'ctwcew5~HeyItsCharnae': 'CIN2#notrolling'}
+CRES: {'ctw9gtf~2fish_3fish_fuckfish': 'CRES4#Troll', 'ctwcew5~HeyItsCharnae': 'CRES0#Normal'}
+3h68n7$cu4xvav$cu4y4sc
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu4ybtk~L4NGOS': 'CIN0#trolling'}
+CRES: {'cu4ybtk~L4NGOS': 'CRES2#Neutralize'}
+3fotlw$ctqkcvt$ctqked4
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctqkz7a~Shuk247': 'CIN0#trolling', 'ctqkgs9~No_Damn_Names_Left': 'CIN0#trolling'}
+CRES: {'ctqkz7a~Shuk247': 'CRES4#Troll', 'ctqkgs9~No_Damn_Names_Left': 'CRES3#Engage'}
+3hmnju$cu8yok3$cu90gyc
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu90p8o~Tyberos': 'CIN2#notrolling', 'cuc5paz~12edditors12Scum': 'CIN0#trolling'}
+CRES: {'cu90p8o~Tyberos': 'CRES0#Normal', 'cuc5paz~12edditors12Scum': 'CRES1#Frustrate'}
+3fnvj2$ctqdtw2$ctqdv3j
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'ctqe30b~ihave0karma': 'CIN0#trolling'}
+CRES: {'ctqe30b~ihave0karma': 'CRES2#Neutralize'}
+3fg412$ctosz93$ctotfpq
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctounsd~oisin349': 'CIN2#notrolling'}
+CRES: {'ctounsd~oisin349': 'CRES4#Troll'}
+3hbfdq$cu5vldr$cu5vsku
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu5y4uu~WaitingOnVoat': 'CIN0#trolling'}
+CRES: {'cu5y4uu~WaitingOnVoat': 'CRES1#Frustrate'}
+3irqve$cuj50d6$cuj53be
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cuj58u2~Guarinda': 'CIN2#notrolling', 'cuj5ac0~BlackXnt': 'CIN0#trolling'}
+CRES: {'cuj58u2~Guarinda': 'CRES3#Engage', 'cuj5ac0~BlackXnt': 'CRES3#Engage'}
+3i954f$cuf0tju$cuf215k
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuf2l3e~AlmightyMexijew': 'CIN0#trolling'}
+CRES: {'cuf2l3e~AlmightyMexijew': 'CRES4#Troll'}
+3g45s3$ctuv89m$ctuxrv6
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctv30fa~deleted': 'CIN0#trolling', 'ctv2pkj~InferiousX': 'CIN0#trolling'}
+CRES: {'ctv30fa~deleted': 'CRES6#Praise', 'ctv2pkj~InferiousX': 'CRES1#Frustrate'}
+3iun5t$cujwll0$cujwuqp
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cujx4wa~WasteOfLife': 'CIN2#notrolling'}
+CRES: {'cujx4wa~WasteOfLife': 'CRES0#Normal'}
+3firl8$ctoza01$ctozbgm
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'ctozjsz~CaptainLegot': 'CIN1#playing', 'ctozgx9~ProtoTyrant_': 'CIN2#notrolling'}
+CRES: {'ctozjsz~CaptainLegot': 'CRES5#Follow', 'ctozgx9~ProtoTyrant_': 'CRES0#Normal'}
+3hdxwf$cu6uzon$cu6v041
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6v4pp~_EC3_': 'CIN0#trolling'}
+CRES: {'cu6v4pp~_EC3_': 'CRES2#Neutralize'}
+3hj0jo$cu7uutq$cu7v48k
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu7v800~ShinyPants95': 'CIN2#notrolling'}
+CRES: {'cu7v800~ShinyPants95': 'CRES0#Normal'}
+3h33a9$3h33a9$cu3vf25
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu46ixt~ting_bu_dong': 'CIN2#notrolling'}
+CRES: {'cu46ixt~ting_bu_dong': 'CRES4#Troll'}
+3frksp$ctrjo9o$ctrkdfs
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctrkex6~schoolsbelly': 'CIN0#trolling'}
+CRES: {'ctrkex6~schoolsbelly': 'CRES3#Engage'}
+3i50j5$cudclb5$cuddix0
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cudgv0t~tactictoe': 'CIN2#notrolling', 'cuddtzh~imaginebeingarnold': 'CIN0#trolling'}
+CRES: {'cudgv0t~tactictoe': 'CRES3#Engage', 'cuddtzh~imaginebeingarnold': 'CRES3#Engage'}
+3hi3q4$cu7qdgw$cu89few
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu89j28~pasta_power': 'CIN0#trolling'}
+CRES: {'cu89j28~pasta_power': 'CRES2#Neutralize'}
+3gns4n$cu95xmv$cu9cdvm
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuad4m3~Teotwawki69': 'CIN0#trolling'}
+CRES: {'cuad4m3~Teotwawki69': 'CRES3#Engage'}
+3htfhh$cucm15y$cudffml
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuef1hi~Stringmaster29': 'CIN0#trolling'}
+CRES: {'cuef1hi~Stringmaster29': 'CRES3#Engage'}
+3h78y8$cu5d5vo$cu5e6zm
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu5entn~camelCaseCoding': 'CIN0#trolling'}
+CRES: {'cu5entn~camelCaseCoding': 'CRES4#Troll'}
+3ipvl3$cuj1fta$cuj1n6a
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuj1q9c~kiblick': 'CIN0#trolling'}
+CRES: {'cuj1q9c~kiblick': 'CRES4#Troll'}
+3idlix$cugnysq$cugoiw8
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cugr7j9~songhill': 'CIN0#trolling'}
+CRES: {'cugr7j9~songhill': 'CRES3#Engage'}
+3hr139$cu9zmji$cua3oou
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cua44qh~twenafeesh': 'CIN0#trolling'}
+CRES: {'cua44qh~twenafeesh': 'CRES3#Engage'}
+3hjd7x$cu88ws8$cu89a07
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu8dipz~mildlyAttractiveGirl': 'CIN2#notrolling', 'cu8qnaz~ThisIs_MyName': 'CIN0#trolling', 'cu89e61~clouds_become_unreal': 'CIN2#notrolling'}
+CRES: {'cu8dipz~mildlyAttractiveGirl': 'CRES0#Normal', 'cu8qnaz~ThisIs_MyName': 'CRES1#Frustrate', 'cu89e61~clouds_become_unreal': 'CRES0#Normal'}
+3i46ui$cud5b5s$cud5d39
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cud5v3v~Amforsythe': 'CIN0#trolling', 'cud5f9b~etherealredness': 'CIN0#trolling'}
+CRES: {'cud5v3v~Amforsythe': 'CRES3#Engage', 'cud5f9b~etherealredness': 'CRES3#Engage'}
+3hp7ui$cu9qlgl$cu9r0hh
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu9r6em~52daysnorth': 'CIN2#notrolling'}
+CRES: {'cu9r6em~52daysnorth': 'CRES4#Troll'}
+3i7aoq$cueslam$cuffci7
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cufhli9~Rusted123': 'CIN0#trolling'}
+CRES: {'cufhli9~Rusted123': 'CRES3#Engage'}
+3hv5dq$cuaxno8$cuaxsp1
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuaxxul~tstormredditor': 'CIN0#trolling'}
+CRES: {'cuaxxul~tstormredditor': 'CRES1#Frustrate'}
+3fegzy$ctnvdpm$ctnvhft
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'ctnvokd~roachass': 'CIN0#trolling'}
+CRES: {'ctnvokd~roachass': 'CRES6#Praise'}
+3hfe2a$cu7liou$cu7lvh9
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cu7lytq~ForTheBread': 'CIN0#trolling'}
+CRES: {'cu7lytq~ForTheBread': 'CRES3#Engage'}
+3htjn3$cuafw5t$cuafydn
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuaglyp~FUashleymadison': 'CIN0#trolling', 'cuag5he~candycana': 'CIN0#trolling', 'cubh6jy~phantomranch': 'CIN2#notrolling'}
+CRES: {'cuaglyp~FUashleymadison': 'CRES4#Troll', 'cuag5he~candycana': 'CRES3#Engage', 'cubh6jy~phantomranch': 'CRES3#Engage'}
+3hwl08$cuboy1k$cuccdi7
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cucg7bh~The_Prophet_Muhammad': 'CIN0#trolling'}
+CRES: {'cucg7bh~The_Prophet_Muhammad': 'CRES0#Normal'}
+3ipgvj$cuipgdn$cuj9wu1
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cuk6atj~Kris_tee_ana': 'CIN0#trolling'}
+CRES: {'cuk6atj~Kris_tee_ana': 'CRES1#Frustrate'}
+3i91g2$3i91g2$cueegst
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuek845~phildo4prez': 'CIN0#trolling', 'cuejw4s~zonkers11': 'CIN0#trolling'}
+CRES: {'cuek845~phildo4prez': 'CRES3#Engage', 'cuejw4s~zonkers11': 'CRES4#Troll'}
+3i2t87$cudbuqi$cude4sm
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cudkje8~__________________l': 'CIN0#trolling'}
+CRES: {'cudkje8~__________________l': 'CRES4#Troll'}
+3hmm24$cu8p3ym$cu94og8
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu94zqn~jason73ug': 'CIN2#notrolling'}
+CRES: {'cu94zqn~jason73ug': 'CRES4#Troll'}
+3fxwis$cttnk70$cttnwcm
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cttpe0b~SpookySkeletons': 'CIN2#notrolling'}
+CRES: {'cttpe0b~SpookySkeletons': 'CRES4#Troll'}
+3fuyyh$ctsk9v4$ctskgmk
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctskj83~deleted': 'CIN0#trolling'}
+CRES: {'ctskj83~deleted': 'CRES4#Troll'}
+3hcv9i$cu6o1z9$cu6scjv
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu6sm78~mcollins1': 'CIN0#trolling'}
+CRES: {'cu6sm78~mcollins1': 'CRES6#Praise'}
+3fkhdt$3fkhdt$ctpoiqo
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cts8nj9~dogten': 'CIN2#notrolling', 'ctpryge~tszigane': 'CIN2#notrolling', 'ctprlv1~SelfDiddler': 'CIN2#notrolling'}
+CRES: {'cts8nj9~dogten': 'CRES0#Normal', 'ctpryge~tszigane': 'CRES4#Troll', 'ctprlv1~SelfDiddler': 'CRES0#Normal'}
+3hn6kp$cucv5cr$cucvk8l
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cucvp5y~riomx': 'CIN0#trolling'}
+CRES: {'cucvp5y~riomx': 'CRES3#Engage'}
+3hmcak$cu8zoeo$cu8zruu
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu8ztqm~thisismeingradenine': 'CIN2#notrolling'}
+CRES: {'cu8ztqm~thisismeingradenine': 'CRES4#Troll'}
+3fqfei$ctr05th$ctr06ob
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctr3qz7~DeezNutzGuy': 'CIN2#notrolling', 'ctr0ags~TheRapistPro': 'CIN2#notrolling', 'ctrs84b~Katieblahblahbloo': 'CIN2#notrolling'}
+CRES: {'ctr3qz7~DeezNutzGuy': 'CRES0#Normal', 'ctr0ags~TheRapistPro': 'CRES4#Troll', 'ctrs84b~Katieblahblahbloo': 'CRES0#Normal'}
+3i2skr$cud5ybw$cud8d1v
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuditxh~blueman97': 'CIN0#trolling', 'cudbstw~d9baaanky6': 'CIN2#notrolling'}
+CRES: {'cuditxh~blueman97': 'CRES3#Engage', 'cudbstw~d9baaanky6': 'CRES3#Engage'}
+3hbweg$cu6q30y$cu6q7c4
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6qccv~kas_kate': 'CIN0#trolling'}
+CRES: {'cu6qccv~kas_kate': 'CRES4#Troll'}
+3giab7$3giab7$ctyd8ez
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctyeto3~david_karlsson': 'CIN2#notrolling', 'ctyeeic~Bill_Brasky01': 'CIN2#notrolling', 'ctydpql~SweetLenore': 'CIN2#notrolling'}
+CRES: {'ctyeto3~david_karlsson': 'CRES0#Normal', 'ctyeeic~Bill_Brasky01': 'CRES0#Normal', 'ctydpql~SweetLenore': 'CRES0#Normal'}
+3fh2kv$ctp11lj$ctp3he7
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctp8be7~IvanDenisovitch': 'CIN0#trolling'}
+CRES: {'ctp8be7~IvanDenisovitch': 'CRES3#Engage'}
+3hdm1p$cu8efpw$cu8esib
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu8ia33~unknown_baby_daddy': 'CIN2#notrolling'}
+CRES: {'cu8ia33~unknown_baby_daddy': 'CRES4#Troll'}
+3hg6g4$3hg6g4$cudguki
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuel2zt~ScionSjill': 'CIN2#notrolling'}
+CRES: {'cuel2zt~ScionSjill': 'CRES0#Normal'}
+3iptdp$cuirtcl$cuiwmje
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cuj77y8~Paid_Internet_Troll': 'CIN0#trolling', 'cuiyuql~TiltedWit': 'CIN1#playing'}
+CRES: {'cuj77y8~Paid_Internet_Troll': 'CRES3#Engage', 'cuiyuql~TiltedWit': 'CRES5#Follow'}
+3hgk5b$cu76bm8$cu76e1i
+CON: ['CON1:hidden']
+AIN: ['AIN1#playing']
+CIN: {'cu8xdoj~bttfbiff': 'CIN1#playing', 'cu78quw~brainopener': 'CIN1#playing'}
+CRES: {'cu8xdoj~bttfbiff': 'CRES3#Engage', 'cu78quw~brainopener': 'CRES5#Follow'}
+3hlvdb$cubb73a$cubdpxw
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cubew2n~METATERREN_REDDIT': 'CIN1#playing'}
+CRES: {'cubew2n~METATERREN_REDDIT': 'CRES2#Neutralize'}
+3iptgr$cuiocgd$cuioi63
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuiwf9o~atchijov': 'CIN0#trolling', 'cuiop28~jckgat': 'CIN2#notrolling'}
+CRES: {'cuiwf9o~atchijov': 'CRES1#Frustrate', 'cuiop28~jckgat': 'CRES0#Normal'}
+3iks3s$cuhpnfj$cuhse4r
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuht5fg~RedDwarfian': 'CIN2#notrolling'}
+CRES: {'cuht5fg~RedDwarfian': 'CRES0#Normal'}
+3ghtno$ctybve7$ctybz15
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctyc5h7~vq87': 'CIN2#notrolling', 'ctyc2y2~vq87': 'CIN0#trolling'}
+CRES: {'ctyc5h7~vq87': 'CRES3#Engage', 'ctyc2y2~vq87': 'CRES1#Frustrate'}
+3i9lr7$cueq39j$cueq3s3
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cueq5g0~FKRMunkiBoi': 'CIN0#trolling'}
+CRES: {'cueq5g0~FKRMunkiBoi': 'CRES3#Engage'}
+3hzabh$cubvun5$cubvx6o
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cubwkxl~benpancake': 'CIN2#notrolling'}
+CRES: {'cubwkxl~benpancake': 'CRES0#Normal'}
+3ijxbd$3ijxbd$cui5wym
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'culf6he~EdwinNJ': 'CIN0#trolling'}
+CRES: {'culf6he~EdwinNJ': 'CRES3#Engage'}
+3hdibe$cu72wf3$cubnddu
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cucw4eo~xXCrashTXx': 'CIN2#notrolling'}
+CRES: {'cucw4eo~xXCrashTXx': 'CRES0#Normal'}
+3irki2$cuj0cdi$cuj0rkl
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuj1gwa~Wacnews': 'CIN0#trolling', 'cuj120l~nodeworx': 'CIN2#notrolling', 'cujj7sf~DeadlyPear': 'CIN2#notrolling'}
+CRES: {'cuj1gwa~Wacnews': 'CRES3#Engage', 'cuj120l~nodeworx': 'CRES0#Normal', 'cujj7sf~DeadlyPear': 'CRES0#Normal'}
+3fncza$ctq9url$ctqabne
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctqcb4d~MrGoodnight_Goodluck': 'CIN0#trolling', 'ctqbhs7~skibbityboo': 'CIN0#trolling', 'ctqaw8k~84121629': 'CIN0#trolling'}
+CRES: {'ctqcb4d~MrGoodnight_Goodluck': 'CRES1#Frustrate', 'ctqbhs7~skibbityboo': 'CRES4#Troll', 'ctqaw8k~84121629': 'CRES4#Troll'}
+3ix9vx$cukjzme$cukk5kd
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cukk670~DanielPutin': 'CIN0#trolling'}
+CRES: {'cukk670~DanielPutin': 'CRES0#Normal'}
+3h93tb$cu5yj9l$cu5zbny
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu609m9~shockwave414': 'CIN0#trolling'}
+CRES: {'cu609m9~shockwave414': 'CRES3#Engage'}
+3hpe0v$cuahww4$cuai5jr
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuaibmu~WhyYouDoThatStupid': 'CIN0#trolling'}
+CRES: {'cuaibmu~WhyYouDoThatStupid': 'CRES3#Engage'}
+3hm9ez$cu8lzes$cu8mbqy
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu8mhip~VoltaireReInc': 'CIN2#notrolling', 'cu8si5w~A_rav': 'CIN0#trolling'}
+CRES: {'cu8mhip~VoltaireReInc': 'CRES0#Normal', 'cu8si5w~A_rav': 'CRES2#Neutralize'}
+3fsozh$ctrmpn5$ctrmt46
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctrn1et~iBleeedorange': 'CIN0#trolling', 'ctrn5i2~locksmith25': 'CIN2#notrolling', 'ctrnskq~mochafrappuccino': 'CIN2#notrolling'}
+CRES: {'ctrn1et~iBleeedorange': 'CRES1#Frustrate', 'ctrn5i2~locksmith25': 'CRES0#Normal', 'ctrnskq~mochafrappuccino': 'CRES0#Normal'}
+3g26v7$ctu8g9u$ctu9gdj
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctuqfay~Kappa_King': 'CIN2#notrolling', 'ctu9k2a~BlackReap': 'CIN2#notrolling'}
+CRES: {'ctuqfay~Kappa_King': 'CRES4#Troll', 'ctu9k2a~BlackReap': 'CRES4#Troll'}
+3gmtac$cu05qds$cu0cp7d
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu0x5ft~thekevjohn': 'CIN0#trolling'}
+CRES: {'cu0x5ft~thekevjohn': 'CRES4#Troll'}
+3hwvjr$cubk9pi$cucbnql
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cucgmbt~Madeforbegging': 'CIN0#trolling'}
+CRES: {'cucgmbt~Madeforbegging': 'CRES3#Engage'}
+3fllmq$cu0403w$cu0axao
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cu0kcwc~jonesey1955': 'CIN0#trolling'}
+CRES: {'cu0kcwc~jonesey1955': 'CRES2#Neutralize'}
+3iqcpz$cuiram4$cuj0kmt
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuj3ph7~slackshack': 'CIN0#trolling'}
+CRES: {'cuj3ph7~slackshack': 'CRES3#Engage'}
+3ir48c$cuizxfc$cuj0e8c
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cuj0fhg~ItIsntASpruceGoose': 'CIN0#trolling'}
+CRES: {'cuj0fhg~ItIsntASpruceGoose': 'CRES3#Engage'}
+3fw580$ctsmafd$ctsmlda
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctsmx7q~uponleroysbed': 'CIN0#trolling'}
+CRES: {'ctsmx7q~uponleroysbed': 'CRES2#Neutralize'}
+3fvg6i$ctsdtw2$ctsdwtg
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctseqho~Buonka': 'CIN2#notrolling'}
+CRES: {'ctseqho~Buonka': 'CRES4#Troll'}
+3fm60t$ctrn4vm$ctsllk9
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'ctslwry~frezner': 'CIN0#trolling'}
+CRES: {'ctslwry~frezner': 'CRES3#Engage'}
+3iwffj$cukvneg$cuky5fw
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuky8jy~Zaeh': 'CIN0#trolling'}
+CRES: {'cuky8jy~Zaeh': 'CRES3#Engage'}
+3ffjgv$cto9tz8$ctoa2bx
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctonp3t~BatMannwith2Ns': 'CIN0#trolling'}
+CRES: {'ctonp3t~BatMannwith2Ns': 'CRES4#Troll'}
+3g3n6i$ctujt2b$ctujuvz
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctujwhv~DotaDraGoN': 'CIN0#trolling'}
+CRES: {'ctujwhv~DotaDraGoN': 'CRES1#Frustrate'}
+3fdu2y$ctnypa7$ctnyrif
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctnz4hv~Isoyama': 'CIN0#trolling'}
+CRES: {'ctnz4hv~Isoyama': 'CRES4#Troll'}
+3fczuz$ctnhrka$ctni16z
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctni5ba~Late_Night_Grumbler': 'CIN0#trolling'}
+CRES: {'ctni5ba~Late_Night_Grumbler': 'CRES3#Engage'}
+3gbwwh$ctwq9qq$ctwqhcn
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctwqjzn~k3wkie': 'CIN0#trolling'}
+CRES: {'ctwqjzn~k3wkie': 'CRES3#Engage'}
+3iruxw$cujmc4t$cujo3pw
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cujp73q~Dazanan': 'CIN0#trolling', 'cujoznx~NotAGoodPlayer': 'CIN2#notrolling'}
+CRES: {'cujp73q~Dazanan': 'CRES0#Normal', 'cujoznx~NotAGoodPlayer': 'CRES0#Normal'}
+3hz299$cuc7slk$cuc912n
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuc993z~DRONE6': 'CIN0#trolling'}
+CRES: {'cuc993z~DRONE6': 'CRES1#Frustrate'}
+3i0lml$cucdk1m$cuce0lg
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cucpfzq~sleeping_in_time': 'CIN0#trolling', 'cuck1ae~Reeper000': 'CIN0#trolling'}
+CRES: {'cucpfzq~sleeping_in_time': 'CRES3#Engage', 'cuck1ae~Reeper000': 'CRES2#Neutralize'}
+3gs94c$cu1c2lr$cu1do4w
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu1ds4r~MexicanGolf': 'CIN2#notrolling'}
+CRES: {'cu1ds4r~MexicanGolf': 'CRES4#Troll'}
+3g5yy3$ctvuky6$ctw3ruq
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctw3zyh~Flimflamsam': 'CIN0#trolling', 'ctweiyr~dufferin': 'CIN2#notrolling'}
+CRES: {'ctw3zyh~Flimflamsam': 'CRES3#Engage', 'ctweiyr~dufferin': 'CRES0#Normal'}
+3gdeb8$ctygxrm$ctyi4f8
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctyikld~Wookie_Goldberg': 'CIN0#trolling'}
+CRES: {'ctyikld~Wookie_Goldberg': 'CRES3#Engage'}
+3hd0ny$cu6k77p$cu6kbrh
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6lawl~AnEternalEnigma': 'CIN2#notrolling'}
+CRES: {'cu6lawl~AnEternalEnigma': 'CRES4#Troll'}
+3gresa$cu0qy0c$cu0r8h9
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu0rgxi~yianniy': 'CIN2#notrolling', 'cu0vzwj~HermesTheMessenger': 'CIN2#notrolling', 'cu0s5xl~jandhyde': 'CIN0#trolling'}
+CRES: {'cu0rgxi~yianniy': 'CRES0#Normal', 'cu0vzwj~HermesTheMessenger': 'CRES0#Normal', 'cu0s5xl~jandhyde': 'CRES1#Frustrate'}
+3fs23a$ctrfsck$ctrlkf3
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'ctrozbq~faelun': 'CIN0#trolling'}
+CRES: {'ctrozbq~faelun': 'CRES3#Engage'}
+3fhpik$ctvhrnu$ctvhxkg
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctvigdk~PoppyOncrack': 'CIN0#trolling'}
+CRES: {'ctvigdk~PoppyOncrack': 'CRES3#Engage'}
+3gdrqs$ctx9te4$ctxgksh
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'ctxh4lh~YoureAllRobots': 'CIN0#trolling'}
+CRES: {'ctxh4lh~YoureAllRobots': 'CRES3#Engage'}
+3hbipr$cu60tt1$cu60wxa
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu61kmj~Trainwrek': 'CIN0#trolling'}
+CRES: {'cu61kmj~Trainwrek': 'CRES1#Frustrate'}
+3hxhae$cubrkdn$cuc48zi
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cuc7vhq~CylonChick8': 'CIN0#trolling'}
+CRES: {'cuc7vhq~CylonChick8': 'CRES4#Troll'}
+3hkt7q$cu9fs4u$cu9g4gx
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu9tiqz~crashbangboomerang': 'CIN0#trolling'}
+CRES: {'cu9tiqz~crashbangboomerang': 'CRES2#Neutralize'}
+3ffu8d$ctobjvp$ctoblkz
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctoc81u~Skullsmasher9702': 'CIN0#trolling', 'ctoci8m~cassitea': 'CIN2#notrolling'}
+CRES: {'ctoc81u~Skullsmasher9702': 'CRES3#Engage', 'ctoci8m~cassitea': 'CRES3#Engage'}
+3hbeun$cu62cy3$cu6exa3
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6f23n~successfullylosing': 'CIN2#notrolling'}
+CRES: {'cu6f23n~successfullylosing': 'CRES0#Normal'}
+3ik1hz$cuh4rpy$cuh541o
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuh5bp5~deleted': 'CIN2#notrolling'}
+CRES: {'cuh5bp5~deleted': 'CRES0#Normal'}
+3ijivl$cugzyqi$cuh01ec
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuh0urs~take_the_laplacian': 'CIN0#trolling'}
+CRES: {'cuh0urs~take_the_laplacian': 'CRES2#Neutralize'}
+3ihspl$cugrth0$cugv5db
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuh3kt1~NalkaNalka': 'CIN0#trolling'}
+CRES: {'cuh3kt1~NalkaNalka': 'CRES3#Engage'}
+3iwedt$cukhm4j$cukhwle
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cukj0pu~charisma6': 'CIN2#notrolling', 'culsgrq~sonofhurin': 'CIN0#trolling'}
+CRES: {'cukj0pu~charisma6': 'CRES0#Normal', 'culsgrq~sonofhurin': 'CRES1#Frustrate'}
+3hhf2a$cu7iqhu$cu7nx25
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu7wwqw~MarksNutt': 'CIN0#trolling'}
+CRES: {'cu7wwqw~MarksNutt': 'CRES3#Engage'}
+3fttg9$ctrw3hx$ctrxobx
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctrz0hp~_EC3_': 'CIN0#trolling'}
+CRES: {'ctrz0hp~_EC3_': 'CRES3#Engage'}
+3i359h$3i359h$cucv9ur
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cucvjz1~DutchTourist': 'CIN0#trolling'}
+CRES: {'cucvjz1~DutchTourist': 'CRES4#Troll'}
+3i0885$cuc4tmj$cuc4vx1
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuc50rt~Asdyc': 'CIN0#trolling'}
+CRES: {'cuc50rt~Asdyc': 'CRES3#Engage'}
+3g4duh$ctuxk1w$ctuxloa
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctuzlyr~Yekkers': 'CIN2#notrolling', 'ctuxpzh~BobNelsonUSA1939': 'CIN2#notrolling'}
+CRES: {'ctuzlyr~Yekkers': 'CRES0#Normal', 'ctuxpzh~BobNelsonUSA1939': 'CRES4#Troll'}
+3g3tnd$ctutcc5$ctutguh
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctutxhv~Vonaviles': 'CIN0#trolling', 'ctv0jzp~LittleMiss_ScareAll': 'CIN2#notrolling'}
+CRES: {'ctutxhv~Vonaviles': 'CRES3#Engage', 'ctv0jzp~LittleMiss_ScareAll': 'CRES3#Engage'}
+3heeu1$cu6ozu7$cu6p35g
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu6q4cs~anasianloser': 'CIN0#trolling'}
+CRES: {'cu6q4cs~anasianloser': 'CRES3#Engage'}
+3g1buz$ctu652a$ctu8reg
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctua4vy~manipulated_hysteria': 'CIN2#notrolling', 'ctu9qok~swatjr': 'CIN2#notrolling', 'ctu9gqb~manipulated_hysteria': 'CIN0#trolling'}
+CRES: {'ctua4vy~manipulated_hysteria': 'CRES0#Normal', 'ctu9qok~swatjr': 'CRES4#Troll', 'ctu9gqb~manipulated_hysteria': 'CRES2#Neutralize'}
+3g6c5d$3g6c5d$ctvb63i
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctvcim4~deleted': 'CIN2#notrolling'}
+CRES: {'ctvcim4~deleted': 'CRES4#Troll'}
+3iefrf$cugager$cugata3
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cugaw0m~FalcunPaunch': 'CIN0#trolling'}
+CRES: {'cugaw0m~FalcunPaunch': 'CRES1#Frustrate'}
+3idirl$cug3jgk$cug4yhk
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cug5n8a~kevinw729': 'CIN0#trolling'}
+CRES: {'cug5n8a~kevinw729': 'CRES1#Frustrate'}
+3i7bn6$cuehbw0$cuehdfh
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuehp84~ShmooelYakov': 'CIN0#trolling'}
+CRES: {'cuehp84~ShmooelYakov': 'CRES3#Engage'}
+3ihan5$cugfr7h$cuggfxp
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cugij27~lossaysswag': 'CIN2#notrolling', 'cuggy8m~JUSTATH0UG4T': 'CIN2#notrolling', 'cugghv5~Ewaninho': 'CIN0#trolling'}
+CRES: {'cugij27~lossaysswag': 'CRES4#Troll', 'cuggy8m~JUSTATH0UG4T': 'CRES0#Normal', 'cugghv5~Ewaninho': 'CRES0#Normal'}
+3h5717$cu4jjom$cu4jmol
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu4jvo4~Repyro': 'CIN0#trolling'}
+CRES: {'cu4jvo4~Repyro': 'CRES3#Engage'}
+3ij81k$cuh0jc1$cuh0z60
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuh56n9~Aethelric': 'CIN0#trolling'}
+CRES: {'cuh56n9~Aethelric': 'CRES4#Troll'}
+3iclag$cufmmuw$cufnstg
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuh22t3~HighRi12': 'CIN0#trolling'}
+CRES: {'cuh22t3~HighRi12': 'CRES2#Neutralize'}
+3hx2dv$cubcimj$cubcnzd
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cubcqvv~Jennzera': 'CIN0#trolling'}
+CRES: {'cubcqvv~Jennzera': 'CRES1#Frustrate'}
+3id7bj$cufixfi$cufj1zs
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cufnoju~IamSeth': 'CIN0#trolling'}
+CRES: {'cufnoju~IamSeth': 'CRES3#Engage'}
+3i0hm9$cud0fxv$cud0zm8
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cud1144~FacelessGod': 'CIN1#playing'}
+CRES: {'cud1144~FacelessGod': 'CRES1#Frustrate'}
+3hiihs$cua2ez2$cua4ak4
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cua4rhf~Northvir': 'CIN0#trolling'}
+CRES: {'cua4rhf~Northvir': 'CRES3#Engage'}
+3feotb$cto4pxg$cto51g8
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cto6hpv~drunkenvalley': 'CIN0#trolling'}
+CRES: {'cto6hpv~drunkenvalley': 'CRES3#Engage'}
+3hcgih$cu6g3uf$cu6glcs
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu6gp6g~hookahreed': 'CIN0#trolling'}
+CRES: {'cu6gp6g~hookahreed': 'CRES3#Engage'}
+3iyc5m$cukw5gu$cukwbq1
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cukwpfe~Millennion': 'CIN0#trolling', 'cul38rr~I_Love_Chu69': 'CIN0#trolling'}
+CRES: {'cukwpfe~Millennion': 'CRES4#Troll', 'cul38rr~I_Love_Chu69': 'CRES4#Troll'}
+3hpocx$cuabdwl$cuacttc
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuaj51n~celticeejit': 'CIN0#trolling'}
+CRES: {'cuaj51n~celticeejit': 'CRES1#Frustrate'}
+3g18sp$cttxq4n$cttxtm4
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'ctty0mw~nopodude': 'CIN0#trolling'}
+CRES: {'ctty0mw~nopodude': 'CRES3#Engage'}
+3hpm4a$cu9m2jd$cu9nv7v
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cu9suse~25russianbear25': 'CIN1#playing', 'cu9onel~lets_get_hyyerr': 'CIN1#playing'}
+CRES: {'cu9suse~25russianbear25': 'CRES5#Follow', 'cu9onel~lets_get_hyyerr': 'CRES5#Follow'}
+3hoq8h$cu9rhzj$cu9rxyl
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu9thq5~hibarihime': 'CIN0#trolling'}
+CRES: {'cu9thq5~hibarihime': 'CRES2#Neutralize'}
+3hahtu$cu5rqc7$cu5rrka
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cu5rvjl~NameIsInigoMontonya': 'CIN0#trolling'}
+CRES: {'cu5rvjl~NameIsInigoMontonya': 'CRES3#Engage'}
+3i42az$cud79v6$cud7x0n
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cud8cpx~EconomicFacepalm': 'CIN0#trolling'}
+CRES: {'cud8cpx~EconomicFacepalm': 'CRES3#Engage'}
+3fsbk9$ctrztps$ctueph7
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctuggc5~DonaldBlake': 'CIN2#notrolling'}
+CRES: {'ctuggc5~DonaldBlake': 'CRES0#Normal'}
+3fmhhg$ctq2hhd$ctq6ko6
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctq9dxm~trolledyabruh': 'CIN2#notrolling'}
+CRES: {'ctq9dxm~trolledyabruh': 'CRES4#Troll'}
+3huepx$cualnuk$cuambj6
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cuamy9s~freddyoddone': 'CIN0#trolling'}
+CRES: {'cuamy9s~freddyoddone': 'CRES4#Troll'}
+3io7qf$cuj5rl5$cuj9kuy
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cukkdiw~hamster_ball': 'CIN0#trolling'}
+CRES: {'cukkdiw~hamster_ball': 'CRES1#Frustrate'}
+3fp1dp$ctqpyq8$ctqqi2v
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctqzjji~adverseaction': 'CIN2#notrolling'}
+CRES: {'ctqzjji~adverseaction': 'CRES4#Troll'}
+3ffwb8$3ffwb8$cto7if2
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cto7kb0~BrawlerX': 'CIN2#notrolling'}
+CRES: {'cto7kb0~BrawlerX': 'CRES4#Troll'}
+3g0kbs$ctu66yi$ctuh33h
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'ctuhnrs~dan_doomhammer': 'CIN0#trolling'}
+CRES: {'ctuhnrs~dan_doomhammer': 'CRES4#Troll'}
+3ibicf$cufmb4h$cufmhj9
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cufmqtj~penguin_bro': 'CIN2#notrolling'}
+CRES: {'cufmqtj~penguin_bro': 'CRES4#Troll'}
+3g7orl$3g7orl$ctvno94
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctvnqup~GemKnightTourmaline': 'CIN2#notrolling', 'ctvnq2v~thrills_': 'CIN2#notrolling'}
+CRES: {'ctvnqup~GemKnightTourmaline': 'CRES4#Troll', 'ctvnq2v~thrills_': 'CRES0#Normal'}
+3ij23l$cuhi3uj$cuhk20k
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuhzcdk~NerdyWeightLifter': 'CIN0#trolling'}
+CRES: {'cuhzcdk~NerdyWeightLifter': 'CRES1#Frustrate'}
+3hbnoe$cu5z1hk$cu5z3tr
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu5z9lv~TooMuchCCPlsStahp': 'CIN0#trolling'}
+CRES: {'cu5z9lv~TooMuchCCPlsStahp': 'CRES1#Frustrate'}
+3hxbyr$cubi2br$cubvt0x
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cubx012~kittonmittonz': 'CIN2#notrolling', 'cuc000e~shinymuskrat': 'CIN0#trolling'}
+CRES: {'cubx012~kittonmittonz': 'CRES0#Normal', 'cuc000e~shinymuskrat': 'CRES3#Engage'}
+3irkre$cuj303u$cuj3axf
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuj9v1s~californiarepublik': 'CIN0#trolling'}
+CRES: {'cuj9v1s~californiarepublik': 'CRES3#Engage'}
+3fjixp$ctpesku$ctpeupc
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctpewbu~MeatyTux': 'CIN0#trolling'}
+CRES: {'ctpewbu~MeatyTux': 'CRES4#Troll'}
+3hhk21$cu81abd$cu81cfy
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu82evj~Wonthebiggestlottery': 'CIN0#trolling'}
+CRES: {'cu82evj~Wonthebiggestlottery': 'CRES1#Frustrate'}
+3iw2tu$cuk8fbs$cuk8im8
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuk8nf2~ComedicSans': 'CIN2#notrolling', 'cuke54x~jackrousseau': 'CIN0#trolling'}
+CRES: {'cuk8nf2~ComedicSans': 'CRES3#Engage', 'cuke54x~jackrousseau': 'CRES3#Engage'}
+3in1pt$cuhvr21$cuhvsxl
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuhvu17~SpiroAgnewTR': 'CIN2#notrolling'}
+CRES: {'cuhvu17~SpiroAgnewTR': 'CRES0#Normal'}
+3ius2v$cujzjmt$cuk003l
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cuk4948~RedBarrel': 'CIN2#notrolling', 'cuk1jy9~JurassicArc': 'CIN0#trolling', 'cuk7i06~Kool_AidJammer': 'CIN0#trolling'}
+CRES: {'cuk4948~RedBarrel': 'CRES3#Engage', 'cuk1jy9~JurassicArc': 'CRES5#Follow', 'cuk7i06~Kool_AidJammer': 'CRES6#Praise'}
+3ilqr4$cuhlyj6$cuhy556
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuhyaob~JalorGotShadowbanned': 'CIN2#notrolling'}
+CRES: {'cuhyaob~JalorGotShadowbanned': 'CRES0#Normal'}
+3fee5k$3fee5k$cto2gtt
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cto4pjq~HerkDerpner': 'CIN2#notrolling'}
+CRES: {'cto4pjq~HerkDerpner': 'CRES0#Normal'}
+3i8vik$3i8vik$cueawlx
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuelh2g~TriQuangTran': 'CIN0#trolling'}
+CRES: {'cuelh2g~TriQuangTran': 'CRES3#Engage'}
+3fl2bp$ctplkfo$ctplnmc
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctplpt7~sovietreckoning': 'CIN2#notrolling'}
+CRES: {'ctplpt7~sovietreckoning': 'CRES4#Troll'}
+3hgplp$cu787nw$cu7as59
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu7bb9l~InvestingPrime': 'CIN2#notrolling'}
+CRES: {'cu7bb9l~InvestingPrime': 'CRES0#Normal'}
+3isqos$cujciij$cujcsxx
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cujcvnz~procrastinating_ftw': 'CIN0#trolling'}
+CRES: {'cujcvnz~procrastinating_ftw': 'CRES1#Frustrate'}
+3i89c5$cuell4f$cuelydh
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cuep06v~cojoco': 'CIN2#notrolling'}
+CRES: {'cuep06v~cojoco': 'CRES3#Engage'}
+3iwrnn$cuklnow$cuklqx2
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cukm00b~MixxiM': 'CIN2#notrolling'}
+CRES: {'cukm00b~MixxiM': 'CRES4#Troll'}
+3hstbw$3hstbw$cuaize3
+CON: ['CON1:hidden']
+AIN: ['AIN2#notrolling']
+CIN: {'cuarmlo~Ptolemy48': 'CIN2#notrolling', 'cuakrah~theBABS': 'CIN2#notrolling'}
+CRES: {'cuarmlo~Ptolemy48': 'CRES3#Engage', 'cuakrah~theBABS': 'CRES0#Normal'}
+3hfut5$cu88hhx$cu8ang5
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu8aoh1~sensible_human': 'CIN0#trolling'}
+CRES: {'cu8aoh1~sensible_human': 'CRES3#Engage'}
+3fi4ya$ctot2bi$ctot9wj
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctotd6c~deleted': 'CIN0#trolling'}
+CRES: {'ctotd6c~deleted': 'CRES1#Frustrate'}
+3fd9wl$cto2erd$cto2g8p
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cto2px2~TDBUDDAH': 'CIN0#trolling'}
+CRES: {'cto2px2~TDBUDDAH': 'CRES3#Engage'}
+3ik8af$3ik8af$cuhg5sc
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cuhhbvt~justanotheraznguy': 'CIN1#playing'}
+CRES: {'cuhhbvt~justanotheraznguy': 'CRES5#Follow'}
+3hp0hd$cu9ab6q$cu9acfj
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu9ajw7~biolar': 'CIN0#trolling', 'cu9ah2x~D0to0': 'CIN2#notrolling', 'cu9amin~conquer69': 'CIN2#notrolling'}
+CRES: {'cu9ajw7~biolar': 'CRES1#Frustrate', 'cu9ah2x~D0to0': 'CRES0#Normal', 'cu9amin~conquer69': 'CRES0#Normal'}
+3ft9ej$ctscagx$ctsclrq
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctsddrd~SolarMechanic': 'CIN0#trolling', 'ctsdd2c~Pull_Pin_Throw_Away': 'CIN0#trolling', 'ctsdrec~SneakyyKiki': 'CIN0#trolling'}
+CRES: {'ctsddrd~SolarMechanic': 'CRES4#Troll', 'ctsdd2c~Pull_Pin_Throw_Away': 'CRES4#Troll', 'ctsdrec~SneakyyKiki': 'CRES4#Troll'}
+3fy0iv$cttwyul$cttx42a
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cttz6jj~Endless_Summer': 'CIN0#trolling', 'cttxd5h~dblmjr_loser': 'CIN2#notrolling'}
+CRES: {'cttz6jj~Endless_Summer': 'CRES1#Frustrate', 'cttxd5h~dblmjr_loser': 'CRES0#Normal'}
+3hyu67$cubw3ux$cubxof0
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuby2g7~MylesVE': 'CIN0#trolling'}
+CRES: {'cuby2g7~MylesVE': 'CRES2#Neutralize'}
+3ht79o$cuaczmr$cuadof6
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuadp47~Valonsc': 'CIN2#notrolling'}
+CRES: {'cuadp47~Valonsc': 'CRES0#Normal'}
+3hcgj4$cu65vwd$cu66dlp
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu66vxl~Romp_': 'CIN0#trolling'}
+CRES: {'cu66vxl~Romp_': 'CRES1#Frustrate'}
+3i4i47$cug6jd7$cujexq7
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'culrtq6~ScornAdorned': 'CIN0#trolling'}
+CRES: {'culrtq6~ScornAdorned': 'CRES4#Troll'}
+3fxt67$ctth6zn$ctthk56
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctthrcx~nanbullen': 'CIN0#trolling'}
+CRES: {'ctthrcx~nanbullen': 'CRES3#Engage'}
+3hjmh8$3hjmh8$cu81hpd
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu8h07d~Stargrunt': 'CIN2#notrolling'}
+CRES: {'cu8h07d~Stargrunt': 'CRES0#Normal'}
+3foqxp$ctqtsnj$ctr8rha
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctr8wb5~Barkdawg18': 'CIN0#trolling'}
+CRES: {'ctr8wb5~Barkdawg18': 'CRES6#Praise'}
+3hdon0$cu6j6u6$cu6j8wu
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6j9uw~alecksmugino': 'CIN0#trolling'}
+CRES: {'cu6j9uw~alecksmugino': 'CRES4#Troll'}
+3gass9$ctwf277$ctwntg1
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctwok5x~kiloechoalpha': 'CIN0#trolling'}
+CRES: {'ctwok5x~kiloechoalpha': 'CRES2#Neutralize'}
+3ilft7$cuhlmdk$cuhs8dn
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuhsml6~Einstein420': 'CIN2#notrolling', 'cuhxhm1~troykaPower': 'CIN0#trolling'}
+CRES: {'cuhsml6~Einstein420': 'CRES0#Normal', 'cuhxhm1~troykaPower': 'CRES3#Engage'}
+3h783e$cu582xa$cu587l1
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu58bmj~Tiltboy': 'CIN0#trolling'}
+CRES: {'cu58bmj~Tiltboy': 'CRES3#Engage'}
+3gb62q$ctwlvsy$ctwml4p
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctwn1p9~Almost_Pi': 'CIN0#trolling'}
+CRES: {'ctwn1p9~Almost_Pi': 'CRES2#Neutralize'}
+3hpztk$cua9sof$cuaa2s2
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuaacf1~4Pizza': 'CIN0#trolling'}
+CRES: {'cuaacf1~4Pizza': 'CRES3#Engage'}
+3foa5r$3foa5r$ctr1no6
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctr3of3~BadNewsBalls': 'CIN0#trolling'}
+CRES: {'ctr3of3~BadNewsBalls': 'CRES3#Engage'}
+3h47ew$3h47ew$cu433n6
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cu43d02~iTakeDumps': 'CIN0#trolling'}
+CRES: {'cu43d02~iTakeDumps': 'CRES1#Frustrate'}
+3hihur$cu92pns$cu9idnf
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cua6xje~Gailyn': 'CIN0#trolling'}
+CRES: {'cua6xje~Gailyn': 'CRES4#Troll'}
+3hm88q$cu8t1u5$cu8u3tm
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cu8uixl~ivanoski_007': 'CIN1#playing'}
+CRES: {'cu8uixl~ivanoski_007': 'CRES3#Engage'}
+3igpu6$cug7mm7$cug7nn1
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cug7sn0~Smellycupcake': 'CIN0#trolling'}
+CRES: {'cug7sn0~Smellycupcake': 'CRES2#Neutralize'}
+3g209b$ctu3duu$ctu3f82
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctu3mfw~ToniMontanito1566': 'CIN0#trolling'}
+CRES: {'ctu3mfw~ToniMontanito1566': 'CRES3#Engage'}
+3fqr5j$ctrcxxe$ctrdfc8
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctrdfzh~cwfutureboy': 'CIN0#trolling'}
+CRES: {'ctrdfzh~cwfutureboy': 'CRES2#Neutralize'}
+3gp7s6$cu1li3z$cu1msqh
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cu1n1sg~ghetto_princess__': 'CIN0#trolling'}
+CRES: {'cu1n1sg~ghetto_princess__': 'CRES2#Neutralize'}
+3hw69g$cubge9s$cubghdc
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cubgjt2~Strood': 'CIN0#trolling'}
+CRES: {'cubgjt2~Strood': 'CRES3#Engage'}
+3ffnfo$ctp0it5$ctp3vzl
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctptsdy~lalilulelo09': 'CIN2#notrolling'}
+CRES: {'ctptsdy~lalilulelo09': 'CRES0#Normal'}
+3hofzw$cuarjof$cuba2z9
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cubahem~imakeitwork': 'CIN0#trolling'}
+CRES: {'cubahem~imakeitwork': 'CRES3#Engage'}
+3i1ih5$cucks0z$cucpldb
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cucrha0~DobbyChief': 'CIN0#trolling', 'cud30uk~ss4chris': 'CIN0#trolling'}
+CRES: {'cucrha0~DobbyChief': 'CRES1#Frustrate', 'cud30uk~ss4chris': 'CRES4#Troll'}
+3fsvkx$3fsvkx$ctso2hv
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctspbag~BigVanVortex': 'CIN0#trolling'}
+CRES: {'ctspbag~BigVanVortex': 'CRES1#Frustrate'}
+3fvpkd$ctse0k2$ctsj8mp
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctsjoaj~Kiora_Atua': 'CIN2#notrolling'}
+CRES: {'ctsjoaj~Kiora_Atua': 'CRES0#Normal'}
+3iqknp$cuipv5q$cuivbnt
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuiw56f~vensamape': 'CIN2#notrolling', 'cuk0z9e~GOODLOOKINGTODD': 'CIN0#trolling'}
+CRES: {'cuiw56f~vensamape': 'CRES0#Normal', 'cuk0z9e~GOODLOOKINGTODD': 'CRES3#Engage'}
+3hbxip$cu61p5f$cu63ldi
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cu65qxg~iluvworf': 'CIN0#trolling'}
+CRES: {'cu65qxg~iluvworf': 'CRES2#Neutralize'}
+3ikz2l$cuhc0tz$cuhcths
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuhxjh2~Runthescapes': 'CIN0#trolling', 'cuhdj9h~Zonkeyy': 'CIN2#notrolling'}
+CRES: {'cuhxjh2~Runthescapes': 'CRES3#Engage', 'cuhdj9h~Zonkeyy': 'CRES0#Normal'}
+3fhugx$ctotyqw$ctoxrju
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctozslm~SchindetNemo': 'CIN2#notrolling', 'ctpxq5h~librettomusicale': 'CIN0#trolling', 'ctq64in~Shaquintosh': 'CIN2#notrolling'}
+CRES: {'ctozslm~SchindetNemo': 'CRES3#Engage', 'ctpxq5h~librettomusicale': 'CRES2#Neutralize', 'ctq64in~Shaquintosh': 'CRES3#Engage'}
+3hwz9h$cubb1ej$cubnav7
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuboqg2~S_M2': 'CIN0#trolling'}
+CRES: {'cuboqg2~S_M2': 'CRES1#Frustrate'}
+3filr2$ctp5yng$ctp70up
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctp9j02~seanjohn12117': 'CIN0#trolling'}
+CRES: {'ctp9j02~seanjohn12117': 'CRES6#Praise'}
+3i2zhw$cuctmbf$cuctoa9
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuctqqk~HalalVeggieBacon': 'CIN0#trolling'}
+CRES: {'cuctqqk~HalalVeggieBacon': 'CRES3#Engage'}
+3h64n5$cu4wp6d$cu4yazm
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu4yhor~VoilaVoilaWashington': 'CIN0#trolling'}
+CRES: {'cu4yhor~VoilaVoilaWashington': 'CRES2#Neutralize'}
+3i0wup$cucvcrc$cudoj6s
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cue1n2x~mithfire': 'CIN0#trolling'}
+CRES: {'cue1n2x~mithfire': 'CRES3#Engage'}
+3hrfit$cuaaxid$cuab0fs
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuacjp3~iAmTedBundy': 'CIN2#notrolling', 'cuabm15~Clairvoyanttruth': 'CIN2#notrolling', 'cuab5r9~Sarcasticorjustrude': 'CIN0#trolling'}
+CRES: {'cuacjp3~iAmTedBundy': 'CRES0#Normal', 'cuabm15~Clairvoyanttruth': 'CRES0#Normal', 'cuab5r9~Sarcasticorjustrude': 'CRES2#Neutralize'}
+3hgsqr$cu7fw3y$cu7g4n1
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu7kptf~IAMA_LongHorse': 'CIN2#notrolling', 'cu7g5pn~deleted': 'CIN0#trolling'}
+CRES: {'cu7kptf~IAMA_LongHorse': 'CRES0#Normal', 'cu7g5pn~deleted': 'CRES3#Engage'}
+3iw0qz$cukhu54$cukhxib
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuki2ps~Spartancarver': 'CIN1#playing'}
+CRES: {'cuki2ps~Spartancarver': 'CRES5#Follow'}
+3isp7j$cujc7x7$cujcc2s
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cujokbf~Fynaly': 'CIN2#notrolling'}
+CRES: {'cujokbf~Fynaly': 'CRES0#Normal'}
+3h80dh$cu5669q$cu56amc
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu5d5bl~ponku': 'CIN0#trolling'}
+CRES: {'cu5d5bl~ponku': 'CRES3#Engage'}
+3fwsug$cttgndw$cttsk79
+CON: ['CON1:hidden']
+AIN: ['AIN1#playing']
+CIN: {'ctttydh~RegularJerk': 'CIN0#trolling', 'cttt1gt~DrGalactus': 'CIN1#playing'}
+CRES: {'ctttydh~RegularJerk': 'CRES3#Engage', 'cttt1gt~DrGalactus': 'CRES5#Follow'}
+3hqs3m$cu9yy3k$cu9z583
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu9z95y~doesntakethehighroad': 'CIN2#notrolling'}
+CRES: {'cu9z95y~doesntakethehighroad': 'CRES4#Troll'}
+3hcwkz$cu6bt7o$cu6i733
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cu6klmo~AlaskanPipeline04': 'CIN0#trolling'}
+CRES: {'cu6klmo~AlaskanPipeline04': 'CRES4#Troll'}
+3hf686$cu6x47k$cu6x9aw
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu702y1~The_Terminallyillest': 'CIN2#notrolling'}
+CRES: {'cu702y1~The_Terminallyillest': 'CRES4#Troll'}
+3iqblr$cuins1j$cuinviq
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuinxxn~2bABee': 'CIN2#notrolling', 'cuio0aj~dourdave': 'CIN2#notrolling'}
+CRES: {'cuinxxn~2bABee': 'CRES0#Normal', 'cuio0aj~dourdave': 'CRES0#Normal'}
+3iprob$cuij9nk$cuijo6j
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuijtty~StonerChef': 'CIN0#trolling', 'cuiqfbr~ParadiseSold': 'CIN2#notrolling'}
+CRES: {'cuijtty~StonerChef': 'CRES4#Troll', 'cuiqfbr~ParadiseSold': 'CRES0#Normal'}
+3gcbil$ctwt4m6$ctx0ghm
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctx0hx3~Just1morefix': 'CIN0#trolling'}
+CRES: {'ctx0hx3~Just1morefix': 'CRES3#Engage'}
+3hgulq$cu7g4wt$cu7h0q3
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu7kqmo~willfe42': 'CIN0#trolling', 'cu7i22d~deleted': 'CIN0#trolling'}
+CRES: {'cu7kqmo~willfe42': 'CRES3#Engage', 'cu7i22d~deleted': 'CRES3#Engage'}
+3fnw5w$ctqxhc2$ctqxnme
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'ctqy8be~Never_In_A_Game': 'CIN1#playing'}
+CRES: {'ctqy8be~Never_In_A_Game': 'CRES6#Praise'}
+3hwav6$cub4tew$cub5ryr
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cub8at2~BullsRunThisTown': 'CIN2#notrolling', 'cub74pp~jesusburger': 'CIN2#notrolling'}
+CRES: {'cub8at2~BullsRunThisTown': 'CRES4#Troll', 'cub74pp~jesusburger': 'CRES4#Troll'}
+3hh0tk$cu7k7r7$cu7rase
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu7rlid~Riggybee': 'CIN2#notrolling'}
+CRES: {'cu7rlid~Riggybee': 'CRES0#Normal'}
+3h64gn$cu4q69h$cu4q7un
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu548fn~anon445': 'CIN0#trolling'}
+CRES: {'cu548fn~anon445': 'CRES2#Neutralize'}
+3fmg6s$ctpzu8y$ctq9g16
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctqb7ot~shankdaddy880': 'CIN0#trolling'}
+CRES: {'ctqb7ot~shankdaddy880': 'CRES2#Neutralize'}
+3hgo43$cu7amjs$cu7dx46
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cu7nwrg~uselessguru': 'CIN1#playing'}
+CRES: {'cu7nwrg~uselessguru': 'CRES4#Troll'}
+3hbiio$cu6ilx3$cu6itjh
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6k2xn~BGBanks': 'CIN0#trolling'}
+CRES: {'cu6k2xn~BGBanks': 'CRES2#Neutralize'}
+3hqnel$cu9op3p$cu9owb7
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cu9q7zv~ILikeStyx': 'CIN1#playing', 'cu9qdji~youbrainislying': 'CIN1#playing'}
+CRES: {'cu9q7zv~ILikeStyx': 'CRES5#Follow', 'cu9qdji~youbrainislying': 'CRES0#Normal'}
+3hryqh$cuazhn7$cubwj5z
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuc2bv8~RazsterOxzine': 'CIN2#notrolling'}
+CRES: {'cuc2bv8~RazsterOxzine': 'CRES4#Troll'}
+3hlam5$cu8uyo2$cu8v1gi
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu91gno~EzraT47': 'CIN0#trolling', 'cu8vfl5~zyke_dilla': 'CIN0#trolling'}
+CRES: {'cu91gno~EzraT47': 'CRES1#Frustrate', 'cu8vfl5~zyke_dilla': 'CRES2#Neutralize'}
+3fw3hk$ctsgik7$cttp2cc
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctupnwv~portrayaloflife': 'CIN0#trolling', 'cttpoth~deadair': 'CIN0#trolling', 'ctuoguj~portrayaloflife': 'CIN0#trolling'}
+CRES: {'ctupnwv~portrayaloflife': 'CRES4#Troll', 'cttpoth~deadair': 'CRES3#Engage', 'ctuoguj~portrayaloflife': 'CRES3#Engage'}
+3i7z6g$cuefkgl$cuefmea
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuefuse~lllogical': 'CIN0#trolling'}
+CRES: {'cuefuse~lllogical': 'CRES2#Neutralize'}
+3hurbd$cuazj8c$cub37fs
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cub3jy4~Scottwilson07': 'CIN0#trolling'}
+CRES: {'cub3jy4~Scottwilson07': 'CRES4#Troll'}
+3fi2qg$ctosxog$ctovt8v
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctow0px~starwatto': 'CIN0#trolling'}
+CRES: {'ctow0px~starwatto': 'CRES1#Frustrate'}
+3i2zq7$cud3jv2$cud3nzd
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cud3rw7~KRSFive': 'CIN0#trolling'}
+CRES: {'cud3rw7~KRSFive': 'CRES3#Engage'}
+3i9i98$cufjo8m$cuflt4y
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cufpppd~BiPoLaRadiation': 'CIN0#trolling'}
+CRES: {'cufpppd~BiPoLaRadiation': 'CRES4#Troll'}
+3fwwub$ctstrwg$ctstvxs
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctsu0he~pixartist': 'CIN2#notrolling'}
+CRES: {'ctsu0he~pixartist': 'CRES4#Troll'}
+3hfnoo$cu77v8w$cu7a7pe
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu7l65y~Soldier4Christ82': 'CIN2#notrolling'}
+CRES: {'cu7l65y~Soldier4Christ82': 'CRES4#Troll'}
+3hoca4$cu974nk$cu97ljz
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cu9ax58~hubris105': 'CIN2#notrolling'}
+CRES: {'cu9ax58~hubris105': 'CRES3#Engage'}
+3fipd2$ctrpb4m$ctrruxt
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cts45vu~Pequeno_loco': 'CIN0#trolling'}
+CRES: {'cts45vu~Pequeno_loco': 'CRES3#Engage'}
+3gjlif$cudoehu$cudunam
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cudyd5j~yifanwang2003': 'CIN0#trolling'}
+CRES: {'cudyd5j~yifanwang2003': 'CRES1#Frustrate'}
+3fhq71$ctoznjw$ctp1jav
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctp1lou~jama211': 'CIN2#notrolling'}
+CRES: {'ctp1lou~jama211': 'CRES2#Neutralize'}
+3hyxmt$cucqmoq$cucr77x
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cucrqh9~Infant_Infidel': 'CIN0#trolling'}
+CRES: {'cucrqh9~Infant_Infidel': 'CRES3#Engage'}
+3hnwfw$cu9dhrs$cuaesdn
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuajt5j~Lockjaw7130': 'CIN2#notrolling'}
+CRES: {'cuajt5j~Lockjaw7130': 'CRES0#Normal'}
+3i2va9$cud4gj7$cud6big
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cud88cd~Half_cocked': 'CIN0#trolling'}
+CRES: {'cud88cd~Half_cocked': 'CRES3#Engage'}
+3gm48r$cu00w53$cu010e8
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu011zf~j9ack9': 'CIN0#trolling'}
+CRES: {'cu011zf~j9ack9': 'CRES3#Engage'}
+3fi0dr$ctoype7$ctoz6xt
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctp33bi~KJM321': 'CIN0#trolling', 'ctp0udf~skitech': 'CIN0#trolling'}
+CRES: {'ctp33bi~KJM321': 'CRES1#Frustrate', 'ctp0udf~skitech': 'CRES4#Troll'}
+3fqz9w$ctr3crl$ctr3t9j
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'ctr46iu~Bluekestral': 'CIN1#playing', 'ctr402w~monkeymasher': 'CIN1#playing'}
+CRES: {'ctr46iu~Bluekestral': 'CRES5#Follow', 'ctr402w~monkeymasher': 'CRES5#Follow'}
+3fkv04$ctq0wg2$ctq5hnu
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'ctq66rs~JerryLeeCroxton': 'CIN0#trolling'}
+CRES: {'ctq66rs~JerryLeeCroxton': 'CRES3#Engage'}
+3ibvmi$cuf5wcm$cufdu1i
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cugkr5e~currentAlias': 'CIN2#notrolling'}
+CRES: {'cugkr5e~currentAlias': 'CRES0#Normal'}
+3i0zg7$cucvo9b$cud0dhp
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cud0me6~Heterohom': 'CIN0#trolling'}
+CRES: {'cud0me6~Heterohom': 'CRES4#Troll'}
+3i6jj3$cudq24n$cudqek2
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cudqfge~Spaark45': 'CIN1#playing', 'cudqq4d~casce': 'CIN2#notrolling'}
+CRES: {'cudqfge~Spaark45': 'CRES1#Frustrate', 'cudqq4d~casce': 'CRES0#Normal'}
+3il8nh$cuiugpu$cuj02u0
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cuj0n89~Sharkiller': 'CIN0#trolling'}
+CRES: {'cuj0n89~Sharkiller': 'CRES3#Engage'}
+3igxog$cugackq$cugasgz
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cugieel~DPNovitzky': 'CIN0#trolling'}
+CRES: {'cugieel~DPNovitzky': 'CRES3#Engage'}
+3h99py$cu5uo5e$cu5v1bd
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu5ztl7~SarionFetecuse': 'CIN0#trolling'}
+CRES: {'cu5ztl7~SarionFetecuse': 'CRES2#Neutralize'}
+3hl35p$cu9len7$cu9ll1z
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu9o7gt~Dookiestain_LaFlair': 'CIN0#trolling', 'cu9lup1~mrbobsthegreat': 'CIN0#trolling'}
+CRES: {'cu9o7gt~Dookiestain_LaFlair': 'CRES5#Follow', 'cu9lup1~mrbobsthegreat': 'CRES3#Engage'}
+3hz3yp$cubvf68$cubvi8y
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cubw3cx~TheREALKilljoy': 'CIN0#trolling'}
+CRES: {'cubw3cx~TheREALKilljoy': 'CRES3#Engage'}
+3ivw3k$cuka2k4$cukaxf5
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cukb7fi~WhiskyTangoZulu': 'CIN0#trolling'}
+CRES: {'cukb7fi~WhiskyTangoZulu': 'CRES3#Engage'}
+3iebef$cufq443$cugd2ft
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cugqtrt~Kilomyles': 'CIN0#trolling'}
+CRES: {'cugqtrt~Kilomyles': 'CRES4#Troll'}
+3hxuyi$cubtb08$cubthbx
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cubv881~_Gabria': 'CIN0#trolling'}
+CRES: {'cubv881~_Gabria': 'CRES2#Neutralize'}
+3ff99y$ctonrv3$ctov3kz
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctpgkcc~noooyes': 'CIN2#notrolling'}
+CRES: {'ctpgkcc~noooyes': 'CRES0#Normal'}
+3fsnj7$ctrs8vr$ctrsdwt
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctrt5lh~Dfnoboy': 'CIN2#notrolling', 'ctrslqi~Hatefullynch': 'CIN2#notrolling'}
+CRES: {'ctrt5lh~Dfnoboy': 'CRES0#Normal', 'ctrslqi~Hatefullynch': 'CRES0#Normal'}
+3iqffa$cuj6xij$cuj8gkr
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cujc723~Seraphus': 'CIN2#notrolling'}
+CRES: {'cujc723~Seraphus': 'CRES4#Troll'}
+3ibzal$cuh07zh$cuh4i17
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuhf9dp~LonelyOnNaxos': 'CIN0#trolling'}
+CRES: {'cuhf9dp~LonelyOnNaxos': 'CRES1#Frustrate'}
+3g9uls$ctx65cm$ctxbbt7
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctxbkdp~tpolaris': 'CIN0#trolling'}
+CRES: {'ctxbkdp~tpolaris': 'CRES1#Frustrate'}
+3i10mo$cucj6ut$cuctqet
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuctvpd~TrishyMay': 'CIN0#trolling'}
+CRES: {'cuctvpd~TrishyMay': 'CRES1#Frustrate'}
+3hxw0s$cubkdzq$cubkg03
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cubkl6s~Temple_Terry_Davis': 'CIN0#trolling'}
+CRES: {'cubkl6s~Temple_Terry_Davis': 'CRES4#Troll'}
+3hutku$cuavayt$cuave5e
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cuavoie~jeffafa123': 'CIN0#trolling'}
+CRES: {'cuavoie~jeffafa123': 'CRES4#Troll'}
+3g7fdf$ctvkt8g$ctvn7qg
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctw6w2k~deleted': 'CIN2#notrolling'}
+CRES: {'ctw6w2k~deleted': 'CRES4#Troll'}
+3ixi01$cuklale$cukln9v
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuklwer~Notaniphone': 'CIN0#trolling'}
+CRES: {'cuklwer~Notaniphone': 'CRES3#Engage'}
+3iq04i$cuj133x$cuj2k22
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuj3h64~seattlyte': 'CIN1#playing'}
+CRES: {'cuj3h64~seattlyte': 'CRES4#Troll'}
+3i06bl$cuhqls8$cuhrvz7
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuhshyh~slipshod_alibi': 'CIN0#trolling'}
+CRES: {'cuhshyh~slipshod_alibi': 'CRES3#Engage'}
+3fmv72$ctqhd1q$ctqilzz
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'ctqjpbd~Javiklegrand': 'CIN1#playing'}
+CRES: {'ctqjpbd~Javiklegrand': 'CRES1#Frustrate'}
+3h39gf$cu4b0cf$cu4b5vc
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu4bmm4~akbort': 'CIN2#notrolling'}
+CRES: {'cu4bmm4~akbort': 'CRES0#Normal'}
+3i2gfw$cud7jnf$cud82vb
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cud83m5~vlasvilneous': 'CIN0#trolling'}
+CRES: {'cud83m5~vlasvilneous': 'CRES3#Engage'}
+3i6971$cudp9k3$cudpfzk
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cudphyk~Mandalor': 'CIN0#trolling'}
+CRES: {'cudphyk~Mandalor': 'CRES3#Engage'}
+3isflm$cujqgne$cuk7pzm
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cukbem9~usamaahmad': 'CIN0#trolling'}
+CRES: {'cukbem9~usamaahmad': 'CRES2#Neutralize'}
+3hbkn6$cu7m9ac$cu8bc56
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu8toob~auzrealop': 'CIN0#trolling'}
+CRES: {'cu8toob~auzrealop': 'CRES3#Engage'}
+3h90m1$cu5fiq4$cu5hn4c
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6042i~felpz123': 'CIN0#trolling'}
+CRES: {'cu6042i~felpz123': 'CRES2#Neutralize'}
+3g0xrt$cttum8x$cttv4ia
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cttvo99~kickstand': 'CIN2#notrolling'}
+CRES: {'cttvo99~kickstand': 'CRES4#Troll'}
+3fyps1$ctt85ud$ctt8a4k
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'ctt8gqq~HSB0093': 'CIN0#trolling'}
+CRES: {'ctt8gqq~HSB0093': 'CRES3#Engage'}
+3fjkig$ctpixa0$ctpl4gl
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'ctpllj4~guamtippedover2': 'CIN2#notrolling', 'ctpts9z~TrollAccount420': 'CIN2#notrolling', 'ctpol5d~fooliam': 'CIN0#trolling'}
+CRES: {'ctpllj4~guamtippedover2': 'CRES3#Engage', 'ctpts9z~TrollAccount420': 'CRES0#Normal', 'ctpol5d~fooliam': 'CRES6#Praise'}
+3i1gv0$cud24ie$cud28nh
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cue8ghn~bogidyboy': 'CIN2#notrolling', 'cud2buh~TrueHybrid': 'CIN0#trolling'}
+CRES: {'cue8ghn~bogidyboy': 'CRES0#Normal', 'cud2buh~TrueHybrid': 'CRES1#Frustrate'}
+3io2v0$cui7wur$cui7zft
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuihevb~SarahK19': 'CIN0#trolling', 'cui8fl4~Turd111': 'CIN2#notrolling'}
+CRES: {'cuihevb~SarahK19': 'CRES1#Frustrate', 'cui8fl4~Turd111': 'CRES4#Troll'}
+3g4wmx$ctvrydz$ctvwz3e
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctw0ef6~10050101': 'CIN2#notrolling'}
+CRES: {'ctw0ef6~10050101': 'CRES4#Troll'}
+3il0rt$3il0rt$cuhbjzv
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cuhc1l9~Deathsnova': 'CIN0#trolling'}
+CRES: {'cuhc1l9~Deathsnova': 'CRES3#Engage'}
+3ihjkl$cugt7nm$cugtah6
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cugtw3i~AidanNaut': 'CIN0#trolling'}
+CRES: {'cugtw3i~AidanNaut': 'CRES1#Frustrate'}
+3g9j49$ctw9oom$ctwa05z
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctwabad~RememberEzio': 'CIN0#trolling'}
+CRES: {'ctwabad~RememberEzio': 'CRES2#Neutralize'}
+3hbggt$cu6bp1f$cu6bvec
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6byyr~_Hutch': 'CIN0#trolling'}
+CRES: {'cu6byyr~_Hutch': 'CRES1#Frustrate'}
+3irryu$cuj2qzw$cuj2vsu
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuj37y7~Vittali': 'CIN2#notrolling', 'cuj3b5u~DarthRedditAlien': 'CIN0#trolling'}
+CRES: {'cuj37y7~Vittali': 'CRES0#Normal', 'cuj3b5u~DarthRedditAlien': 'CRES0#Normal'}
+3ffjhr$cto4bgh$cto4ogp
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cto51lo~korvyr1': 'CIN0#trolling', 'cto4sez~Sokkumboppaz': 'CIN2#notrolling'}
+CRES: {'cto51lo~korvyr1': 'CRES3#Engage', 'cto4sez~Sokkumboppaz': 'CRES3#Engage'}
+3i8y0v$cuelpxd$cueltyc
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuikh17~emd2013': 'CIN0#trolling', 'cuemkm8~wu2ad': 'CIN0#trolling', 'cuffzcz~skylenorman': 'CIN2#notrolling'}
+CRES: {'cuikh17~emd2013': 'CRES2#Neutralize', 'cuemkm8~wu2ad': 'CRES1#Frustrate', 'cuffzcz~skylenorman': 'CRES0#Normal'}
+3hz4ur$cuc3n3c$cuc4fmx
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuc5kfn~SlyWolfz': 'CIN2#notrolling'}
+CRES: {'cuc5kfn~SlyWolfz': 'CRES4#Troll'}
+3g1num$ctu1tp2$ctu24s2
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctu2pfa~cactuscat': 'CIN2#notrolling'}
+CRES: {'ctu2pfa~cactuscat': 'CRES0#Normal'}
+3fj7l9$ctp8jxi$ctp9c3k
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctpbbs8~Logically_Insane': 'CIN0#trolling'}
+CRES: {'ctpbbs8~Logically_Insane': 'CRES3#Engage'}
+3h20u9$3h20u9$cu3pri3
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu3u4lq~AIRSKI': 'CIN2#notrolling'}
+CRES: {'cu3u4lq~AIRSKI': 'CRES0#Normal'}
+3ij00b$cuhekeo$cui1756
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cui2ahh~Fox436': 'CIN0#trolling'}
+CRES: {'cui2ahh~Fox436': 'CRES4#Troll'}
+3hax00$cu7m2m0$cu868n6
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu87tba~fluffymuffcakes': 'CIN0#trolling'}
+CRES: {'cu87tba~fluffymuffcakes': 'CRES3#Engage'}
+3ho897$cu938nz$cu938xp
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu93kf4~asifnot': 'CIN0#trolling', 'cu93aw5~Luvs2Dummy': 'CIN2#notrolling'}
+CRES: {'cu93kf4~asifnot': 'CRES3#Engage', 'cu93aw5~Luvs2Dummy': 'CRES0#Normal'}
+3gnffh$cu149dq$cu155wm
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu19gh9~TheRealDeathSheep': 'CIN0#trolling'}
+CRES: {'cu19gh9~TheRealDeathSheep': 'CRES6#Praise'}
+3gu2un$cu2fhpx$cu2gbo9
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu5ai1k~iN00B94': 'CIN0#trolling'}
+CRES: {'cu5ai1k~iN00B94': 'CRES1#Frustrate'}
+3hd15q$cu6b1el$cu6b6iy
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6bfg4~MN1H': 'CIN2#notrolling'}
+CRES: {'cu6bfg4~MN1H': 'CRES4#Troll'}
+3hdpbz$cu6ttbp$cu6u3hr
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu6wrqe~Lord_Augastus': 'CIN0#trolling'}
+CRES: {'cu6wrqe~Lord_Augastus': 'CRES3#Engage'}
+3i4dgh$cudcad8$cudmt7s
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cudrsdq~deleted': 'CIN0#trolling', 'cue22hv~SulliverVittles': 'CIN0#trolling'}
+CRES: {'cudrsdq~deleted': 'CRES4#Troll', 'cue22hv~SulliverVittles': 'CRES2#Neutralize'}
+3g7yd1$ctvpmld$ctvqg78
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctvr73l~HovHovHov': 'CIN0#trolling'}
+CRES: {'ctvr73l~HovHovHov': 'CRES2#Neutralize'}
+3hbw4s$cu6pnp9$cu6pogs
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6pshd~I_Fuck_Milk': 'CIN0#trolling'}
+CRES: {'cu6pshd~I_Fuck_Milk': 'CRES3#Engage'}
+3i658h$cudu2a6$cudu2w1
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cudvizf~bohemian_wombat': 'CIN0#trolling'}
+CRES: {'cudvizf~bohemian_wombat': 'CRES4#Troll'}
+3idgje$cufg2e1$cufjk30
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuflrm5~deleted': 'CIN1#playing', 'cufjx52~TurboSalsa': 'CIN0#trolling'}
+CRES: {'cuflrm5~deleted': 'CRES4#Troll', 'cufjx52~TurboSalsa': 'CRES2#Neutralize'}
+3i5uxl$cuds7qf$cudscrm
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cudsdfg~ZNT_Arch': 'CIN0#trolling'}
+CRES: {'cudsdfg~ZNT_Arch': 'CRES2#Neutralize'}
+3gac3w$ctyenoi$cufmsfn
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cufnuqo~Dunk_Master_Flex': 'CIN0#trolling'}
+CRES: {'cufnuqo~Dunk_Master_Flex': 'CRES3#Engage'}
+3hvcup$cuaz1rw$cub4jrt
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cub51jh~spastic_narwhal': 'CIN2#notrolling'}
+CRES: {'cub51jh~spastic_narwhal': 'CRES4#Troll'}
+3ipg44$3ipg44$cuiktkk
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuil7gm~HorseyMan': 'CIN0#trolling'}
+CRES: {'cuil7gm~HorseyMan': 'CRES1#Frustrate'}
+3hk6s7$cu85hio$cu8arcg
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu8mhv7~Linux_PCMR': 'CIN0#trolling'}
+CRES: {'cu8mhv7~Linux_PCMR': 'CRES4#Troll'}
+3hnund$cu9wsj7$cu9xph8
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'cu9zknu~Lucky137': 'CIN0#trolling'}
+CRES: {'cu9zknu~Lucky137': 'CRES2#Neutralize'}
+3i42fa$cud3n95$cud3p79
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cud3u7x~Dead_Man_Redditing': 'CIN0#trolling'}
+CRES: {'cud3u7x~Dead_Man_Redditing': 'CRES3#Engage'}
+3fq4fc$ctr32jr$ctrb348
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'ctrtk2i~mwmwmwmwmmdw': 'CIN1#playing', 'ctrnmaz~Robert_Danger': 'CIN1#playing'}
+CRES: {'ctrtk2i~mwmwmwmwmmdw': 'CRES4#Troll', 'ctrnmaz~Robert_Danger': 'CRES4#Troll'}
+3iggus$cuh9khk$cuhap5m
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuhb45q~MyLongestJourney': 'CIN0#trolling'}
+CRES: {'cuhb45q~MyLongestJourney': 'CRES4#Troll'}
+3hvuy5$cub0nm0$cub0pzy
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cub0wjb~Fruloops': 'CIN0#trolling'}
+CRES: {'cub0wjb~Fruloops': 'CRES3#Engage'}
+3iu5eb$cujolks$cujphmp
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cujsomi~Pigsin5pace': 'CIN2#notrolling', 'cujq12u~skunkhunk': 'CIN2#notrolling'}
+CRES: {'cujsomi~Pigsin5pace': 'CRES0#Normal', 'cujq12u~skunkhunk': 'CRES0#Normal'}
+3ihbdb$cuhp01j$cuhpzlo
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuhrjoj~ksaid1': 'CIN0#trolling'}
+CRES: {'cuhrjoj~ksaid1': 'CRES3#Engage'}
+3fgvs7$ctoigy7$ctopknu
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctpi8ok~meruitmade': 'CIN2#notrolling', 'ctotaop~Givemethesea': 'CIN0#trolling'}
+CRES: {'ctpi8ok~meruitmade': 'CRES3#Engage', 'ctotaop~Givemethesea': 'CRES3#Engage'}
+3i5jk2$cue4o72$cueab77
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cueb8rd~miltonbostock': 'CIN0#trolling'}
+CRES: {'cueb8rd~miltonbostock': 'CRES4#Troll'}
+3fj5fs$ctpmxs3$ctpn7vu
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctpne9o~tharlyen1994': 'CIN0#trolling'}
+CRES: {'ctpne9o~tharlyen1994': 'CRES1#Frustrate'}
+3hii4b$cu7vihc$cu7vlfi
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu9bo9l~asked2rise': 'CIN0#trolling', 'cu7vsq3~havearemotecontrol': 'CIN0#trolling'}
+CRES: {'cu9bo9l~asked2rise': 'CRES4#Troll', 'cu7vsq3~havearemotecontrol': 'CRES3#Engage'}
+3hsipc$cua6gyz$cubpcfj
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cubq7ht~snak_attak': 'CIN0#trolling'}
+CRES: {'cubq7ht~snak_attak': 'CRES1#Frustrate'}
+3hqcan$cuac8dr$cuacjxj
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuacxjj~Virulan': 'CIN0#trolling', 'cuacphi~Aaronsaurus': 'CIN0#trolling'}
+CRES: {'cuacxjj~Virulan': 'CRES2#Neutralize', 'cuacphi~Aaronsaurus': 'CRES2#Neutralize'}
+3hwvij$cud3k7d$cuhm4wp
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuhumpv~Rain_Monkey': 'CIN0#trolling'}
+CRES: {'cuhumpv~Rain_Monkey': 'CRES1#Frustrate'}
+3fpoqg$ctqt9td$ctqtlab
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctqu1y8~oldgeezerhippie1': 'CIN0#trolling'}
+CRES: {'ctqu1y8~oldgeezerhippie1': 'CRES3#Engage'}
+3ghvn4$ctz6czs$ctz6eir
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'ctz6yrz~Dashing_Snow': 'CIN0#trolling'}
+CRES: {'ctz6yrz~Dashing_Snow': 'CRES3#Engage'}
+3hcin5$cu6xp2f$cu724vg
+CON: ['CON1:hidden']
+AIN: ['AIN1#playing']
+CIN: {'cu72zn3~cbarden': 'CIN0#trolling'}
+CRES: {'cu72zn3~cbarden': 'CRES2#Neutralize'}
+3hyhdj$cubp4xp$cubprsa
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cubpszt~Tsurupettan': 'CIN0#trolling', 'cubq667~arktoid': 'CIN0#trolling'}
+CRES: {'cubpszt~Tsurupettan': 'CRES4#Troll', 'cubq667~arktoid': 'CRES2#Neutralize'}
+3hdnjz$cu6jbc0$cu6ssdr
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu75quj~Shacointhejungle': 'CIN2#notrolling'}
+CRES: {'cu75quj~Shacointhejungle': 'CRES0#Normal'}
+3hzzt8$cuc38w9$cuccdsx
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cucsgg1~Ninja47': 'CIN0#trolling', 'cucchow~Orc176': 'CIN2#notrolling'}
+CRES: {'cucsgg1~Ninja47': 'CRES0#Normal', 'cucchow~Orc176': 'CRES4#Troll'}
+3hat7d$cu5qu36$cu5v70w
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu5wtmc~LeGreatToucan': 'CIN2#notrolling'}
+CRES: {'cu5wtmc~LeGreatToucan': 'CRES0#Normal'}
+3hotet$cuam794$cuancp7
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuarn3u~Riesig19': 'CIN0#trolling'}
+CRES: {'cuarn3u~Riesig19': 'CRES0#Normal'}
+3hanaj$cu5x4bo$cu5yl04
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu61rhf~oohSomethingShiny': 'CIN2#notrolling'}
+CRES: {'cu61rhf~oohSomethingShiny': 'CRES0#Normal'}
+3ho9kw$3ho9kw$cu970zl
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu9dkvp~Drolykz': 'CIN0#trolling'}
+CRES: {'cu9dkvp~Drolykz': 'CRES2#Neutralize'}
+3hxgw6$3hxgw6$cubg6w2
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cubg7qe~izlepox': 'CIN2#notrolling'}
+CRES: {'cubg7qe~izlepox': 'CRES0#Normal'}
+3hzr3v$cuc0z1k$cuc17jf
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuc85bz~Connordev': 'CIN0#trolling'}
+CRES: {'cuc85bz~Connordev': 'CRES4#Troll'}
+3ivrnl$cuk4itk$cuk4nj1
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuk50w4~MoneyOverSluts': 'CIN0#trolling'}
+CRES: {'cuk50w4~MoneyOverSluts': 'CRES4#Troll'}
+3i2pog$cuea6fi$cuee27k
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuehk9k~torhem': 'CIN0#trolling'}
+CRES: {'cuehk9k~torhem': 'CRES3#Engage'}
+3ggsvp$cty2a94$ctz0qo9
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctz4lla~mono_chino': 'CIN0#trolling', 'ctz19ip~bageltax': 'CIN0#trolling'}
+CRES: {'ctz4lla~mono_chino': 'CRES3#Engage', 'ctz19ip~bageltax': 'CRES1#Frustrate'}
+3grl6w$cu1te9n$cu1ubto
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu1vpi1~clueboss': 'CIN0#trolling'}
+CRES: {'cu1vpi1~clueboss': 'CRES6#Praise'}
+3fn2ra$ctqhdvv$ctqhger
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctqhlug~100jumpingbeans': 'CIN0#trolling'}
+CRES: {'ctqhlug~100jumpingbeans': 'CRES1#Frustrate'}
+3hs492$cua260m$cua2dbw
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cua2e84~Late_Night_Grumbler': 'CIN0#trolling'}
+CRES: {'cua2e84~Late_Night_Grumbler': 'CRES3#Engage'}
+3iv4yy$cujxy5y$cujxzze
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cujy188~jetshockeyfan': 'CIN2#notrolling', 'cuka2rq~Indestructavincible': 'CIN2#notrolling'}
+CRES: {'cujy188~jetshockeyfan': 'CRES0#Normal', 'cuka2rq~Indestructavincible': 'CRES0#Normal'}
+3gi1kf$ctycl8v$ctyd1ww
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctyl69f~fuck2much1234': 'CIN0#trolling'}
+CRES: {'ctyl69f~fuck2much1234': 'CRES4#Troll'}
+3hei5t$cu6pvjt$cu6tenk
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6tghq~NUNCHUKKS': 'CIN2#notrolling'}
+CRES: {'cu6tghq~NUNCHUKKS': 'CRES4#Troll'}
+3hqthl$cu9pmn1$cu9qdso
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu9rizo~SnoopTidder': 'CIN2#notrolling', 'cu9qgnf~Gridmaster': 'CIN2#notrolling'}
+CRES: {'cu9rizo~SnoopTidder': 'CRES2#Neutralize', 'cu9qgnf~Gridmaster': 'CRES4#Troll'}
+3g68g0$ctvnoy9$ctvqzsp
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctvr2um~Pramble': 'CIN0#trolling'}
+CRES: {'ctvr2um~Pramble': 'CRES2#Neutralize'}
+3hc67s$cu6of7u$cu6xxao
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6zrnk~madcaphal': 'CIN2#notrolling'}
+CRES: {'cu6zrnk~madcaphal': 'CRES4#Troll'}
+3ha8kj$cu5sjy7$cu5tgs0
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu5tnqt~jackrousseau': 'CIN2#notrolling'}
+CRES: {'cu5tnqt~jackrousseau': 'CRES0#Normal'}
+3ft75k$ctshj26$ctsht45
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctsi89t~typkrft': 'CIN2#notrolling'}
+CRES: {'ctsi89t~typkrft': 'CRES4#Troll'}
+3ixq1n$cukmcyi$cuks037
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cukt7wn~Voat_Is_Better': 'CIN2#notrolling'}
+CRES: {'cukt7wn~Voat_Is_Better': 'CRES0#Normal'}
+3gcfs6$ctwxu6y$ctxdngx
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctxi1cz~WhenCornAttacks': 'CIN2#notrolling', 'ctxh32u~kjbetan': 'CIN0#trolling'}
+CRES: {'ctxi1cz~WhenCornAttacks': 'CRES4#Troll', 'ctxh32u~kjbetan': 'CRES1#Frustrate'}
+3g14em$ctu0gkv$ctu4yg2
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctu68jc~iworkblue': 'CIN0#trolling'}
+CRES: {'ctu68jc~iworkblue': 'CRES3#Engage'}
+3g8y34$ctvz2v1$ctvza4y
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctvzc1w~JaySeg': 'CIN0#trolling'}
+CRES: {'ctvzc1w~JaySeg': 'CRES1#Frustrate'}
+3i6yup$cue062n$cue0e6a
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cue1ykb~Danksalmon': 'CIN0#trolling'}
+CRES: {'cue1ykb~Danksalmon': 'CRES4#Troll'}
+3iuczl$cujwzrq$cujx7ga
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cujykzd~treelove': 'CIN0#trolling', 'cujxbxf~QuantumTangler': 'CIN2#notrolling'}
+CRES: {'cujykzd~treelove': 'CRES2#Neutralize', 'cujxbxf~QuantumTangler': 'CRES0#Normal'}
+3i3oyw$cudjcza$cudjwlq
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cudkohm~keeblerleigh': 'CIN2#notrolling', 'cudklbq~cerisiere': 'CIN2#notrolling', 'cudkz88~JoyceCarolOatmeal': 'CIN0#trolling'}
+CRES: {'cudkohm~keeblerleigh': 'CRES4#Troll', 'cudklbq~cerisiere': 'CRES4#Troll', 'cudkz88~JoyceCarolOatmeal': 'CRES3#Engage'}
+3g4xh3$3g4xh3$ctuywg3
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctuz4ow~fazzy321': 'CIN0#trolling'}
+CRES: {'ctuz4ow~fazzy321': 'CRES1#Frustrate'}
+3gfarm$ctxy7db$ctxznf7
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cty03rk~Jackyboness': 'CIN0#trolling'}
+CRES: {'cty03rk~Jackyboness': 'CRES3#Engage'}
+3fvyn4$cu6yx62$cu7s0uo
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu842go~HotDogKnights': 'CIN0#trolling'}
+CRES: {'cu842go~HotDogKnights': 'CRES1#Frustrate'}
+3haq8q$cu5t9w5$cu60kv3
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu62p7z~mymindpsychee': 'CIN2#notrolling'}
+CRES: {'cu62p7z~mymindpsychee': 'CRES0#Normal'}
+3ivbaf$cuktgu9$cukts8l
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuktvnk~fixius60': 'CIN0#trolling'}
+CRES: {'cuktvnk~fixius60': 'CRES3#Engage'}
+3hyh1h$cubowii$cuboy7m
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cubozvx~ReganDryke': 'CIN2#notrolling'}
+CRES: {'cubozvx~ReganDryke': 'CRES0#Normal'}
+3g1gi1$3g1gi1$ctuew2e
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctugchd~Yrale': 'CIN0#trolling', 'ctuiwpy~seeyoshirun': 'CIN0#trolling', 'ctufg7c~phivealive': 'CIN0#trolling'}
+CRES: {'ctugchd~Yrale': 'CRES3#Engage', 'ctuiwpy~seeyoshirun': 'CRES1#Frustrate', 'ctufg7c~phivealive': 'CRES2#Neutralize'}
+3hhio0$cu7u9sm$cu84c66
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu88dek~Blutarg': 'CIN2#notrolling', 'cu88dr8~peachieekeen': 'CIN0#trolling'}
+CRES: {'cu88dek~Blutarg': 'CRES3#Engage', 'cu88dr8~peachieekeen': 'CRES4#Troll'}
+3hpfyt$cub24ih$cub4jps
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cub6j0i~Billcosbyspuddingpop': 'CIN0#trolling'}
+CRES: {'cub6j0i~Billcosbyspuddingpop': 'CRES4#Troll'}
+3ha263$cu5vnzc$cu5w6h2
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu60ps6~isharted_': 'CIN2#notrolling'}
+CRES: {'cu60ps6~isharted_': 'CRES0#Normal'}
+3fgvux$ctq324l$ctqd6c0
+CON: ['CON1:hidden']
+AIN: ['AIN0#trolling']
+CIN: {'ctqe4nf~sirbruce': 'CIN0#trolling'}
+CRES: {'ctqe4nf~sirbruce': 'CRES2#Neutralize'}
+3gl56d$ctzkm2a$ctzllxz
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctzn1oy~snerrymunster': 'CIN2#notrolling'}
+CRES: {'ctzn1oy~snerrymunster': 'CRES4#Troll'}
+3irk37$cuj1i6u$cuj1j27
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuj1ona~adamentelephant': 'CIN0#trolling'}
+CRES: {'cuj1ona~adamentelephant': 'CRES3#Engage'}
+3fndiq$ctqeojs$ctqerxe
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctqeswo~oikoik1': 'CIN0#trolling'}
+CRES: {'ctqeswo~oikoik1': 'CRES4#Troll'}
+3g4r69$ctv58kb$ctv8hs5
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctvad12~Qender': 'CIN0#trolling'}
+CRES: {'ctvad12~Qender': 'CRES3#Engage'}
+3isfgq$cuj8ity$cuj8lc5
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuj8ntb~maledictt': 'CIN0#trolling'}
+CRES: {'cuj8ntb~maledictt': 'CRES1#Frustrate'}
+3hx607$cubzl0f$cuc1rfh
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuc208f~SoggySneaker': 'CIN0#trolling'}
+CRES: {'cuc208f~SoggySneaker': 'CRES2#Neutralize'}
+3g1n74$cttzedj$cttzf8b
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cttzhti~Porridgeandpeas': 'CIN0#trolling'}
+CRES: {'cttzhti~Porridgeandpeas': 'CRES3#Engage'}
+3i7psa$cuez1b4$cufdaap
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cuftko4~RareBeautyEtsy': 'CIN0#trolling'}
+CRES: {'cuftko4~RareBeautyEtsy': 'CRES3#Engage'}
+3ig0oj$cug30qv$cug31en
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cug31zt~emerald122': 'CIN2#notrolling'}
+CRES: {'cug31zt~emerald122': 'CRES4#Troll'}
+3iqfcs$cujdw1j$cujdyjc
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuk4n1a~purplepooters': 'CIN2#notrolling'}
+CRES: {'cuk4n1a~purplepooters': 'CRES4#Troll'}
+3h27kp$cu3pbto$cu4ginb
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu4m9aw~Kiux97': 'CIN0#trolling'}
+CRES: {'cu4m9aw~Kiux97': 'CRES2#Neutralize'}
+3iby11$cuf6ta9$cuf6xt6
+CON: ['CON2:none']
+AIN: ['AIN1#playing']
+CIN: {'cuf8qsu~SquidHatGuy': 'CIN2#notrolling', 'cuf6z92~flamingmetalicclouds': 'CIN0#trolling'}
+CRES: {'cuf8qsu~SquidHatGuy': 'CRES4#Troll', 'cuf6z92~flamingmetalicclouds': 'CRES4#Troll'}
+3g6sp1$ctvfw7q$ctvg7r5
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctvg874~Late_Night_Grumbler': 'CIN0#trolling'}
+CRES: {'ctvg874~Late_Night_Grumbler': 'CRES1#Frustrate'}
+3g3b84$ctugqgc$ctum7ed
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctumhj0~VIOLENT_ORGASMS': 'CIN2#notrolling', 'ctum7sk~dragonoid44': 'CIN2#notrolling'}
+CRES: {'ctumhj0~VIOLENT_ORGASMS': 'CRES0#Normal', 'ctum7sk~dragonoid44': 'CRES0#Normal'}
+3fncat$ctqf5cw$ctqf814
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctqgd94~Flaisse': 'CIN0#trolling'}
+CRES: {'ctqgd94~Flaisse': 'CRES4#Troll'}
+3had2h$cu5ph3v$cu5pivv
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu6okxx~Lavalampexpress': 'CIN2#notrolling'}
+CRES: {'cu6okxx~Lavalampexpress': 'CRES0#Normal'}
+3h97bj$cu5vau4$cu5ymds
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu5ytbc~maradoification': 'CIN0#trolling'}
+CRES: {'cu5ytbc~maradoification': 'CRES3#Engage'}
+3fqq1r$ctrrrkj$ctrvm18
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cts5tk5~oh_no_aliens': 'CIN2#notrolling'}
+CRES: {'cts5tk5~oh_no_aliens': 'CRES4#Troll'}
+3g98b7$ctway2v$ctwedc0
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctwemp7~Kaijara': 'CIN0#trolling'}
+CRES: {'ctwemp7~Kaijara': 'CRES4#Troll'}
+3iayd0$cuf6mqr$cuf8qk3
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuf91wf~Suma2': 'CIN0#trolling'}
+CRES: {'cuf91wf~Suma2': 'CRES3#Engage'}
+3fdjjc$3fdjjc$ctnpef3
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctnpqfe~deleted': 'CIN0#trolling'}
+CRES: {'ctnpqfe~deleted': 'CRES4#Troll'}
+3ffhtc$ctoahat$ctoax03
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctoic9e~Cheesyjokes69': 'CIN0#trolling'}
+CRES: {'ctoic9e~Cheesyjokes69': 'CRES1#Frustrate'}
+3ffa2t$cto90p9$cto9im0
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctoc55l~Idk_my_name': 'CIN2#notrolling', 'ctoa7jl~Ryanop0': 'CIN2#notrolling'}
+CRES: {'ctoc55l~Idk_my_name': 'CRES0#Normal', 'ctoa7jl~Ryanop0': 'CRES0#Normal'}
+3ilfx7$cuhkz13$cuhl4c7
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuhle4j~Vacation_Flu': 'CIN0#trolling'}
+CRES: {'cuhle4j~Vacation_Flu': 'CRES3#Engage'}
+3i0zx3$cuclj2d$cucllmo
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuclou3~Helenarth': 'CIN2#notrolling', 'cucn5ga~Morganhale': 'CIN0#trolling'}
+CRES: {'cuclou3~Helenarth': 'CRES0#Normal', 'cucn5ga~Morganhale': 'CRES4#Troll'}
+3ic501$cuf5two$cuf656t
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cuf6er6~subecx': 'CIN0#trolling'}
+CRES: {'cuf6er6~subecx': 'CRES2#Neutralize'}
+3hvw7t$cubcjtp$cubcyn6
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cubdaj9~ugxvibe': 'CIN0#trolling'}
+CRES: {'cubdaj9~ugxvibe': 'CRES3#Engage'}
+3ii823$cugsd1h$cugsnsg
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cugsvie~shadowkijik': 'CIN0#trolling'}
+CRES: {'cugsvie~shadowkijik': 'CRES3#Engage'}
+3fk55q$ctq7l7s$ctqhddl
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctql6ub~deleted': 'CIN2#notrolling'}
+CRES: {'ctql6ub~deleted': 'CRES4#Troll'}
+3ha857$cu5mk4s$cu5nrdm
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'cu5nspd~deleted': 'CIN0#trolling'}
+CRES: {'cu5nspd~deleted': 'CRES2#Neutralize'}
+3hgol8$cu7ehia$cu7eqvm
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cu7gidp~nice_fucking_kitty': 'CIN1#playing'}
+CRES: {'cu7gidp~nice_fucking_kitty': 'CRES5#Follow'}
+3hhbuc$cu7n8eb$cu7ndlw
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu7ntvl~_____Deadpool': 'CIN0#trolling'}
+CRES: {'cu7ntvl~_____Deadpool': 'CRES6#Praise'}
+3i58o7$cudyqyp$cuevf3k
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuf4k1o~DanglyW': 'CIN0#trolling'}
+CRES: {'cuf4k1o~DanglyW': 'CRES4#Troll'}
+3he4ol$cujdisf$cujdvbb
+CON: ['CON1:hidden']
+AIN: ['AIN1#playing']
+CIN: {'cujeoko~deleted': 'CIN0#trolling'}
+CRES: {'cujeoko~deleted': 'CRES3#Engage'}
+3ik249$cuh4c8q$cuh4ehj
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cuh4g39~DrSkeezix': 'CIN2#notrolling'}
+CRES: {'cuh4g39~DrSkeezix': 'CRES4#Troll'}
+3fnrqz$ctqeqda$ctqn3oy
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'ctqr3wy~CALLOFDUTY5EVER': 'CIN0#trolling', 'ctqvd3o~gambiting': 'CIN0#trolling'}
+CRES: {'ctqr3wy~CALLOFDUTY5EVER': 'CRES4#Troll', 'ctqvd3o~gambiting': 'CRES3#Engage'}
+3igs5b$cugr8di$cugstl4
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cugupvi~Delsana': 'CIN0#trolling'}
+CRES: {'cugupvi~Delsana': 'CRES3#Engage'}
+3fvn4y$ctsbzg0$ctsc0yc
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctsc3ly~cLaunnn': 'CIN0#trolling', 'ctsc4wp~MrZebra177': 'CIN0#trolling'}
+CRES: {'ctsc3ly~cLaunnn': 'CRES1#Frustrate', 'ctsc4wp~MrZebra177': 'CRES4#Troll'}
+3hp0l3$cu9c2uc$cu9ch35
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'cu9civ3~Joeybada33': 'CIN2#notrolling', 'cu9chhq~nonotreally11': 'CIN2#notrolling'}
+CRES: {'cu9civ3~Joeybada33': 'CRES4#Troll', 'cu9chhq~nonotreally11': 'CRES0#Normal'}
+3fn8aw$ctq7pxo$ctq8d7k
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctq8jho~lightbadkid': 'CIN1#playing'}
+CRES: {'ctq8jho~lightbadkid': 'CRES6#Praise'}
+3g79nj$ctvkqni$ctvmune
+CON: ['CON0:exposed']
+AIN: ['AIN0#trolling']
+CIN: {'ctvmykg~Mastercutlet': 'CIN0#trolling', 'ctvpttp~Dysnomi': 'CIN2#notrolling'}
+CRES: {'ctvmykg~Mastercutlet': 'CRES3#Engage', 'ctvpttp~Dysnomi': 'CRES0#Normal'}
+3hiv50$cu7wlcv$cu7xel4
+CON: ['CON0:exposed']
+AIN: ['AIN1#playing']
+CIN: {'cu7xhv6~TheMouseIsBack': 'CIN1#playing'}
+CRES: {'cu7xhv6~TheMouseIsBack': 'CRES4#Troll'}
+3fkzu7$ctq183c$ctq1kgw
+CON: ['CON2:none']
+AIN: ['AIN2#notrolling']
+CIN: {'ctq24fi~wutangm8': 'CIN0#trolling'}
+CRES: {'ctq24fi~wutangm8': 'CRES4#Troll'}

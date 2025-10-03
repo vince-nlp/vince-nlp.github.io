@@ -1,0 +1,57 @@
+<html><head><title>Reason Identification and Classification Dataset</title></head>
+<body bgcolor="#ffffff" text="#000000">
+
+
+<h1>Reason Identification and Classification Dataset</h1>
+
+<br>
+
+<p>This page is a distribution site of the dataset for the task of Reason Identification and Classification. Data available on this page have been collected from a popular online debate platform called <a href="http://www.createdebate.com/">CreateDebate</a>.</p>
+
+<p>The problem of <i>Reason Identification and Classification</i> for which this dataset is intended is described in:</p>
+
+<ul> <li> <a
+href="http://www.hlt.utdallas.edu/~saidul/">Kazi Saidul Hasan</a> and <a
+href="http://www.hlt.utdallas.edu/~vince/">Vincent Ng</a>, <a
+href="emnlp14.pdf">Why are You Taking this Stance? Identifying and Classifying Reasons in Ideological Debates</a>,
+<i>Proceedings of the 2014 Empirical Methods in Natural Language Processing (EMNLP-14), 2014.</i> 
+</ul> 
+
+
+<br>
+
+
+</p><hr>
+<br>
+
+
+<ul>
+<li><a href="reason.zip">Reason Identification and Classification Dataset</a>
+</li>
+</ul>
+
+<br>
+
+</p><hr>
+<br>
+
+The creation of this website is based upon work supported in part by National Science Foundation (NSF) Grants IIS-1147644 and IIS-1219142. Any opinions, findings, and conclusions or
+recommendations expressed above are those of the authors and do not
+necessarily reflect the views of NSF and should 
+not be interpreted as representing the official policies, either expressed 
+or implied, of any sponsoring institution, the U.S. government or any other 
+entity.
+
+<br>
+<br>
+<p>
+If you have any questions or comments regarding this site, please send
+email to <a href="http://www.hlt.utdallas.edu/~saidul/">Kazi Saidul Hasan</a>.
+
+
+</body></html>
+
+
+
+
+

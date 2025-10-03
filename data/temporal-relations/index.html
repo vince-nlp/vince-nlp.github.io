@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+	<head>
+		<title>Temporal Relation Classification</title>
+		<link href="../css/nlp.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+
+	<h2>Knowledge-Rich Temporal Relation Classification</h2>
+	<br>
+	<h3>About</h3>
+	<p><i>Temporal Relation Classification</i>, one of the most important temporal information extraction tasks, involves classifying a given event-event
+	pair or event-time pair as one of a set of predefined temporal relations such as <i>Before</i>, <i>After</i>, <i>Overlap</i>, etc.</p>
+
+	<p>This page is the access site of two different rulesets developed for the task of <i>Temporal Relation Classification</i> in newswire data and in medical data, respectively.
+	Our work on enhancing the state-of-the-art in temporal relation classification is extended as we move from the newswire dataset to the medical dataset.
+	The ruleset developed on newswire data, presented in Section 1, was employed only within a classification experimental setting. Whereas, the
+	ruleset presented in Section 2, developed on clinical data, was employed in two different experimental settings: 1) classification of 
+	human-annotated entity pair links, and 2) classification of automatically linked entity pairs. Along with making accessible the rulesets used in classification,
+	the pruning heuristics employed in the identification system are also provided at the page linked to in Section 2.</p>
+
+	<br>
+	<ol>
+	<h3><li>Temporal Relation Classification in News Articles</li></h3>
+	<p>Our approach to the classification task is described in the following paper.</p>
+		<blockquote>
+			Jennifer D’Souza and Vincent Ng. 2013. <a href="https://aclweb.org/anthology/N/N13/N13-1112.pdf">Classifying Temporal Relations with Rich Linguistic Knowledge</a>. 
+			In <i>Proceedings of NAACL-HLT</i>. pp. 918-927.
+		</blockquote>
+	
+	<h3>Download</h3>
+	<p>The download link below contains our manually desgined rules to facilitate classification of all 14 temporal relation types annotated in the <a href="http://www.timeml.org/site/timebank/timebank.html" target="_blank">TimeBank</a>(v1.2) corpus.</p>
+	
+	<center>
+	<b><a href="newswire.zip">Download rules employed in our hybrid system</a></b>.
+	</center>
+		
+	<br>
+	<h3><li>Temporal Relation Identification and Classification in Medical Data</li></h3>
+	<p>Our systems for the relation identification and classification task are described in the following papers. The second paper differs from the 
+	first in that it offers a more comprehensive and detailed description of the system, as well as includes a new category of features to further 
+	improve the classification task, namely, <a href="https://personal.utdallas.edu/~vince/data/medical-relations/">semantic medical relations</a>.</p>
+		<blockquote>	
+			Jennifer D'Souza and Vincent Ng. 2013. <a href="../../papers/bcb13.html">Temporal Relation Identification and Classification in Clinical Notes</a>. 
+			In <i>Proceedings of the Fourth ACM Conference on Bioinformatics, Computational Biology and Biomedicine</i>. pp. 392-401.<br>
+			Jennifer D’Souza and Vincent Ng. 2014. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4237873/">Knowledge-rich temporal relation identification and classification in clinical notes</a>. 
+			<i>Database (2014) Vol. 2014</i>: article ID bau0109; doi:10.1093/database/bau109.<br>
+		</blockquote>
+	
+	<p>One of the challenges encountered in trying to improve task performance was that of <i>missing annotations for temporal relations</i> in the manually annotated datasets.
+	The presence of missing relations presents problems to both the training and evaluation of temporal relation extraction systems: not only do they cause a 
+	temporal relation extraction system to be unfairly evaluated, but they also cause systems to be trained on instances with incorrect temporal relation 
+	labels. In order to alleviate this problem, we manually annotated certain types of missing links that were not automatically recoverable. In the following 
+	paper, we describe the guidelines used in our annotation task.</p>
+		<blockquote>	
+			Jennifer D’Souza and Vincent Ng. 2014. <a href="../../papers/lrec14-temporal.html">Annotating Inter-Sentence Temporal Relations in Clinical Notes</a>. 
+			In <i>Proceedings of the Ninth Language Resources and Evaluation Conference</i>, pp. 2758-2765.<br>
+		</blockquote>	
+	
+	<h3>Download</h3>	
+	<p>The download link below provides access to the pruning heuristics employed in the identifier, and the ruleset employed in the classifier.
+	The rules were designed to facilitate classification of all 12 temporal relation types annotated in the comprehensive version of
+	<a href="http://jamia.bmj.com/content/early/2013/04/04/amiajnl-2013-001628.abstract" target="_blank">i2b2 Temporal Relations Challenge</a> corpus (see <a href="https://www.i2b2.org/NLP/DataSets/Main.php" target="_blank">here</a> for more 
+	information on corpus access).
+
+	<center>
+	<b><a href="medical.zip">Download heuristics and rules employed in our hybrid system</a></b>.
+	</center>
+	
+	<p>Below are the datasets with our extended annotations for missing temporal relations in the original corpus. The annotations are provided in terms of the 
+	offsets of the words in the text.</p>
+
+	<center>
+	<b><a href="train.zip">Download training data</a></b>.<br>
+	<b><a href="test.zip">Download testing data</a></b>.
+	</center>
+	
+	</ol>
+
+	<br>
+	<h3>Funding Statement</h3>
+	
+	<p>This work was supported in part by NSF Grants IIS-1147644 and IIS-1219142. 
+	Any opinions, findings, or conclusions expressed above are those of the authors and 
+	do not necessarily reflect the views or official policies of NSF.</p>
+
+	<br>
+<!--
+	<h3>Questions</h3>	
+	<p>
+	Questions, feedback, and suggestions for improvement are welcome via <a href="mailto:jennifer.l.dsouza@utdallas.edu">email contact</a>.
+	</p>
+-->
+	</body>	
+</html>

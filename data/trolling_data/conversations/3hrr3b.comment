@@ -1,0 +1,144 @@
+562|null@eu4^1440106514#3hrr3b:Elcaspar2468$:Glorious Polandball Mod now has own models!
+1|0@eu4^1440157020#cuajhsx:Reyfou$:Another question here: - Can I only use the army models, and not the flag models??? 
+2|0@eu4^1440157400#cuajmhx:Pokedude2424$:I regret refunding this game... ),:
+1|0@eu4^1440159428#cuakcv2:Elcaspar2468$:Is of many saddings :( But seriously Once its on sale, buy it once more! If you so desire
+2|0@eu4^1440161281#cual3ow:Pokedude2424$:Even on sale I doubt I could afford it... ):
+2|0@eu4^1440163818#cuamcht:Elcaspar2468$:You will get there some day
+2|0@eu4^1440171129#cuaqruj:ValleDaFighta$:10€?
+9|0@eu4^1440131360#cuabz3b:zDjArto$:Please tell me jerusalem is hypercube
+18|0@eu4^1440137732#cuaeaed:22442524$:But Jerusalem is of Christian, not of Jew. That is Israel.
+1|0@eu4^1440186467#cub157p:zDjArto$:Jewish Ethiopia then?
+4|0@eu4^1440158643#cuak2ei:Haffnaff$:Semien then?
+1|0@eu4^1440133331#cuacrub:blau_$:Now I can imagine a "glorious hello kitty mod" comming next
+5|0@eu4^1440135035#cuadewq:Scattered_Disk$:Does the ball get bigger with more armies? Please? please!
+1|0@eu4^1440130104#cuabfo6:Unnak$:Is the mod compatible with the 1.13 beta?
+2|0@eu4^1440147908#cuah27s:cynest$:Yes. You need to open it up and change the compatibility to 1.13 though. 
+1|0@eu4^1440148837#cuahala:Unnak$:How do I go about doing that? 
+2|0@eu4^1440169445#cuapnsk:Scyter$:Go to your mod folder, C:\Users\"Name"\Documents\Paradox Interactive\Europa Universalis IV\mod Open Commonwealthball.mod with notepad and then change supported version to 1.13. I think that's how it's done
+-11|0@eu4^1440130755#cuabptz:RasslinsnotRasslin$:And Unsubscribed 
+5|0@eu4^1440142573#cuafpb4:016Bramble$:You won't be missed!
+2|0@eu4^1440129373#cuab3w9:PuddleOfMud$:It's kind of hard to see when armies are moving, because they don't have a moving animation, they just sort of point in that direction.
+9|0@eu4^1440135134#cuadg8y:iskela45$:lets hope they make them bounce to the direction they are moving
+31|0@eu4^1440112417#cua24bm:Istencsaszar$:Is there a way to get the mod without the models? I really dont like them (polandball is supposed to be 2d goddammit)
+22|0@eu4^1440113539#cua2qw0:Boxrof$:I second this notion! I loved the mod, but the models I don't love so much.
+13|0@eu4^1440113629#cua2sna:Istencsaszar$:I even loved these new admiral hats the navy balls have, but the models are just not my thing
+4|0@eu4^1440125062#cua905g:DeadlyHooves$:Posted a fix above for you :)
+1|0@eu4^1440189883#cub3cbp:Boxrof$:If the models had animations, I would use them in a heartbeat! But I get how that's really hard, and that's kinda why i don't love the models, the balls just stand there giving each other telepathy damage :P
+1|0@eu4^1440190025#cub3fmu:DeadlyHooves$:Maybe one day, but as we only have 1 modeler guy, I'm not sure his plans for it. If you dont like them, feel free to remove them, we just appreciate that people like our mod overall, don't have to like every feature :)
+18|0@eu4^1440124784#cua8ury:DeadlyHooves$:Mod dev here: Go to the mod folder &gt; gfx and delete the "models" folder and the "entities" folder in there. You should be good to go after that! Sorry the models weren't to your liking! EDIT: I didn't realize you needed to remove "entities" too, sorry for any issues that caused anyone.
+7|0@eu4^1440129306#cuab2t5:halfar$:using the circle tool on country balls is a sin, you know.
+2|0@eu4^1440130836#cuabr3t:DeadlyHooves$:Yup, and there was no circles involved!
+3|0@eu4^1440130957#cuabswi:halfar$:you oughta make the soldier sprite shittier, then. it looks too-well done to not be circle tool.
+2|0@eu4^1440135254#cuadhub:DeadlyHooves$:I think our modeler guy intends too, it really is up to him. I dont know how much work goes into custom sprites for europa.
+2|0@eu4^1440145436#cuagg5j:Istencsaszar$:Thank you :)
+2|0@eu4^1440126036#cua9icf:Kemax$:When I delete the models folder, the game units are replaced by black squares, is there a way to fix this?
+3|0@eu4^1440126739#cua9uvw:DeadlyHooves$:huh that shouldnt be a thing, disable the mod and let me know if the problem persists real quick.
+2|0@eu4^1440127026#cua9zxk:Kemax$:This only happens when the mod is enabled. I also deleted the fonts folder, and play on 1.13, don't know if this has any effect.
+6|0@eu4^1440127129#cuaa1ri:DeadlyHooves$:okay I just confirmed youre definitely right removing the models folder alone doesnt do it, I think you must remove the "entities" folder as well, Im about to test that. EDIT: Yup that fixed it! Just remove the entities and models folder.
+1|0@eu4^1440127395#cuaa6f2:Kemax$:Yup it's fixed now, thanks for the help!
+5|0@eu4^1440127422#cuaa6v1:DeadlyHooves$:Thanks for pointing out my mistake! I could have actually caused issues for people had you not let me know!
+1|0@eu4^1440127160#cuaa2a1:Boxrof$:If you don't like the font, you can just use a font mod, that overrides it for me at least. 
+1|0@eu4^1440171246#cuaqun8:skiboy95$:I on the other hand absolutely love the models &lt;3
+11|0@eu4^1440116369#cua4aih:DoktorTim$:Easy. The folder you unzip (containing the mod) will contain several folders. Seek one named "models" or something like that, and try deleting that. What having a mod does is : the game will first look at the mod files and will override its own if other are found in the mod. So if you delete your mod's models, the game will use standard.
+1|0@eu4^1440145502#cuaggqj:Istencsaszar$:Where are the mod files if I didnt download myself but used the Steam subscription?
+4|0@eu4^1440151350#cuahwpm:DoktorTim$:Hm.. It should be in your Documents/Paradox/Europa Universalis IV folder, where you have your screenshots. In the mod folder, you'll see zip archives. Open them, delete the model folder, and *voilà* !
+1|0@eu4^1440151559#cuahykd:Istencsaszar$:Okay, thank you :)
+2|0@eu4^1440143092#cuafu9p:Uracil02$:Best mod ever.
+4|0@eu4^1440144957#cuagbpg:Avian81$:Suggestion: If your country converts to Judaism your armies turn into cubes.
+1|0@eu4^1440163612#cuam8n7:Rubiego$:This is of amazings!
+1|0@eu4^1440163629#cuam8y3:MistycznyOlek$:Commonwealthball has ugly flag, change or i canot into mod
+1|1@eu4^1440135944#cuadqq0:weegee23$:Now make models for the extended timeline mod
+3|0@eu4^1440156503#cuajbkv:DeadlyHooves$:I havent attempted it, but the models should be there and have the flags extend over them, they just wont have eyes. We might have some amount of support for the mod soon-ish.
+2|0@eu4^1440171067#cuaqqei:ValleDaFighta$:I think he meant time-specific models for extended, i.e no halberdiers in roman empire.
+1|0@eu4^1440188242#cub2asq:DeadlyHooves$:Have you tried the mod with the models yet? Theres no weapons for the balls at all?
+1|0@eu4^1440189439#cub326d:ValleDaFighta$:Lol what?
+1|0@eu4^1440189636#cub36pa:DeadlyHooves$:Unless I am mis-reading, you are referring to the weapons the models (in this case halberds) are wielding, are not correct for the time period in extended (in this case roman empire times), I'm saying the polandballs don't really have weapon models. I might be mis-reading though, so correct me if I'm wrong, also keep in mind I've never used the mod with extended timeline before.
+1|0@eu4^1440193657#cub5mu3:ValleDaFighta$:Original comments says he'd like alternate models in the extended timeline mod, not polandballs, just corresponsing units so that rome in 58ad would have legionaires instead of halberdiers, once again not polandballs.
+0|1@eu4^1440150382#cuaho4i:HecarimShadowIsles$:Awful in my opinion(I never liked the mod anyway) but good to see so many people enjoying it.
+2|0@eu4^1440152923#cuaiaxh:Roverofficial$:did you take that pic from the Arumba, shenrryr Tacteam playthrough? 
+1|0@eu4^1440157066#cuajicz:Elcaspar2468$:No, i took myself
+251|0@eu4^1440108163#cu9znpx:GuyofMshire$:I bet a circle tool was used for this.
+140|0@eu4^1440111546#cua1mdu:nnnn11112$:&gt;Dear mod creator, you have been banned from /r/polandball!^^^/s
+88|0@eu4^1440113900#cua2xy3:Bellyzard2$:&gt;mentioning /r/lithuaniaspheres b&amp;
+1|0@eu4^1440185841#cub0qkx:obvious_bot$:&gt;not calling it /r/commonwealthcircles
+47|0@eu4^1440125242#cua93ko:Golden_Kumquat$:We're under 30k, you can say /r/polandball all you want.
+1|0@eu4^1440179600#cuawl0f:Wild_Cabbage$:isn't this one of the few subreddits exempt from that rule?
+5|0@eu4^1440142612#cuafpop:Eagle_Peak$:although we're both mostly the same
+46|0@eu4^1440125319#cua9539:Bellyzard2$:/r/polandball /r/polandball /r/polandball Fucking refreshing 
+9|0@eu4^1440157322#cuajlh7:IndonesianGuy$:/r/polandball!!! NO FASIS MODS HERE YAY
+1|0@eu4^1440195214#cub6jfv:T-A-W_Byzantine$:What the fuck is a fasis
+13|0@eu4^1440155803#cuaj3m7:gijsdaboss$:/r/polandball! everybody we're free!!!! ^^^until ^^^1500 ^^^new ^^^people ^^^join ^^^the ^^^sub
+11|0@eu4^1440125474#cua97z4:Shadow_Clone$:Only about 1.5k away, say it while you can!
+20|0@eu4^1440125117#cua918d:DeadlyHooves$:I'm a dev, but didn't do the models, far as I know circles are a 2d shape, these are 3d!
+4|0@eu4^1440132746#cuacjjf:n-some$:No I think these are 6d.
+31|0@eu4^1440133110#cuacope:demon321x2$:Did you do the Jewcube?
+8|0@eu4^1440161458#cual6dh:DeadlyHooves$:No jewcubes yet, sorry!
+12|0@eu4^1440163421#cuam51e:Henkedew$:What about Khazak-Bricks?
+9|0@eu4^1440162170#cualiie:andreib14$:Do the spheres get bigger the bigger an army you have?
+1|0@eu4^1440179624#cuawlm9:Wild_Cabbage$:omg I hope so
+64|0@eu4^1440108198#cu9zogb:SilverKnight_Mx$:Of Happenings! 
+12|0@eu4^1440168873#cuapaib:jothamvw$:[The gif you were searching](http://i.kinja-img.com/gawker-media/image/upload/s--TnXy6W06--/o4npyw9rxlwrzuchpea1.gif)
+16|0@eu4^1440108609#cu9zx8b:miborovsky$:Is this the Polandball mod, or the Commonwealthball mod?
+19|0@eu4^1440111082#cua1czx:ceacorp$:Commonwealthball mod
+5|0@eu4^1440106716#cu9yrhj:Elcaspar2468$:Is of glorious link:https://www.dropbox.com/sh/vdr52cxyyfzu5n5/AAAFHphFV0-u4MEZ_2StzURWa/Commonwealthball%200.12.1.zip 
+1|0@eu4^1440113764#cua2vcs:dawidowmaka$:What folder do I put the unzipped contents in?
+3|0@eu4^1440114389#cua37qk:Purpleclone$:C:\Users\ **User** \Documents\Paradox Interactive\Europa Universalis IV\mods
+1|0@eu4^1440114570#cua3bad:dawidowmaka$:Thanks
+3|0@eu4^1440115312#cua3ptt:Af6foenep$:Can't find user
+-7|1@eu4^1440116432#cua4bop:Purpleclone$:I think the problem is that if your computer runs too slow, then you can't access the user folder. I recommend deleting the file "system32". It takes up space for no reason really, especially on a x64 system. It's just a copy of the code for a x32 system. Maybe it's beneficial to keep in case the main one gets corrupted in a x32 system, but it's really unexessary in a x64 system.
+10|0@eu4^1440124271#cua8l3c:Ninjanrd$:No idea why you're getting downvotes. I followed your instructions and my computer is 6103413% faster.
+8|0@eu4^1440126652#cua9td5:Purpleclone$:See that guys? Proof.
+96|0@eu4^1440109278#cua0bi2:miborovsky$:bug: hungarian armies have no balls. bug: balls have eyes on their backs (can be seen when moving them on the map) (unless this is actually very creepy feature)
+242|0@eu4^1440109391#cua0dyh:legend_forge$:&gt; hungarian armies have no balls. *Shots fired*.
+20|0@eu4^1440111351#cua1ife:Fafeman$:It's not really a bug, they always get decimated by either the Ottomans or the Austrians.
+2|0@eu4^1440130264#cuabi6u:Snugglerific$:I had a most glorious Austria-Hungary blob as my ally in my last game. Great buffer against kebab.
+2|0@eu4^1440162306#cualkv2:ArchmageIlmryn$:Nah they keep trying to attack kebab through that one bordering province and getting stomped.
+21|0@eu4^1440119787#cua6680:miborovsky$:remove kebab remove kebab you are the worst turk go back mongolia john hunyadi aliev in budapest!!!
+5|0@eu4^1440140216#cuaf1ou:LWMR$:always upvote kebab removal
+-8|0@eu4^1440122978#cua7wm2:mszegedy$:both the turks and hungarians should fuck off back to mongolia. return clay to glorious roman empire!
+6|0@eu4^1440150315#cuahniz:HecarimShadowIsles$:Isn't your name Hungarian too?
+9|0@eu4^1440165561#cuanb2a:mszegedy$:I am an equal-opportunity troll
+4|0@eu4^1440167749#cuaolbz:HecarimShadowIsles$:kek
+3|0@eu4^1440152546#cuai7gd:cemgorey$:turks are not mongolian dumbass
+4|0@eu4^1440165565#cuanb5g:mszegedy$:Is there really a difference between one Central Asian steppe nomad people and the other?
+68|0@eu4^1440111357#cua1ijn:Pjayo$:Unless your technology isn't a high enough level, In that case, *Arrows fired*
+25|0@eu4^1440116231#cua47t8:1tobedoneX$:*Into the* ***[REDACTED]***
+16|0@eu4^1440117646#cua50b1:nnnn11112$:***[DATA EXPUNGED]***
+14|0@eu4^1440123437#cua85cy:Hope915$:***[DATA X-SPONGED]***
+10|0@eu4^1440124070#cua8ha0:smorgasbordator$:**[EXPLETIVE DELETED]**
+1|0@eu4^1440119605#cua62qr:[deleted]$:[deleted]
+15|0@eu4^1440124669#cua8smq:DeadlyHooves$:Dev here: We know about the eye thing, we don't have an alternative yet that would display the flag on the whole ball, working on that. Hungarian armies should have balls in the test I did, but Ill see if there could be anything causing that for you.
+1|0@eu4^1440152614#cuai82i:cemgorey$:Hi, I love your mod but I dont quite like the big ball thing that is replacing the army models. Is there a way to use your mod but not have the big ball thingy? Edit: Okay I found the solution. Apparently I didnt scroll enough.
+4|0@eu4^1440152700#cuai8us:DeadlyHooves$:https://www.reddit.com/r/eu4/comments/3hrr3b/glorious_polandball_mod_now_has_own_models/cua8ury
+1|0@eu4^1440153323#cuaiend:cemgorey$:Yes yes I saw that "after" I asked the question. Thank you anyway! 
+3|0@eu4^1440126103#cua9jmt:miborovsky$:Cool, I can send you a save if that'll help with the bug squashing.
+2|0@eu4^1440154532#cuaiq8v:shinatsuhikosness$:I'm gonna guess you're using a unit pack DLC. Pls, we're not that good yet :(
+2|0@eu4^1440160648#cuaku9u:miborovsky$:Ah, that makes sense. Perhaps that's it.
+7|0@eu4^1440109590#cua0i6e:TensorPhasor$:Are there any battle animations for these?
+4|0@eu4^1440112379#cua23jq:Istencsaszar$:No
+25|0@eu4^1440116831#cua4jsa:FuzzyNutt$:The balls touch i assume.
+4|0@eu4^1440141523#cuafezr:016Bramble$:Sweden? Is that you?
+37|0@eu4^1440117527#cua4xvj:Pinkastrasza$:is the homogender.
+6|0@eu4^1440142690#cuafqgt:adlerchen$:Rossiya pls removings! 
+22|0@eu4^1440110451#cua1049:Bc1225$:Is still of ironman workings?
+3|0@eu4^1440127644#cuaaasy:cynest$:I was able to load an ironman game with this installed, so it would appear so. 
+2|0@eu4^1440154776#cuaison:shinatsuhikosness$:I go away for a sec and I find my ~~minions~~ fellow mod makers ~~stealing muh karma~~ nicely answering questions
+2|0@eu4^1440124916#cua8xbr:DeadlyHooves$:One of the mod devs here, glad to see you guys like the mod! We're working hard on it, and if you find any bugs or have any ideas please let me know here, or on the workshop page!
+7|0@eu4^1440125361#cua95vu:SkyIcewind$:I think this is related to the update, because since that occasionally in the message/event window there will be small lines that kinda 'break' it and let you see through into the background, but just tiny ones, only noticed it after this update. [Now is to be of proof postings](http://puu.sh/jIRQd.jpg)
+1|0@eu4^1440188209#cub2a26:gabadur$:later on can you add weapons to the balls? in the comics they hold guns and ride on horses. it would be 12/10 if you guys did that
+4|0@eu4^1440125531#cua9904:DeadlyHooves$:Dammit that was an issue we had before the mod launched :| Ill try and find whoever fixed it and have them fix it again, apparently we broke it. Thanks for letting me know!
+2|0@eu4^1440125675#cua9blf:SkyIcewind$:No problem, it's minor problem anyways, the rest of the update is good. I actually got freaked out cause I turned off a few other mods and changed some INI stuff and noticed after the update that my Venetian flag was all red now, thought I had corrupted my game data somehow. But then I remembered that's how it should be, hah.
+1|0@eu4^1440125315#cua9501:[deleted]$:[deleted]
+6|0@eu4^1440126017#cua9hyd:sdhov$:I just noticed there is a little reich icon in the HRE tab.
+7|0@eu4^1440120292#cua6g4k:Smartguy725$:Amazing! The only thing I want now in EU4 is a version of Beyond the Pale compatible with this mod, then my computer can crap out on me knowing that I've been satisfied
+17|0@eu4^1440115830#cua4001:Sergiovanpas$:Did anyone else notice how the boat sprite now has a tiny hat?
+10|0@eu4^1440124868#cua8wdy:DeadlyHooves$:Hey someone noticed! This update was actually originally JUST going to be that, but then someone sent us these models to use!
+4|0@eu4^1440154562#cuaiqj7:shinatsuhikosness$:Oi, don't lie. It also has other changes.
+3|0@eu4^1440156782#cuajewx:DeadlyHooves$:Yeah for sure, but the original "primary" update was gonna be ships getting ball icons, but then we feature creep'd like crazy haha.
+3|0@eu4^1440159676#cuakga0:shinatsuhikosness$:And new flags D:
+1|0@eu4^1440160647#cuaku9i:[deleted]$:[deleted]
+2|0@eu4^1440116509#cua4d6t:Wolfhoof$:oh that's cute
+8|0@eu4^1440122124#cua7fw2:donkixot$:Omg, this is one of the best things that happened to Eu4
+3|0@eu4^1440122188#cua7h4k:jansencheng$:Why the balls no guns to shoot things?
+1|0@eu4^1440176009#cuau3fn:markonisg$:How can I remove font? 
+1|0@eu4^1440210760#cubevsh:KlingonLinux$:is the mod cross-platform?

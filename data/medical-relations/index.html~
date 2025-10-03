@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+	<head>
+		<title>Medical Relation Classification</title>
+		<link href="../css/nlp.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+	
+	<h2>Ensemble-Based Medical Relation Classification</h2>
+	<br>
+	<h3>About</h3>
+	<p><i>Medical Relation Classification</i>, an information extraction task in the clinical domain that was 
+	defined in the <a href="https://www.i2b2.org/NLP/Relations/">2010 i2b2/VA Challenge</a>, involves determining the relation
+	between a pair of medical concepts (problems, treatments, or tests) such as a treatment <i>improves</i> a problem, 
+	a test <i>reveals</i> a problem, etc. Eleven types of intra-sentential pairwise relations are annotated in the 2010 i2b2/VA corpus. 
+	A brief description of these relation types are provided in the following table.</p>
+	
+	<br>	
+	<table align=center style="border:1px solid black;border-collapse:collapse;" cellpadding=3px>
+		<tr>
+			<th style="border:1px solid black;"> Id </th> <th style="border:1px solid black;"> Relation </th> <th style="border:1px solid black;"> Example </th>
+		</tr>
+		<tr>
+			<td style="border:1px solid black;"> 1 </td> <td style="border:1px solid black;"> <strong>TrIP:</strong> Treatment improves medical problem </td> <td style="border:1px solid black;"> <i>Her pain</i> resolved after <i>surgery</i> </td>
+		</tr>		
+		<tr>
+			<td style="border:1px solid black;"> 2 </td> <td style="border:1px solid black;"> <strong>TrWP:</strong> Treatment worsens medical problem </td> <td style="border:1px solid black;"> treated with <i>Zofran</i> with <i>no relief</i> </td>
+		</tr>
+		<tr>
+			<td style="border:1px solid black;"> 3 </td> <td style="border:1px solid black;"> <strong>TrCP:</strong> Treatment causes medical problem </td> <td style="border:1px solid black;"> <i>Transdermal nitroglycerin</i> caused <i>headache</i> </td>
+		</tr>
+		<tr>
+			<td style="border:1px solid black;"> 4 </td> <td style="border:1px solid black;"> <strong>TrAP:</strong> Treatment is administered for medical problem </td> <td style="border:1px solid black;"> start on <i>Decadron</i> 4 mg q6 to prevent <i>swelling</i> </td>
+		</tr>		
+		<tr>
+			<td style="border:1px solid black;"> 5 </td> <td style="border:1px solid black;"> <strong>TrNAP:</strong> Treatment is not administered because of medical problem </td> <td style="border:1px solid black;"> <i>His Avandia</i> was discontinued secondary to <i>the side effect profile</i> </td>
+		</tr>
+		<tr>
+			<td style="border:1px solid black;"> 6 </td> <td style="border:1px solid black;"> <strong>NTrP:</strong> No relation between treatment and problem </td> <td style="border:1px solid black;"> with <i>sutures</i> intact and no <i>erythema</i> or purulence noted. </td>
+		</tr>
+		<tr>
+			<td style="border:1px solid black;"> 7 </td> <td style="border:1px solid black;"> <strong>TeRP:</strong> Test reveals medical problem </td> <td style="border:1px solid black;"> A <i>postoperative MRI</i> revealed no <i>remarkable findings</i> </td>
+		</tr>
+		<tr>
+			<td style="border:1px solid black;"> 8 </td> <td style="border:1px solid black;"> <strong>TeCP:</strong> Test conducted to investigate medical problem </td> <td style="border:1px solid black;"> An <i>ultrasound</i> was done to rule out <i>cholestasis</i> </td>
+		</tr>
+		<tr>
+			<td style="border:1px solid black;"> 9 </td> <td style="border:1px solid black;"> <strong>NTeP:</strong> No relation between test and problem </td> <td style="border:1px solid black;"> Throughout the stay <i>his labs</i> remained normal and <i>his pain</i> controlled. </td>
+		</tr>		
+		<tr>
+			<td style="border:1px solid black;"> 10 </td> <td style="border:1px solid black;"> <strong>PIP:</strong> Medical problem indicates medical problem </td> <td style="border:1px solid black;"> with a <i>moderate-sized, dense, fixed inferior defect</i> indicative of <i>scar</i> </td>
+		</tr>
+		<tr>
+			<td style="border:1px solid black;"> 11 </td> <td style="border:1px solid black;"> <strong>NPP:</strong> No relation between paired medical problems </td> <td style="border:1px solid black;"> He is somewhat <i>cantankerous</i> and <i>demanding</i> of the nurses. </td>
+		</tr>		
+		<caption align=bottom>Table - The 11 medical relation types for classification.</caption>
+	</table>
+	
+	<br>
+	<p>Our ensemble-based approach to the <i>Medical Relation Classification</i> task is described in the following paper.</p>
+	<blockquote>
+		Jennifer D'Souza and Vincent Ng. 2014. <a href="http://anthology.aclweb.org/C/C14/C14-1159.pdf">Ensemble-Based Medical Relation Classification</a>.
+		In <i>Proceedings of COLING</i>. pp. 1682-1693.
+	</blockquote>	
+		
+	<p>This page is the access site of the complete set of cue phrases developed for the task of <i>Medical Relation Classification</i>. </p>
+
+	<br>
+	<h3>Download</h3>
+	
+	<center>
+	<b><a href="rules.txt">Download file with cue phrases for <i>Medical Relation Classification</i></a></b>.
+	</center>
+
+	<br>
+	<h3>Funding Statement</h3>
+	<p>This work was supported in part by
+	NSF Grants IIS-1147644 and IIS-1219142. Any
+	opinions, findings, or conclusions expressed above are those of the authors and do not necessarily
+	reflect the views or official policies of NSF.</p>
+
+	<h3>Questions</h3>	
+	<p>
+	Questions, feedback, and suggestions for improvement are welcome via <a href="mailto:jennifer.l.dsouza@utdallas.edu">email contact</a>.
+	</p>
+	</body>	
+</html>

@@ -1,0 +1,72 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META name="Description" content="Isaac Persing">
+<LINK rel="stylesheet" type="text/css" href="style.css">
+  <title>Debate Persuasiveness Dataset</title>
+  <!-- all relative URLs are evaluated using this URL as the base --> <base
+  href="https://www.hlt.utdallas.edu/~persingq/Debate/"><!-- keywords used by search engines --> 
+      <style type="text/css">
+    a { text-decoration:none }
+  </style> 
+</head>
+<body bgcolor="#ffffff" text="#000000">
+
+
+<h1>Debate Persuasiveness Dataset</h1>
+
+<br>
+
+<p>This page is a distribution site of debate data for the task of debate argument persuasiveness scoring.  The problem of <i>Debate Argument Persuasiveness Scoring</i> for which this dataset is intended is described in these publications:</p>
+
+<ul> <li> <a
+href="https://www.hlt.utdallas.edu/~persingq/">Isaac Persing</a> and <a
+href="https://www.hlt.utdallas.edu/~vince/">Vincent Ng</a>, <a
+href="ijcnlp17.pdf">Lightly-Supervised Modeling of Argument Persuasiveness. </a>,
+<i>Proceedings of the 8th International Joint Conference on Natural Language Processing, 2017. </i> 
+</ul> 
+
+
+<ul> <li> <a
+href="https://www.hlt.utdallas.edu/~persingq/">Isaac Persing</a> and <a
+href="https://www.hlt.utdallas.edu/~vince/">Vincent Ng</a>, <a
+href="ijcai17.pdf">Why Can't You Convince Me? Modeling Weaknesses in Unpersuasive Arguments</a>,
+<i>Proceedings of the 26th International Joint Conference on Artificial Intelligence, 2017. </i> 
+</ul> 
+
+
+<br>
+<br>
+
+
+
+The <a href="DebateArguments.txt">Debate Argument Persuasiveness Data</a> includes motions, assertions, justifications, error annotations, and persuasiveness scores for debates on 165 topics, as described in the aforementioned publications.
+</li>
+
+<br>
+<br>
+
+<br>
+</p><hr>
+<br>
+
+The creation of this website is based upon work supported in part by National Science Foundation (NSF) Grants IIS-1219142 and IIS-1528037. Any opinions, findings, and conclusions or
+recommendations expressed above are those of the authors and do not
+necessarily reflect the views of NSF and should 
+not be interpreted as representing the official policies, either expressed 
+or implied, of any sponsoring institution, the U.S. government or any other 
+entity.
+
+<br>
+<br>
+<p>
+If you have any questions or comments regarding this site, please send
+email to <a href="https://www.hlt.utdallas.edu/~persingq/">Isaac Persing</a>.
+
+
+</body></html>
+
+
+
+
+

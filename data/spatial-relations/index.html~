@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+	<head>
+		<title>Spatial Relation Extraction</title>
+		<link href="../css/nlp.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+
+	<h2>Spatial Relation Extraction (SpatialRelEx)</h2>
+	<br>
+	<h3>About</h3>	
+	<p><i>Spatial relation extraction</i> is the task of determining
+	whether a given set of spatial elements
+	are in a qualitative spatial relation (<b>QSLINK</b>),
+	an orientation relation (<b>OLINK</b>), 
+	or a motion spatial relation (<b>MOVELINK</b>).</p>
+	
+	<ul>
+	  <li>
+		<b>QSLINKs</b> exist between stationary spatial elements with a regional connection
+		(e.g., in "The cup is on the table", 
+		the regions of "cup" and "table" 
+		are <i>externally connected</i> and hence they are involved in a QSLINK).	  
+	  </li>
+	  <li>
+		<b>OLINKs</b> exist between stationary spatial elements
+		expressing their relative or absolute orientations
+		(e.g., in the above sentence, "cup" and "table" are involved 
+		in an OLINK, which conveys that "cup" is oriented <i>above</i> "table").	  
+	  </li>
+	  <li>
+		And <b>MOVELINKs</b>,
+		differing from QSLINKs and OLINKs which only relate stationary spatial elements,
+		exist between spatial elements in motion
+		(e.g., in "John walked from Boston to Cambridge", there is a
+		MOVELINK involving mover "John",
+		motion verb "walked", source "Boston", and goal "Cambridge").				  
+	  </li>
+	</ul>	
+	
+	<p> </p>
+	
+	<p>Our participating system in <a href="http://alt.qcri.org/semeval2015/task8/">SpaceEval 2015</a>,
+	which achieved the best spatial relation extraction results, is described in the following paper.</p>
+		<blockquote>
+			Jennifer D'Souza and Vincent Ng. June 2015.
+			<a href="http://alt.qcri.org/semeval2015/cdrom/pdf/SemEval146.pdf">
+			UTD: Ensemble-Based Spatial Relation Extraction</a>.
+			In <i>Proceedings of SemEval 2015</i>.				
+		</blockquote>	
+	
+	<p> </p>
+
+	<p>Following which, the system was further improved by incorporating <i>tree kernels</i> and <i>multi-pass sieves</i>,
+	enabling the use of an expanding parse tree as a novel structured feature for training MOVELINK classifiers.
+	This system is described in the paper below.</p>
+		<blockquote>
+			Jennifer D'Souza and Vincent Ng. September 2015.
+			<a href="https://aclweb.org/anthology/D/D15/D15-1087.pdf">
+			Sieve-Based Spatial Relation Extraction with Expanding Parse Trees</a>.
+			In <i>Proceedings of EMNLP</i>.
+		</blockquote>	
+	
+	<p> </p>
+		
+	<br>
+	<h3>Download</h3>
+	
+	<center>
+	<p>This software provides code for two components:
+	<ul style="list-style-position: inside">
+	<li>Learning spatial elements from unlabeled text: <b><a href="spelementex.zip">Download our Spatial Element Extractor (SpElementEx)</a></b>.</li>	
+	<li>Learning spatial relations from text labelled with spatial elements: <b><a href="spatialrelex.zip">Download our Spatial Relation Extractor (SpatialRelEx)</a></b>.</li>
+	</ul>
+	</p>
+	</center>
+	<br>
+	<b>GitHub:</b> Here are <a href="https://github.com/jennydsuza9/SpElementEx.git">SpElementEx</a> and <a href="https://github.com/jennydsuza9/SpatialRelEx.git">SpatialRelEx</a> GitHub sites.
+	
+	<p></p>
+	<br>
+	<h3>Funding Statement</h3>
+	
+	<p>This work was supported in part by NSF Grants IIS-1147644 and IIS-1219142. 
+	Any opinions, findings, or conclusions expressed above are those of the authors and 
+	do not necessarily reflect the views or official policies of NSF.</p>	
+	
+	<br>
+	<h3>Questions</h3>	
+	<p>
+	Questions, feedback, and suggestions for improvement are welcome via <a href="mailto:jennifer.l.dsouza@utdallas.edu">email contact</a>.
+	</p>
+	
+	</body>	
+</html>

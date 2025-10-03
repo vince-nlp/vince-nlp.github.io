@@ -1,0 +1,243 @@
+README: Please download and view file in Notepad text editor for better view of tables
+
+TABLES OF CUE PHRASES 
+
+									TABLE 1
+-------------------------------------------------------------------------------------------------
+event1 preceded by phrase	| phrase in between events 1 & 2| 	event2 followed by phrase
+-------------------------------------------------------------------------------------------------\
+no complaints of		| or				|			  	  \
+showed				| adjacent to			|				   \	
+revealed			| versus			|        			    \
+				| and				|      				     \
+				| with				|				      \	
+				| but also			|				       \
+				| /				|					\	
+to control			| and was			|					 \
+had				| but had no			|					  \
+due to				| question of			|					   \
+secondary to			| exacerbated by		|     					    \
+secondary to			| attributed to			|					     \
+due to				| due to			|					      \	
+improved			| continues to have	        |					       \
+decrease in			| and				| associated with				|
+cause of			| could have exacerbated	|						|
+source of		        | due to			|						|
+source of			| but showed			|						|
+if				| or				| worsen					|	R
+develops worsening of		| and				|						|	E
+to demonstrate			| began to produce		|						|	T
+				| and				| improved after				|	U
+				| subsides			| goes down					|	R
+given				| to help prevent		| (future)					|	N
+attributed to			| and / or			|						|
+				| induced by treatment and	| 						|	R
+				| with treatment ,		|						|	E
+showing				| and resolution of		|						|	L
+test revealed			| and test showed		|						|	A
+test showed			| and question of		|						|	T
+has been getting		| and also has			|						|	I
+for treatment of		| with				| from test					|	O	
+demonstrated			| followed by			|						|	N
+revealed			| as well as			|						|	=
+had				| recently diagnosed with	|						|	NPP
+have				| develop			|						|
+admitted with			| and developed			|						|
+stated				| denied			|						|
+				| despite treatment.*test was	|						|
+presents with			| and				|						|
+chief complaint			| and				|						|
+were positive for		| being sensitive for		|						|	
+as well as			| as well as			|						|	
+showed		(the)		| and				| (the)						|
+felt that			| and				| due to					|
+to assess			| and				|						|	
+and				| and found.*treatment were	|						|
+had				| treated with.*followed by	|						|
+for test of			| and				|						|
+transformation of		| to				|						|
+secondary to			| and				|						|
+history of			| and				|						|
+found to be growing		| test growing			|						|
+treatment titrated for		| and				|						|
+patient had			| with				|						|
+show signs of			| treatment for likely		|						|
+presence of			| and				|						|
+could represent			| complicated by		|						|	
+				| and more			|						|
+but had				| and				| on test					/
+and				| on test with			|					       /
+				| secondary to treatment	|					      /
+been having			| and				| for approximately			     /
+has had				| and				| for					    /
+who presents with		| and				|					   /
+developed			| in particular			|					  /
+treatment for			| with a question of		|					 /
+with				| and small amount of		|					/
+also had			| given risk for		| 				       /
+given risk for			| into				|				      /
+with				|presumed secondary to.*given for|				     /
+associated with			| or				|				    /
+probability for			| with				|				   /
+treatment for			| given hx of			|				  /
+-------------------------------------------------------------------------------------------------/
+
+Notes for TABLE 1:
+1) Table of discontiguous cue phrases (where each row in the table = a discontiguous cue phrase), with position of the phrase relative to an event is indicated by the column name it is listed under.
+2) Each discontiguous cue phrase forms a rule condition which if satisfied cues relation *NPP* between paired problem events.
+3) Phrases enclosed within parenthesis are matched with the string of the event
+
+									TABLE 2
+--------------------------------------------------------------------------------------------
+event1 preceded by phrase	| phrase in between events 1 & 2| event2 followed by phrase
+--------------------------------------------------------------------------------------------\ 
+concern of			| with probable			|			     \
+				| may reflect			|			      \
+				| = of				|			       \
+				| = from			|				\
+				| = given			|				 \	
+				| w/ resultant			|				  \	
+				| with a question of		|				   \	
+				| = causing			|				    \
+				| ultimately in			| 				     \	
+				| with or without		| 				      \	
+				| likely			|				       \	
+				| = without			|					\
+				| = for many years without	|					 \
+				| could be			|					  \	
+				| = which was			|					   \	
+				| = which appear		|					    \
+				| seen with			|					     \	
+				| = :				|					      \	
+				| = - 				|					       \	
+				| = - possible			|						\
+				| containing			|						 \
+				| = to suggest			| 						  \	
+				| suggesting			|						   \	
+				| their possible relationship to|						    \
+				| their relationship to		|						     |
+evaluate for			| and				| were seen					     |	
+				| with				| (some)					     |
+admitted for			| found to have			|						     |	
+treatment for			| found to have			|						     |	
+noted to have			| with				|                    				     |
+noted to be			| with				|                    				     |
+c / o				| ,				|						     |	
+started				| when she first experienced	|						     |
+started				| when he first experienced     |						     |
+was noted			| and revealed			|						     |	R
+from				| with				|						     |	E
+				| on test with			|						     |	T
+				| = later identified as		|						     |	U
+complaints of			| with				|						     |	R	
+treated for			| but				| continued to					     |	N
+-				| seem				|						     |
+grew out			| was treated for		|						     |	R
+has had				| and test demonstrated		|						     |	E
+demonstrated			| at the site of		|						     |	L
+demonstrated			| but no			|						     |	A
+demonstrated			| felt to be			|						     |	T
+showed				| with concerns for		|						     |	I	
+c / o				| ,				|						     |	O
+				| on test with			|						     |	N
+remarkable for			| ,				|						     |	=
+				|started.*when he first experienced |						     |	PIP
+				|started.*when she first experienced|						     |				
+				| was noted.*and revealed	|						     |	
+				| - w/				|						     |						
+				| -.*to have developing		|						     |
+(disease)			| status post			|						     |
+(disease)			| s/p				|						     |
+became				| after				|						     |		
+with				| that was			|						     |
+signs of			| after				|						     |
+				| since \\d+.*but test in	|						     |
+given the likely		| of				|						     |
+				| leaving			|						     |	
+				|currently on treatment.*complicated by|					     |
+because of			| at the time of		|						     |		
+due to				| = by				|						     |
+evaluate for			| potential cause of		|						     |
+attributed to			| as a result of		|						     |
+				| thought to be			|						     |
+				| revealed to be		|						     |		
+				| however , given		|						     |
+with regards to			| there was			|						     |
+amount of			| from 				|						     |		
+				| = comprised of		|						     |
+signs of			| such				|						     |			
+				| causing			|						     |
+upon				| appeared to be		|             					     |
+show				| at the area of		|						     |
+at the area of			| , so				|						     |	
+				| = ;				| was controlled				     |	
+				| there was			| associated					     |
+episodes of			| and				|						     |
+according to test included	| with				|						     |		
+the etiology of			| which did not suggest		|						     |				
+				| was noted to be		|						     |
+had				| consistent with either	|						     |				
+presumably because of		| and				|						     |	
+was problem-present with	| = , which was			|						     |	
+there was			| with				| , but no					     |	
+felt to be			| since test was		|						     |						
+				| = (				| )						     |
+given				| and				|						     |			
+given				| history of			|						     |	
+with history of			| with				| on admission					     |	
+				| raised the question of	|						     |		
+a history of			| a history of			|						     |
+in				| presumed to be		|						     |		
+				| = as a possible source of	|						     |	
+became positive and		| is				|						     |
+				| experiences.*as		|						     |			
+developed			| which has been		|						     |	
+with				| associated with		|						     |		
+was				| as there were			|						     |
+likely has			| owing to			|						     |		
+for possible			| associated			|						     |	
+had				| remained			|						     |		
+who has				| has had a h/o			|						     |	
+probable			| causing			|						     |	
+				| with history of		|						     |
+may be secondary to		| may be secondary to		|						     |
+notice				| from				|						     |
++				| c / w				|						     |				
+for presumed			| /				|						     |				
+				| which are characterized by	|						     |	
+has had				| without			|						     |
+is no				| to suggest			|						     |								
+				| suggests either		| 						     |
+etiology of			| thought possibly secondary to	|						     |	
+				| = was intact without		|						     |				
+				| = at				|						     /
+was in				| and a diagnosis of		|						    /	
+with				| which was			|						   /	
+				| = given			|						  /
+had				| from the combination of	|						 /
+				| = positive			|						/
+				| = from possible		|					       /
+				| = that is			|					      /
+				| = - this is			|					     /
+h/o				| and subsequent		|					    /
+had had				| and ultimately		|					   /
+				| r / o				|					  /
+occasionally gets		| when				|					 /
+complicated by			| due to			|					/
+				| in the setting of		|				       /
+				| = in association with		|				      /
+				| without any progression to	|				     /
+in association with		| concerning for		|  				    /
+				| considered as cause for	|				   /
+				| judged to be			|				  /
+				| = which is			|				 /
+				| = , such as			|				/
+became				| in the setting of		|			       /
+contains			| resulting in			|			      /
+---------------------------------------------------------------------------------------------/
+
+Notes for TABLE 2:
+1) Table of discontiguous cue phrases (where each row in the table = a discontiguous cue phrase), with position of the phrase relative to an event is indicated by the column name it is listed under.
+2) Each discontiguous cue phrase forms a rule condition which if satisfied cues relation *NPP* between paired problem events.
+3) Phrases enclosed within parenthesis are matched with the string of the event.
+4) If a cue phrase is preceded by "equal to" sign (i.e. =) then the particular phrase spans its corresponding position in the text relative to the events exactly.

@@ -1,0 +1,62 @@
+To heuristically label a paragraph P, we first initialize a value associated with each label to 0.
+Introduction = 0;
+Body = 0;
+Conclusion = 0;
+Rebuttal = 0;
+
+
+For each sentence S in paragraph P:
+
+
+	If S is a Thesis or Prompt:
+		Introduction = Introduction + 1;
+		Conclusion = Conclusion + 1;
+		
+		
+	If S is a MainIdea and S is one of the first three sentences in P:
+		Body = Body + 1;
+		Conclusion = Conclusion + 1;
+		Rebuttal = Rebuttal + 1;
+		
+		
+	If S is a MainIdea and S is one of the last three sentences in P:
+		Introduction = Introduction + 1;
+		Body = Body + 1;
+		
+		
+	If S is an Elaboration sentence:
+		Introduction = Introduction + 1;
+		Body = Body + 1;
+		
+		
+	If S is a Support sentence:
+		Body = Body + 1;
+		
+		
+	If S is a Conclusion or Suggestion sentence:
+		Body = Body + 1;
+		Conclusion = Conclusion + 1;
+		
+		
+	If S is a Rebuttal or Solution sentence:
+		Body = Body + 1;
+		Rebuttal = Rebuttal + 1;
+		
+		
+If P is the first paragraph in the essay:
+	Introduction = Introduction + 1;
+	
+	
+If P is the last paragraph in the essay:
+	Conclusion = Conclusion + 1;
+	
+	
+If P is neither the first nor the last paragraph in the essay:
+	Body = Body + 1;
+	Rebuttal = Rebuttal + 1;
+	
+	
+Assign P the label having the highest value.  In case of ties, choose the first label in the list {Introduction, Body, Conclusion, Rebuttal} having one of the high values.
+
+		
+	

@@ -1,0 +1,61 @@
+51|null@windowsphone^1439827357#3hbu6s:shing93$:What Android apps work well on Windows 10 mobile?
+5|0@windowsphone^1439831601#cu61xhu:shing93$:I tried Pandora and Duolingo, the work great, better the windows phone version and with twice the features. Facebook, Skype, Pinterest and Etsy crash on startup though.
+1|0@windowsphone^1439843525#cu69vim:the_boomr$:Oh Duolingo works?? Nice! Gonna have to get that on mine, I've been jelly of my gf's better-featured Duolingo on her iPad for a while now.
+2|0@windowsphone^1439844725#cu6aon3:shing93$:Yeah, every feature works great, it was a little slow for the first minute though but that quickly cleared itself up.
+1|0@windowsphone^1439861483#cu6kg6t:neogzg$:Sorry, but can u say some of features which WP version of Duolingo is lacking.
+4|0@windowsphone^1439863502#cu6lkj3:shing93$:The android version makes you speak the words and phrases to make sure you know how to say them, it has something called lingots which are little gems you earn when you complete a lesson and you can redeem them for power ups, also it has a lot better design which is easier to navigate and you can talk to other people about lessons to help people or get help and there are a few other little things.
+2|0@windowsphone^1439830401#cu6162u:woutervoorschot$:Spotify not great, scrolling is laggy(like android, so expected) but the big problem is that it doesn't support background audio(on 10166, gonna try the new one in a few hours). Casper for Snapchat doesn't understand the camera(and the photo picker doesn't work), it won't block you however and you can view(it's a start). Firefox or opera directly crash, strava crashes, Clash of Clans works.
+1|0@windowsphone^1439891706#cu6vvao:[deleted]$:[deleted]
+1|0@windowsphone^1439894247#cu6wh1h:woutervoorschot$:In speed it is better, in animations it is better. That is because they spent way more time on the android version. The scrolling in lists however is smoother on even a 630 than on a high end android. It responds faster and most importantly, it has a bounce efect on wp.
+20|0@windowsphone^1439830584#cu61a9x:manmad91$:I am still waiting untill they get google play services working. People on XDA are working hard on making it work. Lets hope they succeed! Because that will mean that almost all apps should work. Most apps that do not work right now is because they need google play services. Here is a link where they are discussing it: http://forum.xda-developers.com/windows-10/development/how-to-install-android-apps-windows-10-t3174629 Here is the tool to get it working, it is still very experimental, so i wouldnt recommend using it yet. But they got apps like YouTube working already. https://github.com/Marocco2/AM-GApps-Tool
+4|0@windowsphone^1439850903#cu6ejd3:disposable_account01$:I mean, great if they can pull it off for those who don't mind, but Google Play Services sucking the life out of my battery was a major contributing factor to my jettison of the Android platform.
+3|0@windowsphone^1439856003#cu6hdv8:Erisi$:In theory, because the android subsystem runs when android apps run (I think) it shouldn't use any battery unless apps are running
+4|0@windowsphone^1439864515#cu6m5h1:disposable_account01$:That would be hilarious! Google Play Services would actually run better on Windows. 
+1|0@windowsphone^1439868696#cu6ofz7:Erisi$:Not necessarily. First off, it's illegal to do, technically. Secondly, the fact that they save battery by not running in the background implies they actually would not run as well.
+1|0@windowsphone^1439873651#cu6qpb5:gatea$:Won't Google Play services need some Google provided...subsystem/APIs? I know nothing at all, just curious.
+1|0@windowsphone^1439895809#cu6wv9m:Erisi$:Yes and no, it could be something that starts up with the android app
+1|0@windowsphone^1439880756#cu6t5y5:l3ugl3ear$:Why would it be illegal?
+1|0@windowsphone^1439895757#cu6wusm:Erisi$:The other comment is right, but to simplify it: Google owns android. They get to decide what devices are allowed to have the play store/services.
+2|0@windowsphone^1439883256#cu6tuyt:Kumagoro314$:It's a proprietary solution, you already need an "approved" Android device to get access to the Play store, let alone a Windows device.
+1|0@windowsphone^1439886862#cu6urmk:NSFW895$:That isn't how it works. Play services and Google Play stopped being battery issues a long while ago.
+2|0@windowsphone^1439910375#cu7380r:disposable_account01$:Play Services have had numerous bugs involving wakelocks as recently as June. I can't speak to whether that is resolves now, but that's hardly "a long while ago".
+2|0@windowsphone^1439829123#cu60cz6:DeividasV$:Facebook and skype works ok.
+2|0@windowsphone^1439831310#cu61qr5:Jealy$:What are the main differences in each if you don't mind me asking? Skype is a load of shite on WP - but Facebook seems alright.
+6|0@windowsphone^1439841791#cu68poq:kapri123$:Facebook is shit on WP, it should be called "how to not make WP app"
+1|0@windowsphone^1439843583#cu69wwt:blaziecat1103$:To be fair, it's not amazing on Android or iOS either. Facebook is a bit of a battery hog.
+5|0@windowsphone^1439848779#cu6da21:DracheMitch$:Facebook is constantly derided on iOS and Android. Despite Facebook making Messenger as a separate app, the main app has all of the code inside it for Messenger. There is an app that re-enables native Messenger inside the Facebook app.
+2|0@windowsphone^1439849520#cu6dpur:blaziecat1103$:I stopped using the Facebook app and started using Facebook Lite, which is basically the mobile site made into an app and aimed at emerging markets. It's ugly and slow, but it doesn't burn battery or mobile data and takes up very little storage space. It's available as an .apk file from [APKMirror](http://www.apkmirror.com/apk/facebook-2/lite/facebook-lite-1-11-1-91-205-android-apk-download/). I'm not sure how well it works with Windows Phone.
+1|0@windowsphone^1439847421#cu6cg12:Ronald_Me$:facebook is so bad on android, at least on WP it is not slow, the messenger app is slow
+6|0@windowsphone^1439829855#cu60toy:iammrinal0$:here you go : [link](https://docs.google.com/spreadsheets/d/1a9c6V2B8itvt3Hpuh693DsXNyvx1jR1aC4uZdjRRoBQ/edit?usp=sharing) request others who have tested to add the respective apps tested to the list. edit: if you are editing the formatting of the file PLEASE check if it doesn't mess with the details present there. it becomes a nightmare when this happens because everything is jumbled after the change.
+3|0@windowsphone^1439840242#cu67o3j:WinOSXBuntu$:LOL One of the entries says "Needs Google" and then Microsoft Account. I got a good little giggle out of that.
+2|0@windowsphone^1439841669#cu68msy:iammrinal0$:there are a few who like to troll around from time to time though. trying to keep it clean but misses my eye. :D
+2|0@windowsphone^1439841929#cu68t0y:WinOSXBuntu$:I'll be honest dude, I don't think it was trolling. We have no idea what requires what for the most part.
+1|0@windowsphone^1439842181#cu68z1d:iammrinal0$:few days back there were a few entries which had random names of Microsoft products and comments had "requires Microsoft iTunes package" and as such. and "microsoft account" has an apk? edit: apparently there is an app called "microsoft account". surprising. the guy was indeed not trolling.
+1|0@windowsphone^1439842919#cu69gs6:WinOSXBuntu$:&gt;edit: apparently there is an app called "microsoft account". surprising. the guy was indeed not trolling. I feel kind of smug now. :D "I am smart, much smarter than you, HIBBERT!!!" I'm not really this gloaty.
+2|0@windowsphone^1439845068#cu6ax9t:eric5949$:It s not a troll, it really doesn't work, lol. Even with a patched apk!
+1|0@windowsphone^1439845693#cu6bbxy:iammrinal0$:yeah, i searched for the app on play store and found it was an actual app. mentioned in the comment below. and if you din know there is another sheet in the link with apps other people would like to know if it works or not. just letting you know as you seem to have tested most of the apps over there. :)
+1|0@windowsphone^1439845807#cu6beki:eric5949$:I probably should add some of my more recent ones to it, and check up on what's been added since I last looked. Thanks for reminding me.!
+1|0@windowsphone^1439850999#cu6elca:disposable_account01$:Yeah this is because the Microsoft Account (2-factor auth) app relies on Google Play Services for notifications. This is one of the main reasons that there isn't an exact equivalent on Windows Phone and we get stuck with "Authenticator" which is basically the same thing, but not quite.
+1|0@windowsphone^1439876240#cu6rpa9:WinOSXBuntu$:Huh, today I learned.
+2|0@windowsphone^1439910191#cu733zs:immewnity$:On a 920, checking all the official Pokémon apps that I can. Pokémon TV works... but videos don't show. Audio plays though! Pokémon Jukebox needs Play Services. Pokémon Shuffle Mobile Beta crashes upon opening. Dance? Pokémon Band! works - says it needs Play Services, but works after backing out of that dialog box.
+1|0@windowsphone^1439857093#cu6hzr4:LtDarthWookie$:I had fallout shelter installed and running, now it crashes when I try to load a vault, or start a new one. It's a GMAPPS patched version. Any help on that would be appreciated.
+2|0@windowsphone^1439904631#cu7028y:eric5949$:Dont reboot if you can help it, it seems to break a lot of Astoria.
+1|0@windowsphone^1439916307#cu775tc:LtDarthWookie$:That's rather counterintuitive isn't it. The thing that fixes so many issues causes this one.
+1|0@windowsphone^1439905813#cu70n18:LtDarthWookie$:So any way to fix it if I have rebooted?
+2|0@windowsphone^1439906462#cu70yvj:eric5949$:Remove the game and obb from your phone, soft reset, reinstall and put the obb back.
+1|0@windowsphone^1439906690#cu713aw:LtDarthWookie$:Any idea where save files are located?
+2|0@windowsphone^1439907093#cu71b4x:eric5949$:No, i'd imagine they get removed with the app.
+1|0@windowsphone^1439916380#cu777n3:LtDarthWookie$:It actually looks like it's stored in \Data\Users\DefApps\APPDATA\Local\Aow\mnt\shell\em ulated\0\Android\Data\%appname%
+2|0@windowsphone^1439860033#cu6jmyv:moosic$:Anyone get into the dev settings with the new build? It keeps crashing for me.
+1|0@windowsphone^1439879007#cu6smoj:disposable_account01$:Anyone try this on a Lumia 640? I'm curious how the Lumia 635 w/ 1GB RAM is supported, but the Lumia 640 isn't (according to the XDA post). EDIT: Or on the 512MB Lumia 635 for that matter?
+2|0@windowsphone^1439880830#cu6t6qi:somegnome$:I'm running android apps on a 640. Works great by rolling back to 8.1, editing some device id's and then updating. [how to](http://forum.xda-developers.com/windows-phone-8/general/apk-installed-unsupported-devices-sd-t3175843/post62265813#post62265813)
+2|0@windowsphone^1439851075#cu6emz5:disposable_account01$:What version of the Insider Preview is needed to install Android apps? And what are the steps for sideloading those apps? EDIT: I posted this before reading the links supplied in /u/manmad91's [post](https://www.reddit.com/r/windowsphone/comments/3hbu6s/what_android_apps_work_well_on_windows_10_mobile/cu61a9x) below. It has a walkthrough.
+1|0@windowsphone^1439847277#cu6ccud:LucidAqua$:Trying Summoners War Sky Arena. Installed but crashes in the loading screen. Is there a fix? Or ami doomed to play it on a iOS device? Would Gmaps patcher fix it?
+1|0@windowsphone^1439852937#cu6fp9u:shing93$:I just tried installing it and it crashed on startup too, I tried the Gmaps patcher and it still crashed. Sorry.
+2|0@windowsphone^1439863663#cu6lnvy:LucidAqua$:Ah, thank you. I really appreciate your reply. Hopefully there can be a way in the near future.
+2|0@windowsphone^1439847468#cu6ch3g:total_ham_roll$:Has anyone checked if flash works?
+5|0@windowsphone^1439848848#cu6dbkx:DracheMitch$:Flash doesn't even work on Android since like, Ice Cream sandwich. Where have you been?
+1|0@windowsphone^1439883366#cu6tw0p:Kumagoro314$:You could still get .apk's for it, it was unsupported, but it worked for swf files, like small games and the likes.
+14|0@windowsphone^1439850034#cu6e0xk:total_ham_roll$:Under a rock called windows phone.
+2|0@windowsphone^1439884918#cu6uacf:chris1neji$:It's a very nice and pretty rock though. 
+1|0@windowsphone^1439892523#cu6w24n:total_ham_roll$:Yep, we can agree on that.

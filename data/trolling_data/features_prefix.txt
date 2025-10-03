@@ -1,0 +1,37 @@
+ngr: ngram features
+ngp: ngram features plus POS
+lem: token lemma
+dep: comment dependency tree tree features
+emt: emoticons
+hrm: harmful vocabulary
+swr: swearing vocabulary
+syt,ngram
+syn: wornet synsets 
+slg,text
+frm: framet frames
+
+siq: single question mark
+dmq: double question mark
+dme: double exclamation mark
+acp: all caps words
+alc: all text in caps
+url: url present in text
+1pl: we or us present in text
+wcf: "would" or "could" present in text
+wcn: "would" or "could" present in text
+you: "you" present in text
+
+len: number of words in text
+1o2: less than three words comment
+pls: "please" present in text
+mpl: medial "please" word present in text
+y1s: "I" present in text
+6lt: words with more than 6 letters
+
+neg: negative value from Vader Sentiment analyizer
+pos: positive value from Vader Sentiment analyizer
+new: neutral value from Vader Sentiment analyizer
+comp: composite value from Vader Sentiment analyizer
+
+glove: glove vectors
+

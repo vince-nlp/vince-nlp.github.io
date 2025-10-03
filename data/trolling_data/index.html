@@ -1,0 +1,172 @@
+<html><head><title>Trolling Dataset</title></head>
+<body bgcolor="#ffffff" text="#000000">
+
+
+  <BODY xmlns="http://www.google.com/ns/jotspot" id="body" class="en">
+  <!--  <IMG align="right" src="../../jpeg/anaphora.png" width="430" height="220"/> -->
+    <DIV id="sites-chrome-everything">
+      <DIV xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper">
+
+        <TABLE id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0">
+          <TBODY>
+            <TR>
+              <TD>
+                <h1>Trolling Dataset</h1>
+              </TD>
+            </TR>
+          </TBODY>
+        </TABLE>
+
+<h3>About</h3>
+
+<p>This page is a distribution site of the data described in the following paper:<br>
+
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href="../../papers/lrec18-troll.html">Modeling Trolling in Social Media Conversations</a>.
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+Luis Gerardo Mojica and Vincent Ng.
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<i>Proceedings of the 11th International Conference on Language Resources and Evaluation</i>, pp. 3701-3706, 2018.
+
+
+<h3>Dataset</h3> (Last updated: Tue Jun 14 10:23:18 2016)
+
+<p>The dataset can be downloaded as a <a href="trolling_data.zip">zip file</a>. There are 1001 conversations/snippets along with their annotations. Below is a description of the files/folders in the zip file:
+
+<h4>annotations.txt</h4>
+
+<p>This file contains all the snippet annotations. There are 5 lines per snippet:
+
+<p>1) Snippet id. i.e.: 3im30u$cuhl3kv$cui2pfc, where 3im30u is the comment identi-
+fier for the the conversation root. This is needed to find the conversation to
+which this snippet corresponds.
+
+<p>2) CON 'Intention Disclosure (D)' annotation for suspected troll.
+
+<p>3) AIN 'Trolling Intention (I)' annotation for the suspected troll.
+
+<p>4) CIN 'Trolling Interpretation (R)' dictionary of annotations for each of the 
+direct responses for the suspected troll.
+
+<p>5) CRES 'Response Strategy (B)' dictionary of annotations for each of the 
+direct responses for the suspected troll. Every comment in the dictionary is 
+identified by a key composed by comment identifier followed by the author's user-
+username. i.e.: 'cuiari6~nekokuroneko'.
+
+<h4>snippets.txt</h4>
+
+<p><p>  This file containts all the snippets. There are 9
+lines per snippet:
+
+<p>1) Snippet id. i.e.: 3im30u$cuhl3kv$cui2pfc, where 3im30u is the comment identi-
+fier for the the conversation root. This is needed to find the conversation to
+which this snippet corresponds.
+
+<p>2) 'direct_response_text': dictionary with direct response's text or comment
+
+<p>3) 'troll_id': suspected troll comment identifier
+
+<p>4) 'parent_author': username of suspected troll parent's comment
+
+<p>5) 'parent_id': suspected troll parent's comment identifier
+
+<p>6) 'name_commentId_dic': dictionary mapping direct responses comment identifiers
+and their authors username
+
+<p>7) 'troll_text': comment made by the suspected troll
+
+<p>8) 'parent_text': comment made by the suspected troll's parent
+
+<p>9) 'troll_author': username of suspected troll
+
+<h4>The Conversations folder</h4>
+<p><p>There is two files per conversation:
+
+<p>1) The files *.comment contain the conversation comments. There is one comment
+per line. Each line, immediately before the comment's text has the comment iden-
+tifier followed by the comment id. i.e.: #3fcsiu:ProudChinaFag$:  These can be
+used to recreate the conversation thread.
+
+<p>2) The files *.ajd containt the adjacency list for each comment in the conversa-
+tion threa.
+
+<h4>features_prefix.txt</h4>
+
+<p><p>** This file describes the name of the features in the correspoding
+jsom feature files found in the features directory.
+
+<h4>The features directory</h4>
+
+<p>This directory contains 4 files. Each corresponds to a task: "I": interpretation,
+"D": disclosure, "R": Interpretatio and "B": Response strategy. The files are stored in
+json format.
+
+<p>The files contain all instances for the task indexed by a long comment identifier 
+(thread_id+parent_id+comment_id, i.e.: 3im30u$cuhl3kv$cui2pfc) along with a named dictionary 
+describing the features in them. The "glove" feature is a list of 400 real numbers 
+that correspond to the comment glove vector.
+
+
+<br><br>
+<!--<IMG WIDTH=100% HEIGHT=6  SRC="../../images/line.gif" align=center> -->
+
+
+<h3>Citation</h3> 
+
+<p>Please acknowledge your use of this dataset by citing the following paper:<p>
+
+<A HREF="https://www.hlt.utdallas.edu/~vince/papers/lrec18-troll.html">Modeling Trolling in Social Media Conversations</A>.<br>
+Luis Gerardo Mojica and Vincent Ng.<br>
+<i>Proceedings of the 11th International Conference on Language Resources and Evaluation</i>, pp 3701-3706, 2018.
+
+
+
+<!-- <IMG WIDTH=100% HEIGHT=6  SRC="../../images/line.gif" align=center>-->
+
+
+
+<br>
+</p><hr>
+<br>
+
+The creation of this website is based upon work supported in part by National Science Foundation (NSF) Grants IIS-1147644 and IIS-1219142. Any opinions, findings, and conclusions or
+recommendations expressed above are those of the authors and do not
+necessarily reflect the views of NSF and should 
+not be interpreted as representing the official policies, either expressed 
+or implied, of any sponsoring institution, the U.S. government or any other 
+entity.
+
+<br><br>
+
+
+This page has been accessed 
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=8278422;
+var sc_invisible=0;
+var sc_partition=58;
+var sc_click_stat=1;
+var sc_security="6a44dc49";
+</script>
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript><div class="statcounter"><a title="customisable
+counter" href="http://statcounter.com/free-hit-counter/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/8278422/0/6a44dc49/0/"
+alt="customisable counter"></a></div></noscript> 
+<!-- End of StatCounter Code for Default Guide -->
+times.
+
+
+<a target="_blank"
+href="http://www.nedstatbasic.net/stats?ACSLJg/Ezum87Nrl04Kg4P0TsPRw"><IMG
+src="http://m1.nedstatbasic.net/n?id=ACSLJg/Ezum87Nrl04Kg4P0TsPRw"
+border="0" nosave width="18" height="18" alt="Nedstat Basic"></a> 
+
+
+<br>
+<br>
+<p>
+
+</body></html>

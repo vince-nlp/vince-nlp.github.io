@@ -1,0 +1,107 @@
+<html><head><title>Multi-clustering Datasets</title></head>
+<body bgcolor="#ffffff" text="#000000">
+<h1>Multi-clustering Datasets</h1>
+<font size="2" face="Courier New">
+This page is a distribution site for the Multi-clustering datasets, a subset of which were introduced in the following papers:
+<br>
+<br>
+<a href="ICML2010-Sajib-Vince.pdf"> Mining Clustering Dimensions. </a> <br>
+Sajib Dasgupta and Vincent Ng. <br>
+In the Proceedings of the International Conference on Machine Learning (ICML), 2010. <br>
+<br>
+<a href="SIGIR-Sajib-Vince.ps"> Towards Subjectifying Text Clustering. </a><br>
+Sajib Dasgupta and Vincent Ng. <br>
+In the Proceedings of the ACM SIGIR Conference on Research and Development in Information Retrieval, 2010. <br>
+<br>
+<br>
+
+While traditional work on text clustering
+has largely focused on grouping documents by topic, it is conceivable that a user may want to cluster
+documents along other dimensions, such as the author's mood, gender, age or sentiment.
+This is useful as users often have a single clustering along a particular dimension in mind, 
+but the fact that there could be 'alternative' ways to cluster the data may
+provide her important insights which were otherwise missing and could potentially be valuable.
+<br><br>
+Motivated in part by this observation, we take a multifaceted approach to document annotation:
+we annotate a set of documents across multiple dimensions, 
+where each dimension represents a particular classification structure along which the document set can be meaningfully categorized.
+<br><br>
+We use the annotations as a gold-standard to evaluate an alternative (or multi-) clustering system, 
+which seeks to organize, or cluster, a set of text documents along multiple dimensions. 
+
+<br>
+<br>
+For example, given a collection of <b>reviews</b> we annotate it along the following four dimensions:
+<br>
+<br>
+<ol>
+<li> Sentiment:
+    <br> 
+	Classify a review as positive (thumbs up) or negative (thumbs down).
+	<br>
+	<br>
+</li>
+<li>Topic:
+    <br>
+	Classify a review according to the product description or the topic it pertains to. 
+	For example, classify a review according to whether it's a book, movie, or an electronic product review.
+	<br>
+	<br>
+</li>
+<li>Subjectivity:
+	<br>
+	Classify a review according to whether the review contains mostly a narrative description of the product 
+	and is therefore largely "objective", or whether it contains mostly the author's opinion 
+	and is therefore largely "subjective".
+	<br>
+	<br>
+</li>
+<li>Strength:
+    <br>
+	Classify a review according to whether the opinion expressed in a review is "strong" or "weak".
+	<br>
+	<br>
+</li>
+</ol>
+
+Thus a particular review labeled as {"Positive", "Movie", "Subjective", "Strong"} permeates four different pieces 
+of information to the end user: the review is positive sentiment bearing and related to a movie, it's mostly subjective
+and the strength of the opinion expressed in the review is strong.
+
+<br>
+
+<!--
+In this project, we design a human-annotation task to categorize a set of documents across multiple dimensions. 
+For example, given a collection of movie reviews we categorize them according to sentiment, movie types, 
+or other dimensions relevant to meaningful categorization of reviews. 
+Each dimension represents a particular 
+classification structure of the data, thus projecting a particular view of the data to the end user.
+Annotation guidelines and other details regarding clustering dimensions for each dataset can be found in the papers listed above.
+-->
+<!--
+For example, a review 
+labeled as {"Positive", "Science Fiction", "Strong"} denotes that the review is positive sentiment bearing, 
+and related to a science fiction movie, and the strength of the opinion expressed in the review is strong. 
+-->
+<!--
+In this project, we annotate a set of documents with classification labels which we use as a gold-standard to evaluate a multi-clustering system.
+Each set of documents is labeled across multiple dimensions using distinct user-specified criteria, 
+where each dimension represents a particular classification structure of the data (e.g., topic or sentiment structure), 
+thus projecting a particular view of the data to the end user.
+Annotation guidelines and other details regarding clustering dimensions for each dataset can be found in the papers listed above.
+-->
+<br>
+<br>
+Annotation guidelines and other details regarding clustering dimensions for each dataset can be found in the papers listed above.
+For any reference to the multi-clustering datasets and the corresponding annotations please cite the ICML paper above. We collected the datasets from numerous sources, which are listed along with a 
+reference paper and a web-source in the corresponding folder. Please cite the source(s) for any reference to the dataset(s).<br>
+<br>
+<br>
+<h3> Datasets: </h3> 
+<a href="MultifacetedText.zip">Download Multi-clustering datasets </a>
+<br>
+<br>
+<h3> Directions to use the datasets: </h3>
+<a href="Guideline-MultifacetedTextClassification.txt">Guideline</a>
+<br>
+<br>

@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+	<head>
+		<title>Sieve-Based Normalization</title>
+		<link href="../css/nlp.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+
+	<h2>Normalization of Disorder Mentions in the Biomedical Domain</h2>
+	<br>
+	<h3>About</h3>
+	<p><i>Normalization</i> is the task of mapping a word or a phrase
+	in a document to a unique concept in an ontology (based on the description of that concept 
+	in the ontology) after disambiguating potential ambiguous 
+	surface words, or phrases. This task has been variously called entity disambiguation,
+	record linkage, or entity linking.</p>
+
+	<p> </p>
+	
+	<p>Our sieve-based approach for the <i>normalization of disorder mentions</i> in biomedical data is described in the following paper.</p>
+		<blockquote>
+			Jennifer D’Souza and Vincent Ng. July 2015. 
+			<a href="http://www.aclweb.org/anthology/P/P15/P15-2049.pdf">Sieve-Based Entity Linking in the Biomedical Domain</a>. 
+			In <i>Proceedings of ACL-IJCNLP</i>.
+		</blockquote>	
+	
+	<p> </p>
+	
+	<p>Our adopted approach is simple yet effective for <i>disorder mention normalization</i>.
+	Each sieve in our normalization system corresponds to a unique syntactic string transformation heuristic
+	responsible for converting a mention into one of its equivalent forms in order to match with its stored form in the ontology.
+	A pictorial depiction of the working of our sieve-based system with only a subset of the sieves in our full system is provided below.</p>
+		
+	<table align="center">
+		<tr>
+			<td>
+				<figure>
+					<img src="labels.jpg" width="250" height="500">
+				</figure>
+			</td>		
+			<td>
+				<figure>
+					<img src="clinical-notes-1.jpg" alt="Normalization of Names in Clinical Notes" width="530" height="500">
+					<figcaption>Figure 1 - Normalization of disorder mentions in clinical data at different sieve levels.</figcaption>
+				</figure>
+			</td>
+			<td>
+				<figure>
+					<img src="biomedical-abstracts-1.jpg" alt="Normalization of Names in Biomedical Abstracts" width="530" height="500">
+					<figcaption>Figure 2 - Normalization of disorder mentions in biomedical abstracts at different sieve levels.</figcaption>
+				</figure>
+			</td>
+		</tr>
+		<caption align=bottom style="text-align:justify">Figures 1 and 2 - Sieve-based system organized as tiers of mention normalization 
+		modules that produce variations of a mention string via morphological or syntactic transformations, one at a time,
+		from highest to lowest precision of specificity of the string. 
+		(Preliminary system: <a href="../pubs/normalization.pdf">Jennifer D'Souza. January 2015.
+		A Multi-Pass Sieve for Name Normalization. In <i>Proceedings of AAAI</i>--Student Abstract and Poster Program.</a>)
+		</caption>
+	</table>	
+		
+	<br>
+	<h3>Download</h3>
+	
+	<center>
+	<b><a href="disorder-normalizer.zip">Download our sieve-based disorder normalization tool</a></b>.
+	</center>
+	<br>
+	<b>GitHub:</b> Here is <a href="https://github.com/jennydsuza9/disorder-normalizer">our disorder normalization tool's GitHub site</a>.	
+	
+	<p></p>
+	<br>
+	<h3>Funding Statement</h3>
+	
+	<p>This work was supported in part by NSF Grants IIS-1147644 and IIS-1219142. 
+	Any opinions, findings, or conclusions expressed above are those of the authors and 
+	do not necessarily reflect the views or official policies of NSF.</p>	
+	
+	<br>
+	<h3>Questions</h3>	
+	<p>
+	Questions, feedback, and suggestions for improvement are welcome via <a href="mailto:jennifer.l.dsouza@utdallas.edu">email contact</a>.
+	</p>
+	</body>	
+</html>

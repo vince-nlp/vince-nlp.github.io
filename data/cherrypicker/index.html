@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml" xmlns:jot="http://www.google.com/ns/jotspot/srvtmpl/"><HEAD><META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META name="Description" content="Altaf Rahman">
+ <LINK rel="stylesheet" type="text/css" href="./files/standard-css-microsport-ltr-ltr.css">
+<TITLE>CherryPicker : A Coreference Resolution Tool</TITLE>
+    
+<STYLE type="text/css">#gbar{padding-left:8px;height:22px}.gbh,.gbd{border-top:1px solid #c9d7f1;font-size:1px}.gbh{height:0;position:absolute;top:24px;width:100%}#gbi,#gbs{background:#fff;left:0;position:absolute;top:24px;visibility:hidden;z-index:1000}#gbi{border:1px solid;border-color:#c9d7f1 #36c #36c #a2bae7;z-index:1001}#guser{padding-bottom:7px !important;text-align:right}#gbar,#guser{font-size:13px;padding-right:8px;padding-top:4px !important}@media all{.gb1,.gb3{height:22px;margin-right:.5em;vertical-align:top}#gbar{float:left}}.gb2{display:block;padding:.2em .5em}a.gb1,a.gb2,a.gb3{color:#00c !important}.gb2,.gb3{text-decoration:none}a.gb2:hover{background:#36c;color:#fff !important}</STYLE>
+<!--[if IE 6]>
+            <style type="text/css">
+              div.sites-sidebar-nav {
+                width: 100%;
+              }
+              .sites-sidebar-nav a {
+                display: inline;
+              }
+              .sites-sidebar-nav .expander {
+                left: -15px;
+              }
+              .sites-sidebar-nav .current-bg .expander {
+                left: 185px;
+              }
+              div.sites-sidebar-nav {
+                width: 100%;
+              }
+            </style>
+          <![endif]-->
+<!--[if IE]>
+            <style type="text/css">
+            .sites-sidebar-nav .current-bg {
+              margin-top: 0;
+              padding-top: 0;
+            }
+            </style>
+          <![endif]-->
+</HEAD>
+  <BODY xmlns="http://www.google.com/ns/jotspot" id="body" class="en">
+    <IMG align="right" src="bird.jpg" width="400" height="300"/>
+    <DIV id="sites-chrome-everything">
+      <DIV xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper">
+
+        <TABLE id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0">
+          <TBODY>
+            <TR>
+              <TD>
+                <H1>CherryPicker : A Coreference Resolution Tool</H1>
+              </TD>
+            </TR>
+          </TBODY>
+        </TABLE>
+
+        <H4>
+          <CENTER>
+            <a href="#cherrypicker">About</a> . <a href="#download">Download</a> . <a href="#requirement">Requirements</a> . <a href="#release">Release History</a> . <a href="#questions">Questions</a>
+          </CENTER>
+        </H4>
+
+    
+                <H4>
+                  <a name="cherrypicker">About</a>
+                </H4>
+                CherryPicker is a coreference resolution tool that implements our recently-developed cluster-ranking model as well as two existing learning-based coreference models (the mention-pair model and the mention-ranking model). Cluster rankers aim to address the major weaknesses of the widely-investigated mention-pair model, and have empirically been shown to surpass the performance of both the mention-pair model and the mention-ranking model by a large margin. Since cluster rankers offer substantially higher precision than existng coreference models, we believe that they can be beneficially used in many high-level NLP applications.
+                <p>
+                  All coreference models included in CherryPicker employ linguistic features that are largely motivated by those described in the <a href="https://personal.utdallas.edu/~vince/papers/acl02.html">Ng & Cardie ACL 2002 paper</a>, and were trained using <a href="http://svmlight.joachims.org/">SVM<sup><i>light</i></sup></a>
+                  on the English portion of the <a href="http://www.itl.nist.gov/iad/mig/tests/ace/2005/">ACE 2005</a> multilingual training corpus. Since ACE 2005 restricts coreference to noun phrases that belong to one of seven semantic classes (namely, PERSON, ORGANIZATION, GPE (geo-political entity), FACILITY, LOCATION, VEHICLE, and WEAPON), the resulting coreference models will generate coreference chains only for noun phrases belonging to these semantic classes.
+                  <p>
+                   CherryPicker also includes a mention detector that was trained using <a href="http://crfpp.sourceforge.net/">CRF++</a> on the same training data to identify noun phrases that belong to these seven semantic classes, so there is no need for the user to provide noun phrases as input. For feature generation, CherryPicker relies on the following NLP tools:
+      <pre>
+        1. <a href="http://nlp.stanford.edu/software/tagger.shtml">The Stanford Log-linear Part-Of-Speech Tagger</a>
+        2. <a href="http://nlp.stanford.edu/ner/index.shtml">The Stanford Named Entity Recognizer (NER)</a>
+        3. <a href="http://www.cs.brown.edu/~ec/#software">The Charniak Statistical Syntactic Parser</a>
+        4. <a href="http://www.cs.ualberta.ca/~lindek/minipar.htm">The MINIPAR Parser</a>
+      </pre>
+                All these software tools, as well as SVM<sup><i>light</i></sup> and CRF++, are included as part of our software package. CherryPicker only assumes as input a text that is sentence-delimited, with one sentence per line, and produces coreference chains in the
+                    <a href="itl.nist.gov/iad/894.02/related_projects/muc/muc_sw/muc_sw_manual.html">MUC format</a>. See the README file for details.
+
+                    <p>
+                     CherryPicker may be freely downloaded and used for all educational and research activities, but may not be used for commerical or for-profit purposes. Please acknowledge your use of the software by citing the following paper, which contains the technical ideas behind our cluster-ranking model:
+                    <p>
+    <pre>
+      <a href ="http://www.hlt.utdallas.edu/~altaf">Altaf Rahman</a> and <a href ="https://personal.utdallas.edu/~vince">Vincent Ng</a>.
+      <a href="http://aclweb.org/anthology-new/D/D09/D09-1101.pdf">Supervised Models for Coreference Resolution</a>.
+      <i>Proceedings of the 2009 Conference on Empirical Methods in Natural Language Processing, pp. 968-977, 2009.</i>
+    </pre>
+      
+                      <H4>
+                        <a name="requirement">Requirements</a>
+                      </H4>
+                      The current version of CherryPicker has only been tested on Unix/Linux machines. Since some of the software tools on which it relies run on Unix/Linux machines only, we do not expect CherryPicker to be able to run on other platforms. Additional requirements are described in the README file.
+                      <H4>
+                        <a name="download">Download</a>
+                      </H4>
+                      <CENTER>
+                        <b>
+                          <a href="cherrypicker1.01.tar.gz">Download CherryPicker Version 1.01</a>
+                        </b>
+                      </CENTER>
+                      <p>
+                        As described in the README file, a simple Java command will run the tool. Various options can be tweaked using arguments.
+                        <H4>
+                          <a name="release">Release History</a>
+                        </H4>
+                        <table cellspacing="5">
+                          <tr>
+                            <th align="left">Version</th>
+                            <th align="left">Date</th>
+                            <th align="left">Description</th>
+                          </tr>
+                          <tr>
+                            <td>0.1</td>
+                            <td >09-09-2009</td>
+                            <td>
+                              First Release.<pre>
+                              </pre>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>0.12</td>
+                            <td >11-07-2009</td>
+                            <td>
+                              Bug fixed.<pre>
+                              </pre>
+                            </td>
+                          </tr>
+                        </table>
+                        <H4>
+                          <a name="questions">Questions</a>
+                        </H4>
+                        For instructions to run the tool please refer to README file. Please note that CherryPicker is provided "as-is": the software does not come with any warranty or guarantee of any kind and may not be further distributed. 
+                        However, you are welcome to send your questions/concerns/comments/complaints/bug reports to altaf@hlt.utdallas.edu .
+                        We will create an FAQ page if we receive a sufficient number of questions.
+                      
+<p align="right">
+  Visited
+                            <!-- Start of StatCounter Code -->
+      <script type="text/javascript">
+        var sc_project=5123500;
+        var sc_invisible=0;
+        var sc_partition=58;
+        var sc_click_stat=1;
+        var sc_security="0ec9ac0b";
+      </script>
+                
+      <script type="text/javascript" src="http://www.statcounter.com/counter/counter.js">
+      </script>
+                              <noscript>
+        <div class="statcounter">
+          <a title="myspace views counter"
+            href="http://www.statcounter.com/myspace/"
+            target="_blank">
+            <img class="statcounter"
+                  src="http://c.statcounter.com/5123500/0/0ec9ac0b/0/"
+                >
+          </a>
+        </div>
+       </noscript>
+                            <!-- End of StatCounter Code --> times.
+</p>
+                        <HR>
+   
+ <DIV id="xsites-chrome-footer-wrapper">
+      <DIV id="xsites-chrome-footer">
+          The creation of this site is based on work supported in part by the National Science Foundation (NSF) under grant number IIS-0812261. Any opinions, findings, and conclusions or recommendations expressed above are those of the authors and do not necessarily reflect the views of the NSF.
+    </DIV>
+    </DIV>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      try {
+      var pageTracker = _gat._getTracker("UA-5356809-3");
+      pageTracker._trackPageview();
+      } catch(err) {}
+    </script>
+
+  </BODY>
+</HTML>

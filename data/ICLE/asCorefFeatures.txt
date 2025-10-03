@@ -1,0 +1,31 @@
+The values of coreference features at the essay level are obtained by first generating corresponding features at the sentence level, then taking the average value of these features over all sentences in the essay.  Keeping that in mind, here are the sentence level coreference features:
+
+
+Count of mentions in the sentence.
+
+If the sentence mentions prompt entities, 1.  0 otherwise.
+Fraction of entities from the prompt mentioned in the sentence.
+
+If the sentence mentions entities that are only mentioned once in the essay, 1.  0 otherwise. (singletons)
+Fraction of sentence mentions that are mentions of entities that are only mentioned once in the essay.
+
+If the sentence mentions entities that are never mentioned in any other sentence in the essay, 1.  0 otherwise.  (it is okay if the entity is mentioned more than once within this sentence) (sentence singletons)
+Fraction of sentence entities that are never mentioned in any other sentence in the essay.
+
+If the sentence contains the first mention of a non-prompt entity that occurs again in later sentences in the essay, 1.  0 otherwise.
+Fraction of sentence entities that are first mentioned in this sentence and are mentioned in later sentences in the essay that are not prompt entities.
+
+If the sentence contains the first mention of an entity that occurs again in later sentences in the essay, 1.  0 otherwise.
+Fraction of sentence entities that are first mentioned in this sentence and are mentioned in later sentences in the essay.
+
+If the sentence contains the last mention of an entity that occurs in earlier sentence(s) of the essay, 1.  0 otherwise.
+Fraction of entities last mentioned in the sentence that occur in earlier sentence(s) of the essay.
+
+If the sentence contains the last mention of a non-prompt entity that occurs in earlier sentence(s) of the essay, 1.  0 otherwise.
+Fraction of entities last mentioned in the sentence that occur in earlier sentence(s) of the essay that are not prompt entities.
+
+If the sentence contains a mention of an entity that is mentioned in earlier sentences and in later sentences, 1.  0 otherwise.
+Fraction of entities in sentence that are mentioned in both previous and later sentences.
+
+If the sentence contains a mention of a non-prompt entity that is mentioned in earlier sentences and in later sentences, 1.  0 otherwise.
+Fraction of entities in sentence that are mentioned in both previous and later sentences that are not prompt entities.

@@ -1,0 +1,42 @@
+<html><head>
+<title>Morphology Software Distribution</title>
+<meta http-equiv="keywords" content="Sajib Dasgupta, unsupervised morphology, unsupervised stemming, morphological parsing">
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<h1>Unsupervised Morphological Segmentation</h1>
+This page is the distribution site for <b>"Morpheme++"</b>, a language-independent morphological word segmentation system.
+Given a list of words in a particular language our system can morphologically segment
+each word in the list without requiring any prior segmentation samples, language-specific segmentation rules, or morpheme dictionaries
+(say, prefix and suffix dictionaries). 
+<br>
+<br>
+As an input it requires, <br>
+(1) a list of words in a particular language i.e., the vocabulary, and <br>
+(2) frequency of each word in a corpus (Optional).<br>
+<br>
+As an output it produces the following: <br>
+(1) morphological segmentation of each word in the vocabulary e.g., unfriendliness=un+friend+ly+ness.<br>
+(2) automatically learned morpheme dictionaries of a language i.e, a suffix and prefix list, and a root list.<br>
+(3) <b>[A feature *not* available in the existing softwares like Morfessor and Linguistica]</b> automatically learned allomorphic character change rules i.e., a single character replacement, addition or deletion at the segmentation boundary.<br>
+Example of a learned rule: "y:i<=> _ +:0 able" which denotes that character y changes to i at the boundary when the right context is "able".<br>
+<br>
+The software is free to use and distribute for non-commercial purposes. For any reference to the Software cite the following paper: 
+<br>
+<br>
+<a href="NAACL07.pdf"> High-Performance, Language-Independent Morphological Segmentation.</a>
+<br>Sajib Dasgupta and Vincent Ng. 
+<br>In the conference of the NAACL-HLT, New York, 2007.
+<br>
+<br>
+<h3> Software: </h3> 
+<a href="FinalDistribution.tar.gz"> Download Morpheme++ </a> (Updated as recently as August 27th, 2014)
+<br>
+<br>
+<h3> Guideline to run the software: </h3>
+<a href="Guideline.txt"> Guideline </a>
+<br>
+<br>
+[Don't forget to add the list of vowels in a language. See the guideline.]
+<br>
+<br>
+

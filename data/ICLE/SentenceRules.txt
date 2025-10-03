@@ -1,0 +1,110 @@
+To heuristically label a sentence S, we first initialize a value associated with each label to 0.
+Elaboration = 0;
+Prompt = 0;
+Transition = 0;
+Thesis = 0;
+MainIdea = 0;
+Support = 0;
+Conclusion = 0;
+Rebuttal = 0;
+Solution = 0;
+Suggestion = 0;
+
+
+If S contains the word "they":
+	Elaboration = Elaboration + 1;
+If S contains the word "them":
+	Elaboration = Elaboration + 1;
+If S contains the word "my":
+	Elaboration = Elaboration + 1;
+If S contains the word "he":
+	Elaboration = Elaboration + 1;
+If S contains the word "she":
+	Elaboration = Elaboration + 1;
+
+
+If S is the first sentence in the essay:
+	Prompt = Prompt + 1;
+Make a list A of content words in the essay prompt, a list B of the content words in S (a content word is an Adjective, Adverb, Noun, or Verb), and a list C of the words shared by the two lists.
+	Prompt = Propmt + (5/2) |C| / |B|;
+	
+	
+If S contains a question mark:
+	Transition = Transition + 1;
+If S contains transitional words or phrases (from the list available at http://www.studygs.net/wrtstr6.htm):
+	Transition = Transition + 1;
+		
+
+If S contains the word "agree":
+	Thesis = Thesis + 1;
+If S contains the word "disagree":
+	Thesis = Thesis + 1;
+If S contains the word "think":
+	Thesis = Thesis + 1;
+If S contains the word "opinion":
+	Thesis = Thesis + 1;
+If S is the first sentence in the essay:
+	Thesis = Thesis + 1;
+	
+	
+If S contains the word "firstly":
+	MainIdea = MainIdea + 1;
+If S contains the word "secondly":
+	MainIdea = MainIdea + 1;
+If S contains the word "thirdly":
+	MainIdea = MainIdea + 1;
+If S contains the word "another":
+	MainIdea = MainIdea + 1;
+If S contains the word "aspect":
+	MainIdea = MainIdea + 1;
+	
+	
+If S contains the word "example":
+	Support = Support + 1;
+If S contains the word "instance":
+	Support = Support + 1;
+	
+	
+If S contains the word "conclusion":
+	Conclusion = Conclusion + 1;
+If S contains the word "conclude":
+	Conclusion = Conclusion + 1;
+If S contains the word "therefore":
+	Conclusion = Conclusion + 1;
+If S contains the word "sum":
+	Conclusion = Conclusion + 1;
+If S is the last sentence in its paragraph:
+	Conclusion = Conclusion + 1;
+	
+	
+If S contains the word "however":
+	Rebuttal = Rebuttal + 1;
+If S contains the word "but":
+	Rebuttal = Rebuttal + 1;
+If S contains the word "argue":
+	Rebuttal = Rebuttal + 1;
+	
+	
+If S contains the word "solve":
+	Solution = Solution + 1;
+If S contains the word "solved":
+	Solution = Solution + 1;
+If S contains the word "solution":
+	Solution = Solution + 1;
+	
+	
+If S contains the word "should":
+	Suggestion = Suggestion + 1;
+If S contains the word "let":
+	Suggestion = Suggestion + 1;
+If S contains the word "must":
+	Suggestion = Suggestion + 1;
+If S contains the word "ought":
+	Suggestion = Suggestion + 1;
+	
+		
+Apply the label having the highest count.  In the case of ties, choose the label that obtained its high score first.
+		
+	
+
+

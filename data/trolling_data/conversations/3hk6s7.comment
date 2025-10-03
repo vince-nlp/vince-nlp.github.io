@@ -1,0 +1,28 @@
+14|null@pcmasterrace^1439972850#3hk6s7:Knox283$:Microsoft: hardware changes and "free upgrade"
+1|0@pcmasterrace^1439993768#cu896sd:[deleted]$:[deleted]
+1|0@pcmasterrace^1439996215#cu8anxd:iwannaputitinurbutt$:How the fuck can companies still have people working for them that have no clue wtf they are talking about?
+1|0@pcmasterrace^1439996272#cu8ap7r:iwannaputitinurbutt$:You already paid for it once, pirate that shit. Fuck m$
+1|0@pcmasterrace^1439992357#cu88ewg:JWSamuelsson$:Windows 7 Ultimate instal w/Daz &gt; Windows 10 Pro upgrade from ISO &gt; Full genuine activation. Also if you want to see your ACTUAL key as the slmgr.vbs /dlv command shows generic, there is a script that will give it to you. 
+1|0@pcmasterrace^1440000544#cu8di2p:Klorel$:all of this was known for a long time. that's why my old core2duo is still running windows 7. i won't bother updating until i have new hardware. and no MS won't make people pay in a year. they just offer the free update 12month long. afterwards you have to pay for upgrading.
+1|0@pcmasterrace^1440015876#cu8ohss:djfakey$:This happened to me after changing my mobo. So I just did the revert back to windows 8.1 activated it again and reinstalled windows 10 upgrade. Had to reinstall a few programs but that's fine. This is the benefit of having an OS only ssd and storing everything else on another drive. 
+-5|0@pcmasterrace^1439973571#cu829mt:[deleted]$:[deleted]
+17|0@pcmasterrace^1439973870#cu82cbj:MrArgo$:&gt; this could very well be communication error at the lower levels of Microsoft. Yes.
+3|0@pcmasterrace^1439975013#cu82mg3:op-ale$:afaik, all those who did not upgrade within the year will be required to buy a license. Those who have already done the upgrade will have to buy a new license when they update their hardware. You could try swapping parts one at a time. that way the change isn't to big, and won't invalidate your license
+2|0@pcmasterrace^1439996258#cu8aowg:iwannaputitinurbutt$:Anytime you change the mobo you're gonna lose your license. Windows is tied to the mobo so if you change it your copy won't work anymore. 
+0|0@pcmasterrace^1439975533#cu82r08:Knox283$:I can't really, CPU, RAM, and motherboard all need to be changed at the same time. the 6700k has a different socket type to my old CPU and I now have DDR4 RAM
+1|0@pcmasterrace^1439976773#cu831hp:NougatMan$:Well, there was a post which said you could go back to windows 7 or 8.1 and upgrade it again, it works for different hardware, atleast thats what that post said
+1|0@pcmasterrace^1439977091#cu8346f:Knox283$:That's what I'm trying now. Hope it works
+1|0@pcmasterrace^1439977769#cu83a1y:NougatMan$:If it won't.. you know.. /r/microsoftsoftwareswap
+1|0@pcmasterrace^1439978229#cu83dyy:Knox283$:that's the back up back up plan
+1|0@pcmasterrace^1439996778#cu8b0k4:SETTLEDOWNSIR$:buy from s5ean btw
+7|0@pcmasterrace^1439975595#cu82rij:MrArgo$:Only thing that changes the license is the Motherboard, and since it looks like OP had an OEM OS before, due to changing his Mobo, that license is no longer valid for installation elsewhere. 
+1|0@pcmasterrace^1439976792#cu831nf:op-ale$:i did some digging on this issue and i could find something on the microsoft website that could be usefull: The WPA system checks the following 10 categories of the computer hardware to derive the Hardware ID: Display Adapter SCSI Adapter IDE Adapter (effectively the motherboard) Network Adapter (NIC) and its MAC Address RAM Amount Range (i.e., 0-64mb, 64-128mb, etc.) Processor Type Processor Serial Number Hard Drive Device Hard Drive Volume Serial Number (VSN) CD-ROM / CD-RW / DVD-ROM What if I upgrade or make changes to my hardware? In the above mentioned 10 categories of hardware, at least 7 should be the same. Thus you are allowed to make changes to not more than 3 categories of hardware. If you make too many changes then your activation will fail. In this case, it is necessary to contact the customer service representative via phone and explain about your problem. If he is convinced he may re-issue a new product key for your computer using which you can re-activate your Windows. 
+1|0@pcmasterrace^1439976433#cu82yny:McNinjaguy$:It should work if you downgrade back to windows 8 or 7 and then upgrade to windows 10. I think I changed my mom's computer's RAM, CPU and motherboard without changing the OS or reinstalling it. I upgraded to windows 10 but it wouldn't activate. I had to downgrade then upgrade again. It worked fine after that. It went from Windows 7 ultimate to Win 10 pro.
+2|0@pcmasterrace^1439985667#cu85hio:Linux_PCMR$:install windows 7/8 and then upgrade it to 10 or just install Linux and be done with Windows
+5|0@pcmasterrace^1439993853#cu898k7:Knox283$:Went to linux once, swapped back to windows. Reason? nothing I play works on linux.
+1|0@pcmasterrace^1439998582#cu8c688:Linux_PCMR$:did you try installing a older windows and upgrading it to 10?
+0|0@pcmasterrace^1439996367#cu8arcg:iwannaputitinurbutt$:Oh look well if it isn't one of those Linux douchebags that just has to bring it up in any windows thread. Too bad linux sucks dick for gaming unless I wanna play the same 10 games all the time. Seriously this is a pc gaming sub, how anyone can seriously recommend Linux is beyond me. 
+1|0@pcmasterrace^1440013108#cu8mhv7:Linux_PCMR$:piss off troll go back too your youtube comments
+1|0@pcmasterrace^1439996624#cu8ax2z:IHaveDicks$:Fallout 4 isn't going to be on Linux. Can't use Linux now
+1|0@pcmasterrace^1440013049#cu8mgb5:Linux_PCMR$:far as you know it's not going to be on Linux but hey who knows SteamOS may change that
+1|0@pcmasterrace^1440013240#cu8ml9t:IHaveDicks$:Maybe.

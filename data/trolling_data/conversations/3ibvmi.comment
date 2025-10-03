@@ -1,0 +1,461 @@
+703|null@OutOfTheLoop^1440508398#3ibvmi:obvioustrash$:Where is all the content on Reddit?
+320|0@OutOfTheLoop^1440512746#cuf2rx4:MeteorProof$:I use the hide button so I never see the same posts again. 
+211|0@OutOfTheLoop^1440513597#cuf39kj:Motha_Effin_Kitty_Yo$:https://www.reddit.com/prefs/ If you go here and look under "Link Options" you can automatically hide posts after you upvote them/downvote them/or both.
+1|0@OutOfTheLoop^1440574597#cug1h5x:Nomiss$:Easier to scroll through reddit pressing H.
+7|0@OutOfTheLoop^1440521316#cuf88cz:f1nchf13ld$:Thanks so much for this tip.
+14|0@OutOfTheLoop^1440516449#cuf5089:ConfirmedSFW$:Except from some subs, I want to check back later. Does it only apply to your front page or is it also when on specific subreddits?
+3|0@OutOfTheLoop^1440529076#cufdgin:zCourge_iDX$:Use the save function?
+4|0@OutOfTheLoop^1440533320#cufga7b:drogean3$:turn on "hide anything downvoted" downvote everything you've read and dont want to see again
+1|0@OutOfTheLoop^1440542851#cufmam7:thatkidnamedrocky$:i guess if its on the front page one downvote wont really matter. 
+2|0@OutOfTheLoop^1440540541#cufkwle:drachenstern$:They put in a save function for PRECISELY this sort of behavior
+1|0@OutOfTheLoop^1440541012#cufl6q0:ConfirmedSFW$:There's a sub where I upvote a lot of the content and having to go to the saved tab is just inconvenient when I upvote everything.
+0|0@OutOfTheLoop^1440541134#cufl9em:drachenstern$:Here's your pacifier. I'm going back to my adult job, where the trivialities of clicking two links does not inconvenience me to the point of making me tell other people how hard those two links are.
+3|0@OutOfTheLoop^1440523809#cuf9xgr:[deleted]$:Everywhere. I set it to hide downvoted posts so if there's something I really don't want to see again I just downvote it and move on.
+14|0@OutOfTheLoop^1440516521#cuf51wf:Motha_Effin_Kitty_Yo$:I personally don't use it because I often have to check in on threads repeatedly, I thiiink it hides anything you vote on
+8|0@OutOfTheLoop^1440530537#cufefh9:frozenfire$:You can use [your upvoted page](https://www.reddit.com/user/Motha_Effin_Kitty_Yo/upvoted) for that. The link to your own is available on your user page (for you).
+1|0@OutOfTheLoop^1440583505#cug3mcc:whizzer0$:But what if I want to see new content *and* old content?
+1|0@OutOfTheLoop^1440547152#cufot48:FuckTwoXandAww$:it always applies, but you can change it anytime. if you wanna check back after a few hours to see the replies, best just leave a comment yourself so you have a link in your post history or use the save function. if you wanna check back days, weeks or months after the fact, just turn it off for a bit.
+6|0@OutOfTheLoop^1440520215#cuf7he5:jgur88$:If I could give you more than one upvote, I would give you about 8 or 9. Thanks.
+5|0@OutOfTheLoop^1440521228#cuf8677:dacalpha$:Yeah, but then his comment would disappear.
+1|0@OutOfTheLoop^1440629547#cugturv:Juicysteak117$:But where would it go?
+106|0@OutOfTheLoop^1440520911#cuf7yen:tresser$:Yeah, but 99% of stuff doesn't deserve an upvote or a downvote. it's mostly "meh". so...[hide] ninja edit: and i say 99%, but i only browse /all (with roughly 5000 subs filtered out)
+9|0@OutOfTheLoop^1440526281#cufbkth:specialkake$:Honestly, when I am volume redditing r/all, I have a bookmark that upvotes everything on the page to clear it all out. javascript:(function(){var q=[];$('.up').each(function(){var that=this;var f=function(index){$(that).trigger('click');$(that).trigger('mousedown');setTimeout(function(){if(q[index]){q[index](index+1);}else{if(downVoteTimer){window.clearTimeout(upVoteTimer);}}},500);};q.push(f);});var downVoteTimer=window.setTimeout(function(){q[0](1);},50);}()); Or, if you prefer downvotes: javascript:(function(){var q=[];$('.down').each(function(){var that=this;var f=function(index){$(that).trigger('click');$(that).trigger('mouseup');setTimeout(function(){if(q[index]){q[index](index+1);}else{if(upVoteTimer){window.clearTimeout(upVoteTimer);}}},500);};q.push(f);});var upVoteTimer=window.setTimeout(function(){q[0](1);},50);}());
+26|0@OutOfTheLoop^1440526513#cufbqig:tresser$:yeah, that's useful for all upvote all downvote method, for sure. but i just don't subscribe to that line of voting. I'll just keep doing it the old fashioned way and hiding everything i dont up/down vote
+13|0@OutOfTheLoop^1440527624#cufchkc:specialkake$:Yeah, honestly, it's probably not good for the site overall, but based on what I've seen the last 6 months of my 9 years here, reddit's getting worse on its own.
+8|0@OutOfTheLoop^1440527787#cufcljd:tresser$:well, that's why i filter out 5k+ subs with RES. let that which falls by the wayside continue to do so, and i don't have to see it or deal with it.
+1|0@OutOfTheLoop^1440561565#cufwugq:BackOfTheHearse$:If you are on chrome, there is an extension called Reddit Hider that will also allow you to hide links when you close expandos (text previews and image previews.) Works best in conjunction with Reddit Enhancement Suite.
+3|0@OutOfTheLoop^1440584951#cug3yma:walkingtheriver$:+1 for filtered subreddits. 5000 is probably an exaggerated number but I have at least 200 filtered.
+0|0@OutOfTheLoop^1440597258#cug8liv:tresser$:i think it's more like 6030ish. tried to get a new calculation but it crashes my excel when i dump the string, and pushing it to google docs strips the individual names (but keeps the spacing, oddly.) so..yeah. over 6k
+2|0@OutOfTheLoop^1440598110#cug934y:walkingtheriver$:How did you ever get to that many? Do you reach hundreds of pages into /r/all?
+3|0@OutOfTheLoop^1440598536#cug9c6b:tresser$:i don't care about ***a lot*** of stuff. Lets take for example sports. so now i dont see football or baseball. there's like 50 teams for each or something. and then they would have their respective circlejerk pages. so once filtered out of my all feed, there has to be something else that gets bumped up in its place. individual universities. states. towns. and then something else fills those voids. and so on and so on. and i occasionally browse /all/new and there are a fuckton of spam subs being made all the time. so those get filtered and reported. 
+59|0@OutOfTheLoop^1440515819#cuf4lyn:khantzaey$:You just changed my Reddit experience for the better!
+-11|0@OutOfTheLoop^1440516065#cuf4re7:[deleted]$:[deleted]
+2|0@OutOfTheLoop^1440533793#cufgljf:blaaaahhhhh$:Wish alien blue had this
+1|0@OutOfTheLoop^1440618708#cugmtd5:onowahoo$:I only use alien blue and I didn't notice much of a difference. When I get to the bottom I swipe left and auto hide anything I've viewed.
+1|0@OutOfTheLoop^1440624714#cugqvw7:blaaaahhhhh$:Yep that's working for me too now so thanks :) It's a shame you cant set it to auto do it. Having 'auto load new posts when scrolling' is so good, but not an option if you want to hide seen posts
+1|0@OutOfTheLoop^1440540539#cufkwjn:TheSouperNazi$:[I use Tapermonkey as an alternative. ](http://userscripts-mirror.org/scripts/show/35704) There's a userplugin that adds an option to 'hide-all' on the tabs that sort content by date/etc...
+1|0@OutOfTheLoop^1440560727#cufwfvq:Akasirus$:There's a setting in your reddit account to hide posts you've voted on. If you turn this on Reddit won't send them in the next API call (if you refresh or come back to the subreddit)
+1|0@OutOfTheLoop^1440547419#cufoymx:Itchy_Koala$:It does, slide the "more" button at the bottom to the right
+1|0@OutOfTheLoop^1440547690#cufp455:blaaaahhhhh$:I cant see the more button, where abouts?
+1|0@OutOfTheLoop^1440548210#cufpf4h:Itchy_Koala$:Here's a screenshot, see how when I slide the more button it gives me an option to hide posts? http://imgur.com/NLZsHxd
+1|0@OutOfTheLoop^1440548397#cufpj1i:blaaaahhhhh$:Ahhhh, i have it constantly load new posts so never see that Once you've done it the one time and selected 'hide read', will it remember that setting forever?
+1|0@OutOfTheLoop^1440538482#cufjmvd:[deleted]$:[deleted]
+1|0@OutOfTheLoop^1440514473#cuf3sga:[deleted]$:[deleted]
+111|0@OutOfTheLoop^1440514847#cuf40oc:Greyhaven7$:1. "Never show me posts I've upvoted" and "Never show me posts I've downvoted" 2. Upvote/downvote everything I look at. 3. Profit.
+3|0@OutOfTheLoop^1440514957#cuf433t:Overkillus$:Often they will pop up again for me. Dunno why...
+6|0@OutOfTheLoop^1440516135#cuf4sxv:Greyhaven7$:Reposts? They never show up again for me. 
+8|0@OutOfTheLoop^1440516247#cuf4vgy:Noble_Flatulence$:Are you talking the same ones you've already up/down voted, or cross/re posts? Everything I downvote is hidden, and everyday I find I have to downvote the same exact content because it gets spammed across any mildly-relevant subreddit. Looking at you /r/holdmybeer, /r/nononono, /r/whatcouldgowrong, /r/WTF, /r/unexpected.
+5|0@OutOfTheLoop^1440521757#cuf8jbs:Overkillus$:I up/down vote everything on my personal front page and often when I come back later the exact same posts are there again. (Ofc I have "Hide if up/down voted" option checked)
+2|0@OutOfTheLoop^1440561857#cufwzh0:skoljor$:Only problem with this method is that I barely upvote or downvote posts unless I comment. I upvote a post that I haven't commented on maybe once a month.
+1|0@OutOfTheLoop^1440562615#cufxc9i:Greyhaven7$:You just need to quit lollygaggin on the sidelines and participate! 
+11|0@OutOfTheLoop^1440524011#cufa2fg:[deleted]$:The problem when browsing /r/all is that often I *don't care* about some posts. I have a lot of subs filtered through RES but there is still a ton of shit hitting the top 1000 that I don't care about and I don't want to flood communities with downvotes because I don't care about them. Regarding the Hide command, it's messed up in RES because the post disappears after the focus moves down and I have it set to lock the focus on the top of the page so when I hide something it scrolls down, then the post hides and my focus jumps above the top of the page. Really really really annoying. A few days ago I started throwing downvotes left and right to hide posts... sorry guys, but I don't want to see your favorite hockey team on reddit...
+13|0@OutOfTheLoop^1440524535#cufaf0t:bootbox$:Be careful with this. I got shadowbanned a couple of weeks ago for downvoting too many things too quickly. If I wouldn't have checked up on a post I submitted while logged out on my phone I may never have noticed.
+7|0@OutOfTheLoop^1440524930#cufaoge:Greyhaven7$:I've been doing it for 4+ years. Never been shadowbanned. 
+20|0@OutOfTheLoop^1440526566#cufbrs3:notsurewhatiam$:I can't see your comment, whoever you are. You're shadowbanned.
+12|0@OutOfTheLoop^1440527076#cufc4a0:Greyhaven7$:Lol
+8|0@OutOfTheLoop^1440527133#cufc5nb:Foundmymarbles$:What is up with this comment? No name no text, nothing.. I'm so confused 
+7|0@OutOfTheLoop^1440527679#cufciw1:Greyhaven7$:Spooooooooky
+3|0@OutOfTheLoop^1440529369#cufdnlp:bootbox$:I had been doing it for 4+ years too. I must have ran across the wrong automod or something.
+56|0@OutOfTheLoop^1440515739#cuf4k6c:TheChileanBlob$:But it's such hard work, upvoting and downvoting. :(
+1|0@OutOfTheLoop^1440526353#cufbmiy:specialkake$:Honestly, when I am volume redditing r/all, I have a bookmark that upvotes everything on the page to clear it all out. javascript:(function(){var q=[];$('.up').each(function(){var that=this;var f=function(index){$(that).trigger('click');$(that).trigger('mousedown');setTimeout(function(){if(q[index]){q[index](index+1);}else{if(downVoteTimer){window.clearTimeout(upVoteTimer);}}},500);};q.push(f);});var downVoteTimer=window.setTimeout(function(){q[0](1);},50);}()); Or, if you prefer downvotes: javascript:(function(){var q=[];$('.down').each(function(){var that=this;var f=function(index){$(that).trigger('click');$(that).trigger('mouseup');setTimeout(function(){if(q[index]){q[index](index+1);}else{if(upVoteTimer){window.clearTimeout(upVoteTimer);}}},500);};q.push(f);});var upVoteTimer=window.setTimeout(function(){q[0](1);},50);}());
+60|0@OutOfTheLoop^1440518312#cuf68bn:I_am_not_normal$:We should have a neutral vote. Like a blinker light when you want to go straight with your car.
+14|0@OutOfTheLoop^1440534285#cufgxa3:flamingskulltattoo$:That's "Hide"
+3|0@OutOfTheLoop^1440542934#cufmcdh:csatvtftw$:It would be a "looked at, had no opinion either good or bad" button. I could use one of those.
+25|0@OutOfTheLoop^1440521004#cuf80q1:Zosymandias$:All I know is my gut says maybe.
+1|0@OutOfTheLoop^1440552198#cufrqoo:Fudrucker$:Meh-be.
+7|0@OutOfTheLoop^1440520094#cuf7ee2:SalAtWork$:hover mouse over comment. press A or Z 
+27|0@OutOfTheLoop^1440516104#cuf4s8n:Greyhaven7$:It's a foolproof system though. Only way I see the same post twice is if someone reposts... which results in a downvote from me, and the circle of life continues. 
+18|0@OutOfTheLoop^1440519406#cuf6xdf:Thybro$:Yeah but aren't the downvote/ upvote buttons supposed to have a specific use like if I think this is good content that should be seen it gets an upvote if I think this is stupid/circleyjerky/boring/doesn't fit the subreddit it is in it gets a downvote. Sometimes I look at something and just go "meh". Meh doesn't deserve either. Meh is just gray neutral stuff. And everyone hates neutral stuff. why isn't there an option to turn off stuff I've seen automatically? There's one that allows me to hide them in Alien Blue but it's not automatic and sometimes it doesn't work and 2 or three pages later it tries to sneak the things back in.
+3|0@OutOfTheLoop^1440528952#cufddix:[deleted]$:[deleted]
+11|0@OutOfTheLoop^1440522274#cuf8vx4:Greyhaven7$:I downvote meh content. Quit being a fence-sitter ;) Jk. 
+8|0@OutOfTheLoop^1440528601#cufd53g:enjoyit7$:No more mr meh guy
+2|0@OutOfTheLoop^1440555719#cuftqrp:schammy$:Hard work = profit, sounds good to me.
+2410|0@OutOfTheLoop^1440509981#cuf1a6a:jippiejee$:Soft-capping limits have been raised, so popular posts keep the top positions longer now. See: [changelog](https://www.reddit.com/r/changelog/comments/3g6ghn/reddit_change_the_scores_of_extremelypopular/).
+3182|0@OutOfTheLoop^1440513214#cuf31l3:Nihilistic-Fishstick$:I don't like it that way at all. My alien blue front page now looks the same at 5pm as it did at 9am, save maybe a few things in between. It used to refresh every couple of hours with new stuff.
+30|0@OutOfTheLoop^1440513425#cuf35xq:jippiejee$:/r/all is not a frontpage though, it's rather like the weather report of what gets most upvotes right now. Create a proper frontpage with the subreddits you want to follow by subscribing, or create some multis per topic to see more variation.
+43|0@OutOfTheLoop^1440514673#cuf3wv8:Nihilistic-Fishstick$:Oh yeah I already have that. I don't go on r/all, only my own front page with my own subs and a few of the defaults. New content is taking a lot longer to show up now. I messed around with the setting and hide feature etc, but it doesn't take long for the day before posts to show up.
+14|0@OutOfTheLoop^1440514825#cuf406j:flickering_truth$:Agreed i have the same problem. 
+1|0@OutOfTheLoop^1440559409#cufvrwt:pandaSmore$:But what if you want your front page to be /r/all
+41|0@OutOfTheLoop^1440515563#cuf4g6i:Notcow$:/r/all was like my second front page though, with new stuff for when I ran out of stuff on the real front page. Even if it's not designed to serve that purpose, maybe it should because it provided me with more interesting content. Maybe they'll change it back... But I dunno. 
+12|0@OutOfTheLoop^1440515800#cuf4lij:jippiejee$:They won't, admins want to completely remove all normalisation it seems by reading the changelog post. Redditors have been complaining a lot in the past about the shown scores not reflecting the actual vote popularity of posts. 
+948|0@OutOfTheLoop^1440513523#cuf37zo:cincyfan04$:I turned on the setting to automatically hide posts that I've voted on. 
+9|0@OutOfTheLoop^1440514171#cuf3lqz:deltree711$:That's a really interesting idea. I never vote on anything, but this sounds like it might change my reddit experience greatly.
+9|0@OutOfTheLoop^1440514250#cuf3nhj:WaywardWes$:If you're on an app, you can usually hide read posts automatically as well.
+18|0@OutOfTheLoop^1440514606#cuf3vdp:RoboNinjaPirate$:Yep, Every post gets an upvote or downvote from me, just to hide it.
+15|0@OutOfTheLoop^1440520393#cuf7lsg:j035u5$:There's a hide button as well.
+9|0@OutOfTheLoop^1440532148#cuffi90:RoboNinjaPirate$:There is, but my method is easier for me. I figure either I want to see more posts like that, or I don't. Upvote or downvote accordingly.
+22|0@OutOfTheLoop^1440516283#cuf4wa2:Fiendish_Ferret$:I downvote the majority of posts because i'm a cunt.
+8|0@OutOfTheLoop^1440524095#cufa4h4:Ismellgorillas$:At least you're honest.
+15|0@OutOfTheLoop^1440525077#cufas1c:[deleted]$:To be fair, the majority of posts is shit. So I'd actually thank you for making reddit better. 
+2|0@OutOfTheLoop^1440566740#cufz29z:SuaveSilverSurfer$:Thanks cunt
+11|0@OutOfTheLoop^1440533273#cufg93t:HowObvious$:Sounds more like you need to subscribe to better subreddits
+1|0@OutOfTheLoop^1440545621#cufnxbi:Cabeza2000$:Or unsuscribe from the worst ones. 
+1|0@OutOfTheLoop^1440562023#cufx2d7:WhamBamMaam$:AKA non-defaults and medium-size, medium-activity subs.
+22|0@OutOfTheLoop^1440515313#cuf4ar4:cincyfan04$:It is nice, I get super passive aggressive sometimes so that little downvote button takes the edge off when a post annoys me, lol. Keeps me from commenting something stupid and getting into an argument that has no end. 
+10|0@OutOfTheLoop^1440517993#cuf60sb:deltree711$:There is a downside though. A lot of posts only deserve maybe a downvote or two, and everyone downvotes it to oblivion even when it's just something that's against the circlejerk.
+825|0@OutOfTheLoop^1440514356#cuf3pue:DiscoYou$:+1 on hiding stuff. But, I don't use this setting because I do like to re-visit comments some times: e.g. see an interesting question with no answers, upvote it and come back later to read responses.
+-55|0@OutOfTheLoop^1440515134#cuf46wz:fts902$:Commenting on a post you want to return to "saves it" so to speak. Edit: Spam? I like being part of the conversation. If a post interests me it warrants some participation in the comments. The bonus is I can find it easily later.
+24|0@OutOfTheLoop^1440519470#cuf6yxd:Mimsy-Porpington$:You're that person that comments "Following" on FB posts too, instead of turning on notifications, aren't ya?
+26|0@OutOfTheLoop^1440520156#cuf7fx8:Forty-Three$:The same people who put a "." on every porn post
+3|0@OutOfTheLoop^1440529271#cufdl5w:TheCuntDestroyer$:.
+3|0@OutOfTheLoop^1440529457#cufdppg:you_get_CMV_delta$:That's definitely a good point. Honestly I hadn't ever thought about it that way before.
+1|0@OutOfTheLoop^1440530015#cufe310:TheCuntDestroyer$:Lol what a shitty bot.
+1|0@OutOfTheLoop^1440530347#cufeaw7:[deleted]$:[deleted]
+5|0@OutOfTheLoop^1440520802#cuf7voe:Driver3$:Unless you have something witty or insightful top say, then just save it.
+93|0@OutOfTheLoop^1440515237#cuf496k:DiscoYou$:That's a bit more spammy than just clicking save...
+32|0@OutOfTheLoop^1440516285#cuf4wbp:nukefudge$:Yeah, bad lazy methods shouldn't be propagated.
+2|0@OutOfTheLoop^1440528912#cufdckp:-Travis$:Could you explain how someone would save a comment when using the official reddit iOS mobile app Alina Blue? I have yet to find a way to do it. 
+1|0@OutOfTheLoop^1440532547#cuffrse:nukefudge$:Sorry, I'm not familiar with the mobile stuff. [Maybe this search will give you more information](https://www.reddit.com/r/AlienBlue/search?q=save&amp;sort=new&amp;restrict_sr=on&amp;t=all).
+8|0@OutOfTheLoop^1440516220#cuf4uug:I_read_this_comment$:Its better to click on save or subscribe. With subscribe you get notifications when somebody posted on the thread and with save you can see the post agian on reddit/u/&lt;your username&gt; in the save section. I really like the subscribe button in askscience and askhistorians since those subs delete spammy and unnessecary comments.
+4|0@OutOfTheLoop^1440526901#cufbzxy:pancakesimone$:There's a subscribe button? Is that RES only? I'm on my work computer so I don't know if it is, sorry for the noob question!
+3|0@OutOfTheLoop^1440527605#cufch3o:I_read_this_comment$:yeah its a blue button between the comment box and the the post a bit right of the total amount of reactions. dunno if its only on RES blue though.
+1|0@OutOfTheLoop^1440529953#cufe1iw:pancakesimone$:Hmm unless I'm really blind, I don't think vanilla Reddit has it. Probably a RES feature, that's cool though!
+1|0@OutOfTheLoop^1440554988#cuftboi:BDaught$:.
+39|0@OutOfTheLoop^1440526710#cufbv7x:Maybeyesmaybeno$:I just save any posts I'm interested in and check in at the end of the day to see any follow ups I was interested in.
+69|0@OutOfTheLoop^1440529745#cufdwlz:famouslastwords$:I use upvoting to "save" a comment I want to revisit later, I use the save function to collect posts of value or comments of value (recipes, funny pictures, etc) and I click "hide" on every single post as I browse the front page. Constantly getting new content this way.
+102|0@OutOfTheLoop^1440530113#cufe5av:BobbyBeltran$:TIL I'm too lazy to Reddit efficiently. I've reached a new level of shame.
+13|0@OutOfTheLoop^1440540316#cufkrox:dannytdotorg$:Seriously.. Upvote everything so it gets hidden? YOU KNOW HOW MANY TIMES I GET TO PAGE.. LIKE... 58. That's a lot of clicks, yo!
+1|0@OutOfTheLoop^1440554617#cuft48t:BDaught$:I just click hide if I see it too many times and I have no opinion on it. If it's bad enough, *filter subreddit*. Haven't had sitewide CSS on in four years when people started getting carried away with that shit.
+14|0@OutOfTheLoop^1440530168#cufe6l3:DiscoYou$:This is pretty much what I do. When I started hiding stuff, it was a revelation. 
+5|0@OutOfTheLoop^1440546471#cufoexc:byroboy$:I want hide after pageload + 1 hour
+1|0@OutOfTheLoop^1440613792#cugjg1o:xiongchiamiov$:r/ideasfortheadmins!
+1|0@OutOfTheLoop^1440580723#cug2z5k:rainman18$:But when you refresh don't the hidden ones just repopulate?
+1|0@OutOfTheLoop^1440582715#cug3fsu:[deleted]$:[deleted]
+29|0@OutOfTheLoop^1440531034#cuferkd:Oatmeal_Addict$:That's exactly what I do! My 'saved posts' is definitely overflowing though..
+7|0@OutOfTheLoop^1440540546#cufkwpj:greebytime$:I had to buy gold solely so I could categorize my saved posts. Spent way too long looking for "that perfect gif" for a comment...totally worth the money 
+2|0@OutOfTheLoop^1440571618#cug0nxg:Nayr747$:Be careful, saved posts are deleted after a certain number. I think it's 600 or maybe 1,000.
+1|0@OutOfTheLoop^1440613775#cugjfm7:xiongchiamiov$:All listings on the site are capped at 1000 items.
+12|0@OutOfTheLoop^1440548078#cufpcc4:lambeo$:Yeah me too. I barely use my saved posts.
+13|0@OutOfTheLoop^1440531477#cuff285:k1e7$:I do it this way too, hiding every post i've read or am not interested in.. i didn't even know there's a different way to browse
+38|0@OutOfTheLoop^1440536325#cufia45:RenaKunisaki$:I just save stuff I want to read/share/download when I get home, then never get around to actually looking at it again. 
+2|0@OutOfTheLoop^1440621389#cugooeq:BeardedForHerPleasur$:But then one day you do, and it's great because it's like the entire front page is made up of things that solely interest you!
+3|0@OutOfTheLoop^1440629846#cugu15l:RenaKunisaki$:Nah, just a bunch of porn. 
+10|0@OutOfTheLoop^1440537157#cufitaq:DodneyRangerfield$:I hide posts as well and use up/down only for stuff i feel strongly about. I don't know if it's a RES thing but you can mass hide your front page (if you don't have endless scrolling enabled), just select the first post and hold down "h" (kb shortcut to hide post) and it will go through all the posts in the page and hide them, release when you reach the end and refresh -&gt; voila, new front page.
+1|0@OutOfTheLoop^1440548306#cufph5n:johnsciarrino$:this. anything i upvote can be accessed as its own page, it's great for going back and catching up on longer articles. 
+1|0@OutOfTheLoop^1440564746#cufy9jz:jumb1$:Re-open in incognito mode!
+6|0@OutOfTheLoop^1440539369#cufk6q1:drachenstern$:Use the save feature?
+1|0@OutOfTheLoop^1440541742#cuflmjr:StudentOfMrKleks$:I use save function to do it. 
+9|0@OutOfTheLoop^1440538029#cufjcqf:oakgrove$:You can always go to /u/DiscoYou/upvoted (only you can see it unless you've enabled sharing your upvotes). There's also a downvoted page. But yeah, it's not as useful as stumbling upon the same thing and maybe re-visiting the comments. (I don't personally use this strategy, just pointing it out as an option.)
+52|0@OutOfTheLoop^1440517597#cuf5rb4:chironomidae$:Just save it
+154|0@OutOfTheLoop^1440517329#cuf5kwr:yurigoul$:you can also set it to hide stuff that you have downvoted - or is that a RES thing? BTW: does it help when you set it to rising?
+106|0@OutOfTheLoop^1440531234#cufewcv:ElectronicDrug$:That's actually just a reddit thing. 
+1|0@OutOfTheLoop^1440562443#cufx9ej:[deleted]$:[deleted]
+2|0@OutOfTheLoop^1440624607#cugqtgb:Siktrikshot$:So down vote all the things? 
+1|0@OutOfTheLoop^1440657578#cuh7opc:yurigoul$:You have my permission and my blessing, even though I am more of a team orange red kinda guy
+71|0@OutOfTheLoop^1440533040#cufg3ko:Cerxi$:That seems like a dangerous precedent for Reddit to set. Making you basically *have* to downvote top posts to get fresh content?
+1|0@OutOfTheLoop^1440613731#cugjejx:xiongchiamiov$:No, there are separate preferences for "hide things I've upvoted" and "hide things I've downvoted". There's also a separate `hide` button on every post, which I highly recommend using liberally.
+23|0@OutOfTheLoop^1440568813#cufzsc5:hardonchairs$:There should be a... "Read it" button on reddit.
+0|0@OutOfTheLoop^1440607713#cugfcoh:JonAce$:In Preferences, the last two checkboxes might help; the "don't show me submissions after..." ones.
+1|0@OutOfTheLoop^1440575406#cug1ozk:[deleted]$:[deleted]
+36|0@OutOfTheLoop^1440533303#cufg9sc:alcoholicdream$:&gt; so popular posts keep the top positions longer n You can have it so its all things you vote on, only things you downvote, and not at all 
+38|0@OutOfTheLoop^1440560001#cufw2y6:Aerodamus$:&gt; BTW: does it help when you set it to rising? Rising threads are still pretty new and fresh. If I've just had a long day and I'm mentally worn out, I can't jump to the comment sections of rising threads to have to have the reddit hivemind tell me what to think about it. No, this is not a joke comment. I know how it sounds to put this in writing, but I genuinely enjoy reading the comments that a lot of redditors seem to agree with. I have all the comment power users (any user with more than 250,000 comment karma) blocked through RES, so most of the time I'm reading genuine comments that weren't just manipulatively posted for karma.
+1|0@OutOfTheLoop^1440575346#cug1og0:BillyTheBaller1996$:So, you just described being a sheeple and proud of it? Do I have that right? 
+2|0@OutOfTheLoop^1440604940#cugdhkt:Aerodamus$:I don't get my moral and political beliefs from reddit, and I am innately pretty judgemental, so I think I will come out fine in the end.
+2|0@OutOfTheLoop^1440624890#cugqzvz:JetSetHippie$:What a genius idea. If you posted that list of karma whores I'd be ever so grateful.. I've been steadily tagging asshats with RES but wasn't aware I could outright block them. 
+1|0@OutOfTheLoop^1440625881#cugrmjg:Kijafa$:Yeah! Fuck those karmawhores!
+4|0@OutOfTheLoop^1440626473#cugs01r:Aerodamus$:http://www.karmalb.com/ I just went down the list and started blocking.
+2|0@OutOfTheLoop^1440626362#cugrxji:BurtDoyle$:Teach me. I want this. I don't understand how to reddit properly.
+7|0@OutOfTheLoop^1440576990#cug23il:yurigoul$:I fully agree. Sometimes reddit is live standup commedy with thousands of people at once and sometimes it is intense opinion building and that helps me understand things better. As someone who mostly visits smaller subs I do not have to get the most popular people oit of the way though 
+-10|0@OutOfTheLoop^1440560161#cufw5vk:flounder19$:Cool. Am I blocked?
+10|0@OutOfTheLoop^1440561625#cufwvht:Aerodamus$:You are now! Thanks for coming out of the woodwork.
+4|0@OutOfTheLoop^1440581918#cug3982:JohnEffingZoidberg$:What's RES?
+8|0@OutOfTheLoop^1440582415#cug3ddi:yurigoul$:Reddit enhancement suit - works only on desktop alas, but it ads all kinds of nice enhancements like viewing images inline. It is the official unofficial browser plugin for a better front end reddit experience. The guy who does it was offered a job at reddit but did not want to move. 
+2|0@OutOfTheLoop^1440583675#cug3npa:JohnEffingZoidberg$:Sounds awesome. Thanks!
+2|0@OutOfTheLoop^1440588124#cug4tk0:Stoppels$:http://redditenhancementsuite.com
+1|0@OutOfTheLoop^1440550602#cufqt8y:tcpip4lyfe$:For 7 years I have been hiding every article on my front page regardless if I vote on it or not. Once the page is clean, refresh and you start again. 
+1|0@OutOfTheLoop^1440580884#cug30i3:rainman18$:What am I doing wrong?, when I refresh all the posts I've hidden repopulate.
+1|0@OutOfTheLoop^1440583853#cug3p5c:tcpip4lyfe$:Beats me. Browser? OS? RES?
+1|0@OutOfTheLoop^1440554548#cuft2rv:Chris153$:While others suggest saving it, I opt to withhold my vote on that post until later in the day when I see the content I was hoping would be added to it.
+7|0@OutOfTheLoop^1440527080#cufc4d4:SetFireToTheRane$:How? Oh wait nvm scrolled down &gt;&lt;
+5|0@OutOfTheLoop^1440529642#cufdu4n:aDAMNPATRIOT$:how do u do this
+7|0@OutOfTheLoop^1440530943#cufepdd:Drudicta$:I still come across duplicates anyway.... Tons of them. And it doesn't carry across to my phone or home computer. So I go home and just.... not Reddit.
+5|0@OutOfTheLoop^1440531258#cufewze:cincyfan04$:I only get duplicates when things are cross posted. My reddit updates across my phone and many computers. Not sure what's going wrong with yours. 
+6|0@OutOfTheLoop^1440533704#cufgjdq:Drudicta$:Just TONS off highly yours cross posts.
+4|0@OutOfTheLoop^1440531407#cuff0ku:colacastell$:Is this possible in AlienBlue?
+5|0@OutOfTheLoop^1440534523#cufh2vm:cincyfan04$:The setting has to be changed on a computer but it carries over to AlienBlue.
+1|0@OutOfTheLoop^1440539624#cufkce6:vehementi$:Yeah I don't like having to rapidly vote up everything on the page so I don't see it again later. I guess I should write a thing to auto vote everything I've seen, or something.
+1|0@OutOfTheLoop^1440540124#cufknk6:jimbeam958$:I did that before and it took me the longest time to figure out why I couldn't find old posts
+7|0@OutOfTheLoop^1440537213#cufiujv:g0_west$:On my app though it doesn't fill that gap with a new post, so if you vote on everything except for one, you just see that one post and nothing else. If you then vote on that post, all you see is "there's nothing here" 
+6|0@OutOfTheLoop^1440539233#cufk3k6:cincyfan04$:Hmmm...mine just pulls in new posts. That's why I'm always confused about the "front page," my front page is always different every moment I'm on here. 
+2|0@OutOfTheLoop^1440546610#cufohsi:neokigali$:Where is that setting? I use RES I cannot seem to find it. 
+2|0@OutOfTheLoop^1440548497#cufpl4d:cincyfan04$:On mine, on the top right hand corner of the page to the right of my name is a Preferences link. Click that. That takes me to a single page and there's a section titled "Link Preferences" and a bunch of check boxes. Towards the bottom of that section are two check boxes for "hide links I've up voted" and "hide links that I've down voted" or something to that language. 
+22|0@OutOfTheLoop^1440524157#cufa5xe:lordoftherings911$:And I've got a javascript bookmarked that automatically upvotes every post. Along with the setting to hide the upvoted stuff, I can go through like 10 pages of /r/all without scrolling too much down (instead refreshing) and without clicking upvote/downvote on every thread. And combined with RES, I can expand all images in the page at once. I literally wouldn't be able to use reddit without all this. Here is the js btw: javascript:(function(){var q=[];$('.up').each(function(){var that=this;var f=function(index){$(that).trigger('click');$(that).trigger('mousedown');setTimeout(function(){if(q[index]){q[index](index+1);}else{if(downVoteTimer){window.clearTimeout(upVoteTimer);}}},500);};q.push(f);});var downVoteTimer=window.setTimeout(function(){q[0](1);},50);}()); If you want to use it, you can create a bookmark and put this in the URL field. When you click it, it'll automatically and gradually upvote every post/comment on the page. 
+14|0@OutOfTheLoop^1440527219#cufc7qt:condimentorice$:Rather than upvoting things in bulk, wouldn't it be better to `hide` them?
+47|0@OutOfTheLoop^1440525864#cufbapd:AbandonedGoat$: var that=this Excellent variable naming
+22|0@OutOfTheLoop^1440529882#cufdztz:pilor$:Thats standard Javascript to preserve the reference to the current object inside of callbacks and other functions.
+12|0@OutOfTheLoop^1440535718#cufhvk1:LaM3a$:Excellent language
+5|0@OutOfTheLoop^1440536139#cufi5se:andytuba$:Or you could do it the right way and `yourFunc.bind(this)`.
+4|1@OutOfTheLoop^1440536162#cufi6ad:andytuba$:It's a standard anti-pattern and you should use `Function.prototype.bind` instead unless you're getting a few levels of nesting deep -- in which case your code is smelly and you should refactor.
+1|0@OutOfTheLoop^1440551704#cufrgbl:WorseThanHipster$:do you mean like: function Foo(){ ... var bar = (function(){ /* callbackstuff */ }).bind(this); ... } ?
+0|0@OutOfTheLoop^1440555849#cufttgf:andytuba$:Yup, that's how to phrase it for an anonymous function. There are other options too, like defining a `function baz() { /* callback stuff */ }` nearby, then `var bar = baz.bind(this);` That way, you can reuse `baz` for other similar callbacks, give baz access to other semi-private variables, reduce how many variables `baz` has to deal with (for your sanity), or preset some parameters.
+7|0@OutOfTheLoop^1440532285#cufflj5:fireforfear$:&gt; javascript:(function(){var q=[];$('.up').each(function(){var that=this;var f=function(index){$(that).trigger('click');$(that).trigger('mousedown');setTimeout(function(){if(q[index]){q[index](index+1);}else{if(downVoteTimer){window.clearTimeout(upVoteTimer);}}},500);};q.push(f);});var downVoteTimer=window.setTimeout(function(){q[0](1);},50);}()); Upvotes incoming!
+1|0@OutOfTheLoop^1440555721#cuftqte:BDaught$:if you're in a bad mood just make a bookmark with this: javascript:(function%20w(){var%20u=$(%22.down%22);if(u.length-1){setTimeout(w,1000);u[1].onclick()}})() 
+5|0@OutOfTheLoop^1440517094#cuf5fbr:TheTretheway$:That involves voting on things though. I'm too much of a lazy bastard to bother.
+21|0@OutOfTheLoop^1440518792#cuf6is4:PrivateCaboose$:Is that on AlienBlue or is that an RES thing?
+12|0@OutOfTheLoop^1440529933#cufe125:Antrikshy$:reddit thing. I've set mine to hide my downvoted posts.
+18|0@OutOfTheLoop^1440520114#cuf7ewl:cincyfan04$:I just go to Preferences on the top right, and it's under Link Options. I have RES but this is done through the normal preferences. It feeds over to AlienBlue as well. 
+12|0@OutOfTheLoop^1440519705#cuf74p3:47L45$:do you know if that's possible on RES?
+10|0@OutOfTheLoop^1440520115#cuf7exj:cincyfan04$:I just go to Preferences on the top right, and it's under Link Options. I have RES but this is done through the normal preferences. 
+1|0@OutOfTheLoop^1440520120#cuf7f2x:[deleted]$:[deleted]
+1|0@OutOfTheLoop^1440623135#cugpvdo:xxfay6$:Relay also has had a hide button since I remember, this last 2 weeks have been the first times I've actually used it.
+1|0@OutOfTheLoop^1440549515#cufq6eu:Camellia_sinensis$:How does one do this?
+2|0@OutOfTheLoop^1440551690#cufrg1p:cincyfan04$:I've replied to a few others with the directions, check those out. 
+11|0@OutOfTheLoop^1440514719#cuf3xvl:snackgenius$:Protip: browse "rising".
+21|0@OutOfTheLoop^1440527148#cufc609:hodyoaten$:I hate this system, too... the front page looks so stagnant. On my desktop computer I have a Greasemonkey script that hides posts with over 1000 upvotes or 500 comments, which helps a lot (no point in participating in those, anyway, as comments just get lost in them).
+32|0@OutOfTheLoop^1440526102#cufbgiz:_username_goes_here_$:&gt;I don't like it that way at all. Pretty sure the admins have made it clear they don't give a fuck what the users like or not. For what it's worth (which is nothing) I think it's a setting that should be able to be set by the user to change their experience - higher for more persistent content for more casual users, lower for more regular users who want content refreshed more often.
+-9|0@OutOfTheLoop^1440540044#cufklt9:drachenstern$:There is, it's called "hide posts I've up voted" and "hide posts I've down voted". Those of us who are invested redditors understand that voting leads to the content that you want to see being on the front page, so those of us who are regular users that want content refreshed more often are voters. I probably see anywhere from 5-15 pages of content on a given day, depending on my level of boredom, assuming I have time to reddit. You, sir or madame, are a casual.
+3|0@OutOfTheLoop^1440568189#cufzkoa:yoda133113$:The only thing I see is an asshole that thinks we should all browse reddit in the same way. Just get along with people, it's more enjoyable than trying to be reddit elite.
+9|0@OutOfTheLoop^1440531698#cuff7hi:__LordNibbler__$:I guess they don't want our traffic. 
+-1|0@OutOfTheLoop^1440566133#cufytwz:[deleted]$:[deleted]
+1|0@OutOfTheLoop^1440625313#cugr9o5:LongHorsa$:I noticed when I was scrolling to page 20 to get fresh content.
+6|0@OutOfTheLoop^1440539440#cufk8bd:kbuis$:So should we just downvote things on the front page? It'll hide things from your front page and it enough people do it it will change the front page for others. It would also double as a form of protest against the move. 
+1|0@OutOfTheLoop^1440545672#cufnyco:unknownpoltroon$:Ill bet the advertisers like it.
+1|0@OutOfTheLoop^1440545698#cufnywd:pbjandahighfive$:I dunno? Seek out and subscribe to more subreddits? My front page has completely new shit up on it every fifteen minutes.
+1|0@OutOfTheLoop^1440559477#cufvt8f:Commando0861$:The hide button is my best friend.
+8|0@OutOfTheLoop^1440522916#cuf9bnj:Reddisaurusrekts$:Just hastening the demise of reddit. Any *good* alternatives? Else I'll just go back to my RSS feeds on Feedly... (I miss Google Reader...)
+0|1@OutOfTheLoop^1440520337#cuf7kff:BuddhistSagan$:Well I like it more I don't check reddit every 5 minutes
+9|0@OutOfTheLoop^1440515352#cuf4bmk:song_pond$:Pro tip: you can change your settings so as soon as you vote on a post, it gets hidden the next time you open reddit/hit refresh.
+16|0@OutOfTheLoop^1440515669#cuf4inv:ThisVersionOfMyself$:browse new and rising more
+10|0@OutOfTheLoop^1440526975#cufc1qy:vecnyj$:/new is horrible though
+14|0@OutOfTheLoop^1440522878#cuf9apj:error_33$:Browsing new on /r/all is a real gamble. Prepare to see really weird stuff
+30|0@OutOfTheLoop^1440519129#cuf6qrx:codeverity$:I wish there was something in the middle. I mean, the upvote/downvote thing is great because it separates the wheat from the chaff, so to speak... Especially some subs, /r/new is just a cluttered mess of a lot of stuff. I guess /r/rising comes close but it's pretty fickle from what I've seen and doesn't necessarily indicate good posts. 
+12|0@OutOfTheLoop^1440554466#cuft146:DJSlambert$:I sort /r/all by top&gt;hour https://www.reddit.com/r/all/top?sort=top&amp;t=hour
+1|0@OutOfTheLoop^1440554796#cuft7uf:codeverity$:Thanks for the suggestion :) 
+37|0@OutOfTheLoop^1440516373#cuf4yel:ipissedinyourpool$:Yeah, I used to check reddit before work, on my lunch break and after work, and have a fair amount of new posts to look at each time. Now I'll see something that I saw in the morning still on the front page the next day.
+5|0@OutOfTheLoop^1440547434#cufoyym:thatkeln$:This has been driving me crazy. The past week or so especially. Glad to find out why.
+2|0@OutOfTheLoop^1440549201#cufpzmz:schammy$:Yeah, it fucking blows. My home page is the same for the whole damn day whereas yeah every time I would visit in the past it would be a plethora of new and delicious links.
+1|0@OutOfTheLoop^1440557002#cufugg7:ktappe$:I disagree. One of the problems with Reddit ~~is~~ was that you had to check every few hours or interesting top posts would appear and then disappear again, often while you slept. This way I can make sure to catch all the top posts. I doubt I'm alone in feeling this if Reddit went to the trouble of changing the setting.
+3|0@OutOfTheLoop^1440544371#cufn71g:goldmockingjay$:Go to rising or new
+1|0@OutOfTheLoop^1440552054#cufrnnk:rush22$:Sounds like you'll have to subscribe and buy reddit gold and turn off adblock
+30|0@OutOfTheLoop^1440513604#cuf39pk:HonorYourBeetus$:In usually hiding anything that sits on the top over 18 hours...it's the only way I avoid throwing my phone
+4|0@OutOfTheLoop^1440540563#cufkx33:SixAlarmFire$:Every time I hide a post, it's there again whenever I go back to the front page. 
+26|0@OutOfTheLoop^1440516128#cuf4ssp:borland66$:Ever since I started redditing, I enabled the option to hide posts once I up/down-vote on them. It really pushes me to make up my mind about stuff, too.
+5|0@OutOfTheLoop^1440537442#cufizn7:whale$:I wish there was an alternative about this. I never vote on anything but would like to hide posts without just hitting the hide button after I've seen them. I hate voting.
+1|0@OutOfTheLoop^1440613914#cugjiq8:xiongchiamiov$:Voting is an intrinsic part of reddit. Why do you dislike it?
+1|0@OutOfTheLoop^1440570012#cug06kr:borland66$:so start campaigning for an option to hide posts you've clicked on once? Idk.
+12|0@OutOfTheLoop^1440517740#cuf5us0:HonorYourBeetus$:True ..I've considered doing that too...but sometimes I like to go back to certain posts...rarely, but I guess that would be the point of just not upvoting yet :p
+7|0@OutOfTheLoop^1440526646#cufbtn9:dgapa$:Anything that is just images, videos, gifs etc or the really popular ask reddit type shit, I vote on. The smaller subs where it might take a few hours or days for discussion to start up, I just leave blank. They are usually the ones that never make the front page for me anyways. 
+16|0@OutOfTheLoop^1440537381#cufiybl:tech98$:So you don't use your vote where it counts the most, in small subreddits?
+4|0@OutOfTheLoop^1440543088#cufmfoq:RachelRTR$:You are not incorrect on this one. 
+6|0@OutOfTheLoop^1440519222#cuf6syv:borland66$:Or you could save the posts / comments. I do that quite often, in fact.
+1|0@OutOfTheLoop^1440601688#cugbajs:robotsongs$:Until you can search your saved items, this feature becomes useless quickly. 
+-3|0@OutOfTheLoop^1440514569#cuf3ujz:[deleted]$:[deleted]
+16|0@OutOfTheLoop^1440526927#cufc0m4:jayme0227$:My conspiracy theory claim is that they did this to hide the fact that there are fewer visitors since Dramadan. But I don't even know if visitors have actually declined since then.
+16|0@OutOfTheLoop^1440532829#cuffymk:kepleronlyknows$:If you're gonna go with a conspiracy theory, mine would be that this somehow helps hide "undesirable" content. But I don't know exactly how that would work. 
+2|0@OutOfTheLoop^1440615197#cugke26:currentAlias$:It takes longer for new things to reach the front page so there's more time to censor the things they want hidden without a backlash.
+6|0@OutOfTheLoop^1440584759#cug3wz9:SeudonymousKhan$:Or that some heavy hitting marketing executives convinced Reddit brass to make the changes so their advertising posts stay on top longer. 
+20|0@OutOfTheLoop^1440528761#cufd8u4:historymaking101$:WHY?
+2|0@OutOfTheLoop^1440571760#cug0peg:Nayr747$:Probably to make it seem like the site is more active after the fallout from the last CEO/firing people reddit loves/etc.
+32|0@OutOfTheLoop^1440555570#cuftnq5:colordrops$:To keep posts that are really just advertisements pinned to the top for longer. Reddit's customers prefer that their content marketing is visible for longer.
+2|0@OutOfTheLoop^1440575112#cug1m95:Cavelcade$:Wow, that makes a lot of sense. 
+2|0@OutOfTheLoop^1440578511#cug2gqa:thefunkygibbon$:This guy gets it
+7|0@OutOfTheLoop^1440531577#cuff4m6:Oatmeal_Addict$:Is this in all subs or just for the front page? I've been noticing this happening a lot in /r/nosleep, which really sucks since there's so much new content every few hours.
+6|0@OutOfTheLoop^1440563674#cufxt7l:Hexatomb$:Reddit is boring now, it's just the same crap over and over. It used to be so nice, now it's just junk that only changes once a day :(
+1|0@OutOfTheLoop^1440632361#cugvh94:alfa_phemale$:This was my train of thought. 
+1|0@OutOfTheLoop^1440575376#cug1oq2:johnnylovesbooty$:That explains it. I just stop visiting as often waiting for the content to change.
+17|0@OutOfTheLoop^1440539398#cufk7dw:mokahless$:That explains it. Kinda sucks because I use reddit for news and recently I've been wondering why there hasn't been much new news
+4|0@OutOfTheLoop^1440539464#cufk8up:jippiejee$:Don't forget it's summer holidays, always a slow news season.
+1|0@OutOfTheLoop^1440634977#cugwy7z:adescuentechable$:I don't think that's the case this summer. Between the election, the financial meltdown, the Black Lives Matter movement, the Iran deal, the migration problem in Europe, ISIS, there's plenty of stuff going down. Not to mention there's a new shooting (by a cop or otherwise) every couple days.
+1|0@OutOfTheLoop^1440540899#cufl4af:warplayer$:So that's what happened this weekend.
+1|0@OutOfTheLoop^1440643468#cuh1qgs:troller_awesomeness$:What is the purpose of the cap?
+24|0@OutOfTheLoop^1440518639#cuf6fc4:IMAROBOTLOL$:I like the idea, but not the execution of slowing down the amount of content I can see. I feel like I'm seeing 1/3rd as much new stuff now, but maybe I'm just a high tolerance junkie. 
+-1|1@OutOfTheLoop^1440517055#cuf5eih:Zenodice$:Also [Voat](http://www.voat.co)
+112|0@OutOfTheLoop^1440517861#cuf5xma:Lucifers_Friend$:**Most viewed posts in the past 24 hours** - RAPE: Only taken seriously when it happens to women - Due to a Lack of Mass Immigration, Japan Is Plagued by a Rising Standard of Living - Looks like /r/voat is controlled by the sjw brigade. Got banned for calling out anti voat shill. Yeah... reddit is looking pretty good now. 
+0|0@OutOfTheLoop^1440526256#cufbk7v:terlin$: &gt;Looks like /r/voat is controlled by the sjw brigade. Got banned for calling out anti voat shill. Ugh, this is why we can't have nice things EDIT: copy-paste error
+2|0@OutOfTheLoop^1440531331#cufeyrc:Zangam$:Well, I mean, a lot of people don't take rape seriously when it happens to guys. That much is at least partially true.
+2|0@OutOfTheLoop^1440538385#cufjkpw:terlin$:oops I copied the whole thing. Only meant to copy the last sentence...
+4|1@OutOfTheLoop^1440527711#cufcjny:vecnyj$:Reddit pushed its worst members to voat, pretty great move actually.
+11|0@OutOfTheLoop^1440535305#cufhlio:PrivilegeCheckmate$:&gt; RAPE: Only taken seriously when it happens to women &gt;Looks like /r/voat is controlled by the sjw brigade. Read these two statements; should they be in the same post? 
+8|0@OutOfTheLoop^1440543222#cufmijb:RachelRTR$:I don't think they know what SJW means. 
+2|0@OutOfTheLoop^1440571725#cug0p1v:CatAndBaz$:[Here's an example of blatant sexism I just found on the front page of Voat.](http://i.imgur.com/VSktp47.png)
+0|0@OutOfTheLoop^1440615567#cugkne4:currentAlias$:muh muh-soggy-knees
+26|0@OutOfTheLoop^1440518592#cuf6eav:ernierock1$:Wow, it's like a caricature of Reddit.
+20|0@OutOfTheLoop^1440518662#cuf6fu2:djqvoteme$:In a private browsing session (meaning no cache or history to affect the results), [this](http://i.imgur.com/OTypTns.png) is the result I get for googling Voat. What a really great community. Google it for yourself, you might get /v/coontown because I think the results vary based on geography too.
+7|0@OutOfTheLoop^1440528830#cufdajr:[deleted]$:[deleted]
+4|0@OutOfTheLoop^1440531290#cufexs5:Oatmeal_Addict$:That in of itself is all you really have to know to get the tour..
+32|0@OutOfTheLoop^1440518789#cuf6iqc:Lucifers_Friend$:I tried the same. Both coontown, and fph showed up.
+26|0@OutOfTheLoop^1440519212#cuf6squ:GiverOfTheKarma$:Same here. I'm sure that bodes well for Voat's future.
+12|0@OutOfTheLoop^1440520426#cuf7mls:chakrablocker$:I mean it's obvious who makes up the voat user base 
+10|1@OutOfTheLoop^1440522418#cuf8zfm:KnightKrawler$:The people reddit banned in order to make advertisers/the SJW (former)CEO happy?
+20|0@OutOfTheLoop^1440527585#cufcgm8:chakrablocker$:Mostly bigots? 
+11|0@OutOfTheLoop^1440530751#cufekqf:Zangam$:I went on there to hide from all the drama and ya know what I found? Voat bitching about it and fighting their own SJW war. 
+1|0@OutOfTheLoop^1440635293#cugx4j9:adescuentechable$:Did you forget that /r/fatpeoplehate was a major subreddit for a long time? They made /r/all pretty frequently. But yeah, Voat sucks. They hate fat people.
+1|0@OutOfTheLoop^1440641781#cuh0s6m:djqvoteme$:No, I didn't forget. The point I was making was that a lot of Voat is just bigoted ex-reddit users.
+123|0@OutOfTheLoop^1440518897#cuf6l78:Dlgredael$:Voat is like the wild west right now - there's no laws, everyone's slightly racist, and there's about six people per square mile.
+1|1@OutOfTheLoop^1440528218#cufcw0w:ornothumper$:&gt; everyone's slightly racist Oh, so like the real world?
+-2|1@OutOfTheLoop^1440528647#cufd66i:[deleted]$:[deleted]
+9|0@OutOfTheLoop^1440531130#cufetvq:Oatmeal_Addict$:Slightly *openly* racist.
+-1|0@OutOfTheLoop^1440615410#cugkjfs:currentAlias$:So *better* than the real world. None of this dog-whistle wink-wink-knowwhatimean bullshit.
+1|0@OutOfTheLoop^1440632924#cugvsrx:[deleted]$:[deleted]
+1|0@OutOfTheLoop^1440636979#cugy2sc:ornothumper$:I live in the real world. I seem to be the only one. People who claim they aren't even slightly racist haven't lived in the real world.
+2|0@OutOfTheLoop^1440637573#cugyenv:[deleted]$:[deleted]
+4|0@OutOfTheLoop^1440536597#cufigg9:jsmooth7$:Apparently there was drama when the AskVoat mods added a rule that all posts had to end in a question mark. Like to the extent that they considered eliminating moderators from the site entirely. Makes /r/askreddit look really good in comparison.
+4|0@OutOfTheLoop^1440543592#cufmqfj:AidenKerr$:Yeah, I made an account on Voat and made some subs because I thought it would replace reddit. It wasn't too bad at first, or maybe I was just ignoring it. Over time, I go on it less. If anyone there wants to take over any of my subs, just ask me. Same name as this account
+24|0@OutOfTheLoop^1440523746#cuf9vub:[deleted]$:&gt;about six people per square mile And the total surface of Voat is 0.5 square miles.
+40|0@OutOfTheLoop^1440519017#cuf6o2h:ernierock1$:Reddit would be "slightly" racist, even still that's an understatement. Voat is downright racist, they just pretend they're not by hiding behind "Everyone is too PC".
+14|0@OutOfTheLoop^1440528138#cufcu2k:CatAndBaz$:And if you mention that they're being racist/homophobic/sexist/transphobic at all, even when it's blatant, they yell at you for being an SJW
+2|0@OutOfTheLoop^1440530583#cufego5:Zangam$:Really depends more on how you go about saying it, though.
+1|1@OutOfTheLoop^1440535661#cufhu5i:dripdroponmytiptop$:no, not really. You use the wrong words, and you're a SJW. SJW is completely arbitrary and subjective, and declaring somebody one totally proves your legitimacy and spurs a significant community of people to disregard you, and slant everything you say in a light they would be happy to do mental gymnastics to believe you're wrong. If I say "feminism", instantly that's enough to have half of reddit roll their eyes, scroll away, or downvote me. I see it time and time again, even if they're the same argument just omitting that word.
+2|0@OutOfTheLoop^1440540127#cufknmj:mongo_lloyd$:SJW is the new thing people get called when your opinion differs to theirs. Like troll used to be.
+-2|0@OutOfTheLoop^1440541415#cuflffy:dripdroponmytiptop$:no, troll has a pretty well-defined definition and people still do that often. 
+2|0@OutOfTheLoop^1440536778#cufikn9:Zangam$:There are plenty of reasonable and unreasonable people using reddit. Just as there are plenty of reasonable and unreasonable people in the world. Hatred inspires hatred, simple as that. 
+-3|0@OutOfTheLoop^1440536986#cufipc2:dripdroponmytiptop$:...this is like, a non-statement. You're not saying anything or contributing anything here, this is a cop-out of absolving yourself, here. you can't just simply dismiss what is going on as "hatred begets hatred", because it doesn't. When you have a hard time understanding which "side" actually is the "good" one, look at what they are trying to achieve: are they trying to progress things? or are they fighting to keep things *the same*? That'll clear it up for you really quickly. 
+2|0@OutOfTheLoop^1440571237#cug0jwf:TheSoundOfHerWings$:i bet you only hang around /pol/ and /b/ you filthy casual
+5|0@OutOfTheLoop^1440531192#cufevcu:Oatmeal_Addict$:Ohh so Donald Trumpers? Well that's terrifying..
+24|0@OutOfTheLoop^1440531777#cuff9c7:breathethisair$:In this regard, I find 4chan to be the least offensive, in that at least they don't try to dignify their beliefs. They know they're racist and bigotted, and they accept it. Reddit(/r/all) on the other hand, is an entirely different beast. They're racist but they try to dignify their bigotry by "quoting statistics" and "facts that don't lie". They think their way of thinking is perfectly fine and, dare I say, morally superior. So when somebody mildly racist comes across 4chan's in your face bigotry, they're repulsed by it and shy away, but when they come across reddit's bigotry, they're lead to believe that perhaps it's no so wrong to be racist after all. God I fucking hate /r/all 
+16|0@OutOfTheLoop^1440540086#cufkmrn:Grizzalbee$:Hell, I don't even know if 4chan is actually racist or just really really enjoy being tasteless and offensive. It's like someone took the penis game too far.
+10|0@OutOfTheLoop^1440536719#cufijbc:ernierock1$:You might be right. I don't follow most default subs anymore, but /r/videos comments always spiral into racism pretty fast when the video even has the tiniest setup for it.
+16|1@OutOfTheLoop^1440520127#cuf7f8e:jgur88$:I'm not trying to argue about this, but what is wrong with being a SJW? I don't see the disadvantage of trying to understand the problems I don't have myself. Is it that a lot of SJWs come off as annoying or bombarding or something? Edit: Don't know why I'm being downvoted...
+22|0@OutOfTheLoop^1440522438#cuf8zwb:Petninja$:SJW aren't there to solve social issues. They're there for the fighting, and in many cases to profit off it because people will latch on to anything, apparently.
+7|0@OutOfTheLoop^1440523208#cuf9irg:jgur88$:That is a really interesting take on it, thank you. I guess it is hard to sort through it all on a website where a lot of people argue anyway, ya know?
+39|0@OutOfTheLoop^1440521240#cuf86hw:AggressivelyKawaii$:I think an SJW is usually seen as someone on the extreme end of the spectrum, meaning that they take everything too seriously and can/will get offended by anything.
+17|0@OutOfTheLoop^1440522233#cuf8uw7:djqvoteme$:"SJW" is virtually meaningless when you consider it's often used to describe any run-of-the-mill feminist or just someone who supports LGBT rights or anti-racism movements. It's like how "hipster" now means "someone that I don't like because they dress differently".
+1|1@OutOfTheLoop^1440535234#cufhju5:HorriBliss$:&gt; "SJW" is virtually meaningless when you consider it's often used to describe any run-of-the-mill feminist or just someone who supports LGBT rights or anti-racism movements. Not really. There's a difference between being pro women's rights, and then Ellen Pao level of thinking the world is against you, don't you think? There's a difference between being pro race rights, then blocking university entrances in an effort to prove a point that there are not enough ethnic background at a university. Perfectly entitled to do both of these things, but I'm perfectly entitled to call you a narcissistic piece of poop for doing so, too.
+10|0@OutOfTheLoop^1440536522#cufieri:chivere$:You're missing the point of what /u/djqvoteme meant. The problem is that people have become so quick to throw out the word SJW that it's become meaningless. There are people who are far too extreme in views and methods with regards to social justice and this used to be the word to describe them, but many people will now call someone a SJW for having an opinion they don't like. I got called a SJW once for saying I would be disappointed if an upcoming video game didn't have the option of making a female playable character (when previous entries in the series had this option and there was a rumor going around saying it might be male-character-only). I mean, come on.
+-1|0@OutOfTheLoop^1440536600#cufigj9:HorriBliss$:Well, your example is fair, but this is the internet, you never know what people think so you have to be clear. 
+0|1@OutOfTheLoop^1440522020#cuf8pqj:GoghGirl$:Maybe it was supposed to be extreme... It has nothing to do with radicals at this point. It seems to be now used for anyone who has a different mindset and anyone who is not explicitly rascist/sexist. 
+-2|1@OutOfTheLoop^1440531159#cufeujz:Zangam$:It has plenty to do with radicals. On the internet nowadays you hardly ever see a person who believes women should be on perfectly equal standing with men (Perfectly fair viewpoint, which is only undermined by SJWs preaching about how white men should die so that MtF trans Black-Americans can take over the patriarchy) What you typically see is what I just used an extreme example of. "Stupid men and their bullshit, I wish they would die. OMG, look at Reddit defending this old cishet white guy from two black women just trying to speak their piece. Reddit is su-" damn it why am I even arguing about this. I wish everyone could just shut up about it and let the actual SJWs fade into obscurity and pitiful irrelevance, while people ACTUALLY working towards fixing social issues (even if I disagree with them) don't have to have their cause gripped onto for some misled person on tumblr to be racist or sexist about.
+2|0@OutOfTheLoop^1440534409#cufh06w:GoghGirl$:"On the internet nowadays you hardly ever see a person who believes women should be on perfectly equal standing with men" Did you mistype or? Oh I completely agree that the term was used and is used against the extremes (Im on Tumblr as well.. I know.. Pushing so far to be equal that they actually are rascist/sexist in their own way. ) But atleast when SJW is used in the context of Reddit, usually the person in question is not actually an extremist. Its become more of an overall catchall term of dislike.
+0|0@OutOfTheLoop^1440534917#cufhc8z:Zangam$:I meant it only in the sense that they become overshadowed by all the hatemongering SJWs have brought down on both sides. Perhaps I should have been a touch more clear about that. Personally I don't really use the term much, especially when talking to a specific person. But it is a bit like, I guess, caution? A lot of people hear about this SJW nonsense when they really don't want to, and usually it's some radical ranting. So they reply for a multitude of reasons, ranging from personal bigotry, to ignorance, to good will for their fellow humans, and it never ends well. So then any slightly unreasonable sounding "equality talk" is all the more difficult to disassociate with an SJW. Perhaps this person really just worded their statement wrong. Really, it all just comes back to SJWs being toxic and obnoxious, championing a cause that they probably don't even actually care about, but just want to use it to sound superior. It's like a negative feedback loop. Person A gets in internet arguement with SJW 1, 2, 3, and Banana. Person A gets very frustrated. Person B is a feminist who got a little heated and ended up sounding a bit unreasonable. Person A replies in a way which makes B more angry, and then A and B get into this big loop of anger. Human nature, really.
+2|0@OutOfTheLoop^1440535997#cufi2cx:GoghGirl$:It doesnt help that there are now counter hate groups that hate anything even seemingly feminist/equality based. (RedPill and other such groups). You are more likely to encounter the RP than SJWs on Reddit. 
+10|1@OutOfTheLoop^1440520533#cuf7p6l:Lucifers_Friend$:There's nothing wrong with being sympatethic. SJW is a meaningless term.
+3|1@OutOfTheLoop^1440520783#cuf7v7h:jgur88$:I am beginning to see that, but it also seems like it is starting to encourage people not to care or fight for others. Almost along the lines of embarrassing someone into not caring, and I think more people should be caring about more shit. Edit: Thanks for all the comments. You all were very enlightening and showed me good, different perspectives on the definition. And those who were commenting were vastly more help than the losers downvoting. Thanks.
+18|0@OutOfTheLoop^1440522075#cuf8r3r:AndrasZodon$:SJW is generally an appropriated term used to refer to people who are hypocritical and illogical in their support of these issues. Advocates of "Health at every size" claiming *all* body types are beautiful, but then calling skinny people disgusting in the next breath. The privilege checkers, who claim to be oppressed minorities, but are dismissive and douchey to non-minorities, *simply because they're not a minority*. A topical example would be these Black Lives Matter protesters, belligerently screaming Bernie Sanders off the stage of his own civil rights rally, simply because he is an old white man. They are being belligerent, hypocritical, and are completely ignorant of Bernie's civil rights activism dating back to MLK's protests. 
+-1|1@OutOfTheLoop^1440521969#cuf8ohy:Lucifers_Friend$:True. It's a "false negative connotation" for lack of better words.
+15|0@OutOfTheLoop^1440520176#cuf7gef:jgur88$:Is there a way I can change my own personal soft-capping in Res?
+18|0@OutOfTheLoop^1440520256#cuf7ie0:jippiejee$:No, this is really about the inner sorting mechanics of reddit itself.
+11|0@OutOfTheLoop^1440520411#cuf7m7s:jgur88$:I thought I'd ask. Thanks much for the reply!
+1|1@OutOfTheLoop^1440515791#cuf4lbo:flanndiggs$:This is the biggest factor. However, many of the users who provided a lot of the content are leaving reddit because of the new censorship rules. I only wish I knew where they've gone so I could join them.
+1|0@OutOfTheLoop^1440528867#cufdbhr:[deleted]$:[deleted]
+1|0@OutOfTheLoop^1440531865#cuffbi4:stanley_twobrick$:Evidence?
+1|0@OutOfTheLoop^1440635441#cugx7fh:adescuentechable$:/r/all
+1|0@OutOfTheLoop^1440533697#cufgj89:rerozen$:[Snapzu](http://snapzu.com) is another good one.
+2|0@OutOfTheLoop^1440533801#cufglpz:submarshal$:Maybe the racist quality content providers of CT.
+1|0@OutOfTheLoop^1440535917#cufi0fk:Straydog99$:I kind of feel the same way, but at the same time I wonder if I wouldn't be better off without any addictive social website. 
+3|0@OutOfTheLoop^1440533129#cufg5ni:Galphanore$:Some to [Empeopled](https://empeopled.com/invitedby/galphanore), some to [Voat](https://voat.co/), some just got sick and threw up their hands. Most of the major posters are still around here though.
+-6|1@OutOfTheLoop^1440520992#cuf80fa:PanchDog$:Lol. Nobody left kiddo. 
+14|0@OutOfTheLoop^1440516200#cuf4udj:[deleted]$:That's fucked.
+1|0@OutOfTheLoop^1440692388#cuhl8dm:CrotchFungus$:So that's why reddit's been so slow lately
+1|0@OutOfTheLoop^1440645669#cuh2wpe:Balfus$:I'm used to viewing reddit three or even four times a day and having 90% new content each time. Now by the time I'm going to bed there's maybe 40-50% new stuff that I hadn't seen that morning. It makes me sad-hole :(
+1|0@OutOfTheLoop^1440630760#cuguk3w:JMFore$:Admin responded to a comment about this same topic earlier today: http://www.reddit.com/r/pics/comments/3igtlt/whatever_you_hear_or_read_today_try_not_to_learn/cugk8kn
+3|0@OutOfTheLoop^1440629652#cugtx11:backcountryrunner$:Thank you for this. I was wondering why reddit was feeling so boring the past couple weeks. I've been on this site over two years and it was the first time I was seriously considering going elsewhere for content (not from all the other shit from the past two months). 
+1|0@OutOfTheLoop^1440557130#cufuj0z:Player--1$:Is this the reason why there's a lot of 5000+ upvote posts lately?
+2|0@OutOfTheLoop^1440544502#cufn9to:jpatton89$:A way to fix this would be for reddit to introduce a "top of last 12 hours" option. That would be so helpful...
+1|0@OutOfTheLoop^1440553913#cufspqz:shrewdbottom$:That seems like a good way to get me to check reddit a lot less.
+80|0@OutOfTheLoop^1440527207#cufc7gq:nofxjmf$:wow I thought I was just going crazy.
+3|0@OutOfTheLoop^1440626105#cugrrkt:yoodenvranx$:Same here. At first I was convinced I spend way too much time on reddit so I don't recognize any changes but it seems like there is still hope for me ;)
+31|0@OutOfTheLoop^1440539558#cufkaxb:eoliveri$:Recent decisions about how reddit will be run *are* driving me crazy. 
+20|0@OutOfTheLoop^1440545899#cufo35f:UnicornOfDesire$:I know, Reddit hasn't been near as enjoyable since they started this. Hope they change it back but I doubt it.
+8|0@OutOfTheLoop^1440528770#cufd92r:LsDmT$:Just me or within the last year or two all I see is /r/adviceanimals and other bullshit memes on /r/all ?
+23|0@OutOfTheLoop^1440528338#cufcywo:Fen24$:Is so booring reddit right now; there are always same content in front page and all. Before this change, at each time that i visit reddit through the day contents always changed :( Im visiting reddit much less
+34|0@OutOfTheLoop^1440530550#cufefto:Laundrymango$:It's been getting thin on content for a few years now but lately it's been getting ridiculous with the same 5 stories being reposted every few days. "IRS under pressure from John Oliver Show to investigate televangelists" was a recent one that comes to mind. 
+8|0@OutOfTheLoop^1440541159#cufl9xv:Dragovic$:There was also the metal fans are similar to classical fans recently which has been reposted regularly for a decade now.
+9|0@OutOfTheLoop^1440531736#cuff8dy:Wb14245$:Just have to wait for other sites to make it. 
+1|0@OutOfTheLoop^1440596804#cug8cmy:nicklesismoneyto$:Posted one day ago and it's still on my front page.
+-1|0@OutOfTheLoop^1440566133#cufytwn:mr4ffe$:/r/FatPeopleHate is gone.
+1|0@OutOfTheLoop^1440638044#cugynxd:dontbenodrag$:That's garbajando
+1|0@OutOfTheLoop^1440621657#cugov9o:ZilchStar$:This lack of fresh content is driving me to reddit alternatives =\
+2|0@OutOfTheLoop^1440623331#cugpzv9:wew-lad$:I agree with OP
+32|0@OutOfTheLoop^1440534675#cufh6hd:Conchking$:Fuck I thought I was the only one. I've seen posts on my front page so long I was about to call them out as reposts
+8|0@OutOfTheLoop^1440532168#cuffips:Unsub_Lefty$:What? People actually do that? Jesus fuck who'd want to browse the cesspit that is the defaults, which dominate /r/all. 
+1|0@OutOfTheLoop^1440579756#cug2r3t:WonderfulUnicorn$:Nah. You just need to go deeper and use top of the hour. I almost exclusively use /r/all and never subscribe but to the most important subreddits so my front page is just like 5 subs. /r/all is a great way to discover subreddits. Far better than random.
+26|0@OutOfTheLoop^1440532697#cuffven:TerryTerrorist$:Safe space is in effect. 
+8|0@OutOfTheLoop^1440539814#cufkgob:ziphion2$:i agree, it's gotten terribly bad, it makes me not wanna visit the site anymore.
+1|0@OutOfTheLoop^1440545920#cufo3ko:ipaqmaster$:ITT: A new hatred on reddit. Thanks guys.
+3|0@OutOfTheLoop^1440581367#cug34nk:Spamcock$:on another note the power mods are doing a fine job of restricting content
+9|0@OutOfTheLoop^1440523290#cuf9krk:izanhoward$:Do New: r/all
+7|0@OutOfTheLoop^1440528554#cufd3zv:Adezar$:Exactly, I finally gave up on Front Page after spending a bunch of time subscribing/unsubscribing and still no movement lately. Switched to /r/all, and I also find new subreddits from time to time.
+1|0@OutOfTheLoop^1440618608#cugmquq:izanhoward$:Good
+4|1@OutOfTheLoop^1440523869#cuf9yyz:Phoequinox$:Reddit changes, redditors complain. Sums up this year nicely.
+-41|0@OutOfTheLoop^1440517808#cuf5wcm:IThoughtThisWasDigg$:Most of the good stuff has moved on to voat.co. Reddit is just a carcass for those who are uninformed.
+5|0@OutOfTheLoop^1440529638#cufdu1i:airbornemist6$:I hang out on voat... There's not much content there either.
+-1|0@OutOfTheLoop^1440615715#cugkr5e:currentAlias$:Yeah, Voat's better for news &amp; politics, Reddit's got the edge on funny pictures and tabloid-content. That and Reddit's more fun to troll since there's no point in having serious conversations here.
+21|0@OutOfTheLoop^1440518338#cuf68ya:Fixhotep$:the fuckin irony lol
+25|0@OutOfTheLoop^1440519818#cuf77in:HireALLTheThings$:Ah yes. /r/Coontown and /r/fatpeoplehate. The Good Stuff.
+104|0@OutOfTheLoop^1440518132#cuf641h:Cravenater$:Yea i've noticed big subreddits like /r/gifs don't show up on my frontpage even though i'm subscribed to it.
+6|0@OutOfTheLoop^1440538072#cufjdos:[deleted]$:[deleted]
+2|0@OutOfTheLoop^1440545194#cufnoc0:adaranyx$:Do you have NSFW content set to not show up?
+1|0@OutOfTheLoop^1440565166#cufyfwl:[deleted]$:[deleted]
+2|0@OutOfTheLoop^1440573384#cug15cn:derGraf_$:[Preferences](https://www.reddit.com/prefs/) Content options: Third from the bottom. First option: I am over eighteen years old and willing to view adult content (required to view some subreddits)
+1|0@OutOfTheLoop^1440619668#cugnhjs:[deleted]$:[deleted]
+1|0@OutOfTheLoop^1440648716#cuh4dy8:derGraf_$:There has been some drama regarding reddits new algorithm lately. It's possibly that this might actually be related. Apparently the changed a couple of parameters and now the site appears to be more static than it used to, with posts staying on top much longer and those from subs with more subscribers dominating r/all. 
+259|0@OutOfTheLoop^1440520227#cuf7hon:PRND1234$:That might be a different issue: without Reddit Gold, only 50 of your subscribed subreddits appear on your front page. It picks a different random set of 50 every 6 hours or something. When I finally learned about that, I whittled down my subscription list (which I had been procrastinating on anyway).
+1|0@OutOfTheLoop^1440616351#cugl6r5:Fen24$:it's possibile somewhere see number of my subscription?
+25|0@OutOfTheLoop^1440526618#cufbt02:LilMissKitKat$:Ugh. I've whittled down from 159 to 64..... this last 14 is going to be tough.
+10|0@OutOfTheLoop^1440533649#cufgi0q:ryry013$:Just keep it at 64, that's close enough to 50 you'll see a majority of your subreddits most of the time. 
+36|0@OutOfTheLoop^1440537574#cufj2jt:ReppinDaBurgh$:I just took mine from 143 to 130 and can't cut any more. That is an incredibly stupid rule.
+21|0@OutOfTheLoop^1440539609#cufkc29:jeff0$:I suspect it was a practical decision made to reduce the servers' processing power needs.
+1|1@OutOfTheLoop^1440568457#cufznzv:yoda133113$:Or a money grab to suck money from power users.
+7|0@OutOfTheLoop^1440595289#cug7kfz:jeff0$:Running reddit is not free. They need to recoup their costs. Why are you complaining about a very minor inconvenience in an otherwise amazing free service?
+-1|0@OutOfTheLoop^1440595519#cug7oip:yoda133113$:Because I don't like this method of monetizing the site, and, as someone who was here long before Gold, I think it goes against what reddit Gold was about when it was introduced.
+6|0@OutOfTheLoop^1440599468#cug9wj4:dougall7042$:I'm pretty sure the 50 subreddit limit was around even before gold
+2|0@OutOfTheLoop^1440579681#cug2qhg:WonderfulUnicorn$:Nah. It's technical. 
+1|0@OutOfTheLoop^1440649650#cuh4t8o:ryantucker1986$:Can't you just make multireddits or does that not work? 
+3|0@OutOfTheLoop^1440580317#cug2vpo:GoldenSights$:Why do you have to pick between them? Use multireddits and just hit up each multi after you've seen everything in the last one. I don't even keep subscriptions.
+1|0@OutOfTheLoop^1440641055#cuh0d4q:TeddyBedwetter$:Have more than one account.
+6|0@OutOfTheLoop^1440553275#cufscmk:daemin$:I've got 833... I don't even know where to start.
+1|0@OutOfTheLoop^1440643922#cuh1zkz:LBGW_experiment$:is there even a difference between your front page and r/all?
+1|0@OutOfTheLoop^1440630619#cuguh7q:blake_cq$:start with the ones you literally never end up opening links for every time they appear on your homepage
+6|0@OutOfTheLoop^1440553412#cufsfh2:LilMissKitKat$:Ouch. That seems almost insurmountable. 
+19|0@OutOfTheLoop^1440527485#cufce6e:vecnyj$:Damn that is dumb
+5|0@OutOfTheLoop^1440529513#cufdr28:THE_CENTURION$:Shit I never knew about this, thanks! Now to go unsub from the ones I don't really care about 
+1|0@OutOfTheLoop^1440628718#cugtd1u:slyweazal$:Hope reddit knows the side effect of this is driving down membership in some of the best, less popular niche subs.
+19|0@OutOfTheLoop^1440527731#cufck6t:DarklyAdonic$:Can't you just make custom multireddits to avoid this though?
+9|0@OutOfTheLoop^1440528766#cufd8zg:PRND1234$:I hadn't thought of that, but how would that work? Would you have a bunch of multireddits with &lt;= 50 subreddits in each?
+11|0@OutOfTheLoop^1440530979#cufeq5p:DarklyAdonic$:Yup. Like i have 1 for news and 1 for gaming. Unfortunately, if you only have multireddits, it spazzes out and resubscribes you to all the defaults
+2|0@OutOfTheLoop^1440531781#cuff9g5:celosia89$:Multis have a limit if 100
+9|0@OutOfTheLoop^1440533661#cufgibx:ryry013$:Bigger than 50
+1|0@OutOfTheLoop^1440568373#cufzmxe:oheysup$:u sure
+2|0@OutOfTheLoop^1440615642#cugkpbo:ryry013$:no
+7|0@OutOfTheLoop^1440529056#cufdg0h:[deleted]$:[deleted]
+-2|0@OutOfTheLoop^1440538699#cufjrm4:Bensas42$:Pervert.
+0|0@OutOfTheLoop^1440567251#cufz8x5:immaseaman$:No seriously. He's a pervert, with a record.
+2|0@OutOfTheLoop^1440562806#cufxfhq:8bitBlackout$:Users can subscribe to a new reddit or unsub from another to refresh the 50
+3|0@OutOfTheLoop^1440535697#cufhv0h:starfries$:Is there a way to get small subs to show up more? I do like reading the big ones but it seems like that's pretty much all I get on my front page.
+1|0@OutOfTheLoop^1440571149#cug0iye:hardypart$:What the actual fuck. Why don't they tell you this?
+1|0@OutOfTheLoop^1440571957#cug0re7:twistedcain$:I just keep pulling gold out of my ass by posting a good comment once in awhile.
+2|0@OutOfTheLoop^1440583379#cug3lat:JohnEffingZoidberg$:But that's so hard!
+0|0@OutOfTheLoop^1440583568#cug3mv3:whizzer0$:Wait, so I just need to have Gold again to increase the limit? BRB, making more effort on my posts/comments
+203|0@OutOfTheLoop^1440521027#cuf819f:SylvesterLundgren$:Wow that answers a litany of questions. 
+126|0@OutOfTheLoop^1440522181#cuf8tnd:God_Emperor_of_Dune$:Yeah seriously... I'm kind of upset about that actually 
+2|0@OutOfTheLoop^1440628730#cugtdaj:slyweazal$:Hope reddit knows the side effect of this is driving down membership in some of the best, less popular niche subs. Isn't Reddit dependent on a constant supply of members contributing content? This arbitrary rule drastically harms that core goal...and, from a shareholder perspective, uncessarily reduces the amount of eyes looking at ads/marketing.
+23|0@OutOfTheLoop^1440545885#cufo2ug:ipaqmaster$:Gotta make money somehow don't you Reddit.
+7|0@OutOfTheLoop^1440593337#cug6omk:ValdemarSt$:Atleast highlight what features you get from gold. Until now i just thought you could enter /r/lounge as the only *actual* useful thing.
+5|0@OutOfTheLoop^1440624406#cugqozh:ThatGuyYouKnow$:I find the highlighting of new comments in threads I've previously visited also useful.
+1|0@OutOfTheLoop^1440635974#cugxiam:newuser13$:That's not useful.
+1|0@OutOfTheLoop^1440634175#cugwi1j:metastasis_d$:&gt;useful
+1|0@OutOfTheLoop^1440758468#cuihgg7:SmellsOfTeenBullshit$:Well, yes, they are a business you know.
+36|0@OutOfTheLoop^1440522278#cuf8w0j:OoohMamaJohnnyBravo$:Excellent use of litany
+1|0@OutOfTheLoop^1440522488#cuf9139:StartSelect$:Thanks
+32|0@OutOfTheLoop^1440522610#cuf93zk:SylvesterLundgren$:did i fuck it up? i probably fucked it up
+9|0@OutOfTheLoop^1440538853#cufjuzv:GothicFuck$:Did you have many questions? If yes, you used it appropriately. I don't think there's anything abnormally superb about your use of the word litany so I have no idea why he said it was excellent. That's probably why it sounded sarcastic. But you're all good!
+2|0@OutOfTheLoop^1440563283#cufxn49:MrCobraFlame$:Probably just not a word used correctly often. Or often at all
+21|0@OutOfTheLoop^1440522939#cuf9c8q:OoohMamaJohnnyBravo$:Nope, looks good to me 
+1|0@OutOfTheLoop^1440632989#cugvu2v:Destiny_Seeker$:Wow that is really stupid.
+3|0@OutOfTheLoop^1440552888#cufs4qh:margobisbee$:I strongly suggest you start using multireddits if you are subscribed to a lot of subs. I would never see more than 1/5 of my subs until i started heavily using multis. I have 2 maxed multis full of news and politics, 2 maxed out pics and gifs, 2 maxed out discussion/ask, 2 maxed out porn.
+1|0@OutOfTheLoop^1440634836#cugwvcj:Asron87$:Is that like, multiple accounts? Or what do you mean? I'd like to fix this problem as well. 
+2|0@OutOfTheLoop^1440553781#cufsn30:Silencedlemon$:My front page has a bunch of the subs I've subbed but none of the good ones...I unsubcribded from r4r for that reason
+27|0@OutOfTheLoop^1440518378#cuf69x0:1leggeddog$:I spent a lot more time on the NEW section nowadays since the front page doesn't seem to budge for what seems like half a day.
+-8|0@OutOfTheLoop^1440525612#cufb4s1:MAGGLEMCDONALD$:Well those are your subs, so subscribe to more shit. 
+9|0@OutOfTheLoop^1440525738#cufb7q3:1leggeddog$:I found its actually pretty hard to find decent subreddits to subscribe to that DON'T just get stuff reposted from other subs already :(
+0|1@OutOfTheLoop^1440528347#cufcz3c:ThroneHoldr$:/r/asoiaf is all you need. 
+3|0@OutOfTheLoop^1440530277#cufe990:stubmaster$:unsub from the big ones, then your front page will be unique. If you want to see what the rest of reddit is up to just hit r/all
+9|0@OutOfTheLoop^1440521020#cuf813e:redragon11$:I like how only one of the comments promoting voat was upvoted.
+39|0@OutOfTheLoop^1440517389#cuf5mb8:ontopic$:All of the enlightened geniuses are on voat now.
+-1|1@OutOfTheLoop^1440585091#cug3zt3:walkingtheriver$:Enlightened as in hating fat people and jacking off to loli porn?
+266|0@OutOfTheLoop^1440517490#cuf5oq7:trustmeimahuman$:I asked this question a couple weeks ago and everyone was like "you're doing it wrong and you need to be subscribed to more subs." I'm glad there's a real answer this time! 
+57|0@OutOfTheLoop^1440532746#cuffwle:TerryTerrorist$:You're in the wrong part of /r/all. 
+5|0@OutOfTheLoop^1440555605#cuftoh9:rreighe2$:I hate when that happens. It really just depends on which batch of people see your post first. They are the deciding factor on whether or not your post gets seen by everyone. 
+-29|0@OutOfTheLoop^1440519050#cuf6ovq:thisisalili$:go to http://voat.co/
+6|0@OutOfTheLoop^1440525638#cufb5eg:MAGGLEMCDONALD$:Have an app?
+3|0@OutOfTheLoop^1440541216#cuflb68:Dragovic$:It's called Upvoat.
+18|0@OutOfTheLoop^1440519387#cuf6ww8:Dlgredael$:"Please? Please go? I'm getting lonely."
+11|0@OutOfTheLoop^1440520925#cuf7yr8:LukeTheFisher$:Aaaaand stay there! Seriously, why stay on reddit to keep telling us to go to voat? If it was that awesome, you wouldn't feel the need to keep telling us how awesome it is. 
+1|0@OutOfTheLoop^1440678706#cuhdebt:Monolithic87$:You only tell people things are awesome when they aren't?
+1|0@OutOfTheLoop^1440680582#cuhe7bm:LukeTheFisher$:This is more like you're at a party and you're calling all your friends to tell them how great the party is. 
+1|0@OutOfTheLoop^1440520068#cuf7dq6:ryann_flood$:Its the summer, not much is going on I guess.
+2|0@OutOfTheLoop^1440547084#cuforpu:iObeyTheHivemind$:This is still number 11 on my front page...
+-1|1@OutOfTheLoop^1440550190#cufqkp1:TransitioningToVoat$:It's now on voat.co, where you don't need to find all the good articles on r/undelete.
+-8|0@OutOfTheLoop^1440553383#cufseuv:Sonmandog$:Someone that asks this question needs to take a break from Reddit.
+-1|1@OutOfTheLoop^1440551455#cufrb2m:JediMasterSteveDave$:Probably banned. 
+15|0@OutOfTheLoop^1440555847#cufttex:schammy$:I hate this change they made. My front page is so fucking static and boring. My protest is going to be always downvote everything on my front page, no matter how much I love it, the more downvotes it gets the faster it will disappear for me and everyone else.

@@ -1,0 +1,57 @@
+98|null@CryptoCurrency^1439680521#3h5933:bitcoin_not_affected$:Bitcoin's PROTOCOL has forked. /r/bitcoin mods censoring all news &amp; debate.
+1|0@CryptoCurrency^1439735689#cu4uukx:[deleted]$:[deleted]
+1|0@CryptoCurrency^1439742682#cu4y797:waxwing$:Nothing; despite posts over the last couple of days saying 'a fork has happened', that is not true at the blockchain level. And even if there is a change in block size, it will be a long time (several months most likely) before any possible hard fork happens, and even then you probably won't have to do much.
+5|0@CryptoCurrency^1439743052#cu4ydud:filmassholesreturn$:The craziest part to my understanding is that this "article" is written by the people who made Bitcoin XT. But it's written like an informative piece from an outside independent opinion. Sketchy.
+1|0@CryptoCurrency^1439746034#cu500o5:[deleted]$:Time for more utilitarian alts to rise
+1|0@CryptoCurrency^1439752218#cu53h06:BitcoinMD$:This seems pretty likely to resolve without incident. The fork won't happen unless 75% of miners want it to.
+1|0@CryptoCurrency^1439769670#cu5cs2g:bitcoin_not_affected$:yes, that's the design
+-1|0@CryptoCurrency^1439731206#cu4t4ne:albatrossSKY$:http://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-August/010238.html
+1|0@CryptoCurrency^1439722067#cu4qqg9:hk135$:Is this not what alt coins are for? Rather than fork Bitcoin create an alt coin with the new lightning network and see how it goes... if it works well then move it into bitcoin. 
+0|0@CryptoCurrency^1439715573#cu4pe2a:leCapitaineEvident$:This is bad for Bitcoin.
+1|0@CryptoCurrency^1439751186#cu52wkh:-o-o-o$:This is good for BITCOIN. Maybe now some one will actually deal with the whole transport layer/consensus layer thing suggested by sickpig
+-5|0@CryptoCurrency^1439681635#cu4c8mb:[deleted]$:[deleted]
+7|0@CryptoCurrency^1439682521#cu4cnst:pcdinh$:Centralized governance for a decentralized network? Are you kidding?
+6|0@CryptoCurrency^1439683259#cu4d06y:[deleted]$:Not at all. NuBits has proven it. Their transitions go smoothly.
+5|0@CryptoCurrency^1439685065#cu4dv8o:Sentinelrv$:Hey, thanks for the mention. Yes, it's amazing how our motion voting system allows everyone with a stake in the network the ability to quickly come to consensus on important matters, so we can move forward, confident in the fact that the majority supports a particular decision or course of action.
+2|0@CryptoCurrency^1439686289#cu4egkf:i3nikolai$:I wouldn't call stake-vote a centralized form of governance. The Nu guys sure like to make that point. Maybe what you mean is "This is why enforceable governance is so important"? Or just "governance at all".
+3|0@CryptoCurrency^1439703471#cu4m1fp:[deleted]$:The nomenclature is secondary to the effect for me. They can't enforce it because it's open source, yet there's very tight adherence. Too bad we don't have polisci experiments on the Vernon Smith level, but if I had to guess what's happening, when people are given an outlet to voice an effective opinion, they rarely turn on it, and those on the losing end of the vote by taking part in the vote adhere because they endorsed the system by voting in the first place.
+1|0@CryptoCurrency^1439704246#cu4mb6g:i3nikolai$:&gt; The nomenclature is secondary to the effect for me. &gt; They can't enforce it because it's open source, yet there's very tight adherence. That's just because nu doesn't actually have protocol changes as part of the consensus protocol. Nu is a bad implementation of stake-voting.
+2|0@CryptoCurrency^1439715064#cu4pa05:CoinGame$:Could you explain further why it's a bad implementation? It has been working successfully for coming up on a year. Many issues have been resolved through the system, and it continues to evolve and add new means of governing the protocol through voting. Even [individuals that are involved in competitors](https://discuss.nubits.com/t/peershares-apathetic-voting-body/2504/2?u=coingame) have expressed other stake-voting systems have not been operating as efficiently as Nu has. This is a really thin landscape as far as implementations go. So, what is the problem with Nu? Who is doing it right? If nobody is doing it right, what is a theoretical "good" implementation?
+1|0@CryptoCurrency^1439729934#cu4spev:i3nikolai$:&gt; So, what is the problem with Nu? Who is doing it right? If nobody is doing it right, what is a theoretical "good" implementation? Yeah, nobody is doing it right. Maybe I should lead with "Nu is doing it best" =] A good implementation of chain updates of *any* kind (stake-vote, POW tag vote, N-of-M) has the characteristic that user clients never have to update. Doing this based on nu's architecture would require building the c++ compiler into the validation rules and building in some kind of hot-swapping! Ethereum can facilitate the kind of update process I'm talking about, but nobody has released a forward-compatible contract system framework like what I'm trying to make.
+2|0@CryptoCurrency^1439730620#cu4sxjn:CoinGame$:Ah I see. Thanks for expounding. I don't know if Nu is doing the best, but I would not consider it bad by far. I see the advantages in the theorized approach you've presented. Would be interesting to see it implemented. I can think of a few issues but I'm sure they could be resolved easily. 
+3|0@CryptoCurrency^1439703166#cu4lxln:swinny89$:It's uncertain because we don't know which will work best. Thanks to market forces and an open market, we can trust that thw best will win. What are you afraid of happening?
+1|0@CryptoCurrency^1439703651#cu4m3p2:[deleted]$:[deleted]
+1|0@CryptoCurrency^1439742571#cu4y591:swinny89$:What do you mean? Has bitcoin lost any funtionality over this yet? No. And as soon as it does, the solution to that loss of functionality will shine.
+22|0@CryptoCurrency^1439682403#cu4clup:Jackten$:This is pretty crazy, bitcoin is in the middle of a full on insurrection. For weeks now the mods have been deleting the top posts in the sub in order silence all discussion of XT
+1|0@CryptoCurrency^1439765896#cu5avm0:ThePiachu$:Two months ago we had a conversation as to how to handle XT. Some mods took a hard stance on treating it as an alt, so that's how it was treated. Things might change soon though.
+0|0@CryptoCurrency^1439766247#cu5b1q3:Jackten$:I'm having a hard time believing things will change. I was just banned from the sub without reason. It sounds like mods are just tightening their grip
+0|0@CryptoCurrency^1439776935#cu5gdla:Tsilent_Tsunami$:Was it because you worship that "Gavin Anderson" kid?
+3|0@CryptoCurrency^1439733067#cu4tskr:earthtrader$:just shows how slow and weak majority resistance is against a little clique. and in this case all it takes is a click to the uncensored bitcoin sub. 
+14|0@CryptoCurrency^1439689869#cu4g7k0:freework$:This XT fork is a revolution within a revolution.
+2|0@CryptoCurrency^1439729115#cu4sg4i:-Hegemon-$:*WAAAAAAAMMMMMM*
+4|0@CryptoCurrency^1439729675#cu4smgf:Apatomoose$:Yo dawg
+1|0@CryptoCurrency^1439751365#cu53011:-o-o-o$:I heard you like forks,so I forked your fork and forked that fork and then added some more forks for ya.
+10|0@CryptoCurrency^1439688322#cu4fgj0:GrounBEEFtaxi$:Fuck r/bitcoin
+11|0@CryptoCurrency^1439686097#cu4ed6m:muyuu$:The title cannot get any more sensational than that. 0 total blocks mined with an XT vote and "the protocol has forked".
+0|1@CryptoCurrency^1439686380#cu4ei58:bitcoin_not_affected$:What do you call bitcoin-core versus bitcoinXT which is a hard fork of the protocol? Things are moving... http://xtnodes.com/
+6|0@CryptoCurrency^1439686750#cu4eopg:muyuu$:A fork is when the blockchain actually forks, not when I code an altfork in my basement that never mined a single coin.
+-3|1@CryptoCurrency^1439686848#cu4eqfb:bitcoin_not_affected$:You don't think miners will upgrade to XT? We'll see about that.
+5|0@CryptoCurrency^1439687000#cu4et3u:muyuu$:So far, zero blocks. If it happens, THEN we can talk about a fork.
+2|0@CryptoCurrency^1439753773#cu54bzt:BeerStuffz$:**Grabs popcorn and awaits the inevitable nerd slap fight. 
+3|1@CryptoCurrency^1439687333#cu4eyzx:bitcoin_not_affected$:RemindMe! 3 Months
+5|0@CryptoCurrency^1439687640#cu4f4ih:muyuu$:If Bitcoin forks in the next 3 months, which I sincerely doubt, this "Bitcoin's PROTOCOL has forked" said right now will remain a lie (or a mistake, if you will). Because, as of now, it hasn't. EDIT: to clarify, I doubt it forks to XT. A simple change in block size might happen, still 3 months seems early given the current position of the Core developers.
+-2|0@CryptoCurrency^1439687779#cu4f70o:bitcoin_not_affected$:&gt; "Bitcoin's PROTOCOL has forked" **[Dude do you even open-source?](https://en.wikipedia.org/wiki/List_of_software_forks)** 
+6|0@CryptoCurrency^1439688140#cu4fde4:muyuu$:Sure, if what he meant is a software fork Bitcoin has forked thousands of times. I have forked it a few times myself. Big deal heh?
+-2|0@CryptoCurrency^1439689003#cu4fsgu:bitcoin_not_affected$:So have I, but this is a protocol level fork.
+4|0@CryptoCurrency^1439689117#cu4fufc:muyuu$:Mine as well. As are plenty of others. Many basic changes touching on rules are protocol level forks. Increasing MAX_BLOCK_SIZE in consensus.h is a hard fork change that takes seconds to make.
+-3|0@CryptoCurrency^1439689489#cu4g0wl:bitcoin_not_affected$:I'm sorry that's all the time we have for today. Thank you for your participation in our program.
+-2|0@CryptoCurrency^1439695592#cu4iw7j:asifmallik$:lmao you troll?
+-2|0@CryptoCurrency^1439695600#cu4iwc7:asifmallik$:or just stupid?
+1|0@CryptoCurrency^1439687732#cu4f65o:squiremarcus$:if i had an ant miner i would switch to XT in a heart beat, even if the coin eventually dies whoever mines the first block will be able to sell it for hundreds of dollars with all this fear and gloom around
+1|0@CryptoCurrency^1439687351#cu4ezaa:[deleted]$:[deleted]
+1|0@CryptoCurrency^1439687332#cu4eyzl:DCromo$:I understand forking. I'm not sure i understand the importance/danger of this particular fork. That said its hard to get people to take to BTÇ in the first place. Feel like this would had another obstacle is all.
+2|0@CryptoCurrency^1439687617#cu4f43p:bitcoin_not_affected$:I agree, it's a bad moment. Price could crash, and other alts could benefit from this. But since there's no consensus, that's what has happened. 
+10|0@CryptoCurrency^1439698075#cu4jybc:merreborn$:For people like the OP who may not understand: the nature of open source is such that anyone can create a fork without even so much as a single supporter. You yourself could create a bitcoin fork right now. And no one would use it, and it would be totally irrelevant. All "forking" really means, at the most basic level, is that someone has created a slightly different copy of the software. The act of creating such a clone is irrelevant without measurable community support.
+7|0@CryptoCurrency^1439698311#cu4k1x9:muyuu$:There's this confusion between software forking and crypto ledger blockchain forking that some are peddling. Also, a full agenda around making XT equate block size increase.
+3|0@CryptoCurrency^1439695469#cu4iu94:asifmallik$:Bitcoin XT, I see that. Thread, I delete that. Regime, I become that. But I am not a rapper.
+1|0@CryptoCurrency^1439729944#cu4spj1:Apatomoose$:I broke up with my ex-T, here's its fork. Psych! It's the wrong fork!

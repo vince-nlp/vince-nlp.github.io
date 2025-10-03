@@ -1,0 +1,1593 @@
+CNUK1033	Television is the opium of the masses in modern society.	Neutral
+SPM03035	The prison system is outdated.	Disagree Somewhat
+SPM03035	No civilized society should punish its criminals.	Agree Somewhat
+SPM03035	Civilized societies should rehabilitate criminals.	Agree Strongly
+SPM03029	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+SPM03029	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FIHE2001	Crime does not pay.	Agree Strongly
+SPM03037	Money is the root of all evil.	Agree Strongly
+SPM03036	Most university degrees are theoretical.	Agree Strongly
+SPM03036	Most university degrees do not prepare students for the real world.	Agree Strongly
+SPM03036	Most university degrees are of very little value.	Agree Strongly
+TSNO1513	The prison system is outdated.	Never Addressed
+TSNO1513	No civilized society should punish its criminals.	Agree Strongly
+TSNO1513	Civilized societies should rehabilitate criminals.	Agree Strongly
+RUMO4009	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+RUMO4009	There is no longer a place for dreaming and imagination.	Disagree Strongly
+TSNO1515	The prison system is outdated.	Agree Strongly
+TSNO1515	No civilized society should punish its criminals.	Disagree Strongly
+TSNO1515	Civilized societies should rehabilitate criminals.	Agree Somewhat
+RUMO4003	The prison system is outdated.	Agree Strongly
+RUMO4003	No civilized society should punish its criminals.	Agree Strongly
+RUMO4003	Civilized societies should rehabilitate criminals.	Agree Strongly
+RUMO4002	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+RUMO4002	There is no longer a place for dreaming and imagination.	Disagree Strongly
+CNUK1052	Most university degrees are theoretical.	Agree Strongly
+CNUK1052	Most university degrees do not prepare students for the real world.	Disagree Somewhat
+CNUK1052	Most university degrees are of very little value.	Disagree Strongly
+CNUK1056	Most university degrees are theoretical.	Agree Strongly
+CNUK1056	Most university degrees do not prepare students for the real world.	Agree Somewhat
+CNUK1056	Most university degrees are of very little value.	Agree Somewhat
+CNUK1055	Television is the opium of the masses in modern society.	Disagree Somewhat
+CNUK1057	Television is the opium of the masses in modern society.	Agree Strongly
+RUMO4019	All armies should consist entirely of professional soldiers.	Agree Somewhat
+RUMO4019	There is no value in a system of military service.	Agree Somewhat
+RUMO4018	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+SPM03047	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+SPM03047	There is no longer a place for dreaming and imagination.	Disagree Strongly
+ITRS2002	Most university degrees are theoretical.	Agree Strongly
+ITRS2002	Most university degrees do not prepare students for the real world.	Agree Strongly
+ITRS2002	Most university degrees are of very little value.	Agree Strongly
+ITRS2005	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+ITRS2005	There is no longer a place for dreaming and imagination.	Disagree Strongly
+CNUK1062	Television is the opium of the masses in modern society.	Disagree Strongly
+RUMO4012	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+RUMO4012	There is no longer a place for dreaming and imagination.	Disagree Strongly
+RUMO4011	Crime does not pay.	Agree Strongly
+RUMO4010	Money is the root of all evil.	Agree Strongly
+FIHE2002	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FIHE2002	There is no longer a place for dreaming and imagination.	Disagree Strongly
+RUMO4017	Feminists have done more harm to the cause of women than good.	Agree Somewhat
+RUMO4016	Money is the root of all evil.	Agree Strongly
+RUMO4014	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+RUMO4014	There is no longer a place for dreaming and imagination.	Disagree Somewhat
+RUMO4029	Feminists have done more harm to the cause of women than good.	Disagree Strongly
+RUMO4021	Most university degrees are theoretical.	Agree Strongly
+RUMO4021	Most university degrees do not prepare students for the real world.	Disagree Strongly
+RUMO4021	Most university degrees are of very little value.	Disagree Strongly
+NOBU1004	Feminists have done more harm to the cause of women than good.	Agree Strongly
+CNUK1073	Television is the opium of the masses in modern society.	Neutral
+TSNO1332	The prison system is outdated.	Disagree Strongly
+TSNO1332	No civilized society should punish its criminals.	Disagree Strongly
+TSNO1332	Civilized societies should rehabilitate criminals.	Disagree Strongly
+RUMO4026	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+RUMO4026	There is no longer a place for dreaming and imagination.	Disagree Strongly
+RUMO4025	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+RUMO4025	There is no longer a place for dreaming and imagination.	Disagree Strongly
+CNUK1072	Most university degrees are theoretical.	Agree Strongly
+CNUK1072	Most university degrees do not prepare students for the real world.	Disagree Strongly
+CNUK1072	Most university degrees are of very little value.	Disagree Strongly
+RUMO4028	The prison system is outdated.	Disagree Somewhat
+RUMO4028	No civilized society should punish its criminals.	Disagree Somewhat
+RUMO4028	Civilized societies should rehabilitate criminals.	Agree Strongly
+TSNO1122	The prison system is outdated.	Agree Strongly
+TSNO1122	No civilized society should punish its criminals.	Agree Strongly
+TSNO1122	Civilized societies should rehabilitate criminals.	Agree Strongly
+ITRS2021	Most university degrees are theoretical.	Agree Somewhat
+ITRS2021	Most university degrees do not prepare students for the real world.	Agree Somewhat
+ITRS2021	Most university degrees are of very little value.	Disagree Strongly
+ITRS2022	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+TRCU1144	Money is the root of all evil.	Agree Strongly
+TRCU1146	Money is the root of all evil.	Agree Strongly
+ITRS2018	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+ITRS2018	There is no longer a place for dreaming and imagination.	Agree Strongly
+TRCU1147	Most university degrees are theoretical.	Agree Strongly
+TRCU1147	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRCU1147	Most university degrees are of very little value.	Agree Strongly
+CNUK1003	Most university degrees are theoretical.	Agree Strongly
+CNUK1003	Most university degrees do not prepare students for the real world.	Disagree Strongly
+CNUK1003	Most university degrees are of very little value.	Disagree Somewhat
+CZPR4013	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+CZPR4013	There is no longer a place for dreaming and imagination.	Disagree Strongly
+CNUK1007	Television is the opium of the masses in modern society.	Agree Strongly
+CNUK1004	Most university degrees are theoretical.	Agree Strongly
+CNUK1004	Most university degrees do not prepare students for the real world.	Disagree Somewhat
+CNUK1004	Most university degrees are of very little value.	Agree Somewhat
+CNUK1005	Most university degrees are theoretical.	Agree Somewhat
+CNUK1005	Most university degrees do not prepare students for the real world.	Agree Strongly
+CNUK1005	Most university degrees are of very little value.	Agree Strongly
+TRCU1143	Money is the root of all evil.	Agree Strongly
+CZPR4005	Money is the root of all evil.	Disagree Strongly
+CNUK1015	Most university degrees are theoretical.	Agree Strongly
+CNUK1015	Most university degrees do not prepare students for the real world.	Agree Somewhat
+CNUK1015	Most university degrees are of very little value.	Agree Strongly
+SPM05015	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+SPM05015	There is no longer a place for dreaming and imagination.	Disagree Strongly
+TSNO1104	The prison system is outdated.	Agree Strongly
+TSNO1104	No civilized society should punish its criminals.	Agree Strongly
+TSNO1104	Civilized societies should rehabilitate criminals.	Agree Strongly
+CNUK1018	Television is the opium of the masses in modern society.	Agree Strongly
+TSNO1102	The prison system is outdated.	Agree Strongly
+TSNO1102	No civilized society should punish its criminals.	Agree Strongly
+TSNO1102	Civilized societies should rehabilitate criminals.	Agree Strongly
+CNUK1021	Television is the opium of the masses in modern society.	Agree Strongly
+TSNO1303	The prison system is outdated.	Disagree Strongly
+TSNO1303	No civilized society should punish its criminals.	Agree Strongly
+TSNO1303	Civilized societies should rehabilitate criminals.	Agree Strongly
+TRCU1172	Most university degrees are theoretical.	Agree Strongly
+TRCU1172	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRCU1172	Most university degrees are of very little value.	Agree Strongly
+TSNO1308	The prison system is outdated.	Never Addressed
+TSNO1308	No civilized society should punish its criminals.	Agree Strongly
+TSNO1308	Civilized societies should rehabilitate criminals.	Agree Strongly
+SWUL5017	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+SWUL5017	There is no longer a place for dreaming and imagination.	Disagree Strongly
+CNUK1028	Most university degrees are theoretical.	Agree Strongly
+CNUK1028	Most university degrees do not prepare students for the real world.	Agree Strongly
+CNUK1028	Most university degrees are of very little value.	Agree Somewhat
+CNUK1025	Television is the opium of the masses in modern society.	Agree Strongly
+BGSU1302	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+SPM05016	The prison system is outdated.	Never Addressed
+SPM05016	No civilized society should punish its criminals.	Agree Somewhat
+SPM05016	Civilized societies should rehabilitate criminals.	Agree Strongly
+SPM05017	Feminists have done more harm to the cause of women than good.	Disagree Somewhat
+ITRS2032	Feminists have done more harm to the cause of women than good.	Agree Somewhat
+ITRS2038	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+ITRS2038	There is no longer a place for dreaming and imagination.	Agree Strongly
+RUMO9012	Feminists have done more harm to the cause of women than good.	Disagree Strongly
+NOOS1022	Feminists have done more harm to the cause of women than good.	Disagree Strongly
+RUMO9014	Money is the root of all evil.	Agree Somewhat
+RUMO9010	Money is the root of all evil.	Disagree Somewhat
+NOOS1021	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+NOOS1021	There is no longer a place for dreaming and imagination.	Disagree Strongly
+TSNO1166	The prison system is outdated.	Agree Strongly
+TSNO1166	No civilized society should punish its criminals.	Agree Somewhat
+TSNO1166	Civilized societies should rehabilitate criminals.	Agree Strongly
+RUMO9007	The prison system is outdated.	Agree Strongly
+RUMO9007	No civilized society should punish its criminals.	Disagree Strongly
+RUMO9007	Civilized societies should rehabilitate criminals.	Agree Strongly
+SWUV3008	Money is the root of all evil.	Agree Strongly
+TSNO1161	The prison system is outdated.	Agree Strongly
+TSNO1161	No civilized society should punish its criminals.	Agree Strongly
+TSNO1161	Civilized societies should rehabilitate criminals.	Agree Strongly
+SWUV3004	Feminists have done more harm to the cause of women than good.	Disagree Strongly
+TSNO1157	The prison system is outdated.	Agree Strongly
+TSNO1157	No civilized society should punish its criminals.	Disagree Somewhat
+TSNO1157	Civilized societies should rehabilitate criminals.	Agree Strongly
+CNUK4007	Television is the opium of the masses in modern society.	Agree Somewhat
+CNUK4009	Most university degrees are theoretical.	Agree Strongly
+CNUK4009	Most university degrees do not prepare students for the real world.	Disagree Somewhat
+CNUK4009	Most university degrees are of very little value.	Disagree Strongly
+NOOS1041	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+NOOS1041	There is no longer a place for dreaming and imagination.	Disagree Strongly
+TSNO1145	The prison system is outdated.	Agree Strongly
+TSNO1145	No civilized society should punish its criminals.	Disagree Strongly
+TSNO1145	Civilized societies should rehabilitate criminals.	Agree Somewhat
+CNUK4011	Feminists have done more harm to the cause of women than good.	Agree Strongly
+CNUK4012	Most university degrees are theoretical.	Agree Strongly
+CNUK4012	Most university degrees do not prepare students for the real world.	Disagree Strongly
+CNUK4012	Most university degrees are of very little value.	Disagree Strongly
+CNUK4016	Television is the opium of the masses in modern society.	Agree Somewhat
+CNUK4015	Television is the opium of the masses in modern society.	Disagree Strongly
+CNUK4019	Television is the opium of the masses in modern society.	Agree Somewhat
+CNUK4018	Television is the opium of the masses in modern society.	Disagree Strongly
+TSNO1135	The prison system is outdated.	Agree Strongly
+TSNO1135	No civilized society should punish its criminals.	Agree Strongly
+TSNO1135	Civilized societies should rehabilitate criminals.	Agree Strongly
+CNUK4020	Most university degrees are theoretical.	Agree Strongly
+CNUK4020	Most university degrees do not prepare students for the real world.	Agree Strongly
+CNUK4020	Most university degrees are of very little value.	Agree Strongly
+CZPU1012	Money is the root of all evil.	Agree Strongly
+CZPU1011	Feminists have done more harm to the cause of women than good.	Disagree Strongly
+CNUK4023	Most university degrees are theoretical.	Agree Strongly
+CNUK4023	Most university degrees do not prepare students for the real world.	Disagree Strongly
+CNUK4023	Most university degrees are of very little value.	Disagree Strongly
+CNUK4024	Television is the opium of the masses in modern society.	Agree Strongly
+CNUK4022	Television is the opium of the masses in modern society.	Agree Somewhat
+CNUK1082	Television is the opium of the masses in modern society.	Disagree Strongly
+CNUK1080	Television is the opium of the masses in modern society.	Agree Strongly
+CNUK1084	Television is the opium of the masses in modern society.	Neutral
+CNUK4029	Television is the opium of the masses in modern society.	Disagree Strongly
+CNUK4025	Television is the opium of the masses in modern society.	Disagree Strongly
+CNUK4028	Television is the opium of the masses in modern society.	Agree Somewhat
+CNUK4033	Television is the opium of the masses in modern society.	Agree Strongly
+TSNO1397	The prison system is outdated.	Agree Strongly
+TSNO1397	No civilized society should punish its criminals.	Agree Strongly
+TSNO1397	Civilized societies should rehabilitate criminals.	Agree Strongly
+TSNO1398	The prison system is outdated.	Agree Strongly
+TSNO1398	No civilized society should punish its criminals.	Agree Somewhat
+TSNO1398	Civilized societies should rehabilitate criminals.	Agree Strongly
+CNUK1098	Television is the opium of the masses in modern society.	Neutral
+CNUK1097	Television is the opium of the masses in modern society.	Agree Strongly
+CNUK4036	Television is the opium of the masses in modern society.	Disagree Strongly
+SPM07006	All armies should consist entirely of professional soldiers.	Agree Strongly
+SPM07006	There is no value in a system of military service.	Agree Strongly
+NOOS1003	Most university degrees are theoretical.	Agree Strongly
+NOOS1003	Most university degrees do not prepare students for the real world.	Agree Strongly
+NOOS1003	Most university degrees are of very little value.	Agree Strongly
+SWUL4008	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+SWUL4008	There is no longer a place for dreaming and imagination.	Agree Somewhat
+NOOS1007	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+SWUL4001	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+SWUL4001	There is no longer a place for dreaming and imagination.	Disagree Strongly
+CNUK1099	Television is the opium of the masses in modern society.	Disagree Strongly
+NOOS1014	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+BGSU1177	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1177	There is no longer a place for dreaming and imagination.	Disagree Strongly
+DBAN2034	Money is the root of all evil.	Agree Strongly
+DBAN2033	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+DBAN2033	There is no longer a place for dreaming and imagination.	Agree Strongly
+BGSU1174	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+DBAN2032	Most university degrees are theoretical.	Agree Strongly
+DBAN2032	Most university degrees do not prepare students for the real world.	Agree Strongly
+DBAN2032	Most university degrees are of very little value.	Disagree Strongly
+BGSU1173	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+DBAN2036	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+DBAN2036	There is no longer a place for dreaming and imagination.	Disagree Somewhat
+DBAN2030	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+BGSU1179	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1179	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FRUL2018	The prison system is outdated.	Agree Strongly
+FRUL2018	No civilized society should punish its criminals.	Agree Somewhat
+FRUL2018	Civilized societies should rehabilitate criminals.	Agree Strongly
+FRUL2019	Religion was the opium of the masses.	Agree Strongly
+FRUL2019	Television is the opium of the masses.	Agree Strongly
+FRUB2022	Most university degrees are theoretical.	Agree Strongly
+FRUB2022	Most university degrees do not prepare students for the real world.	Agree Strongly
+FRUB2022	Most university degrees are of very little value.	Disagree Somewhat
+FRUL2014	Feminists have done more harm to the cause of women than good.	Agree Strongly
+BGSU1180	"All men are equal but some are more equal than others" holds true today.	Disagree Strongly
+FRUB2026	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUB2026	There is no longer a place for dreaming and imagination.	Agree Somewhat
+FRUL2017	Religion was the opium of the masses.	Agree Strongly
+FRUL2017	Television is the opium of the masses.	Agree Strongly
+FRUB2028	Feminists have done more harm to the cause of women than good.	Agree Strongly
+FRUL2011	Most university degrees are theoretical.	Agree Strongly
+FRUL2011	Most university degrees do not prepare students for the real world.	Disagree Strongly
+FRUL2011	Most university degrees are of very little value.	Disagree Strongly
+BGSU1165	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1165	There is no longer a place for dreaming and imagination.	Disagree Strongly
+DBAN2049	The prison system is outdated.	Agree Strongly
+DBAN2049	No civilized society should punish its criminals.	Disagree Somewhat
+DBAN2049	Civilized societies should rehabilitate criminals.	Agree Strongly
+DBAN2042	Feminists have done more harm to the cause of women than good.	Disagree Strongly
+FRUL2029	Religion was the opium of the masses.	Agree Strongly
+FRUL2029	Television is the opium of the masses.	Agree Strongly
+FRUL2028	Feminists have done more harm to the cause of women than good.	Disagree Strongly
+FRUL2026	Religion was the opium of the masses.	Agree Strongly
+FRUL2026	Television is the opium of the masses.	Agree Strongly
+FRUL2024	The prison system is outdated.	Agree Strongly
+FRUL2024	No civilized society should punish its criminals.	Agree Somewhat
+FRUL2024	Civilized societies should rehabilitate criminals.	Agree Strongly
+FRUL2021	Most university degrees are theoretical.	Agree Strongly
+FRUL2021	Most university degrees do not prepare students for the real world.	Agree Strongly
+FRUL2021	Most university degrees are of very little value.	Disagree Somewhat
+FRUL2022	Religion was the opium of the masses.	Agree Strongly
+FRUL2022	Television is the opium of the masses.	Agree Strongly
+BGSU1150	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1150	There is no longer a place for dreaming and imagination.	Agree Somewhat
+DBAN2013	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+DBAN2013	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1152	Most university degrees are theoretical.	Agree Strongly
+BGSU1152	Most university degrees do not prepare us for real life.	Agree Strongly
+BGSU1157	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1157	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FRUB2005	Money is the root of all evil.	Disagree Somewhat
+FRUB2002	Most university degrees are theoretical.	Agree Strongly
+FRUB2002	Most university degrees do not prepare students for the real world.	Disagree Strongly
+FRUB2002	Most university degrees are of very little value.	Disagree Strongly
+DBAN2018	The prison system is outdated.	Agree Strongly
+DBAN2018	No civilized society should punish its criminals.	Agree Strongly
+DBAN2018	Civilized societies should rehabilitate criminals.	Agree Strongly
+FRUB2003	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUB2003	There is no longer a place for dreaming and imagination.	Disagree Strongly
+DBAN2019	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+RUMO8005	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+RUMO8005	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1140	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1140	There is no longer a place for dreaming and imagination.	Disagree Strongly
+RUMO8004	Feminists have done more harm to the cause of women than good.	Disagree Strongly
+BGSU1142	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1142	There is no longer a place for dreaming and imagination.	Disagree Strongly
+DBAN2022	The prison system is outdated.	Agree Strongly
+DBAN2022	No civilized society should punish its criminals.	Disagree Somewhat
+DBAN2022	Civilized societies should rehabilitate criminals.	Agree Strongly
+BGSU1144	Our modern world is dominated by science, technology, and industrialization.	Never Addressed
+BGSU1144	There is no longer a place for dreaming and imagination.	Never Addressed
+FRUB2009	Feminists have done more harm to the cause of women than good.	Agree Strongly
+RUMO8008	Money is the root of all evil.	Disagree Somewhat
+FRUC3003	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUC3003	There is no longer a place for dreaming and imagination.	Disagree Strongly
+DBAN2023	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+DBAN2023	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1143	Most university degrees are theoretical.	Agree Strongly
+BGSU1143	Most university degrees do not prepare us for real life.	Agree Strongly
+BGSU1146	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1146	There is no longer a place for dreaming and imagination.	Agree Strongly
+BGSU1145	Most university degrees are theoretical.	Never Addressed
+BGSU1145	Most university degrees do not prepare us for real life.	Never Addressed
+DBAN2020	Money is the root of all evil.	Agree Somewhat
+FRUB2011	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUB2011	There is no longer a place for dreaming and imagination.	Agree Strongly
+FRUL2009	Religion was the opium of the masses.	Never Addressed
+FRUL2009	Television is the opium of the masses.	Agree Strongly
+FRUL2007	Religion was the opium of the masses.	Agree Strongly
+FRUL2007	Television is the opium of the masses.	Agree Strongly
+FRUL2002	Most university degrees are theoretical.	Agree Strongly
+FRUL2002	Most university degrees do not prepare students for the real world.	Agree Strongly
+FRUL2002	Most university degrees are of very little value.	Disagree Strongly
+RUMO8012	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+RUMO8012	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FRUL2005	Religion was the opium of the masses.	Neutral
+FRUL2005	Television is the opium of the masses.	Agree Strongly
+BGSU1138	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1138	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1139	Most university degrees are theoretical.	Agree Strongly
+BGSU1139	Most university degrees do not prepare us for real life.	Agree Strongly
+BGSU1136	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1136	There is no longer a place for dreaming and imagination.	Agree Somewhat
+BGSU1135	Most university degrees are theoretical.	Agree Strongly
+BGSU1135	Most university degrees do not prepare us for real life.	Disagree Strongly
+FRUC3015	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUC3015	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FRUC3014	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUC3014	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1130	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1130	There is no longer a place for dreaming and imagination.	Agree Strongly
+FRUC3009	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUC3009	There is no longer a place for dreaming and imagination.	Disagree Strongly
+RUMO1020	Most university degrees are theoretical.	Agree Strongly
+RUMO1020	Most university degrees do not prepare students for the real world.	Disagree Somewhat
+RUMO1020	Most university degrees are of very little value.	Disagree Strongly
+BGSU1127	Most university degrees are theoretical.	Never Addressed
+BGSU1127	Most university degrees do not prepare us for real life.	Agree Somewhat
+BGSU1129	Most university degrees are theoretical.	Agree Strongly
+BGSU1129	Most university degrees do not prepare us for real life.	Agree Strongly
+BGSU1123	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1123	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1124	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1124	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1125	Most university degrees are theoretical.	Never Addressed
+BGSU1125	Most university degrees do not prepare us for real life.	Agree Strongly
+FIJO1038	The prison system is outdated.	Agree Somewhat
+FIJO1038	No civilized society should punish its criminals.	Agree Somewhat
+FIJO1038	Civilized societies should rehabilitate criminals.	Agree Strongly
+DBAN2002	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+DBAN2002	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FIAB1009	Money is the root of all evil.	Agree Strongly
+BGSU1122	Most university degrees are theoretical.	Agree Strongly
+BGSU1122	Most university degrees do not prepare us for real life.	Agree Strongly
+CNUK3066	Television is the opium of the masses in modern society.	Neutral
+FRUC3028	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUC3028	There is no longer a place for dreaming and imagination.	Disagree Strongly
+DBAN2005	Money is the root of all evil.	Agree Strongly
+FIJO1036	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FIJO1036	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FRUC3029	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUC3029	There is no longer a place for dreaming and imagination.	Disagree Strongly
+DBAN2008	The prison system is outdated.	Agree Strongly
+DBAN2008	No civilized society should punish its criminals.	Agree Strongly
+DBAN2008	Civilized societies should rehabilitate criminals.	Agree Strongly
+BGSU1114	Most university degrees are theoretical.	Agree Strongly
+BGSU1114	Most university degrees do not prepare us for real life.	Agree Strongly
+BGSU1118	Most university degrees are theoretical.	Agree Somewhat
+BGSU1118	Most university degrees do not prepare us for real life.	Agree Strongly
+BGSU1119	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1119	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1110	Most university degrees are theoretical.	Agree Strongly
+BGSU1110	Most university degrees do not prepare us for real life.	Agree Strongly
+TSNO1496	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+TSNO1496	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1101	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1101	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1102	Most university degrees are theoretical.	Agree Strongly
+BGSU1102	Most university degrees do not prepare us for real life.	Agree Somewhat
+BGSU1104	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1104	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1105	Most university degrees are theoretical.	Disagree Somewhat
+BGSU1105	Most university degrees do not prepare us for real life.	Disagree Strongly
+BGSU1106	Most university degrees are theoretical.	Agree Strongly
+BGSU1106	Most university degrees do not prepare us for real life.	Disagree Strongly
+BGSU1107	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1107	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1108	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1108	There is no longer a place for dreaming and imagination.	Agree Somewhat
+FRUC3048	The prison system is outdated.	Agree Strongly
+FRUC3048	No civilized society should punish its criminals.	Agree Strongly
+FRUC3048	Civilized societies should rehabilitate criminals.	Agree Strongly
+BGSU1100	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1100	There is no longer a place for dreaming and imagination.	Disagree Somewhat
+RUMO1014	The prison system is outdated.	Agree Somewhat
+RUMO1014	No civilized society should punish its criminals.	Disagree Strongly
+RUMO1014	Civilized societies should rehabilitate criminals.	Agree Strongly
+NOUO1096	The prison system is outdated.	Agree Strongly
+NOUO1096	No civilized society should punish its criminals.	Disagree Strongly
+NOUO1096	Civilized societies should rehabilitate criminals.	Disagree Strongly
+NOUO1094	Feminists have done more harm to the cause of women than good.	Disagree Strongly
+BGSU1109	Most university degrees are theoretical.	Agree Somewhat
+BGSU1109	Most university degrees do not prepare us for real life.	Disagree Strongly
+NOUO1097	Most university degrees are theoretical.	Agree Strongly
+NOUO1097	Most university degrees do not prepare students for the real world.	Disagree Somewhat
+NOUO1097	Most university degrees are of very little value.	Disagree Somewhat
+TSNO1479	Most university degrees are theoretical.	Agree Somewhat
+TSNO1479	Most university degrees do not prepare students for the real world.	Agree Somewhat
+TSNO1479	Most university degrees are of very little value.	Agree Somewhat
+NOUO2031	Feminists have done more harm to the cause of women than good.	Disagree Strongly
+NOUO2035	The prison system is outdated.	Agree Strongly
+NOUO2035	No civilized society should punish its criminals.	Agree Somewhat
+NOUO2035	Civilized societies should rehabilitate criminals.	Agree Strongly
+FRUC3056	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUC3056	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FRUC3059	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+TSNO1482	Most university degrees are theoretical.	Agree Strongly
+TSNO1482	Most university degrees do not prepare students for the real world.	Agree Strongly
+TSNO1482	Most university degrees are of very little value.	Agree Strongly
+FRUC3053	The prison system is outdated.	Never Addressed
+FRUC3053	No civilized society should punish its criminals.	Never Addressed
+FRUC3053	Civilized societies should rehabilitate criminals.	Never Addressed
+FRUC3054	Crime does not pay.	Agree Strongly
+TSNO1485	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+TSNO1485	There is no longer a place for dreaming and imagination.	Agree Strongly
+TSNO1486	Most university degrees are theoretical.	Agree Strongly
+TSNO1486	Most university degrees do not prepare students for the real world.	Agree Strongly
+TSNO1486	Most university degrees are of very little value.	Disagree Strongly
+TSNO1488	Feminists have done more harm to the cause of women than good.	Agree Strongly
+NOUO2024	The prison system is outdated.	Agree Strongly
+NOUO2024	No civilized society should punish its criminals.	Agree Somewhat
+NOUO2024	Civilized societies should rehabilitate criminals.	Agree Strongly
+SPM04047	Money is the root of all evil.	Agree Strongly
+NOUO2023	All armies should consist entirely of professional soldiers.	Agree Strongly
+NOUO2023	There is no value in a system of military service.	Disagree Strongly
+NOUO2022	All armies should consist entirely of professional soldiers.	Agree Strongly
+NOUO2022	There is no value in a system of military service.	Agree Strongly
+NOUO2021	Crime does not pay.	Disagree Somewhat
+TSNO1403	The prison system is outdated.	Agree Strongly
+TSNO1403	No civilized society should punish its criminals.	Agree Strongly
+TSNO1403	Civilized societies should rehabilitate criminals.	Agree Strongly
+NOUO2025	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+NOUO2025	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FRUC3067	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUC3067	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FRUC3068	Feminists have done more harm to the cause of women than good.	Agree Strongly
+TSNO1493	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+TSNO1493	There is no longer a place for dreaming and imagination.	Agree Strongly
+TSNO1492	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+TSNO1492	There is no longer a place for dreaming and imagination.	Agree Strongly
+FRUC3060	All armies should consist entirely of professional soldiers.	Agree Strongly
+FRUC3060	There is no value in a system of military service.	Agree Strongly
+FRUC3065	Feminists have done more harm to the cause of women than good.	Disagree Strongly
+TSNO1490	Most university degrees are theoretical.	Agree Strongly
+TSNO1490	Most university degrees do not prepare students for the real world.	Agree Strongly
+TSNO1490	Most university degrees are of very little value.	Agree Strongly
+TSNO1455	Most university degrees are theoretical.	Agree Strongly
+TSNO1455	Most university degrees do not prepare students for the real world.	Agree Strongly
+TSNO1455	Most university degrees are of very little value.	Agree Strongly
+TSNO1457	Most university degrees are theoretical.	Agree Strongly
+TSNO1457	Most university degrees do not prepare students for the real world.	Agree Strongly
+TSNO1457	Most university degrees are of very little value.	Agree Somewhat
+CNUK1102	Most university degrees are theoretical.	Agree Somewhat
+CNUK1102	Most university degrees do not prepare students for the real world.	Disagree Somewhat
+CNUK1102	Most university degrees are of very little value.	Disagree Strongly
+CNUK1101	Television is the opium of the masses in modern society.	Disagree Strongly
+CNUK1103	Television is the opium of the masses in modern society.	Neutral
+FRUC3074	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUC3074	There is no longer a place for dreaming and imagination.	Disagree Strongly
+CNUK1107	Television is the opium of the masses in modern society.	Agree Somewhat
+FRUC3076	The prison system is outdated.	Agree Strongly
+FRUC3076	No civilized society should punish its criminals.	Agree Somewhat
+FRUC3076	Civilized societies should rehabilitate criminals.	Agree Strongly
+TSNO1462	Most university degrees are theoretical.	Agree Strongly
+TSNO1462	Most university degrees do not prepare students for the real world.	Agree Strongly
+TSNO1462	Most university degrees are of very little value.	Agree Strongly
+FRUC3070	All armies should consist entirely of professional soldiers.	Agree Strongly
+FRUC3070	There is no value in a system of military service.	Agree Somewhat
+TSNO1461	Most university degrees are theoretical.	Agree Strongly
+TSNO1461	Most university degrees do not prepare students for the real world.	Agree Strongly
+TSNO1461	Most university degrees are of very little value.	Agree Strongly
+FRUC3073	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUC3073	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FRUC3080	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+NOUO2047	Feminists have done more harm to the cause of women than good.	Disagree Strongly
+FRUC3089	The prison system is outdated.	Disagree Strongly
+FRUC3089	No civilized society should punish its criminals.	Disagree Strongly
+FRUC3089	Civilized societies should rehabilitate criminals.	Agree Somewhat
+FRUC3087	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUC3087	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FRUC3088	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUC3088	There is no longer a place for dreaming and imagination.	Agree Somewhat
+FRUC3085	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUC3085	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FRUC3086	The prison system is outdated.	Disagree Somewhat
+FRUC3086	No civilized society should punish its criminals.	Disagree Somewhat
+FRUC3086	Civilized societies should rehabilitate criminals.	Agree Strongly
+FRUC3081	The prison system is outdated.	Agree Strongly
+FRUC3081	No civilized society should punish its criminals.	Agree Strongly
+FRUC3081	Civilized societies should rehabilitate criminals.	Agree Strongly
+NOAC1016	The prison system is outdated.	Agree Strongly
+NOAC1016	No civilized society should punish its criminals.	Agree Somewhat
+NOAC1016	Civilized societies should rehabilitate criminals.	Agree Strongly
+NOAC1011	Our modern world is dominated by science, technology, and industrialization.	Agree Somewhat
+NOAC1011	There is no longer a place for dreaming and imagination.	Disagree Strongly
+SPM04010	All armies should consist entirely of professional soldiers.	Agree Strongly
+SPM04010	There is no value in a system of military service.	Agree Strongly
+TSNO1438	Feminists have done more harm to the cause of women than good.	Agree Strongly
+TSNO1435	Most university degrees are theoretical.	Never Addressed
+TSNO1435	Most university degrees do not prepare students for the real world.	Disagree Somewhat
+TSNO1435	Most university degrees are of very little value.	Disagree Strongly
+TSNO1434	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+TSNO1434	There is no longer a place for dreaming and imagination.	Agree Strongly
+TSNO1431	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+TSNO1431	There is no longer a place for dreaming and imagination.	Agree Strongly
+NOAC1017	The prison system is outdated.	Agree Strongly
+NOAC1017	No civilized society should punish its criminals.	Agree Strongly
+NOAC1017	Civilized societies should rehabilitate criminals.	Agree Strongly
+FRUC3091	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUC3091	There is no longer a place for dreaming and imagination.	Agree Strongly
+FRUC3093	Most university degrees are theoretical.	Agree Strongly
+FRUC3093	Most university degrees do not prepare students for the real world.	Disagree Strongly
+FRUC3093	Most university degrees are of very little value.	Disagree Strongly
+FRUC3092	Most university degrees are theoretical.	Agree Strongly
+FRUC3092	Most university degrees do not prepare students for the real world.	Disagree Strongly
+FRUC3092	Most university degrees are of very little value.	Disagree Strongly
+SPM03002	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+SPM03002	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FRUC3095	All armies should consist entirely of professional soldiers.	Agree Strongly
+FRUC3095	There is no value in a system of military service.	Agree Strongly
+FRUC3094	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUC3094	There is no longer a place for dreaming and imagination.	Disagree Strongly
+SPM04004	All armies should consist entirely of professional soldiers.	Agree Strongly
+SPM04004	There is no value in a system of military service.	Agree Strongly
+SPM04002	The prison system is outdated.	Agree Strongly
+SPM04002	No civilized society should punish its criminals.	Agree Somewhat
+SPM04002	Civilized societies should rehabilitate criminals.	Agree Somewhat
+NOAC1005	Crime does not pay.	Agree Strongly
+SPM04001	Most university degrees are theoretical.	Agree Strongly
+SPM04001	Most university degrees do not prepare students for the real world.	Agree Strongly
+SPM04001	Most university degrees are of very little value.	Agree Strongly
+NOAC1004	Crime does not pay.	Agree Somewhat
+TSNO1445	Most university degrees are theoretical.	Agree Strongly
+TSNO1445	Most university degrees do not prepare students for the real world.	Agree Strongly
+TSNO1445	Most university degrees are of very little value.	Agree Strongly
+TSNO1448	Feminists have done more harm to the cause of women than good.	Agree Strongly
+TSNO1442	Most university degrees are theoretical.	Never Addressed
+TSNO1442	Most university degrees do not prepare students for the real world.	Agree Strongly
+TSNO1442	Most university degrees are of very little value.	Agree Strongly
+NOUO2015	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+NOUO2015	There is no longer a place for dreaming and imagination.	Disagree Strongly
+SPM01016	Feminists have done more harm to the cause of women than good.	Disagree Strongly
+TSNO1416	The prison system is outdated.	Agree Strongly
+TSNO1416	No civilized society should punish its criminals.	Agree Strongly
+TSNO1416	Civilized societies should rehabilitate criminals.	Agree Strongly
+NOUO2017	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+NOUO2010	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+NOUO2013	Crime does not pay.	Agree Strongly
+SPM01013	Money is the root of all evil.	Disagree Strongly
+SPM03014	Money is the root of all evil.	Agree Strongly
+TSNO1410	The prison system is outdated.	Agree Strongly
+TSNO1410	No civilized society should punish its criminals.	Agree Strongly
+TSNO1410	Civilized societies should rehabilitate criminals.	Agree Strongly
+SPM03019	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+SPM03019	There is no longer a place for dreaming and imagination.	Disagree Strongly
+DBAN2051	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+DBAN2051	There is no longer a place for dreaming and imagination.	Disagree Strongly
+DBAN2052	The prison system is outdated.	Disagree Strongly
+DBAN2052	No civilized society should punish its criminals.	Disagree Strongly
+DBAN2052	Civilized societies should rehabilitate criminals.	Agree Strongly
+SPM04026	All armies should consist entirely of professional soldiers.	Agree Somewhat
+SPM04026	There is no value in a system of military service.	Agree Strongly
+BGSU1194	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+SPM04029	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+SPM04029	There is no longer a place for dreaming and imagination.	Agree Strongly
+NOUO2007	The prison system is outdated.	Disagree Somewhat
+NOUO2007	No civilized society should punish its criminals.	Disagree Somewhat
+NOUO2007	Civilized societies should rehabilitate criminals.	Agree Somewhat
+DBAN2057	Our modern world is dominated by science, technology, and industrialization.	Disagree Somewhat
+DBAN2057	There is no longer a place for dreaming and imagination.	Disagree Strongly
+NOUO2005	The prison system is outdated.	Disagree Strongly
+NOUO2005	No civilized society should punish its criminals.	Neutral
+NOUO2005	Civilized societies should rehabilitate criminals.	Neutral
+TSNO1428	Feminists have done more harm to the cause of women than good.	Agree Strongly
+NOUO2006	Feminists have done more harm to the cause of women than good.	Neutral
+NOAC1023	Crime does not pay.	Agree Strongly
+NOUO2003	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+NOUO2003	There is no longer a place for dreaming and imagination.	Disagree Strongly
+SPM01007	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+SPM01007	There is no longer a place for dreaming and imagination.	Disagree Strongly
+SPM03003	Money is the root of all evil.	Agree Strongly
+SPM01009	The prison system is outdated.	Agree Strongly
+SPM01009	No civilized society should punish its criminals.	Agree Strongly
+SPM01009	Civilized societies should rehabilitate criminals.	Agree Strongly
+SPM03007	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+SPM03007	There is no longer a place for dreaming and imagination.	Agree Strongly
+TSNO1426	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+TSNO1426	There is no longer a place for dreaming and imagination.	Disagree Strongly
+TSNO1425	Feminists have done more harm to the cause of women than good.	Agree Strongly
+BGSU1189	"All men are equal but some are more equal than others" holds true today.	Agree Somewhat
+SPM03013	All armies should consist entirely of professional soldiers.	Agree Strongly
+SPM03013	There is no value in a system of military service.	Agree Strongly
+BGSU1183	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+BGSU1184	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+SPM04015	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+SPM04015	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1187	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+BGSU1188	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1188	There is no longer a place for dreaming and imagination.	Disagree Strongly
+TRCU1051	Money is the root of all evil.	Agree Strongly
+FRUL1013	Most university degrees are theoretical.	Agree Strongly
+FRUL1013	Most university degrees do not prepare students for the real world.	Agree Strongly
+FRUL1013	Most university degrees are of very little value.	Agree Strongly
+TRCU1050	Money is the root of all evil.	Agree Somewhat
+POPZ1015	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+POPZ1015	There is no longer a place for dreaming and imagination.	Agree Strongly
+FRUL1015	"All men are equal but some are more equal than others" holds true today.	Disagree Strongly
+CZPR2022	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+CZPR2022	There is no longer a place for dreaming and imagination.	Agree Somewhat
+FRUL1016	Most university degrees are theoretical.	Agree Strongly
+FRUL1016	Most university degrees do not prepare students for the real world.	Agree Strongly
+FRUL1016	Most university degrees are of very little value.	Disagree Strongly
+TRCU1055	Money is the root of all evil.	Disagree Strongly
+TRCU1054	Money is the root of all evil.	Agree Strongly
+FRUL1010	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUL1010	There is no longer a place for dreaming and imagination.	Agree Somewhat
+POPZ1011	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+TRCU1053	Money is the root of all evil.	Agree Strongly
+FRUL1012	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUL1012	There is no longer a place for dreaming and imagination.	Disagree Strongly
+CZPR2027	Money is the root of all evil.	Disagree Somewhat
+CZPR2029	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+CZPR2029	There is no longer a place for dreaming and imagination.	Disagree Strongly
+CZPR2023	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+CZPR2023	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FRUL1017	Religion was the opium of the masses.	Agree Strongly
+FRUL1017	Television is the opium of the masses.	Agree Strongly
+CZPR2025	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+CZPR2025	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FIJY1031	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+FRUL1019	"All men are equal but some are more equal than others" holds true today.	Disagree Somewhat
+FIJY1030	Money is the root of all evil.	Disagree Strongly
+NOHO1022	Crime does not pay.	Agree Strongly
+FIJY1035	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FIJY1035	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FIJY1037	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+TRCU1058	Most university degrees are theoretical.	Agree Strongly
+TRCU1058	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRCU1058	Most university degrees are of very little value.	Agree Strongly
+NOHO1027	Crime does not pay.	Disagree Somewhat
+TRCU1059	Most university degrees are theoretical.	Agree Strongly
+TRCU1059	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRCU1059	Most university degrees are of very little value.	Agree Strongly
+TRCU1056	Money is the root of all evil.	Disagree Somewhat
+TRCU1057	Money is the root of all evil.	Neutral
+NOHO1024	Feminists have done more harm to the cause of women than good.	Agree Somewhat
+NOHO1023	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+NOHO1023	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FRUL1004	Religion was the opium of the masses.	Agree Strongly
+FRUL1004	Television is the opium of the masses.	Disagree Strongly
+FRUL1005	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+TRCU1040	Money is the root of all evil.	Neutral
+FRUL1003	Religion was the opium of the masses.	Never Addressed
+FRUL1003	Television is the opium of the masses.	Agree Strongly
+TRCU1042	Money is the root of all evil.	Neutral
+TRCU1041	Money is the root of all evil.	Disagree Somewhat
+TRCU1044	Money is the root of all evil.	Agree Strongly
+TRCU1043	Money is the root of all evil.	Agree Strongly
+CZPR2016	Most university degrees are theoretical.	Agree Strongly
+CZPR2016	Most university degrees do not prepare students for the real world.	Agree Strongly
+CZPR2016	Most university degrees are of very little value.	Agree Strongly
+CZPR2017	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+CZPR2017	There is no longer a place for dreaming and imagination.	Disagree Somewhat
+FIJY1042	Crime does not pay.	Disagree Somewhat
+CZPR2014	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+CZPR2014	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FRUL1009	Money is the root of all evil.	Agree Strongly
+FIJY1041	"All men are equal but some are more equal than others" holds true today.	Disagree Somewhat
+FRUL1006	Most university degrees are theoretical.	Agree Strongly
+FRUL1006	Most university degrees do not prepare students for the real world.	Agree Somewhat
+FRUL1006	Most university degrees are of very little value.	Disagree Strongly
+CZPR2013	Money is the root of all evil.	Disagree Strongly
+FRUL1007	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUL1007	There is no longer a place for dreaming and imagination.	Disagree Strongly
+NOHO1011	Most university degrees are theoretical.	Neutral
+NOHO1011	Most university degrees do not prepare students for the real world.	Neutral
+NOHO1011	Most university degrees are of very little value.	Disagree Strongly
+TSKC1349	Crime does not pay.	Agree Strongly
+FIJY1043	Feminists have done more harm to the cause of women than good.	Disagree Somewhat
+FIJY1044	Crime does not pay.	Agree Strongly
+TSKC1345	Crime does not pay.	Agree Strongly
+FIJY1047	Money is the root of all evil.	Agree Somewhat
+TRCU1045	Money is the root of all evil.	Disagree Somewhat
+NOHO1019	Most university degrees are theoretical.	Agree Somewhat
+NOHO1019	Most university degrees do not prepare students for the real world.	Disagree Somewhat
+NOHO1019	Most university degrees are of very little value.	Disagree Strongly
+TRCU1046	Money is the root of all evil.	Agree Somewhat
+NOHO1018	Most university degrees are theoretical.	Agree Strongly
+NOHO1018	Most university degrees do not prepare students for the real world.	Agree Somewhat
+NOHO1018	Most university degrees are of very little value.	Disagree Strongly
+TRCU1047	Money is the root of all evil.	Agree Strongly
+TRCU1048	Money is the root of all evil.	Agree Strongly
+SWUL3027	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+SWUL3027	There is no longer a place for dreaming and imagination.	Disagree Strongly
+TRCU1049	Money is the root of all evil.	Agree Strongly
+NOHO1013	Most university degrees are theoretical.	Agree Strongly
+NOHO1013	Most university degrees do not prepare students for the real world.	Agree Strongly
+NOHO1013	Most university degrees are of very little value.	Agree Strongly
+SWUL1001	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+SWUL1001	There is no longer a place for dreaming and imagination.	Disagree Strongly
+SWUL1005	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+SWUL1005	There is no longer a place for dreaming and imagination.	Disagree Strongly
+CZPR2044	All armies should consist entirely of professional soldiers.	Agree Strongly
+CZPR2044	There is no value in a system of military service.	Agree Strongly
+FIJY1050	Most university degrees are theoretical.	Disagree Strongly
+FIJY1050	Most university degrees do not prepare students for the real world.	Disagree Strongly
+FIJY1050	Most university degrees are of very little value.	Disagree Strongly
+CZPR2047	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+CZPR2047	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FIJY1053	All armies should consist entirely of professional soldiers.	Agree Strongly
+FIJY1053	There is no value in a system of military service.	Agree Somewhat
+FIJY1058	Money is the root of all evil.	Agree Somewhat
+NOHO1042	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+NOHO1042	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FIJY1055	Money is the root of all evil.	Agree Strongly
+FIJY1056	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FIJY1056	There is no longer a place for dreaming and imagination.	Disagree Strongly
+NOHO1044	Feminists have done more harm to the cause of women than good.	Disagree Strongly
+DBAN3017	Feminists have done more harm to the cause of women than good.	Disagree Strongly
+FIJY1057	All armies should consist entirely of professional soldiers.	Disagree Somewhat
+FIJY1057	There is no value in a system of military service.	Disagree Strongly
+NOHO1043	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+NOHO1046	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+NOHO1046	There is no longer a place for dreaming and imagination.	Disagree Strongly
+NOHO1045	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+NOHO1045	There is no longer a place for dreaming and imagination.	Disagree Strongly
+CZKR1001	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+CZKR1001	There is no longer a place for dreaming and imagination.	Disagree Somewhat
+POPZ1003	The prison system is outdated.	Agree Strongly
+POPZ1003	No civilized society should punish its criminals.	Agree Strongly
+POPZ1003	Civilized societies should rehabilitate criminals.	Agree Strongly
+POPZ1001	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+POPZ1001	There is no longer a place for dreaming and imagination.	Disagree Strongly
+POPZ1007	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+POPZ1006	Most university degrees are theoretical.	Agree Strongly
+POPZ1006	Most university degrees do not prepare students for the real world.	Agree Strongly
+POPZ1006	Most university degrees are of very little value.	Agree Somewhat
+CZPR2030	Money is the root of all evil.	Agree Somewhat
+CZPR2031	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+CZPR2031	There is no longer a place for dreaming and imagination.	Disagree Strongly
+POPZ1004	The prison system is outdated.	Disagree Strongly
+POPZ1004	No civilized society should punish its criminals.	Disagree Strongly
+POPZ1004	Civilized societies should rehabilitate criminals.	Disagree Strongly
+FIJY1063	Money is the root of all evil.	Disagree Strongly
+FIJY1062	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+FIJY1061	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FIJY1061	There is no longer a place for dreaming and imagination.	Disagree Strongly
+CZPR2039	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+CZPR2039	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FIJY1069	All armies should consist entirely of professional soldiers.	Agree Strongly
+FIJY1069	There is no value in a system of military service.	Disagree Somewhat
+DBAN3006	The prison system is outdated.	Agree Strongly
+DBAN3006	No civilized society should punish its criminals.	Disagree Somewhat
+DBAN3006	Civilized societies should rehabilitate criminals.	Agree Somewhat
+FIJY1065	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FIJY1065	There is no longer a place for dreaming and imagination.	Disagree Strongly
+NOHO1030	Crime does not pay.	Disagree Somewhat
+NOHO1037	Crime does not pay.	Disagree Somewhat
+SWUL3003	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+SWUL3003	There is no longer a place for dreaming and imagination.	Disagree Strongly
+POPZ1008	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+SWUL3006	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+SWUL3006	There is no longer a place for dreaming and imagination.	Disagree Strongly
+NOHO1038	All armies should consist entirely of professional soldiers.	Agree Somewhat
+NOHO1038	There is no value in a system of military service.	Agree Somewhat
+FIJY1070	Money is the root of all evil.	Agree Strongly
+FIJY1071	All armies should consist entirely of professional soldiers.	Agree Somewhat
+FIJY1071	There is no value in a system of military service.	Disagree Strongly
+FIJY1074	All armies should consist entirely of professional soldiers.	Disagree Somewhat
+FIJY1074	There is no value in a system of military service.	Disagree Somewhat
+FIJY1075	Feminists have done more harm to the cause of women than good.	Disagree Strongly
+CZUN1006	All armies should consist entirely of professional soldiers.	Agree Strongly
+CZUN1006	There is no value in a system of military service.	Disagree Strongly
+CZUN1005	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+CZUN1005	There is no longer a place for dreaming and imagination.	Disagree Strongly
+TRME3027	Most university degrees are theoretical.	Agree Strongly
+TRME3027	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRME3027	Most university degrees are of very little value.	Agree Strongly
+TRME3028	Most university degrees are theoretical.	Agree Somewhat
+TRME3028	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRME3028	Most university degrees are of very little value.	Never Addressed
+TRME3029	Most university degrees are theoretical.	Agree Strongly
+TRME3029	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRME3029	Most university degrees are of very little value.	Agree Somewhat
+FIJY1077	Crime does not pay.	Agree Somewhat
+TRME3023	Most university degrees are theoretical.	Agree Strongly
+TRME3023	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRME3023	Most university degrees are of very little value.	Agree Strongly
+TRME3024	Most university degrees are theoretical.	Agree Strongly
+TRME3024	Most university degrees do not prepare students for the real world.	Disagree Strongly
+TRME3024	Most university degrees are of very little value.	Disagree Strongly
+TRME3026	Most university degrees are theoretical.	Agree Strongly
+TRME3026	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRME3026	Most university degrees are of very little value.	Disagree Strongly
+FIJY1078	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FIJY1078	There is no longer a place for dreaming and imagination.	Disagree Strongly
+TRME3020	Most university degrees are theoretical.	Agree Somewhat
+TRME3020	Most university degrees do not prepare students for the real world.	Disagree Strongly
+TRME3020	Most university degrees are of very little value.	Disagree Strongly
+TRME3021	Most university degrees are theoretical.	Agree Strongly
+TRME3021	Most university degrees do not prepare students for the real world.	Disagree Strongly
+TRME3021	Most university degrees are of very little value.	Disagree Strongly
+CZUN1009	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+FIJY1080	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FIJY1080	There is no longer a place for dreaming and imagination.	Disagree Strongly
+CZPR2057	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+CZPR2057	There is no longer a place for dreaming and imagination.	Disagree Strongly
+CZKR1005	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+CZKR1005	There is no longer a place for dreaming and imagination.	Disagree Strongly
+CZKR1003	All armies should consist entirely of professional soldiers.	Agree Strongly
+CZKR1003	There is no value in a system of military service.	Agree Strongly
+CZKR1004	All armies should consist entirely of professional soldiers.	Neutral
+CZKR1004	There is no value in a system of military service.	Agree Strongly
+CZPR2051	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+CZPR2051	There is no longer a place for dreaming and imagination.	Agree Somewhat
+CZKR1009	Money is the root of all evil.	Disagree Somewhat
+CZKR1007	Feminists have done more harm to the cause of women than good.	Disagree Strongly
+RUMO6008	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+RUMO6008	There is no longer a place for dreaming and imagination.	Disagree Strongly
+RUMO6006	Money is the root of all evil.	Agree Strongly
+TRME3018	Most university degrees are theoretical.	Agree Strongly
+TRME3018	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRME3018	Most university degrees are of very little value.	Agree Strongly
+TRME3019	Most university degrees are theoretical.	Agree Strongly
+TRME3019	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRME3019	Most university degrees are of very little value.	Disagree Strongly
+RUMO6003	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+RUMO6003	There is no longer a place for dreaming and imagination.	Disagree Strongly
+RUMO6002	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+RUMO6002	There is no longer a place for dreaming and imagination.	Disagree Strongly
+RUMO6001	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+RUMO6001	There is no longer a place for dreaming and imagination.	Disagree Strongly
+TRME3015	Most university degrees are theoretical.	Agree Strongly
+TRME3015	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRME3015	Most university degrees are of very little value.	Agree Strongly
+TRME3012	Most university degrees are theoretical.	Agree Strongly
+TRME3012	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRME3012	Most university degrees are of very little value.	Agree Strongly
+TRME3013	Most university degrees are theoretical.	Agree Strongly
+TRME3013	Most university degrees do not prepare students for the real world.	Disagree Strongly
+TRME3013	Most university degrees are of very little value.	Disagree Strongly
+TRME3010	Most university degrees are theoretical.	Agree Strongly
+TRME3010	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRME3010	Most university degrees are of very little value.	Agree Strongly
+TRME3011	Most university degrees are theoretical.	Agree Strongly
+TRME3011	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRME3011	Most university degrees are of very little value.	Agree Strongly
+BGSU1211	"All men are equal but some are more equal than others" holds true today.	Agree Somewhat
+BGSU1212	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1212	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1213	Our modern world is dominated by science, technology, and industrialization.	Disagree Somewhat
+BGSU1213	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1216	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1216	There is no longer a place for dreaming and imagination.	Disagree Strongly
+TSNO1006	The prison system is outdated.	Agree Strongly
+TSNO1006	No civilized society should punish its criminals.	Agree Strongly
+TSNO1006	Civilized societies should rehabilitate criminals.	Agree Strongly
+BGSU1217	Most university degrees are theoretical.	Agree Strongly
+BGSU1217	Most university degrees do not prepare us for real life.	Disagree Somewhat
+FRUL1034	Feminists have done more harm to the cause of women than good.	Disagree Strongly
+TSNO1009	The prison system is outdated.	Agree Strongly
+TSNO1009	No civilized society should punish its criminals.	Agree Strongly
+TSNO1009	Civilized societies should rehabilitate criminals.	Agree Strongly
+FRUL1033	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUL1033	There is no longer a place for dreaming and imagination.	Disagree Strongly
+TRCU1072	Most university degrees are theoretical.	Agree Somewhat
+TRCU1072	Most university degrees do not prepare students for the real world.	Disagree Strongly
+TRCU1072	Most university degrees are of very little value.	Disagree Strongly
+FRUL1035	The prison system is outdated.	Disagree Strongly
+FRUL1035	No civilized society should punish its criminals.	Disagree Strongly
+FRUL1035	Civilized societies should rehabilitate criminals.	Agree Strongly
+TRCU1073	Most university degrees are theoretical.	Agree Strongly
+TRCU1073	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRCU1073	Most university degrees are of very little value.	Disagree Strongly
+TRCU1070	Most university degrees are theoretical.	Agree Strongly
+TRCU1070	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRCU1070	Most university degrees are of very little value.	Agree Strongly
+TRCU1071	Most university degrees are theoretical.	Agree Strongly
+TRCU1071	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRCU1071	Most university degrees are of very little value.	Disagree Strongly
+TRME3006	Most university degrees are theoretical.	Agree Strongly
+TRME3006	Most university degrees do not prepare students for the real world.	Disagree Strongly
+TRME3006	Most university degrees are of very little value.	Disagree Strongly
+TRME3007	Most university degrees are theoretical.	Agree Strongly
+TRME3007	Most university degrees do not prepare students for the real world.	Disagree Strongly
+TRME3007	Most university degrees are of very little value.	Agree Strongly
+TRME3008	Most university degrees are theoretical.	Agree Strongly
+TRME3008	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRME3008	Most university degrees are of very little value.	Agree Somewhat
+CZUN1028	Money is the root of all evil.	Agree Strongly
+TRME3001	Most university degrees are theoretical.	Agree Strongly
+TRME3001	Most university degrees do not prepare students for the real world.	Disagree Strongly
+TRME3001	Most university degrees are of very little value.	Disagree Strongly
+TSNO1011	The prison system is outdated.	Agree Strongly
+TSNO1011	No civilized society should punish its criminals.	Agree Strongly
+TSNO1011	Civilized societies should rehabilitate criminals.	Agree Strongly
+TRME3002	Most university degrees are theoretical.	Agree Strongly
+TRME3002	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRME3002	Most university degrees are of very little value.	Agree Strongly
+TRME3003	Most university degrees are theoretical.	Agree Strongly
+TRME3003	Most university degrees do not prepare students for the real world.	Disagree Strongly
+TRME3003	Most university degrees are of very little value.	Disagree Strongly
+FRUL1029	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUL1029	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1200	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+FRUL1028	Religion was the opium of the masses.	Agree Strongly
+FRUL1028	Television is the opium of the masses.	Agree Strongly
+BGSU1205	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1205	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FRUL1023	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUL1023	There is no longer a place for dreaming and imagination.	Agree Somewhat
+FRUL1022	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUL1022	There is no longer a place for dreaming and imagination.	Disagree Strongly
+TRCU1064	Most university degrees are theoretical.	Agree Strongly
+TRCU1064	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRCU1064	Most university degrees are of very little value.	Agree Strongly
+POPZ1044	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+POPZ1044	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FRUL1021	Most university degrees are theoretical.	Agree Somewhat
+FRUL1021	Most university degrees do not prepare students for the real world.	Agree Strongly
+FRUL1021	Most university degrees are of very little value.	Disagree Strongly
+TRCU1065	Most university degrees are theoretical.	Agree Strongly
+TRCU1065	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRCU1065	Most university degrees are of very little value.	Agree Strongly
+FRUL1027	Feminists have done more harm to the cause of women than good.	Disagree Somewhat
+FRUL1026	Religion was the opium of the masses.	Agree Strongly
+FRUL1026	Television is the opium of the masses.	Agree Strongly
+TRCU1060	Most university degrees are theoretical.	Agree Strongly
+TRCU1060	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRCU1060	Most university degrees are of very little value.	Disagree Somewhat
+FRUL1025	The prison system is outdated.	Agree Somewhat
+FRUL1025	No civilized society should punish its criminals.	Disagree Strongly
+FRUL1025	Civilized societies should rehabilitate criminals.	Disagree Strongly
+FRUL1024	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUL1024	There is no longer a place for dreaming and imagination.	Disagree Strongly
+TRCU1062	Most university degrees are theoretical.	Agree Strongly
+TRCU1062	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRCU1062	Most university degrees are of very little value.	Agree Strongly
+TRCU1068	Most university degrees are theoretical.	Agree Strongly
+TRCU1068	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRCU1068	Most university degrees are of very little value.	Agree Strongly
+FRUL1030	The prison system is outdated.	Agree Strongly
+FRUL1030	No civilized society should punish its criminals.	Disagree Strongly
+FRUL1030	Civilized societies should rehabilitate criminals.	Disagree Strongly
+BGSU1208	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1208	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FIAB3005	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FIAB3005	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FIAB3003	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FIAB3003	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FIAB3004	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FIAB3004	There is no longer a place for dreaming and imagination.	Disagree Strongly
+NOUO1052	Most university degrees are theoretical.	Agree Strongly
+NOUO1052	Most university degrees do not prepare students for the real world.	Agree Strongly
+NOUO1052	Most university degrees are of very little value.	Agree Strongly
+NOUO1053	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+NOUO1055	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+NOUO1058	Most university degrees are theoretical.	Agree Strongly
+NOUO1058	Most university degrees do not prepare students for the real world.	Disagree Strongly
+NOUO1058	Most university degrees are of very little value.	Disagree Strongly
+ITVE3003	Most university degrees are theoretical.	Agree Strongly
+ITVE3003	Most university degrees do not prepare students for the real world.	Agree Somewhat
+ITVE3003	Most university degrees are of very little value.	Disagree Strongly
+ITVE3001	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+ITVE3001	There is no longer a place for dreaming and imagination.	Disagree Strongly
+ITVE3002	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+ITVE3002	There is no longer a place for dreaming and imagination.	Agree Strongly
+FIHE1008	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FIHE1008	There is no longer a place for dreaming and imagination.	Disagree Strongly
+TSNO1022	The prison system is outdated.	Agree Strongly
+TSNO1022	No civilized society should punish its criminals.	Agree Strongly
+TSNO1022	Civilized societies should rehabilitate criminals.	Agree Strongly
+FIHE1003	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FIHE1003	There is no longer a place for dreaming and imagination.	Disagree Strongly
+TSNO1012	The prison system is outdated.	Never Addressed
+TSNO1012	No civilized society should punish its criminals.	Disagree Strongly
+TSNO1012	Civilized societies should rehabilitate criminals.	Agree Strongly
+NOUO1072	Most university degrees are theoretical.	Agree Strongly
+NOUO1072	Most university degrees do not prepare students for the real world.	Agree Strongly
+NOUO1072	Most university degrees are of very little value.	Disagree Strongly
+NOUO1073	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+NOUO1073	There is no longer a place for dreaming and imagination.	Disagree Strongly
+TSNO1050	The prison system is outdated.	Disagree Strongly
+TSNO1050	No civilized society should punish its criminals.	Agree Strongly
+TSNO1050	Civilized societies should rehabilitate criminals.	Agree Strongly
+NOUO1074	Most university degrees are theoretical.	Agree Strongly
+NOUO1074	Most university degrees do not prepare students for the real world.	Disagree Strongly
+NOUO1074	Most university degrees are of very little value.	Disagree Strongly
+RUMO6014	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+RUMO6014	There is no longer a place for dreaming and imagination.	Disagree Strongly
+NOUO1075	Crime does not pay.	Agree Strongly
+NOUO1078	All armies should consist entirely of professional soldiers.	Agree Strongly
+NOUO1078	There is no value in a system of military service.	Agree Strongly
+TRME3030	Most university degrees are theoretical.	Agree Strongly
+TRME3030	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRME3030	Most university degrees are of very little value.	Agree Strongly
+NOUO1083	Most university degrees are theoretical.	Agree Strongly
+NOUO1083	Most university degrees do not prepare students for the real world.	Disagree Somewhat
+NOUO1083	Most university degrees are of very little value.	Disagree Strongly
+NOUO1086	All armies should consist entirely of professional soldiers.	Agree Somewhat
+NOUO1086	There is no value in a system of military service.	Disagree Somewhat
+NOUO1087	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+TSNO1039	The prison system is outdated.	Disagree Strongly
+TSNO1039	No civilized society should punish its criminals.	Disagree Strongly
+TSNO1039	Civilized societies should rehabilitate criminals.	Disagree Strongly
+TSKC1374	The prison system is outdated.	Agree Strongly
+TSKC1374	No civilized society should punish its criminals.	Agree Somewhat
+TSKC1374	Civilized societies should rehabilitate criminals.	Agree Strongly
+TSNO1269	The prison system is outdated.	Agree Strongly
+TSNO1269	No civilized society should punish its criminals.	Agree Strongly
+TSNO1269	Civilized societies should rehabilitate criminals.	Agree Strongly
+DBAN3038	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+DBAN3034	Feminists have done more harm to the cause of women than good.	Disagree Somewhat
+NOUO1009	Crime does not pay.	Never Addressed
+FIJY1008	Crime does not pay.	Agree Somewhat
+NOUO1027	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+NOUO1027	There is no longer a place for dreaming and imagination.	Disagree Strongly
+NOUO1025	Feminists have done more harm to the cause of women than good.	Disagree Strongly
+DBAN3027	The prison system is outdated.	Agree Somewhat
+DBAN3027	No civilized society should punish its criminals.	Disagree Strongly
+DBAN3027	Civilized societies should rehabilitate criminals.	Agree Strongly
+FIJY1002	All armies should consist entirely of professional soldiers.	Disagree Strongly
+FIJY1002	There is no value in a system of military service.	Disagree Strongly
+TSNO1064	The prison system is outdated.	Agree Strongly
+TSNO1064	No civilized society should punish its criminals.	Agree Strongly
+TSNO1064	Civilized societies should rehabilitate criminals.	Agree Strongly
+FIJY1001	All armies should consist entirely of professional soldiers.	Agree Strongly
+FIJY1001	There is no value in a system of military service.	Disagree Strongly
+DBAN3024	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+DBAN3024	There is no longer a place for dreaming and imagination.	Disagree Strongly
+CZPR3061	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+CZPR3061	There is no longer a place for dreaming and imagination.	Disagree Strongly
+NOUO1018	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+NOUO1018	There is no longer a place for dreaming and imagination.	Disagree Strongly
+ITRS1013	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+ITRS1013	There is no longer a place for dreaming and imagination.	Disagree Somewhat
+NOHO1003	Most university degrees are theoretical.	Neutral
+NOHO1003	Most university degrees do not prepare students for the real world.	Neutral
+NOHO1003	Most university degrees are of very little value.	Disagree Strongly
+NOUO1035	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+NOUO1035	There is no longer a place for dreaming and imagination.	Disagree Strongly
+NOHO1004	Most university degrees are theoretical.	Agree Strongly
+NOHO1004	Most university degrees do not prepare students for the real world.	Agree Strongly
+NOHO1004	Most university degrees are of very little value.	Agree Strongly
+ITRS1015	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+ITRS1015	There is no longer a place for dreaming and imagination.	Disagree Somewhat
+NOHO1001	Most university degrees are theoretical.	Agree Strongly
+NOHO1001	Most university degrees do not prepare students for the real world.	Agree Somewhat
+NOHO1001	Most university degrees are of very little value.	Disagree Strongly
+NOHO1002	Most university degrees are theoretical.	Agree Strongly
+NOHO1002	Most university degrees do not prepare students for the real world.	Disagree Strongly
+NOHO1002	Most university degrees are of very little value.	Disagree Strongly
+NOUO1032	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+NOUO1032	There is no longer a place for dreaming and imagination.	Disagree Strongly
+NOUO1031	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+NOUO1031	There is no longer a place for dreaming and imagination.	Disagree Strongly
+TSNO1090	The prison system is outdated.	Agree Strongly
+TSNO1090	No civilized society should punish its criminals.	Agree Somewhat
+TSNO1090	Civilized societies should rehabilitate criminals.	Agree Somewhat
+NOUO1033	All armies should consist entirely of professional soldiers.	Agree Somewhat
+NOUO1033	There is no value in a system of military service.	Agree Somewhat
+FIHE1012	All armies should consist entirely of professional soldiers.	Agree Strongly
+FIHE1012	There is no value in a system of military service.	Agree Somewhat
+FIJY1017	All armies should consist entirely of professional soldiers.	Agree Strongly
+FIJY1017	There is no value in a system of military service.	Agree Somewhat
+FIJY1016	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FIJY1016	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FIHE1013	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FIHE1013	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FIHE1014	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FIHE1014	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FIJY1015	All armies should consist entirely of professional soldiers.	Neutral
+FIJY1015	There is no value in a system of military service.	Disagree Strongly
+FIJY1013	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+FIJY1010	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FIJY1010	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FIHE1019	Most university degrees are theoretical.	Agree Strongly
+FIHE1019	Most university degrees do not prepare students for the real world.	Agree Strongly
+FIHE1019	Most university degrees are of very little value.	Agree Somewhat
+CZPR2001	Feminists have done more harm to the cause of women than good.	Agree Strongly
+FIHE1022	Most university degrees are theoretical.	Agree Strongly
+FIHE1022	Most university degrees do not prepare students for the real world.	Disagree Strongly
+FIHE1022	Most university degrees are of very little value.	Disagree Strongly
+CZPR2005	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+CZPR2005	There is no longer a place for dreaming and imagination.	Disagree Strongly
+NOUO1048	Crime does not pay.	Disagree Strongly
+NOUO1046	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+NOUO1043	All armies should consist entirely of professional soldiers.	Disagree Strongly
+NOUO1043	There is no value in a system of military service.	Disagree Strongly
+NOUO1042	Feminists have done more harm to the cause of women than good.	Disagree Strongly
+FIJY1026	Crime does not pay.	Agree Strongly
+FIHE1025	All armies should consist entirely of professional soldiers.	Agree Strongly
+FIHE1025	There is no value in a system of military service.	Agree Strongly
+NOUO1041	"All men are equal but some are more equal than others" holds true today.	Agree Somewhat
+NOUO1040	The prison system is outdated.	Disagree Somewhat
+NOUO1040	No civilized society should punish its criminals.	Disagree Strongly
+NOUO1040	Civilized societies should rehabilitate criminals.	Agree Strongly
+FIHE1026	The prison system is outdated.	Agree Strongly
+FIHE1026	No civilized society should punish its criminals.	Agree Strongly
+FIHE1026	Civilized societies should rehabilitate criminals.	Agree Strongly
+FIJY1028	Crime does not pay.	Agree Strongly
+FIJY1027	Money is the root of all evil.	Disagree Strongly
+DBAN3047	"All men are equal but some are more equal than others" holds true today.	Agree Somewhat
+DBAN3049	The prison system is outdated.	Agree Strongly
+DBAN3049	No civilized society should punish its criminals.	Disagree Somewhat
+DBAN3049	Civilized societies should rehabilitate criminals.	Agree Somewhat
+ITRS1005	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+BGSU1037	Most university degrees are theoretical.	Agree Somewhat
+BGSU1037	Most university degrees do not prepare us for real life.	Disagree Somewhat
+BGSU1036	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1036	There is no longer a place for dreaming and imagination.	Agree Strongly
+CZPR3027	Money is the root of all evil.	Agree Strongly
+BGSU1035	Most university degrees are theoretical.	Agree Somewhat
+BGSU1035	Most university degrees do not prepare us for real life.	Disagree Strongly
+BGSU1030	Most university degrees are theoretical.	Agree Strongly
+BGSU1030	Most university degrees do not prepare us for real life.	Disagree Strongly
+RUMO9001	All armies should consist entirely of professional soldiers.	Agree Somewhat
+RUMO9001	There is no value in a system of military service.	Agree Strongly
+SPM10007	Most university degrees are theoretical.	Agree Strongly
+SPM10007	Most university degrees do not prepare students for the real world.	Agree Strongly
+SPM10007	Most university degrees are of very little value.	Agree Strongly
+BGSU1034	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1034	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1031	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1031	There is no longer a place for dreaming and imagination.	Disagree Strongly
+RUMO3013	Money is the root of all evil.	Disagree Strongly
+RUMO3012	Our modern world is dominated by science, technology, and industrialization.	Disagree Somewhat
+RUMO3012	There is no longer a place for dreaming and imagination.	Disagree Strongly
+SWUL4032	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+SWUL4032	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1024	Most university degrees are theoretical.	Agree Strongly
+BGSU1024	Most university degrees do not prepare us for real life.	Disagree Somewhat
+BGSU1026	Most university degrees are theoretical.	Agree Strongly
+BGSU1026	Most university degrees do not prepare us for real life.	Disagree Strongly
+BGSU1028	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1028	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1021	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1021	There is no longer a place for dreaming and imagination.	Disagree Strongly
+RUMO3004	Most university degrees are theoretical.	Agree Strongly
+RUMO3004	Most university degrees do not prepare students for the real world.	Agree Somewhat
+RUMO3004	Most university degrees are of very little value.	Agree Somewhat
+RUMO3005	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+RUMO3005	There is no longer a place for dreaming and imagination.	Disagree Strongly
+SWUL6003	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+SWUL6003	There is no longer a place for dreaming and imagination.	Disagree Strongly
+RUMO3001	The prison system is outdated.	Agree Strongly
+RUMO3001	No civilized society should punish its criminals.	Agree Strongly
+RUMO3001	Civilized societies should rehabilitate criminals.	Agree Strongly
+RUMO3006	All armies should consist entirely of professional soldiers.	Agree Strongly
+RUMO3006	There is no value in a system of military service.	Agree Strongly
+RUMO3008	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+RUMO3008	There is no longer a place for dreaming and imagination.	Disagree Strongly
+RUMO2003	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+BGSU1059	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1059	There is no longer a place for dreaming and imagination.	Disagree Strongly
+RUMO2004	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+RUMO2004	There is no longer a place for dreaming and imagination.	Disagree Strongly
+CZPR3048	The prison system is outdated.	Agree Strongly
+CZPR3048	No civilized society should punish its criminals.	Disagree Strongly
+CZPR3048	Civilized societies should rehabilitate criminals.	Agree Somewhat
+BGSU1058	Most university degrees are theoretical.	Agree Strongly
+BGSU1058	Most university degrees do not prepare us for real life.	Agree Strongly
+CZPR3049	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+CZPR3049	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1057	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1057	There is no longer a place for dreaming and imagination.	Disagree Strongly
+RUMO2002	The prison system is outdated.	Agree Strongly
+RUMO2002	No civilized society should punish its criminals.	Disagree Somewhat
+RUMO2002	Civilized societies should rehabilitate criminals.	Agree Strongly
+RUMO2007	All armies should consist entirely of professional soldiers.	Disagree Strongly
+RUMO2007	There is no value in a system of military service.	Disagree Strongly
+BGSU1054	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1054	There is no longer a place for dreaming and imagination.	Disagree Strongly
+RUMO2005	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+RUMO2005	There is no longer a place for dreaming and imagination.	Disagree Strongly
+RUMO2006	The prison system is outdated.	Agree Strongly
+RUMO2006	No civilized society should punish its criminals.	Agree Somewhat
+RUMO2006	Civilized societies should rehabilitate criminals.	Agree Strongly
+BGSU1053	"All men are equal but some are more equal than others" holds true today.	Agree Somewhat
+BGSU1052	Most university degrees are theoretical.	Agree Strongly
+BGSU1052	Most university degrees do not prepare us for real life.	Neutral
+BGSU1051	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1051	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1050	Most university degrees are theoretical.	Agree Strongly
+BGSU1050	Most university degrees do not prepare us for real life.	Never Addressed
+RUMO2009	Most university degrees are theoretical.	Agree Strongly
+RUMO2009	Most university degrees do not prepare students for the real world.	Agree Strongly
+RUMO2009	Most university degrees are of very little value.	Disagree Strongly
+SWUL4017	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+SWUL4017	There is no longer a place for dreaming and imagination.	Disagree Strongly
+SWUL4018	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+SWUL4018	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1049	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1049	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1042	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1042	There is no longer a place for dreaming and imagination.	Disagree Somewhat
+BGSU1045	Most university degrees are theoretical.	Disagree Strongly
+BGSU1045	Most university degrees do not prepare us for real life.	Agree Somewhat
+BGSU1044	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1044	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1041	Most university degrees are theoretical.	Agree Somewhat
+BGSU1041	Most university degrees do not prepare us for real life.	Disagree Somewhat
+BGSU1040	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1040	There is no longer a place for dreaming and imagination.	Disagree Strongly
+SWUL4027	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+SWUL4027	There is no longer a place for dreaming and imagination.	Disagree Strongly
+RUMO5033	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+RUMO5033	There is no longer a place for dreaming and imagination.	Disagree Strongly
+RUMO5034	Money is the root of all evil.	Disagree Strongly
+RUMO5036	All armies should consist entirely of professional soldiers.	Agree Strongly
+RUMO5036	There is no value in a system of military service.	Agree Strongly
+RUMO5039	All armies should consist entirely of professional soldiers.	Agree Strongly
+RUMO5039	There is no value in a system of military service.	Agree Strongly
+RUMO2023	Money is the root of all evil.	Disagree Strongly
+RUMO2022	All armies should consist entirely of professional soldiers.	Agree Strongly
+RUMO2022	There is no value in a system of military service.	Agree Strongly
+RUMO2020	Most university degrees are theoretical.	Agree Strongly
+RUMO2020	Most university degrees do not prepare students for the real world.	Disagree Strongly
+RUMO2020	Most university degrees are of very little value.	Disagree Strongly
+RUMO5040	Most university degrees are theoretical.	Agree Strongly
+RUMO5040	Most university degrees do not prepare students for the real world.	Disagree Strongly
+RUMO5040	Most university degrees are of very little value.	Disagree Strongly
+RUMO5043	All armies should consist entirely of professional soldiers.	Agree Strongly
+RUMO5043	There is no value in a system of military service.	Agree Strongly
+RUMO5042	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+RUMO5042	There is no longer a place for dreaming and imagination.	Disagree Strongly
+RUMO5024	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+RUMO5024	There is no longer a place for dreaming and imagination.	Disagree Strongly
+RUMO5023	Money is the root of all evil.	Disagree Strongly
+RUMO5028	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+RUMO5028	There is no longer a place for dreaming and imagination.	Disagree Strongly
+RUMO2013	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+RUMO2013	There is no longer a place for dreaming and imagination.	Disagree Strongly
+RUMO2012	The prison system is outdated.	Disagree Strongly
+RUMO2012	No civilized society should punish its criminals.	Agree Somewhat
+RUMO2012	Civilized societies should rehabilitate criminals.	Agree Strongly
+RUMO2014	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+RUMO2014	There is no longer a place for dreaming and imagination.	Disagree Strongly
+RUMO2011	The prison system is outdated.	Agree Somewhat
+RUMO2011	No civilized society should punish its criminals.	Disagree Strongly
+RUMO2011	Civilized societies should rehabilitate criminals.	Agree Strongly
+ITTO5002	Most university degrees are theoretical.	Agree Strongly
+ITTO5002	Most university degrees do not prepare students for the real world.	Agree Strongly
+ITTO5002	Most university degrees are of very little value.	Agree Strongly
+ITTO5004	Money is the root of all evil.	Agree Somewhat
+ITTO5003	Most university degrees are theoretical.	Agree Somewhat
+ITTO5003	Most university degrees do not prepare students for the real world.	Agree Somewhat
+ITTO5003	Most university degrees are of very little value.	Agree Somewhat
+ITTO5006	Money is the root of all evil.	Agree Somewhat
+ITTO5005	Most university degrees are theoretical.	Agree Strongly
+ITTO5005	Most university degrees do not prepare students for the real world.	Agree Strongly
+ITTO5005	Most university degrees are of very little value.	Agree Strongly
+ITTO5008	Most university degrees are theoretical.	Neutral
+ITTO5008	Most university degrees do not prepare students for the real world.	Neutral
+ITTO5008	Most university degrees are of very little value.	Neutral
+ITTO5007	Money is the root of all evil.	Disagree Somewhat
+RUMO5032	All armies should consist entirely of professional soldiers.	Agree Strongly
+RUMO5032	There is no value in a system of military service.	Disagree Strongly
+NOHB1001	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+NOHB1001	There is no longer a place for dreaming and imagination.	Disagree Somewhat
+BGSU1011	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1011	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1012	Most university degrees are theoretical.	Agree Strongly
+BGSU1012	Most university degrees do not prepare us for real life.	Agree Strongly
+RUMO5012	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+RUMO5012	There is no longer a place for dreaming and imagination.	Disagree Strongly
+RUMO5013	Most university degrees are theoretical.	Agree Strongly
+RUMO5013	Most university degrees do not prepare students for the real world.	Disagree Somewhat
+RUMO5013	Most university degrees are of very little value.	Disagree Strongly
+BGSU1017	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1017	There is no longer a place for dreaming and imagination.	Disagree Strongly
+CZPR3009	Feminists have done more harm to the cause of women than good.	Agree Somewhat
+BGSU1015	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1015	There is no longer a place for dreaming and imagination.	Disagree Strongly
+RUMO5019	Money is the root of all evil.	Disagree Strongly
+BGSU1013	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1013	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1014	Most university degrees are theoretical.	Agree Strongly
+BGSU1014	Most university degrees do not prepare us for real life.	Disagree Strongly
+RUMO5006	All armies should consist entirely of professional soldiers.	Agree Strongly
+RUMO5006	There is no value in a system of military service.	Agree Strongly
+CZPR3011	Our modern world is dominated by science, technology, and industrialization.	Never Addressed
+CZPR3011	There is no longer a place for dreaming and imagination.	Agree Somewhat
+CZPR3010	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+CZPR3010	There is no longer a place for dreaming and imagination.	Disagree Strongly
+RUMO5004	All armies should consist entirely of professional soldiers.	Agree Strongly
+RUMO5004	There is no value in a system of military service.	Agree Strongly
+BGSU1001	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1001	There is no longer a place for dreaming and imagination.	Disagree Strongly
+RUMO5002	Feminists have done more harm to the cause of women than good.	Agree Strongly
+BGSU1006	Most university degrees are theoretical.	Agree Strongly
+BGSU1006	Most university degrees do not prepare us for real life.	Disagree Strongly
+BGSU1007	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1007	There is no longer a place for dreaming and imagination.	Disagree Strongly
+CZPR3018	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+CZPR3018	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1008	Most university degrees are theoretical.	Agree Strongly
+BGSU1008	Most university degrees do not prepare us for real life.	Disagree Strongly
+BGSU1009	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1009	There is no longer a place for dreaming and imagination.	Agree Strongly
+BGSU1002	Most university degrees are theoretical.	Agree Strongly
+BGSU1002	Most university degrees do not prepare us for real life.	Agree Strongly
+BGSU1003	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1003	There is no longer a place for dreaming and imagination.	Agree Strongly
+RUMO5008	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+RUMO5008	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1004	Most university degrees are theoretical.	Agree Strongly
+BGSU1004	Most university degrees do not prepare us for real life.	Agree Strongly
+BGSU1005	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1005	There is no longer a place for dreaming and imagination.	Disagree Strongly
+CZPR3013	Money is the root of all evil.	Agree Strongly
+DBAN1006	The prison system is outdated.	Agree Strongly
+DBAN1006	No civilized society should punish its criminals.	Disagree Strongly
+DBAN1006	Civilized societies should rehabilitate criminals.	Agree Somewhat
+CNUK1122	Television is the opium of the masses in modern society.	Disagree Strongly
+CNUK1124	Television is the opium of the masses in modern society.	Agree Strongly
+CNUK1123	Television is the opium of the masses in modern society.	Disagree Strongly
+CNUK1126	Television is the opium of the masses in modern society.	Neutral
+CNUK1125	Most university degrees are theoretical.	Agree Strongly
+CNUK1125	Most university degrees do not prepare students for the real world.	Disagree Strongly
+CNUK1125	Most university degrees are of very little value.	Disagree Strongly
+DBAN1004	The prison system is outdated.	Agree Strongly
+DBAN1004	No civilized society should punish its criminals.	Agree Somewhat
+DBAN1004	Civilized societies should rehabilitate criminals.	Agree Somewhat
+DBAN1005	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+DBAN1005	There is no longer a place for dreaming and imagination.	Disagree Strongly
+CNUK1129	Most university degrees are theoretical.	Agree Strongly
+CNUK1129	Most university degrees do not prepare students for the real world.	Agree Strongly
+CNUK1129	Most university degrees are of very little value.	Agree Strongly
+DBAN1003	All armies should consist entirely of professional soldiers.	Agree Strongly
+DBAN1003	There is no value in a system of military service.	Agree Strongly
+BGSU1229	Our modern world is dominated by science, technology, and industrialization.	Never Addressed
+BGSU1229	There is no longer a place for dreaming and imagination.	Never Addressed
+BGSU1228	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+FRUB1005	Money is the root of all evil.	Agree Somewhat
+RUMO7001	Money is the root of all evil.	Disagree Somewhat
+DBAN1017	Most university degrees are theoretical.	Agree Strongly
+DBAN1017	Most university degrees do not prepare students for the real world.	Agree Strongly
+DBAN1017	Most university degrees are of very little value.	Disagree Somewhat
+CNUK1120	Television is the opium of the masses in modern society.	Agree Strongly
+CNUK1111	Television is the opium of the masses in modern society.	Agree Strongly
+CNUK1110	Television is the opium of the masses in modern society.	Agree Strongly
+BGSU1232	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1232	There is no longer a place for dreaming and imagination.	Disagree Strongly
+CNUK1117	Television is the opium of the masses in modern society.	Agree Strongly
+CNUK1116	Television is the opium of the masses in modern society.	Disagree Strongly
+CNUK1114	Most university degrees are theoretical.	Agree Strongly
+CNUK1114	Most university degrees do not prepare students for the real world.	Disagree Strongly
+CNUK1114	Most university degrees are of very little value.	Disagree Strongly
+BGSU1236	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+DBAN1014	All armies should consist entirely of professional soldiers.	Agree Strongly
+DBAN1014	There is no value in a system of military service.	Agree Strongly
+CNUK1119	Television is the opium of the masses in modern society.	Agree Somewhat
+BGSU1234	Most university degrees are theoretical.	Agree Strongly
+BGSU1234	Most university degrees do not prepare us for real life.	Agree Somewhat
+CNUK1118	Television is the opium of the masses in modern society.	Agree Strongly
+DBAN1016	Most university degrees are theoretical.	Agree Strongly
+DBAN1016	Most university degrees do not prepare students for the real world.	Agree Strongly
+DBAN1016	Most university degrees are of very little value.	Never Addressed
+BGSU1239	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1239	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1237	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1237	There is no longer a place for dreaming and imagination.	Disagree Strongly
+FRUB1012	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+DBAN1029	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+FRUB1015	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUB1015	There is no longer a place for dreaming and imagination.	Disagree Strongly
+CNUK1151	Television is the opium of the masses in modern society.	Neutral
+CNUK1153	Television is the opium of the masses in modern society.	Disagree Strongly
+BGSU1241	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1241	There is no longer a place for dreaming and imagination.	Agree Strongly
+CNUK1148	Television is the opium of the masses in modern society.	Agree Strongly
+CNUK1147	Television is the opium of the masses in modern society.	Agree Strongly
+BGSU1243	"All men are equal but some are more equal than others" holds true today.	Disagree Somewhat
+CNUK1144	Most university degrees are theoretical.	Disagree Strongly
+CNUK1144	Most university degrees do not prepare students for the real world.	Disagree Strongly
+CNUK1144	Most university degrees are of very little value.	Disagree Strongly
+CNUK1143	Television is the opium of the masses in modern society.	Disagree Strongly
+NOAG1004	Crime does not pay.	Disagree Somewhat
+FRUB1009	Feminists have done more harm to the cause of women than good.	Disagree Strongly
+FRUB1008	Feminists have done more harm to the cause of women than good.	Disagree Strongly
+DBAN1021	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+DBAN1021	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1245	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1245	There is no longer a place for dreaming and imagination.	Disagree Strongly
+DBAN1026	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+BGSU1244	"All men are equal but some are more equal than others" holds true today.	Disagree Somewhat
+DBAN1024	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+SPM02013	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+RUMO7023	Feminists have done more harm to the cause of women than good.	Disagree Strongly
+FRUB1022	Most university degrees are theoretical.	Agree Strongly
+FRUB1022	Most university degrees do not prepare students for the real world.	Agree Somewhat
+FRUB1022	Most university degrees are of very little value.	Disagree Strongly
+FRUB1023	Our modern world is dominated by science, technology, and industrialization.	Agree Somewhat
+FRUB1023	There is no longer a place for dreaming and imagination.	Agree Somewhat
+FRUB1026	The prison system is outdated.	Agree Strongly
+FRUB1026	No civilized society should punish its criminals.	Agree Strongly
+FRUB1026	Civilized societies should rehabilitate criminals.	Agree Strongly
+CNUK1141	Television is the opium of the masses in modern society.	Agree Strongly
+CNUK1142	Television is the opium of the masses in modern society.	Agree Strongly
+CNUK1139	Most university degrees are theoretical.	Agree Strongly
+CNUK1139	Most university degrees do not prepare students for the real world.	Disagree Strongly
+CNUK1139	Most university degrees are of very little value.	Disagree Somewhat
+BGSU1251	"All men are equal but some are more equal than others" holds true today.	Disagree Somewhat
+BGSU1250	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1250	There is no longer a place for dreaming and imagination.	Agree Somewhat
+CNUK1134	Television is the opium of the masses in modern society.	Disagree Strongly
+NOAG1011	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+NOAG1011	There is no longer a place for dreaming and imagination.	Disagree Strongly
+CNUK1132	Television is the opium of the masses in modern society.	Disagree Somewhat
+NOAG1013	Feminists have done more harm to the cause of women than good.	Agree Strongly
+NOAG1015	Crime does not pay.	Agree Strongly
+DBAN1034	Feminists have done more harm to the cause of women than good.	Disagree Strongly
+BGSU1259	Most university degrees are theoretical.	Agree Strongly
+BGSU1259	Most university degrees do not prepare us for real life.	Disagree Strongly
+RUMO5045	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+RUMO5045	There is no longer a place for dreaming and imagination.	Disagree Strongly
+SWUL2002	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+SWUL2002	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1257	Most university degrees are theoretical.	Disagree Strongly
+BGSU1257	Most university degrees do not prepare us for real life.	Disagree Strongly
+RUMO5044	Most university degrees are theoretical.	Agree Strongly
+RUMO5044	Most university degrees do not prepare students for the real world.	Agree Somewhat
+RUMO5044	Most university degrees are of very little value.	Agree Strongly
+BGSU1255	"All men are equal but some are more equal than others" holds true today.	Disagree Somewhat
+RUMO5046	Most university degrees are theoretical.	Agree Strongly
+RUMO5046	Most university degrees do not prepare students for the real world.	Agree Strongly
+RUMO5046	Most university degrees are of very little value.	Agree Somewhat
+FRUB1030	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+FRUB1030	There is no longer a place for dreaming and imagination.	Disagree Strongly
+TRCU1129	Most university degrees are theoretical.	Agree Somewhat
+TRCU1129	Most university degrees do not prepare students for the real world.	Disagree Strongly
+TRCU1129	Most university degrees are of very little value.	Disagree Strongly
+TRCU1128	Most university degrees are theoretical.	Agree Strongly
+TRCU1128	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRCU1128	Most university degrees are of very little value.	Agree Strongly
+CNUK1171	Most university degrees are theoretical.	Agree Strongly
+CNUK1171	Most university degrees do not prepare students for the real world.	Agree Somewhat
+CNUK1171	Most university degrees are of very little value.	Agree Somewhat
+CNUK1170	Most university degrees are theoretical.	Agree Strongly
+CNUK1170	Most university degrees do not prepare students for the real world.	Agree Strongly
+CNUK1170	Most university degrees are of very little value.	Agree Strongly
+CNUK1173	Television is the opium of the masses in modern society.	Disagree Strongly
+TRCU1125	Most university degrees are theoretical.	Agree Strongly
+TRCU1125	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRCU1125	Most university degrees are of very little value.	Agree Strongly
+TRCU1124	Most university degrees are theoretical.	Agree Strongly
+TRCU1124	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRCU1124	Most university degrees are of very little value.	Agree Strongly
+TRCU1123	Most university degrees are theoretical.	Agree Strongly
+TRCU1123	Most university degrees do not prepare students for the real world.	Agree Strongly
+TRCU1123	Most university degrees are of very little value.	Agree Strongly
+BGSU1081	Most university degrees are theoretical.	Agree Strongly
+BGSU1081	Most university degrees do not prepare us for real life.	Disagree Somewhat
+BGSU1080	Most university degrees are theoretical.	Agree Strongly
+BGSU1080	Most university degrees do not prepare us for real life.	Agree Somewhat
+BGSU1266	Our modern world is dominated by science, technology, and industrialization.	Disagree Somewhat
+BGSU1266	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1071	Most university degrees are theoretical.	Agree Strongly
+BGSU1071	Most university degrees do not prepare us for real life.	Agree Strongly
+ITTO6002	Feminists have done more harm to the cause of women than good.	Disagree Strongly
+BGSU1267	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+NOBE1011	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+BGSU1073	Most university degrees are theoretical.	Agree Strongly
+BGSU1073	Most university degrees do not prepare us for real life.	Disagree Strongly
+BGSU1268	Most university degrees are theoretical.	Agree Strongly
+BGSU1268	Most university degrees do not prepare us for real life.	Agree Somewhat
+BGSU1074	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1074	There is no longer a place for dreaming and imagination.	Disagree Strongly
+NOBE1013	Most university degrees are theoretical.	Agree Strongly
+NOBE1013	Most university degrees do not prepare students for the real world.	Agree Strongly
+NOBE1013	Most university degrees are of very little value.	Disagree Somewhat
+BGSU1076	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1076	There is no longer a place for dreaming and imagination.	Disagree Strongly
+ITTO6005	Feminists have done more harm to the cause of women than good.	Disagree Strongly
+BGSU1077	Most university degrees are theoretical.	Agree Strongly
+BGSU1077	Most university degrees do not prepare us for real life.	Disagree Strongly
+BGSU1078	Our modern world is dominated by science, technology, and industrialization.	Disagree Somewhat
+BGSU1078	There is no longer a place for dreaming and imagination.	Disagree Strongly
+NOBE1018	Crime does not pay.	Agree Strongly
+BGSU1261	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+BGSU1262	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1262	There is no longer a place for dreaming and imagination.	Disagree Strongly
+CNUK1169	Television is the opium of the masses in modern society.	Agree Strongly
+BGSU1263	"All men are equal but some are more equal than others" holds true today.	Agree Somewhat
+BGSU1265	"All men are equal but some are more equal than others" holds true today.	Agree Somewhat
+CNUK1163	Television is the opium of the masses in modern society.	Agree Somewhat
+TRCU1136	Money is the root of all evil.	Agree Strongly
+CNUK2034	Most university degrees are theoretical.	Never Addressed
+CNUK2034	Most university degrees do not prepare students for the real world.	Disagree Strongly
+CNUK2034	Most university degrees are of very little value.	Disagree Strongly
+BGSU1062	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1062	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1279	Most university degrees are theoretical.	Agree Strongly
+BGSU1279	Most university degrees do not prepare us for real life.	Disagree Strongly
+BGSU1063	Most university degrees are theoretical.	Neutral
+BGSU1063	Most university degrees do not prepare us for real life.	Agree Strongly
+NOBE1020	Crime does not pay.	Agree Strongly
+RUMO7036	The prison system is outdated.	Agree Strongly
+RUMO7036	No civilized society should punish its criminals.	Agree Somewhat
+RUMO7036	Civilized societies should rehabilitate criminals.	Agree Strongly
+SPM02004	Money is the root of all evil.	Disagree Strongly
+RUMO7035	The prison system is outdated.	Agree Somewhat
+RUMO7035	No civilized society should punish its criminals.	Disagree Strongly
+RUMO7035	Civilized societies should rehabilitate criminals.	Disagree Strongly
+BGSU1066	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1066	There is no longer a place for dreaming and imagination.	Disagree Somewhat
+BGSU1067	Most university degrees are theoretical.	Agree Strongly
+BGSU1067	Most university degrees do not prepare us for real life.	Agree Strongly
+BGSU1065	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1065	There is no longer a place for dreaming and imagination.	Disagree Strongly
+TRCU1130	Most university degrees are theoretical.	Agree Strongly
+TRCU1130	Most university degrees do not prepare students for the real world.	Disagree Strongly
+TRCU1130	Most university degrees are of very little value.	Disagree Strongly
+BGSU1270	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1270	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1276	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+CNUK2002	Crime does not pay.	Agree Strongly
+BGSU1290	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1290	There is no longer a place for dreaming and imagination.	Disagree Strongly
+TRCU1107	Money is the root of all evil.	Agree Strongly
+CNUK2006	Most university degrees are theoretical.	Agree Strongly
+CNUK2006	Most university degrees do not prepare students for the real world.	Disagree Strongly
+CNUK2006	Most university degrees are of very little value.	Disagree Strongly
+TRCU1109	Money is the root of all evil.	Agree Somewhat
+TRCU1108	Money is the root of all evil.	Agree Strongly
+BGSU1097	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1097	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1098	Most university degrees are theoretical.	Agree Strongly
+BGSU1098	Most university degrees do not prepare us for real life.	Disagree Strongly
+BGSU1095	Most university degrees are theoretical.	Agree Strongly
+BGSU1095	Most university degrees do not prepare us for real life.	Agree Strongly
+BGSU1096	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1096	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1280	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1280	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1281	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+CNUK2011	Television is the opium of the masses in modern society.	Neutral
+BGSU1282	Most university degrees are theoretical.	Agree Strongly
+BGSU1282	Most university degrees do not prepare us for real life.	Disagree Strongly
+CNUK1185	Television is the opium of the masses in modern society.	Agree Strongly
+CNUK1183	Most university degrees are theoretical.	Agree Strongly
+CNUK1183	Most university degrees do not prepare students for the real world.	Agree Strongly
+CNUK1183	Most university degrees are of very little value.	Disagree Somewhat
+TRCU1118	Money is the root of all evil.	Agree Strongly
+BGSU1092	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1092	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1091	Most university degrees are theoretical.	Agree Strongly
+BGSU1091	Most university degrees do not prepare us for real life.	Agree Strongly
+RUMO7062	The prison system is outdated.	Agree Strongly
+RUMO7062	No civilized society should punish its criminals.	Disagree Strongly
+RUMO7062	Civilized societies should rehabilitate criminals.	Disagree Somewhat
+RUMO7061	Money is the root of all evil.	Agree Strongly
+BGSU1088	Most university degrees are theoretical.	Agree Somewhat
+BGSU1088	Most university degrees do not prepare us for real life.	Disagree Strongly
+BGSU1089	Our modern world is dominated by science, technology, and industrialization.	Disagree Somewhat
+BGSU1089	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1086	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1086	There is no longer a place for dreaming and imagination.	Disagree Strongly
+NOBE1002	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+NOBE1002	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1087	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1087	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1085	Most university degrees are theoretical.	Disagree Somewhat
+BGSU1085	Most university degrees do not prepare us for real life.	Disagree Strongly
+BGSU1082	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1082	There is no longer a place for dreaming and imagination.	Disagree Strongly
+BGSU1299	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+BGSU1083	Most university degrees are theoretical.	Agree Strongly
+BGSU1083	Most university degrees do not prepare us for real life.	Agree Somewhat
+BGSU1294	Our modern world is dominated by science, technology, and industrialization.	Agree Strongly
+BGSU1294	There is no longer a place for dreaming and imagination.	Agree Somewhat
+CNUK1179	Television is the opium of the masses in modern society.	Neutral
+CNUK1176	Television is the opium of the masses in modern society.	Disagree Strongly
+BGSU1291	"All men are equal but some are more equal than others" holds true today.	Agree Strongly
+CNUK2020	Most university degrees are theoretical.	Agree Strongly
+CNUK2020	Most university degrees do not prepare students for the real world.	Disagree Somewhat
+CNUK2020	Most university degrees are of very little value.	Disagree Strongly

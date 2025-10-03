@@ -1,0 +1,84 @@
+﻿Multifaceted Text Classification Datasets:
+============================================
+
+This is a set of 12 text datasets that were collected and annotated as part of our efforts 
+to create multifaceted text classification datasets for natural language processing and IR applications. 
+The "multifaceted"-ness originates from the fact that we categorize each document collection along multiple facets, 
+where each facet represents a particular classification structure along which the document set can be meaningfully categorized. 
+
+For example, given a collection of reviews we annotate it along the following 4 facets:
+
+1. Sentiment:
+	Classify a review as positive (thumbs up) or negative (thumbs down).
+
+2. Topic:
+	Classify a review according to the product description or the topic it pertains to. 
+	For example, classify a review according to whether it's a book, movie, or an electronic product review.
+
+3. Subjectivity:
+	Classify a review according to whether the review contains mostly a narrative description of the product 
+	and is therefore largely "objective", or whether it contains mostly the author's opinion 
+	and is therefore largely "subjective".
+
+4. Strength:
+	Classify a review according to whether the opinion expressed in a review is "strong" or "weak".
+
+	
+We host a variety of document collections in the repository (12 in total) including blogs, reviews and opinionated 
+articles, political discussions etc. We also added the 2newsgroup dataset, which was used in many of 
+the experiments in our papers, but was not annotated along multiple facets. We included it in our package to 
+facilitate replication of our experimental results. Annotation guidelines for each dataset can be found in the 
+our ICML and SIGIR 2009 papers. Also refer to the source.txt file included in each folder for a short 
+description of the classification dimensions/facets used for each document collection.
+
+
+Each dataset folder contains four kind of files:
+=====================================================
+
+1. Text Version/*: 
+	Contains the raw text files. For example, for a book review dataset each file in the 
+	folder represents a particular book review submitted by an user.
+
+	
+2. testData_books_*.txt: 
+	Contains the actual classification Labels. For each facet we have a separate file for classification. 
+	Labels for n-way classification are {1, 2, .., n}.
+	For example, the Books-Dvd dataset contains the following 4 files:
+	
+	testData_books_dvd_pos_neg	--- Classified according to facet 'Sentiment'.
+	testData_books_dvd_strength	--- Classified according to facet 'Strength'.
+	testData_books_dvd_subj_obj_Sajib_Final_Sorted	--- Classified according to facet 'Subjectivity'.
+	testData_books_dvd_topic	---	Classified according to facet 'Topic'. 
+	
+
+3. trainingData_books_Check.txt: 
+	This is a feature matrix representation of the dataset, which's used in Matlab.
+	Feature matrix is a (n x m)-dimenstional matrix where n is the number of documents in the dataset, 
+	and m is the number of features (often bag-of-words) representing the feature space of the dataset. 
+	This's a sparse representation of the feature matrix. Please see the guideline below to see how to 
+	load the sparse feature matrix in matlab. We did some pre-processing (e.g., dropping stop words) 
+	to create the feature file. Please see the papers listed above for details.
+
+4. source.txt:
+	The source from which we received the document collection and a short description of the facets/dimensions
+	used in the annotation of the dataset.
+
+
+Guideline to load a feature file for a particular corpus (Matlab):
+===================================================================
+
+corpus='trainingData_books_Check.txt';
+load(corpus);
+Data = spconvert(trainingData_books_Check);
+
+
+===================================================================
+
+For any reference to the multifaceted text classification datasets and the corresponding annotations please cite the following:
+
+Mining Clustering Dimensions. 
+Sajib Dasgupta and Vincent Ng. 
+In the Proceedings of the International Conference on Machine Learning (ICML), 2010. 
+
+We collected the datasets from numerous sources, which are listed along with a reference paper and a web-source 
+in the soruce.txt file in the corresponding folder. Please cite the source(s) for any reference to the dataset(s).

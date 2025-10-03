@@ -1,0 +1,831 @@
+	Component1	Component2	Component3
+CNUK1033	ConfusinglyPhrased,Relevance
+SPM03035	PartialResponse,Relevance	Relevance	PartialResponse,Relevance
+SPM03029	PartialResponse	PartialResponse
+FIHE2001	
+SPM03037	PartialResponse,Relevance
+SPM03036	Relevance	PartialResponse	Relevance
+TSNO1513			
+RUMO4009	PartialResponse	PartialResponse,Relevance
+TSNO1515			
+RUMO4003	Relevance	PartialResponse	
+TSNO1516	
+RUMO4002	BrieflyDiscussed	ConflictingOpinions
+CNUK1052			
+CNUK1056			PartialResponse,Relevance
+CNUK1055	PartialResponse,Relevance
+CNUK1057	Relevance
+RUMO4019	PartialResponse	PartialResponse,ConfusinglyPhrased
+RUMO4018	
+ITRS2002			
+SPM03047	PartialResponse	
+ITRS2005		
+CNUK1062	
+RUMO4012		
+RUMO4011	Relevance
+RUMO4010	
+FIHE2002	PartialResponse	
+RUMO4017	Relevance
+TSNO1507	
+RUMO4016	
+TSNO1504	
+RUMO4014		PartialResponse
+RUMO4029	Relevance
+RUMO4021		PartialResponse	PartialResponse
+NOBU1004	PartialResponse
+CNUK1073	Relevance
+TSNO1332			
+RUMO4026	BrieflyDiscussed	
+RUMO4025		
+CNUK1072		PartialResponse	
+RUMO4028			PartialResponse,Relevance
+TSNO1122			
+ITRS2021	PartialResponse	PartialResponse	
+ITRS2022	
+TRCU1144	
+ITRS2018	ConflictingOpinions	ConflictingOpinions
+TRCU1146	
+TRCU1147			Relevance
+CNUK1003			
+CZPR4013	PartialResponse	
+CNUK1007	Relevance
+CNUK1004	PartialResponse	PartialResponse	PartialResponse
+CNUK1005	PartialResponse		ConfusinglyPhrased
+TRCU1143	PartialResponse,Relevance
+CZPR4005	
+CNUK1015	ConfusinglyPhrased	ConflictingOpinions,PartialResponse,ConfusinglyPhrased	PartialResponse,ConfusinglyPhrased
+SPM05015	PartialResponse	
+CNUK1018	ConfusinglyPhrased,Relevance
+TSNO1104	Relevance	ConflictingOpinions	
+TSNO1102	Relevance	Relevance	
+CNUK1021	
+TSNO1303	PartialResponse		
+TRCU1172			Relevance
+TSNO1308			PartialResponse
+SWUL5017	Relevance	
+CNUK1028		PartialResponse	ConflictingOpinions,ConfusinglyPhrased
+BGSU1302	
+CNUK1025	PartialResponse
+SPM05016	Relevance	PartialResponse,Relevance	
+SPM05017	PartialResponse
+ITRS2032	
+ITRS2038		ConflictingOpinions
+RUMO9012	
+NOOS1022	
+RUMO9014	Relevance
+NOOS1021	PartialResponse	
+RUMO9010	ConflictingOpinions
+TSNO1166		PartialResponse	PartialResponse
+RUMO9007	Relevance	ConflictingOpinions	Relevance
+SWUV3008	Relevance
+TSNO1161	Relevance	PartialResponse	
+SWUV3004	
+TSNO1157	Relevance	Relevance	Relevance
+CNUK4007	
+CNUK4009		ConflictingOpinions	
+NOOS1041	PartialResponse,Relevance	ConflictingOpinions,PartialResponse,Relevance
+TSNO1145			Relevance
+CNUK4011	
+CNUK4012		PartialResponse	
+CNUK4016	PartialResponse,Relevance
+CNUK4015	
+CNUK4019	ConfusinglyPhrased,Relevance
+CNUK4018	Relevance
+TSNO1135		Relevance	
+CNUK4020			PartialResponse
+CZPU1012	
+CNUK4023		ConflictingOpinions	
+CZPU1011	PartialResponse,ConfusinglyPhrased,Relevance
+CNUK4024	
+CNUK4022	PartialResponse,Relevance
+CNUK1082	
+CNUK1080	
+CNUK1084	Relevance
+CNUK4029	
+CNUK4025	
+CNUK4028	PartialResponse,Relevance
+CNUK4033	Relevance
+TSNO1397	Relevance		
+TSNO1398		PartialResponse	
+CNUK1098	Relevance
+CNUK1097	ConfusinglyPhrased
+CNUK4036	Relevance
+SPM07006	Relevance	
+NOOS1003	PartialResponse		PartialResponse
+SWUL4008	PartialResponse	
+NOOS1007	
+SWUL4001		
+CNUK1099	
+NOOS1014	
+BGSU1177		
+DBAN2034	
+DBAN2033	PartialResponse	
+DBAN2032			PartialResponse
+BGSU1174	
+BGSU1173	
+DBAN2036	PartialResponse	
+DBAN2030	
+BGSU1179		
+FRUL2018		Relevance	PartialResponse
+FRUL2019		
+FRUB2022		PartialResponse	ConfusinglyPhrased
+FRUL2014	
+BGSU1180	ConfusinglyPhrased
+FRUB2026		ConfusinglyPhrased
+FRUL2017		PartialResponse
+FRUB2028	Relevance
+FRUL2011			
+BGSU1165		
+DBAN2049	PartialResponse		
+DBAN2042	Relevance
+FRUL2029		Relevance
+FRUL2028	PartialResponse,Relevance
+FRUL2026		
+FRUL2024			
+FRUL2021		PartialResponse,Relevance	PartialResponse,Relevance
+FRUL2022		
+BGSU1150	ConfusinglyPhrased	
+DBAN2013	PartialResponse	
+BGSU1152	ConflictingOpinions	
+BGSU1157	PartialResponse	
+FRUB2005	ConflictingOpinions
+FRUB2002	PartialResponse,Relevance	PartialResponse,Relevance	
+DBAN2018	Relevance	Relevance	PartialResponse
+DBAN2019	
+FRUB2003	PartialResponse	
+RUMO8005	Relevance	
+RUMO8004	
+BGSU1140	PartialResponse	
+DBAN2022	Relevance	Relevance	
+BGSU1142	PartialResponse	
+FRUC3003		PartialResponse
+BGSU1144		
+FRUB2009	PartialResponse,Relevance
+RUMO8008	PartialResponse,Relevance
+DBAN2023	PartialResponse	
+BGSU1143		
+BGSU1146		
+BGSU1145		
+DBAN2020	Relevance
+FRUB2011	BrieflyDiscussed	ConflictingOpinions
+FRUL2009		Relevance
+FRUL2007	Relevance	Relevance
+FRUL2002	PartialResponse		
+FRUL2005	Relevance	Relevance
+RUMO8012	PartialResponse	
+BGSU1138	PartialResponse	
+BGSU1139		
+BGSU1136		
+BGSU1135		PartialResponse,Relevance
+FRUC3015		
+FRUC3014	PartialResponse	
+BGSU1130		
+FRUC3009		ConflictingOpinions
+RUMO1020			
+BGSU1127		ConflictingOpinions
+BGSU1129		
+BGSU1123	PartialResponse	
+BGSU1124		
+BGSU1125		PartialResponse,Relevance
+FIJO1038	Relevance	PartialResponse	PartialResponse
+DBAN2002	Relevance	
+FIAB1009	
+BGSU1122		
+FRUC3028	PartialResponse	
+CNUK3066	
+DBAN2005	Relevance
+FIJO1036	PartialResponse,Relevance	
+FRUC3029	PartialResponse	Relevance
+DBAN2008		PartialResponse,Relevance	PartialResponse,Relevance
+BGSU1114		PartialResponse,Relevance
+BGSU1118	PartialResponse	
+BGSU1119	PartialResponse	
+BGSU1110		ConflictingOpinions
+TSNO1496	BrieflyDiscussed	
+BGSU1101	PartialResponse	ConfusinglyPhrased
+BGSU1102	PartialResponse	ConflictingOpinions,PartialResponse
+BGSU1104		
+BGSU1105		PartialResponse
+BGSU1106	Relevance	
+BGSU1107		
+BGSU1108		ConflictingOpinions
+FRUC3048	Relevance	Relevance	
+BGSU1100	PartialResponse	ConfusinglyPhrased
+NOUO1096	Relevance		PartialResponse
+RUMO1014	PartialResponse,Relevance		PartialResponse,Relevance
+NOUO1094	
+BGSU1109	PartialResponse,BrieflyDiscussed	
+NOUO1097	PartialResponse		
+TSNO1479	PartialResponse	PartialResponse	PartialResponse,Relevance
+NOUO2031	PartialResponse
+NOUO2035		PartialResponse,Relevance	
+FRUC3056	PartialResponse,BrieflyDiscussed,Relevance	
+FRUC3059	
+TSNO1482			
+FRUC3053			
+FRUC3054	Relevance
+TSNO1485	Relevance	Relevance
+TSNO1486		PartialResponse	
+TSNO1488	
+NOUO2024	ConflictingOpinions,PartialResponse	PartialResponse	PartialResponse
+SPM04047	
+NOUO2023	PartialResponse,Relevance	PartialResponse
+NOUO2022		PartialResponse,Relevance
+NOUO2021	
+TSNO1403	PartialResponse		
+NOUO2025		
+FRUC3067		
+FRUC3068	
+TSNO1493	PartialResponse	
+TSNO1492		
+FRUC3060	PartialResponse	PartialResponse
+FRUC3065	
+TSNO1490			
+TSNO1455		PartialResponse	Relevance
+TSNO1457			PartialResponse,Relevance
+CNUK1102	Relevance	ConflictingOpinions,PartialResponse	PartialResponse
+CNUK1101	
+CNUK1103	Relevance
+FRUC3074	BrieflyDiscussed	PartialResponse
+CNUK1107	PartialResponse
+FRUC3076		Relevance	Relevance
+TSNO1462		PartialResponse	Relevance
+FRUC3070	ConflictingOpinions	PartialResponse
+TSNO1461		PartialResponse	Relevance
+FRUC3073		ConflictingOpinions
+FRUC3080	
+NOUO2047	
+FRUC3089		PartialResponse	
+FRUC3087		PartialResponse
+FRUC3088		PartialResponse
+FRUC3085		ConflictingOpinions,Relevance
+FRUC3086		PartialResponse	PartialResponse
+FRUC3081		PartialResponse	
+NOAC1016	PartialResponse	PartialResponse	
+NOAC1011		
+SPM04010	Relevance	Relevance
+TSNO1438	PartialResponse
+TSNO1435		PartialResponse,Relevance	
+TSNO1434		
+TSNO1431		PartialResponse,Relevance
+FRUC3091	Relevance	ConflictingOpinions
+NOAC1017		Relevance	Relevance
+FRUC3093			PartialResponse
+FRUC3092			
+SPM03002	PartialResponse	
+FRUC3095		
+FRUC3094	BrieflyDiscussed	
+SPM04004		
+SPM04002	Relevance		
+SPM04001			
+NOAC1005	
+NOAC1004	Relevance
+TSNO1445		PartialResponse,Relevance	PartialResponse
+TSNO1448	Relevance
+TSNO1442		PartialResponse	PartialResponse
+NOUO2015		PartialResponse
+SPM01016	
+TSNO1416			
+NOUO2017	
+NOUO2010	
+NOUO2013	Relevance
+SPM01013	
+SPM03014	
+TSNO1410	Relevance		
+SPM03019	Relevance	
+DBAN2051		
+DBAN2052			
+SPM04026	Relevance	Relevance
+BGSU1194	ConflictingOpinions
+SPM04029	PartialResponse	Relevance
+NOUO2007	Relevance		
+DBAN2057		
+TSNO1428	
+NOUO2005	ConflictingOpinions		
+NOUO2006	
+NOUO2003		
+NOAC1023	ConflictingOpinions
+SPM01007	PartialResponse	
+SPM03003	PartialResponse
+SPM01009	Relevance		
+SPM03007		
+TSNO1426	PartialResponse	
+TSNO1425	
+BGSU1189	PartialResponse
+SPM03013	PartialResponse	Relevance
+BGSU1183	PartialResponse
+BGSU1184	Relevance
+SPM04015		ConflictingOpinions,Relevance
+BGSU1187	PartialResponse
+BGSU1188	PartialResponse	
+TRCU1051	
+FRUL1013			PartialResponse
+TRCU1050	
+POPZ1015	BrieflyDiscussed	ConflictingOpinions,PartialResponse
+FRUL1015	ConflictingOpinions
+FRUL1016	ConfusinglyPhrased	ConfusinglyPhrased	
+CZPR2022	BrieflyDiscussed	Relevance
+TRCU1055	Relevance
+TRCU1054	Relevance
+FRUL1010	PartialResponse	ConflictingOpinions,Relevance
+POPZ1011	
+TRCU1053	Relevance
+FRUL1012		
+CZPR2027	
+CZPR2029	PartialResponse	
+FRUL1017		
+CZPR2023		
+FIJY1031	PartialResponse
+CZPR2025	PartialResponse	
+FRUL1019	PartialResponse
+FIJY1030	Relevance
+NOHO1022	
+FIJY1035	PartialResponse,Relevance	
+FIJY1037	
+TRCU1058	PartialResponse,ConfusinglyPhrased		ConfusinglyPhrased
+TRCU1059	ConflictingOpinions	ConflictingOpinions,PartialResponse	Relevance
+NOHO1027	
+TRCU1056	Relevance
+TRCU1057	Relevance
+NOHO1024	PartialResponse,Relevance
+NOHO1023	PartialResponse	
+FRUL1004		Relevance
+FRUL1005	
+TRCU1040	Relevance
+FRUL1003		PartialResponse,Relevance
+TRCU1042	PartialResponse,Relevance
+TRCU1041	Relevance
+TRCU1044	PartialResponse
+TRCU1043	PartialResponse
+CZPR2016	ConfusinglyPhrased,Relevance	ConfusinglyPhrased,Relevance	PartialResponse,ConfusinglyPhrased
+CZPR2017		
+CZPR2014	PartialResponse	
+FIJY1042	Relevance
+FIJY1041	PartialResponse
+FRUL1009	
+FRUL1006			
+FRUL1007	Relevance	
+CZPR2013	
+NOHO1011	Relevance		PartialResponse
+FIJY1043	ConflictingOpinions,PartialResponse
+TSKC1349	
+FIJY1044	PartialResponse
+FIJY1047	PartialResponse
+TSKC1345	PartialResponse
+NOHO1019	PartialResponse	PartialResponse	
+TRCU1045	Relevance
+NOHO1018		PartialResponse	PartialResponse
+TRCU1046	
+TRCU1047	
+TRCU1048	PartialResponse,Relevance
+SWUL3027		
+TRCU1049	PartialResponse,Relevance
+NOHO1013			Relevance
+SWUL1001	PartialResponse	
+SWUL1005	PartialResponse	
+CZPR2044		
+FIJY1050	ConflictingOpinions		Relevance
+CZPR2047	PartialResponse	
+FIJY1053	PartialResponse	Relevance
+FIJY1058	Relevance
+NOHO1042	PartialResponse	
+FIJY1055	
+FIJY1056	PartialResponse	
+NOHO1044	PartialResponse
+NOHO1043	
+DBAN3017	PartialResponse
+FIJY1057	PartialResponse	
+NOHO1046		
+NOHO1045	PartialResponse,BrieflyDiscussed	
+CZKR1001	PartialResponse	
+POPZ1003		PartialResponse	
+POPZ1001		
+POPZ1007	
+POPZ1006			ConflictingOpinions,PartialResponse
+CZPR2030	
+POPZ1004			
+CZPR2031	PartialResponse	
+FIJY1063	
+FIJY1062	PartialResponse,Relevance
+FIJY1061	PartialResponse	
+CZPR2039	PartialResponse	
+FIJY1069		
+DBAN3006			
+FIJY1065	PartialResponse,BrieflyDiscussed	PartialResponse
+NOHO1030	
+NOHO1037	PartialResponse,ConfusinglyPhrased,Relevance
+SWUL3003	PartialResponse	
+POPZ1008	
+SWUL3006	Relevance	
+NOHO1038	PartialResponse	PartialResponse
+FIJY1070	PartialResponse
+FIJY1071		PartialResponse
+FIJY1074		
+FIJY1075	
+CZUN1006		PartialResponse
+CZUN1005	BrieflyDiscussed	PartialResponse
+TRME3027			
+TRME3028	Relevance		Relevance
+TRME3029	Relevance		
+TRME3023			Relevance
+FIJY1077	
+TRME3024		PartialResponse,Relevance	
+FIJY1078	Relevance	
+TRME3026			
+TRME3020		PartialResponse	PartialResponse
+TRME3021	Relevance		
+CZUN1009	PartialResponse
+FIJY1080	PartialResponse	
+CZPR2057	BrieflyDiscussed	
+CZKR1005	PartialResponse,BrieflyDiscussed	ConflictingOpinions,ConfusinglyPhrased,Relevance
+CZKR1003	PartialResponse,Relevance	PartialResponse
+CZKR1004	Relevance	PartialResponse
+CZPR2051		PartialResponse,Relevance
+CZKR1009	
+CZKR1007	
+RUMO6008	PartialResponse	
+RUMO6006	PartialResponse,Relevance
+TRME3018			
+TRME3019	PartialResponse		Relevance
+RUMO6003		
+RUMO6002	PartialResponse	
+RUMO6001	PartialResponse	
+TRME3015			
+TRME3012			
+TRME3013		ConflictingOpinions,Relevance	Relevance
+TRME3010			Relevance
+TRME3011			ConfusinglyPhrased
+BGSU1211	PartialResponse
+BGSU1212	PartialResponse	
+BGSU1213	PartialResponse	
+BGSU1216	PartialResponse,BrieflyDiscussed	
+TSNO1006	PartialResponse	PartialResponse	
+BGSU1217	Relevance	
+FRUL1034	
+FRUL1033		
+TSNO1009		PartialResponse,Relevance	PartialResponse
+TRCU1072			
+FRUL1035	ConflictingOpinions,PartialResponse		PartialResponse
+TRCU1073		ConflictingOpinions,Relevance	Relevance
+TRCU1070	Relevance		Relevance
+TRCU1071			Relevance
+TRME3006	ConflictingOpinions,PartialResponse,Relevance	PartialResponse,Relevance	
+TRME3007	ConflictingOpinions		Relevance
+TRME3008			Relevance
+CZUN1028	
+TRME3001		PartialResponse	
+TSNO1011	PartialResponse		
+TRME3002			Relevance
+TRME3003		Relevance	
+BGSU1200	ConfusinglyPhrased,Relevance
+FRUL1029	BrieflyDiscussed	
+FRUL1028	Relevance	PartialResponse,Relevance
+BGSU1205	BrieflyDiscussed	ConflictingOpinions
+FRUL1023	PartialResponse,Relevance	ConflictingOpinions
+FRUL1022	PartialResponse	
+TRCU1064			Relevance
+POPZ1044	BrieflyDiscussed	
+FRUL1021	PartialResponse		
+TRCU1065			Relevance
+FRUL1027	
+FRUL1026	Relevance	Relevance
+TRCU1060	Relevance	ConflictingOpinions	Relevance
+FRUL1025		PartialResponse	PartialResponse
+FRUL1024		
+TRCU1062	Relevance		Relevance
+TRCU1068			Relevance
+FRUL1030			
+BGSU1208	BrieflyDiscussed	
+FIAB3005	PartialResponse	
+FIAB3003	Relevance	
+FIAB3004		
+NOUO1052			Relevance
+NOUO1053	PartialResponse
+NOUO1055	
+NOUO1058			
+ITVE3003			
+ITVE3001		
+ITVE3002	Relevance	ConflictingOpinions
+FIHE1008	PartialResponse	
+TSNO1022			
+FIHE1003		
+TSNO1012	Relevance		
+NOUO1072			
+NOUO1073		
+TSNO1050	PartialResponse,Relevance		
+NOUO1074			
+RUMO6014		
+NOUO1075	
+NOUO1078	PartialResponse	Relevance
+TRME3030			
+NOUO1083			
+NOUO1086		
+NOUO1087	
+TSNO1039	Relevance		Relevance
+TSKC1374	Relevance		
+TSNO1269			
+DBAN3038	PartialResponse
+DBAN3034	Relevance
+NOUO1009	ConfusinglyPhrased,Relevance
+FIJY1008	
+NOUO1027		
+NOUO1025	
+DBAN3027	Relevance	Relevance	PartialResponse,Relevance
+FIJY1002		
+TSNO1064			
+FIJY1001		Relevance
+DBAN3024		
+CZPR3061	PartialResponse	
+NOUO1018	PartialResponse	
+ITRS1013		
+NOHO1003	PartialResponse	BrieflyDiscussed	Relevance
+NOUO1035		
+NOHO1004			Relevance
+NOHO1001	BrieflyDiscussed		
+ITRS1015		PartialResponse
+NOHO1002		BrieflyDiscussed	
+NOUO1032		
+NOUO1031	PartialResponse	
+TSNO1090	Relevance	Relevance	
+NOUO1033		Relevance
+FIHE1012	PartialResponse,Relevance	Relevance
+FIJY1017		PartialResponse
+FIHE1013	PartialResponse	
+FIJY1016		
+FIJY1015		
+FIHE1014	BrieflyDiscussed	
+FIJY1013	BrieflyDiscussed
+FIHE1019	ConfusinglyPhrased	ConfusinglyPhrased,Relevance	Relevance
+FIJY1010	BrieflyDiscussed	
+CZPR2001	ConfusinglyPhrased,Relevance
+FIHE1022			
+CZPR2005	BrieflyDiscussed	
+NOUO1048	
+NOUO1046	
+NOUO1043		
+NOUO1042	
+NOUO1041	PartialResponse,Relevance
+FIHE1025	PartialResponse	PartialResponse
+FIJY1026	
+FIHE1026			
+NOUO1040			
+FIJY1028	PartialResponse,Relevance
+DBAN3047	PartialResponse,Relevance
+FIJY1027	ConflictingOpinions,Relevance
+DBAN3049			
+ITRS1005	
+BGSU1037	BrieflyDiscussed	
+BGSU1036		ConflictingOpinions
+CZPR3027	
+BGSU1035	BrieflyDiscussed	
+BGSU1030		
+RUMO9001	PartialResponse	Relevance
+SPM10007		PartialResponse	Relevance
+BGSU1034	Relevance	
+BGSU1031	Relevance	
+RUMO3013	
+RUMO3012	PartialResponse,Relevance	
+SWUL4032		
+BGSU1024		
+BGSU1026	Relevance	PartialResponse
+BGSU1028	PartialResponse,BrieflyDiscussed	
+BGSU1021	PartialResponse	
+RUMO3004	ConflictingOpinions		
+RUMO3005		
+SWUL6003	BrieflyDiscussed,Relevance	
+RUMO3001		Relevance	PartialResponse
+RUMO3006		PartialResponse
+RUMO3008	PartialResponse	
+RUMO2003	
+RUMO2004		
+BGSU1059	BrieflyDiscussed	
+CZPR3048			PartialResponse,Relevance
+BGSU1058		
+RUMO2002	PartialResponse,Relevance		PartialResponse
+BGSU1057		
+CZPR3049		
+RUMO2007		
+RUMO2005	BrieflyDiscussed	
+BGSU1054		
+BGSU1053	
+RUMO2006	PartialResponse	PartialResponse	
+BGSU1052	Relevance	
+BGSU1051		
+RUMO2009			
+BGSU1050	BrieflyDiscussed	BrieflyDiscussed
+SWUL4017	Relevance	PartialResponse,Relevance
+SWUL4018	BrieflyDiscussed	PartialResponse,Relevance
+BGSU1049	BrieflyDiscussed	
+BGSU1042	PartialResponse,Relevance	ConflictingOpinions
+BGSU1045		ConflictingOpinions
+BGSU1044		
+BGSU1041		
+BGSU1040	BrieflyDiscussed	
+SWUL4027	Relevance	ConflictingOpinions,PartialResponse
+RUMO5033	BrieflyDiscussed	
+RUMO5034	
+RUMO5036	PartialResponse	Relevance
+RUMO5039		Relevance
+RUMO2023	
+RUMO2022		PartialResponse
+RUMO2020	Relevance	PartialResponse	PartialResponse,Relevance
+RUMO5040	PartialResponse,Relevance	Relevance	PartialResponse
+RUMO5043	PartialResponse	
+RUMO5042		
+RUMO5024	PartialResponse	ConflictingOpinions,Relevance
+RUMO5023	
+RUMO5028		
+RUMO2013		
+RUMO2012	PartialResponse,Relevance	PartialResponse	PartialResponse,Relevance
+RUMO2014	PartialResponse	
+RUMO2011	PartialResponse,Relevance	PartialResponse	
+ITTO5002			PartialResponse
+ITTO5004	
+ITTO5003	PartialResponse	PartialResponse	PartialResponse
+ITTO5006	
+ITTO5005			PartialResponse
+ITTO5008			
+ITTO5007	
+RUMO5032		
+NOHB1001		PartialResponse,Relevance
+BGSU1011		
+BGSU1012	PartialResponse,Relevance	
+RUMO5012		
+RUMO5013	ConflictingOpinions		
+CZPR3009	Relevance
+BGSU1017	PartialResponse	
+BGSU1018		PartialResponse,Relevance
+BGSU1015	PartialResponse	
+RUMO5019	Relevance
+BGSU1013	Relevance	
+BGSU1014		
+RUMO5006	Relevance	PartialResponse
+CZPR3011		PartialResponse
+CZPR3010	BrieflyDiscussed	
+RUMO5004		PartialResponse,Relevance
+BGSU1001		
+RUMO5002	
+BGSU1006	PartialResponse	
+BGSU1007	PartialResponse	
+BGSU1008		
+CZPR3018		
+BGSU1009		
+BGSU1002		
+BGSU1003		ConflictingOpinions
+RUMO5008	PartialResponse	
+BGSU1004		
+CZPR3013	
+BGSU1005	PartialResponse	PartialResponse
+DBAN1006			
+CNUK1122	ConfusinglyPhrased
+CNUK1124	
+CNUK1123	
+CNUK1126	Relevance
+CNUK1125			
+DBAN1004	PartialResponse	PartialResponse	
+CNUK1129			
+DBAN1005		
+DBAN1003	ConflictingOpinions	
+BGSU1229		
+BGSU1228	
+FRUB1005	ConflictingOpinions,Relevance
+RUMO7001	ConflictingOpinions
+DBAN1017			
+CNUK1120	PartialResponse
+CNUK1111	
+CNUK1110	
+CNUK1117	
+BGSU1232	PartialResponse,BrieflyDiscussed	
+CNUK1116	ConfusinglyPhrased,Relevance
+CNUK1114			PartialResponse
+BGSU1236	
+DBAN1014	PartialResponse,Relevance	
+BGSU1234	PartialResponse,Relevance	Relevance
+CNUK1119	
+DBAN1016	Relevance	PartialResponse	
+CNUK1118	
+BGSU1239	PartialResponse,BrieflyDiscussed	
+BGSU1237	BrieflyDiscussed	
+FRUB1012	Relevance
+DBAN1029	
+FRUB1015		
+CNUK1151	Relevance
+CNUK1153	
+CNUK1148	
+BGSU1241		
+CNUK1147	ConfusinglyPhrased
+BGSU1243	PartialResponse
+CNUK1144	PartialResponse	Relevance	
+CNUK1143	
+NOAG1004	PartialResponse,Relevance
+FRUB1009	Relevance
+FRUB1008	
+DBAN1021	PartialResponse	
+DBAN1026	PartialResponse
+BGSU1245	PartialResponse	
+BGSU1244	
+DBAN1024	
+SPM02013	
+RUMO7023	
+FRUB1022	PartialResponse	Relevance	
+FRUB1023		ConflictingOpinions
+FRUB1026		PartialResponse,Relevance	
+CNUK1141	
+CNUK1142	
+CNUK1139	PartialResponse		ConflictingOpinions
+BGSU1251	ConfusinglyPhrased
+BGSU1250		PartialResponse
+CNUK1134	
+NOAG1011	PartialResponse,Relevance	
+CNUK1132	PartialResponse
+NOAG1013	PartialResponse,Relevance
+NOAG1015	
+BGSU1259	PartialResponse	PartialResponse
+DBAN1034	
+RUMO5045		
+RUMO5044		PartialResponse	Relevance
+SWUL2002	BrieflyDiscussed	
+BGSU1257		
+BGSU1255	PartialResponse
+RUMO5046	PartialResponse		Relevance
+TRCU1129			PartialResponse,Relevance
+FRUB1030	Relevance	Relevance
+TRCU1128			
+CNUK1171		PartialResponse,Relevance	PartialResponse,ConfusinglyPhrased,Relevance
+CNUK1170			
+TRCU1125			
+CNUK1173	Relevance
+TRCU1124			Relevance
+TRCU1123			
+BGSU1081		PartialResponse,Relevance
+BGSU1080		
+BGSU1266	Relevance	
+BGSU1071	PartialResponse	
+BGSU1267	
+ITTO6002	
+BGSU1073		Relevance
+NOBE1011	
+BGSU1268		
+BGSU1074	BrieflyDiscussed	BrieflyDiscussed
+NOBE1013			
+BGSU1076	PartialResponse	
+BGSU1077		
+ITTO6005	
+BGSU1078	ConflictingOpinions,BrieflyDiscussed	
+NOBE1018	
+BGSU1261	
+BGSU1262	PartialResponse	
+CNUK1169	
+BGSU1263	
+BGSU1265	
+CNUK1163	Relevance
+TRCU1136	
+CNUK2034		ConfusinglyPhrased,Relevance	
+BGSU1279	PartialResponse,Relevance	
+BGSU1062		
+BGSU1063	PartialResponse	
+NOBE1020	
+RUMO7036			
+SPM02004	PartialResponse
+RUMO7035	PartialResponse		Relevance
+BGSU1066		ConflictingOpinions
+BGSU1067	PartialResponse	
+BGSU1065	PartialResponse	
+TRCU1130	ConflictingOpinions,Relevance		
+BGSU1270	PartialResponse	
+BGSU1276	
+CNUK2002	ConflictingOpinions,Relevance
+BGSU1290	PartialResponse	
+TRCU1107	PartialResponse
+CNUK2006	PartialResponse	Relevance	
+TRCU1109	Relevance
+TRCU1108	
+BGSU1097		
+BGSU1098		PartialResponse
+BGSU1095		
+BGSU1096	BrieflyDiscussed	
+BGSU1280	BrieflyDiscussed	
+BGSU1281	
+CNUK2011	Relevance
+BGSU1282		
+CNUK1185	
+CNUK1183	PartialResponse		Relevance
+TRCU1118	
+BGSU1092	PartialResponse,Relevance	
+BGSU1091		
+RUMO7062	Relevance	ConflictingOpinions	ConflictingOpinions
+RUMO7061	
+BGSU1088		
+BGSU1089	ConflictingOpinions,Relevance	
+NOBE1002		
+BGSU1086		
+BGSU1087	BrieflyDiscussed	
+BGSU1085	PartialResponse,Relevance	
+BGSU1082	PartialResponse	
+BGSU1299	
+BGSU1083	PartialResponse	
+CNUK1179	
+BGSU1294		ConflictingOpinions,ConfusinglyPhrased
+CNUK2020	ConfusinglyPhrased,Relevance	ConflictingOpinions,ConfusinglyPhrased,Relevance	
+BGSU1291	
+CNUK1176	PartialResponse

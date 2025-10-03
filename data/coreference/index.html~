@@ -1,0 +1,146 @@
+<HTML>
+
+<HEAD>
+<TITLE>Chen Chen - UT Dallas : Software</TITLE>
+</HEAD>
+
+<div>
+Below, I released code/software I implemented. 
+<br/>
+</div>
+
+<HR> 
+
+<b>SinoBerryPicker</b>
+<BR/>
+<BR/>
+SinoBerryPicker is a Chinese coreference resolution tool. 
+Given raw text, an end-to-end coreference system retrieves coreference chains in the text.
+For text preprocess and feature generation, SinoBerryPicker relies on the following two tools:
+<BR/>
+<BR/>
+1. Stanford CoreNLP Chinese Package
+<BR/>
+2. CRF++
+<BR/>
+<BR/>
+Above two tools are also included in our software package for your convenience. 
+Click here for the
+<a href="SinoBerryPicker.zip">code</a>.
+
+<BR/>
+<BR/>
+<!--
+Versions
+<table border="1" cellpadding="0" cellspacing="0" width="500"> 
+<tbody>
+	<tr>
+		<th width="40%">Date</th>
+		<th width="30%">Version #</th>
+		<th width="30%">Note</th>
+	</tr>
+	<tr>
+		<td><p align="center">October 14, 2013</p></td>
+		<td><p align="center">Version-1.0</p></td>
+		<td><p align="center">Initial release</p></td>
+	</tr>
+</tbody>
+</table>
+-->
+<BR/>
+<HR> 
+
+<b>Linguistically Aware Coreference Evaluation Tool</b>
+<BR/>
+<BR/>
+As all the commonly-used evaluation metrics for entity coreference resolution are linguistically agnostic, treating
+the mentions to be clustered as generic rather than linguistic objects. We propose a framework for incorporating
+linguistic awareness into commonly-used coreference evaluation metrics.
+<BR/>
+<BR/>
+We implemented the Linguistically-Aware version for <i>MUC</i>, <i>B<sup><i>3</i></sup></i> and <i>CEAF</i>.
+Click here for the
+<a href="scorer.tar">code</a>.
+
+<BR/>
+<BR/>
+<!--
+Versions
+<table border="1" cellpadding="0" cellspacing="0" width="500"> 
+<tbody>
+	<tr>
+		<th width="40%">Date</th>
+		<th width="30%">Version #</th>
+		<th width="30%">Note</th>
+	</tr>
+	<tr>
+		<td><p align="center">September 12, 2013</p></td>
+		<td><p align="center">Version-1.0</p></td>
+		<td><p align="center">Initial release</p></td>
+	</tr>
+</tbody>
+</table>
+-->
+<BR/>
+
+<HR> 
+<b>SinoCoreferencer: An End-to-End Chinese Event Coreference Resolver</b>
+
+<BR/>
+<BR/>
+SinoCoreferencer is an end-to-end Chinese event coreference resolver.
+Given raw document(s) written in Chinese, it finally produces event coreference chains within each document.
+Additional, it also outputs some by-products: (1) entity mentions; (2) semantic type and subtype of entity mentions;
+(3) time and value expressions; (4) entity coreference chains; (5) events including triggers, trigger type, arguments and arguments role;
+and (6) the polarity, modality, genericity and tense of the events.
+
+Click here for the
+<a href="SinoCoreferencer.zip">code</a>.
+
+<BR/>
+<BR/>
+<!--
+Versions-1.0
+<table border="1" cellpadding="0" cellspacing="0" width="500">
+<tbody>
+        <tr>
+                <th width="40%">Date</th>
+                <th width="30%">Version #</th>
+                <th width="30%">Note</th>
+        </tr>
+        <tr>
+                <td><p align="center">November 17, 2014</p></td>
+                <td><p align="center">Version-1.0</p></td>
+                <td><p align="center">Initial release</p></td>
+        </tr>
+</tbody>
+</table>
+-->
+<BR/>
+
+<HR>
+For any questions or bugs, you are welcome to contact yzcchen at hlt dot utdallas dot edu.<BR/>
+<a href='http://www.hlt.utdallas.edu/~yzcchen'>[Home Page]</a>
+
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=9414820; 
+var sc_invisible=0; 
+var sc_security="05f1d1eb"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="web analytics"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="http://c.statcounter.com/9414820/0/05f1d1eb/0/"
+alt="web analytics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+</BODY>
+</HTML>
+

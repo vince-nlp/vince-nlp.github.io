@@ -1,0 +1,160 @@
+<html><head><title>Definite Pronoun Resolution Dataset</title></head>
+<body bgcolor="#ffffff" text="#000000">
+
+
+  <BODY xmlns="http://www.google.com/ns/jotspot" id="body" class="en">
+    <IMG align="right" src="../../jpeg/anaphora.png" width="430" height="220"/>
+    <DIV id="sites-chrome-everything">
+      <DIV xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper">
+
+        <TABLE id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0">
+          <TBODY>
+            <TR>
+              <TD>
+                <h1>Definite Pronoun Resolution Dataset</h1>
+              </TD>
+            </TR>
+          </TBODY>
+        </TABLE>
+
+<h3>About</h3>
+
+<p>This page is a distribution site of data created for intra-sentential definite pronoun resolution experiments. We target pronouns whose resolution requires semantic and world knowledge, rather than those that can be resolved using traditional grammatical and syntactic constraints on coreference such as Binding constraints and agreement on gender and number. A restricted version of this task is sometimes referred to as the Winograd Schema Challenge (Levesque, 2011; Levesque et al., 2012), owing to Terry Winograd's pioneering attempt to use the resolution of such pronouns to illustrate the difficulty of natural language understanding (Winograd, 1972). 
+
+
+<!-- in his 1972 book <i>Understanding Natural Language</i>. -->
+<!--
+As an example, consider the following pair of sentences taken from Terry Winograd's book <i>Understanding Natural Language</i>:
+
+<br>
+The city councilmen refused the demonstrators a permit because they advocated violence.
+
+The city councilmen refused the demonstrators a permit because they feared violence.
+<br> 
+
+In the first sentence, the pronoun <i>they</i> refers to <i>the demonstrators</i>, but in the second sentence, it refers to <i>the city councilmen</i>. Note that world knowledge is needed to correctly resolve these two pronouns: our world knowledge tells us that demonstrators advocate violence whereas city councilmen fear violence.
+-->
+
+<br><br>
+<!--<IMG WIDTH=100% HEIGHT=6  SRC="../../images/line.gif" align=center> -->
+
+<h3>Dataset</h3>
+
+<p>The dataset comprises 941 sentence pairs and is divided into a <a href="train-emnlp12.txt">training set</a> and a <a href="test-emnlp12.txt">test set</a>. Each annotated example spans four lines: the first line contains the sentence, the second line contains the target pronoun, the third line contains the two candidate antecedents, and the fourth line contains the correct antecedent. If the target pronoun appears more than once in the sentence, its first occurrence is the one to be resolved.</p>
+
+<p>Please acknowledge your use of this dataset by citing the following paper, which describes a pronoun resolver that significantly outperforms <a href="http://nlp.stanford.edu/software/dcoref.shtml">the Stanford resolver</a> and the mention-ranking model (as implemented in <a href="http://www.hlt.utdallas.edu/~altaf/cherrypicker/">the Cherrypicker resolver</a>) on our dataset:<p>
+
+<A HREF="http://www.hlt.utdallas.edu/~vince/papers/emnlp12.html">Resolving Complex Cases of Definite Pronouns: The Winograd Schema Challenge</A>.<br>
+Altaf Rahman and Vincent Ng.<br>
+<i>Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning</i> (EMNLP-CoNLL), pp. 777-789, 2012.
+
+<br><br>
+<!-- <IMG WIDTH=100% HEIGHT=6  SRC="../../images/line.gif" align=center>-->
+
+<h3>Teaser</h3>
+<p>To give you an idea of how (incredibly) interesting this resolution task is, here are some sample sentence pairs taken from our dataset. In each sentence, the target pronoun is italized and its antecedent is boldfaced:</p>
+
+<!-- As an example, consider the following pair of sentences taken from Terry Winograd's book <i>Understanding Natural Language</i>: -->
+
+<TABLE cellSpacing=0 cellPadding-2 border=1>
+<TBODY>
+<TR>
+<TD>The city councilmen refused <b>the demonstrators</b> a permit because <i>they</i> advocated violence.</TD>
+<TD><b>The city councilmen</b> refused the demonstrators a permit because <i>they</i> feared violence.</TD>
+</TR>
+
+<TR>
+<TD>James asked <b>Robert</b> for a favor, but <i>he</i> refused.</TD>
+<TD><b>James</b> asked Robert for a favor, but <i>he</i> was refused.</TD>
+</TR>
+
+<TR>
+<TD><b>Keith</b> fired Blaine but <i>he</i> did not regret.</TD>
+<TD>Keith fired <b>Blaine</b> although <i>he</i> is diligent.</TD>
+</TR>
+
+<TR> 
+<TD>Emma did not pass the ball to <b>Janie</b>, although <i>she</i> was open.</TD>
+<TD><b>Emma</b> did not pass the ball to Janie, although <i>she</i> should have. </TD>
+</TR>
+
+<TR>
+<TD>Medvedev will cede the presidency to <b>Putin</b> because <i>he</i> is more popular.</TD> 
+<TD><b>Medvedev</b> will cede the presidency to Putin because <i>he</i> is less popular.</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<br>
+<!-- <IMG WIDTH=100% HEIGHT=6  SRC="../../images/line.gif" align=center> -->
+
+<h3>References</h3>
+
+
+<p>
+Hector Levesque, 
+<A href="http://commonsensereasoning.org/2011/papers/Levesque.pdf">
+The Winograd Schema Challenge,</A> <em>Tenth International Symposium on Logical Formalizations of Commonsense Reasoning</em> (Commonsense-2011).
+
+<p>
+Hector Levesque, Ernest Davis, and Leora Morgenstern,
+<A href="http://www.aaai.org/ocs/index.php/KR/KR12/paper/viewPaper/4492"> The Winograd Schema Challenge,</A>
+<em>Thirteenth International Conference on Knowledge Representation and Reasoning</em> (KR-2012).
+
+
+<p>
+Terry Winograd, <em>
+<A href="http://www.sciencedirect.com/science/article/pii/0010028572900023">
+Understanding Natural Language,</A></em> 
+Academic Press, 1972.
+
+<br>
+</p><hr>
+<br>
+
+The creation of this website is based upon work supported in part by National Science Foundation (NSF) Grants IIS-1147644 and IIS-1219142. Any opinions, findings, and conclusions or
+recommendations expressed above are those of the authors and do not
+necessarily reflect the views of NSF and should 
+not be interpreted as representing the official policies, either expressed 
+or implied, of any sponsoring institution, the U.S. government or any other 
+entity.
+
+<br><br>
+
+This page has been accessed 
+<!-- Start of StatCounter Code for Default Guide -->
+<!--
+<script type="text/javascript">
+var sc_project=8278422;
+var sc_invisible=0;
+var sc_partition=58;
+var sc_click_stat=1;
+var sc_security="6a44dc49";
+</script>
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript><div class="statcounter"><a title="customisable
+counter" href="http://statcounter.com/free-hit-counter/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/8278422/0/6a44dc49/0/"
+alt="customisable counter"></a></div></noscript>
+-->
+<!-- End of StatCounter Code for Default Guide -->
+times.
+
+<!--
+<a target="_blank"
+href="http://www.nedstatbasic.net/stats?ACSLJg/Ezum87Nrl04Kg4P0TsPRw"><IMG
+src="http://m1.nedstatbasic.net/n?id=ACSLJg/Ezum87Nrl04Kg4P0TsPRw"
+border="0" nosave width="18" height="18" alt="Nedstat Basic"></a> 
+-->
+
+<br>
+<br>
+<p>
+<!--
+If you have any questions or comments regarding this site, please send
+email to <a href="http://www.hlt.utdallas.edu/~persingq/">Isaac Persing</a>.
+-->
+
+</body></html>

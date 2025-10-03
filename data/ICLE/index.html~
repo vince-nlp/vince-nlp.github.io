@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "~//IETF//DTD HTML 4.0//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META name="Description" content="Isaac Persing">
+<LINK rel="stylesheet" type="text/css" href="style.css">
+  <title>ICLE Datasets</title>
+  <!-- all relative URLs are evaluated using this URL as the base --> <base
+  href="https://www.hlt.utdallas.edu/~persingq/ICLE/"><!-- keywords used by search engines --> 
+      <style type="text/css">
+    a { text-decoration:none }
+  </style> 
+</head>
+
+
+<body background="xx.jpg" bgcolor="#E6E2D9" text="black" leftmargin="50" rightmargin="50" topmargin="50" bottommargin="50">
+
+
+
+
+<center><h1>Automated Essay Grading</h1></center>
+<br>
+
+
+
+<p>
+<img src="essay grading.jpg" alt="Two Bears Playing Chess" style="float:right;width:538px;height:334px;margin:0px 40px;">
+</p>
+
+
+
+
+<P>Automated essay grading is one of the most important educational applications of NLP.  Given an essay, an automated essay grader's goal is to provide annotations with respect to various dimensions of essay quality such as coherence, argument strength, and technical quality, all without human intervention.  These annotations can take forms including scores (e.g. on a scale of 1.0 to 4.0, how clear is the essay's thesis?) and error labels (e.g. is any part of the essay phrased in a confusing way?).  Being able to automatically generate these essay annotations is important because it can help students improve their writing by providing immediate feedback that would otherwise only be available through a teacher's active supervision.<p>
+
+
+<P>This page serves as a distribution site for information relating to our work advancing the state of the art in several automated essay grading tasks.  It includes our published works on the tasks and corpus annotations:<p>
+
+
+<br>
+<br>
+
+
+
+<ul>
+<li><a href="acl16.pdf">  <b>Modeling Stance in Student Essays</b></a>.
+<br>Isaac Persing and Vincent Ng.
+<br>Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2016. 
+<br>- Data used in this paper is <a href = "stDataset.html">here</a>.</li></ul>
+
+
+<ul>
+<li><a href="acl15.pdf">  <b>Modeling Argument Strength in Student Essays</b></a>.
+<br>Isaac Persing and Vincent Ng.
+<br>Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers), 2015. 
+<br>- Data used in this paper is <a href = "asDataset.html">here</a>.</li></ul>
+
+
+<ul>
+<li><a href="acl14-essay.pdf">  <b>Modeling Prompt Adherence in Student Essays</b></a>.
+<br>Isaac Persing and Vincent Ng.
+<br>Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2014.
+<br>- Data used in this paper is <a href = "paDataset.html">here</a>.</li></ul>
+
+
+<ul>
+<li><a href="acl13.pdf">  <b>Modeling Thesis Clarity in Student Essays</b></a>.
+<br>Isaac Persing and Vincent Ng.
+<br>Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2013.
+<br>- Data used in this paper is <a href = "tcDataset.html">here</a>.</li></ul>
+
+
+<ul>
+<li><a href="Modeling_emnlp10.pdf">  <b>Modeling Organization in Student Essays</b></a>.
+<br>Isaac Persing, Alan Davis, and Vincent Ng. 
+<br>Proceedings of the 2010 Conference on Empirical Methods in Natural Language Processing (EMNLP-10), 2010.
+<br>- Data used in this paper is <a href = "orgDataset.html">here</a>.</li></ul>
+
+
+
+
+
+  
+<br>
+<br>
+</body>
+</html>

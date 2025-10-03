@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
+<meta name="description" content="description"/>
+<meta name="keywords" content="Kazi Saidul Hasan part-of-speech POS tagging named entity recognition HLT UTD natural language processing Bengali"/> 
+<meta name="author" content="Kazi Saidul Hasan"/> 
+<link rel="stylesheet" type="text/css" href="default.css" media="screen"/>
+<title>Kazi Saidul Hasan</title>
+</head>
+
+<!-- zero margin = wide layout -->
+<body style="margin: 0;">
+
+<div class="container">
+
+	<div class="header">
+		<a href="index.html">
+			<span class="left">
+			Kazi Saidul Hasan 
+			</span>
+			<!-- <span> &#x0995;&#x09BE;&#x099C;&#x09C0; &#x09B8;&#x09BE;&#x0988;&#x09A6;&#x09C1;&#x09B2; &#x09B9;&#x09BE;&#x09B8;&#x09BE;&#x09A8; </span> -->
+		</a>
+	</div>
+
+	<div class="stripes"><span></span></div>
+	
+	<div class="nav">
+		<a href="index.html">Home</a>
+		<a href="index.html#publications">Publications</a>
+		<a href="code.html">Code<!--<font color="blue" size=2><blink><sup>New!</sup></blink></font> --></a>
+		<a href="links.html">Links</a>
+		<a href="index.html#contact">Contact</a>
+		<div class="clearer"><span></span></div>
+	</div>
+
+	<div class="stripes"><span></span></div>
+
+	<div class="main">
+	
+		<div class="left">
+
+			<div class="content">
+
+				<!-- This page is still under construction. -->
+
+				<h1>Keyphrase Extraction</h1>
+				<p>Given a text, an automatic keyphrase extraction method retrieves phrase(s) conveying the main points elaborated in the text. The package 
+				provided here includes implementations of the following, widely-explored unsupervised approaches.
+				<ul>
+					<li type=square><a href="code/TfIdf.zip">Tf-Idf</a></li>
+					<li type=square><a href="code/TextRank.zip">TextRank</a> (Mihalcea & Tarau, 2004)</li>
+					<li type=square><a href="code/SingleRank.zip">SingleRank</a> (Wan & Xiao, 2008)</li>
+					<li type=square><a href="code/ExpandRank.zip">ExpandRank</a> (Wan & Xiao, 2008)</li>
+					<!-- <li type=square><a href="">KeyCluster</a> (Liu et al., 2009)</li> -->					
+				</ul>
+
+				<p>Each of these methods takes as input one or more text file(s) annotated with Penn Treebank PoS tags (see a <a href="SampleKeyphraseInput.txt">sample input file</a>). A separate output file containing a list of keyphrases is created for each input file when a collection of files are given as input. Optionally, in case the set of input text files has its own gold standard keyphrases, each method generates its overall performance scores in terms of recall, precision, and F-score. A ReadMe file with each method describes how a user can set this and other parameters specific to each method. 
+
+				<h2>Download</h2>
+				<p>Download the <a href="code/Keyphrase_Extractor-1.0.zip">Keyphrase Extraction Package version 1.0</a> including the implementations of the methods listed above.
+				<br>
+				
+				<h2>Paper to Cite</h2>
+				<p>Please acknowledge your use of this software package by citing the following paper:
+				<p>
+				<a href="coling10.pdf">Conundrums in Unsupervised Keyphrase Extraction: Making Sense of the State-of-the-Art</a>
+				<br> Kazi Saidul Hasan and Vincent Ng
+				<br> Proceedings of the 23rd International Conference on Computational Linguistics (COLING-10), Posters Volume, 2010.
+
+				<h2>Versions</h2>
+				<table width="500" cellspacing="0" cellpadding="0" border="1" width="100%"> 
+					<tr>
+						<th width="30%">Date</th>
+						<th width="20%">Version #</th>
+						<th width="50%">Note</th>
+					</tr>
+	
+					<tr>
+						<td><p align="left">November 14, 2010</td><td><p>Version-1.0</td><td><p>Initial release</td>
+					</tr>
+				</table> 
+
+				<br>
+				<h2>Queries</h2>
+				<p>Please send your questions, bug reports, comments, concerns, and suggestions to saidul AT hlt DOT utdallas DOT edu.
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="footer">
+			<div class="bottom">
+				<br>
+				<br>
+				<span class="right"><a href="http://templates.arcsin.se/">Website template</a> by <a href="http://arcsin.se/">Arcsin</a></span>
+				<div class="clearer"><span></span></div>
+			</div>
+	</div>
+
+</div>
+
+</body>
+
+</html>

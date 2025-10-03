@@ -1,0 +1,119 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META name="Description" content="Zixuan Ke">
+<LINK rel="stylesheet" type="text/css" href="style.css">
+  <title>Essay Thesis Strength Dataset</title>
+  <!-- all relative URLs are evaluated using this URL as the base --> <base
+  href="http://www.hlt.utdallas.edu/~zixuan/EssayScoring/ThesisStrength"><!-- keywords used by search engines --> 
+      <style type="text/css">
+    a { text-decoration:none }
+  </style> 
+</head>
+<body bgcolor="#ffffff" text="#000000">
+
+
+<h1>Essay Thesis Strength Dataset</h1>
+
+<br>
+
+<p>This page is a distribution site of essay data for the task of Essay Thesis Strength. Data available on this page include annotated Thesis Strength scores as well as attributes the thesis statement
+that impact a thesis’s strength. This annotation is composed of 1021 essays randomly chosen from the ICLE corpus (<a href="https://www.researchgate.net/profile/Sylviane_Granger/publication/288182446_International_Corpus_of_Learner_English_Version_2_Handbook_and_CD-ROM/links/567eeecc08ae1e63f1e7f259/International-Corpus-of-Learner-English-Version-2-Handbook-and-CD-ROM.pdf">Granger et al. 2009</a>)</p>
+
+
+<p>The problem of <i>Essay Thesis Strength</i> for which this dataset is intended is described in:</p>
+
+<ul> <li> Zixuan Ke, Hrishikesh Inamdar, Hui Lin and <a
+href="http://www.hlt.utdallas.edu/~vince/">Vincent Ng</a>, <a
+href="http://www.hlt.utdallas.edu/~zixuan/EssayScoring/ThesisStrength/ACL2019.pdf">Give Me More Feedback II: Annotating Thesis Strength and Related Attributes in Student Essays</a>,
+<i>Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2019. </i> 
+</ul> 
+
+<!--
+The dataset is also used in the following paper:
+
+<ul> <li> Zixuan Ke, Winston Carlile, Nishant Gurrapadi and <a
+href="http://www.hlt.utdallas.edu/~vince/">Vincent Ng</a>, <a
+href="https://www.ijcai.org/proceedings/2018/0574.pdf">Learning to Give Feedback: Modeling Attriutes Affecting Argument Persuasiveness in Student Essays</a>,
+<i>Proceedings of the 27th International Joint Conference on Artificial Intelligence and the 23rd European Conference on Artificial Intelligence, 2018. </i> 
+</ul> 
+
+-->
+
+<br>
+
+
+</p><hr>
+<br>
+
+
+<h3><font color="red">Essay Thesis Strength Dataset</font></h3>
+
+
+<ul>
+<li><a href="http://www.hlt.utdallas.edu/~zixuan/EssayScoring/ThesisStrength/ThesisStrengthDataset.zip">Essays and Annotations</a> Includes Thesis Strength scores, attributes of thesis statement, thesis statement as well as the raw text. Specifically, ".ann" files are the annotations. For example, TSNO1516.ann is the annotation of TSNO1516.
+</li>
+</ul>
+
+<ul>
+<li>Note that we only own the annotations on the ICLE essay dataset.  The essays themselves must be purchased <a href="http://www.i6doc.com/EN/book/?gcoi=28001100825990">here</a>.
+</li>
+</ul>
+
+<br>
+
+<!--
+
+
+<ul>
+<li><a href="http://www.hlt.utdallas.edu/~zixuan/EssayScoring/foldsplit.txt">Cross Validation Folds</a> Includes lists of the essays in each of the five folds used for cross validation in the experiments described in the paper Learning to Give Feedback: Modeling Attriutes Affecting Argument Persuasiveness in Student Essays.  
+</li>
+</ul>
+
+-->
+
+<br>
+
+<!--
+<ul>
+<li><a href="asCorefFeatures.txt">Coreference Features</a> Includes a list of 19 coreference features used in the experiments described in Modeling Argument Strength in Student Essays.  
+</li>
+</ul>
+
+<br>
+
+<ul>
+<li>Note that we only own the annotations on the ICLE essay dataset.  The essays themselves must be purchased <a href="http://www.i6doc.com/EN/book/?gcoi=28001100825990">here</a>.
+</li>
+</ul>
+
+
+<br>
+-->
+
+<br>
+</p><hr>
+<br>
+
+<!--
+The creation of this website is based upon work supported in part by National Science Foundation (NSF) Grants IIS-1147644 and IIS-1219142. Any opinions, findings, and conclusions or
+recommendations expressed above are those of the authors and do not
+necessarily reflect the views of NSF and should 
+not be interpreted as representing the official policies, either expressed 
+or implied, of any sponsoring institution, the U.S. government or any other 
+entity.
+
+<br>
+<br>
+-->
+<p>
+If you have any questions or comments regarding this site, please send
+an email to <a href="mailto:zixuan@hlt.utdallas.edu">Zixuan Ke</a>.
+
+
+</body></html>
+
+
+
+
+

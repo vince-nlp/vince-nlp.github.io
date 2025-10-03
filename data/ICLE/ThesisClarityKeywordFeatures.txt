@@ -1,0 +1,93 @@
+#Each prompt is followed by two lines of tab-separated groups of words.  Each group in the first line represents an important topic which must be discussed in order to give a complete prompt response.  Each tab separated group of words in the second line corresponds to a group in the first line, but contains words which are less important to see (sometimes only because they are more likely to be replaced by synonyms or pronouns).
+poverty be the cause of the hiv\/aids epidemic in Africa .
+poverty hiv\/aids
+cause
+
+all army should consist entirely of professional soldier : there be no value in a system of military service
+army professional	value
+consist	system military service
+
+in he novel `` Animal Farm '' George Orwell write `` all man be equal but some be more equal than other '' . how true be this today ?
+more equal
+man
+
+some people say that in we modern world , dominate by science and technology and industrialisation , there be no longer a place for dream and imagination . what be you opinion ?
+science technology industrialisation	dream imagination
+dominate	place
+
+crime do not pay
+crime pay
+-
+
+in the word of the old song : `` Money be the root of all evil ''
+root evil
+money
+
+most University degree be theoretical and do not prepare we for the real life . do you agree or disagree ?
+theoretical	real life
+university	prepare
+
+feminist have do more harm to the cause of woman than good
+harm good
+feminist	feminist
+
+television be the opium of the mass in modern society . discuss .
+opium
+television
+
+most university degree be theoretical and do not prepare student for the real world . they be therefore of very little value
+theoretical	real world	value
+university	prepare	university
+
+Marx once say that religion be the opium of the mass . if he be alive at the end of the 20th century , he would replace religion with television
+opium
+television
+
+south african soccer player should be pay more to ensure that they play in South Africa
+pay	play
+player	soccer
+
+the prison system be outdate . no civilized society should punish its criminal : it should rehabilitate they
+outdate	punish	rehabilitate
+prison	society	society
+
+
+
+
+
+
+
+
+
+#The text above shows the lists of keywords we used to generate features.  The text below shows how we generate features from these lists and describes why each type of feature described might be useful.
+
+KeywordFeatureName	TextSpanToBeCompared	ValueOfFeature	DescriptionOfWhenFeatureIsMostUseful
+
+
+One value for each of the following features is generated for each essay when we are doing error classification or score prediction:
+
+elrp	essay	lowest ri similarity to a primary keyword group	low similarity to part of the prompt indicates errors such as irrelevant to prompt or incomplete prompt response.
+elrc	essay	lowest ri similarity to a combined keyword group	low similarity to part of the prompt indicates errors such as irrelevant to prompt or incomplete prompt response.
+ehrp	essay	highest ri similarity to a primary keyword group	low highest similarity to part of the prompt indicates problems like irrelevant to prompt
+ehrc	essay	highest ri similarity to a combined keyword group	low highest similarity to part of the prompt indicates problems like irrelevant to prompt
+
+elfp	essay	lowest fraction of a primary keyword group words	low similarity to part of the prompt indicates errors such as irrelevant to prompt or incomplete prompt response.
+elfc	essay	lowest fraction of a combined keyword group words	low similarity to part of the prompt indicates errors such as irrelevant to prompt or incomplete prompt response.
+ehfp	essay	highest fraction of a primary keyword group words	low highest similarity to part of the prompt indicates problems like irrelevant to prompt
+ehfc	essay	highest fraction of a combined keyword group words	low highest similarity to part of the prompt indicates problems like irrelevant to prompt
+
+
+
+
+
+One value for each of the following features is generated for each sentence when we are doing error classification, score prediction, or thesis identification.
+When doing error classification or score prediction, for each of these four features, the essay gets assigned only the highest value obtained by any of its sentences for that feature.
+
+shrp	sentence	highest ri similarity to a primary keyword group	high indicates sentence is strongly related to part of the prompt and thus is probably a thesis sentence
+shrc	sentence	highest ri similarity to a combined keyword group	high indicates sentence is strongly related to part of the prompt and thus is probably a thesis sentence
+
+shfp	sentence	highest fraction of a primary keyword group words	high indicates sentence is strongly related to part of the prompt and thus is probably a thesis sentence
+shfc	sentence	highest fraction of a combined keyword group words	high indicates sentence is strongly related to part of the prompt and thus is probably a thesis sentence
+
+
+
